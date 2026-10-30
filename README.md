@@ -55,4 +55,4 @@ En las preguntas de opción múltiple, la respuesta correcta siempre va primero.
 
 ## Publicar con GitHub Pages
 
-En **Settings → Pages**, elige la rama `main` y la carpeta `/ (root)`. La app quedará disponible en `https://pardaillan4-alt.github.io/escuela-colibr-/`.
+En **Settings → Pages**, elige la rama `main` y la carpeta `/ (root)`. La app queda disponible en `https://pardaillan4-alt.github.io/Escuela-colibr-/` (con **E** mayúscula, igual que el nombre del repositorio).
