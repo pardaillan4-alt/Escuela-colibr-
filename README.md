@@ -1,0 +1,58 @@
+# Escuelita Colibrí
+
+App de homeschooling para primaria con enfoque católico. Sigue los temas de la SEP y enseña cada materia desde la fe.
+
+Funciona en el navegador del teléfono, la tableta o la computadora, sin instalar nada. Para usarla, abre `index.html`.
+
+## Qué incluye
+
+| Grado | Materias | Lecciones |
+|---|---|---|
+| 1.º | Matemáticas, Español, Ciencias Naturales, Historia y Geografía, Cívica y Valores, Religión Católica, Primera Comunión | 84 |
+| 2.º | Las mismas siete materias | 79 |
+
+- **Cada lección tiene dos partes:** *Aprende*, con dibujos y lectura en voz alta, y *Practica*, con ejercicios de opción múltiple, teclado numérico, formar palabras, ordenar y clasificar.
+- **Enfoque católico en todas las materias:** cada lección de Matemáticas, Español, Ciencias, Historia y Cívica incluye una página «Con los ojos de la fe» con sus propios ejercicios.
+- **Ejercicios que cambian:** en Matemáticas y en algunos temas de Español los ejercicios se generan cada vez, así que el niño puede repetir la práctica sin memorizar las respuestas.
+- **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
+- **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
+- **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
+- **Dónde se guarda el progreso:** solo en el navegador del dispositivo donde se usa.
+
+## Estructura
+
+```
+index.html                   ← la app completa, ya armada (se genera con build.sh)
+build.sh                     ← une los archivos de src/ en index.html
+src/head.html                ← estilos, íconos y estructura de la página
+src/motor/motor.js           ← navegación, ejercicios, voz, estrellas, perfiles
+src/motor/visuales-y-generadores.js  ← dibujos (bloques, relojes, fracciones…) y generadores de 2.º
+src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de fe)
+src/grado2/*.js              ← temario de 2.º
+```
+
+## Cómo agregar o cambiar contenido
+
+1. Edita el archivo de la materia en `src/gradoN/`.
+2. Ejecuta `./build.sh`.
+3. Abre `index.html` para revisar el cambio.
+
+Cada lección se escribe así:
+
+```js
+L("2m6", "Título de la lección", [
+  P("Título de la página", "Texto que se lee", {t:"emo", x:"🍎"}),
+  F("Página de fe", "Texto con enfoque católico", {t:"emo", x:"✝️"})
+], [
+  C("Pregunta de opción múltiple", ["respuesta correcta", "opción", "opción"]),
+  N("Pregunta con respuesta numérica", 12),
+  TF("Afirmación", true),
+  O("Ordena", ["primero", "segundo", "tercero"])
+], [["mult", 10]])   // ejercicios generados automáticamente: [generador, cantidad]
+```
+
+En las preguntas de opción múltiple, la respuesta correcta siempre va primero. La app revuelve las opciones al mostrarlas.
+
+## Publicar con GitHub Pages
+
+En **Settings → Pages**, elige la rama `main` y la carpeta `/ (root)`. La app quedará disponible en `https://pardaillan4-alt.github.io/escuela-colibr-/`.
