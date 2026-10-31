@@ -10,7 +10,9 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 |---|---|---|
 | 1.º | Matemáticas, Español, Ciencias Naturales, Historia y Geografía, Cívica y Valores, Religión Católica, Primera Comunión | 84 |
 | 2.º | Las mismas siete materias | 79 |
+| 3.º | Las mismas, con «Vida de fe» en lugar de Primera Comunión | 67 |
 
+- **Infografías ilustradas:** cada una de las 230 lecciones tiene una infografía con ilustraciones propias, en cinco diseños: ciclo, pasos, comparación, datos clave y cuadrícula. Todas incluyen una frase de fe. Cada materia tiene una galería para repasarlas juntas.
 - **Cada lección tiene dos partes:** *Aprende*, con dibujos y lectura en voz alta, y *Practica*, con ejercicios de opción múltiple, teclado numérico, formar palabras, ordenar y clasificar.
 - **Enfoque católico en todas las materias:** cada lección de Matemáticas, Español, Ciencias, Historia y Cívica incluye una página «Con los ojos de la fe» con sus propios ejercicios.
 - **Ejercicios que cambian:** en Matemáticas y en algunos temas de Español los ejercicios se generan cada vez, así que el niño puede repetir la práctica sin memorizar las respuestas.
@@ -26,9 +28,13 @@ index.html                   ← la app completa, ya armada (se genera con build
 build.sh                     ← une los archivos de src/ en index.html
 src/head.html                ← estilos, íconos y estructura de la página
 src/motor/motor.js           ← navegación, ejercicios, voz, estrellas, perfiles
-src/motor/visuales-y-generadores.js  ← dibujos (bloques, relojes, fracciones…) y generadores de 2.º
+src/motor/generadores-2.js   ← dibujos y ejercicios automáticos de 2.º
+src/motor/generadores-3.js   ← dibujos y ejercicios automáticos de 3.º
+src/motor/ilustraciones.js   ← biblioteca de ilustraciones y diseño de infografías
 src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de fe)
 src/grado2/*.js              ← temario de 2.º
+src/grado3/*.js              ← temario de 3.º (las infografías van dentro de cada lección)
+src/infografias/*.js         ← infografías de 1.º y 2.º, y el código que las inserta
 ```
 
 ## Cómo agregar o cambiar contenido
@@ -42,7 +48,8 @@ Cada lección se escribe así:
 ```js
 L("2m6", "Título de la lección", [
   P("Título de la página", "Texto que se lee", {t:"emo", x:"🍎"}),
-  F("Página de fe", "Texto con enfoque católico", {t:"emo", x:"✝️"})
+  F("Página de fe", "Texto con enfoque católico", {t:"emo", x:"✝️"}),
+  I("Título", "steps", [["sun","Paso 1","texto"], ["cross","Paso 2","texto"]], "Frase de fe")
 ], [
   C("Pregunta de opción múltiple", ["respuesta correcta", "opción", "opción"]),
   N("Pregunta con respuesta numérica", 12),

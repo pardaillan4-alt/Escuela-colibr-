@@ -166,7 +166,7 @@ case"pray":return`<blockquote class="pray">${v.x}</blockquote>`;
 case"steps":return`<ol class="steps" start="${v.start||1}">${v.x.map(t=>`<li>${t}</li>`).join("")}</ol>`;
 case"vert":{const r=v.op==="+"?v.a+v.b:v.a-v.b;return`<table class="vert" aria-label="Operación en columnas"><tr><th></th><th>D</th><th>U</th></tr><tr><td></td>${digits(v.a)}</tr><tr><td>${v.op}</td>${digits(v.b)}</tr><tr class="res"><td></td>${v.hide?"<td>?</td><td>?</td>":digits(r)}</tr></table>`}
 default:return VX[v.t]?VX[v.t](v):""}}
-function visText(v){if(!v)return"";if(v.t==="pray")return" "+v.x;if(v.t==="steps")return" "+v.x.join(". ");return""}
+function visText(v){if(!v)return"";if(v.t==="info")return" "+infoText(v);if(v.t==="pray")return" "+v.x;if(v.t==="steps")return" "+v.x.join(". ");return""}
 
 /* ========= Vistas ========= */
 let SAY=[],LS=null,X=null,GATE=null,PCONF=null,MODE="";
@@ -194,17 +194,19 @@ function planCard(s){const l=nextLesson(s);return`<div class="pcard" style="${sv
 
 function subj(id){const s=SUBJ.find(x=>x.id===id);if(!s)return home();LS=null;begin();const p=me().prog,nx=nextLesson(s);let n=0;
 let h=`<button class="back" data-act="home">${ui("back")} Inicio</button><section class="sband" style="${sv(s)}">${sicon(s)}<div><p class="eyebrow">${s.campo}</p><h1>${s.n}</h1><p>${s.d}</p>${pencil(s)}</div></section>`;
+const nInf=allLessons(s).filter(l=>l.learn.some(q=>q.info)).length;if(nInf)h+=`<button class="btn ghost" data-act="gal" data-v="${s.key||s.id}" style="${sv(s)};align-self:flex-start">Ver las ${nInf} infografías</button>`;
 s.units.forEach((u,ui2)=>{h+=`<h2 class="sec">Unidad ${ui2+1} · ${u.t}</h2><ol class="lessons" style="${sv(s)}">`;u.ls.forEach(l=>{n++;const r=p[l.id],cur=nx&&nx.id===l.id;h+=`<li><button class="lrow${r&&r.done?" done":""}${cur?" cur":""}" data-act="open" data-v="${l.id}"><span class="num">${n}</span><span class="lt">${esc(l.t)}${cur?"<em>¡Sigue aquí!</em>":""}</span>${stars(r?r.stars:0)}</button></li>`});h+="</ol>"});app(h);scrollTo(0,0)}
 
+function gallery(id){const s=SUBJ.find(x=>(x.key||x.id)===id);if(!s)return home();LS=null;begin();let h=`<button class="back" data-act="subj" data-v="${s.key||s.id}">${ui("back")} ${s.n}</button><h1 style="color:var(--${s.c||s.id})">Infografías de ${s.n}</h1><p class="lead">Todas las infografías de ${gName(s.g||1)} grado, para repasar en casa o en familia.</p>`;allLessons(s).forEach(l=>{const q=l.learn.find(q=>q.info);if(q)h+=`<section class="lcard info" style="${sv(s)}"><div class="lc-top"><p class="fe-tag ig-tag">${esc(l.t)}</p><button class="spk" data-act="open" data-v="${l.id}">Ir a la lección</button></div>${V(q.v)}</section>`});app(h);scrollTo(0,0)}
 function openLesson(id){const r=LIDX[id];if(!r)return home();LS={s:r.s,l:r.l,page:0};learn()}
-function learn(){const{s,l}=LS,pg=l.learn[LS.page],n=l.learn.length;begin();const txt=pg.h+". "+(pg.p||"")+visText(pg.v);
-app(`<button class="back" data-act="subj" data-v="${s.id}">${ui("back")} ${s.n}</button><div class="lhead" style="${sv(s)}"><p class="eyebrow">Aprende · página ${LS.page+1} de ${n}</p><h1>${esc(l.t)}</h1><div class="pdots">${l.learn.map((q,i)=>`<i class="${i===LS.page?"on":i<LS.page?"past":""}${q.fe?" fe":""}"></i>`).join("")}</div></div>
-<article class="lcard${pg.fe?" fe":""}" style="${sv(s)}">${pg.fe?`<p class="fe-tag">${CROSS} Con los ojos de la fe</p>`:""}<div class="lc-top"><h2>${pg.h}</h2>${sayBtn(txt)}</div>${pg.v?`<div class="vis">${V(pg.v)}</div>`:""}${pg.p?`<div class="ltext">${pg.p}</div>`:""}</article>
+function learn(){const{s,l}=LS,pg=l.learn[LS.page],n=l.learn.length;begin();const txt=pg.info?infoText(pg.v.v||pg.v):pg.h+". "+(pg.p||"")+visText(pg.v);
+app(`<button class="back" data-act="subj" data-v="${s.id}">${ui("back")} ${s.n}</button><div class="lhead" style="${sv(s)}"><p class="eyebrow">Aprende · página ${LS.page+1} de ${n}</p><h1>${esc(l.t)}</h1><div class="pdots">${l.learn.map((q,i)=>`<i class="${i===LS.page?"on":i<LS.page?"past":""}${q.fe?" fe":""}${q.info?" inf":""}"></i>`).join("")}</div></div>
+${pg.info?`<article class="lcard info" style="${sv(s)}"><div class="lc-top"><p class="fe-tag ig-tag">Repasa con la infografía</p>${sayBtn(txt)}</div>${V(pg.v)}</article>`:`<article class="lcard${pg.fe?" fe":""}" style="${sv(s)}">${pg.fe?`<p class="fe-tag">${CROSS} Con los ojos de la fe</p>`:""}<div class="lc-top"><h2>${pg.h}</h2>${sayBtn(txt)}</div>${pg.v?`<div class="vis">${V(pg.v)}</div>`:""}${pg.p?`<div class="ltext">${pg.p}</div>`:""}</article>`}
 <div class="lnav" style="${sv(s)}">${LS.page>0?`<button class="btn ghost" data-act="prev">${ui("back")} Anterior</button>`:"<span></span>"}${LS.page<n-1?`<button class="btn" data-act="next">Siguiente ${ui("fwd")}</button>`:`<button class="btn big" data-act="practice">¡A practicar!</button>`}</div>`);auto(txt)}
 
 function buildList(l){let list=l.ex.slice();(l.g||[]).forEach(([name,cnt,arg])=>{for(let i=0;i<cnt;i++){try{list.push(G[name](arg))}catch(e){}}});return shuf(list)}
 function practice(){LS.list=buildList(LS.l);LS.i=0;LS.first=0;newEx()}
-function reto(){const g=curG(),mix=g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
+function reto(){const g=curG(),mix=g>=3?["mult69","multAll","div","mult69","add4","sub4","fracOf"]:g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
 function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};
 if(ex.k==="c")X.opts=shuf(ex.o.map((t,i)=>({t,ok:i===0})));
 if(ex.k==="ord")X.pool=shuf(ex.items.map((t,i)=>({t,id:i}))).map((o,i)=>({t:o.t,id:i}));
@@ -270,7 +272,7 @@ next:()=>{LS.page++;learn();scrollTo(0,0)},prev:()=>{LS.page--;learn();scrollTo(
 practice:()=>practice(),retry:()=>practice(),relearn:()=>{LS.page=0;learn();scrollTo(0,0)},
 opt:v=>{const i=+v,o=X.opts[i];if(!o||X.done)return;if(o.ok)answer(true);else{X.bad.push(i);answer(false)}},
 tf:v=>{if(X.done)return;const b=v==="true";if(b===X.ex.a)answer(true);else{X.bad.push(v);answer(false)}},
-key:v=>{if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<3)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
+key:v=>{if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<5)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
 check:()=>check(),
 tile:v=>{if(!X.built.includes(+v))X.built.push(+v);SND.tap();drawEx()},
 untile:v=>{X.built.splice(+v,1);drawEx()},clearb:()=>{X.built=[];drawEx()},
@@ -279,6 +281,7 @@ cont:()=>{LS.i++;if(LS.i>=LS.list.length)finish();else newEx()},
 quit:()=>LS&&!LS.reto?subj(LS.s.id):home(),
 say:v=>say(SAY[+v],true),
 reto:()=>reto(),
+gal:v=>gallery(v),
 grade:v=>{me().grade=+v;save();home()},
 voice:()=>{S.voice=!S.voice;save();if(!S.voice)try{speechSynthesis.cancel()}catch(e){}drawTop()},
 profiles:()=>profSheet(),setp:v=>{S.cur=v;save();closeSheet();home()},close:()=>closeSheet(),
