@@ -13,6 +13,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 | 3.º | Las mismas, con «Vida de fe» en lugar de Primera Comunión | 67 |
 
 - **Infografías ilustradas:** cada una de las 230 lecciones tiene una infografía con ilustraciones propias, en cinco diseños: ciclo, pasos, comparación, datos clave y cuadrícula. Todas incluyen una frase de fe. Cada materia tiene una galería para repasarlas juntas.
+- **Cuadernos para imprimir:** en la carpeta `cuadernos/` hay un cuaderno de trabajo en PDF para cada grado (tamaño carta). Incluye portada, índice con páginas, una hoja por lección con infografía, ejercicios para lápiz y papel, caligrafía en Español, operaciones en Matemáticas, recuadro para dibujar en Ciencias e Historia, sección de fe y solucionario al final. En `cuadernos/por-materia/` está cada materia por separado.
 - **Cada lección tiene dos partes:** *Aprende*, con dibujos y lectura en voz alta, y *Practica*, con ejercicios de opción múltiple, teclado numérico, formar palabras, ordenar y clasificar.
 - **Enfoque católico en todas las materias:** cada lección de Matemáticas, Español, Ciencias, Historia y Cívica incluye una página «Con los ojos de la fe» con sus propios ejercicios.
 - **Ejercicios que cambian:** en Matemáticas y en algunos temas de Español los ejercicios se generan cada vez, así que el niño puede repetir la práctica sin memorizar las respuestas.
@@ -59,6 +60,10 @@ L("2m6", "Título de la lección", [
 ```
 
 En las preguntas de opción múltiple, la respuesta correcta siempre va primero. La app revuelve las opciones al mostrarlas.
+
+## Regenerar los cuadernos
+
+Después de cambiar lecciones, ejecuta `./build.sh` y luego, dentro de `herramientas/cuadernos/`, `python3 assemble.py 1` (o 2, o 3). Se necesita Node con Playwright y Python con `pypdf` y `reportlab`. Para comprimir los PDF se usa `qpdf`.
 
 ## Publicar con GitHub Pages
 
