@@ -276,7 +276,7 @@ table.prog td.nm{font-variant-numeric:tabular-nums;white-space:nowrap}
 .addp label{font-weight:700}
 .addp input{flex:1;min-width:0;min-height:50px;border:2px solid var(--line);border-radius:12px;padding:8px 12px;font:18px var(--body);background:var(--paper);color:var(--ink)}
 .chk{display:flex;align-items:center;gap:10px;font-size:17px;cursor:pointer}
-.chk input{width:22px;height:22px;accent-color:var(--mat)}
+.chk input{width:22px;height:22px;flex:none;margin:0;accent-color:var(--mat)}
 .tips{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink)}
 .prof-actions{display:flex;gap:8px;flex-wrap:wrap}
 .mini-btn{border:2px solid var(--line);background:var(--chip);border-radius:10px;padding:6px 10px;font:700 14px var(--body);cursor:pointer;min-height:38px}
@@ -374,6 +374,10 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .rectp rect{fill:var(--ss);stroke:var(--sc);stroke-width:4}
 .rectp text{fill:var(--ink);font:800 16px var(--display)}
 .pvt td{border:2px solid var(--line);background:var(--card)}
+.thm{border:0;padding:0;margin:0 0 6px;display:flex;flex-direction:column;gap:6px}
+.thm legend{font:700 17px var(--display);margin-bottom:6px;padding:0}
+.pill .art{width:20px;height:20px}
+@media (max-width:560px){.topin{gap:4px}.pill{padding:4px 8px;min-height:38px;gap:4px}.brand .bird{width:38px;height:32px}.pill[data-act="profiles"]{max-width:104px;min-width:0}.pill[data-act="profiles"] .pname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.topin>*{flex-shrink:1;min-width:0}.brand,.pill.static,.pill[data-act="theme"],.pill[data-act="voice"]{flex-shrink:0}}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:30;display:none;width:100%;height:100%}
 
 .bird .wing{transform-box:fill-box;transform-origin:85% 80%}

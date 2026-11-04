@@ -280,7 +280,7 @@ table.prog td.nm{font-variant-numeric:tabular-nums;white-space:nowrap}
 .addp label{font-weight:700}
 .addp input{flex:1;min-width:0;min-height:50px;border:2px solid var(--line);border-radius:12px;padding:8px 12px;font:18px var(--body);background:var(--paper);color:var(--ink)}
 .chk{display:flex;align-items:center;gap:10px;font-size:17px;cursor:pointer}
-.chk input{width:22px;height:22px;accent-color:var(--mat)}
+.chk input{width:22px;height:22px;flex:none;margin:0;accent-color:var(--mat)}
 .tips{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink)}
 .prof-actions{display:flex;gap:8px;flex-wrap:wrap}
 .mini-btn{border:2px solid var(--line);background:var(--chip);border-radius:10px;padding:6px 10px;font:700 14px var(--body);cursor:pointer;min-height:38px}
@@ -378,6 +378,10 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .rectp rect{fill:var(--ss);stroke:var(--sc);stroke-width:4}
 .rectp text{fill:var(--ink);font:800 16px var(--display)}
 .pvt td{border:2px solid var(--line);background:var(--card)}
+.thm{border:0;padding:0;margin:0 0 6px;display:flex;flex-direction:column;gap:6px}
+.thm legend{font:700 17px var(--display);margin-bottom:6px;padding:0}
+.pill .art{width:20px;height:20px}
+@media (max-width:560px){.topin{gap:4px}.pill{padding:4px 8px;min-height:38px;gap:4px}.brand .bird{width:38px;height:32px}.pill[data-act="profiles"]{max-width:104px;min-width:0}.pill[data-act="profiles"] .pname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.topin>*{flex-shrink:1;min-width:0}.brand,.pill.static,.pill[data-act="theme"],.pill[data-act="voice"]{flex-shrink:0}}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:30;display:none;width:100%;height:100%}
 
 .bird .wing{transform-box:fill-box;transform-origin:85% 80%}
@@ -485,7 +489,7 @@ coins:()=>{let x=[],s=0;const n=rnd(2,4);for(let i=0;i<n;i++){const c=pick(s<10?
 /* ========= Estado ========= */
 const PC=["#2463c8","#d2383f","#1d8c5c","#c95f0e","#6f45c0","#1a7fa3"];
 function newProfile(name,ci){return{id:"p"+Date.now().toString(36)+rnd(100,999),name,ci:ci||0,prog:{},reto:0}}
-function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&Array.isArray(j.profiles)&&j.profiles.length)return Object.assign({voice:true,fx:true},j)}catch(e){}const p=newProfile("Explorador",0);return{profiles:[p],cur:p.id,voice:true,fx:true}}
+function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&Array.isArray(j.profiles)&&j.profiles.length)return Object.assign({voice:true,fx:true,theme:"auto"},j)}catch(e){}const p=newProfile("Explorador",0);return{profiles:[p],cur:p.id,voice:true,fx:true,theme:"auto"}}
 let S=null;
 function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 function me(){return S.profiles.find(p=>p.id===S.cur)||S.profiles[0]}
@@ -591,7 +595,9 @@ const TRY=["¡Casi! Inténtalo otra vez.","Respira y vuelve a intentarlo.","¡Uy
 const MSG=["","¡Buen trabajo! Repasa otra vez y ganarás más estrellas.","¡Muy bien! Ya casi eres experto.","¡Perfecto! ¡Eres una estrella!"];
 const DAYROT=["rel","cie","his","civ","com","cie","his"];
 
-function drawTop(){const p=me(),st=totalStars(p);$("#top").innerHTML=`<div class="topin"><button class="brand" data-act="home" aria-label="Ir al inicio">${bird()}<span class="bname">Escuelita Colibrí</span></button><span class="spacer"></span><button class="pill" data-act="profiles" aria-label="Cambiar de niño"><span class="dot" style="background:${PC[p.ci%PC.length]}"></span>${esc(p.name)}</button><span class="pill static" aria-label="${st} estrellas">${icon("star",20)}<b>${st}</b></span><button class="pill" data-act="voice" aria-pressed="${S.voice}" aria-label="${S.voice?"Voz activada":"Voz apagada"}">${ui("spk")}<span class="vtxt">${S.voice?"Voz":"Sin voz"}</span></button><button class="pill" data-act="parents">Papás</button></div>`}
+function isDark(){return S.theme==="dark"||(S.theme!=="light"&&(()=>{try{return matchMedia("(prefers-color-scheme: dark)").matches}catch(e){return false}})())}
+function applyTheme(){const r=document.documentElement;if(S.theme==="light"||S.theme==="dark")r.setAttribute("data-theme",S.theme);else r.removeAttribute("data-theme")}
+function drawTop(){const p=me(),st=totalStars(p);$("#top").innerHTML=`<div class="topin"><button class="brand" data-act="home" aria-label="Ir al inicio">${bird()}<span class="bname">Escuelita Colibrí</span></button><span class="spacer"></span><button class="pill" data-act="profiles" aria-label="Cambiar de niño"><span class="dot" style="background:${PC[p.ci%PC.length]}"></span><span class="pname">${esc(p.name)}</span></button><span class="pill static" aria-label="${st} estrellas">${icon("star",20)}<b>${st}</b></span><button class="pill" data-act="theme" aria-label="${isDark()?"Cambiar a modo de día":"Cambiar a modo nocturno"}" title="${isDark()?"Modo de día":"Modo nocturno"}">${art(isDark()?"sun":"moon",20)}<span class="vtxt">${isDark()?"Día":"Noche"}</span></button><button class="pill" data-act="voice" aria-pressed="${S.voice}" aria-label="${S.voice?"Voz activada":"Voz apagada"}">${ui("spk")}<span class="vtxt">${S.voice?"Voz":"Sin voz"}</span></button><button class="pill" data-act="parents">Papás</button></div>`}
 
 function home(){LS=null;begin();const p=me(),st=totalStars(p),lv=level(st);const rot=DAYROT[new Date().getDay()];const g=curG(),plan=["mat","esp",rot].map(c=>findC(c,g)).filter(Boolean);
 let fecha="";try{fecha=new Date().toLocaleDateString("es-MX",{weekday:"long",day:"numeric",month:"long"})}catch(e){}
@@ -670,7 +676,7 @@ ${recent.length?`<h3>Últimas lecciones</h3><ul class="tips">${recent.map(([id,r
 <form id="addp" class="addp"><label for="pname">Agregar un niño o niña</label><div class="row"><input id="pname" maxlength="20" placeholder="Nombre" autocomplete="off"><button class="btn" type="submit" style="--sc:var(--mat)">Agregar</button></div></form>
 <form id="renp" class="addp"><label for="rname">Cambiar el nombre de ${esc(p.name)}</label><div class="row"><input id="rname" maxlength="20" value="${esc(p.name)}" autocomplete="off"><button class="btn ghost" type="submit" style="--sc:var(--mat)">Guardar</button></div></form></section>
 <section class="panel"><h2>Cuadernos para imprimir</h2><p>Hojas de trabajo de todas las lecciones, con infografía, ejercicios, caligrafía, dibujo, sección de fe y solucionario al final. Tamaño carta.</p><div class="row">${GRADES.map(([n,t])=>`<a class="btn" style="--sc:var(--mat)" href="${CUAD}Cuaderno-${n}o-primaria.pdf" target="_blank" rel="noopener">Cuaderno de ${t}</a>`).join("")}</div><p class="note">Abre el PDF y usa la opción de imprimir de tu navegador. En el índice vienen las páginas de cada materia para imprimir solo una. También hay un archivo por materia en la carpeta «por-materia» del repositorio.</p></section>
-<section class="panel"><h2>Ajustes</h2><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
+<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
 <section class="panel"><h2>Cómo usar la Escuelita</h2><ul class="tips"><li>Dediquen de 20 a 30 minutos por materia. Matemáticas y Español, todos los días; las demás materias se van turnando en el «Plan de hoy».</li><li>Lean juntos la parte de «Aprende» y luego dejen que el niño practique solo.</li><li>Con 1 o 2 estrellas, repitan la práctica otro día. En Matemáticas los ejercicios cambian cada vez.</li><li>Complementen con cuaderno: copiar las palabras nuevas y resolver las sumas a mano.</li><li>Las lecciones siguen los temas de 1.º de primaria de la SEP. Todas las materias se enseñan desde la fe católica: cada lección termina con una página «Con los ojos de la fe» y sus ejercicios. Religión y Primera Comunión siguen el Catecismo de la Iglesia Católica.</li><li>Empiecen cada día con la oración al Espíritu Santo que aparece en el inicio.</li></ul></section>
 <section class="panel"><h2>Reiniciar progreso</h2><p>Borra las estrellas y lecciones de ${esc(p.name)}. Los demás niños no cambian.</p><div class="row">${PCONF==="reset"?`<button class="btn warn" data-act="doreset">Sí, borrar su progreso</button><button class="btn ghost" data-act="nodel" style="--sc:var(--mat)">No</button>`:`<button class="btn warn" data-act="askreset">Reiniciar progreso</button>`}</div></section>`);}
 
@@ -695,6 +701,7 @@ say:v=>say(SAY[+v],true),
 reto:()=>reto(),
 gal:v=>gallery(v),
 grade:v=>{me().grade=+v;save();home()},
+theme:()=>{S.theme=isDark()?"light":"dark";save();applyTheme();drawTop()},
 voice:()=>{S.voice=!S.voice;save();if(!S.voice)try{speechSynthesis.cancel()}catch(e){}drawTop()},
 profiles:()=>profSheet(),setp:v=>{S.cur=v;save();closeSheet();home()},close:()=>closeSheet(),
 parents:()=>gate(),
@@ -705,10 +712,10 @@ delp:v=>{S.profiles=S.profiles.filter(p=>p.id!==v);if(S.cur===v)S.cur=S.profiles
 askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;PCONF=null;save();parents()}
 };
 
-function init(){S=load();indexAll();loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
+function init(){S=load();applyTheme();try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{if(S.theme==="auto")drawTop()})}catch(e){}indexAll();loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
 document.addEventListener("click",e=>{if(e.target.id==="sheet"){closeSheet();return}const b=e.target.closest("[data-act]");if(!b||b.disabled)return;const f=ACT[b.dataset.act];if(f)f(b.dataset.v,b,e)});
 document.addEventListener("submit",e=>{e.preventDefault();if(e.target.id==="addp"){const n=$("#pname").value.trim();if(n){const pr=newProfile(n,S.profiles.length);S.profiles.push(pr);save();parents()}}if(e.target.id==="renp"){const n=$("#rname").value.trim();if(n){me().name=n;save();parents()}}});
-document.addEventListener("change",e=>{if(e.target.id==="optvoice"){S.voice=e.target.checked;save();drawTop()}if(e.target.id==="optfx"){S.fx=e.target.checked;save()}});
+document.addEventListener("change",e=>{if(e.target.id==="optvoice"){S.voice=e.target.checked;save();drawTop()}if(e.target.id==="optfx"){S.fx=e.target.checked;save()}if(e.target.name==="optheme"){S.theme=e.target.value;save();applyTheme();drawTop()}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#sheet").hidden)closeSheet();if(MODE==="prac"&&X&&!X.done&&X.ex.k==="n"&&$("#sheet").hidden){if(/^[0-9]$/.test(e.key))ACT.key(e.key);else if(e.key==="Backspace")ACT.key("del");else if(e.key==="Enter")check()}});
 home()}
 /* ========= Visuales y generadores para 2.º grado ========= */
