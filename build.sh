@@ -2,11 +2,11 @@
 # Une los archivos de src/ en un solo index.html listo para abrir o publicar.
 set -euo pipefail
 cd "$(dirname "$0")"
-JS=(src/motor/motor.js src/motor/generadores-2.js src/motor/generadores-3.js src/motor/ilustraciones.js
+JS=(src/motor/motor.js src/motor/generadores-2.js src/motor/generadores-3.js src/motor/ilustraciones.js src/motor/columnas.js
     src/grado1/mat.js src/grado1/esp.js src/grado1/cie.js src/grado1/his.js src/grado1/civ.js src/grado1/rel.js src/grado1/com.js src/grado1/fe.js
     src/grado2/mat.js src/grado2/esp.js src/grado2/cie.js src/grado2/his.js src/grado2/civ.js src/grado2/rel-y-comunion.js
     src/grado3/mat.js src/grado3/esp.js src/grado3/cie.js src/grado3/his.js src/grado3/civ.js src/grado3/rel-y-vida-de-fe.js
-    src/infografias/grado1.js src/infografias/grado2-y-unir.js)
+    src/infografias/grado1.js src/infografias/grado2-y-unir.js src/infografias/colores-de-columnas.js)
 {
   echo '<!doctype html>'
   echo '<html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'

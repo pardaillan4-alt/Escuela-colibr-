@@ -1,0 +1,4 @@
+/* Página de los colores de las columnas en las lecciones de operaciones en columna */
+(function(){const tip=P("Cada columna tiene su color","Las <b>unidades</b> son azules, las <b>decenas</b> rojas, las <b>centenas</b> verdes y los <b>millares</b> morados. Para sumar, restar o multiplicar <b>empezamos siempre por la columna azul</b>, la de la derecha, y vamos hacia la izquierda. Al escribir el resultado en la app, la casilla que parpadea te dice qué columna sigue. Recuerda: <b>las cuentas se hacen de derecha a izquierda, pero los números se leen de izquierda a derecha</b>.",{t:"vert",a:247,b:135,op:"+"});
+["m11","2m3","2m4","3m3","3m6"].forEach(id=>{const r=LIDX_TIP(id);if(r)r.learn.splice(1,0,tip)});
+function LIDX_TIP(id){for(const s of SUBJ)for(const u of s.units)for(const l of u.ls)if(l.id===id)return l}})();

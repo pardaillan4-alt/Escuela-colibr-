@@ -147,7 +147,8 @@ main{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-lef
 .blocks{display:flex;gap:18px;align-items:flex-end;flex-wrap:wrap;justify-content:center}
 .rods{display:flex;gap:5px}
 .units{display:flex;flex-direction:column-reverse;flex-wrap:wrap;max-height:102px;gap:2px}
-.rod rect,.unit rect{fill:var(--ss);stroke:var(--sc);stroke-width:2}
+.unit rect{fill:var(--mat-s);stroke:var(--mat);stroke-width:2}
+.rod rect{fill:var(--esp-s);stroke:var(--esp);stroke-width:2}
 .clock .face{fill:var(--card);stroke:var(--sc);stroke-width:5}
 .clock text{fill:var(--ink);font:700 15px var(--body)}
 .clock .hh{stroke:var(--ink);stroke-width:7;stroke-linecap:round}
@@ -303,7 +304,7 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .fp{fill:var(--card);stroke:var(--sc);stroke-width:3}
 .fp.on{fill:var(--sc);fill-opacity:.55}
 .flats{display:flex;gap:6px;flex-wrap:wrap}
-.flat rect{fill:var(--ss);stroke:var(--sc);stroke-width:1.2}
+.flat rect{fill:var(--cie-s);stroke:var(--cie);stroke-width:1.2}
 .compass .cring{fill:var(--card);stroke:var(--line);stroke-width:3}
 .compass .cn{fill:var(--sc)}.compass .ce{fill:var(--soft);opacity:.6}
 .compass text{fill:var(--ink);font:800 18px var(--display)}
@@ -378,6 +379,30 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .thm legend{font:700 17px var(--display);margin-bottom:6px;padding:0}
 .pill .art{width:20px;height:20px}
 @media (max-width:560px){.topin{gap:4px}.pill{padding:4px 8px;min-height:38px;gap:4px}.brand .bird{width:38px;height:32px}.pill[data-act="profiles"]{max-width:104px;min-width:0}.pill[data-act="profiles"] .pname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.topin>*{flex-shrink:1;min-width:0}.brand,.pill.static,.pill[data-act="theme"],.pill[data-act="voice"]{flex-shrink:0}}
+/* Columnas: unidades azul, decenas rojo, centenas verde, millares morado */
+.vcol .c0{--k:var(--mat);--kk:var(--mat-s)}.vcol .c1,.colhint .c1{--k:var(--esp);--kk:var(--esp-s)}.vcol .c2,.colhint .c2{--k:var(--cie);--kk:var(--cie-s)}.vcol .c3,.colhint .c3{--k:var(--civ);--kk:var(--civ-s)}.vcol .c4,.colhint .c4{--k:var(--his);--kk:var(--his-s)}.colhint .c0{--k:var(--mat)}
+.vcol{border-collapse:separate;border-spacing:4px 2px;margin:0 auto}
+.vcol th{font:800 15px var(--display);color:var(--k);background:var(--kk);border-radius:8px;padding:2px 0}
+.vcol td{width:48px;height:50px;padding:0;text-align:center;vertical-align:middle;color:var(--k);position:relative}
+.vcol td.vop{color:var(--ink);font-size:30px}
+.vcol tr.vb td{border-bottom:3px solid var(--ink)}
+.vcol tr.vb td.vop{border-bottom:0}
+.vcol tr.vr td{border-top:0}
+.vcol .vcar td{height:28px}
+.vcol .vcar td.vc{font:800 16px var(--display);border:2px dashed var(--k);border-radius:8px;width:30px;height:26px;margin:auto}
+.vcol td.vbox{border:3px solid var(--k);border-radius:12px;background:var(--card)}
+.vcol td.vbox.act{background:var(--kk);box-shadow:0 0 0 4px var(--kk);animation:blink 1.2s infinite}
+@keyframes blink{50%{box-shadow:0 0 0 1px var(--kk)}}
+.vcol td.vbox.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok)}
+.vcol td.vbox.rev{background:var(--revbg);border-color:var(--rev);color:var(--rev)}
+.vcol td.tap{cursor:pointer}
+.vcol .vstr{text-decoration:line-through;text-decoration-thickness:3px;opacity:.55}
+.vcol sup{font-size:16px;position:absolute;top:-4px}
+.vcol .vnew{right:2px}.vcol .v10{left:2px}
+.colwrap{gap:10px}
+.colhint{margin:0;text-align:center;font-size:16px;color:var(--soft);max-width:36ch}
+.colhint b{color:var(--k)}
+.pvt td.vc{border:2px solid var(--k);border-radius:8px;background:var(--card)}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:30;display:none;width:100%;height:100%}
 
 .bird .wing{transform-box:fill-box;transform-origin:85% 80%}

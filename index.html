@@ -152,7 +152,8 @@ main{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-lef
 .blocks{display:flex;gap:18px;align-items:flex-end;flex-wrap:wrap;justify-content:center}
 .rods{display:flex;gap:5px}
 .units{display:flex;flex-direction:column-reverse;flex-wrap:wrap;max-height:102px;gap:2px}
-.rod rect,.unit rect{fill:var(--ss);stroke:var(--sc);stroke-width:2}
+.unit rect{fill:var(--mat-s);stroke:var(--mat);stroke-width:2}
+.rod rect{fill:var(--esp-s);stroke:var(--esp);stroke-width:2}
 .clock .face{fill:var(--card);stroke:var(--sc);stroke-width:5}
 .clock text{fill:var(--ink);font:700 15px var(--body)}
 .clock .hh{stroke:var(--ink);stroke-width:7;stroke-linecap:round}
@@ -308,7 +309,7 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .fp{fill:var(--card);stroke:var(--sc);stroke-width:3}
 .fp.on{fill:var(--sc);fill-opacity:.55}
 .flats{display:flex;gap:6px;flex-wrap:wrap}
-.flat rect{fill:var(--ss);stroke:var(--sc);stroke-width:1.2}
+.flat rect{fill:var(--cie-s);stroke:var(--cie);stroke-width:1.2}
 .compass .cring{fill:var(--card);stroke:var(--line);stroke-width:3}
 .compass .cn{fill:var(--sc)}.compass .ce{fill:var(--soft);opacity:.6}
 .compass text{fill:var(--ink);font:800 18px var(--display)}
@@ -383,6 +384,30 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .thm legend{font:700 17px var(--display);margin-bottom:6px;padding:0}
 .pill .art{width:20px;height:20px}
 @media (max-width:560px){.topin{gap:4px}.pill{padding:4px 8px;min-height:38px;gap:4px}.brand .bird{width:38px;height:32px}.pill[data-act="profiles"]{max-width:104px;min-width:0}.pill[data-act="profiles"] .pname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.topin>*{flex-shrink:1;min-width:0}.brand,.pill.static,.pill[data-act="theme"],.pill[data-act="voice"]{flex-shrink:0}}
+/* Columnas: unidades azul, decenas rojo, centenas verde, millares morado */
+.vcol .c0{--k:var(--mat);--kk:var(--mat-s)}.vcol .c1,.colhint .c1{--k:var(--esp);--kk:var(--esp-s)}.vcol .c2,.colhint .c2{--k:var(--cie);--kk:var(--cie-s)}.vcol .c3,.colhint .c3{--k:var(--civ);--kk:var(--civ-s)}.vcol .c4,.colhint .c4{--k:var(--his);--kk:var(--his-s)}.colhint .c0{--k:var(--mat)}
+.vcol{border-collapse:separate;border-spacing:4px 2px;margin:0 auto}
+.vcol th{font:800 15px var(--display);color:var(--k);background:var(--kk);border-radius:8px;padding:2px 0}
+.vcol td{width:48px;height:50px;padding:0;text-align:center;vertical-align:middle;color:var(--k);position:relative}
+.vcol td.vop{color:var(--ink);font-size:30px}
+.vcol tr.vb td{border-bottom:3px solid var(--ink)}
+.vcol tr.vb td.vop{border-bottom:0}
+.vcol tr.vr td{border-top:0}
+.vcol .vcar td{height:28px}
+.vcol .vcar td.vc{font:800 16px var(--display);border:2px dashed var(--k);border-radius:8px;width:30px;height:26px;margin:auto}
+.vcol td.vbox{border:3px solid var(--k);border-radius:12px;background:var(--card)}
+.vcol td.vbox.act{background:var(--kk);box-shadow:0 0 0 4px var(--kk);animation:blink 1.2s infinite}
+@keyframes blink{50%{box-shadow:0 0 0 1px var(--kk)}}
+.vcol td.vbox.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok)}
+.vcol td.vbox.rev{background:var(--revbg);border-color:var(--rev);color:var(--rev)}
+.vcol td.tap{cursor:pointer}
+.vcol .vstr{text-decoration:line-through;text-decoration-thickness:3px;opacity:.55}
+.vcol sup{font-size:16px;position:absolute;top:-4px}
+.vcol .vnew{right:2px}.vcol .v10{left:2px}
+.colwrap{gap:10px}
+.colhint{margin:0;text-align:center;font-size:16px;color:var(--soft);max-width:36ch}
+.colhint b{color:var(--k)}
+.pvt td.vc{border:2px solid var(--k);border-radius:8px;background:var(--card)}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:30;display:none;width:100%;height:100%}
 
 .bird .wing{transform-box:fill-box;transform-origin:85% 80%}
@@ -579,7 +604,7 @@ case"flag":return flag();
 case"chalice":return chalice();
 case"pray":return`<blockquote class="pray">${v.x}</blockquote>`;
 case"steps":return`<ol class="steps" start="${v.start||1}">${v.x.map(t=>`<li>${t}</li>`).join("")}</ol>`;
-case"vert":{const r=v.op==="+"?v.a+v.b:v.a-v.b;return`<table class="vert" aria-label="Operación en columnas"><tr><th></th><th>D</th><th>U</th></tr><tr><td></td>${digits(v.a)}</tr><tr><td>${v.op}</td>${digits(v.b)}</tr><tr class="res"><td></td>${v.hide?"<td>?</td><td>?</td>":digits(r)}</tr></table>`}
+case"vert":return vertHTML(v,null);
 default:return VX[v.t]?VX[v.t](v):""}}
 function visText(v){if(!v)return"";if(v.t==="info")return" "+infoText(v);if(v.t==="pray")return" "+v.x;if(v.t==="steps")return" "+v.x.join(". ");return""}
 
@@ -625,7 +650,7 @@ ${pg.info?`<article class="lcard info" style="${sv(s)}"><div class="lc-top"><p c
 function buildList(l){let list=l.ex.slice();(l.g||[]).forEach(([name,cnt,arg])=>{for(let i=0;i<cnt;i++){try{list.push(G[name](arg))}catch(e){}}});return shuf(list)}
 function practice(){LS.list=buildList(LS.l);LS.i=0;LS.first=0;newEx()}
 function reto(){const g=curG(),mix=g>=3?["mult69","multAll","div","mult69","add4","sub4","fracOf"]:g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
-function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};
+function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
 if(ex.k==="c")X.opts=shuf(ex.o.map((t,i)=>({t,ok:i===0})));
 if(ex.k==="ord")X.pool=shuf(ex.items.map((t,i)=>({t,id:i}))).map((o,i)=>({t:o.t,id:i}));
 if(ex.k==="b")X.pool=shuf([...ex.a,...ex.x]).map((t,i)=>({t,id:i}));
@@ -638,18 +663,18 @@ function drawEx(){const{s}=LS,ex=X.ex,tot=LS.list.length;SAY=[];MODE="prac";draw
 switch(ex.k){
 case"c":{const short=X.opts.every(o=>o.t.length<=4);a=`<div class="opts${short?" short":""}">${X.opts.map((o,i)=>`<button class="opt${X.bad.includes(i)?" bad":""}${X.done&&o.ok?" ok":""}" data-act="opt" data-v="${i}"${X.done||X.bad.includes(i)?" disabled":""}>${esc(o.t)}</button>`).join("")}</div>`;break}
 case"tf":a=`<div class="opts">${[[true,"Verdadero"],[false,"Falso"]].map(([v,t])=>`<button class="opt${X.bad.includes(String(v))?" bad":""}${X.done&&ex.a===v?" ok":""}" data-act="tf" data-v="${v}"${X.done||X.bad.includes(String(v))?" disabled":""}>${t}</button>`).join("")}</div>`;break;
-case"n":a=`<div class="numwrap"><div class="numbox${X.done?(X.ok?" ok":" rev"):""}" aria-live="polite">${X.done?ex.a:(X.num||"&nbsp;")}</div>${X.done?"":`<div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="key" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="key" data-v="del" aria-label="Borrar">Borrar</button><button class="key" data-act="key" data-v="0">0</button><button class="key go" data-act="check" aria-label="Comprobar">✓</button></div>`}</div>`;break;
+case"n":if(colMode(ex)){a=colPanel();break}a=`<div class="numwrap"><div class="numbox${X.done?(X.ok?" ok":" rev"):""}" aria-live="polite">${X.done?ex.a:(X.num||"&nbsp;")}</div>${X.done?"":`<div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="key" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="key" data-v="del" aria-label="Borrar">Borrar</button><button class="key" data-act="key" data-v="0">0</button><button class="key go" data-act="check" aria-label="Comprobar">✓</button></div>`}</div>`;break;
 case"ord":case"b":{const used=new Set(X.built),sep=ex.k==="ord"?`<span class="arrow" aria-hidden="true">→</span>`:"";a=`<div class="built${ex.k==="b"?" word":""}">${X.built.length?X.built.map((id,j)=>`<button class="tile2 in" data-act="untile" data-v="${j}"${X.done?" disabled":""}>${esc(X.pool[id].t)}</button>`).join(sep):`<span class="ph">Toca las fichas en orden</span>`}</div>${X.done?"":`<div class="pool">${X.pool.map(p=>`<button class="tile2" data-act="tile" data-v="${p.id}"${used.has(p.id)?" disabled":""}>${esc(p.t)}</button>`).join("")}</div><div class="row center"><button class="btn ghost" data-act="clearb">Borrar todo</button><button class="btn" data-act="check"${X.built.length?"":" disabled"}>Comprobar</button></div>`}`;break}
 case"s":a=`<div class="sort">${X.items.map(it=>`<div class="srow${X.badRows.includes(it.id)&&!X.done?" bad":""}"><span class="sit">${it.t}</span><div class="sg">${ex.g.map((g,gi)=>`<button class="gbtn${X.done?(it.g===gi?" ok":""):(X.assign[it.id]===gi?" on":"")}" data-act="grp" data-v="${it.id}:${gi}"${X.done?" disabled":""}>${g}</button>`).join("")}</div></div>`).join("")}</div>${X.done?"":`<div class="row center"><button class="btn" data-act="check"${Object.keys(X.assign).length===X.items.length?"":" disabled"}>Comprobar</button></div>`}`;break}
 app(`<div class="phead" style="${sv(s)}"><button class="back" data-act="quit" aria-label="Salir de la práctica">${ui("back")}</button><div class="pbar" role="progressbar" aria-valuenow="${LS.i}" aria-valuemax="${tot}"><i style="width:${LS.i/tot*100}%"></i></div><span class="pcount">${LS.i+1}/${tot}</span></div>
-<article class="ecard" style="${sv(s)}"><div class="lc-top"><h2 class="q">${ex.q}</h2>${sayBtn(qText())}</div>${ex.v?`<div class="vis">${V(ex.v)}</div>`:""}${a}${fb()}</article>`)}
+<article class="ecard" style="${sv(s)}"><div class="lc-top"><h2 class="q">${ex.q}</h2>${sayBtn(qText())}</div>${ex.v&&!colMode(ex)?`<div class="vis">${V(ex.v)}</div>`:""}${a}${fb()}</article>`)}
 function fb(){const ex=X.ex;if(X.done&&X.ok)return`<div class="fb ok" role="status">${bird("sm")}<div><b>${X.msg}</b>${ex.w&&X.tries>0?`<p>${ex.w}</p>`:""}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.done)return`<div class="fb rev" role="status">${bird("sm")}<div><b>La respuesta es: ${esc(ansText(ex))}</b>${ex.w?`<p>${ex.w}</p>`:"<p>Ahora ya lo sabes. ¡La próxima vez te saldrá!</p>"}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.tries>0)return`<div class="fb try" role="status"><div><b>${X.msg}</b>${ex.w?`<p>Pista: ${ex.w}</p>`:""}</div></div>`;return""}
 function answer(ok){if(X.done)return;if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
 drawEx();const f=$(".fb");if(f)try{f.scrollIntoView({block:"nearest",behavior:"smooth"})}catch(e){}
 if(S.voice)say(X.done?(X.ok?X.msg:"La respuesta es "+ansText(X.ex)):X.msg+(X.ex.w?" Pista: "+X.ex.w:""))}
-function check(){const ex=X.ex;let ok=false;
+function check(){const ex=X.ex;let ok=false;if(colMode(ex))return colCheck();
 if(ex.k==="n"){if(!X.num)return;ok=+X.num===+ex.a;if(!ok)X.num=""}
 else if(ex.k==="ord")ok=X.built.length===ex.items.length&&X.built.every((id,j)=>X.pool[id].t===ex.items[j]);
 else if(ex.k==="b")ok=X.built.map(id=>X.pool[id].t).join("")===ex.a.join("");
@@ -691,7 +716,7 @@ next:()=>{LS.page++;learn();scrollTo(0,0)},prev:()=>{LS.page--;learn();scrollTo(
 practice:()=>practice(),retry:()=>practice(),relearn:()=>{LS.page=0;learn();scrollTo(0,0)},
 opt:v=>{const i=+v,o=X.opts[i];if(!o||X.done)return;if(o.ok)answer(true);else{X.bad.push(i);answer(false)}},
 tf:v=>{if(X.done)return;const b=v==="true";if(b===X.ex.a)answer(true);else{X.bad.push(v);answer(false)}},
-key:v=>{if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<5)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
+key:v=>{if(X&&X.col&&colMode(X.ex))return colKey(v);if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<5)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
 check:()=>check(),
 tile:v=>{if(!X.built.includes(+v))X.built.push(+v);SND.tap();drawEx()},
 untile:v=>{X.built.splice(+v,1);drawEx()},clearb:()=>{X.built=[];drawEx()},
@@ -753,7 +778,7 @@ nname3:()=>{const n=rnd(101,999),o=nOptsW(n,100,999,[-100,100,-10,10,-1,1]);retu
 seq3:()=>{const st=pick([100,50,3,4]),s0=st>=50?st*rnd(0,5):st*rnd(0,6),seq=[0,1,2,3,4].map(i=>s0+i*st),k=rnd(1,4);return N(`¿Qué número falta? Contamos de ${st} en ${st}.`,seq[k],{t:"seq",x:seq.map((n,i)=>i===k?"?":n)},`Suma ${st} al número de antes.`)},
 add2r:()=>{let u1=rnd(2,9),u2=rnd(10-u1,9),d1=rnd(1,6),d2=rnd(1,8-d1);const a=10*d1+u1,b=10*d2+u2;return N(`${a} + ${b} = ?`,a+b,{t:"vert",a,b,op:"+",hide:1},"Si las unidades suman 10 o más, llevas 1 decena a la columna de las decenas.")},
 sub2r:()=>{const u1=rnd(0,8),u2=rnd(u1+1,9),d1=rnd(3,9),d2=rnd(1,d1-1),a=10*d1+u1,b=10*d2+u2;return N(`${a} − ${b} = ?`,a-b,{t:"vert",a,b,op:"−",hide:1},"Si arriba hay menos unidades, pide prestada una decena: las unidades de arriba aumentan 10.")},
-add3:()=>{const a=rnd(100,600),b=rnd(100,999-a);const ok=String(a).split("").every((x,i)=>+x+ +String(b)[i]<10);if(!ok)return G.add3();return N(`${a} + ${b} = ?`,a+b,null,"Suma unidades, luego decenas y luego centenas.")},
+add3:()=>{const a=rnd(100,600),b=rnd(100,999-a);const ok=String(a).split("").every((x,i)=>+x+ +String(b)[i]<10);if(!ok)return G.add3();return N(`${a} + ${b} = ?`,a+b,{t:"vert",a,b,op:"+",hide:1},"Suma unidades, luego decenas y luego centenas.")},
 mult:()=>{const a=pick([2,3,4,5,10]),b=rnd(1,10);return N(`${a} × ${b} = ?`,a*b,a*b<=40&&b<=10?{t:"arr",r:b,c:a,s:pick(SH)}:null,`Es sumar ${a}, ${b} veces. Cuenta de ${a} en ${a}.`)},
 multRep:()=>{const a=rnd(2,5),b=rnd(2,5),sum=Array(b).fill(a).join(" + ");return C(`¿Qué multiplicación es igual a ${sum}?`,[`${b} × ${a}`,`${b} + ${a}`,`${b+1} × ${a}`],{t:"arr",r:b,c:a,s:"star"},`Hay ${b} grupos de ${a}.`)},
 arrQ:()=>{const r=rnd(2,5),c=rnd(2,6);return N(`Hay ${r} filas con ${c} en cada una. ¿Cuántos hay en total?`,r*c,{t:"arr",r,c,s:pick(SH)},`Multiplica ${r} × ${c}, o cuenta de ${c} en ${c}.`)},
@@ -784,7 +809,7 @@ dim:()=>{const i=rnd(0,ESB.dim.length-1),[a,b]=ESB.dim[i];return C(`¿Cuál es e
 GRADES.push([3,"3.º"]);
 VX.area=v=>{let s=`<svg viewBox="0 0 ${v.c*24+8} ${v.r*24+8}" width="${Math.min(320,v.c*30+10)}" class="areag" role="img" aria-label="Rectángulo de ${v.r} por ${v.c} cuadritos">`;for(let y=0;y<v.r;y++)for(let x=0;x<v.c;x++)s+=`<rect x="${4+x*24}" y="${4+y*24}" width="24" height="24"/>`;return s+"</svg>"};
 VX.rectp=v=>`<svg viewBox="0 0 220 150" width="260" class="rectp" role="img" aria-label="Rectángulo de ${v.w} por ${v.h}"><rect x="40" y="25" width="140" height="90" rx="3"/><text x="110" y="16" text-anchor="middle">${v.w} ${v.u||"cm"}</text><text x="110" y="140" text-anchor="middle">${v.w} ${v.u||"cm"}</text><text x="32" y="75" text-anchor="end">${v.h}</text><text x="188" y="75">${v.h}</text></svg>`;
-VX.pvt=v=>{const d=String(v.n).padStart(4,"0").split("");return`<table class="vert pvt" aria-label="Tabla de valor posicional"><tr><th>UM</th><th>C</th><th>D</th><th>U</th></tr><tr>${d.map(x=>`<td>${x}</td>`).join("")}</tr></table>`};
+VX.pvt=v=>{const d=String(v.n).padStart(4,"0").split("");return`<table class="vert vcol pvt" aria-label="Tabla de valor posicional"><tr class="vh"><th class="c3">UM</th><th class="c2">C</th><th class="c1">D</th><th class="c0">U</th></tr><tr>${d.map((x,k)=>`<td class="vc c${3-k}">${x}</td>`).join("")}</tr></table>`};
 VX.fracs=v=>`<div class="eq">${VX.frac({n:v.n1,k:v.k1,sh:"rect"})}<span class="op">${v.op||"y"}</span>${VX.frac({n:v.n2,k:v.k2,sh:"rect"})}</div>`;
 function words4(n){if(n<1000)return words3(n);const m=Math.floor(n/1000),r=n%1000;return(m===1?"mil":words(m).replace(/uno$/,"un")+" mil")+(r?" "+words3(r):"")}
 Object.assign(G,{
@@ -793,8 +818,8 @@ pv4w:()=>{const m=rnd(1,9),c=rnd(0,9),d=rnd(0,9),u=rnd(0,9);return N(`¿Qué nú
 nname4:()=>{const n=rnd(1001,9999),o=nOptsW(n,1000,9999,[-1000,1000,-100,100,-10,10]);return Math.random()<.5?C(`¿Qué número es «${words4(n)}»?`,o):C(`¿Cómo se escribe con letras el ${n}?`,o.map(words4))},
 cmp4:()=>{const a=rnd(1000,9999);let b=rnd(1000,9999);if(Math.random()<.5)b=+(String(a).slice(0,2)+String(rnd(10,99)));while(b===a)b=rnd(1000,9999);const big=Math.random()<.5;return C(`¿Cuál número es ${big?"mayor":"menor"}?`,[big?Math.max(a,b):Math.min(a,b),big?Math.min(a,b):Math.max(a,b)],null,"Compara cifra por cifra empezando por los millares.")},
 round:()=>{const t=pick([10,100]),n=t===10?rnd(11,989):rnd(110,9890),r=Math.round(n/t)*t;return C(`Redondea ${n} a la ${t===10?"decena":"centena"} más cercana.`,[r,r+t,Math.max(0,r-t)].map(String).filter((x,i,a)=>a.indexOf(x)===i),null,t===10?"Mira las unidades: si son 5 o más, sube.":"Mira las decenas: si son 5 o más, sube.")},
-add4:()=>{const a=rnd(120,780),b=rnd(110,999-a);return N(`${a} + ${b} = ?`,a+b,null,"Suma por columnas desde las unidades y no olvides lo que llevas.")},
-sub4:()=>{const a=rnd(300,999),b=rnd(101,a-50);return N(`${a} − ${b} = ?`,a-b,null,"Resta por columnas; si no alcanza, pide prestado a la columna de la izquierda.")},
+add4:()=>{const a=rnd(120,780),b=rnd(110,999-a);return N(`${a} + ${b} = ?`,a+b,{t:"vert",a,b,op:"+",hide:1},"Suma por columnas desde las unidades y no olvides lo que llevas.")},
+sub4:()=>{const a=rnd(300,999),b=rnd(101,a-50);return N(`${a} − ${b} = ?`,a-b,{t:"vert",a,b,op:"−",hide:1},"Resta por columnas; si no alcanza, pide prestado a la columna de la izquierda.")},
 mult69:()=>{const a=pick([6,7,8,9]),b=rnd(1,10);return N(`${a} × ${b} = ?`,a*b,b<=6&&a<=8?{t:"arr",r:b,c:a,s:"star"}:null,`Usa lo que sabes: ${a} × ${b} = ${a} × ${b-1} + ${a}.`)},
 multAll:()=>{const a=rnd(2,10),b=rnd(2,10);return N(`${a} × ${b} = ?`,a*b,null,"Si no la recuerdas, suma grupos iguales.")},
 mult2x1:()=>{const a=rnd(11,49),b=rnd(2,a<25?6:3);return N(`${a} × ${b} = ?`,a*b,{t:"vert",a,b,op:"×",hide:1},`Multiplica las unidades (${a%10} × ${b}) y luego las decenas (${Math.floor(a/10)*10} × ${b}); suma los resultados.`)},
@@ -936,6 +961,40 @@ VX.info=v=>{const it=v.items.map(x=>({ic:x[0],h:x[1],p:x[2]||""}));let body="";
  return`<figure class="ig ig-l-${v.lay}"><figcaption class="ig-head"><span class="ig-badge">Infografía</span><span class="ig-title">${v.ti}</span></figcaption>${body}${v.fe?`<p class="ig-fe">${CROSS}<span>${v.fe}</span></p>`:""}</figure>`};
 function infoText(v){return v.ti+". "+v.items.map(x=>x[1]+(x[2]?": "+x[2]:"")).join(". ")+(v.fe?". "+v.fe:"")}
 VX.art=v=>`<div class="ig-arts">${v.x.map(x=>Array.isArray(x)?`<figure class="ig-art"><span class="ig-ic">${art(x[0],64)}</span><figcaption>${x[1]}</figcaption></figure>`:`<span class="ig-ic">${art(x,64)}</span>`).join("")}</div>`;
+/* ========= Operaciones en columnas (como en papel) =========
+   Columnas con color fijo: unidades azul, decenas rojo, centenas verde, millares morado.
+   El resultado se escribe de derecha a izquierda, empezando por las unidades. */
+const COLN=["U","D","C","UM","DM"],COLL=["unidades","decenas","centenas","unidades de millar","decenas de millar"];
+function vres(v){return v.op==="+"?v.a+v.b:v.op==="×"?v.a*v.b:v.a-v.b}
+function vcols(v){const la=String(v.a).length,lb=String(v.b).length;return Math.min(5,v.op==="−"?la:Math.max(la,lb)+1)}
+function dig(x,i){const s=String(x);return i<s.length?s[s.length-1-i]:""}
+function vertHTML(v,st){const n=vcols(v),r=vres(v),cols=[...Array(n).keys()].reverse(),live=!!st,blank=v.hide&&!live,carry=v.op!=="−"&&(v.hide||live);
+ const cell=(i,inner,cls,act)=>`<td class="vc c${i}${cls?" "+cls:""}"${act?` data-act="${act}" data-v="${i}" role="button" tabindex="0"`:""}>${inner}</td>`;
+ let h=`<table class="vert vcol" aria-label="Operación en columnas: ${v.a} ${v.op==="−"?"menos":v.op==="×"?"por":"más"} ${v.b}"><tr class="vh"><th></th>${cols.map(i=>`<th class="c${i}" title="${COLL[i]}">${COLN[i]}</th>`).join("")}</tr>`;
+ if(carry)h+=`<tr class="vcar"><td></td>${cols.map(i=>i===0?"<td></td>":cell(i,live?(st.car[i]||""):"",live&&!st.done?"tap":"",live&&!st.done?"carry":"")).join("")}</tr>`;
+ h+=`<tr class="va"><td></td>${cols.map(i=>{const d=dig(v.a,i);if(!live||v.op!=="−"||!d)return cell(i,d);const bo=st.bor[i],rec=st.bor[i+1];const shown=`${rec?`<sup class="v10">1</sup>`:""}<span class="${bo?"vstr":""}">${d}</span>${bo?`<sup class="vnew">${+d-1}</sup>`:""}`;return cell(i,shown,!st.done&&i>0?"tap":"",!st.done&&i>0?"borrow":"")}).join("")}</tr>`;
+ h+=`<tr class="vb"><td class="vop">${v.op}</td>${cols.map(i=>cell(i,dig(v.b,i))).join("")}</tr>`;
+ h+=`<tr class="vr"><td></td>${cols.map(i=>{if(!v.hide)return cell(i,dig(r,i));if(blank)return cell(i,"","vbox");if(st.done)return cell(i,dig(r,i),"vbox "+(st.ok?"ok":"rev"));return cell(i,st.cols[i]||"",`vbox${i===st.act?" act":""}`,"col")}).join("")}</tr></table>`;
+ return h}
+function colMode(ex){return ex&&ex.k==="n"&&ex.v&&ex.v.t==="vert"&&ex.v.hide}
+function colInit(){X.col={cols:[],car:[],bor:[],act:0,done:false,ok:false}}
+function colPanel(){const c=X.col,v=X.ex.v;c.done=X.done;c.ok=X.ok;
+ return`<div class="numwrap colwrap">${vertHTML(v,c)}${X.done?"":`<p class="colhint">${X.msg2||`${c.act===0&&!c.cols[0]?"Escribe primero las":"Ahora escribe las"} <b class="c${c.act}">${COLL[c.act]}</b>. ${v.op==="−"?"Toca una cifra de arriba para pedir prestado.":"Toca el cuadrito de arriba para anotar lo que llevas."}`}</p><div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="key" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="key" data-v="del" aria-label="Borrar">Borrar</button><button class="key" data-act="key" data-v="0">0</button><button class="key go" data-act="check" aria-label="Comprobar">✓</button></div>`}</div>`}
+function colKey(v){const c=X.col,n=vcols(X.ex.v);X.msg2="";
+ if(v==="del"){if(c.cols[c.act])c.cols[c.act]="";else if(c.act>0){c.act--;c.cols[c.act]=""}}
+ else{c.cols[c.act]=v;if(c.act<n-1)c.act++}
+ SND.tap();drawEx()}
+function colValue(){const c=X.col,n=vcols(X.ex.v);let s="",started=false,gap=false;
+ for(let i=n-1;i>=0;i--){const d=c.cols[i]||"";if(d){if(!started)started=true;else if(gap)return null;s+=d}else if(started)gap=true}
+ if(!started)return"";if(gap)return null;return s}
+function colCheck(){const s=colValue();if(s===""){X.msg2="Escribe el resultado empezando por las unidades.";drawEx();return}if(s===null){X.msg2="Te falta una columna: llena todas, de derecha a izquierda.";drawEx();return}
+ const ok=+s===+X.ex.a;if(!ok){X.col.cols=[];X.col.act=0}answer(ok)}
+Object.assign(ACT,{
+ col:v=>{X.col.act=+v;X.msg2="";drawEx()},
+ carry:v=>{const c=X.col,i=+v,cur=+(c.car[i]||0);c.car[i]=cur>=9?"":String(cur+1);SND.tap();drawEx()},
+ borrow:v=>{const c=X.col,i=+v;c.bor[i]=!c.bor[i];SND.tap();drawEx()}
+});
+if(typeof document!=="undefined")document.addEventListener("keydown",e=>{if(MODE!=="prac"||!X||X.done||!X.col||!colMode(X.ex))return;const n=vcols(X.ex.v);if(e.key==="ArrowLeft"&&X.col.act<n-1){X.col.act++;drawEx()}else if(e.key==="ArrowRight"&&X.col.act>0){X.col.act--;drawEx()}});
 /* ===== MATEMÁTICAS ===== */
 SUBJ.push({id:"mat",n:"Matemáticas",campo:"Saberes y pensamiento científico",d:"Números hasta el 100, sumas y restas, figuras, medidas, tiempo y dinero.",units:[
 {t:"Los números hasta el 20",ls:[
@@ -2744,6 +2803,10 @@ Object.assign(INFO,{
 });
 SUBJ.forEach(s=>s.units.forEach(u=>u.ls.forEach(l=>{const f=INFO[l.id];if(!f||l.learn.some(p=>p.info))return;const k=l.learn.findIndex(p=>p.fe);if(k>=0)l.learn.splice(k,0,f);else l.learn.push(f)})));
 SUBJ.forEach(s=>s.units.forEach(u=>u.ls.forEach(l=>{const i=l.learn.findIndex(p=>p.info),f=l.learn.findIndex(p=>p.fe);if(i>f&&f>=0){const [x]=l.learn.splice(i,1);l.learn.splice(f,0,x)}})));
+/* Página de los colores de las columnas en las lecciones de operaciones en columna */
+(function(){const tip=P("Cada columna tiene su color","Las <b>unidades</b> son azules, las <b>decenas</b> rojas, las <b>centenas</b> verdes y los <b>millares</b> morados. Para sumar, restar o multiplicar <b>empezamos siempre por la columna azul</b>, la de la derecha, y vamos hacia la izquierda. Al escribir el resultado en la app, la casilla que parpadea te dice qué columna sigue. Recuerda: <b>las cuentas se hacen de derecha a izquierda, pero los números se leen de izquierda a derecha</b>.",{t:"vert",a:247,b:135,op:"+"});
+["m11","2m3","2m4","3m3","3m6"].forEach(id=>{const r=LIDX_TIP(id);if(r)r.learn.splice(1,0,tip)});
+function LIDX_TIP(id){for(const s of SUBJ)for(const u of s.units)for(const l of u.ls)if(l.id===id)return l}})();
 
 init();
 if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}

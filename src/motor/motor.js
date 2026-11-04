@@ -165,7 +165,7 @@ case"flag":return flag();
 case"chalice":return chalice();
 case"pray":return`<blockquote class="pray">${v.x}</blockquote>`;
 case"steps":return`<ol class="steps" start="${v.start||1}">${v.x.map(t=>`<li>${t}</li>`).join("")}</ol>`;
-case"vert":{const r=v.op==="+"?v.a+v.b:v.a-v.b;return`<table class="vert" aria-label="Operación en columnas"><tr><th></th><th>D</th><th>U</th></tr><tr><td></td>${digits(v.a)}</tr><tr><td>${v.op}</td>${digits(v.b)}</tr><tr class="res"><td></td>${v.hide?"<td>?</td><td>?</td>":digits(r)}</tr></table>`}
+case"vert":return vertHTML(v,null);
 default:return VX[v.t]?VX[v.t](v):""}}
 function visText(v){if(!v)return"";if(v.t==="info")return" "+infoText(v);if(v.t==="pray")return" "+v.x;if(v.t==="steps")return" "+v.x.join(". ");return""}
 
@@ -211,7 +211,7 @@ ${pg.info?`<article class="lcard info" style="${sv(s)}"><div class="lc-top"><p c
 function buildList(l){let list=l.ex.slice();(l.g||[]).forEach(([name,cnt,arg])=>{for(let i=0;i<cnt;i++){try{list.push(G[name](arg))}catch(e){}}});return shuf(list)}
 function practice(){LS.list=buildList(LS.l);LS.i=0;LS.first=0;newEx()}
 function reto(){const g=curG(),mix=g>=3?["mult69","multAll","div","mult69","add4","sub4","fracOf"]:g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
-function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};
+function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
 if(ex.k==="c")X.opts=shuf(ex.o.map((t,i)=>({t,ok:i===0})));
 if(ex.k==="ord")X.pool=shuf(ex.items.map((t,i)=>({t,id:i}))).map((o,i)=>({t:o.t,id:i}));
 if(ex.k==="b")X.pool=shuf([...ex.a,...ex.x]).map((t,i)=>({t,id:i}));
@@ -224,18 +224,18 @@ function drawEx(){const{s}=LS,ex=X.ex,tot=LS.list.length;SAY=[];MODE="prac";draw
 switch(ex.k){
 case"c":{const short=X.opts.every(o=>o.t.length<=4);a=`<div class="opts${short?" short":""}">${X.opts.map((o,i)=>`<button class="opt${X.bad.includes(i)?" bad":""}${X.done&&o.ok?" ok":""}" data-act="opt" data-v="${i}"${X.done||X.bad.includes(i)?" disabled":""}>${esc(o.t)}</button>`).join("")}</div>`;break}
 case"tf":a=`<div class="opts">${[[true,"Verdadero"],[false,"Falso"]].map(([v,t])=>`<button class="opt${X.bad.includes(String(v))?" bad":""}${X.done&&ex.a===v?" ok":""}" data-act="tf" data-v="${v}"${X.done||X.bad.includes(String(v))?" disabled":""}>${t}</button>`).join("")}</div>`;break;
-case"n":a=`<div class="numwrap"><div class="numbox${X.done?(X.ok?" ok":" rev"):""}" aria-live="polite">${X.done?ex.a:(X.num||"&nbsp;")}</div>${X.done?"":`<div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="key" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="key" data-v="del" aria-label="Borrar">Borrar</button><button class="key" data-act="key" data-v="0">0</button><button class="key go" data-act="check" aria-label="Comprobar">✓</button></div>`}</div>`;break;
+case"n":if(colMode(ex)){a=colPanel();break}a=`<div class="numwrap"><div class="numbox${X.done?(X.ok?" ok":" rev"):""}" aria-live="polite">${X.done?ex.a:(X.num||"&nbsp;")}</div>${X.done?"":`<div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="key" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="key" data-v="del" aria-label="Borrar">Borrar</button><button class="key" data-act="key" data-v="0">0</button><button class="key go" data-act="check" aria-label="Comprobar">✓</button></div>`}</div>`;break;
 case"ord":case"b":{const used=new Set(X.built),sep=ex.k==="ord"?`<span class="arrow" aria-hidden="true">→</span>`:"";a=`<div class="built${ex.k==="b"?" word":""}">${X.built.length?X.built.map((id,j)=>`<button class="tile2 in" data-act="untile" data-v="${j}"${X.done?" disabled":""}>${esc(X.pool[id].t)}</button>`).join(sep):`<span class="ph">Toca las fichas en orden</span>`}</div>${X.done?"":`<div class="pool">${X.pool.map(p=>`<button class="tile2" data-act="tile" data-v="${p.id}"${used.has(p.id)?" disabled":""}>${esc(p.t)}</button>`).join("")}</div><div class="row center"><button class="btn ghost" data-act="clearb">Borrar todo</button><button class="btn" data-act="check"${X.built.length?"":" disabled"}>Comprobar</button></div>`}`;break}
 case"s":a=`<div class="sort">${X.items.map(it=>`<div class="srow${X.badRows.includes(it.id)&&!X.done?" bad":""}"><span class="sit">${it.t}</span><div class="sg">${ex.g.map((g,gi)=>`<button class="gbtn${X.done?(it.g===gi?" ok":""):(X.assign[it.id]===gi?" on":"")}" data-act="grp" data-v="${it.id}:${gi}"${X.done?" disabled":""}>${g}</button>`).join("")}</div></div>`).join("")}</div>${X.done?"":`<div class="row center"><button class="btn" data-act="check"${Object.keys(X.assign).length===X.items.length?"":" disabled"}>Comprobar</button></div>`}`;break}
 app(`<div class="phead" style="${sv(s)}"><button class="back" data-act="quit" aria-label="Salir de la práctica">${ui("back")}</button><div class="pbar" role="progressbar" aria-valuenow="${LS.i}" aria-valuemax="${tot}"><i style="width:${LS.i/tot*100}%"></i></div><span class="pcount">${LS.i+1}/${tot}</span></div>
-<article class="ecard" style="${sv(s)}"><div class="lc-top"><h2 class="q">${ex.q}</h2>${sayBtn(qText())}</div>${ex.v?`<div class="vis">${V(ex.v)}</div>`:""}${a}${fb()}</article>`)}
+<article class="ecard" style="${sv(s)}"><div class="lc-top"><h2 class="q">${ex.q}</h2>${sayBtn(qText())}</div>${ex.v&&!colMode(ex)?`<div class="vis">${V(ex.v)}</div>`:""}${a}${fb()}</article>`)}
 function fb(){const ex=X.ex;if(X.done&&X.ok)return`<div class="fb ok" role="status">${bird("sm")}<div><b>${X.msg}</b>${ex.w&&X.tries>0?`<p>${ex.w}</p>`:""}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.done)return`<div class="fb rev" role="status">${bird("sm")}<div><b>La respuesta es: ${esc(ansText(ex))}</b>${ex.w?`<p>${ex.w}</p>`:"<p>Ahora ya lo sabes. ¡La próxima vez te saldrá!</p>"}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.tries>0)return`<div class="fb try" role="status"><div><b>${X.msg}</b>${ex.w?`<p>Pista: ${ex.w}</p>`:""}</div></div>`;return""}
 function answer(ok){if(X.done)return;if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
 drawEx();const f=$(".fb");if(f)try{f.scrollIntoView({block:"nearest",behavior:"smooth"})}catch(e){}
 if(S.voice)say(X.done?(X.ok?X.msg:"La respuesta es "+ansText(X.ex)):X.msg+(X.ex.w?" Pista: "+X.ex.w:""))}
-function check(){const ex=X.ex;let ok=false;
+function check(){const ex=X.ex;let ok=false;if(colMode(ex))return colCheck();
 if(ex.k==="n"){if(!X.num)return;ok=+X.num===+ex.a;if(!ok)X.num=""}
 else if(ex.k==="ord")ok=X.built.length===ex.items.length&&X.built.every((id,j)=>X.pool[id].t===ex.items[j]);
 else if(ex.k==="b")ok=X.built.map(id=>X.pool[id].t).join("")===ex.a.join("");
@@ -277,7 +277,7 @@ next:()=>{LS.page++;learn();scrollTo(0,0)},prev:()=>{LS.page--;learn();scrollTo(
 practice:()=>practice(),retry:()=>practice(),relearn:()=>{LS.page=0;learn();scrollTo(0,0)},
 opt:v=>{const i=+v,o=X.opts[i];if(!o||X.done)return;if(o.ok)answer(true);else{X.bad.push(i);answer(false)}},
 tf:v=>{if(X.done)return;const b=v==="true";if(b===X.ex.a)answer(true);else{X.bad.push(v);answer(false)}},
-key:v=>{if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<5)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
+key:v=>{if(X&&X.col&&colMode(X.ex))return colKey(v);if(v==="del")X.num=X.num.slice(0,-1);else if(X.num.length<5)X.num=(X.num==="0"?"":X.num)+v;SND.tap();drawEx()},
 check:()=>check(),
 tile:v=>{if(!X.built.includes(+v))X.built.push(+v);SND.tap();drawEx()},
 untile:v=>{X.built.splice(+v,1);drawEx()},clearb:()=>{X.built=[];drawEx()},

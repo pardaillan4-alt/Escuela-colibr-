@@ -2,7 +2,7 @@
 GRADES.push([3,"3.º"]);
 VX.area=v=>{let s=`<svg viewBox="0 0 ${v.c*24+8} ${v.r*24+8}" width="${Math.min(320,v.c*30+10)}" class="areag" role="img" aria-label="Rectángulo de ${v.r} por ${v.c} cuadritos">`;for(let y=0;y<v.r;y++)for(let x=0;x<v.c;x++)s+=`<rect x="${4+x*24}" y="${4+y*24}" width="24" height="24"/>`;return s+"</svg>"};
 VX.rectp=v=>`<svg viewBox="0 0 220 150" width="260" class="rectp" role="img" aria-label="Rectángulo de ${v.w} por ${v.h}"><rect x="40" y="25" width="140" height="90" rx="3"/><text x="110" y="16" text-anchor="middle">${v.w} ${v.u||"cm"}</text><text x="110" y="140" text-anchor="middle">${v.w} ${v.u||"cm"}</text><text x="32" y="75" text-anchor="end">${v.h}</text><text x="188" y="75">${v.h}</text></svg>`;
-VX.pvt=v=>{const d=String(v.n).padStart(4,"0").split("");return`<table class="vert pvt" aria-label="Tabla de valor posicional"><tr><th>UM</th><th>C</th><th>D</th><th>U</th></tr><tr>${d.map(x=>`<td>${x}</td>`).join("")}</tr></table>`};
+VX.pvt=v=>{const d=String(v.n).padStart(4,"0").split("");return`<table class="vert vcol pvt" aria-label="Tabla de valor posicional"><tr class="vh"><th class="c3">UM</th><th class="c2">C</th><th class="c1">D</th><th class="c0">U</th></tr><tr>${d.map((x,k)=>`<td class="vc c${3-k}">${x}</td>`).join("")}</tr></table>`};
 VX.fracs=v=>`<div class="eq">${VX.frac({n:v.n1,k:v.k1,sh:"rect"})}<span class="op">${v.op||"y"}</span>${VX.frac({n:v.n2,k:v.k2,sh:"rect"})}</div>`;
 function words4(n){if(n<1000)return words3(n);const m=Math.floor(n/1000),r=n%1000;return(m===1?"mil":words(m).replace(/uno$/,"un")+" mil")+(r?" "+words3(r):"")}
 Object.assign(G,{
@@ -11,8 +11,8 @@ pv4w:()=>{const m=rnd(1,9),c=rnd(0,9),d=rnd(0,9),u=rnd(0,9);return N(`¿Qué nú
 nname4:()=>{const n=rnd(1001,9999),o=nOptsW(n,1000,9999,[-1000,1000,-100,100,-10,10]);return Math.random()<.5?C(`¿Qué número es «${words4(n)}»?`,o):C(`¿Cómo se escribe con letras el ${n}?`,o.map(words4))},
 cmp4:()=>{const a=rnd(1000,9999);let b=rnd(1000,9999);if(Math.random()<.5)b=+(String(a).slice(0,2)+String(rnd(10,99)));while(b===a)b=rnd(1000,9999);const big=Math.random()<.5;return C(`¿Cuál número es ${big?"mayor":"menor"}?`,[big?Math.max(a,b):Math.min(a,b),big?Math.min(a,b):Math.max(a,b)],null,"Compara cifra por cifra empezando por los millares.")},
 round:()=>{const t=pick([10,100]),n=t===10?rnd(11,989):rnd(110,9890),r=Math.round(n/t)*t;return C(`Redondea ${n} a la ${t===10?"decena":"centena"} más cercana.`,[r,r+t,Math.max(0,r-t)].map(String).filter((x,i,a)=>a.indexOf(x)===i),null,t===10?"Mira las unidades: si son 5 o más, sube.":"Mira las decenas: si son 5 o más, sube.")},
-add4:()=>{const a=rnd(120,780),b=rnd(110,999-a);return N(`${a} + ${b} = ?`,a+b,null,"Suma por columnas desde las unidades y no olvides lo que llevas.")},
-sub4:()=>{const a=rnd(300,999),b=rnd(101,a-50);return N(`${a} − ${b} = ?`,a-b,null,"Resta por columnas; si no alcanza, pide prestado a la columna de la izquierda.")},
+add4:()=>{const a=rnd(120,780),b=rnd(110,999-a);return N(`${a} + ${b} = ?`,a+b,{t:"vert",a,b,op:"+",hide:1},"Suma por columnas desde las unidades y no olvides lo que llevas.")},
+sub4:()=>{const a=rnd(300,999),b=rnd(101,a-50);return N(`${a} − ${b} = ?`,a-b,{t:"vert",a,b,op:"−",hide:1},"Resta por columnas; si no alcanza, pide prestado a la columna de la izquierda.")},
 mult69:()=>{const a=pick([6,7,8,9]),b=rnd(1,10);return N(`${a} × ${b} = ?`,a*b,b<=6&&a<=8?{t:"arr",r:b,c:a,s:"star"}:null,`Usa lo que sabes: ${a} × ${b} = ${a} × ${b-1} + ${a}.`)},
 multAll:()=>{const a=rnd(2,10),b=rnd(2,10);return N(`${a} × ${b} = ?`,a*b,null,"Si no la recuerdas, suma grupos iguales.")},
 mult2x1:()=>{const a=rnd(11,49),b=rnd(2,a<25?6:3);return N(`${a} × ${b} = ?`,a*b,{t:"vert",a,b,op:"×",hide:1},`Multiplica las unidades (${a%10} × ${b}) y luego las decenas (${Math.floor(a/10)*10} × ${b}); suma los resultados.`)},

@@ -17,6 +17,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Cada lección tiene dos partes:** *Aprende*, con dibujos y lectura en voz alta, y *Practica*, con ejercicios de opción múltiple, teclado numérico, formar palabras, ordenar y clasificar.
 - **Enfoque católico en todas las materias:** cada lección de Matemáticas, Español, Ciencias, Historia y Cívica incluye una página «Con los ojos de la fe» con sus propios ejercicios.
 - **Ejercicios que cambian:** en Matemáticas y en algunos temas de Español los ejercicios se generan cada vez, así que el niño puede repetir la práctica sin memorizar las respuestas.
+- **Operaciones en columnas como en papel:** el resultado se escribe en casillas debajo de cada columna, de derecha a izquierda, empezando por las unidades. Cada columna tiene un color fijo (unidades azul, decenas rojo, centenas verde, millares morado), hay casillas para lo que se lleva y se puede marcar la decena que se pide prestada.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -34,6 +35,7 @@ src/motor/motor.js           ← navegación, ejercicios, voz, estrellas, perfil
 src/motor/generadores-2.js   ← dibujos y ejercicios automáticos de 2.º
 src/motor/generadores-3.js   ← dibujos y ejercicios automáticos de 3.º
 src/motor/ilustraciones.js   ← biblioteca de ilustraciones y diseño de infografías
+src/motor/columnas.js        ← sumas, restas y multiplicaciones en columnas, con colores por columna
 src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de fe)
 src/grado2/*.js              ← temario de 2.º
 src/grado3/*.js              ← temario de 3.º (las infografías van dentro de cada lección)
@@ -65,7 +67,7 @@ En las preguntas de opción múltiple, la respuesta correcta siempre va primero.
 
 ## Regenerar los cuadernos
 
-Después de cambiar lecciones, ejecuta `./build.sh` y luego, dentro de `herramientas/cuadernos/`, `python3 assemble.py 1` (o 2, o 3). Se necesita Node con Playwright y Python con `pypdf` y `reportlab`. Para comprimir los PDF se usa `qpdf`.
+Después de cambiar lecciones, ejecuta `./build.sh` y luego, dentro de `herramientas/cuadernos/`, `python3 assemble.py 1` (o 2, o 3). Se necesita Node con Playwright y Python con `pypdf` y `reportlab`. Para comprimir los PDF y separarlos por materia, ejecuta `python3 finalize.py` dentro de `out/`; usa `qpdf`.
 
 ## Instalar en el celular como app
 

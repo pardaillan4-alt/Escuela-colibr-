@@ -96,3 +96,14 @@ h1,h2,h3{font-family:var(--display)}
 
 .wavoid,.cal{break-inside:avoid}
 .wsec>h3{break-after:avoid}
+
+/* Operaciones en columnas impresas */
+.vcol{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wvis .vcol td{width:44px;height:46px;font-size:30px}
+.wcols{display:grid;grid-template-columns:repeat(3,1fr);gap:6mm 4mm}
+.wcols>div{display:flex;justify-content:center;zoom:.72}
+.vcol td.vbox{background:#fff}
+.wvis .vcol{margin:0}
+.wex{flex-direction:row;flex-wrap:wrap;column-gap:8mm}
+.wex>li{width:100%}
+.wex>li:has(.vcol){width:calc(50% - 8mm)}
