@@ -27,6 +27,8 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 ```
 index.html                   ← la app completa, ya armada (se genera con build.sh)
 build.sh                     ← une los archivos de src/ en index.html
+manifest.webmanifest, sw.js  ← para instalarla como app y usarla sin internet
+iconos/                      ← íconos de la app
 src/head.html                ← estilos, íconos y estructura de la página
 src/motor/motor.js           ← navegación, ejercicios, voz, estrellas, perfiles
 src/motor/generadores-2.js   ← dibujos y ejercicios automáticos de 2.º
@@ -64,6 +66,15 @@ En las preguntas de opción múltiple, la respuesta correcta siempre va primero.
 ## Regenerar los cuadernos
 
 Después de cambiar lecciones, ejecuta `./build.sh` y luego, dentro de `herramientas/cuadernos/`, `python3 assemble.py 1` (o 2, o 3). Se necesita Node con Playwright y Python con `pypdf` y `reportlab`. Para comprimir los PDF se usa `qpdf`.
+
+## Instalar en el celular como app
+
+La app se puede instalar desde Chrome y abre a pantalla completa, sin la barra del navegador, y también funciona sin internet.
+
+1. Abre `https://pardaillan4-alt.github.io/Escuela-colibr-/` en Chrome.
+2. Toca el menú ⋮ y elige **Instalar app** (en algunos teléfonos dice **Agregar a la pantalla principal → Instalar**).
+
+En iPhone, abre la dirección en Safari, toca **Compartir** y elige **Agregar a inicio**.
 
 ## Publicar con GitHub Pages
 

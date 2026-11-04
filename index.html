@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}</style>
+<title>Escuelita Colibrí</title><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#1d8f4e"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Colibrí"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" href="iconos/apple-touch-icon.png"><link rel="icon" href="iconos/icono.svg" type="image/svg+xml">
 </head><body>
 <title>Escuelita Colibrí</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -2745,5 +2746,6 @@ SUBJ.forEach(s=>s.units.forEach(u=>u.ls.forEach(l=>{const f=INFO[l.id];if(!f||l.
 SUBJ.forEach(s=>s.units.forEach(u=>u.ls.forEach(l=>{const i=l.learn.findIndex(p=>p.info),f=l.learn.findIndex(p=>p.fe);if(i>f&&f>=0){const [x]=l.learn.splice(i,1);l.learn.splice(f,0,x)}})));
 
 init();
+if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}
 </script>
 </body></html>

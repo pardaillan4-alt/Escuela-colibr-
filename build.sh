@@ -11,12 +11,14 @@ JS=(src/motor/motor.js src/motor/generadores-2.js src/motor/generadores-3.js src
   echo '<!doctype html>'
   echo '<html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
   echo '<style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}</style>'
+  echo '<title>Escuelita Colibrí</title><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#1d8f4e"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Colibrí"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" href="iconos/apple-touch-icon.png"><link rel="icon" href="iconos/icono.svg" type="image/svg+xml">'
   echo '</head><body>'
   cat src/head.html
   echo '<script>'
   cat "${JS[@]}"
   echo
   echo 'init();'
+  echo 'if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}'
   echo '</script>'
   echo '</body></html>'
 } > index.html
