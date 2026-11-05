@@ -31,6 +31,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Educación Física:** 6 rutinas cortas guiadas con temporizador y voz (calentamiento, animales, equilibrio, fuerza, estiramiento y juegos tradicionales). No tienen examen; cuentan en la boleta por sus prácticas.
 - **Biblioteca:** 18 cuentos (6 por grado) de la Biblia, de santos y de valores. Cada uno tiene ilustraciones, lectura en voz alta, mapa del cuento (inicio, desarrollo y final), preguntas de comprensión y la página «Lee en voz alta», que mide las palabras por minuto contra la referencia de la SEP (1.º: 35 a 59; 2.º: 60 a 84; 3.º: 85 a 99). Las mediciones se ven en el «Registro de lectura» de la Zona de papás.
 - **Escribe con el dedo:** trazar vocales, letras, sílabas, palabras, frases y números sobre el renglón de cuatro líneas, con calificación de 1 a 3 estrellas según qué tanto se cubrió la letra sin salirse; cada 3 estrellas de trazo suman una estrella al álbum. Incluye dibujo libre con colores, grosores, goma y opción de guardar la imagen.
+- **Fotos y arte sacro:** las lecciones de Religión y Primera Comunión de 1.º a 3.º abren con una pintura clásica de dominio público (Murillo, El Greco, Rafael, Caravaggio, Rembrandt, Fra Angélico, entre otros) con su autor y título, y la misma obra encabeza la infografía. El álbum muestra la pintura o foto de 48 de sus 60 santos; los demás conservan la estampa dibujada. «Las plantas» (Ciencias, 1.º) tiene fotos reales de Unsplash y una lámina interactiva. Las imágenes se descargan de Wikimedia Commons y Unsplash la primera vez y luego quedan guardadas para usarse sin internet; en la Zona de papás, «Revisar imágenes» las descarga todas y avisa si alguna no abre.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -62,6 +63,8 @@ src/infografias/*.js         ← infografías de 1.º y 2.º, y el código que l
 src/talleres/ingles-arte-y-educacion-fisica.js ← Inglés, Arte y Música y Educación Física (para todos los grados)
 src/talleres/biblioteca.js   ← cuentos, comprensión lectora y medición de palabras por minuto
 src/talleres/escribe-con-el-dedo.js ← trazo de letras con el dedo y dibujo libre
+src/talleres/arte-sacro.js   ← pinturas de cada lección de Religión e imágenes de las estampas del álbum
+src/motor/fotos.js           ← fotos, lámina de la planta y viñetas de crecimiento
 ```
 
 ## Cómo agregar o cambiar contenido

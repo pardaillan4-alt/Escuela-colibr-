@@ -1,6 +1,6 @@
 /* ========= Fotos reales e ilustraciones detalladas (prueba en «Las plantas», 1.º) ========= */
 /* Foto con crédito; si no carga (sin internet la primera vez), se oculta sola */
-VX.photo=v=>`<figure class="photo${v.wide?" wide":""}"><img src="${v.src}" alt="${esc(v.alt)}" loading="lazy" decoding="async" onerror="this.closest('figure').classList.add('noimg')">${v.cap?`<figcaption>${v.cap}${v.cr?`<small>Foto: ${esc(v.cr)} · Unsplash</small>`:""}</figcaption>`:v.cr?`<figcaption><small>Foto: ${esc(v.cr)} · Unsplash</small></figcaption>`:""}</figure>`;
+VX.photo=v=>{const cr=v.credit?esc(v.credit):v.cr?`Foto: ${esc(v.cr)} · Unsplash`:"";return`<figure class="photo${v.wide?" wide":""}${v.art?" artw":""}"><img src="${v.src}" alt="${esc(v.alt)}" loading="lazy" decoding="async" onerror="this.closest('figure').classList.add('noimg')">${v.cap||cr?`<figcaption>${v.cap||""}${cr?`<small>${cr}</small>`:""}</figcaption>`:""}</figure>`};
 VX.combo=v=>`<div class="combo">${v.x.map(V).join("")}</div>`;
 const UNS=(id,w)=>`https://images.unsplash.com/${id}?fm=jpg&q=70&w=${w||1000}&auto=format&fit=crop`;
 /* --- Lámina: partes de la planta (se toca cada nombre) --- */
