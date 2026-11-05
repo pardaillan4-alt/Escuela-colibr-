@@ -7,7 +7,7 @@ JS=(src/motor/motor.js src/motor/generadores-2.js src/motor/generadores-3.js src
     src/grado2/mat.js src/grado2/esp.js src/grado2/cie.js src/grado2/his.js src/grado2/civ.js src/grado2/rel-y-comunion.js
     src/grado3/mat.js src/grado3/esp.js src/grado3/cie.js src/grado3/his.js src/grado3/civ.js src/grado3/rel-y-vida-de-fe.js
     src/infografias/grado1.js src/infografias/grado2-y-unir.js src/infografias/colores-de-columnas.js
-    src/talleres/ingles-arte-y-educacion-fisica.js src/talleres/biblioteca.js src/talleres/escribe-con-el-dedo.js src/talleres/arte-sacro.js src/talleres/laminas-y-pantalla-completa.js src/talleres/biografias-de-santos.js src/talleres/escuela-de-oracion.js src/talleres/misiones.js src/talleres/oraciones-finales.js src/talleres/vida-diaria.js src/talleres/ciencias-imagenes.js)
+    src/talleres/ingles-arte-y-educacion-fisica.js src/talleres/biblioteca.js src/talleres/escribe-con-el-dedo.js src/talleres/arte-sacro.js src/talleres/laminas-y-pantalla-completa.js src/talleres/biografias-de-santos.js src/talleres/escuela-de-oracion.js src/talleres/misiones.js src/talleres/oraciones-finales.js src/talleres/vida-diaria.js src/talleres/ciencias-imagenes.js src/talleres/biblioteca-imagenes.js src/talleres/laminas-del-cuerpo.js)
 {
   echo '<!doctype html>'
   echo '<html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
