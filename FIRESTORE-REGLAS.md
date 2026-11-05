@@ -1,26 +1,34 @@
-# Regla de Firestore para la Escuelita
+# Firebase de la Escuelita
 
-La Escuelita guarda el avance en el proyecto de Firebase **pulpito-pos**, en la colección `colibri`, en un documento propio de cada cuenta (`colibri/{uid}`). No usa ni modifica ninguna colección del punto de venta.
+La Escuelita guarda el avance en su propio proyecto de Firebase, **Escuela Colibrí** (`escuela-colibri`), en la colección `colibri`, con un documento por cuenta (`colibri/{uid}`). Está separado del proyecto del punto de venta.
 
-## Agregar la regla
+## Configuración (una sola vez)
 
-1. Entra a https://console.firebase.google.com y abre el proyecto **pulpito-pos**.
-2. Ve a **Firestore Database → Reglas**.
-3. Dentro del bloque `match /databases/{database}/documents { ... }`, junto a las reglas que ya tienes, pega esto:
+1. **Authentication → Método de acceso:** activa **Correo electrónico/contraseña**.
+2. **Authentication → Users → Agregar usuario:** crea la cuenta de la familia.
+3. **Firestore Database → Crear base de datos:** modo de producción, ubicación cercana a México (`nam5` o `us-central1`).
+4. **Firestore Database → Reglas:** reemplaza todo por esto y toca **Publicar**:
 
 ```
-    // Escuelita Colibrí: cada cuenta solo lee y escribe su propio documento
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
     match /colibri/{uid} {
       allow read, write: if request.auth != null && request.auth.uid == uid;
     }
+  }
+}
 ```
 
-4. Toca **Publicar**.
-
-No borres ni cambies las reglas del punto de venta: esta regla solo se agrega.
+Con esta regla, cada cuenta solo puede leer y escribir su propio documento.
 
 ## Si aparece algún error en la app
 
-- **«Correo o contraseña incorrectos»**: usa una cuenta que exista en **Authentication → Users**. Puedes crear una nueva para la familia con **Add user**.
-- **«Agrega pardaillan4-alt.github.io en Authorized domains»**: en **Authentication → Settings → Authorized domains**, toca **Add domain** y escribe `pardaillan4-alt.github.io`.
-- **«La clave de Firebase no permite esta página»**: en Google Cloud → APIs y servicios → Credenciales, abre la clave de navegador del proyecto y agrega `pardaillan4-alt.github.io/*` a los sitios web permitidos.
+- **«Correo o contraseña incorrectos»**: revisa que la cuenta exista en **Authentication → Users**.
+- **«Activa Correo/Contraseña»**: falta el paso 1.
+- **«Falta crear la base de datos»**: falta el paso 3.
+- **«Revisa la regla de la colección colibri»**: falta el paso 4, o la regla quedó distinta.
+- **«Agrega pardaillan4-alt.github.io en Authorized domains»**: en **Authentication → Configuración → Dominios autorizados**, agrega `pardaillan4-alt.github.io`.
+- **«La clave de Firebase no permite esta página»**: en Google Cloud → APIs y servicios → Credenciales, abre la clave de navegador del proyecto y agrega `pardaillan4-alt.github.io/*` a los sitios permitidos.
+
+Si antes agregaste la regla `match /colibri/{uid}` en el proyecto del punto de venta (pulpito-pos), ya puedes borrarla.

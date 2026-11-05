@@ -21,7 +21,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
-- **Dónde se guarda el progreso:** en el dispositivo y, si en la Zona de papás se entra con una cuenta de Firebase, también en la nube (proyecto pulpito-pos, colección `colibri`). Así todos los celulares y tabletas ven a los mismos niños con el mismo avance. La regla que hay que agregar en Firestore está en `FIRESTORE-REGLAS.md`.
+- **Dónde se guarda el progreso:** en el dispositivo y, si en la Zona de papás se entra con una cuenta de Firebase, también en la nube (proyecto de Firebase escuela-colibri, colección `colibri`). Así todos los celulares y tabletas ven a los mismos niños con el mismo avance. Los pasos para configurar Firebase están en `FIRESTORE-REGLAS.md`.
 
 ## Estructura
 
