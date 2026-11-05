@@ -20,6 +20,10 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Operaciones en columnas como en papel:** el resultado se escribe en casillas debajo de cada columna, de derecha a izquierda, empezando por las unidades. Cada columna tiene un color fijo (unidades azul, decenas rojo, centenas verde, millares morado), hay casillas para lo que se lleva y se puede marcar la decena que se pide prestada.
 - **Repaso inteligente:** cada pregunta que el niño falla a la primera se guarda y vuelve en el «Repaso del día» al día siguiente; si la acierta, regresa a los 1, 3 y 7 días, y después queda dominada.
 - **Seguimiento y boleta:** en la Zona de papás se ven los temas para reforzar (menos de 70% de aciertos a la primera), las preguntas que más falla cada niño y una boleta por trimestre o por ciclo escolar con calificación de 5 a 10, lista para imprimir.
+- **Plan de clases y calendario:** las lecciones de cada grado se reparten en el ciclo escolar (inicio, fin, días de clase, días festivos y vacaciones de la SEP, días libres de la familia). El inicio muestra «Hoy te toca» con la lección nueva, la hoja del cuaderno, la práctica o el examen de cada materia, y la Zona de papás muestra el plan semanal y si el niño va al día.
+- **Exámenes por unidad:** 10 preguntas de toda la unidad, calificación de 5 a 10; cuentan en la boleta.
+- **Hoy en la Iglesia:** tiempo litúrgico y su color, santo del día, Evangelio del domingo explicado para niños (ciclo B completo y fiestas) y la virtud de la semana.
+- **Álbum de santos:** 60 estampas coleccionables; se gana una cada 5 estrellas.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -38,6 +42,10 @@ src/motor/generadores-2.js   ← dibujos y ejercicios automáticos de 2.º
 src/motor/generadores-3.js   ← dibujos y ejercicios automáticos de 3.º
 src/motor/ilustraciones.js   ← biblioteca de ilustraciones y diseño de infografías
 src/motor/repaso-y-boleta.js ← repaso del día, temas para reforzar y boleta
+src/motor/plan-de-clases.js  ← calendario escolar, plan diario y exámenes por unidad
+src/motor/liturgia.js        ← tiempo litúrgico, santo del día, Evangelio del domingo y virtud de la semana
+src/motor/album-de-santos.js ← álbum de estampas de santos
+src/motor/paginas-cuaderno.js← página del cuaderno de cada lección (se genera con los cuadernos)
 src/motor/sincronizacion.js  ← guardar el avance en Firebase y unirlo entre dispositivos
 src/motor/columnas.js        ← sumas, restas y multiplicaciones en columnas, con colores por columna
 src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de fe)
