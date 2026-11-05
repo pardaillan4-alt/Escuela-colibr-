@@ -16,8 +16,8 @@ function logFirst(ok){if(!LS||LS.reto)return;const p=me(),ex=X.ex,now=Date.now()
  if(e&&!e.m){e.n++;e.b=0;e.due=dayStart(now)+DAY;e.last=now}else p.err[k]={ex:clean,lid,b:0,due:dayStart(now)+DAY,n:(e?e.n:0)+1,last:now};
  pruneErr(p)}
 function pruneErr(p){const E=Object.entries(p.err||{});if(E.length<=220)return;E.filter(([,e])=>e.m).sort((a,b)=>a[1].last-b[1].last).slice(0,E.length-200).forEach(([k])=>delete p.err[k])}
-function dueList(p){const now=Date.now();return Object.entries(p.err||{}).filter(([,e])=>!e.m&&e.due<=now&&LIDX[e.lid]&&(LIDX[e.lid].s.g||1)===(p.grade||1)).sort((a,b)=>a[1].due-b[1].due||b[1].n-a[1].n)}
-function pendingCount(p){return Object.values(p.err||{}).filter(e=>!e.m&&LIDX[e.lid]&&(LIDX[e.lid].s.g||1)===(p.grade||1)).length}
+function dueList(p){const now=Date.now();return Object.entries(p.err||{}).filter(([,e])=>!e.m&&e.due<=now&&LIDX[e.lid]&&(LIDX[e.lid].s.all||(LIDX[e.lid].s.g||1)===(p.grade||1))).sort((a,b)=>a[1].due-b[1].due||b[1].n-a[1].n)}
+function pendingCount(p){return Object.values(p.err||{}).filter(e=>!e.m&&LIDX[e.lid]&&(LIDX[e.lid].s.all||(LIDX[e.lid].s.g||1)===(p.grade||1))).length}
 function startReview(){const p=me(),D=dueList(p).slice(0,REV_MAX);if(!D.length)return home();
  LS={review:true,s:LIDX[D[0][1].lid].s,l:{t:"Repaso del día"},list:shuf(D.map(([k,e])=>Object.assign(JSON.parse(JSON.stringify(e.ex)),{__k:k,__lid:e.lid}))),i:0,first:0,mast0:Object.values(p.err).filter(e=>e.m).length};newEx()}
 function reviewFinish(){const p=me(),tot=LS.list.length,f=LS.first,mast=Object.values(p.err||{}).filter(e=>e.m).length-LS.mast0,left=dueList(p).length;save();SND.win();

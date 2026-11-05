@@ -11,6 +11,8 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 | 1.º | Matemáticas, Español, Ciencias Naturales, Historia y Geografía, Cívica y Valores, Religión Católica, Primera Comunión | 84 |
 | 2.º | Las mismas siete materias | 79 |
 | 3.º | Las mismas, con «Vida de fe» en lugar de Primera Comunión | 67 |
+| Todos | Inglés (3 niveles: el plan de cada grado usa su nivel), Arte y Música, Educación Física | 35 |
+| Cada grado | Biblioteca: 6 cuentos con comprensión lectora y medición de fluidez | 18 |
 
 - **Infografías ilustradas:** cada una de las 230 lecciones tiene una infografía con ilustraciones propias, en cinco diseños: ciclo, pasos, comparación, datos clave y cuadrícula. Todas incluyen una frase de fe. Cada materia tiene una galería para repasarlas juntas.
 - **Cuadernos para imprimir:** en la carpeta `cuadernos/` hay un cuaderno de trabajo en PDF para cada grado (tamaño carta). Incluye portada, índice con páginas, una hoja por lección con infografía, ejercicios para lápiz y papel, caligrafía en Español, operaciones en Matemáticas, recuadro para dibujar en Ciencias e Historia, sección de fe y solucionario al final. En `cuadernos/por-materia/` está cada materia por separado.
@@ -24,6 +26,11 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Exámenes por unidad:** 10 preguntas de toda la unidad, calificación de 5 a 10; cuentan en la boleta.
 - **Hoy en la Iglesia:** tiempo litúrgico y su color, santo del día, Evangelio del domingo explicado para niños (ciclo B completo y fiestas) y la virtud de la semana.
 - **Álbum de santos:** 60 estampas coleccionables; se gana una cada 5 estrellas.
+- **Inglés:** 18 lecciones en 3 niveles (saludos, colores, números, familia, animales, cuerpo, comida, escuela, días, ropa, casa, verbos, clima, sentimientos y oficios), con tarjetas que se escuchan en inglés, ejercicios de «escucha y elige» y las oraciones en inglés: la Señal de la Cruz, el Gloria, el Ave María, el Ángel de la Guarda, la bendición de la mesa y el Padre Nuestro.
+- **Arte y Música:** colores, formas, retrato, arte popular mexicano y arte sacro (vitrales, íconos, símbolos de la imagen de Guadalupe); sonido, ritmos con «ta» y «ti-ti» que se escuchan, instrumentos, la música en la Misa y música de México.
+- **Educación Física:** 6 rutinas cortas guiadas con temporizador y voz (calentamiento, animales, equilibrio, fuerza, estiramiento y juegos tradicionales). No tienen examen; cuentan en la boleta por sus prácticas.
+- **Biblioteca:** 18 cuentos (6 por grado) de la Biblia, de santos y de valores. Cada uno tiene ilustraciones, lectura en voz alta, mapa del cuento (inicio, desarrollo y final), preguntas de comprensión y la página «Lee en voz alta», que mide las palabras por minuto contra la referencia de la SEP (1.º: 35 a 59; 2.º: 60 a 84; 3.º: 85 a 99). Las mediciones se ven en el «Registro de lectura» de la Zona de papás.
+- **Escribe con el dedo:** trazar vocales, letras, sílabas, palabras, frases y números sobre el renglón de cuatro líneas, con calificación de 1 a 3 estrellas según qué tanto se cubrió la letra sin salirse; cada 3 estrellas de trazo suman una estrella al álbum. Incluye dibujo libre con colores, grosores, goma y opción de guardar la imagen.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -52,6 +59,9 @@ src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de f
 src/grado2/*.js              ← temario de 2.º
 src/grado3/*.js              ← temario de 3.º (las infografías van dentro de cada lección)
 src/infografias/*.js         ← infografías de 1.º y 2.º, y el código que las inserta
+src/talleres/ingles-arte-y-educacion-fisica.js ← Inglés, Arte y Música y Educación Física (para todos los grados)
+src/talleres/biblioteca.js   ← cuentos, comprensión lectora y medición de palabras por minuto
+src/talleres/escribe-con-el-dedo.js ← trazo de letras con el dedo y dibujo libre
 ```
 
 ## Cómo agregar o cambiar contenido
@@ -78,6 +88,9 @@ L("2m6", "Título de la lección", [
 En las preguntas de opción múltiple, la respuesta correcta siempre va primero. La app revuelve las opciones al mostrarlas.
 
 ## Regenerar los cuadernos
+
+Los cuadernos impresos cubren las siete materias de cada grado; Inglés, Arte y Música, Educación Física y la Biblioteca se trabajan solo en la app.
+
 
 Después de cambiar lecciones, ejecuta `./build.sh` y luego, dentro de `herramientas/cuadernos/`, `python3 assemble.py 1` (o 2, o 3). Se necesita Node con Playwright y Python con `pypdf` y `reportlab`. Para comprimir los PDF y separarlos por materia, ejecuta `python3 finalize.py` dentro de `out/`; usa `qpdf`.
 

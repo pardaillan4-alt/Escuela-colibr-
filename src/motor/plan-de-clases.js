@@ -3,7 +3,7 @@
    Cada materia tiene días fijos en la semana; sus lecciones (y un examen al final de cada unidad)
    se reparten en esas sesiones entre el inicio y el fin del ciclo.
    Cada lección ocupa varias sesiones: lección nueva → hoja del cuaderno → práctica y repaso. */
-const WEEKSUB={1:["mat","esp","cie","rel"],2:["mat","esp","his","com"],3:["mat","esp","cie","civ"],4:["mat","esp","his","rel"],5:["mat","esp","civ","com"],6:["mat","esp","cie","his"],0:["rel","com"]};
+const WEEKSUB={1:["mat","esp","cie","rel","ef"],2:["mat","esp","his","com","ing","lec"],3:["mat","esp","cie","civ","ef"],4:["mat","esp","his","rel","ing","lec"],5:["mat","esp","civ","com","art","ef"],6:["mat","esp","cie","his","lec"],0:["rel","com"]};
 const DIAS=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
 const ds=d=>{const x=new Date(d);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")};
 const pd=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d,12)};
@@ -21,12 +21,12 @@ function schoolDays(){const c=planCfg(),key=JSON.stringify(c);if(PCACHE.k===key)
  if(c.hol){const y0=cicloOf(pd(c.start));for(const y of[y0-1,y0,y0+1])holidays(y).forEach(([d,t])=>off.set(d,t))}(c.off||[]).forEach(d=>off.set(d,"Día libre"));
  const days=[];for(let d=pd(c.start),e=pd(c.end);d<=e;d=addD(d,1)){if(c.days.includes(d.getDay())&&!off.has(ds(d)))days.push(ds(d))}
  PCACHE={k:key,days,off,plans:{}};return PCACHE}
-function subjItems(s){const it=[];s.units.forEach((u,ui)=>{u.ls.forEach(l=>it.push({l}));it.push({exam:ui,u})});return it}
+function subjItems(s,g){const it=[];s.units.forEach((u,ui)=>{if(s.lvl&&g&&ui!==Math.min(g,s.units.length)-1)return;u.ls.forEach(l=>it.push({l}));if(!s.noExam)it.push({exam:ui,u})});return it}
 function gradePlan(g){const P=schoolDays();if(P.plans[g])return P.plans[g];const out={};
- gSubj(g).forEach(s=>{const c=s.c||s.id,sess=P.days.map((d,i)=>[d,i]).filter(([d])=>(WEEKSUB[pd(d).getDay()]||[]).includes(c)),items=subjItems(s),N=items.length,M=sess.length,map={};
+ gSubj(g).forEach(s=>{const c=s.c||s.id,sess=P.days.map((d,i)=>[d,i]).filter(([d])=>(WEEKSUB[pd(d).getDay()]||[]).includes(c)),items=subjItems(s,g),N=items.length,M=sess.length,map={};
   if(!M){out[c]={s,map,first:{}};return}
   const first={};
-  if(M>=N){let prev=-1,j=0;sess.forEach(([d],i)=>{const k=Math.floor(i*N/M);j=k===prev?j+1:0;prev=k;const it=items[k];map[d]=[{...it,kind:it.exam!=null?(j?"repexam":"exam"):j===0?"new":j===1?"cuad":"prac"}];if(j===0&&it.l)first[it.l.id]=d})}
+  if(M>=N){let prev=-1,j=0;sess.forEach(([d],i)=>{const k=Math.floor(i*N/M);j=k===prev?j+1:0;prev=k;const it=items[k];map[d]=[{...it,kind:it.exam!=null?(j?"repexam":"exam"):j===0?"new":j===1&&!s.noCuad?"cuad":"prac"}];if(j===0&&it.l)first[it.l.id]=d})}
   else sess.forEach(([d],i)=>{const a=Math.floor(i*N/M),b=Math.floor((i+1)*N/M);map[d]=items.slice(a,Math.max(b,a+1)).map(it=>({...it,kind:it.exam!=null?"exam":"new"}));map[d].forEach(it=>{if(it.l)first[it.l.id]=d})});
   out[c]={s,map,first}});
  P.plans[g]=out;return out}
