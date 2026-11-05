@@ -35,6 +35,9 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Más imágenes y láminas interactivas en Religión:** casi todas las páginas de Religión y Primera Comunión tienen su propia pintura (186 de 205). Hay tres láminas que se tocan: el templo (altar, sagrario, ambón, pila bautismal y más), el rosario (se reza cuenta por cuenta con los misterios del día) y los colores litúrgicos (se viste al sacerdote con cada color).
 - **Pantalla completa:** al tocar cualquier foto o pintura, se abre en grande y la voz lee la explicación de esa página. Al tocarla otra vez se amplía.
 - **Biografías de santos:** cada una de las 60 estampas del álbum tiene la vida del santo contada para niños y «Lo que aprendo», con lectura en voz alta.
+- **Escuela de oración («Mi rincón de oración»):** seis lecciones para aprender a orar (qué es orar, dónde y cómo, las cuatro formas, rezar con la Biblia, mañana y noche, rezar con María); seis oraciones guiadas por voz con ratitos de silencio (mañana, noche con examen de conciencia, cuatro formas, lectio divina, visita a Jesús y una decena del rosario); 18 oraciones para aprender de memoria y un diario de oración con acciones de gracias y peticiones. Cuenta los días seguidos rezando.
+- **Oración final:** cada lección de Religión, Primera Comunión y Escuela de oración termina con una oración sobre el tema, al final de «Aprende» y en la pantalla de resultados. Cada santo del álbum tiene su oración.
+- **Misiones:** cada una de esas lecciones trae una tarea para vivir lo aprendido (hacer el examen de conciencia y confesarse, una obra de misericordia, ir a Misa, visitar a Jesús en el sagrario…). El niño la acepta, la marca cuando la cumple y gana una estrella; los papás ven las misiones en la Zona de papás.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -69,6 +72,9 @@ src/talleres/escribe-con-el-dedo.js ← trazo de letras con el dedo y dibujo lib
 src/talleres/arte-sacro.js   ← pinturas de cada página de Religión e imágenes de las estampas del álbum
 src/talleres/laminas-y-pantalla-completa.js ← láminas del templo, el rosario y los colores litúrgicos; ver imágenes en grande
 src/talleres/biografias-de-santos.js ← vida de los 60 santos del álbum
+src/talleres/escuela-de-oracion.js ← lecciones de oración, oraciones guiadas, mis oraciones y diario
+src/talleres/misiones.js     ← tareas prácticas de cada lección de fe
+src/talleres/oraciones-finales.js ← oración final de cada lección y oración de cada santo
 src/motor/fotos.js           ← fotos, lámina de la planta y viñetas de crecimiento
 ```
 

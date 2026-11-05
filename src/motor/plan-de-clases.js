@@ -3,7 +3,7 @@
    Cada materia tiene días fijos en la semana; sus lecciones (y un examen al final de cada unidad)
    se reparten en esas sesiones entre el inicio y el fin del ciclo.
    Cada lección ocupa varias sesiones: lección nueva → hoja del cuaderno → práctica y repaso. */
-const WEEKSUB={1:["mat","esp","cie","rel","ef"],2:["mat","esp","his","com","ing","lec"],3:["mat","esp","cie","civ","ef"],4:["mat","esp","his","rel","ing","lec"],5:["mat","esp","civ","com","art","ef"],6:["mat","esp","cie","his","lec"],0:["rel","com"]};
+const WEEKSUB={1:["mat","esp","cie","rel","ef"],2:["mat","esp","his","com","ing","lec"],3:["mat","esp","cie","civ","ef"],4:["mat","esp","his","rel","ing","lec"],5:["mat","esp","civ","com","art","ef"],6:["mat","esp","cie","his","lec"],0:["rel","com","ora"]};
 const DIAS=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
 const ds=d=>{const x=new Date(d);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")};
 const pd=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d,12)};
