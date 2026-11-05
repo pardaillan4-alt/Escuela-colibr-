@@ -21,7 +21,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
-- **Dónde se guarda el progreso:** solo en el navegador del dispositivo donde se usa.
+- **Dónde se guarda el progreso:** en el dispositivo y, si en la Zona de papás se entra con una cuenta de Firebase, también en la nube (proyecto pulpito-pos, colección `colibri`). Así todos los celulares y tabletas ven a los mismos niños con el mismo avance. La regla que hay que agregar en Firestore está en `FIRESTORE-REGLAS.md`.
 
 ## Estructura
 
@@ -35,6 +35,7 @@ src/motor/motor.js           ← navegación, ejercicios, voz, estrellas, perfil
 src/motor/generadores-2.js   ← dibujos y ejercicios automáticos de 2.º
 src/motor/generadores-3.js   ← dibujos y ejercicios automáticos de 3.º
 src/motor/ilustraciones.js   ← biblioteca de ilustraciones y diseño de infografías
+src/motor/sincronizacion.js  ← guardar el avance en Firebase y unirlo entre dispositivos
 src/motor/columnas.js        ← sumas, restas y multiplicaciones en columnas, con colores por columna
 src/grado1/*.js              ← temario de 1.º (fe.js agrega las páginas de fe)
 src/grado2/*.js              ← temario de 2.º

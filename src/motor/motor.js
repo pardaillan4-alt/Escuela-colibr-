@@ -75,10 +75,10 @@ coins:()=>{let x=[],s=0;const n=rnd(2,4);for(let i=0;i<n;i++){const c=pick(s<10?
 
 /* ========= Estado ========= */
 const PC=["#2463c8","#d2383f","#1d8c5c","#c95f0e","#6f45c0","#1a7fa3"];
-function newProfile(name,ci){return{id:"p"+Date.now().toString(36)+rnd(100,999),name,ci:ci||0,prog:{},reto:0}}
+function newProfile(name,ci){return{id:"p"+Date.now().toString(36)+rnd(100,999),name,ci:ci||0,prog:{},reto:0,upd:Date.now()}}
 function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||"null");if(j&&Array.isArray(j.profiles)&&j.profiles.length)return Object.assign({voice:true,fx:true,theme:"auto"},j)}catch(e){}const p=newProfile("Explorador",0);return{profiles:[p],cur:p.id,voice:true,fx:true,theme:"auto"}}
 let S=null;
-function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}syncPush()}
 function me(){return S.profiles.find(p=>p.id===S.cur)||S.profiles[0]}
 const LIDX={};
 function indexAll(){SUBJ.forEach(s=>s.units.forEach(u=>u.ls.forEach(l=>{LIDX[l.id]={s,l}})))}
@@ -252,7 +252,7 @@ function closeSheet(){$("#sheet").hidden=true;GATE=null}
 function profSheet(){sheet(`<h2>¿Quién va a estudiar?</h2><div class="plist">${S.profiles.map(p=>`<button class="prow${p.id===S.cur?" on":""}" data-act="setp" data-v="${p.id}"><span class="avatar" style="background:${PC[p.ci%PC.length]}">${esc((p.name[0]||"?").toUpperCase())}</span><span>${esc(p.name)}</span><small>${icon("star",18)} ${totalStars(p)}</small></button>`).join("")}</div><p class="note">Para agregar niños o cambiar nombres, entra a la zona de Papás.</p><button class="btn ghost" data-act="close" style="--sc:var(--mat)">Cerrar</button>`)}
 function gate(){GATE={a:rnd(6,9),b:rnd(6,9),v:"",msg:""};drawGate()}
 function drawGate(){sheet(`<h2>Zona de papás</h2><p>Para entrar, resuelve esta multiplicación: <b>${GATE.a} × ${GATE.b}</b></p><div class="numbox">${GATE.v||"&nbsp;"}</div><p class="gate-msg" role="status">${GATE.msg}</p><div class="keypad">${[1,2,3,4,5,6,7,8,9].map(k=>`<button class="key" data-act="gk" data-v="${k}">${k}</button>`).join("")}<button class="key alt" data-act="gk" data-v="del">Borrar</button><button class="key" data-act="gk" data-v="0">0</button><button class="key go" data-act="gk" data-v="ok" aria-label="Entrar">✓</button></div><button class="btn ghost" data-act="close" style="--sc:var(--mat)">Cancelar</button>`)}
-function parents(){LS=null;begin();const p=me();
+function parents(){LS=null;begin();MODE="parents";const p=me();
 const rows=GRADES.map(([g,gt])=>`<tr><th colspan="4">${gt} grado${g===curG()?" (actual)":""}</th></tr>`+gSubj(g).map(s=>{const pr=subjProg(s),st=allLessons(s).reduce((a,l)=>a+((p.prog[l.id]||{}).stars||0),0);return`<tr><td><span class="sw" style="background:var(--${s.c||s.id})"></span>${s.n}</td><td>${s.campo}</td><td class="nm">${pr.d} / ${pr.t}</td><td class="nm">${st} / ${pr.t*3}</td></tr>`}).join("")).join("");
 const recent=Object.entries(p.prog).filter(([id])=>LIDX[id]).sort((a,b)=>(b[1].last||0)-(a[1].last||0)).slice(0,6);
 let fm=d=>{try{return new Date(d).toLocaleDateString("es-MX",{day:"numeric",month:"short"})}catch(e){return""}};
@@ -263,7 +263,7 @@ ${recent.length?`<h3>Últimas lecciones</h3><ul class="tips">${recent.map(([id,r
 <form id="addp" class="addp"><label for="pname">Agregar un niño o niña</label><div class="row"><input id="pname" maxlength="20" placeholder="Nombre" autocomplete="off"><button class="btn" type="submit" style="--sc:var(--mat)">Agregar</button></div></form>
 <form id="renp" class="addp"><label for="rname">Cambiar el nombre de ${esc(p.name)}</label><div class="row"><input id="rname" maxlength="20" value="${esc(p.name)}" autocomplete="off"><button class="btn ghost" type="submit" style="--sc:var(--mat)">Guardar</button></div></form></section>
 <section class="panel"><h2>Cuadernos para imprimir</h2><p>Hojas de trabajo de todas las lecciones, con infografía, ejercicios, caligrafía, dibujo, sección de fe y solucionario al final. Tamaño carta.</p><div class="row">${GRADES.map(([n,t])=>`<a class="btn" style="--sc:var(--mat)" href="${CUAD}Cuaderno-${n}o-primaria.pdf" target="_blank" rel="noopener">Cuaderno de ${t}</a>`).join("")}</div><p class="note">Abre el PDF y usa la opción de imprimir de tu navegador. En el índice vienen las páginas de cada materia para imprimir solo una. También hay un archivo por materia en la carpeta «por-materia» del repositorio.</p></section>
-<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
+${syncPanel()}<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
 <section class="panel"><h2>Cómo usar la Escuelita</h2><ul class="tips"><li>Dediquen de 20 a 30 minutos por materia. Matemáticas y Español, todos los días; las demás materias se van turnando en el «Plan de hoy».</li><li>Lean juntos la parte de «Aprende» y luego dejen que el niño practique solo.</li><li>Con 1 o 2 estrellas, repitan la práctica otro día. En Matemáticas los ejercicios cambian cada vez.</li><li>Complementen con cuaderno: copiar las palabras nuevas y resolver las sumas a mano.</li><li>Las lecciones siguen los temas de 1.º de primaria de la SEP. Todas las materias se enseñan desde la fe católica: cada lección termina con una página «Con los ojos de la fe» y sus ejercicios. Religión y Primera Comunión siguen el Catecismo de la Iglesia Católica.</li><li>Empiecen cada día con la oración al Espíritu Santo que aparece en el inicio.</li></ul></section>
 <section class="panel"><h2>Reiniciar progreso</h2><p>Borra las estrellas y lecciones de ${esc(p.name)}. Los demás niños no cambian.</p><div class="row">${PCONF==="reset"?`<button class="btn warn" data-act="doreset">Sí, borrar su progreso</button><button class="btn ghost" data-act="nodel" style="--sc:var(--mat)">No</button>`:`<button class="btn warn" data-act="askreset">Reiniciar progreso</button>`}</div></section>`);}
 
@@ -287,7 +287,7 @@ quit:()=>LS&&!LS.reto?subj(LS.s.id):home(),
 say:v=>say(SAY[+v],true),
 reto:()=>reto(),
 gal:v=>gallery(v),
-grade:v=>{me().grade=+v;save();home()},
+grade:v=>{me().grade=+v;me().upd=Date.now();save();home()},
 theme:()=>{S.theme=isDark()?"light":"dark";save();applyTheme();drawTop()},
 voice:()=>{S.voice=!S.voice;save();if(!S.voice)try{speechSynthesis.cancel()}catch(e){}drawTop()},
 profiles:()=>profSheet(),setp:v=>{S.cur=v;save();closeSheet();home()},close:()=>closeSheet(),
@@ -295,13 +295,13 @@ parents:()=>gate(),
 gk:v=>{if(v==="del")GATE.v=GATE.v.slice(0,-1);else if(v==="ok"){if(+GATE.v===GATE.a*GATE.b){closeSheet();PCONF=null;parents();scrollTo(0,0);return}GATE.v="";GATE.msg="Esa no es. Inténtalo otra vez."}else if(GATE.v.length<3)GATE.v+=v;drawGate()},
 setp2:v=>{S.cur=v;PCONF=null;save();parents()},
 askdel:v=>{PCONF=v;parents()},nodel:()=>{PCONF=null;parents()},
-delp:v=>{S.profiles=S.profiles.filter(p=>p.id!==v);if(S.cur===v)S.cur=S.profiles[0].id;PCONF=null;save();parents()},
-askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;PCONF=null;save();parents()}
+delp:v=>{S.del=[...(S.del||[]),v];S.profiles=S.profiles.filter(p=>p.id!==v);if(S.cur===v)S.cur=S.profiles[0].id;PCONF=null;save();parents()},
+askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;p.rst=Date.now();PCONF=null;save();parents()}
 };
 
 function init(){S=load();applyTheme();try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{if(S.theme==="auto")drawTop()})}catch(e){}indexAll();loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
 document.addEventListener("click",e=>{if(e.target.id==="sheet"){closeSheet();return}const b=e.target.closest("[data-act]");if(!b||b.disabled)return;const f=ACT[b.dataset.act];if(f)f(b.dataset.v,b,e)});
-document.addEventListener("submit",e=>{e.preventDefault();if(e.target.id==="addp"){const n=$("#pname").value.trim();if(n){const pr=newProfile(n,S.profiles.length);S.profiles.push(pr);save();parents()}}if(e.target.id==="renp"){const n=$("#rname").value.trim();if(n){me().name=n;save();parents()}}});
+document.addEventListener("submit",e=>{e.preventDefault();if(e.target.id==="addp"){const n=$("#pname").value.trim();if(n){const pr=newProfile(n,S.profiles.length);S.profiles.push(pr);save();parents()}}if(e.target.id==="renp"){const n=$("#rname").value.trim();if(n){me().name=n;me().upd=Date.now();save();parents()}}});
 document.addEventListener("change",e=>{if(e.target.id==="optvoice"){S.voice=e.target.checked;save();drawTop()}if(e.target.id==="optfx"){S.fx=e.target.checked;save()}if(e.target.name==="optheme"){S.theme=e.target.value;save();applyTheme();drawTop()}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#sheet").hidden)closeSheet();if(MODE==="prac"&&X&&!X.done&&X.ex.k==="n"&&$("#sheet").hidden){if(/^[0-9]$/.test(e.key))ACT.key(e.key);else if(e.key==="Backspace")ACT.key("del");else if(e.key==="Enter")check()}});
-home()}
+home();syncBoot()}
