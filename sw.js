@@ -1,6 +1,6 @@
 // Escuelita Colibrí: guarda la app para que funcione sin internet.
 // La página se pide primero a la red (para recibir actualizaciones) y, si no hay conexión, se usa la copia guardada.
-const CACHE = "colibri-v14";
+const CACHE = "colibri-v15";
 const FOTOS = "colibri-fotos"; // las fotos se guardan aparte y no se borran al actualizar
 const ARCHIVOS = ["./", "./index.html", "./manifest.webmanifest", "./iconos/icon-192.png", "./iconos/icon-512.png", "./iconos/apple-touch-icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARCHIVOS)).then(() => self.skipWaiting())); });
