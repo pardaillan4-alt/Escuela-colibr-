@@ -46,6 +46,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Historia con pinturas y láminas:** retratos de Hidalgo, Morelos, Juárez y Madero, la entrada del Ejército Trigarante, la Batalla de Puebla, paisajes de José María Velasco, Teotihuacán, Chichén Itzá, Palenque, Monte Albán y más. Láminas que se tocan: mapa de México (océanos, penínsulas, sierras, volcanes, Río Bravo, CDMX), rosa de los vientos, línea del tiempo de México, árbol de la familia, croquis de la comunidad con simbología, formas del relieve, la Bandera, los medios de transporte y el juego «¿Dónde está el gatito?» para arriba/abajo, dentro/fuera, delante/detrás, derecha/izquierda.
 - **Ciencias, más láminas:** ciclo de vida de la mariposa monarca, cadena alimentaria, estados del agua con termómetro (enfriar y calentar) y fases de la Luna.
 - **«En mi vida diaria» en todas las materias:** 105 escenas nuevas para Matemáticas, Ciencias e Historia de 1.º a 3.º.
+- **Música de fondo opcional:** botón «Música» en la barra de arriba (y en la Zona de papás) para encender o apagar música clásica suave, cambiar de canción y ajustar el volumen. La música baja sola cuando habla la voz y se pausa al salir de la app. Está apagada al empezar y necesita internet para sonar.
 - **Biblioteca con imágenes:** los 18 cuentos tienen pinturas y fotos en sus páginas (Tissot, Rembrandt, El Greco, Sassetta, Miguel Cabrera, Veronés…), en «¿Qué nos enseña?» y en el mapa del cuento. «Revisar imágenes» ahora revisa también las de Ciencias y la Biblioteca.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
@@ -131,3 +132,18 @@ En iPhone, abre la dirección en Safari, toca **Compartir** y elige **Agregar a 
 ## Publicar con GitHub Pages
 
 En **Settings → Pages**, elige la rama `main` y la carpeta `/ (root)`. La app queda disponible en `https://pardaillan4-alt.github.io/Escuela-colibr-/` (con **E** mayúscula, igual que el nombre del repositorio).
+
+## Créditos de la música
+
+Diez grabaciones de obras de dominio público (carpeta `music/`), las mismas de la app de ajedrez:
+
+| Obra | Compositor | Grabación |
+|---|---|---|
+| La mañana (Peer Gynt) | Grieg | Czech National Symphony Orchestra, Musopen. Dominio público |
+| La Primavera (Las cuatro estaciones), I | Vivaldi | Musopen. Dominio público |
+| Nocturno Op. 9 n.º 2 | Chopin | Aya Higuchi. Dominio público |
+| Nocturno Op. 9 n.º 1 | Chopin | |
+| Claro de luna, I. Adagio sostenuto | Beethoven | |
+| Minueto (Sonata n.º 11) | Mozart | |
+| Canon y Giga en Re | Pachelbel | Chamber Music Society of Lincoln Center (Isabella Stewart Gardner Museum). Licencia Creative Commons, sin modificar |
+| Marcha, Danza de los mirlitones y Danza china (El Cascanueces) | Chaikovski | |
