@@ -411,6 +411,41 @@ table.prog th[colspan]{font:800 17px var(--display);text-transform:none;letter-s
 .syncok{display:flex;gap:10px;align-items:flex-start;margin:0}
 .syncok .art{flex:none}
 .addp input[type=email],.addp input[type=password]{min-height:50px;border:2px solid var(--line);border-radius:12px;padding:8px 12px;font:18px var(--body);background:var(--paper);color:var(--ink)}
+.reto.rev{border:2px solid var(--sun);border-style:solid;background:color-mix(in srgb,var(--sun) 12%,var(--card))}
+.reto.rev.done{border-style:dashed;background:var(--card)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.kpis div{background:var(--chip);border-radius:14px;padding:10px;text-align:center;display:flex;flex-direction:column;gap:2px}
+.kpis b{font:800 28px var(--display);font-variant-numeric:tabular-nums;color:var(--mat)}
+.kpis span{font-size:13px;color:var(--soft);line-height:1.2}
+.panel h3{margin-top:6px}
+.weak{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.weak li{display:flex;align-items:center;gap:10px;border:2px solid var(--line);border-radius:14px;padding:8px 10px}
+.weak li>div{flex:1;min-width:0;display:flex;flex-direction:column}
+.weak small{color:var(--soft);font-size:13px}
+.wdot{width:12px;height:12px;border-radius:50%;background:var(--sc);flex:none}
+.bper{gap:6px}.bper .gbtn{font-size:14px}
+.boleta{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:16px}
+.boleta header{display:flex;flex-direction:column;gap:12px;border-bottom:3px solid var(--mat);padding-bottom:12px}
+.boleta header>div{display:flex;align-items:center;gap:10px}
+.boleta header .bird{width:56px;height:47px;flex:none}
+.boleta dl{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px 16px}
+.boleta dt{font:700 12px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.boleta dd{margin:0;font-weight:700}
+.bt{width:100%;border-collapse:collapse;font-size:16px}
+.bt th{text-align:left;font:700 12px var(--body);letter-spacing:.05em;text-transform:uppercase;color:var(--soft);padding:6px;border-bottom:2px solid var(--line)}
+.bt td{padding:8px 6px;border-bottom:1px solid var(--line)}
+.bt .cal{font:800 18px var(--display);text-align:right}
+.bt .cal.low{color:var(--bad)}
+.bt tfoot td{font-weight:800;border-bottom:0;border-top:2px solid var(--ink)}
+.bobs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){.bobs{grid-template-columns:1fr}.bt{font-size:14px}.bt td,.bt th{padding:6px 4px}.boleta{padding:16px}}
+.bobs ul{margin:4px 0 0;padding-left:20px}
+.bnote{font-size:13px;color:var(--soft);margin:0}
+.bfirm{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px;font-size:13px;color:var(--soft);text-align:center}
+.bfirm span{display:block;border-bottom:1.5px solid var(--ink);height:36px;margin-bottom:4px}
+.bbless{display:flex;gap:6px;align-items:flex-start;font-style:italic;color:var(--soft);margin:0}
+.bbless svg{color:var(--rel);flex:none;margin-top:3px}
+@media print{#top,.noprint,.back,#sheet,#fx,body::before{display:none!important}body{background:#fff!important;background-image:none!important}main{padding:0!important;max-width:none}.boleta{border:0;padding:0}:root{--card:#fff;--paper:#fff}}
 #fx{position:fixed;inset:0;pointer-events:none;z-index:30;display:none;width:100%;height:100%}
 
 .bird .wing{transform-box:fill-box;transform-origin:85% 80%}
@@ -631,7 +666,7 @@ function drawTop(){const p=me(),st=totalStars(p);$("#top").innerHTML=`<div class
 function home(){LS=null;begin();const p=me(),st=totalStars(p),lv=level(st);const rot=DAYROT[new Date().getDay()];const g=curG(),plan=["mat","esp",rot].map(c=>findC(c,g)).filter(Boolean);
 let fecha="";try{fecha=new Date().toLocaleDateString("es-MX",{weekday:"long",day:"numeric",month:"long"})}catch(e){}
 app(`<section class="hello"><div class="hello-t"><p class="eyebrow">${fecha}</p><h1>¡Hola, ${esc(p.name)}!</h1><p class="lead">Vas en <b>${gName(g)} grado</b>. Elige una materia o empieza con el plan de hoy. Cada lección tiene una parte para aprender, una mirada de fe y otra para practicar.</p><div class="lvl"><span>Nivel: <b>${lv.name}</b></span>${lv.next?`<div class="lbar"><i style="width:${Math.round((st-lv.from)/(lv.next-lv.from)*100)}%"></i></div><small>Te faltan ${lv.next-st} estrellas para el siguiente nivel</small>`:"<small>¡Llegaste al nivel más alto!</small>"}</div></div><div class="hello-b"><div class="bubble">${pick(TIPS)}</div>${bird("big")}</div></section>
-<section class="prayer">${CROSS}<div><p class="eyebrow">Oración antes de estudiar</p><p class="ptext">${PRAYER}</p></div>${sayBtn(PRAYER)}</section>
+${reviewCard()}<section class="prayer">${CROSS}<div><p class="eyebrow">Oración antes de estudiar</p><p class="ptext">${PRAYER}</p></div>${sayBtn(PRAYER)}</section>
 <h2 class="sec">Plan de hoy</h2><div class="plan">${plan.map(planCard).join("")}</div>
 <div class="gradebar"><h2 class="sec">Materias de ${gName(g)} de primaria</h2><div class="gsw" role="group" aria-label="Grado">${GRADES.map(([n,t])=>`<button class="gbtn${n===g?" on":""}" data-act="grade" data-v="${n}" aria-pressed="${n===g}">${t} grado</button>`).join("")}</div></div><div class="subjects">${gSubj(g).map(s=>`<button class="tile" data-act="subj" data-v="${s.id}" style="${sv(s)}">${sicon(s)}<h3>${s.n}</h3><p>${s.d}</p>${pencil(s)}</button>`).join("")}</div>
 <section class="reto" style="border-color:var(--rel)"><div><h3>Cuaderno para imprimir</h3><p>Hojas de trabajo de ${gName(g)} grado para hacer con lápiz.</p></div><a class="btn" style="--sc:var(--rel)" href="${CUAD}Cuaderno-${g}o-primaria.pdf" target="_blank" rel="noopener">Abrir cuaderno</a></section>
@@ -653,7 +688,7 @@ ${pg.info?`<article class="lcard info" style="${sv(s)}"><div class="lc-top"><p c
 function buildList(l){let list=l.ex.slice();(l.g||[]).forEach(([name,cnt,arg])=>{for(let i=0;i<cnt;i++){try{list.push(G[name](arg))}catch(e){}}});return shuf(list)}
 function practice(){LS.list=buildList(LS.l);LS.i=0;LS.first=0;newEx()}
 function reto(){const g=curG(),mix=g>=3?["mult69","multAll","div","mult69","add4","sub4","fracOf"]:g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
-function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
+function newEx(){const ex=LS.list[LS.i];if(LS.review&&LIDX[ex.__lid])LS.s=LIDX[ex.__lid].s;X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
 if(ex.k==="c")X.opts=shuf(ex.o.map((t,i)=>({t,ok:i===0})));
 if(ex.k==="ord")X.pool=shuf(ex.items.map((t,i)=>({t,id:i}))).map((o,i)=>({t:o.t,id:i}));
 if(ex.k==="b")X.pool=shuf([...ex.a,...ex.x]).map((t,i)=>({t,id:i}));
@@ -674,7 +709,7 @@ app(`<div class="phead" style="${sv(s)}"><button class="back" data-act="quit" ar
 function fb(){const ex=X.ex;if(X.done&&X.ok)return`<div class="fb ok" role="status">${bird("sm")}<div><b>${X.msg}</b>${ex.w&&X.tries>0?`<p>${ex.w}</p>`:""}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.done)return`<div class="fb rev" role="status">${bird("sm")}<div><b>La respuesta es: ${esc(ansText(ex))}</b>${ex.w?`<p>${ex.w}</p>`:"<p>Ahora ya lo sabes. ¡La próxima vez te saldrá!</p>"}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.tries>0)return`<div class="fb try" role="status"><div><b>${X.msg}</b>${ex.w?`<p>Pista: ${ex.w}</p>`:""}</div></div>`;return""}
-function answer(ok){if(X.done)return;if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
+function answer(ok){if(X.done)return;if(X.tries===0&&!X.logged){X.logged=true;try{logFirst(ok)}catch(e){}}if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
 drawEx();const f=$(".fb");if(f)try{f.scrollIntoView({block:"nearest",behavior:"smooth"})}catch(e){}
 if(S.voice)say(X.done?(X.ok?X.msg:"La respuesta es "+ansText(X.ex)):X.msg+(X.ex.w?" Pista: "+X.ex.w:""))}
 function check(){const ex=X.ex;let ok=false;if(colMode(ex))return colCheck();
@@ -683,7 +718,7 @@ else if(ex.k==="ord")ok=X.built.length===ex.items.length&&X.built.every((id,j)=>
 else if(ex.k==="b")ok=X.built.map(id=>X.pool[id].t).join("")===ex.a.join("");
 else if(ex.k==="s"){X.badRows=X.items.filter(it=>X.assign[it.id]!==it.g).map(it=>it.id);ok=!X.badRows.length}
 answer(ok)}
-function finish(){const tot=LS.list.length,f=LS.first,st=f/tot>=.9?3:f/tot>=.6?2:1,p=me();SND.win();
+function finish(){if(LS.review)return reviewFinish();const tot=LS.list.length,f=LS.first,st=f/tot>=.9?3:f/tot>=.6?2:1,p=me();SND.win();
 if(LS.reto){p.reto=Math.max(p.reto||0,f)}else{const old=p.prog[LS.l.id]||{};p.prog[LS.l.id]={done:true,stars:Math.max(old.stars||0,st),last:Date.now(),n:(old.n||0)+1}}save();
 begin();const s=LS.s,nx=LS.reto?null:nextAfter(s,LS.l.id);
 app(`<section class="result" style="${sv(s)}">${bird("big")}<div class="bigstars">${[0,1,2].map(i=>`<span class="${i<st?"on":""}" style="animation-delay:${i*.25}s">${icon(i<st?"star":"starO",64)}</span>`).join("")}</div><h1>${MSG[st].split("!")[0]}!</h1><p class="lead">${esc(LS.l.t)}: acertaste a la primera <b>${f} de ${tot}</b>. ${MSG[st].split("!").slice(1).join("!").trim()}</p><div class="row center">${LS.reto?`<button class="btn ghost" data-act="home">Inicio</button><button class="btn" data-act="reto">Jugar otra vez</button>`:`<button class="btn ghost" data-act="retry">Practicar otra vez</button><button class="btn ghost" data-act="relearn">Repasar la lección</button>${nx?`<button class="btn" data-act="open" data-v="${nx.id}">Siguiente lección ${ui("fwd")}</button>`:`<button class="btn" data-act="subj" data-v="${s.id}">Ver la materia</button>`}`}</div></section>`);scrollTo(0,0);confetti();auto(MSG[st])}
@@ -705,7 +740,7 @@ ${recent.length?`<h3>Últimas lecciones</h3><ul class="tips">${recent.map(([id,r
 <form id="addp" class="addp"><label for="pname">Agregar un niño o niña</label><div class="row"><input id="pname" maxlength="20" placeholder="Nombre" autocomplete="off"><button class="btn" type="submit" style="--sc:var(--mat)">Agregar</button></div></form>
 <form id="renp" class="addp"><label for="rname">Cambiar el nombre de ${esc(p.name)}</label><div class="row"><input id="rname" maxlength="20" value="${esc(p.name)}" autocomplete="off"><button class="btn ghost" type="submit" style="--sc:var(--mat)">Guardar</button></div></form></section>
 <section class="panel"><h2>Cuadernos para imprimir</h2><p>Hojas de trabajo de todas las lecciones, con infografía, ejercicios, caligrafía, dibujo, sección de fe y solucionario al final. Tamaño carta.</p><div class="row">${GRADES.map(([n,t])=>`<a class="btn" style="--sc:var(--mat)" href="${CUAD}Cuaderno-${n}o-primaria.pdf" target="_blank" rel="noopener">Cuaderno de ${t}</a>`).join("")}</div><p class="note">Abre el PDF y usa la opción de imprimir de tu navegador. En el índice vienen las páginas de cada materia para imprimir solo una. También hay un archivo por materia en la carpeta «por-materia» del repositorio.</p></section>
-${syncPanel()}<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
+${followPanel()}${syncPanel()}<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
 <section class="panel"><h2>Cómo usar la Escuelita</h2><ul class="tips"><li>Dediquen de 20 a 30 minutos por materia. Matemáticas y Español, todos los días; las demás materias se van turnando en el «Plan de hoy».</li><li>Lean juntos la parte de «Aprende» y luego dejen que el niño practique solo.</li><li>Con 1 o 2 estrellas, repitan la práctica otro día. En Matemáticas los ejercicios cambian cada vez.</li><li>Complementen con cuaderno: copiar las palabras nuevas y resolver las sumas a mano.</li><li>Las lecciones siguen los temas de 1.º de primaria de la SEP. Todas las materias se enseñan desde la fe católica: cada lección termina con una página «Con los ojos de la fe» y sus ejercicios. Religión y Primera Comunión siguen el Catecismo de la Iglesia Católica.</li><li>Empiecen cada día con la oración al Espíritu Santo que aparece en el inicio.</li></ul></section>
 <section class="panel"><h2>Reiniciar progreso</h2><p>Borra las estrellas y lecciones de ${esc(p.name)}. Los demás niños no cambian.</p><div class="row">${PCONF==="reset"?`<button class="btn warn" data-act="doreset">Sí, borrar su progreso</button><button class="btn ghost" data-act="nodel" style="--sc:var(--mat)">No</button>`:`<button class="btn warn" data-act="askreset">Reiniciar progreso</button>`}</div></section>`);}
 
@@ -725,7 +760,7 @@ tile:v=>{if(!X.built.includes(+v))X.built.push(+v);SND.tap();drawEx()},
 untile:v=>{X.built.splice(+v,1);drawEx()},clearb:()=>{X.built=[];drawEx()},
 grp:v=>{const[i,g]=v.split(":").map(Number);X.assign[i]=g;X.badRows=X.badRows.filter(r=>r!==i);SND.tap();drawEx()},
 cont:()=>{LS.i++;if(LS.i>=LS.list.length)finish();else newEx()},
-quit:()=>LS&&!LS.reto?subj(LS.s.id):home(),
+quit:()=>LS&&!LS.reto&&!LS.review?subj(LS.s.id):home(),
 say:v=>say(SAY[+v],true),
 reto:()=>reto(),
 gal:v=>gallery(v),
@@ -738,7 +773,7 @@ gk:v=>{if(v==="del")GATE.v=GATE.v.slice(0,-1);else if(v==="ok"){if(+GATE.v===GAT
 setp2:v=>{S.cur=v;PCONF=null;save();parents()},
 askdel:v=>{PCONF=v;parents()},nodel:()=>{PCONF=null;parents()},
 delp:v=>{S.del=[...(S.del||[]),v];S.profiles=S.profiles.filter(p=>p.id!==v);if(S.cur===v)S.cur=S.profiles[0].id;PCONF=null;save();parents()},
-askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;p.rst=Date.now();PCONF=null;save();parents()}
+askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;p.err={};p.tp={};p.rst=Date.now();PCONF=null;save();parents()}
 };
 
 function init(){S=load();applyTheme();try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{if(S.theme==="auto")drawTop()})}catch(e){}indexAll();loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
@@ -1004,14 +1039,16 @@ if(typeof document!=="undefined")document.addEventListener("keydown",e=>{if(MODE
 const FBCFG={apiKey:"AIzaSyB5pikD3hGaxq3OIoOzMk3Uy-9ADaWx588",authDomain:"escuela-colibri.firebaseapp.com",projectId:"escuela-colibri",storageBucket:"escuela-colibri.firebasestorage.app",messagingSenderId:"662996561739",appId:"1:662996561739:web:c8fecb22a9aefbf5a7c2ce",measurementId:"G-EZ3T8WHN5L"};
 const FBV="https://www.gstatic.com/firebasejs/10.12.2/";
 const SYNC={state:"off",user:null,ref:null,unsub:null,timer:null,err:"",last:0,busy:false};
-const isDefaultProfile=p=>p&&p.name==="Explorador"&&!Object.keys(p.prog||{}).length&&!p.reto;
+const isDefaultProfile=p=>p&&p.name==="Explorador"&&!Object.keys(p.prog||{}).length&&!p.reto&&!Object.keys(p.tp||{}).length;
 function mergeProfiles(L,R,del){const dels=new Set(del||[]),map={};
  const clone=o=>JSON.parse(JSON.stringify(o));
  [...(R||[]),...(L||[])].forEach(p=>{if(!p||!p.id||dels.has(p.id))return;const m=map[p.id];if(!m){map[p.id]=clone(p);map[p.id].prog=map[p.id].prog||{};return}
   if((p.upd||0)>(m.upd||0)){m.name=p.name;m.ci=p.ci;m.grade=p.grade;m.upd=p.upd}
   m.rst=Math.max(m.rst||0,p.rst||0);m.reto=Math.max(m.reto||0,p.reto||0);
-  for(const[k,v]of Object.entries(p.prog||{})){const w=m.prog[k];m.prog[k]=w?{done:!!(w.done||v.done),stars:Math.max(w.stars||0,v.stars||0),last:Math.max(w.last||0,v.last||0),n:Math.max(w.n||0,v.n||0)}:clone(v)}});
- Object.values(map).forEach(m=>{if(m.rst)for(const[k,v]of Object.entries(m.prog))if((v.last||0)<=m.rst)delete m.prog[k]});
+  for(const[k,v]of Object.entries(p.prog||{})){const w=m.prog[k];m.prog[k]=w?{done:!!(w.done||v.done),stars:Math.max(w.stars||0,v.stars||0),last:Math.max(w.last||0,v.last||0),n:Math.max(w.n||0,v.n||0)}:clone(v)}
+  m.err=m.err||{};for(const[k,v]of Object.entries(p.err||{})){const w=m.err[k];if(!w||(v.last||0)>(w.last||0))m.err[k]=clone(v)}
+  m.tp=m.tp||{};for(const[lid,L]of Object.entries(p.tp||{})){const T=m.tp[lid]=m.tp[lid]||{};for(const[mk,x]of Object.entries(L)){const y=T[mk];T[mk]=y?{t:Math.max(y.t,x.t),f:Math.max(y.f,x.f),u:Math.max(y.u||0,x.u||0)}:clone(x)}}});
+ Object.values(map).forEach(m=>{if(!m.rst)return;for(const[k,v]of Object.entries(m.prog))if((v.last||0)<=m.rst)delete m.prog[k];for(const[k,v]of Object.entries(m.err||{}))if((v.last||0)<=m.rst)delete m.err[k];for(const[lid,L]of Object.entries(m.tp||{})){for(const[mk,x]of Object.entries(L))if((x.u||0)<=m.rst)delete L[mk];if(!Object.keys(L).length)delete m.tp[lid]}});
  return Object.values(map)}
 function syncApply(remote){const R=(remote&&remote.profiles)||[],del=[...new Set([...(S.del||[]),...((remote&&remote.del)||[])])];
  let L=S.profiles;if(R.length&&L.length===1&&isDefaultProfile(L[0]))L=[];
@@ -1041,6 +1078,62 @@ function syncPanel(){const web=/^https?:$/.test(location.protocol);let h=`<secti
  return h+`<p class="note">Los avances que ya tengas en este dispositivo se suman a los de la nube; ninguna estrella se pierde.</p></section>`}
 Object.assign(ACT,{syncnow:()=>{syncPush(true);setTimeout(syncRefresh,800)},synclogout:()=>syncLogout()});
 if(typeof document!=="undefined")document.addEventListener("submit",e=>{if(e.target.id==="syncf"){e.preventDefault();syncLogin($("#semail").value.trim(),$("#spw").value)}});
+/* ========= Repaso inteligente, temas para reforzar y boleta =========
+   Por cada niño se guarda:
+   p.tp[leccion][mes] = {t: respondidas, f: correctas a la primera, u: última vez}
+   p.err[clave] = {ex, lid, b: caja 0-3, due: cuándo repasar, n: veces fallada, last, m: dominada}
+   El repaso usa cajas: si acierta, la pregunta vuelve en 1, 3 y 7 días; a la cuarta queda dominada. */
+const DAY=864e5,BOXD=[1,3,7],REV_MAX=10;
+const dayStart=t=>{const d=new Date(t);d.setHours(0,0,0,0);return d.getTime()};
+const monthKey=t=>{const d=new Date(t);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")};
+function errKey(lid,q){return lid+"|"+strip(q).slice(0,90)}
+function logStat(p,lid,ok){if(!lid)return;p.tp=p.tp||{};const m=monthKey(Date.now()),L=p.tp[lid]=p.tp[lid]||{},x=L[m]=L[m]||{t:0,f:0,u:0};x.t++;if(ok)x.f++;x.u=Date.now()}
+function logFirst(ok){if(!LS||LS.reto)return;const p=me(),ex=X.ex,now=Date.now();
+ if(LS.review){const k=ex.__k,e=p.err&&p.err[k];logStat(p,ex.__lid,ok);if(!e)return;e.last=now;
+  if(ok){if(e.b>=BOXD.length){e.m=true;e.due=0}else{e.due=dayStart(now)+BOXD[e.b]*DAY;e.b++}}else{e.b=0;e.n++;e.due=dayStart(now)+DAY}return}
+ const lid=LS.l&&LS.l.id;logStat(p,lid,ok);if(ok)return;
+ p.err=p.err||{};const k=errKey(lid,ex.q),e=p.err[k];const clean=JSON.parse(JSON.stringify(ex));delete clean.__k;delete clean.__lid;
+ if(e&&!e.m){e.n++;e.b=0;e.due=dayStart(now)+DAY;e.last=now}else p.err[k]={ex:clean,lid,b:0,due:dayStart(now)+DAY,n:(e?e.n:0)+1,last:now};
+ pruneErr(p)}
+function pruneErr(p){const E=Object.entries(p.err||{});if(E.length<=220)return;E.filter(([,e])=>e.m).sort((a,b)=>a[1].last-b[1].last).slice(0,E.length-200).forEach(([k])=>delete p.err[k])}
+function dueList(p){const now=Date.now();return Object.entries(p.err||{}).filter(([,e])=>!e.m&&e.due<=now&&LIDX[e.lid]&&(LIDX[e.lid].s.g||1)===(p.grade||1)).sort((a,b)=>a[1].due-b[1].due||b[1].n-a[1].n)}
+function pendingCount(p){return Object.values(p.err||{}).filter(e=>!e.m&&LIDX[e.lid]&&(LIDX[e.lid].s.g||1)===(p.grade||1)).length}
+function startReview(){const p=me(),D=dueList(p).slice(0,REV_MAX);if(!D.length)return home();
+ LS={review:true,s:LIDX[D[0][1].lid].s,l:{t:"Repaso del día"},list:shuf(D.map(([k,e])=>Object.assign(JSON.parse(JSON.stringify(e.ex)),{__k:k,__lid:e.lid}))),i:0,first:0,mast0:Object.values(p.err).filter(e=>e.m).length};newEx()}
+function reviewFinish(){const p=me(),tot=LS.list.length,f=LS.first,mast=Object.values(p.err||{}).filter(e=>e.m).length-LS.mast0,left=dueList(p).length;save();SND.win();
+ begin();app(`<section class="result" style="--sc:var(--mat);--ss:var(--mat-s)">${bird("big")}<h1>¡Repaso terminado!</h1><p class="lead">Acertaste a la primera <b>${f} de ${tot}</b>.${mast>0?` ¡Ya dominas <b>${mast}</b> ${mast===1?"pregunta":"preguntas"} que antes te costaban!`:""} ${f<tot?"Las que fallaste volverán mañana para que las practiques otra vez.":"Las que acertaste volverán en unos días para que no se te olviden."}</p><p class="lead">«Todo lo puedo en Cristo que me fortalece» (Flp 4, 13).</p><div class="row center"><button class="btn ghost" data-act="home">Inicio</button>${left?`<button class="btn" data-act="review">Repasar ${left} más</button>`:""}</div></section>`);scrollTo(0,0);confetti();auto("¡Repaso terminado!")}
+function reviewCard(){const p=me(),n=dueList(p).length,pend=pendingCount(p);
+ if(n)return`<section class="reto rev"><div><h3>Repaso del día</h3><p>Tienes <b>${n}</b> ${n===1?"pregunta":"preguntas"} para repasar de las que te costaron trabajo. ¡Unos minutos y quedan dominadas!</p></div><button class="btn" data-act="review" style="--sc:var(--sun);--card:#1b2a44">Repasar ahora</button></section>`;
+ if(pend)return`<section class="reto rev done"><div><h3>Repaso del día</h3><p>¡Al corriente! Tienes ${pend} ${pend===1?"pregunta guardada":"preguntas guardadas"} que volverán en los próximos días.</p></div></section>`;
+ return""}
+/* ---- Estadísticas ---- */
+function cicloOf(t){const d=new Date(t),y=d.getMonth()>=7?d.getFullYear():d.getFullYear()-1;return y}
+function periods(y){return[["t1",`1.er trimestre (sep–nov ${y})`,[y,8],[y,10]],["t2",`2.º trimestre (dic ${y}–mar ${y+1})`,[y,11],[y+1,2]],["t3",`3.er trimestre (abr–jul ${y+1})`,[y+1,3],[y+1,6]],["all",`Ciclo escolar ${y}–${y+1}`,[y,7],[y+1,6]]]}
+function inPeriod(mk,a,b){const[yy,mm]=mk.split("-").map(Number),v=yy*12+(mm-1);return v>=a[0]*12+a[1]&&v<=b[0]*12+b[1]}
+function sumTP(p,lid,a,b){let t=0,f=0;const L=(p.tp||{})[lid]||{};for(const[mk,x]of Object.entries(L))if(!a||inPeriod(mk,a,b)){t+=x.t;f+=x.f}return{t,f}}
+function grade5(acc){return Math.max(5,Math.min(10,Math.round((5+5*acc)*10)/10))}
+function subjReport(p,s,a,b){let t=0,f=0,done=0,tot=0;allLessons(s).forEach(l=>{tot++;const r=sumTP(p,l.id,a,b);t+=r.t;f+=r.f;if(r.t&&p.prog[l.id]&&p.prog[l.id].done)done++});return{t,f,done,tot,acc:t?f/t:null,cal:t?grade5(f/t):null}}
+function weakTopics(p){const out=[];gSubj(p.grade||1).forEach(s=>allLessons(s).forEach(l=>{const r=sumTP(p,l.id);if(r.t>=4&&r.f/r.t<.7)out.push({s,l,acc:r.f/r.t,t:r.t})}));return out.sort((x,y)=>x.acc-y.acc).slice(0,6)}
+function topErrors(p){return Object.values(p.err||{}).filter(e=>!e.m&&LIDX[e.lid]).sort((a,b)=>b.n-a.n||b.last-a.last).slice(0,5)}
+function strongTopics(p){const out=[];gSubj(p.grade||1).forEach(s=>allLessons(s).forEach(l=>{const r=sumTP(p,l.id);if(r.t>=5&&r.f/r.t>=.9)out.push({s,l,acc:r.f/r.t})}));return out.sort((x,y)=>y.acc-x.acc).slice(0,3)}
+function followPanel(){const p=me(),W=weakTopics(p),E=topErrors(p),pend=pendingCount(p),mast=Object.values(p.err||{}).filter(e=>e.m).length,due=dueList(p).length;
+ return`<section class="panel"><h2>Seguimiento de ${esc(p.name)}</h2><div class="kpis"><div><b>${due}</b><span>para repasar hoy</span></div><div><b>${pend}</b><span>preguntas guardadas</span></div><div><b>${mast}</b><span>dominadas en el repaso</span></div></div>
+ <h3>Temas para reforzar</h3>${W.length?`<ul class="weak">${W.map(w=>`<li style="${sv(w.s)}"><span class="wdot"></span><div><b>${esc(w.l.t)}</b><small>${w.s.n} · ${Math.round(w.acc*100)}% de aciertos a la primera en ${w.t} preguntas</small></div><button class="mini-btn" data-act="open" data-v="${w.l.id}">Practicar</button></li>`).join("")}</ul>`:`<p class="note">Todavía no hay temas débiles. Aparecen cuando un tema tiene menos de 70% de aciertos a la primera (con al menos 4 preguntas respondidas).</p>`}
+ ${E.length?`<h3>Preguntas que más falla</h3><ul class="tips">${E.map(e=>`<li>${esc(strip(e.ex.q))} <small class="note">(${LIDX[e.lid].s.n}, ${e.n} ${e.n===1?"vez":"veces"})</small></li>`).join("")}</ul>`:""}
+ <div class="row"><button class="btn" data-act="boleta" style="--sc:var(--mat)">Ver boleta</button></div></section>`}
+function boleta(per){LS=null;begin();MODE="boleta";const p=me(),g=p.grade||1,y=cicloOf(Date.now()),P=periods(y),cur=P.find(x=>x[0]===(per||"all"))||P[3],[,lab,a,b]=cur;
+ const R=gSubj(g).map(s=>({s,...subjReport(p,s,a,b)})),cal=R.filter(r=>r.cal!=null),prom=cal.length?Math.round(cal.reduce((x,r)=>x+r.cal,0)/cal.length*10)/10:null;
+ const W=weakTopics(p).slice(0,3),St=strongTopics(p),fecha=new Date().toLocaleDateString("es-MX",{day:"numeric",month:"long",year:"numeric"});
+ const web=/^https?:$/.test(location.protocol);
+ app(`<button class="back noprint" data-act="parents">${ui("back")} Zona de papás</button><div class="row noprint bper">${P.map(([k,t])=>`<button class="gbtn${k===cur[0]?" on":""}" data-act="boleta" data-v="${k}">${t}</button>`).join("")}</div>
+ <article id="boleta" class="boleta"><header><div>${bird()}<div><p class="eyebrow">Escuelita Colibrí · Educación en casa</p><h1>Boleta de evaluación</h1></div></div><dl><div><dt>Alumno</dt><dd>${esc(p.name)}</dd></div><div><dt>Grado</dt><dd>${gName(g)} de primaria</dd></div><div><dt>Periodo</dt><dd>${lab}</dd></div><div><dt>Fecha</dt><dd>${fecha}</dd></div></dl></header>
+ <div class="tscroll"><table class="bt"><thead><tr><th>Materia</th><th>Lecciones</th><th>Aciertos</th><th>Calif.</th></tr></thead><tbody>${R.map(r=>`<tr style="${sv(r.s)}"><td><span class="sw" style="background:var(--${r.s.c||r.s.id})"></span>${r.s.n}</td><td class="nm">${r.done} de ${r.tot}</td><td class="nm">${r.acc==null?"—":Math.round(r.acc*100)+"%"}</td><td class="nm cal${r.cal!=null&&r.cal<6?" low":""}">${r.cal==null?"—":r.cal.toFixed(1)}</td></tr>`).join("")}</tbody><tfoot><tr><td colspan="3">Promedio general</td><td class="nm cal">${prom==null?"—":prom.toFixed(1)}</td></tr></tfoot></table></div>
+ <div class="bobs"><div><h3>Fortalezas</h3>${St.length?`<ul>${St.map(x=>`<li>${esc(x.l.t)} (${x.s.n})</li>`).join("")}</ul>`:"<p>Se mostrarán cuando haya más lecciones practicadas.</p>"}</div><div><h3>Para reforzar</h3>${W.length?`<ul>${W.map(x=>`<li>${esc(x.l.t)} (${x.s.n})</li>`).join("")}</ul>`:"<p>Sin temas pendientes por ahora.</p>"}</div></div>
+ <p class="bnote"><b>Lecciones</b>: terminadas en el periodo. <b>Aciertos</b>: respuestas correctas a la primera. La calificación va de 5 a 10, como en la SEP, y se calcula con esos aciertos. «—» indica que no hubo prácticas de esa materia en el periodo. Se incluyen las prácticas en la app y los repasos.</p>
+ <div class="bfirm"><div><span></span>Firma del padre, madre o tutor</div><div><span></span>Observaciones</div></div>
+ <p class="bbless">${CROSS} «Todo lo que hagan, háganlo de corazón, como para el Señor» (Col 3, 23).</p></article>
+ <div class="row noprint">${web?`<button class="btn" data-act="printb" style="--sc:var(--mat)">Imprimir o guardar en PDF</button>`:`<p class="note">Para imprimir la boleta, ábrela en la app publicada en GitHub Pages o en la app instalada.</p>`}</div>`);scrollTo(0,0)}
+Object.assign(ACT,{review:()=>startReview(),boleta:v=>boleta(v),printb:()=>{try{window.print()}catch(e){}}});
 /* ===== MATEMÁTICAS ===== */
 SUBJ.push({id:"mat",n:"Matemáticas",campo:"Saberes y pensamiento científico",d:"Números hasta el 100, sumas y restas, figuras, medidas, tiempo y dinero.",units:[
 {t:"Los números hasta el 20",ls:[

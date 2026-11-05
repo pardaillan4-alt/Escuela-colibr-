@@ -4,14 +4,16 @@
 const FBCFG={apiKey:"AIzaSyB5pikD3hGaxq3OIoOzMk3Uy-9ADaWx588",authDomain:"escuela-colibri.firebaseapp.com",projectId:"escuela-colibri",storageBucket:"escuela-colibri.firebasestorage.app",messagingSenderId:"662996561739",appId:"1:662996561739:web:c8fecb22a9aefbf5a7c2ce",measurementId:"G-EZ3T8WHN5L"};
 const FBV="https://www.gstatic.com/firebasejs/10.12.2/";
 const SYNC={state:"off",user:null,ref:null,unsub:null,timer:null,err:"",last:0,busy:false};
-const isDefaultProfile=p=>p&&p.name==="Explorador"&&!Object.keys(p.prog||{}).length&&!p.reto;
+const isDefaultProfile=p=>p&&p.name==="Explorador"&&!Object.keys(p.prog||{}).length&&!p.reto&&!Object.keys(p.tp||{}).length;
 function mergeProfiles(L,R,del){const dels=new Set(del||[]),map={};
  const clone=o=>JSON.parse(JSON.stringify(o));
  [...(R||[]),...(L||[])].forEach(p=>{if(!p||!p.id||dels.has(p.id))return;const m=map[p.id];if(!m){map[p.id]=clone(p);map[p.id].prog=map[p.id].prog||{};return}
   if((p.upd||0)>(m.upd||0)){m.name=p.name;m.ci=p.ci;m.grade=p.grade;m.upd=p.upd}
   m.rst=Math.max(m.rst||0,p.rst||0);m.reto=Math.max(m.reto||0,p.reto||0);
-  for(const[k,v]of Object.entries(p.prog||{})){const w=m.prog[k];m.prog[k]=w?{done:!!(w.done||v.done),stars:Math.max(w.stars||0,v.stars||0),last:Math.max(w.last||0,v.last||0),n:Math.max(w.n||0,v.n||0)}:clone(v)}});
- Object.values(map).forEach(m=>{if(m.rst)for(const[k,v]of Object.entries(m.prog))if((v.last||0)<=m.rst)delete m.prog[k]});
+  for(const[k,v]of Object.entries(p.prog||{})){const w=m.prog[k];m.prog[k]=w?{done:!!(w.done||v.done),stars:Math.max(w.stars||0,v.stars||0),last:Math.max(w.last||0,v.last||0),n:Math.max(w.n||0,v.n||0)}:clone(v)}
+  m.err=m.err||{};for(const[k,v]of Object.entries(p.err||{})){const w=m.err[k];if(!w||(v.last||0)>(w.last||0))m.err[k]=clone(v)}
+  m.tp=m.tp||{};for(const[lid,L]of Object.entries(p.tp||{})){const T=m.tp[lid]=m.tp[lid]||{};for(const[mk,x]of Object.entries(L)){const y=T[mk];T[mk]=y?{t:Math.max(y.t,x.t),f:Math.max(y.f,x.f),u:Math.max(y.u||0,x.u||0)}:clone(x)}}});
+ Object.values(map).forEach(m=>{if(!m.rst)return;for(const[k,v]of Object.entries(m.prog))if((v.last||0)<=m.rst)delete m.prog[k];for(const[k,v]of Object.entries(m.err||{}))if((v.last||0)<=m.rst)delete m.err[k];for(const[lid,L]of Object.entries(m.tp||{})){for(const[mk,x]of Object.entries(L))if((x.u||0)<=m.rst)delete L[mk];if(!Object.keys(L).length)delete m.tp[lid]}});
  return Object.values(map)}
 function syncApply(remote){const R=(remote&&remote.profiles)||[],del=[...new Set([...(S.del||[]),...((remote&&remote.del)||[])])];
  let L=S.profiles;if(R.length&&L.length===1&&isDefaultProfile(L[0]))L=[];

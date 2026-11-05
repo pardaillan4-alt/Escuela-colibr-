@@ -189,7 +189,7 @@ function drawTop(){const p=me(),st=totalStars(p);$("#top").innerHTML=`<div class
 function home(){LS=null;begin();const p=me(),st=totalStars(p),lv=level(st);const rot=DAYROT[new Date().getDay()];const g=curG(),plan=["mat","esp",rot].map(c=>findC(c,g)).filter(Boolean);
 let fecha="";try{fecha=new Date().toLocaleDateString("es-MX",{weekday:"long",day:"numeric",month:"long"})}catch(e){}
 app(`<section class="hello"><div class="hello-t"><p class="eyebrow">${fecha}</p><h1>¡Hola, ${esc(p.name)}!</h1><p class="lead">Vas en <b>${gName(g)} grado</b>. Elige una materia o empieza con el plan de hoy. Cada lección tiene una parte para aprender, una mirada de fe y otra para practicar.</p><div class="lvl"><span>Nivel: <b>${lv.name}</b></span>${lv.next?`<div class="lbar"><i style="width:${Math.round((st-lv.from)/(lv.next-lv.from)*100)}%"></i></div><small>Te faltan ${lv.next-st} estrellas para el siguiente nivel</small>`:"<small>¡Llegaste al nivel más alto!</small>"}</div></div><div class="hello-b"><div class="bubble">${pick(TIPS)}</div>${bird("big")}</div></section>
-<section class="prayer">${CROSS}<div><p class="eyebrow">Oración antes de estudiar</p><p class="ptext">${PRAYER}</p></div>${sayBtn(PRAYER)}</section>
+${reviewCard()}<section class="prayer">${CROSS}<div><p class="eyebrow">Oración antes de estudiar</p><p class="ptext">${PRAYER}</p></div>${sayBtn(PRAYER)}</section>
 <h2 class="sec">Plan de hoy</h2><div class="plan">${plan.map(planCard).join("")}</div>
 <div class="gradebar"><h2 class="sec">Materias de ${gName(g)} de primaria</h2><div class="gsw" role="group" aria-label="Grado">${GRADES.map(([n,t])=>`<button class="gbtn${n===g?" on":""}" data-act="grade" data-v="${n}" aria-pressed="${n===g}">${t} grado</button>`).join("")}</div></div><div class="subjects">${gSubj(g).map(s=>`<button class="tile" data-act="subj" data-v="${s.id}" style="${sv(s)}">${sicon(s)}<h3>${s.n}</h3><p>${s.d}</p>${pencil(s)}</button>`).join("")}</div>
 <section class="reto" style="border-color:var(--rel)"><div><h3>Cuaderno para imprimir</h3><p>Hojas de trabajo de ${gName(g)} grado para hacer con lápiz.</p></div><a class="btn" style="--sc:var(--rel)" href="${CUAD}Cuaderno-${g}o-primaria.pdf" target="_blank" rel="noopener">Abrir cuaderno</a></section>
@@ -211,7 +211,7 @@ ${pg.info?`<article class="lcard info" style="${sv(s)}"><div class="lc-top"><p c
 function buildList(l){let list=l.ex.slice();(l.g||[]).forEach(([name,cnt,arg])=>{for(let i=0;i<cnt;i++){try{list.push(G[name](arg))}catch(e){}}});return shuf(list)}
 function practice(){LS.list=buildList(LS.l);LS.i=0;LS.first=0;newEx()}
 function reto(){const g=curG(),mix=g>=3?["mult69","multAll","div","mult69","add4","sub4","fracOf"]:g>=2?["add2r","sub2r","mult","mult","add100","sub100","dbl"]:["add10","sub10","add20","sub20","dbl","make10"];LS={reto:true,s:findC("mat",g),l:{t:"Reto de cálculo mental"},list:Array.from({length:10},()=>G[pick(mix)]()),i:0,first:0};newEx()}
-function newEx(){const ex=LS.list[LS.i];X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
+function newEx(){const ex=LS.list[LS.i];if(LS.review&&LIDX[ex.__lid])LS.s=LIDX[ex.__lid].s;X={ex,tries:0,done:false,ok:false,num:"",built:[],assign:{},bad:[],badRows:[]};if(colMode(ex))colInit();
 if(ex.k==="c")X.opts=shuf(ex.o.map((t,i)=>({t,ok:i===0})));
 if(ex.k==="ord")X.pool=shuf(ex.items.map((t,i)=>({t,id:i}))).map((o,i)=>({t:o.t,id:i}));
 if(ex.k==="b")X.pool=shuf([...ex.a,...ex.x]).map((t,i)=>({t,id:i}));
@@ -232,7 +232,7 @@ app(`<div class="phead" style="${sv(s)}"><button class="back" data-act="quit" ar
 function fb(){const ex=X.ex;if(X.done&&X.ok)return`<div class="fb ok" role="status">${bird("sm")}<div><b>${X.msg}</b>${ex.w&&X.tries>0?`<p>${ex.w}</p>`:""}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.done)return`<div class="fb rev" role="status">${bird("sm")}<div><b>La respuesta es: ${esc(ansText(ex))}</b>${ex.w?`<p>${ex.w}</p>`:"<p>Ahora ya lo sabes. ¡La próxima vez te saldrá!</p>"}</div><button class="btn cont" data-act="cont">Continuar ${ui("fwd")}</button></div>`;
 if(X.tries>0)return`<div class="fb try" role="status"><div><b>${X.msg}</b>${ex.w?`<p>Pista: ${ex.w}</p>`:""}</div></div>`;return""}
-function answer(ok){if(X.done)return;if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
+function answer(ok){if(X.done)return;if(X.tries===0&&!X.logged){X.logged=true;try{logFirst(ok)}catch(e){}}if(ok){X.done=true;X.ok=true;X.msg=pick(PRAISE);if(X.tries===0)LS.first++;SND.ok()}else{X.tries++;SND.bad();X.msg=pick(TRY);if(X.tries>=2)X.done=true}
 drawEx();const f=$(".fb");if(f)try{f.scrollIntoView({block:"nearest",behavior:"smooth"})}catch(e){}
 if(S.voice)say(X.done?(X.ok?X.msg:"La respuesta es "+ansText(X.ex)):X.msg+(X.ex.w?" Pista: "+X.ex.w:""))}
 function check(){const ex=X.ex;let ok=false;if(colMode(ex))return colCheck();
@@ -241,7 +241,7 @@ else if(ex.k==="ord")ok=X.built.length===ex.items.length&&X.built.every((id,j)=>
 else if(ex.k==="b")ok=X.built.map(id=>X.pool[id].t).join("")===ex.a.join("");
 else if(ex.k==="s"){X.badRows=X.items.filter(it=>X.assign[it.id]!==it.g).map(it=>it.id);ok=!X.badRows.length}
 answer(ok)}
-function finish(){const tot=LS.list.length,f=LS.first,st=f/tot>=.9?3:f/tot>=.6?2:1,p=me();SND.win();
+function finish(){if(LS.review)return reviewFinish();const tot=LS.list.length,f=LS.first,st=f/tot>=.9?3:f/tot>=.6?2:1,p=me();SND.win();
 if(LS.reto){p.reto=Math.max(p.reto||0,f)}else{const old=p.prog[LS.l.id]||{};p.prog[LS.l.id]={done:true,stars:Math.max(old.stars||0,st),last:Date.now(),n:(old.n||0)+1}}save();
 begin();const s=LS.s,nx=LS.reto?null:nextAfter(s,LS.l.id);
 app(`<section class="result" style="${sv(s)}">${bird("big")}<div class="bigstars">${[0,1,2].map(i=>`<span class="${i<st?"on":""}" style="animation-delay:${i*.25}s">${icon(i<st?"star":"starO",64)}</span>`).join("")}</div><h1>${MSG[st].split("!")[0]}!</h1><p class="lead">${esc(LS.l.t)}: acertaste a la primera <b>${f} de ${tot}</b>. ${MSG[st].split("!").slice(1).join("!").trim()}</p><div class="row center">${LS.reto?`<button class="btn ghost" data-act="home">Inicio</button><button class="btn" data-act="reto">Jugar otra vez</button>`:`<button class="btn ghost" data-act="retry">Practicar otra vez</button><button class="btn ghost" data-act="relearn">Repasar la lección</button>${nx?`<button class="btn" data-act="open" data-v="${nx.id}">Siguiente lección ${ui("fwd")}</button>`:`<button class="btn" data-act="subj" data-v="${s.id}">Ver la materia</button>`}`}</div></section>`);scrollTo(0,0);confetti();auto(MSG[st])}
@@ -263,7 +263,7 @@ ${recent.length?`<h3>Últimas lecciones</h3><ul class="tips">${recent.map(([id,r
 <form id="addp" class="addp"><label for="pname">Agregar un niño o niña</label><div class="row"><input id="pname" maxlength="20" placeholder="Nombre" autocomplete="off"><button class="btn" type="submit" style="--sc:var(--mat)">Agregar</button></div></form>
 <form id="renp" class="addp"><label for="rname">Cambiar el nombre de ${esc(p.name)}</label><div class="row"><input id="rname" maxlength="20" value="${esc(p.name)}" autocomplete="off"><button class="btn ghost" type="submit" style="--sc:var(--mat)">Guardar</button></div></form></section>
 <section class="panel"><h2>Cuadernos para imprimir</h2><p>Hojas de trabajo de todas las lecciones, con infografía, ejercicios, caligrafía, dibujo, sección de fe y solucionario al final. Tamaño carta.</p><div class="row">${GRADES.map(([n,t])=>`<a class="btn" style="--sc:var(--mat)" href="${CUAD}Cuaderno-${n}o-primaria.pdf" target="_blank" rel="noopener">Cuaderno de ${t}</a>`).join("")}</div><p class="note">Abre el PDF y usa la opción de imprimir de tu navegador. En el índice vienen las páginas de cada materia para imprimir solo una. También hay un archivo por materia en la carpeta «por-materia» del repositorio.</p></section>
-${syncPanel()}<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
+${followPanel()}${syncPanel()}<section class="panel"><h2>Ajustes</h2><fieldset class="thm"><legend>Apariencia</legend>${[["light","Día"],["dark","Noche"],["auto","Automático (como el dispositivo)"]].map(([v,t])=>`<label class="chk"><input type="radio" name="optheme" id="th-${v}" value="${v}"${(S.theme||"auto")===v?" checked":""}> ${t}</label>`).join("")}</fieldset><label class="chk"><input type="checkbox" id="optvoice"${S.voice?" checked":""}> Leer en voz alta las lecciones y preguntas</label><label class="chk"><input type="checkbox" id="optfx"${S.fx?" checked":""}> Sonidos de aciertos y errores</label><p class="note">La voz usa el lector del dispositivo. Si no se escucha, sube el volumen o instala una voz en español en los ajustes del teléfono o la computadora.</p></section>
 <section class="panel"><h2>Cómo usar la Escuelita</h2><ul class="tips"><li>Dediquen de 20 a 30 minutos por materia. Matemáticas y Español, todos los días; las demás materias se van turnando en el «Plan de hoy».</li><li>Lean juntos la parte de «Aprende» y luego dejen que el niño practique solo.</li><li>Con 1 o 2 estrellas, repitan la práctica otro día. En Matemáticas los ejercicios cambian cada vez.</li><li>Complementen con cuaderno: copiar las palabras nuevas y resolver las sumas a mano.</li><li>Las lecciones siguen los temas de 1.º de primaria de la SEP. Todas las materias se enseñan desde la fe católica: cada lección termina con una página «Con los ojos de la fe» y sus ejercicios. Religión y Primera Comunión siguen el Catecismo de la Iglesia Católica.</li><li>Empiecen cada día con la oración al Espíritu Santo que aparece en el inicio.</li></ul></section>
 <section class="panel"><h2>Reiniciar progreso</h2><p>Borra las estrellas y lecciones de ${esc(p.name)}. Los demás niños no cambian.</p><div class="row">${PCONF==="reset"?`<button class="btn warn" data-act="doreset">Sí, borrar su progreso</button><button class="btn ghost" data-act="nodel" style="--sc:var(--mat)">No</button>`:`<button class="btn warn" data-act="askreset">Reiniciar progreso</button>`}</div></section>`);}
 
@@ -283,7 +283,7 @@ tile:v=>{if(!X.built.includes(+v))X.built.push(+v);SND.tap();drawEx()},
 untile:v=>{X.built.splice(+v,1);drawEx()},clearb:()=>{X.built=[];drawEx()},
 grp:v=>{const[i,g]=v.split(":").map(Number);X.assign[i]=g;X.badRows=X.badRows.filter(r=>r!==i);SND.tap();drawEx()},
 cont:()=>{LS.i++;if(LS.i>=LS.list.length)finish();else newEx()},
-quit:()=>LS&&!LS.reto?subj(LS.s.id):home(),
+quit:()=>LS&&!LS.reto&&!LS.review?subj(LS.s.id):home(),
 say:v=>say(SAY[+v],true),
 reto:()=>reto(),
 gal:v=>gallery(v),
@@ -296,7 +296,7 @@ gk:v=>{if(v==="del")GATE.v=GATE.v.slice(0,-1);else if(v==="ok"){if(+GATE.v===GAT
 setp2:v=>{S.cur=v;PCONF=null;save();parents()},
 askdel:v=>{PCONF=v;parents()},nodel:()=>{PCONF=null;parents()},
 delp:v=>{S.del=[...(S.del||[]),v];S.profiles=S.profiles.filter(p=>p.id!==v);if(S.cur===v)S.cur=S.profiles[0].id;PCONF=null;save();parents()},
-askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;p.rst=Date.now();PCONF=null;save();parents()}
+askreset:()=>{PCONF="reset";parents()},doreset:()=>{const p=me();p.prog={};p.reto=0;p.err={};p.tp={};p.rst=Date.now();PCONF=null;save();parents()}
 };
 
 function init(){S=load();applyTheme();try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{if(S.theme==="auto")drawTop()})}catch(e){}indexAll();loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
