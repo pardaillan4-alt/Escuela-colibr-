@@ -32,6 +32,9 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Biblioteca:** 18 cuentos (6 por grado) de la Biblia, de santos y de valores. Cada uno tiene ilustraciones, lectura en voz alta, mapa del cuento (inicio, desarrollo y final), preguntas de comprensión y la página «Lee en voz alta», que mide las palabras por minuto contra la referencia de la SEP (1.º: 35 a 59; 2.º: 60 a 84; 3.º: 85 a 99). Las mediciones se ven en el «Registro de lectura» de la Zona de papás.
 - **Escribe con el dedo:** trazar vocales, letras, sílabas, palabras, frases y números sobre el renglón de cuatro líneas, con calificación de 1 a 3 estrellas según qué tanto se cubrió la letra sin salirse; cada 3 estrellas de trazo suman una estrella al álbum. Incluye dibujo libre con colores, grosores, goma y opción de guardar la imagen.
 - **Fotos y arte sacro:** las lecciones de Religión y Primera Comunión de 1.º a 3.º abren con una pintura clásica de dominio público (Murillo, El Greco, Rafael, Caravaggio, Rembrandt, Fra Angélico, entre otros) con su autor y título, y la misma obra encabeza la infografía. El álbum muestra la pintura o foto de 48 de sus 60 santos; los demás conservan la estampa dibujada. «Las plantas» (Ciencias, 1.º) tiene fotos reales de Unsplash y una lámina interactiva. Las imágenes se descargan de Wikimedia Commons y Unsplash la primera vez y luego quedan guardadas para usarse sin internet; en la Zona de papás, «Revisar imágenes» las descarga todas y avisa si alguna no abre.
+- **Más imágenes y láminas interactivas en Religión:** casi todas las páginas de Religión y Primera Comunión tienen su propia pintura (186 de 205). Hay tres láminas que se tocan: el templo (altar, sagrario, ambón, pila bautismal y más), el rosario (se reza cuenta por cuenta con los misterios del día) y los colores litúrgicos (se viste al sacerdote con cada color).
+- **Pantalla completa:** al tocar cualquier foto o pintura, se abre en grande y la voz lee la explicación de esa página. Al tocarla otra vez se amplía.
+- **Biografías de santos:** cada una de las 60 estampas del álbum tiene la vida del santo contada para niños y «Lo que aprendo», con lectura en voz alta.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -63,7 +66,9 @@ src/infografias/*.js         ← infografías de 1.º y 2.º, y el código que l
 src/talleres/ingles-arte-y-educacion-fisica.js ← Inglés, Arte y Música y Educación Física (para todos los grados)
 src/talleres/biblioteca.js   ← cuentos, comprensión lectora y medición de palabras por minuto
 src/talleres/escribe-con-el-dedo.js ← trazo de letras con el dedo y dibujo libre
-src/talleres/arte-sacro.js   ← pinturas de cada lección de Religión e imágenes de las estampas del álbum
+src/talleres/arte-sacro.js   ← pinturas de cada página de Religión e imágenes de las estampas del álbum
+src/talleres/laminas-y-pantalla-completa.js ← láminas del templo, el rosario y los colores litúrgicos; ver imágenes en grande
+src/talleres/biografias-de-santos.js ← vida de los 60 santos del álbum
 src/motor/fotos.js           ← fotos, lámina de la planta y viñetas de crecimiento
 ```
 
