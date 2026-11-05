@@ -38,6 +38,7 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 - **Escuela de oración («Mi rincón de oración»):** seis lecciones para aprender a orar (qué es orar, dónde y cómo, las cuatro formas, rezar con la Biblia, mañana y noche, rezar con María); seis oraciones guiadas por voz con ratitos de silencio (mañana, noche con examen de conciencia, cuatro formas, lectio divina, visita a Jesús y una decena del rosario); 18 oraciones para aprender de memoria y un diario de oración con acciones de gracias y peticiones. Cuenta los días seguidos rezando.
 - **Oración final:** cada lección de Religión, Primera Comunión y Escuela de oración termina con una oración sobre el tema, al final de «Aprende» y en la pantalla de resultados. Cada santo del álbum tiene su oración.
 - **Misiones:** cada una de esas lecciones trae una tarea para vivir lo aprendido (hacer el examen de conciencia y confesarse, una obra de misericordia, ir a Misa, visitar a Jesús en el sagrario…). El niño la acepta, la marca cuando la cumple y gana una estrella; los papás ven las misiones en la Zona de papás.
+- **En mi vida diaria:** las 89 lecciones de Religión, Primera Comunión, Escuela de oración y Cívica tienen una historia de la vida cotidiana (un amigo que te empuja y lo perdonas, el cambio de más en la tienda, un mensaje extraño en internet…) con una pregunta «¿Qué harías tú?» y respuesta explicada.
 - **Estrellas y niveles:** el niño gana de 1 a 3 estrellas por lección.
 - **Perfiles:** cada hijo tiene su propio perfil y su propio grado.
 - **Zona de papás:** se abre resolviendo una multiplicación. Muestra el progreso por materia y permite agregar niños y ajustar la voz y los sonidos.
@@ -75,6 +76,7 @@ src/talleres/biografias-de-santos.js ← vida de los 60 santos del álbum
 src/talleres/escuela-de-oracion.js ← lecciones de oración, oraciones guiadas, mis oraciones y diario
 src/talleres/misiones.js     ← tareas prácticas de cada lección de fe
 src/talleres/oraciones-finales.js ← oración final de cada lección y oración de cada santo
+src/talleres/vida-diaria.js  ← historias de la vida diaria con pregunta para decidir
 src/motor/fotos.js           ← fotos, lámina de la planta y viñetas de crecimiento
 ```
 
