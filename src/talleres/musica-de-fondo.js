@@ -19,7 +19,7 @@ const MUS={a:null,ducked:false,tick:null,
  pause(){if(this.a)this.a.pause();this.ui()},
  next(){this.load((this.idx()+1)%MUSICA.length);if(S.music)this.play();else this.ui()},
  set(on){S.music=on;try{save()}catch(e){}on?this.play():this.pause();try{drawTop()}catch(e){}},
- duck(){if(!this.a||this.a.paused)return;this.ducked=true;this.a.volume=this.vol()*.2;clearInterval(this.tick);this.tick=setInterval(()=>{let sp=false;try{sp=speechSynthesis.speaking||speechSynthesis.pending}catch(e){}if(!sp){clearInterval(this.tick);this.ducked=false;if(this.a)this.a.volume=this.vol()}},350)},
+ duck(){if(!this.a||this.a.paused)return;this.ducked=true;this.a.volume=this.vol()*.2;clearInterval(this.tick);this.tick=setInterval(()=>{let sp=false;try{sp=speechSynthesis.speaking||speechSynthesis.pending||(typeof VN!=="undefined"&&VN.playing)}catch(e){}if(!sp){clearInterval(this.tick);this.ducked=false;if(this.a)this.a.volume=this.vol()}},350)},
  now(){const t=MUSICA[S&&S.musIdx!=null?S.musIdx%MUSICA.length:0];return t},
  ui(){const b=document.getElementById("musbox");if(b)b.innerHTML=musBoxInner()}};
 /* la música baja mientras habla la voz */
