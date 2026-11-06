@@ -707,6 +707,31 @@ table.prog.plst{min-width:0}
 .adj-b{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-weight:700;color:var(--ink);cursor:pointer}
 .adj-b.on{background:var(--mat);border-color:var(--mat);color:#fff}
 @media (prefers-color-scheme:dark){.mtgr-c{background:#3a3226;border-color:#6b5a40}.mttb-c.dg{background:#3a3420}.mttb-c.rc{background:#1f2c44}}
+
+/* esp-juegos */
+.esfr-o{text-align:center;margin:6px 0}.esfr-e{font-size:48px;letter-spacing:6px}
+.esfr-s{font-size:22px;font-weight:800;line-height:1.5}.esfr-s .s0{color:var(--mat)}.esfr-s .s1{color:var(--esp)}.esfr-s .s2{color:var(--cie)}
+.esfr-c{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.esfr-b{border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px 14px;font-weight:800;font-size:15px;color:var(--ink);cursor:pointer}
+.esfr-b:nth-child(1){border-color:var(--mat)}.esfr-b:nth-child(2){border-color:var(--esp)}.esfr-b:nth-child(3){border-color:var(--cie)}
+.esle-l{text-align:center;font-size:44px;color:var(--esp);margin:4px 0}
+.esle-g{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:420px;margin:8px auto}
+.esle-c{display:flex;flex-direction:column;align-items:center;justify-content:center;border:3px solid var(--line);background:var(--card);border-radius:14px;padding:8px 2px;cursor:pointer;min-height:76px}
+.esle-c span{font-size:34px}.esle-c small{font-size:12px;font-weight:700;color:var(--soft);min-height:14px}
+.esle-c.on{border-color:var(--esp);background:#fde7ea}
+.essc-g{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;max-width:440px;margin:8px auto}
+.essc-c{display:flex;flex-direction:column;align-items:center;gap:4px;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px;font-weight:700;font-size:14px;color:var(--ink);cursor:pointer}
+.essc-c span{font-size:34px}.essc-c.done{opacity:.35}.essc-c.shake{animation:mtsh .35s}
+.essc-o{display:flex;flex-direction:column;gap:3px;max-width:440px;margin:0 auto;font-weight:700;color:var(--cie)}
+@keyframes mtsh{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.esmy-s{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0}
+.esmy-w{border:2px solid var(--line);background:var(--card);border-radius:10px;padding:8px 10px;font-size:19px;font-weight:700;color:var(--ink);cursor:pointer}
+.esmy-w.on{border-color:var(--esp);color:var(--esp)}
+.essp-s{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:12px 0;row-gap:8px;padding:8px;background:#fffdf5;border-radius:12px}
+.essp-l{font-size:26px;letter-spacing:0;font-weight:800;color:var(--ink);font-family:ui-rounded,system-ui,sans-serif}
+.essp-g{width:10px;height:34px;border:none;background:transparent;border-radius:4px;cursor:pointer;padding:0;margin:0 -4px;position:relative;z-index:1}
+.essp-g:hover{background:var(--chip)}.essp-g.on{width:20px;margin:0 2px;background:#ffe7a8;border-bottom:3px solid var(--sun)}
+@media (prefers-color-scheme:dark){.esle-c.on{background:#40222a}}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
@@ -7668,6 +7693,512 @@ const MAT3T={
  for(const[id,[rr,ee,ps,l1,l2,l3]]of Object.entries(MAT3T)){const l=by[id];if(!l)continue;const k0=l.learn.findIndex(p=>p.fe||p.info||(p.v&&p.v.t==="vida"));const k=k0<0?l.learn.length:k0;l.learn.splice(k,0,P("Pizarrón: lo más importante","",{t:"piz",r:rr,e:ee}),P("Ejemplo resuelto, paso a paso","",{t:"paso",q:ps[0],s:ps[1],r:ps[2]}));l.lv=[l1,l2,l3]}
  const U=[["Los números hasta el 10 000",["3m1","3m13","3m14","3m15","3m2","3m16","3m17","3m18","3mR1"]],["Suma y resta",["3m3","3m19","3m20","3m21","3m22","3mR2"]],["Multiplicación",["3m4","3m5","3m23","3m24","3m6","3m25","3m26","3m27","3mR3"]],["División",["3m7","3m28","3m29","3m30","3m31","3mR4"]],["Fracciones y decimales",["3m8","3m32","3m33","3m34","3m35","3m36","3m37","3m38","3mR5"]],["Geometría",["3m11","3m39","3m40","3m41","3m42","3m43","3m44","3m45","3m46","3mR6"]],["Medición",["3m9","3m47","3m48","3m49","3m10","3m50","3m51","3m52","3m53","3mR7"]],["Datos y probabilidad",["3m12","3m54","3m55","3m56","3mR8"]]];
  s.units=U.map(([t,ids])=>({t,ls:ids.map(i=>by[i]).filter(Boolean)}));s.d="Números hasta el 10 000, múltiplos y romanos; suma y resta con transformación; multiplicación y división; fracciones y decimales; geometría; perímetro, área, capacidad, peso y tiempo; datos y probabilidad. Cada lección tiene pizarrón, ejemplo resuelto y 3 niveles.";})();
+/* ========= Español: banco de palabras, generadores y juegos ========= */
+const PAL=("ma-pa:🗺️ pu-ma:🐆 ma-má:👩 pa-pá:👨 so-pa:🍲 lu-na:🌙 to-ma-te:🍅 pe-lo-ta:⚽ pa-to:🦆 lu-pa:🔍 ma-le-ta:🧳 nu-be:☁️ da-do:🎲 pe-rro:🐕 ra-tón:🐭 pe-ra:🍐 ro-sa:🌹 ra-na:🐸 lo-ro:🦜 ca-sa:🏠 co-co:🥥 va-ca:🐄 que-so:🧀 ga-to:🐱 gu-sa-no:🐛 gui-ta-rra:🎸 ca-rro:🚗 bu-rro:🫏 o-so:🐻 ma-no:✋ de-do:☝️ ni-do:🪺 mo-ne-da:🪙 sol:☀️ pez:🐟 flor:🌸 pan:🍞 sal:🧂 mar:🌊 tren:🚂 luz:💡 cruz:✝️ "+
+"be-bé:👶 bo-ta:👢 ba-lle-na:🐋 bú-ho:🦉 bur-bu-ja:🫧 ve-la:🕯️ va-so:🥛 ven-ta-na:🪟 u-vas:🍇 vol-cán:🌋 a-vión:✈️ fo-ca:🦭 fre-sa:🍓 fue-go:🔥 fo-to:📷 ja-bón:🧼 ji-ra-fa:🦒 ju-go:🧃 o-jo:👁️ co-ne-jo:🐇 ca-ja:📦 za-pa-to:👞 zo-rro:🦊 ta-za:☕ ca-ra-col:🐌 ce-bo-lla:🧅 ce-bra:🦓 ce-re-za:🍒 lá-piz:✏️ ma-íz:🌽 hie-lo:🧊 hue-vo:🥚 he-la-do:🍦 ho-ja:🍃 hor-mi-ga:🐜 ha-da:🧚 yo-yo:🪀 pa-ya-so:🤡 llu-via:🌧️ lla-ve:🔑 po-llo:🐥 si-lla:🪑 ga-lle-ta:🍪 chi-le:🌶️ cho-co-la-te:🍫 le-che:🍼 co-che:🚙 pi-ña:🍍 ni-ño:👦 ni-ña:👧 a-ra-ña:🕷️ u-ña:💅 mon-ta-ña:⛰️ ca-ba-llo:🐴 ga-llo:🐓 ki-wi:🥝 ko-a-la:🐨 ta-xi:🚕 "+
+"bru-ja:🧙 bra-zo:💪 blu-sa:👚 cla-vo:🔩 glo-bo:🎈 flan:🍮 plá-ta-no:🍌 pla-to:🍽️ tro-fe-o:🏆 dra-gón:🐉 es-tre-lla:⭐ li-bro:📖 ti-gre:🐯 ca-bra:🐐 som-bre-ro:👒 plu-ma:🪶 fla-men-co:🦩 bi-ci-cle-ta:🚲 co-co-dri-lo:🐊 gri-llo:🦗 man-za-na:🍎 me-lón:🍈 ár-bol:🌳 ca-ma:🛏️ ca-mi-sa:👕 ti-je-ras:✂️ re-loj:⌚ ro-bot:🤖 co-ra-zón:❤️ i-gle-sia:⛪ ro-sa-rio:📿 án-gel:👼 cam-pa-na:🔔 pa-lo-ma:🕊️ o-ve-ja:🐑 es-co-ba:🧹 pa-ra-guas:☂️ ma-ri-po-sa:🦋 a-be-ja:🐝 e-le-fan-te:🐘 ser-pien-te:🐍 pin-güi-no:🐧 tor-tu-ga:🐢 del-fín:🐬 ca-mión:🚚 bar-co:⛵ mo-chi-la:🎒 cua-der-no:📓 li-món:🍋 za-na-ho-ria:🥕 ca-la-ba-za:🎃 hon-go:🍄 gi-ra-sol:🌻 pul-po:🐙 ar-di-lla:🐿️ ca-me-llo:🐫 ra-yo:⚡ pe-ri-co:🦜 ma-ra-ca:🪇 ve-na-do:🦌 bo-ca:👄 na-riz:👃 o-re-ja:👂 pie:🦶 dien-te:🦷").split(" ").map(s=>{const[w,e]=s.split(":"),sy=w.split("-");return{s:sy,w:sy.join(""),e}});
+const PALW=new Set(PAL.map(p=>p.w));
+const palF=f=>PAL.filter(f);
+const capF=s=>s.charAt(0).toUpperCase()+s.slice(1);
+const ELETRAS="abcdefghijklmnñopqrstuvwxyz".split("");
+const strAcc=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ñ/g,"ñ");
+/* oraciones marcadas: ^sustantivo^ *verbo* _adjetivo_ */
+const ORS=["El ^perro^ *corre* en el ^parque^.","La ^niña^ _alegre_ *canta* una ^canción^.","Mi ^mamá^ *cocina* ^frijoles^.","El ^pájaro^ _azul_ *vuela* alto.","Los ^niños^ *juegan* con la ^pelota^.","Mi ^abuelo^ *reza* el ^rosario^.","La ^vaca^ _blanca_ *come* ^pasto^.","El ^gato^ _negro_ *duerme* en la ^silla^.","Ana *lee* un ^libro^ _bonito_.","El ^sol^ _brillante_ *calienta* la ^tierra^.","Pedro *pinta* una ^casa^ _roja_.","La ^rana^ _verde_ *salta* en el ^charco^.","Mi ^papá^ *lava* el ^coche^.","El ^bebé^ _pequeño_ *llora*.","Las ^abejas^ *hacen* ^miel^ _dulce_.","El ^padre^ *bendice* a los ^niños^.","La ^maestra^ _amable_ *escribe* en el ^pizarrón^.","Mi ^hermano^ *come* una ^manzana^ _roja_.","El ^caballo^ _fuerte_ *jala* la ^carreta^.","La ^abuela^ *teje* una ^bufanda^ _calientita_."];
+const orParse=s=>s.replace(/[.]$/,"").split(" ").map(t=>{const m=t.match(/^([\^*_])(.+)\1$/);return m?{w:m[2],k:m[1]}:{w:t,k:""}});
+const orPlain=s=>s.replace(/[\^*_]/g,"");
+/* rimas */
+const RIMAS=[["ratón","balón","jabón","camión","avión","corazón","melón","limón"],["vela","abuela","escuela","canela","ciruela"],["gato","pato","zapato","plato","rato"],["rosa","mariposa","osa","hermosa","cosa"],["silla","ardilla","semilla","mantequilla","costilla"],["rana","manzana","ventana","campana","lana"],["maleta","galleta","bicicleta","paleta","camiseta"],["sombrero","cordero","florero","panadero","salero"],["luna","cuna","aceituna","laguna","tuna"],["estrella","botella","huella","bella"]];
+const DIMS=[["casa","casita","casota"],["perro","perrito","perrote"],["gato","gatito","gatote"],["mano","manita","manota"],["zapato","zapatito","zapatote"],["árbol","arbolito","arbolote"],["carro","carrito","carrote"],["oso","osito","osote"],["libro","librito","librote"],["muñeca","muñequita","muñecota"],["pelota","pelotita","pelotota"],["caja","cajita","cajota"],["cabeza","cabecita","cabezota"]].filter(x=>x.length);
+const PLUR=[["gato","gatos"],["flor","flores"],["pez","peces"],["luz","luces"],["lápiz","lápices"],["ratón","ratones"],["mano","manos"],["árbol","árboles"],["casa","casas"],["papel","papeles"],["mar","mares"],["niña","niñas"],["cruz","cruces"],["sol","soles"],["vela","velas"],["camión","camiones"]];
+const GENS=[["el niño","la niña"],["el gato","la gata"],["el abuelo","la abuela"],["el maestro","la maestra"],["el tío","la tía"],["el perro","la perra"],["el rey","la reina"],["el gallo","la gallina"],["el papá","la mamá"],["el hermano","la hermana"],["el padrino","la madrina"],["el señor","la señora"]];
+const LUG=["Puebla","Oaxaca","Monterrey","Guadalajara","Mérida","Toluca","Morelia","Querétaro"];
+const ADIVS=[["Tengo agujas y no sé coser, tengo números y no sé leer.","el reloj","⌚",["la tijera","el libro"]],["Blanca por dentro, verde por fuera; si quieres que te lo diga, espera.","la pera","🍐",["la manzana","el limón"]],["Salgo de día, de noche me escondo; soy redondo, amarillo y caliento todo.","el sol","☀️",["la luna","el foco"]],["Tiene dientes y no come, tiene barba y no es hombre.","el ajo","🧄",["el peine","el elote"]],["Vuelo sin alas, lloro sin ojos; cuando yo lloro, crecen las plantas.","la nube","☁️",["el pájaro","el viento"]],["Tengo hojas y no soy árbol, tengo lomo y no soy caballo.","el libro","📖",["la mesa","el cuaderno"]],["Me pongo en la cabeza para cubrirme del sol, y tengo un ala muy grande sin ser pájaro.","el sombrero","👒",["la gorra","el paraguas"]],["Cuatro patas tiene y no puede andar; tiene cabecera y no sabe hablar.","la cama","🛏️",["la silla","el perro"]],["Soy chiquita como un ratón y cuido la casa como un león.","la llave","🔑",["la puerta","la ventana"]],["Vivo en el agua, no tengo pies; nado y nado, ¿quién soy, quién es?","el pez","🐟",["la rana","el pato"]],["Me hacen con harina, me llevan al horno, y en la Misa me convierto en el Cuerpo del Señor.","la hostia","🍞",["el pastel","la vela"]],["Tengo cuentas y no soy banco; con ellas le rezo a la Virgen.","el rosario","📿",["el collar","la pulsera"]]];
+const COMPS=[["blanco como la","nieve",["noche","tierra"]],["rápido como un","rayo",["caracol","árbol"]],["dulce como la","miel",["sal","piedra"]],["fuerte como un","toro",["pollito","papel"]],["lento como una","tortuga",["liebre","flecha"]],["suave como el","algodón",["cactus","clavo"]],["brilla como el","sol",["lodo","carbón"]],["alto como una","jirafa",["hormiga","ratón"]],["frío como el","hielo",["fuego","café"]],["calladito como un","ratón",["león","trueno"]]];
+const DENTRO=[["marinero","mar"],["girasol","sol"],["panadero","pan"],["salero","sal"],["camarón","cama"],["rosal","rosa"],["lunares","luna"],["pelota","pelo"],["pescado","pesca"],["tomate","toma"],["paloma","palo"],["casado","casa"]];
+const HOMS=[["vela",["La vela ilumina la capilla.","algo que da luz"],["El barco tiene una vela blanca.","la tela que empuja el barco"]],["banco",["Me senté en el banco del parque.","un asiento"],["Mi papá guarda dinero en el banco.","un lugar para el dinero"]],["hoja",["Cayó una hoja del árbol.","parte de una planta"],["Escribe en una hoja de tu cuaderno.","un papel"]],["cola",["El perro mueve la cola.","parte del cuerpo de un animal"],["Hicimos cola para entrar.","una fila de personas"]],["llama",["La llama vive en las montañas.","un animal"],["La llama de la vela es amarilla.","el fuego"]],["sierra",["Papá corta la madera con la sierra.","una herramienta"],["Subimos a la sierra.","unas montañas"]],["gato",["El gato maúlla.","un animal"],["Usaron un gato para subir el coche.","una herramienta"]]];
+const SIGS=[["Cómo te llamas","¿ ?"],["Qué bonito día","¡ !"],["Dónde está mi mochila","¿ ?"],["Qué alegría verte","¡ !"],["Mi perro se llama Canelo","punto final"],["Cuántos años tienes","¿ ?"],["Cuidado con el escalón","¡ !"],["Hoy es domingo y vamos a Misa","punto final"],["A qué hora es el catecismo","¿ ?"],["Viva la Virgen de Guadalupe","¡ !"],["Me gusta el pan dulce","punto final"],["Quién quiere jugar","¿ ?"]];
+const LISTS=[["Compré","pan","leche","huevos","fruta"],["En el jardín hay","rosas","margaritas","girasoles","lirios"],["Mis colores favoritos son el","rojo","azul","verde","amarillo"],["En la mochila llevo","lápiz","cuaderno","goma","libro"],["En la granja viven","vacas","gallinas","cerdos","borregos"],["Para la fiesta trajimos","tamales","atole","pan","fruta"]];
+const SUCS=[[["Abro la llave","🚰"],["Me mojo las manos","💧"],["Uso jabón","🧼"],["Me seco las manos","🧻"]],[["Hago un hoyito en la tierra","🕳️"],["Pongo la semilla","🌰"],["La riego","💧"],["Sale una planta","🌱"]],[["Me pongo la pijama","👕"],["Me lavo los dientes","🪥"],["Rezo con mi familia","🙏"],["Me duermo","😴"]],[["Exprimo los limones","🍋"],["Agrego agua","💧"],["Le pongo azúcar","🥄"],["Sirvo el agua","🥤"]],[["Me levanto","🛏️"],["Me baño","🚿"],["Desayuno","🥣"],["Voy a la escuela","🏫"]],[["Llegamos a la iglesia","⛪"],["Nos persignamos con agua bendita","💧"],["Escuchamos la Misa","🙏"],["Saludamos al padre","👋"]],[["La oruga come hojas","🐛"],["Hace un capullo","🫘"],["Duerme muchos días","💤"],["Sale una mariposa","🦋"]]];
+const TIPOS=[["Ingredientes: 1 taza de harina, 2 huevos. Preparación: mezcla todo y hornea.","una receta"],["Mamá: fui a la tienda. Regreso a las 5. Te quiere, Luis.","un recado"],["Te invito a mi Primera Comunión el sábado 10 a las 11:00 en la parroquia de San José.","una invitación"],["Querida abuelita: ¿Cómo estás? Te extraño mucho. Con cariño, tu nieta Ana.","una carta"],["Había una vez un conejito que vivía en el bosque…","un cuento"],["La luna sale de noche, / redonda como un botón; / la miro desde mi cama / y le rezo al Señor.","un poema"],["Paso 1: Dobla la hoja a la mitad. Paso 2: Recorta las orillas. Paso 3: Pega el listón.","un instructivo"],["¡Cuidemos el agua! Cierra la llave al lavarte los dientes.","un cartel"],["Ayer se inauguró la nueva biblioteca del pueblo. Asistieron muchas familias.","una noticia"],["Blanca por dentro, verde por fuera. ¿Qué es?","una adivinanza"],["Tres tristes tigres tragaban trigo en un trigal.","un trabalenguas"]];
+const CUENTOS=[["{N} fue al mercado con su abuela. Compraron tomates y pan. Después rezaron en la iglesia.",[["¿Con quién fue {N} al mercado?","con su abuela",["con su papá","con su maestra"]],["¿Qué compraron?","tomates y pan",["leche y huevos","flores"]],["¿A dónde fueron después?","a la iglesia",["al parque","a la escuela"]]]],["El perro de {N} se llama Chispa. Es café y tiene orejas largas. Le gusta correr en el patio.",[["¿Cómo se llama el perro?","Chispa",["Canelo","Manchas"]],["¿De qué color es?","café",["negro","blanco"]],["¿Qué le gusta hacer?","correr en el patio",["dormir en la cama","nadar en el río"]]]],["Hoy llovió mucho. {N} se puso sus botas y tomó su paraguas para ir a la escuela.",[["¿Qué pasó hoy?","llovió mucho",["hizo mucho calor","nevó"]],["¿Qué se puso {N}?","sus botas",["sus sandalias","su pijama"]],["¿A dónde fue?","a la escuela",["a la playa","al cine"]]]],["En la fiesta de {N} hubo pastel de chocolate y una piñata de estrella. Llegaron sus primos y sus amigos.",[["¿De qué era el pastel?","de chocolate",["de fresa","de vainilla"]],["¿Cómo era la piñata?","de estrella",["de burro","de pelota"]],["¿Quiénes llegaron?","sus primos y sus amigos",["sus maestros","nadie"]]]],["El domingo, {N} y su familia fueron a Misa. Después comieron tacos en casa de los abuelos.",[["¿Qué día fueron a Misa?","el domingo",["el lunes","el viernes"]],["¿Qué comieron?","tacos",["pizza","sopa"]],["¿Dónde comieron?","en casa de los abuelos",["en un restaurante","en la escuela"]]]],["{N} sembró una semilla en una maceta. Cada día la regaba. Pronto salió una planta de frijol.",[["¿Dónde sembró la semilla?","en una maceta",["en el patio","en un vaso"]],["¿Qué hacía cada día?","la regaba",["la pintaba","la escondía"]],["¿Qué planta salió?","de frijol",["de maíz","de rosa"]]]],["La gata Mimí tuvo tres gatitos: uno blanco, uno gris y uno con manchas. {N} los cuida mucho.",[["¿Cuántos gatitos tuvo Mimí?","tres",["dos","cinco"]],["¿Cómo era uno de los gatitos?","gris",["verde","azul"]],["¿Quién cuida a los gatitos?","{N}",["la vecina","nadie"]]]],["En el recreo, {N} vio a un niño solo y triste. Lo invitó a jugar fútbol y se hicieron amigos.",[["¿Cómo estaba el niño?","solo y triste",["feliz","enojado"]],["¿A qué lo invitó {N}?","a jugar fútbol",["a comer","a cantar"]],["¿Qué pasó al final?","se hicieron amigos",["se pelearon","se fueron a casa"]]]]];
+const TRAB=["bl","br","cl","cr","dr","fl","fr","gl","gr","pl","pr","tr"];
+const EG={
+eLee:a=>{const ws=a?palF(p=>a.split("").some(l=>p.w.includes(l))):PAL,p=pick(ws),o=shuf(PAL.filter(x=>x.w!==p.w&&x.w[0]===p.w[0])).slice(0,2);while(o.length<2){const r=pick(PAL);if(r.w!==p.w&&!o.includes(r))o.push(r)}return C("¿Qué palabra es?",[p.w,...o.map(x=>x.w)],{t:"emo",x:p.e},"Lee despacio cada palabra y piensa en el dibujo.")},
+eIni:()=>{const p=pick(PAL),l=strAcc(p.w[0]),o=shuf(ELETRAS.filter(x=>x!==l&&"aeiou".includes(x)===false)).slice(0,2);return C(`¿Con qué letra empieza el nombre del dibujo?`,[l,...o],{t:"emo",x:p.e},`Di la palabra en voz alta: ${p.w}.`)},
+eSilIni:a=>{const ws=a?palF(p=>a.split("").some(l=>p.s[0].includes(l))):palF(p=>p.s.length>1),p=pick(ws.length?ws:PAL),s=p.s[0],o=shuf([...new Set(PAL.map(x=>x.s[0]).filter(x=>x!==s&&x[0]===s[0]))]).slice(0,2);while(o.length<2){const r=pick(PAL).s[0];if(r!==s&&!o.includes(r))o.push(r)}return C(`¿Con qué sílaba empieza «${p.w}»?`,[s,...o],{t:"emo",x:p.e})},
+eNSil:()=>{const p=pick(PAL);return N(`¿Cuántas sílabas tiene «${p.w}»? Da un aplauso por cada golpe de voz.`,p.s.length,{t:"emo",x:p.e},`${p.s.join(" - ")}`)},
+eFalta:a=>{const ws=palF(p=>p.s.length>=2&&(!a||a.split("").some(l=>p.w.includes(l)))),p=pick(ws.length?ws:PAL.filter(x=>x.s.length>1)),i=mtRnd(0,p.s.length-1),s=p.s[i],sh=p.s.map((x,j)=>j===i?"__":x).join(""),o=shuf([...new Set(PAL.flatMap(x=>x.s).filter(x=>x!==s&&(x[0]===s[0]||x.slice(-1)===s.slice(-1))))]).slice(0,2);return C(`¿Qué sílaba falta? ${sh}`,[s,...o],{t:"emo",x:p.e},`La palabra es «${p.w}».`)},
+eForma:a=>{const ws=palF(p=>p.s.length>=2&&(!a||a.split("").some(l=>p.w.includes(l)))),p=pick(ws.length?ws:PAL.filter(x=>x.s.length>1)),x=shuf([...new Set(PAL.flatMap(q=>q.s).filter(q=>!p.s.includes(q)))]).slice(0,2);return B(`Forma la palabra del dibujo`,p.s,x,{t:"emo",x:p.e})},
+eLetras:()=>{const p=pick(palF(p=>p.w.length>=3&&p.w.length<=5&&new Set(p.w).size===p.w.length));return B(`Ordena las letras para escribir el nombre del dibujo`,p.w.split(""),[],{t:"emo",x:p.e})},
+eLarga:()=>{const by=[1,2,3,4].map(n=>palF(p=>p.s.length===n)),n=mtRnd(2,3),a=pick(by[n]),o=[pick(by[0]),pick(by[1].filter(x=>n>1))].filter(Boolean);return Math.random()<.5?C("¿Cuál es la palabra más larga?",[pick(by[3]).w,pick(by[1]).w,pick(by[0]).w]):C("¿Cuál es la palabra más corta?",[pick(by[0]).w,pick(by[2]).w,pick(by[3]).w])},
+eQueEs:()=>{const t=mtRnd(0,3);if(t===0){const l=pick(ELETRAS);return C(`«${l}» es…`,["una letra","un número","una palabra"])}if(t===1){const n=mtRnd(0,9);return C(`«${n}» es…`,["un número","una letra","una palabra"])}if(t===2){const p=pick(PAL);return C(`«${p.w}» es…`,["una palabra","una letra","un número"])}const p=pick(PAL);return C("¿Cuál es una palabra que se puede leer?",[p.w,p.e,String(mtRnd(10,99))])},
+eTrab:()=>{const p=pick(palF(p=>p.s.some(s=>TRAB.some(t=>s.includes(t))))),s=p.s.find(s=>TRAB.some(t=>s.includes(t))),t=TRAB.find(t=>s.includes(t)),simple=s.replace(t,t[0]),o=[simple,pick(TRAB.filter(x=>x!==t&&x[1]===t[1]))+s.slice(s.indexOf(t)+2)];return Math.random()<.5?C(`¿Qué sílaba trabada tiene «${p.w}»?`,[s,...new Set(o.filter(x=>x!==s))].slice(0,3),{t:"emo",x:p.e}):C("¿Cómo se escribe el nombre del dibujo?",[p.w,p.w.replace(s,simple),p.w.replace(t,t[1]+t[0])].filter((x,i,a)=>a.indexOf(x)===i),{t:"emo",x:p.e},`Tiene la sílaba trabada «${s}».`)},
+eOrt:a=>{const R=a.split(";").map(r=>{const[x,y]=r.split(">");return[x,y.split(",")]}),cand=palF(p=>R.some(([x])=>p.w.includes(x))),p=pick(cand),[x,ys]=R.find(([x])=>p.w.includes(x)),o=[...new Set(ys.map(y=>p.w.replace(x,y)))].filter(b=>b!==p.w&&!PALW.has(b)).slice(0,2);if(o.length<2)return null;return C("¿Cómo se escribe el nombre del dibujo?",[p.w,...o],{t:"emo",x:p.e},`Se escribe con «${x}»: ${p.w}.`)},
+eRima:()=>{const i=mtRnd(0,RIMAS.length-1),g=shuf(RIMAS[i]),o=shuf(RIMAS.filter((_,k)=>k!==i)).slice(0,2).map(r=>pick(r));return C(`¿Qué palabra rima con «${g[0]}»?`,[g[1],...o],null,`Rimar es terminar con el mismo sonido: ${g[0]} – ${g[1]}.`)},
+eDim:()=>{const[n,d,a]=pick(DIMS),t=mtRnd(0,3);return t===0?C(`¿Cómo se dice «${n}» en diminutivo (pequeño)?`,[d,a,n+"s"]):t===1?C(`¿Cómo se dice «${n}» en aumentativo (grande)?`,[a,d,n+"s"]):t===2?C(`«${d}» es un…`,["diminutivo","aumentativo","plural"]):C(`«${a}» es un…`,["aumentativo","diminutivo","plural"])},
+eNum:()=>{const[sg,p]=pick(PLUR);return Math.random()<.5?C(`¿Cuál es el plural de «${sg}»?`,[p,p.endsWith("es")?sg+"s":sg+"es",sg]):C("¿Cuál palabra está en plural (habla de muchos)?",[p,pick(PLUR.filter(x=>x[0]!==sg))[0],sg])},
+eGen:()=>{const i=mtRnd(0,GENS.length-1),[m,f]=GENS[i],o=shuf(GENS.filter((_,k)=>k!==i)).slice(0,2);return Math.random()<.5?C(`¿Cuál es el femenino de «${m}»?`,[f,...o.map(x=>x[1])]):C(`¿Cuál es el masculino de «${f}»?`,[m,...o.map(x=>x[0])])},
+eVerbo:()=>{const s=pick(ORS.filter(x=>x.includes("*"))),t=orParse(s),v=t.find(x=>x.k==="*").w,o=shuf(t.filter(x=>x.k&&x.k!=="*").map(x=>x.w)).slice(0,2);while(o.length<2)o.push(pick(["mesa","bonito","casa"]));return C(`¿Cuál es la acción (el verbo)? «${orPlain(s)}»`,[v,...o],null,"El verbo dice lo que hace alguien.")},
+eAdj:()=>{const s=pick(ORS.filter(x=>x.includes("_"))),t=orParse(s),v=t.find(x=>x.k==="_").w,o=shuf(t.filter(x=>x.k&&x.k!=="_").map(x=>x.w)).slice(0,2);return C(`¿Qué palabra dice cómo es (adjetivo)? «${orPlain(s)}»`,[v,...o],null,"El adjetivo dice cómo es una persona, animal o cosa.")},
+eSust:()=>{const s=pick(ORS),t=orParse(s),v=pick(t.filter(x=>x.k==="^")).w,o=shuf(t.filter(x=>x.k==="*"||x.k==="_").map(x=>x.w)).concat(t.filter(x=>!x.k&&x.w.length>2&&x.w[0]===x.w[0].toLowerCase()).map(x=>x.w)).slice(0,2);return C(`¿Qué palabra nombra a una persona, animal o cosa? «${orPlain(s)}»`,[v,...o],null,"Los sustantivos son los nombres.")},
+eOrac:()=>{const s=orPlain(pick(ORS.filter(x=>x.split(" ").length<=5)));const w=s.replace(/\.$/,"").split(" ");w[w.length-1]+=".";return O("Ordena las palabras para formar la oración",w,null,"Empieza con la palabra que tiene mayúscula y termina con la que tiene punto.")},
+eCuenta:()=>{const s=orPlain(pick(ORS));return N(`¿Cuántas palabras tiene la oración? «${s}»`,s.split(" ").length,null,"Cuenta los espacios en blanco y suma 1.")},
+eSep:()=>{const s=orPlain(pick(ORS.filter(x=>x.split(" ").length<=5))),j=s.replace(/ /g,""),bad1=s.replace(/ /g,"").replace(/(.{3})/,"$1 "),words=s.split(" "),bad2=words.slice(0,-2).join(" ")+" "+words.slice(-2).join("");return C(`Separa bien las palabras: «${j}»`,[s,bad2===s?bad1:bad2,bad1].filter((x,i,a)=>a.indexOf(x)===i).concat(["ninguna"]).slice(0,3),null,"Entre palabra y palabra va un espacio.")},
+eMay:()=>{const n=pick(NAMES),c=pick(LUG),t=mtRnd(0,2),S=[`${n} vive en ${c}.`,`Mi amiga ${n} fue a ${c}.`,`El padre Juan bendijo a ${n}.`][t];return C("¿Cuál está bien escrita?",[S,S.toLowerCase(),S.charAt(0).toLowerCase()+S.slice(1).replace(n,n.toLowerCase())].filter((x,i,a)=>a.indexOf(x)===i).concat([S.toUpperCase().charAt(0)+S.slice(1).replace(c,c.toLowerCase())]).filter((x,i,a)=>a.indexOf(x)===i).slice(0,3),null,"Los nombres de personas y lugares, y el inicio de la oración, llevan mayúscula.")},
+ePunto:()=>{const a=orPlain(pick(ORS)),b=orPlain(pick(ORS.filter(x=>orPlain(x)!==a))),A=a.replace(/\.$/,""),Bb=b.replace(/\.$/,"");const w=A.split(" ");return C("¿Cuál está bien escrita?",[`${A}. ${Bb}.`,`${A} ${Bb.charAt(0).toLowerCase()+Bb.slice(1)}.`,`${w.slice(0,2).join(" ")}. ${w.slice(2).join(" ")} ${Bb}`],null,"Al final de cada oración va un punto, y la siguiente empieza con mayúscula.")},
+eSignos:()=>{const[s,a]=pick(SIGS);return C(`¿Qué signos necesita? «${s}»`,[a,...["¿ ?","¡ !","punto final"].filter(x=>x!==a)],null,"Pregunta: ¿ ? · Emoción o grito: ¡ ! · Si solo cuenta algo: punto.")},
+eComa:()=>{const[h,...it]=pick(LISTS),ok=`${h} ${it.slice(0,-1).join(", ")} y ${it[it.length-1]}.`,b1=`${h} ${it.join(" ")}.`,b2=`${h}, ${it.slice(0,-1).join(" ")}, y, ${it[it.length-1]}.`;return C("¿Dónde van bien las comas?",[ok,b1,b2],null,"La coma separa las cosas de una lista; antes de la «y» no va coma.")},
+eSuc:()=>{const s=pick(SUCS);return O("Ordena lo que pasó primero, después y al final",s.map(([t,e])=>`${e} ${t}`),null,"Piensa qué pasa primero.")},
+eTipo:()=>{const i=mtRnd(0,TIPOS.length-1),[t,a]=TIPOS[i],o=shuf(TIPOS.filter((_,k)=>k!==i).map(x=>x[1])).slice(0,2);return C(`¿Qué tipo de texto es? «${t}»`,[a,...o])},
+eAdiv:()=>{const[q,a,e,o]=pick(ADIVS);return C(`Adivina, adivinador: ${q}`,[a,...o],null,`¡Es ${a}! ${e}`)},
+eComp:()=>{const[h,a,o]=pick(COMPS);return C(`Completa la comparación: «Es ${h} ___»`,[a,...o])},
+eDentro:()=>{const i=mtRnd(0,DENTRO.length-1),[w,d]=DENTRO[i],o=shuf(DENTRO.filter((_,k)=>k!==i).map(x=>x[1])).slice(0,2);return C(`¿Qué palabra se esconde dentro de «${w}»?`,[d,...o])},
+eHom:()=>{const[w,a,b]=pick(HOMS),[s,m]=Math.random()<.5?a:b,o2=(m===a[1]?b:a)[1],o=[o2,pick(HOMS.filter(x=>x[0]!==w).flatMap(x=>[x[1][1],x[2][1]]).filter(x=>x!==m&&x!==o2))];return C(`En «${s}», ¿qué quiere decir «${w}»?`,[m,...o],null,"Algunas palabras se escriben igual pero significan cosas distintas.")},
+eCompr:()=>{const[t,qs]=pick(CUENTOS),n=pick(NAMES),[q,a,o]=pick(qs),f=x=>x.replace(/\{N\}/g,n);return C(`Lee: «${f(t)}» ${f(q)}`,[f(a),...o.map(f)],null,"Vuelve a leer el texto y busca la respuesta.")},
+eAbc:()=>{const w=shuf(PAL.filter((p,i,a)=>a.findIndex(q=>strAcc(q.w[0])===strAcc(p.w[0]))===i)).slice(0,4).map(p=>p.w);return O("Ordena las palabras como en el abecedario",w.slice().sort((a,b)=>a.localeCompare(b,"es")),null,"Fíjate en la primera letra.")},
+eAnt:()=>G.ant(),eSin:()=>G.sin(),
+eMixE:a=>EG[pick(a.split(","))]()};
+const _wrapE=(f,n)=>a=>{for(let i=0;i<8;i++){try{const e=f(a);if(e&&e.k&&(e.k!=="c"||new Set(e.o).size===e.o.length&&e.o.length>=2))return e}catch(x){}}return EG.eLee()};
+for(const[k,f]of Object.entries(EG))G[k]=_wrapE(f,k);
+/* ---- juegos interactivos ---- */
+const FRQ=[["El niño","👦"],["Mi abuela","👵"],["El perro","🐕"],["La maestra","👩‍🏫"],["Mi amigo Leo","🧒"]],FRV=[["corre","🏃"],["canta","🎵"],["reza","🙏"],["come","🍽️"],["salta","🤸"],["lee","📖"]],FRD=[["en el parque.","🌳"],["en la iglesia.","⛪"],["en la casa.","🏠"],["en la escuela.","🏫"],["junto al río.","🏞️"]];
+VX.esfrase=()=>mtBox("esfr",`<p class="note">Arma oraciones divertidas: elige <b>quién</b>, <b>qué hace</b> y <b>dónde</b>.</p><div class="esfr-o" aria-live="polite"></div><div class="esfr-c"><button class="esfr-b" data-act="esfrc" data-v="0">👤 Quién</button><button class="esfr-b" data-act="esfrc" data-v="1">⚡ Qué hace</button><button class="esfr-b" data-act="esfrc" data-v="2">📍 Dónde</button></div><div class="row center">${mtBtn("esfrc","r","🎲 Al azar",1)}</div><p class="note">Toda oración empieza con <b>mayúscula</b> y termina con <b>punto</b>.</p>`);
+function esfrDraw(w){const i=w._i||(w._i=[0,0,0]),q=FRQ[i[0]],v=FRV[i[1]],d=FRD[i[2]];w.querySelector(".esfr-o").innerHTML=`<div class="esfr-e">${q[1]} ${v[1]} ${d[1]}</div><div class="esfr-s"><span class="s0">${q[0]}</span> <span class="s1">${v[0]}</span> <span class="s2">${d[0]}</span></div>`;return`${q[0]} ${v[0]} ${d[0]}`}
+ACT.esfrc=(v,b)=>{const w=b.closest(".mt"),i=w._i||(w._i=[0,0,0]),L=[FRQ,FRV,FRD];if(v==="r")i.forEach((_,k)=>i[k]=mtRnd(0,L[k].length-1));else i[+v]=(i[+v]+1)%L[+v].length;say(esfrDraw(w),true)};
+VX.esletra=()=>mtBox("esle",`<p class="note">Cazador de letras: toca todos los dibujos cuyo nombre empieza con la letra.</p><div class="esle-l"></div><div class="esle-g"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("esleok","","✓ Comprobar",1)}${mtBtn("eslenew","","🔄 Otra letra")}</div>`);
+function esleNew(w){const ls=[...new Set(PAL.map(p=>strAcc(p.w[0])))].filter(l=>PAL.filter(p=>strAcc(p.w[0])===l).length>=3),l=pick(ls),yes=shuf(PAL.filter(p=>strAcc(p.w[0])===l)).slice(0,mtRnd(2,4)),no=shuf(PAL.filter(p=>strAcc(p.w[0])!==l)).slice(0,8-yes.length);w._l=l;w._it=shuf([...yes,...no]);w._on=new Set();w.querySelector(".esle-l").innerHTML=`<b>${l.toUpperCase()} ${l}</b>`;esleDraw(w);w.querySelector(".mt-r").textContent="";say("Busca los que empiezan con "+l,true)}
+function esleDraw(w){w.querySelector(".esle-g").innerHTML=w._it.map((p,i)=>`<button class="esle-c${w._on.has(i)?" on":""}" data-act="eslet" data-v="${i}" aria-label="${p.w}"><span>${p.e}</span><small>${w._show?p.w:""}</small></button>`).join("")}
+ACT.eslet=(v,b)=>{const w=b.closest(".mt"),i=+v;w._on.has(i)?w._on.delete(i):w._on.add(i);say(w._it[i].w,true);esleDraw(w)};
+ACT.esleok=(v,b)=>{const w=b.closest(".mt"),ok=w._it.every((p,i)=>(strAcc(p.w[0])===w._l)===w._on.has(i));w._show=1;esleDraw(w);w.querySelector(".mt-r").innerHTML=ok?"¡Muy bien! Encontraste todos. ⭐":"Revisa: mira los nombres debajo de cada dibujo.";if(ok)mtOk()};
+ACT.eslenew=(v,b)=>{const w=b.closest(".mt");w._show=0;esleNew(w)};
+VX.essec=()=>mtBox("essc",`<p class="note">¿Qué pasó primero? Toca las tarjetas en orden.</p><div class="essc-g"></div><div class="essc-o"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("esscnew","","🔄 Otra historia",1)}</div>`);
+function esscNew(w){w._s=pick(SUCS.filter(s=>s!==w._s));w._p=shuf(w._s.map((_,i)=>i));w._k=0;w.querySelector(".mt-r").textContent="";esscDraw(w)}
+function esscDraw(w){w.querySelector(".essc-g").innerHTML=w._p.map(i=>`<button class="essc-c${i<w._k?" done":""}" data-act="essct" data-v="${i}"${i<w._k?" disabled":""}><span>${w._s[i][1]}</span>${w._s[i][0]}</button>`).join("");w.querySelector(".essc-o").innerHTML=w._s.slice(0,w._k).map((x,i)=>`<span>${["Primero","Después","Luego","Al final"][i]}: ${x[0].toLowerCase()}</span>`).join("")}
+ACT.essct=(v,b)=>{const w=b.closest(".mt");if(+v===w._k){w._k++;say(w._s[+v][0],true);esscDraw(w);if(w._k===w._s.length){w.querySelector(".mt-r").innerHTML="¡Muy bien! Ordenaste toda la historia. ⭐";mtOk()}}else{w.querySelector(".mt-r").textContent="Mmm… ¿eso pasa antes? Piensa otra vez.";b.classList.add("shake");setTimeout(()=>b.classList.remove("shake"),400)}};
+ACT.esscnew=(v,b)=>esscNew(b.closest(".mt"));
+const MAYS=["el sábado pedro y lucía fueron a puebla.","mi perro se llama canelo.","la virgen de guadalupe se apareció a juan diego.","en monterrey vive mi tía rosa.","jesús nació en belén.","el papa vive en roma."],MAYOK=["El sábado Pedro y Lucía fueron a Puebla.","Mi perro se llama Canelo.","La Virgen de Guadalupe se apareció a Juan Diego.","En Monterrey vive mi tía Rosa.","Jesús nació en Belén.","El Papa vive en Roma."];
+VX.esmay=()=>mtBox("esmy",`<p class="note">Toca las palabras que deben llevar <b>mayúscula</b>: nombres de personas, animales con nombre, lugares, y la primera palabra.</p><div class="esmy-s"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("esmyok","","✓ Comprobar",1)}${mtBtn("esmynew","","🔄 Otra oración")}</div>`);
+function esmyNew(w){w._i=(w._i==null?-1:w._i);w._i=(w._i+1)%MAYS.length;w._w=MAYS[w._i].split(" ");w._on=new Set();w.querySelector(".mt-r").textContent="";esmyDraw(w)}
+function esmyDraw(w){w.querySelector(".esmy-s").innerHTML=w._w.map((x,i)=>`<button class="esmy-w${w._on.has(i)?" on":""}" data-act="esmyt" data-v="${i}">${w._on.has(i)?x.charAt(0).toUpperCase()+x.slice(1):x}</button>`).join(" ")}
+ACT.esmyt=(v,b)=>{const w=b.closest(".mt"),i=+v;w._on.has(i)?w._on.delete(i):w._on.add(i);esmyDraw(w)};
+ACT.esmyok=(v,b)=>{const w=b.closest(".mt"),ok=MAYOK[w._i].split(" ");const good=w._w.every((x,i)=>(ok[i]!==x)===w._on.has(i));w.querySelector(".mt-r").innerHTML=good?`¡Muy bien! «${MAYOK[w._i]}» ⭐`:`Casi. Así queda: <b>${MAYOK[w._i]}</b>`;if(good)mtOk();say(MAYOK[w._i],true)};
+ACT.esmynew=(v,b)=>esmyNew(b.closest(".mt"));
+VX.essep=()=>mtBox("essp",`<p class="note">¡Las palabras se juntaron! Toca entre las letras para poner los espacios.</p><div class="essp-s"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("esspok","","✓ Comprobar",1)}${mtBtn("esspnew","","🔄 Otra")}</div>`);
+function esspNew(w){const s=orPlain(pick(ORS.filter(x=>x.split(" ").length<=6&&orPlain(x)!==w._s)));w._s=s;w._c=s.replace(/ /g,"").split("");w._sp=new Set();w.querySelector(".mt-r").textContent="";esspDraw(w)}
+function esspDraw(w){w.querySelector(".essp-s").innerHTML=w._c.map((c,i)=>`<span class="essp-l">${c}</span>${i<w._c.length-1?`<button class="essp-g${w._sp.has(i)?" on":""}" data-act="esspt" data-v="${i}" aria-label="espacio"></button>`:""}`).join("")}
+ACT.esspt=(v,b)=>{const w=b.closest(".mt"),i=+v;w._sp.has(i)?w._sp.delete(i):w._sp.add(i);esspDraw(w)};
+ACT.esspok=(v,b)=>{const w=b.closest(".mt");let s="";w._c.forEach((c,i)=>{s+=c;if(w._sp.has(i))s+=" "});const ok=s===w._s;w.querySelector(".mt-r").innerHTML=ok?`¡Muy bien! «${w._s}» ⭐`:"Todavía no. Lee en voz alta y escucha dónde termina cada palabra.";if(ok){mtOk();say(w._s,true)}};
+ACT.esspnew=(v,b)=>esspNew(b.closest(".mt"));
+{const _ln=learn;learn=function(){const r=_ln.apply(this,arguments);try{document.querySelectorAll(".esfr").forEach(w=>{if(!w._i)esfrDraw(w)});document.querySelectorAll(".esle").forEach(w=>{if(!w._it)esleNew(w)});document.querySelectorAll(".essc").forEach(w=>{if(!w._s)esscNew(w)});document.querySelectorAll(".esmy").forEach(w=>{if(!w._w)esmyNew(w)});document.querySelectorAll(".essp").forEach(w=>{if(!w._c)esspNew(w)})}catch(e){console.error(e)}return r}}
+{const _vt=visText;visText=function(v){if(v&&/^es(fr|frase|letra|sec|may|sep)$/.test(v.t))return"";return _vt.apply(this,arguments)}}
+/* Lección de Español con pizarrón, ejemplo, fe, vida y niveles */
+function ESL(id,t,pages,fe,vd,pz,ps,lv,ex,frase){const l=DL(id,t,pages,fe,vd,pz,ps,lv,ex,frase);const pi=l.learn.find(p=>p.v&&p.v.t==="paso");if(pi)pi.h="Ejemplo resuelto, paso a paso";return l}
+function ESRETO(id,t,gens,ps){const l=DL(id,"🏆 "+t,[["¿Qué es un reto?","Un reto te hace pensar un poco más. Lee con calma, vuelve a leer si hace falta y revisa tu respuesta antes de contestar.",{t:"steps",x:["Lee con calma","Vuelve a leer","Piensa","Revisa"]}]],["Todo lo puedo en Cristo","San Pablo decía: «Todo lo puedo en Cristo, que me fortalece» (Flp 4, 13). Cuando algo cuesta, pídele ayuda a Jesús y vuelve a intentarlo.",{t:"emo",x:"💪 ✝️"}],null,[["Usa todo lo que aprendiste en la unidad.","Si te equivocas, ¡vuelve a intentarlo!"],["Lee","Vuelve a leer","Piensa","Revisa"]],ps,[[["eMixE",10,gens]],[["eMixE",12,gens]],[["eMixE",10,gens],["eCompr",4]]],[],"Todo lo puedo en Cristo.");l.isReto=true;return l}
+/* ========= Español 1.º a profundidad (Guía Santillana 1 + SEP) ========= */
+Object.assign(SILW,{b:[["ba","ballena","🐋"],["be","bebé","👶"],["bi","bicicleta","🚲"],["bo","bota","👢"],["bu","burbuja","🫧"]],v:[["va","vaca","🐄"],["ve","vela","🕯️"],["vi","violín","🎻"],["vo","volcán","🌋"],["vu","vuela","🕊️"]],f:[["fa","faro","🗼"],["fe","feliz","😊"],["fi","fideos","🍜"],["fo","foca","🦭"],["fu","fuego","🔥"]],j:[["ja","jabón","🧼"],["je","jefe","👔"],["ji","jirafa","🦒"],["jo","joya","💎"],["ju","jugo","🧃"]],z:[["za","zapato","👞"],["ce","cebra","🦓"],["ci","cine","🎬"],["zo","zorro","🦊"],["zu","azul","🔵"]],h:[["ha","hada","🧚"],["he","helado","🍦"],["hi","hielo","🧊"],["ho","hoja","🍃"],["hu","huevo","🥚"]],y:[["ya","payaso","🤡"],["ye","yema","🍳"],["yo","yoyo","🪀"],["yu","yunque","🔨"],["y","rey","🤴"]],x:[["xi","taxi","🚕"],["xa","examen","📝"],["xo","saxofón","🎷"],["x","México","🇲🇽"],["xi","xilófono","🎵"]],k:[["ka","karate","🥋"],["ki","kiwi","🥝"],["ko","koala","🐨"],["wa","waffle","🧇"],["wi","kiwi","🥝"]]});
+const ESP1N={
+/* ---- U1 ---- */
+"e17":ESL("e17","Lo que puedo leer",[
+ ["Letras, números y dibujos","A nuestro alrededor hay <b>letras</b> (a, m, s), <b>números</b> (1, 5, 9) y <b>dibujos</b>. Con las letras escribimos palabras que se pueden leer.",{t:"cards",x:[["m","letra"],["7","número"],["🐱","dibujo"],["gato","palabra"]]}],
+ ["¿Dónde hay letras?","En los letreros, los libros, las cajas de cereal, la Biblia, los recados… ¡En todos lados hay algo que leer!",{t:"emo",x:"🪧 📖 🥣 ✉️"}]],
+ ["La Palabra de Dios","La Biblia está escrita con letras, como todos los libros, pero es especial: es la <b>Palabra de Dios</b>. Cuando aprendas a leer, ¡podrás leerla tú mismo!",{t:"photo",src:WM(IM.evangelistas[0],800),alt:"Los evangelistas",cap:"",credit:IM.evangelistas[1],art:true}],
+ ["El letrero","🪧","Vas con tu mamá y ves un letrero que dice «ALTO».","¿Qué haces?",[["Le pregunto qué dice y me detengo con ella",1,"¡Muy bien! Los letreros nos cuidan."],["Sigo corriendo",0,"El letrero avisa algo importante."],["Me tapo los ojos",0,"Mejor pregunta qué dice."]]],
+ [["Las <b>letras</b> forman palabras.","Los <b>números</b> sirven para contar.","Los <b>dibujos</b> nos ayudan a entender."],["m → letra","7 → número","🐱 → dibujo","gato → palabra"]],
+ ["¿Qué es «sol»: letra, número o palabra?",["Tiene varias letras juntas: s, o, l.","Las letras juntas forman palabras."],"«sol» es una palabra."],
+ [[["eQueEs",8]],[["eQueEs",6],["eIni",4]],[["eQueEs",4],["eLee",5]]],[],"La Biblia es la Palabra de Dios."),
+"e18":ESL("e18","La letra con que empieza",[
+ ["El primer sonido","Di «mmmano»: el primer sonido es <b>m</b>. Di «sssol»: es <b>s</b>. Toda palabra empieza con una letra.",{t:"cards",x:[["✋","m de mano"],["☀️","s de sol"],["🐸","r de rana"]]}],
+ ["Cazador de letras","Busca los dibujos que empiezan con la letra.",{t:"esletra"}]],
+ ["Mi nombre empieza así","Dios nos llama a cada uno por nuestro nombre (Is 43, 1). ¿Con qué letra empieza el tuyo? ¡Dios lo conoce desde siempre!",{t:"emo",x:"✍️ 🙏 ❤️"}],
+ ["Los gafetes","🏷️","La maestra reparte gafetes con nombres y tu amiga no encuentra el suyo.","¿Qué haces?",[["Le ayudo a buscar el que empieza con la letra de su nombre",1,"¡Muy bien!"],["Le doy cualquiera",0,"Cada quien tiene el suyo."],["Me río",0,"Mejor ayúdala."]]],
+ [["Di la palabra despacio y escucha el <b>primer sonido</b>."],["🐻 o de oso","🍞 p de pan","🦊 z de zorro"]],
+ ["¿Con qué letra empieza «luna»?",["Digo la palabra despacio: llluna.","El primer sonido es l."],"Empieza con l."],
+ [[["eIni",8]],[["eIni",6],["eSilIni",4]],[["eIni",5],["eLee",5]]],[],"Dios te llama por tu nombre."),
+"e19":ESL("e19","Sílabas con B, V y F",[
+ ["La B y la V suenan igual","ba, be, bi, bo, bu · va, ve, vi, vo, vu. ¡Suenan igual, pero se escriben distinto! Por eso hay que fijarse en cómo se escribe cada palabra.",{t:"silab",c:["b","v"]}],
+ ["La F","fa, fe, fi, fo, fu: <b>foca, fuego, fresa, foto, feliz</b>.",{t:"silab",c:["f"]}]],
+ ["La fe","«Fe» empieza con F. Tener fe es confiar en Dios aunque no lo veamos. Jesús le dijo a Tomás: «Dichosos los que creen sin haber visto» (Jn 20, 29).",{t:"emo",x:"🙏 ✝️ ❤️"}],
+ ["La vela de cumpleaños","🕯️","En tu cumpleaños tu hermanito quiere soplar las velas.","¿Qué haces?",[["Lo dejo soplar una conmigo",1,"¡Qué generoso!"],["Lo empujo",0,"Compartir la alegría la hace más grande."],["Lloro",0,"Mejor compartan."]]],
+ [["B y V suenan igual: fíjate cómo se escribe.","F: fa, fe, fi, fo, fu."],["🐋 ballena","🐄 vaca","🦭 foca"]],
+ ["Forma «vaso» con sílabas.",["Primera sílaba: va.","Segunda: so."],"va + so = vaso."],
+ [[["eSilIni",5,"bvf"],["eLee",4,"bvf"]],[["eForma",5,"bvf"],["eFalta",5,"bvf"]],[["eOrt",6,"b>v,w;v>b,w"],["eForma",4,"bvf"]]],[],"Dichosos los que creen."),
+"e20":ESL("e20","Sílabas con J, Z, ce y ci",[
+ ["La J","ja, je, ji, jo, ju: <b>jabón, jirafa, jugo, ojo, conejo</b>.",{t:"silab",c:["j"]}],
+ ["La Z y la C suave","za, zo, zu con <b>z</b>; ce, ci con <b>c</b>: zapato, zorro, cebra, cine, cereza.",{t:"silab",c:["z"]}]],
+ ["Jesús","«Jesús» empieza con J. Es el nombre más bonito: significa «Dios salva». Lo decimos con respeto y cariño.",{t:"photo",src:WM(IM.pantocrator[0],800),alt:"Cristo",cap:"",credit:IM.pantocrator[1],art:true}],
+ ["El jabón","🧼","Llegas del recreo y vas a comer.","¿Qué haces primero?",[["Me lavo las manos con agua y jabón",1,"¡Muy bien! Así cuidas tu salud."],["Como así",0,"Las manos traen microbios."],["Me limpio en la ropa",0,"Mejor agua y jabón."]]],
+ [["J: ja, je, ji, jo, ju.","Z: za, zo, zu. C suave: ce, ci."],["🦒 jirafa","👞 zapato","🦓 cebra"]],
+ ["¿Cómo se escribe: zapato o sapato?",["Suena como s, pero esta palabra lleva z.","za-pa-to."],"Se escribe zapato."],
+ [[["eSilIni",5,"jzc"],["eLee",4,"jz"]],[["eForma",5,"jz"],["eFalta",5,"jz"]],[["eOrt",6,"z>s,c;ce>se,ze;ci>si,zi;j>g,h"],["eForma",4,"jz"]]],[],"Jesús significa «Dios salva»."),
+"e21":ESL("e21","La H muda, la Y y letras poco usadas",[
+ ["La H no suena","La <b>h</b> es muda: se escribe pero no se oye. hada, helado, hielo, hoja, huevo.",{t:"silab",c:["h"]}],
+ ["Y, X, K y W","La <b>y</b> suena como ll: yoyo, payaso. La <b>x</b> suena «ks» en taxi y «j» en México. La <b>k</b> y la <b>w</b> casi no se usan: kiwi, koala.",{t:"silab",c:["y","x","k"]}]],
+ ["Hosanna","En el Domingo de Ramos cantamos «¡Hosanna!» para recibir a Jesús. Empieza con H, aunque no suena.",{t:"photo",src:WM(IM.entrada[0],800),alt:"Entrada en Jerusalén",cap:"",credit:IM.entrada[1],art:true}],
+ ["El huevo de la gallina","🥚","Vas por huevos al gallinero con tu abuelo.","¿Cómo los cargas?",[["Con cuidado, en la canasta",1,"¡Muy bien!"],["Corriendo",0,"Se pueden romper."],["En la bolsa del pantalón",0,"¡Se aplastarían!"]]],
+ [["La <b>h</b> no suena.","La <b>y</b> suena como ll.","México se escribe con <b>x</b> y suena como j."],["🧊 hielo","🤡 payaso","🥝 kiwi"]],
+ ["¿Cómo se escribe: «uevo» o «huevo»?",["La h no suena, pero esta palabra la lleva."],"Se escribe huevo."],
+ [[["eLee",8,"hyxkw"]],[["eForma",5,"hy"],["eOrt",5,"h>,j"]],[["eOrt",6,"h>,j;ll>y,l;y>ll,i"],["eFalta",4,"hy"]]],[],"¡Hosanna al Hijo de David!"),
+"e22":ESL("e22","Sílabas trabadas",[
+ ["Dos consonantes juntas","Algunas sílabas tienen <b>dos consonantes</b> antes de la vocal: <b>bra</b>-zo, <b>flor</b>, <b>tren</b>, es-<b>tre</b>-lla, <b>pla</b>-to.",{t:"silab",c:["pl","bl","tr","br","cr","fl","gr","pr","fr","gl","dr","cl"]}],
+ ["Léelas despacio","Junta los dos sonidos: t + r + e = tre. b + l + u = blu.",{t:"cards",x:[["🚂","tren"],["🎈","glo-bo"],["⭐","es-tre-lla"],["🐯","ti-gre"]]}]],
+ ["La estrella de Belén","Una estrella guio a los Reyes Magos hasta Jesús. ¡«Estrella» tiene la sílaba trabada «tre»!",{t:"photo",src:WM(IM.magos[0],800),alt:"Los Magos",cap:"",credit:IM.magos[1],art:true}],
+ ["El globo","🎈","A tu primo se le escapó su globo y está llorando.","¿Qué haces?",[["Lo consuelo y le comparto el mío",1,"¡Qué buen corazón!"],["Me río",0,"Se siente triste."],["Lo ignoro",0,"Un amigo consuela."]]],
+ [["Sílaba trabada: <b>dos consonantes + vocal</b>.","bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr"],["🚂 tren","📖 li-bro","🍽️ pla-to"]],
+ ["¿Qué sílaba trabada tiene «cabra»?",["ca-bra.","«bra» tiene b + r + a."],"La sílaba «bra»."],
+ [[["eTrab",8]],[["eTrab",6],["eForma",4,"r"]],[["eTrab",10]]],[],"La estrella que lleva a Jesús."),
+"e23":ESL("e23","Palabras largas y cortas",[
+ ["Largas y cortas","Algunas palabras tienen pocas letras: <b>sol, pan, luz</b>. Otras tienen muchas: <b>mariposa, chocolate, bicicleta</b>.",{t:"cards",x:[["☀️","sol: 3 letras"],["🦋","mariposa: 8 letras"]]}],
+ ["¡Ojo!","Una cosa grande puede tener un nombre corto: <b>mar</b>. Y una cosa pequeña, uno largo: <b>hormiga</b>.",{t:"emo",x:"🌊 mar · 🐜 hormiga"}]],
+ ["Palabras cortas, grandes en amor","«Sí», «paz», «Dios», «fe», «amor»: palabras cortitas pero llenas de significado. La Virgen dijo una palabra muy corta que cambió el mundo: «Sí».",{t:"photo",src:WM(IM.anunMurillo[0],800),alt:"La Anunciación",cap:"",credit:IM.anunMurillo[1],art:true}],
+ ["Gracias y perdón","🙏","Tu hermano te ayudó a recoger tus juguetes.","¿Qué le dices?",[["«Gracias»",1,"¡Una palabra corta que vale mucho!"],["Nada",0,"Agradecer es importante."],["«Era tu obligación»",0,"Eso no es amable."]]],
+ [["Cuenta las <b>letras</b> o las <b>sílabas</b> para saber cuál es más larga."],["pan: corta","mariposa: larga"]],
+ ["¿Cuál es más larga: «oso» o «elefante»?",["oso: 3 letras.","elefante: 8 letras."],"«elefante» es más larga."],
+ [[["eLarga",8]],[["eLarga",5],["eNSil",5]],[["eNSil",6],["eLarga",4]]],[],"Palabras pequeñas, grandes en amor."),
+/* ---- U2 ---- */
+"e24":ESL("e24","Leo palabras con dibujos",[
+ ["Une palabra y dibujo","Lee la palabra despacio, sílaba por sílaba, y busca el dibujo: <b>pe-lo-ta</b> ⚽.",{t:"cards",x:[["⚽","pelota"],["🍓","fresa"],["🐢","tortuga"],["🌳","árbol"]]}],
+ ["Leo y señalo","Juega a cazar palabras.",{t:"esletra"}]],
+ ["Dios le puso nombre a todo","En el Génesis, Dios le pidió a Adán ponerle nombre a los animales (Gn 2, 19). ¡Desde el principio las palabras sirven para nombrar lo que Dios creó!",{t:"photo",src:WM(IM.animalesArca[0],800),alt:"Animales",cap:"",credit:IM.animalesArca[1],art:true}],
+ ["La lista del súper","🛒","Tu mamá te da una lista: pan, leche, huevos.","¿Qué haces?",[["Leo cada palabra y busco las cosas",1,"¡Muy bien! Ya ayudas leyendo."],["Compro dulces",0,"No estaban en la lista."],["Pierdo la lista",0,"Cuídala."]]],
+ [["Lee <b>sílaba por sílaba</b> y luego toda la palabra.","Busca el dibujo que corresponde."],["ma-pa 🗺️","lu-na 🌙","ga-to 🐱"]],
+ ["¿Qué dibujo corresponde a «nube»?",["Leo: nu-be.","nube: ☁️."],"☁️"],
+ [[["eLee",8]],[["eLee",10]],[["eLee",6],["eForma",4]]],[],"Dios creó todo con amor."),
+"e25":ESL("e25","Separamos las palabras",[
+ ["Un espacio entre palabras","Cuando escribimos, dejamos un <b>espacio</b> entre palabra y palabra. Si no, ¡no se entiende! «Mimamámemima» → «Mi mamá me mima».",{t:"big",x:"Mi␣mamá␣me␣mima."}],
+ ["Pon los espacios","Separa las palabras que se juntaron.",{t:"essep"}]],
+ ["Orden y claridad","Dios es un Dios de orden (1 Cor 14, 33). Cuando escribimos con cuidado y separamos las palabras, ayudamos a que los demás nos entiendan.",{t:"emo",x:"✍️ ✅"}],
+ ["La tarjeta para mamá","💌","Escribes «Teamomamá» en la tarjeta del 10 de mayo y tu hermana no le entiende.","¿Qué haces?",[["La vuelvo a escribir separando: «Te amo, mamá»",1,"¡Muy bien!"],["Así la dejo",0,"Separar ayuda a leer."],["La rompo",0,"Se puede corregir."]]],
+ [["Entre palabra y palabra va un <b>espacio</b>.","Cuenta las palabras: espacios + 1."],["El perro corre. → 3 palabras"]],
+ ["Separa: «Elsolbrilla»",["Leo en voz alta: El - sol - brilla.","Pongo un espacio después de cada palabra."],"El sol brilla."],
+ [[["eSep",6],["eCuenta",3]],[["eSep",5],["eCuenta",5]],[["eCuenta",5],["eSep",5]]],[],"Escribir con cuidado es amar."),
+"e26":ESL("e26","Ordeno y escribo oraciones",[
+ ["Una oración tiene orden","Las palabras se acomodan para que tengan sentido: «come El gato» no se entiende; «El gato come» sí.",{t:"cards",x:[["❌","come El gato"],["✅","El gato come."]]}],
+ ["Arma oraciones","Elige quién, qué hace y dónde.",{t:"esfrase"}]],
+ ["Hablar con Dios","Una oración también es hablar con Dios. Podemos decirle cosas sencillas: «Jesús, te quiero.» «Gracias por mi familia.»",{t:"emo",x:"🙏 Jesús, te quiero."}],
+ ["El recado revuelto","📝","Tu hermanito escribió «parque vamos al» y nadie le entiende.","¿Qué haces?",[["Le ayudo a ordenarlo: «Vamos al parque»",1,"¡Muy bien!"],["Me burlo",0,"Está aprendiendo, como tú."],["Lo tiro",0,"Mejor ayúdale."]]],
+ [["Empieza con <b>mayúscula</b>, termina con <b>punto</b>.","Quién + qué hace + (dónde)."],["La niña canta.","El perro corre en el parque."]],
+ ["Ordena: «flores. riega Mamá las»",["¿Quién? Mamá (tiene mayúscula).","¿Qué hace? riega.","¿Qué? las flores. (tiene punto)."],"Mamá riega las flores."],
+ [[["eOrac",8]],[["eOrac",10]],[["eOrac",6],["eCuenta",4]]],[],"Jesús, te quiero."),
+"e27":ESL("e27","La dirección de la escritura",[
+ ["De izquierda a derecha","En español leemos y escribimos de <b>izquierda a derecha</b> ➡️ y de <b>arriba hacia abajo</b> ⬇️.",{t:"emo",x:"✍️ ➡️ ⬇️"}],
+ ["El renglón","Cuando se acaba el renglón, bajamos al siguiente y volvemos a empezar por la izquierda.",{t:"steps",x:["Empiezo a la izquierda","Escribo hacia la derecha","Bajo al otro renglón","Vuelvo a la izquierda"]}]],
+ ["Leer la Biblia","Cuando el lector lee en Misa, sigue con los ojos las líneas de izquierda a derecha. ¡Pronto tú podrás leer en voz alta la Palabra de Dios!",{t:"photo",src:WM(IM.misa[0],800),alt:"La Misa",cap:"",credit:IM.misa[1],art:false}],
+ ["El cuaderno nuevo","📓","Estrenas cuaderno y quieres escribir tu nombre.","¿Dónde empiezas?",[["Arriba a la izquierda",1,"¡Muy bien!"],["Abajo a la derecha",0,"Se empieza arriba a la izquierda."],["En medio",0,"Mejor arriba a la izquierda."]]],
+ [["Izquierda ➡️ derecha.","Arriba ⬇️ abajo."],["✍️ ➡️","renglón por renglón"]],
+ ["Si termino el renglón, ¿qué hago?",["Bajo al siguiente renglón.","Empiezo otra vez a la izquierda."],"Bajo y vuelvo a empezar por la izquierda."],
+ [[["eOrac",6],["eSep",2]],[["eOrac",5],["eLee",5]],[["eOrac",6],["eCuenta",4]]],[TF("En español escribimos de derecha a izquierda.",false),TF("Leemos de arriba hacia abajo.",true),C("¿Dónde empiezo a escribir en una hoja?",["arriba a la izquierda","abajo a la derecha","en medio"])],"Pronto leerás la Palabra de Dios."),
+"e28":ESL("e28","¿Dónde va el punto?",[
+ ["El punto final","El <b>punto</b> (.) va al final de una oración. Después del punto, la siguiente palabra empieza con <b>mayúscula</b>.",{t:"big",x:"Mi gato duerme. Mi perro juega."}],
+ ["Punto y seguido, punto y aparte","<b>Punto y seguido</b>: seguimos en el mismo renglón. <b>Punto y aparte</b>: cambiamos de párrafo. <b>Punto final</b>: se acaba el texto.",{t:"lam",id:"puntuacion"}]],
+ ["Un descanso","El punto es como un pequeño descanso al leer. Dios también descansó el séptimo día y nos regaló el domingo para descansar y estar con Él.",{t:"emo",x:"✍️ . 😌 ⛪"}],
+ ["El dictado","✏️","En el dictado olvidaste todos los puntos.","¿Qué haces?",[["Lo leo en voz alta y pongo un punto donde termina cada idea",1,"¡Muy bien!"],["Lo entrego así",0,"Revisar ayuda."],["Pongo puntos en cualquier lugar",0,"El punto va al final de cada oración."]]],
+ [["Punto al <b>final</b> de cada oración.","Después del punto: <b>mayúscula</b>."],["Llueve. Abro el paraguas."]],
+ ["¿Dónde van los puntos? «El sol salió los niños jugaron»",["Primera idea: El sol salió.","Segunda idea: Los niños jugaron (con mayúscula)."],"El sol salió. Los niños jugaron."],
+ [[["ePunto",8]],[["ePunto",10]],[["ePunto",6],["eMay",4]]],[],"El domingo es para Dios."),
+"e29":ESL("e29","Leo y entiendo",[
+ ["Leer para entender","Leer no es solo decir las palabras: es <b>entender</b> qué pasa. Pregúntate: ¿quién?, ¿qué hizo?, ¿dónde?, ¿cuándo?",{t:"cards",x:[["👤","¿Quién?"],["⚡","¿Qué hizo?"],["📍","¿Dónde?"],["🕒","¿Cuándo?"]]}],
+ ["Vuelve a leer","Si no sabes una respuesta, vuelve a leer el texto: ¡la respuesta está ahí!",{t:"steps",x:["Leo el texto","Leo la pregunta","Busco en el texto","Contesto"]}]],
+ ["María guardaba todo en su corazón","La Virgen escuchaba y pensaba con calma lo que pasaba: «María guardaba todas estas cosas en su corazón» (Lc 2, 19). Leer con atención es parecido: pensamos en lo que leemos.",{t:"photo",src:WM(IM.virgenNino[0],800),alt:"La Virgen",cap:"",credit:IM.virgenNino[1],art:true}],
+ ["La pregunta difícil","📖","No entiendes una pregunta de la lectura.","¿Qué haces?",[["Vuelvo a leer el texto con calma y, si no, pregunto",1,"¡Muy bien!"],["Contesto cualquier cosa",0,"Mejor vuelve a leer."],["Me rindo",0,"¡Tú puedes!"]]],
+ [["Lee el texto, lee la pregunta y <b>busca</b> la respuesta.","¿Quién? ¿Qué? ¿Dónde? ¿Cuándo?"],["¿Quién? → una persona","¿Dónde? → un lugar"]],
+ ["«Lupita fue al parque con su perro.» ¿Con quién fue Lupita?",["Busco en el texto: «con su perro»."],"Fue con su perro."],
+ [[["eCompr",8]],[["eCompr",10]],[["eCompr",10]]],[],"Guardar las cosas en el corazón."),
+/* ---- U3 ---- */
+"e30":ESL("e30","Las mayúsculas",[
+ ["¿Cuándo va mayúscula?","Al <b>inicio</b> de una oración, en los <b>nombres de personas</b> (Ana, Pedro), de <b>mascotas</b> (Canelo) y de <b>lugares</b> (México, Puebla).",{t:"cards",x:[["A","Ana"],["M","México"],["C","Canelo"],["D","Dios"]]}],
+ ["Pon las mayúsculas","Toca las palabras que deben llevar mayúscula.",{t:"esmay"}]],
+ ["Nombres santos","Escribimos con mayúscula <b>Dios</b>, <b>Jesús</b>, <b>María</b> y los nombres de los santos, por respeto y porque son nombres propios.",{t:"photo",src:WM(IM.guadalupe[0],800),alt:"Virgen de Guadalupe",cap:"",credit:IM.guadalupe[1],art:true}],
+ ["El nombre de tu amigo","✍️","Escribes una tarjeta para tu amigo Mateo y pones «mateo».","¿Qué haces?",[["Lo corrijo: Mateo, con mayúscula",1,"¡Muy bien! Su nombre merece mayúscula."],["Lo dejo así",0,"Los nombres llevan mayúscula."],["Escribo todo con mayúsculas",0,"Solo la primera letra."]]],
+ [["Mayúscula: inicio de oración, nombres de personas, mascotas y lugares.","También: Dios, Jesús, María."],["Ana vive en Puebla.","Mi perro se llama Canelo."]],
+ ["Corrige: «pedro fue a oaxaca.»",["Inicio de oración y nombre de persona: Pedro.","Nombre de lugar: Oaxaca."],"Pedro fue a Oaxaca."],
+ [[["eMay",8]],[["eMay",10]],[["eMay",5],["ePunto",5]]],[],"Nombres santos con respeto."),
+"e31":ESL("e31","Los verbos: palabras de acción",[
+ ["¿Qué hace?","Los <b>verbos</b> dicen lo que hacen las personas, los animales o las cosas: correr, saltar, comer, rezar, cantar.",{t:"cards",x:[["🏃","corre"],["🎵","canta"],["🙏","reza"],["🍽️","come"]]}],
+ ["Ayer, hoy y mañana","Los verbos también dicen <b>cuándo</b>: ayer recé, hoy rezo, mañana rezaré.",{t:"tiempo"}]],
+ ["Verbos de amor","Jesús nos enseñó verbos muy importantes: <b>amar</b>, <b>perdonar</b>, <b>ayudar</b>, <b>compartir</b>, <b>orar</b>. ¡Son acciones que hacen feliz a Dios!",{t:"emo",x:"❤️ 🤝 🙏 🍞"}],
+ ["¿Qué verbo eliges?","🤝","Tu hermano rompió tu dibujo sin querer y te pide perdón.","¿Qué verbo eliges?",[["Perdonar",1,"¡Muy bien! Perdonar es un verbo de Jesús."],["Gritar",0,"Gritar no arregla nada."],["Pegar",0,"Nunca."]]],
+ [["Verbo = <b>acción</b>.","Pregunta: ¿qué hace?"],["El perro <b>corre</b>.","Ana <b>lee</b>."]],
+ ["¿Cuál es el verbo en «La niña salta la cuerda»?",["¿Qué hace la niña?","Salta."],"El verbo es «salta»."],
+ [[["eVerbo",8]],[["eVerbo",10]],[["eVerbo",6],["eSust",4]]],[],"Amar, perdonar, ayudar."),
+"e32":ESL("e32","Los adjetivos: cómo son las cosas",[
+ ["¿Cómo es?","Los <b>adjetivos</b> dicen cómo es algo: su color, tamaño, forma o cómo se siente: grande, rojo, suave, alegre.",{t:"adj"}],
+ ["Comparar","También comparamos con adjetivos: «es tan blanco como la nieve».",{t:"cards",x:[["🐘","grande"],["🐜","pequeña"],["🍋","amarillo"],["😊","alegre"]]}]],
+ ["Palabras bonitas","Cuando hablamos de los demás, usemos adjetivos bonitos: amable, generoso, valiente, trabajador. «Que sus palabras sean siempre agradables» (Col 4, 6).",{t:"emo",x:"😊 💐 💬"}],
+ ["El dibujo de tu amiga","🎨","Tu amiga te enseña su dibujo y no te gustó mucho.","¿Qué le dices?",[["Algo amable y verdadero: «Usaste colores muy alegres»",1,"¡Muy bien! Se puede ser sincero y amable."],["«Está feo»",0,"Eso la lastimaría."],["Nada",0,"Una palabra amable ayuda."]]],
+ [["Adjetivo: dice <b>cómo es</b>.","Color, tamaño, forma, sentimiento."],["casa <b>roja</b>","perro <b>grande</b>","niña <b>alegre</b>"]],
+ ["¿Cuál es el adjetivo en «El gato negro duerme»?",["¿Cómo es el gato?","Negro."],"El adjetivo es «negro»."],
+ [[["eAdj",8]],[["eAdj",6],["eComp",4]],[["eAdj",5],["eVerbo",5]]],[],"Palabras agradables."),
+"e33":ESL("e33","Masculino y femenino, uno y muchos",[
+ ["Género","Hay palabras <b>masculinas</b> (el niño, el gato) y <b>femeninas</b> (la niña, la gata).",{t:"gn"}],
+ ["Número","<b>Singular</b>: uno (la flor). <b>Plural</b>: muchos (las flores). Para el plural agregamos <b>s</b> o <b>es</b>.",{t:"cards",x:[["🌸","flor → flores"],["🐱","gato → gatos"],["🐟","pez → peces"]]}]],
+ ["Hombre y mujer los creó","«Dios creó al hombre a su imagen… hombre y mujer los creó» (Gn 1, 27). Niños y niñas valen lo mismo y son un regalo de Dios.",{t:"emo",x:"👦 + 👧 = 💖"}],
+ ["El equipo","⚽","Los niños no quieren que las niñas jueguen fútbol.","¿Qué dices?",[["Que todos podemos jugar juntos",1,"¡Muy bien!"],["Nada",0,"Defender a otros es valiente."],["Que tienen razón",0,"Todos pueden jugar."]]],
+ [["el / los → masculino · la / las → femenino.","Plural: + s o + es."],["el gato → la gata","la luz → las luces"]],
+ ["¿Cuál es el plural de «ratón»?",["Termina en consonante (n).","Agrego -es: ratones (sin acento)."],"ratones."],
+ [[["eGen",4],["eNum",4]],[["eGen",5],["eNum",5]],[["eNum",6],["eGen",4]]],[],"Hombre y mujer los creó."),
+"e34":ESL("e34","Diminutivos y aumentativos",[
+ ["Chiquito y grandote","<b>Diminutivo</b>: algo pequeño o con cariño (casita, perrito). <b>Aumentativo</b>: algo muy grande (casota, perrote).",{t:"tam"}],
+ ["Terminaciones","Diminutivo: -ito, -ita, -cito. Aumentativo: -ote, -ota, -ón, -ona.",{t:"cards",x:[["🔹","-ito, -ita"],["🔷","-ote, -ota, -ón"]]}]],
+ ["El Niño Dios","Con cariño decimos «el Niñito Dios», «la Virgencita». El diminutivo muestra ternura y amor.",{t:"photo",src:WM(IM.natividad[0],800),alt:"El Niño Dios",cap:"",credit:IM.natividad[1],art:true}],
+ ["El apodo","😢","Unos niños le dicen «orejotas» a un compañero.","¿Qué haces?",[["Les pido que no lo hagan y lo llamo por su nombre",1,"¡Muy bien! Los apodos lastiman."],["Me río",0,"Eso lo hace sentir mal."],["Le digo otro apodo",0,"Nunca."]]],
+ [["Diminutivo: -ito, -ita.","Aumentativo: -ote, -ota, -ón."],["perro → perrito","casa → casota"]],
+ ["¿Cómo se dice «zapato» en aumentativo?",["Agrego -ote.","zapat + ote."],"zapatote."],
+ [[["eDim",8]],[["eDim",10]],[["eDim",8]]],[],"La Virgencita, con cariño."),
+"e35":ESL("e35","¿Con b o con v?",[
+ ["Suenan igual","La b y la v suenan igual; hay que aprender cómo se escribe cada palabra. Un truco: se escriben con <b>b</b> las palabras con <b>bl</b> y <b>br</b> (blusa, libro) y después de <b>m</b> (cambio).",{t:"silab",c:["b","v"]}],
+ ["Palabras que hay que recordar","Con b: bebé, bota, ballena, burbuja. Con v: vaca, vela, vaso, ventana, volcán.",{t:"cards",x:[["👶","bebé"],["👢","bota"],["🕯️","vela"],["🪟","ventana"]]}]],
+ ["La Virgen y el bautismo","«Virgen» se escribe con v y «bautismo» con b. ¡Dos palabras muy importantes en nuestra fe!",{t:"photo",src:WM(IM.bautismoP[0],800),alt:"Bautismo",cap:"",credit:IM.bautismoP[1],art:true}],
+ ["La duda","✏️","No sabes si «vaca» va con b o con v.","¿Qué haces?",[["Pregunto o la busco en un libro",1,"¡Muy bien! Así se aprende."],["Pongo cualquiera",0,"Mejor asegúrate."],["No la escribo",0,"Pregunta sin miedo."]]],
+ [["bl, br → con b.","Después de m → b.","Las demás: ¡a recordar!"],["libro, blusa","vaca, vela"]],
+ ["¿Se escribe «bentana» o «ventana»?",["Es una palabra que hay que recordar.","Se escribe con v."],"ventana."],
+ [[["eOrt",8,"b>v,w;v>b,w"]],[["eOrt",10,"b>v,w;v>b,w"]],[["eOrt",8,"b>v,w;v>b,w"],["eTrab",2]]],[],"Virgen con v, bautismo con b."),
+"e36":ESL("e36","¿Con c, s o z?",[
+ ["Mismo sonido","En México, <b>ce, ci, se, si, ze, zi</b> suenan casi igual. Usamos <b>z</b> con a, o, u (zapato, zorro, azul) y <b>c</b> con e, i (cebra, cine).",{t:"silab",c:["z","s"]}],
+ ["El plural de -z","Las palabras que terminan en z cambian a <b>c</b> en plural: lápiz → lápices, luz → luces, cruz → cruces.",{t:"cards",x:[["✏️","lápiz → lápices"],["💡","luz → luces"],["✝️","cruz → cruces"]]}]],
+ ["La cruz","La cruz se escribe con z. En plural: «cruces». La señal de la cruz nos recuerda que Jesús nos ama.",{t:"photo",src:WM(IM.crucificado[0],800),alt:"La Cruz",cap:"",credit:IM.crucificado[1],art:true}],
+ ["Corregir con amor","✏️","Tu amiga escribió «sapato» y te pide revisar.","¿Qué le dices?",[["«Se escribe con z: zapato. ¡Ya casi!»",1,"¡Muy bien! Corregir con cariño."],["«Escribes horrible»",0,"Eso lastima."],["Nada",0,"Ayudar es mejor."]]],
+ [["z con a, o, u. c con e, i.","-z → -ces en plural."],["zapato","cebra","luces"]],
+ ["¿Cuál es el plural de «lápiz»?",["Termina en z.","Cambia a c y agrega -es."],"lápices."],
+ [[["eOrt",8,"z>s,c;ce>se,ze;ci>si,zi"]],[["eOrt",6,"z>s,c;ce>se,ze;ci>si,zi"],["eNum",4]],[["eOrt",8,"z>s,c;ce>se,ze;ci>si,zi;s>z,c"]]],[],"La señal de la cruz."),
+"e37":ESL("e37","¿Con g o con j?",[
+ ["La g suave y la g fuerte","ga, go, gu suenan suave (gato, gota). <b>ge, gi</b> suenan fuerte, como j (gente, girasol). Para ge y gi suaves usamos <b>gue, gui</b> (guitarra).",{t:"silab",c:["g","j"]}],
+ ["La j siempre suena fuerte","ja, je, ji, jo, ju: jabón, jirafa, jugo, ojo, conejo.",{t:"cards",x:[["🦒","jirafa"],["🌻","girasol"],["🎸","guitarra"]]}]],
+ ["José, el padre de Jesús","San José se escribe con J. Fue un hombre justo y trabajador que cuidó a Jesús y a María.",{t:"photo",src:WM(IM.joseSueno[0],800),alt:"San José",cap:"",credit:IM.joseSueno[1],art:true}],
+ ["El juego","🎲","Están jugando y tu primo hace trampa.","¿Qué haces?",[["Le digo con calma que juguemos limpio",1,"¡Muy bien!"],["Hago trampa yo también",0,"Eso no arregla nada."],["Dejo de jugar enojado",0,"Mejor habla con calma."]]],
+ [["ga, go, gu: suaves.","ge, gi: fuertes como j.","gue, gui: suaves."],["gato","girasol","guitarra","jugo"]],
+ ["¿Se escribe «girafa» o «jirafa»?",["Suena fuerte.","Esta palabra se escribe con j."],"jirafa."],
+ [[["eOrt",8,"j>g,h;gi>ji,hi;gue>ge,gu"]],[["eOrt",10,"j>g,h;gi>ji,hi;gue>ge,gu"]],[["eOrt",8,"j>g,h;gi>ji,hi;gue>ge,gu"],["eLee",2,"gj"]]],[],"San José, hombre justo."),
+"e38":ESL("e38","¿Con r o con rr?",[
+ ["La r suave y la r fuerte","En medio de la palabra, <b>r</b> suena suave (pera, loro) y <b>rr</b> suena fuerte (perro, carro). Al inicio, una sola r suena fuerte (ratón, rosa).",{t:"silab",c:["r"]}],
+ ["¡Cambia el significado!","pero / perro · caro / carro · pera / perra. ¡Una r de más cambia la palabra!",{t:"cards",x:[["🐕","perro"],["🍐","pera"],["🚗","carro"]]}]],
+ ["El Rosario","«Rosario» empieza con r fuerte. Rezar el rosario es regalarle a la Virgen un ramo de rosas: cada Avemaría es una rosa.",{t:"emo",x:"📿 🌹 🌹 🌹"}],
+ ["El perro del vecino","🐕","El perro del vecino se salió a la calle.","¿Qué haces?",[["Aviso al vecino para que lo cuide",1,"¡Muy bien!"],["Le aviento piedras",0,"Los animales se cuidan."],["Lo ignoro",0,"Podría perderse."]]],
+ [["Al inicio: r (suena fuerte).","En medio: r suave, rr fuerte."],["rosa","pera","perro"]],
+ ["¿Cómo se escribe el animal que ladra: «pero» o «perro»?",["Suena fuerte en medio.","En medio, fuerte = rr."],"perro."],
+ [[["eOrt",8,"rr>r,rrr;r>rr,l"]],[["eOrt",10,"rr>r,rrr;r>rr,l"]],[["eOrt",8,"rr>r,rrr;r>rr,l"],["eFalta",2,"r"]]],[],"Un ramo de rosas para María."),
+"e39":ESL("e39","La ñ, la ll y la y",[
+ ["La ñ","La <b>ñ</b> es una letra del español: niño, piña, uña, araña, montaña. ¡Sin la tilde sería otra palabra!",{t:"silab",c:["ñ"]}],
+ ["ll y y","<b>ll</b> y <b>y</b> suenan casi igual: lluvia, llave, pollo, payaso, yoyo.",{t:"silab",c:["ll","y"]}]],
+ ["Niños como Jesús","Jesús fue niño como tú. Creció en Nazaret, obedecía a sus papás y aprendía. «Niño» lleva ñ.",{t:"photo",src:WM(IM.doctores[0],800),alt:"Jesús niño",cap:"",credit:IM.doctores[1],art:true}],
+ ["La lluvia","🌧️","Está lloviendo y tu amiga no trae paraguas.","¿Qué haces?",[["La invito a taparse conmigo",1,"¡Muy bien!"],["Me voy corriendo",0,"Compartir es amar."],["Me burlo",0,"Nunca."]]],
+ [["ñ: niño, piña.","ll / y: suenan casi igual, ¡a recordar!"],["🍍 piña","🔑 llave","🤡 payaso"]],
+ ["¿Se escribe «yave» o «llave»?",["Suena igual.","Esta palabra lleva ll."],"llave."],
+ [[["eOrt",5,"ñ>n,ni"],["eLee",3,"ñ"]],[["eOrt",10,"ñ>n,ni;ll>y,l;y>ll,i"]],[["eOrt",10,"ñ>n,ni;ll>y,l;y>ll,i"]]],[],"Jesús fue niño como tú."),
+"e40":ESL("e40","Preguntas y exclamaciones: ¿? ¡!",[
+ ["Para preguntar","Los signos de <b>interrogación</b> ¿ ? encierran una pregunta: ¿Cómo te llamas? En español se ponen <b>al principio y al final</b>.",{t:"big",x:"¿Cómo te llamas?"}],
+ ["Para emocionarse","Los signos de <b>admiración</b> ¡ ! muestran sorpresa, alegría o un grito: ¡Qué bonito! ¡Cuidado!",{t:"big",x:"¡Qué alegría!"}]],
+ ["¡Aleluya!","En Pascua cantamos «¡Aleluya!» con mucha alegría porque Jesús resucitó. ¡Se escribe con signos de admiración!",{t:"photo",src:WM(IM.resurreccion[0],800),alt:"La Resurrección",cap:"",credit:IM.resurreccion[1],art:true}],
+ ["La pregunta en clase","🙋","Tienes una duda en clase pero te da pena preguntar.","¿Qué haces?",[["Levanto la mano y pregunto: «¿Me puede explicar otra vez?»",1,"¡Muy bien! Preguntar es de sabios."],["Me quedo con la duda",0,"Preguntar ayuda."],["Grito la pregunta",0,"Levanta la mano."]]],
+ [["¿ ? → pregunta.","¡ ! → emoción.","Van al <b>inicio</b> y al <b>final</b>."],["¿Dónde vives?","¡Feliz Navidad!"]],
+ ["¿Qué signos lleva «Qué susto me diste»?",["Expresa una emoción (susto).","Lleva signos de admiración."],"¡Qué susto me diste!"],
+ [[["eSignos",8]],[["eSignos",10]],[["eSignos",6],["ePunto",4]]],[],"¡Aleluya, Jesús resucitó!"),
+"e41":ESL("e41","La coma",[
+ ["Para separar","La <b>coma</b> (,) separa las cosas de una lista. Antes de la última va «y»: Compré pan, leche, huevos y fruta.",{t:"big",x:"pan, leche, huevos y fruta"}],
+ ["Para llamar","También va una coma cuando llamamos a alguien: «Mamá, ¿me ayudas?»",{t:"lam",id:"puntuacion"}]],
+ ["Los dones del Espíritu","Los dones del Espíritu Santo son siete: sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios. ¡Una lista con comas!",{t:"photo",src:WM(IM.grecoPent[0],800),alt:"Pentecostés",cap:"",credit:IM.grecoPent[1],art:true}],
+ ["La lista del paseo","🎒","Escribes lo que llevarás al paseo: gorra agua sándwich bloqueador.","¿Cómo la escribes mejor?",[["gorra, agua, sándwich y bloqueador",1,"¡Muy bien!"],["gorra agua sándwich bloqueador",0,"Faltan comas."],["gorra, agua, sándwich, y, bloqueador",0,"Antes de «y» no va coma."]]],
+ [["Coma para separar una <b>lista</b>.","Antes de «y» no va coma."],["rojo, azul y verde"]],
+ ["Pon comas: «En mi mochila hay lápiz goma cuaderno y libro.»",["Separo cada cosa con coma.","Antes de «y libro» no va coma."],"En mi mochila hay lápiz, goma, cuaderno y libro."],
+ [[["eComa",8]],[["eComa",10]],[["eComa",6],["eSignos",4]]],[],"Los siete dones del Espíritu."),
+/* ---- U4 ---- */
+"e42":ESL("e42","Adivinanzas",[
+ ["¿Qué es una adivinanza?","Una <b>adivinanza</b> describe algo sin decir su nombre, a veces con rimas, para que lo adivines.",{t:"emo",x:"🤔 ❓ 💡"}],
+ ["Cómo adivinar","Lee las pistas una por una y piensa: ¿qué cosa tiene todo eso?",{t:"steps",x:["Leo la adivinanza","Busco las pistas","Pienso qué cosa es","¡Lo adivino!"]}]],
+ ["Las parábolas","Jesús enseñaba con parábolas: historias que hacen pensar, como una adivinanza. Para entenderlas hay que escuchar con el corazón.",{t:"photo",src:WM(IM.sembrador[0],800),alt:"El sembrador",cap:"",credit:IM.sembrador[1],art:true}],
+ ["El juego de adivinanzas","🤔","Tu hermanito no adivina y se pone triste.","¿Qué haces?",[["Le doy una pista más",1,"¡Muy bien! Ayudar es divertido."],["Me burlo",0,"Así se siente peor."],["Le digo que es tonto",0,"Nunca."]]],
+ [["Adivinanza: describe algo <b>sin decir su nombre</b>.","Busca las pistas."],["⌚ agujas y números","☀️ sale de día"]],
+ ["«Tengo cuatro patas y no puedo andar.» ¿Qué es?",["Tiene patas pero no camina.","Puede ser un mueble."],"La mesa (o la silla)."],
+ [[["eAdiv",8]],[["eAdiv",10]],[["eAdiv",10]]],[],"Escuchar con el corazón."),
+"e43":ESL("e43","Trabalenguas",[
+ ["Para destrabar la lengua","Un <b>trabalenguas</b> repite sonidos parecidos para que sea difícil decirlo rápido: «Tres tristes tigres tragaban trigo en un trigal».",{t:"big",x:"Tres tristes tigres…"}],
+ ["Inventa el tuyo","Usa palabras que empiecen igual: «Pepe pinta pocos patos».",{t:"cards",x:[["🐯","tr: tres, tristes, tigres"],["🦆","p: Pepe pinta patos"]]}]],
+ ["Hablar con claridad","Los trabalenguas nos ayudan a hablar claro. Usemos nuestra lengua para decir cosas buenas: «Que salga de tu boca solo lo bueno» (Ef 4, 29).",{t:"emo",x:"👄 💬 ❤️"}],
+ ["Se equivocó","😅","Tu amigo se trabó en el trabalenguas y todos se ríen.","¿Qué haces?",[["Me río con él, no de él, y lo animo a intentarlo otra vez",1,"¡Muy bien!"],["Me burlo",0,"Puede sentirse mal."],["No hago nada",0,"Anímalo."]]],
+ [["Trabalenguas: sonidos <b>repetidos</b> y parecidos.","Dilo despacio y luego rápido."],["tr: tres tristes tigres","rr: erre con erre…"]],
+ ["¿Qué sonido se repite en «Tres tristes tigres»?",["Tres, tristes, tigres, tragaban, trigo.","Todas tienen «tr»."],"El sonido «tr»."],
+ [[["eTrab",8]],[["eTrab",5],["eRima",5]],[["eTrab",6],["eIni",4]]],[TF("Un trabalenguas repite sonidos parecidos.",true)],"Que salga de tu boca lo bueno."),
+"e44":ESL("e44","Palabras escondidas y palabras iguales",[
+ ["Palabras dentro de palabras","En «<b>mar</b>inero» se esconde «mar»; en «gira<b>sol</b>», «sol»; en «<b>pan</b>adero», «pan».",{t:"cards",x:[["🌊","MARinero"],["☀️","giraSOL"],["🍞","PANadero"]]}],
+ ["Se escriben igual","Algunas palabras se escriben igual pero significan cosas distintas: la <b>vela</b> que alumbra y la <b>vela</b> del barco.",{t:"cards",x:[["🕯️","vela"],["⛵","vela"],["🍃","hoja"],["📄","hoja"]]}]],
+ ["La sal de la tierra","Jesús dijo: «Ustedes son la sal de la tierra» (Mt 5, 13). ¡Y la palabra «sal» se esconde en «salero»! Como la sal da sabor, nosotros damos alegría.",{t:"emo",x:"🧂 😊"}],
+ ["El malentendido","🤔","Tu amigo entendió «banco» de dinero y tú hablabas del banco del parque.","¿Qué haces?",[["Le explico con paciencia a cuál me refería",1,"¡Muy bien!"],["Me enojo",0,"Fue un malentendido."],["Lo dejo así",0,"Aclarar ayuda."]]],
+ [["Busca palabras pequeñas dentro de otras.","Mismas letras, distinto significado: piensa en la oración."],["marinero → mar","banco: asiento / dinero"]],
+ ["¿Qué palabra se esconde en «rosal»?",["ro-sal.","rosa + l."],"rosa (y también sal)."],
+ [[["eDentro",8]],[["eDentro",5],["eHom",5]],[["eHom",6],["eDentro",4]]],[],"Ustedes son la sal de la tierra."),
+"e45":ESL("e45","Comparaciones y dichos",[
+ ["Comparar","Comparamos con «como»: «blanco <b>como</b> la nieve», «rápido <b>como</b> un rayo».",{t:"cards",x:[["❄️","blanco como la nieve"],["⚡","rápido como un rayo"],["🐢","lento como tortuga"]]}],
+ ["Los dichos","Los dichos son frases que nos enseñan algo: «Al que madruga, Dios lo ayuda». «Más vale tarde que nunca».",{t:"emo",x:"🌅 🙏"}]],
+ ["Como un niño","Jesús dijo: «Si no se hacen como niños, no entrarán en el Reino de los cielos» (Mt 18, 3). ¡Una comparación preciosa: confiar como un niño!",{t:"photo",src:WM(IM.ninos[0],800),alt:"Jesús y los niños",cap:"",credit:IM.ninos[1],art:true}],
+ ["Al que madruga…","⏰","Mañana hay que levantarse temprano para ir a Misa.","¿Qué haces?",[["Me duermo temprano para levantarme bien",1,"¡Muy bien! Al que madruga, Dios lo ayuda."],["Me desvelo",0,"Mañana estarás cansado."],["Me quejo",0,"Mejor prepárate."]]],
+ [["Comparación: algo es <b>como</b> otra cosa.","Dicho: frase corta que enseña."],["dulce como la miel","Al que madruga, Dios lo ayuda."]],
+ ["Completa: «Es fuerte como un ___»",["Busco algo muy fuerte.","Un toro es muy fuerte."],"toro."],
+ [[["eComp",8]],[["eComp",10]],[["eComp",6],["eAdj",4]]],[],"Confiar como un niño."),
+"e46":ESL("e46","Canciones, rondas y coplas",[
+ ["Cantar y jugar","Las <b>rondas</b> se cantan tomados de la mano y dando vueltas. Las <b>coplas</b> son versos cortos que riman.",{t:"emo",x:"👫🎶👫"}],
+ ["¿Cómo son?","Tienen versos cortos, se repiten y riman: «Estaba la pájara pinta sentadita en el verde limón…»",{t:"cards",x:[["🎶","versos cortos"],["🔁","se repiten"],["🎵","riman"]]}]],
+ ["El que canta reza dos veces","San Agustín decía que quien canta, reza dos veces. En la Misa cantamos para alabar a Dios con alegría.",{t:"photo",src:WM(IM.davidArpa[0],800),alt:"El rey David",cap:"",credit:IM.davidArpa[1],art:true}],
+ ["La ronda en el recreo","👫","Hay una niña nueva sola en el recreo y ustedes juegan a la ronda.","¿Qué haces?",[["La invito a entrar a la ronda",1,"¡Muy bien!"],["La dejo sola",0,"Incluir es amar."],["Le digo que no cabe",0,"¡Siempre cabe uno más!"]]],
+ [["Rondas y coplas: versos <b>cortos</b>, se <b>repiten</b> y <b>riman</b>."],["ronda: en círculo","copla: rima"]],
+ ["¿Qué palabras riman: «limón» y…?",["Busco una que termine en «-ón».","balón, ratón, corazón."],"corazón (o balón, ratón)."],
+ [[["eRima",8]],[["eRima",10]],[["eRima",6],["eNSil",4]]],[],"Quien canta reza dos veces."),
+"e47":ESL("e47","Poemas",[
+ ["¿Qué es un poema?","Un <b>poema</b> expresa sentimientos con palabras bonitas. Se escribe en <b>versos</b> (renglones) y <b>estrofas</b> (grupos de versos), y muchas veces <b>rima</b>.",{t:"lam",id:"poema"}],
+ ["Escribe uno","Elige un tema (mi mamá, la lluvia, Jesús), piensa cómo te hace sentir y busca palabras que rimen.",{t:"steps",x:["Elijo un tema","Pienso qué siento","Busco rimas","Escribo mis versos"]}]],
+ ["Los salmos","Los <b>Salmos</b> de la Biblia son poemas para Dios. El rey David escribió muchos: «El Señor es mi pastor, nada me falta» (Sal 23).",{t:"photo",src:WM(IM.buenpastor[0],800),alt:"El Buen Pastor",cap:"",credit:IM.buenpastor[1],art:true}],
+ ["El poema para mamá","💐","Quieres regalarle algo a tu mamá pero no tienes dinero.","¿Qué haces?",[["Le escribo un poema con mucho cariño",1,"¡Qué bonito regalo!"],["No le doy nada",0,"El amor no necesita dinero."],["Le pido dinero para comprarle algo",0,"Un regalo hecho por ti vale más."]]],
+ [["Verso: un renglón. Estrofa: grupo de versos.","Muchos poemas riman."],["Luna, lunita, / redonda y bonita"]],
+ ["¿Riman «estrella» y «bella»?",["estr-ELLA, b-ELLA.","Terminan igual."],"Sí, riman."],
+ [[["eRima",6],["eTipo",2]],[["eRima",5],["eTipo",5]],[["eRima",5],["eComp",5]]],[],"El Señor es mi pastor."),
+/* ---- U5 ---- */
+"e48":ESL("e48","Los libros: título y portada",[
+ ["La portada","La <b>portada</b> es la cara del libro. Tiene el <b>título</b>, el nombre del <b>autor</b> y un <b>dibujo</b> que nos da una pista de qué trata.",{t:"cards",x:[["📕","título"],["✍️","autor"],["🖼️","ilustración"]]}],
+ ["¿De qué tratará?","Antes de leer, mira la portada y adivina de qué trata. ¡Luego compruébalo!",{t:"steps",x:["Miro el título","Miro el dibujo","Adivino de qué trata","Leo y compruebo"]}]],
+ ["El libro más leído","La Biblia es el libro más leído del mundo. Su título significa «los libros», porque tiene 73 libros dentro.",{t:"photo",src:WM(IM.gutenberg[0],800),alt:"Biblia",cap:"",credit:IM.gutenberg[1],art:false}],
+ ["El libro prestado","📚","Tu amigo te prestó un libro y tu hermanito quiere rayarlo.","¿Qué haces?",[["Lo guardo y le doy hojas para que dibuje",1,"¡Muy bien! Cuidar lo prestado."],["Lo dejo rayarlo",0,"No es tuyo."],["Le grito",0,"Mejor ofrécele otra cosa."]]],
+ [["Portada: <b>título</b>, <b>autor</b> e <b>ilustración</b>.","La portada da pistas del contenido."],["📕 Título","✍️ Autor"]],
+ ["Un libro tiene un perro en la portada y se llama «Mi amigo Canelo». ¿De qué tratará?",["El título dice «amigo Canelo».","El dibujo es un perro."],"De un perro llamado Canelo que es amigo de alguien."],
+ [[["eTipo",4],["eCompr",4]],[["eCompr",8]],[["eCompr",6],["eTipo",4]]],[C("¿Dónde está el título de un libro?",["en la portada","en la última página","en el lomo de atrás"]),C("¿Quién escribe un libro?",["el autor","el ilustrador","el lector"])],"La Biblia, el libro de los libros."),
+"e49":ESL("e49","Las ilustraciones de los cuentos",[
+ ["Los dibujos cuentan","Las <b>ilustraciones</b> nos ayudan a entender el cuento: muestran a los personajes, dónde están y qué sienten.",{t:"emo",x:"🖼️ 🧒 🌳 😊"}],
+ ["Mira con atención","Fíjate en las caras: ¿están felices, tristes, asustados? Los dibujos también «hablan».",{t:"cards",x:[["😊","feliz"],["😢","triste"],["😨","asustado"],["😠","enojado"]]}]],
+ ["El arte en las iglesias","Antes, mucha gente no sabía leer, y las pinturas y vitrales de las iglesias les contaban la historia de Jesús. ¡Eran como ilustraciones gigantes!",{t:"photo",src:WM(IM.vitral[0],800),alt:"Vitral",cap:"",credit:IM.vitral[1],art:true}],
+ ["El dibujo triste","😢","En un cuento ves a un niño llorando en un rincón.","¿Qué piensas?",[["Que está triste y alguien debería consolarlo",1,"¡Muy bien! Leíste el dibujo."],["Que está feliz",0,"Mira su cara."],["Nada",0,"Los dibujos cuentan cosas."]]],
+ [["Las ilustraciones muestran <b>quién</b>, <b>dónde</b> y <b>qué sienten</b>."],["😊 feliz","😢 triste"]],
+ ["En el dibujo, la niña sonríe y tiene un regalo. ¿Cómo se siente?",["Sonríe.","Tiene un regalo."],"Feliz."],
+ [[["eCompr",6],["eLee",2]],[["eCompr",8]],[["eCompr",8]]],[],"Las iglesias cuentan la historia."),
+"e50":ESL("e50","El cuento: personajes y acciones",[
+ ["Las partes del cuento","Un cuento tiene <b>inicio</b> (quiénes y dónde), <b>desarrollo</b> (el problema) y <b>final</b> (cómo se resuelve).",{t:"lam",id:"cuento"}],
+ ["Personajes","Los <b>personajes</b> son quienes participan: personas, animales o cosas que hablan. Cada uno hace <b>acciones</b>.",{t:"cards",x:[["🐺","el lobo"],["👧","Caperucita"],["👵","la abuela"]]}]],
+ ["Las historias de la Biblia","La Biblia tiene historias con personajes maravillosos: Noé, Moisés, David, María, Jesús. ¡Y son historias verdaderas!",{t:"photo",src:WM(IM.arca[0],800),alt:"El arca de Noé",cap:"",credit:IM.arca[1],art:true}],
+ ["El final del cuento","📖","Tu hermano te quiere contar el final del cuento que estás leyendo.","¿Qué haces?",[["Le pido con amabilidad que no me lo cuente",1,"¡Muy bien!"],["Le grito",0,"Pídelo con amabilidad."],["Le tapo la boca",0,"Mejor habla con él."]]],
+ [["Inicio · desarrollo · final.","Personajes: quiénes participan."],["Había una vez…","De pronto…","Al final…"]],
+ ["En «Los tres cochinitos», ¿quiénes son los personajes?",["Busco quiénes participan.","Los tres cochinitos y el lobo."],"Los tres cochinitos y el lobo."],
+ [[["eCompr",6],["eTipo",2]],[["eCompr",8]],[["eCompr",6],["eSuc",4]]],[],"Historias verdaderas."),
+"e51":ESL("e51","El orden de los sucesos",[
+ ["Primero, después y al final","Las cosas pasan en <b>orden</b>: primero, después, luego y al final.",{t:"cards",x:[["1️⃣","Primero"],["2️⃣","Después"],["3️⃣","Luego"],["4️⃣","Al final"]]}],
+ ["Ordena la historia","Toca las tarjetas en orden.",{t:"essec"}]],
+ ["La creación en orden","Dios creó el mundo en orden: primero la luz, luego el cielo y el mar, la tierra y las plantas, el sol y la luna, los animales y al final… ¡al hombre y la mujer! (Gn 1).",{t:"emo",x:"💡 🌊 🌳 ☀️ 🐟 👫"}],
+ ["La receta","🍪","Tu abuela te enseña a hacer galletas.","¿Qué haces?",[["Sigo los pasos en orden, como ella me dice",1,"¡Muy bien!"],["Lo hago al revés",0,"El orden importa."],["Me como la masa",0,"¡Hay que hornearla!"]]],
+ [["Las acciones pasan en <b>orden</b>.","Primero · Después · Luego · Al final"],["Siembro → riego → crece"]],
+ ["Ordena: crece la planta, siembro la semilla, la riego.",["Primero siembro.","Después la riego.","Al final crece."],"Siembro, riego y crece."],
+ [[["eSuc",8]],[["eSuc",10]],[["eSuc",6],["eCompr",4]]],[],"Dios creó todo en orden."),
+"e52":ESL("e52","Las leyendas",[
+ ["¿Qué es una leyenda?","Una <b>leyenda</b> es una historia antigua que se cuenta de padres a hijos. Mezcla cosas que pasaron con cosas imaginadas, y explica el origen de algo.",{t:"emo",x:"👴 🗣️ 👦"}],
+ ["Leyendas de México","Hay leyendas del maíz, de los volcanes Popocatépetl e Iztaccíhuatl, del conejo en la luna…",{t:"photo",src:WM(IM.popo[0],800),alt:"Popocatépetl",cap:"",credit:IM.popo[1],art:false}]],
+ ["Historia verdadera","Una leyenda no es lo mismo que un milagro verdadero. La aparición de la Virgen de Guadalupe a san Juan Diego es un hecho real, y su imagen sigue en la Basílica.",{t:"photo",src:WM(IM.juanDiego[0],800),alt:"San Juan Diego",cap:"",credit:IM.juanDiego[1],art:true}],
+ ["La historia del abuelo","👴","Tu abuelo empieza a contar una leyenda de su pueblo.","¿Qué haces?",[["Lo escucho con atención y le hago preguntas",1,"¡Muy bien! Los abuelos son un tesoro."],["Me pongo a jugar con la tablet",0,"Escuchar a los abuelos vale mucho."],["Le digo que es aburrido",0,"Eso lo pondría triste."]]],
+ [["Leyenda: historia <b>antigua</b> que se cuenta de generación en generación.","Mezcla lo real con lo imaginado."],["🌋 los volcanes","🐇 el conejo en la luna"]],
+ ["¿En qué se parece una leyenda a un cuento?",["Los dos son historias.","Tienen personajes y suceden cosas."],"Los dos son historias con personajes; la leyenda es antigua y explica el origen de algo."],
+ [[["eTipo",4],["eCompr",4]],[["eCompr",8]],[["eCompr",6],["eSuc",4]]],[TF("Una leyenda se cuenta de padres a hijos.",true),C("¿Qué explican muchas leyendas?",["el origen de algo","cómo hacer un pastel","las noticias de hoy"])],"Guadalupe, un hecho real."),
+"e53":ESL("e53","La historieta y la obra de teatro",[
+ ["La historieta","Una <b>historieta</b> cuenta una historia con <b>viñetas</b> (cuadros con dibujos). Lo que dicen los personajes va en <b>globos</b>.",{t:"emo",x:"🖼️💬 🖼️💬 🖼️💬"}],
+ ["La obra de teatro","En el <b>teatro</b> los actores representan una historia. El texto tiene los nombres de los personajes y lo que dice cada uno.",{t:"cards",x:[["🎭","actores"],["📜","guion"],["🎬","escenario"]]}]],
+ ["La pastorela","En Navidad hacemos <b>pastorelas</b>: obras de teatro donde los pastores van a ver al Niño Jesús y vencen al diablo con ayuda del ángel.",{t:"photo",src:WM(IM.natividad[0],800),alt:"Pastorela",cap:"",credit:IM.natividad[1],art:true}],
+ ["El papel en la pastorela","🎭","En la pastorela te tocó ser una oveja y querías ser el ángel.","¿Qué haces?",[["Hago mi papel de oveja con alegría",1,"¡Muy bien! Todos los papeles importan."],["Me niego a participar",0,"Tu papel también es importante."],["Me burlo del ángel",0,"Mejor alegrarse por él."]]],
+ [["Historieta: <b>viñetas</b> y <b>globos</b>.","Teatro: <b>actores</b> que representan."],["💬 globo de diálogo","🎭 actor"]],
+ ["¿Dónde van las palabras que dicen los personajes de una historieta?",["Los personajes hablan.","Sus palabras se dibujan en un globo."],"En los globos."],
+ [[["eSuc",4],["eTipo",4]],[["eCompr",8]],[["eCompr",5],["eSuc",5]]],[C("¿Cómo se llaman los cuadros de una historieta?",["viñetas","globos","párrafos"]),C("¿Quiénes representan una obra de teatro?",["los actores","los lectores","los autores"])],"La pastorela de Navidad."),
+"e54":ESL("e54","La biblioteca del salón",[
+ ["Muchos libros","En la biblioteca hay cuentos, libros de animales, de ciencia, poemas… Están <b>ordenados</b> para encontrarlos fácil.",{t:"emo",x:"📚 📕 📗 📘"}],
+ ["Reglas de la biblioteca","Cuida los libros, regrésalos a su lugar, habla bajito y comparte.",{t:"steps",x:["Elijo un libro","Lo leo con cuidado","Lo regreso a su lugar","Comparto lo que leí"]}]],
+ ["Los monjes copistas","Hace muchos siglos, los monjes copiaban libros a mano en los monasterios. Gracias a ellos se salvaron muchos libros y la Biblia llegó hasta nosotros.",{t:"photo",src:WM(IM.jeronimo[0],800),alt:"San Jerónimo",cap:"",credit:IM.jeronimo[1],art:true}],
+ ["El libro roto","📕","Se te rompió una hoja de un libro de la biblioteca.","¿Qué haces?",[["Le aviso a la maestra y ayudo a pegarla",1,"¡Muy bien! Ser responsable."],["Lo escondo",0,"Mejor di la verdad."],["Culpo a otro",0,"Eso no es justo."]]],
+ [["Libros <b>ordenados</b> por tema.","Cuidarlos, regresarlos y compartir."],["📕 cuentos","📗 animales","📘 ciencia"]],
+ ["Ordena por abecedario: luna, casa, árbol.",["a: árbol.","c: casa.","l: luna."],"árbol, casa, luna."],
+ [[["eAbc",6],["eTipo",2]],[["eAbc",8]],[["eAbc",6],["eTipo",4]]],[],"Los monjes salvaron los libros."),
+/* ---- U6 ---- */
+"e55":ESL("e55","Describo cómo soy",[
+ ["Describir","<b>Describir</b> es decir cómo es alguien: cómo es por fuera (alto, cabello rizado, ojos cafés) y cómo es por dentro (alegre, amable, valiente).",{t:"cards",x:[["👀","ojos cafés"],["💇","cabello lacio"],["😊","alegre"],["🤝","amable"]]}],
+ ["Usa adjetivos","Para describir usamos adjetivos. «Soy Ana. Tengo siete años. Soy morena y tengo el cabello largo. Me gusta ayudar.»",{t:"adj"}]],
+ ["Hecho a imagen de Dios","Eres único: nadie es exactamente como tú. «Te alabo porque me hiciste maravilloso» (Sal 139, 14).",{t:"emo",x:"🪞 😊 ❤️"}],
+ ["Las diferencias","🧒","Un compañero se burla de cómo se ve otro niño.","¿Qué haces?",[["Le digo que todos somos diferentes y valiosos",1,"¡Muy bien!"],["Me río",0,"Las burlas lastiman."],["Me burlo también",0,"Nunca."]]],
+ [["Describir: cómo es <b>por fuera</b> y <b>por dentro</b>.","Usa adjetivos."],["alto, moreno","alegre, generoso"]],
+ ["¿Qué palabra describe cómo es alguien por dentro?",["Por dentro: su forma de ser.","«generoso» es su forma de ser."],"generoso."],
+ [[["eAdj",8]],[["eAdj",5],["eGen",5]],[["eAdj",6],["eComp",4]]],[C("¿Cuál describe cómo es alguien por fuera?",["cabello rizado","amable","valiente"]),C("¿Cuál describe cómo es alguien por dentro?",["generoso","alto","moreno"])],"Me hiciste maravilloso."),
+"e56":ESL("e56","La invitación",[
+ ["Partes de una invitación","Una <b>invitación</b> dice: ¿a qué evento?, ¿cuándo? (día y hora), ¿dónde?, y quién invita.",{t:"cards",x:[["🎉","¿Qué?"],["📅","¿Cuándo?"],["📍","¿Dónde?"],["✍️","¿Quién invita?"]]}],
+ ["Un ejemplo","«Te invito a mi Primera Comunión. Sábado 10 de mayo, 11:00. Parroquia de San José. Te espera Ximena.»",{t:"big",x:"🕊️ ¡Te invito! 🕊️"}]],
+ ["La invitación de Jesús","Jesús nos invita a su fiesta: la Misa. Cada domingo nos dice: «Vengan a mí». ¡Es la mejor invitación!",{t:"photo",src:WM(IM.juanesCena[0],800),alt:"La Última Cena",cap:"",credit:IM.juanesCena[1],art:true}],
+ ["La invitación sin hora","📩","Te llega una invitación que no dice la hora.","¿Qué haces?",[["Pregunto con amabilidad a qué hora es",1,"¡Muy bien!"],["Llego cuando sea",0,"Podrías llegar muy tarde."],["No voy",0,"Mejor pregunta."]]],
+ [["Invitación: <b>qué, cuándo, dónde, quién</b>."],["🎂 cumpleaños","📅 sábado 5","📍 mi casa"]],
+ ["¿Qué le falta? «Te invito a mi fiesta. Sábado a las 4. Te espera Leo.»",["Tiene qué: fiesta.","Tiene cuándo: sábado a las 4.","Tiene quién: Leo."],"Le falta dónde."],
+ [[["eTipo",8]],[["eTipo",5],["eCompr",5]],[["eTipo",6],["eMay",4]]],[C("¿Qué debe decir una invitación?",["qué, cuándo y dónde","solo el nombre","un cuento"])],"Vengan a mí."),
+"e57":ESL("e57","La carta personal",[
+ ["Sus partes","Una carta tiene: <b>lugar y fecha</b>, <b>saludo</b> («Querida abuelita:»), el <b>mensaje</b>, la <b>despedida</b> («Con cariño») y la <b>firma</b>.",{t:"lam",id:"carta"}],
+ ["El recado","El <b>recado</b> es un mensaje corto: para quién, qué pasa y quién lo escribe.",{t:"big",x:"Mamá: fui a casa de Leo. Regreso a las 6. Ana."}]],
+ ["Las cartas de san Pablo","San Pablo escribió muchas cartas a los primeros cristianos. ¡Están en la Biblia! Empiezan con un saludo: «Gracia y paz a ustedes».",{t:"photo",src:WM(IM.pablo[0],800),alt:"San Pablo",cap:"",credit:IM.pablo[1],art:true}],
+ ["La carta a la abuela","💌","Tu abuela vive lejos y está enferma.","¿Qué haces?",[["Le escribo una carta para darle ánimo",1,"¡Qué bonito detalle!"],["Nada",0,"Un mensaje puede alegrarla mucho."],["Le mando solo un emoji",0,"Una carta muestra más cariño."]]],
+ [["Lugar y fecha · saludo · mensaje · despedida · firma."],["Querida abuelita:","Con cariño, Ana"]],
+ ["¿En qué parte de la carta va «Te quiero mucho, Pedro»?",["Es la despedida.","Y Pedro es la firma."],"Va al final: despedida y firma."],
+ [[["eTipo",8]],[["eTipo",5],["eMay",5]],[["eTipo",5],["eCompr",5]]],[C("¿Cómo empieza una carta?",["con un saludo","con la firma","con la despedida"])],"Gracia y paz a ustedes."),
+"e58":ESL("e58","Instructivos y recetas",[
+ ["Seguir pasos","Un <b>instructivo</b> dice cómo hacer algo, paso a paso. Tiene <b>materiales</b> y <b>pasos numerados</b>. La <b>receta</b> es un instructivo de cocina.",{t:"lam",id:"receta"}],
+ ["Verbos que mandan","En los instructivos se usan verbos como: corta, pega, mezcla, dobla, sirve.",{t:"steps",x:["1. Dobla la hoja","2. Recorta","3. Pega","4. ¡Listo!"]}]],
+ ["Los mandamientos","Los Diez Mandamientos son como un instructivo que Dios nos dio para vivir felices y en paz. ¡Son instrucciones de amor!",{t:"photo",src:WM(IM.tissotMoises[0],800),alt:"Moisés",cap:"",credit:IM.tissotMoises[1],art:true}],
+ ["El juguete nuevo","🧩","Te regalan un juguete para armar.","¿Qué haces?",[["Leo el instructivo y sigo los pasos",1,"¡Muy bien!"],["Lo armo como sea",0,"Podría quedar mal."],["Pierdo las piezas",0,"Cuida las piezas."]]],
+ [["Instructivo: <b>materiales</b> + <b>pasos en orden</b>.","Verbos: corta, pega, mezcla."],["1. Corta","2. Pega","3. Decora"]],
+ ["Para hacer agua de limón: agrega agua, exprime limones, pon azúcar. ¿Qué va primero?",["Primero necesito el jugo.","Exprimo los limones."],"Exprimir los limones."],
+ [[["eSuc",6],["eTipo",2]],[["eSuc",8]],[["eSuc",6],["eTipo",4]]],[],"Instrucciones de amor."),
+"e59":ESL("e59","El cartel",[
+ ["Para avisar","Un <b>cartel</b> da un mensaje corto con letras grandes y un dibujo llamativo, para que todos lo vean.",{t:"emo",x:"🪧 💧 ¡Cuida el agua!"}],
+ ["¿Cómo hacerlo?","Usa pocas palabras, letras grandes, colores alegres y un dibujo que explique el mensaje.",{t:"steps",x:["Pienso el mensaje","Escribo con letras grandes","Hago un dibujo","Lo pongo donde todos lo vean"]}]],
+ ["Cuidar la creación","El papa Francisco nos pidió cuidar la «casa común», el planeta. Un cartel puede ayudar a que todos cuiden el agua y los árboles.",{t:"photo",src:WM(IM.tierra[0],800),alt:"La Tierra",cap:"",credit:IM.tierra[1],art:false}],
+ ["El cartel de la kermés","🎨","Te piden hacer un cartel para la kermés de la parroquia.","¿Qué escribes?",[["«¡Kermés! Domingo 4 p.m. ¡Te esperamos!» con letras grandes",1,"¡Muy bien!"],["Un cuento larguísimo",0,"Un cartel es corto."],["Nada, solo un dibujo",0,"Hace falta el mensaje."]]],
+ [["Cartel: mensaje <b>corto</b>, letras <b>grandes</b>, dibujo <b>llamativo</b>."],["¡Cuida el agua!","¡No tires basura!"]],
+ ["¿Qué es mejor para un cartel: «Por favor, sería muy bueno que todas las personas no tiraran basura en el patio» o «¡No tires basura!»?",["Un cartel debe ser corto.","Se lee rápido."],"«¡No tires basura!»"],
+ [[["eTipo",8]],[["eTipo",5],["eSignos",5]],[["eTipo",6],["eSignos",4]]],[],"Cuida la casa común."),
+"e60":ESL("e60","La noticia",[
+ ["¿Qué es una noticia?","Una <b>noticia</b> cuenta algo que pasó de verdad. Responde: ¿qué pasó?, ¿a quién?, ¿cuándo?, ¿dónde?",{t:"lam",id:"noticia"}],
+ ["Dónde las encontramos","En el periódico, la radio, la televisión e internet.",{t:"emo",x:"📰 📻 📺"}]],
+ ["La Buena Noticia","«Evangelio» significa <b>Buena Noticia</b>: ¡Jesús nos ama, murió y resucitó para salvarnos! Es la mejor noticia del mundo.",{t:"photo",src:WM(IM.evangelistas[0],800),alt:"Los evangelistas",cap:"",credit:IM.evangelistas[1],art:true}],
+ ["El chisme","🗣️","Un compañero cuenta algo feo de otro niño que no sabe si es verdad.","¿Qué haces?",[["No lo repito: las noticias deben ser verdad",1,"¡Muy bien! Los chismes lastiman."],["Lo cuento a todos",0,"Eso es un chisme."],["Le agrego más cosas",0,"Eso sería mentir."]]],
+ [["Noticia: algo <b>real</b> que pasó.","¿Qué? ¿Quién? ¿Cuándo? ¿Dónde?"],["📰 periódico","📻 radio"]],
+ ["«Ayer, en la escuela, los niños plantaron árboles.» ¿Dónde pasó?",["Busco el lugar.","«en la escuela»."],"En la escuela."],
+ [[["eTipo",4],["eCompr",4]],[["eCompr",8]],[["eCompr",6],["eTipo",4]]],[TF("Una noticia cuenta algo inventado.",false)],"El Evangelio es la Buena Noticia."),
+"e61":ESL("e61","La entrevista y la exposición",[
+ ["La entrevista","En una <b>entrevista</b> le hacemos preguntas a alguien para conocerlo: ¿Cómo te llamas? ¿En qué trabajas? ¿Qué te gusta?",{t:"cards",x:[["🎤","entrevistador"],["🙂","entrevistado"],["❓","preguntas"]]}],
+ ["La exposición","En una <b>exposición</b> explicamos un tema a los demás: hablamos fuerte, claro y con un cartel o dibujos.",{t:"steps",x:["Elijo un tema","Busco información","Preparo un cartel","Hablo claro y fuerte"]}]],
+ ["Escuchar","Santiago dice: «Sean rápidos para escuchar y lentos para hablar» (Sant 1, 19). En una entrevista, lo más importante es escuchar.",{t:"emo",x:"👂 ❤️"}],
+ ["La entrevista al abuelo","👴","Debes entrevistar a un adulto de tu familia.","¿Qué haces?",[["Preparo preguntas y escucho con atención sus respuestas",1,"¡Muy bien!"],["No lo dejo hablar",0,"Hay que escuchar."],["Invento las respuestas",0,"Deben ser sus palabras."]]],
+ [["Entrevista: <b>preguntas</b> para conocer a alguien.","Exposición: <b>explicar</b> un tema."],["¿Cómo te llamas?","Hoy les voy a hablar de…"]],
+ ["¿Qué signos llevan las preguntas de una entrevista?",["Son preguntas.","Se escriben entre ¿ ?"],"Los signos de interrogación ¿ ?"],
+ [[["eSignos",8]],[["eSignos",5],["eCompr",5]],[["eSignos",4],["eCompr",6]]],[C("En una entrevista, ¿qué es lo más importante?",["escuchar","hablar mucho","interrumpir"])],"Rápidos para escuchar."),
+"e62":ESL("e62","Tablas y textos informativos",[
+ ["Registrar información","Para guardar datos usamos <b>tablas</b>: por ejemplo, qué fruta le gusta a cada quien.",{t:"bars",rows:[["Mango",6],["Plátano",4],["Uvas",3]]}],
+ ["Textos que informan","Los <b>textos informativos</b> nos enseñan cosas reales: cómo viven los animales, cómo crecen las plantas. Tienen título, datos y fotos.",{t:"photo",src:WM(IM.axolote[0],800),alt:"Ajolote",cap:"",credit:IM.axolote[1],art:false}]],
+ ["Conocer la creación","Aprender cómo son los animales y las plantas nos ayuda a admirar a Dios, que los creó con tanta variedad y belleza.",{t:"photo",src:WM(IM.colibri[0],800),alt:"Colibrí",cap:"",credit:IM.colibri[1],art:false}],
+ ["La tarea de los animales","🐢","Tienes que investigar sobre las tortugas.","¿Dónde buscas?",[["En un libro de animales o una enciclopedia",1,"¡Muy bien! Son textos informativos."],["En un cuento de hadas",0,"Los cuentos son inventados."],["Invento los datos",0,"Los datos deben ser reales."]]],
+ [["Tabla: ordena <b>datos</b>.","Texto informativo: enseña cosas <b>reales</b>."],["Mango: 6","El ajolote vive en Xochimilco."]],
+ ["En una tabla, mango tiene 6 votos y uvas 3. ¿Cuál gustó más?",["Comparo: 6 y 3.","6 es más."],"El mango."],
+ [[["eTipo",4],["eCompr",4]],[["eCompr",6],["eTipo",4]],[["eCompr",6],["eTipo",4]]],[C("¿Qué texto nos enseña cosas reales?",["un texto informativo","un cuento de hadas","una adivinanza"])],"Admirar la creación.")};
+Object.assign(ESP1N,{
+"eR1":ESRETO("eR1","Reto de letras y sílabas","eLee,eIni,eSilIni,eNSil,eFalta,eForma,eTrab,eLarga",["¿Qué palabra se forma con «es», «tre» y «lla»?",["Junto las sílabas en orden.","es + tre + lla."],"estrella ⭐"]),
+"eR2":ESRETO("eR2","Reto de oraciones","eOrac,eSep,eCuenta,ePunto,eCompr",["Ordena y corrige: «escuela la a vamos»",["¿Quién? vamos (nosotros).","¿A dónde? a la escuela.","Mayúscula al inicio y punto al final."],"Vamos a la escuela."]),
+"eR3":ESRETO("eR3","Reto de ortografía y palabras","eMay,eVerbo,eAdj,eGen,eNum,eDim,eSignos,eComa",["Corrige: «ana tiene un gato negro y dos perrito»",["Ana: nombre propio con mayúscula.","dos perritos: plural.","Punto final."],"Ana tiene un gato negro y dos perritos."]),
+"eR4":ESRETO("eR4","Reto de juegos de palabras","eRima,eAdiv,eComp,eDentro,eHom",["Busca una palabra que rime con «corazón» y esté escondida en «camarón».",["En camarón se esconde «cama».","Pero buscamos una que rime con corazón: camarón termina en -ón."],"¡camarón mismo rima con corazón!"]),
+"eR5":ESRETO("eR5","Reto de cuentos","eCompr,eSuc,eTipo,eAbc",["En un cuento, Pepe pierde su gorra, la busca en el parque y la encuentra en su mochila. ¿Cuál es el inicio, el desarrollo y el final?",["Inicio: Pepe pierde su gorra.","Desarrollo: la busca en el parque.","Final: la encuentra en su mochila."],"Pierde → busca → encuentra."]),
+"eR6":ESRETO("eR6","Reto de textos","eTipo,eCompr,eSignos,eMay",["¿Qué texto escribirías para pedirle a tu mamá que te recoja a las 3?",["Es un mensaje corto para alguien.","Dice para quién, qué y quién lo escribe."],"Un recado: «Mamá: recógeme a las 3. Te quiere, Leo.»"])});
+const ESP1T={
+"e1":[["Las vocales son 5: a, e, i, o, u.","Suenan solas, con la boca abierta."],["a de árbol","e de estrella","i de iglesia","o de oso","u de uvas"],["¿Qué vocal tiene «sol»?",["s-o-l.","La única vocal es la o."],"La o."],[["eIni",4],["eLee",4]],[["eLee",5],["eNSil",3]],[["eFalta",4],["eLee",4]]],
+"e2":[["El abecedario tiene 27 letras.","Vocales y consonantes."],["a, b, c, d…","ñ es nuestra"],["¿Qué letra va después de la m?",["… l, m, n …"],"La n."],[["eIni",8]],[["eAbc",5],["eIni",5]],[["eAbc",8]]],
+"e3":[["Consonante + vocal = sílaba.","ma, me, mi, mo, mu · pa, pe, pi, po, pu"],["ma-pa","pu-ma","pa-pá"],["Forma «mapa».",["ma + pa."],"mapa."],[["eSilIni",4,"mp"],["eLee",4,"mp"]],[["eForma",5,"mp"],["eFalta",5,"mp"]],[["eForma",4,"mp"],["eFalta",4,"mp"]]],
+"e4":[["sa, se, si, so, su","la, le, li, lo, lu · ta, te, ti, to, tu"],["so-pa","lu-na","to-ma-te"],["¿Qué sílaba falta en «pe__ta»?",["Es pelota.","pe-lo-ta."],"lo."],[["eSilIni",4,"slt"],["eLee",4,"slt"]],[["eForma",5,"slt"],["eFalta",5,"slt"]],[["eForma",4,"slt"],["eFalta",4,"slt"]]],
+"e5":[["na, ne, ni, no, nu · da, de, di, do, du","r suave / r fuerte / rr"],["nu-be","da-do","pe-rro"],["¿Se escribe «pero» o «perro» el animal?",["Suena fuerte en medio: rr."],"perro."],[["eSilIni",4,"ndr"],["eLee",4,"ndr"]],[["eForma",5,"ndr"],["eFalta",5,"ndr"]],[["eOrt",4,"rr>r,rrr;r>rr,l"],["eFalta",4,"ndr"]]],
+"e6":[["ca, que, qui, co, cu","ga, gue, gui, go, gu"],["ca-sa","que-so","gui-ta-rra"],["¿Cómo se escribe: «keso» o «queso»?",["Con e e i usamos qu."],"queso."],[["eSilIni",4,"cqg"],["eLee",4,"cqg"]],[["eForma",5,"cqg"],["eFalta",5,"cqg"]],[["eForma",4,"cqg"],["eFalta",4,"cqg"]]],
+"e7":[["ch, ll y ñ son sonidos especiales.","b/d, p/q se parecen: ¡fíjate!"],["chi-le","lla-ve","pi-ña"],["¿Con qué empieza «llave»?",["ll + a = lla."],"lla."],[["eLee",8,"chllñ"]],[["eForma",5,"chllñ"],["eFalta",5,"chllñ"]],[["eOrt",5,"ñ>n,ni;ll>y,l"],["eFalta",4,"chllñ"]]],
+"e8":[["Sílaba: golpe de voz.","Aplaude para contar."],["sol: 1","ma-no: 2","to-ma-te: 3"],["¿Cuántas sílabas tiene «mariposa»?",["ma-ri-po-sa.","4 aplausos."],"4 sílabas."],[["eNSil",8]],[["eNSil",10]],[["eNSil",6],["eLarga",4]]],
+"e9":[["Oración: idea completa.","Mayúscula al inicio, punto al final."],["El perro ladra.","Ana come pan."],["¿Es oración «el gato»?",["No dice qué hace.","Le falta la acción."],"No; «El gato duerme.» sí lo es."],[["eOrac",6],["eCuenta",2]],[["eOrac",5],["eVerbo",5]],[["eOrac",5],["ePunto",5]]],
+"e10":[["Nombre propio: uno en especial, con mayúscula.","Nombre común: cualquiera, con minúscula."],["Canelo / perro","Puebla / ciudad"],["¿«México» es propio o común?",["Es el nombre de un país en especial."],"Propio, con mayúscula."],[["eSust",5],["eMay",3]],[["eMay",5],["eSust",5]],[["eMay",6],["eSust",4]]],
+"e11":[["Rima: terminan igual.","Trabalenguas: sonidos repetidos.","Adivinanza: pistas."],["ratón – balón","tres tristes tigres"],["¿Qué rima con «gato»?",["Termina en -ato.","pato, zapato, plato."],"pato."],[["eRima",8]],[["eRima",5],["eAdiv",5]],[["eRima",4],["eAdiv",3],["eTrab",3]]],
+"e12":[["Cuento: inicio, desarrollo y final.","Personajes y lugar."],["Había una vez…","Al final…"],["¿Qué parte es «Había una vez una niña llamada Tomasa»?",["Presenta al personaje.","Es el principio."],"El inicio."],[["eCompr",8]],[["eCompr",5],["eSuc",5]],[["eCompr",6],["eSuc",4]]],
+"e13":[["Recado: mensaje corto.","Receta: ingredientes y pasos."],["Mamá: fui a…","1. Mezcla…"],["¿Qué tiene una receta?",["Lo que se necesita.","Cómo se hace."],"Ingredientes y preparación."],[["eTipo",8]],[["eTipo",5],["eSuc",5]],[["eTipo",5],["eSuc",5]]],
+"e14":[["Sinónimos: significan lo mismo."],["bonito = hermoso","contento = feliz"],["Sinónimo de «rezar»:",["Hablar con Dios.","orar."],"orar."],[["eSin",8]],[["eSin",10]],[["eSin",5],["eAnt",5]]],
+"e15":[["Antónimos: significan lo contrario."],["alto – bajo","luz – oscuridad"],["Antónimo de «abrir»:",["Lo contrario de abrir."],"cerrar."],[["eAnt",8]],[["eAnt",10]],[["eAnt",5],["eSin",5]]],
+"e16":[["Leer con atención: ¿quién?, ¿qué?, ¿cómo terminó?"],["San Francisco","el lobo","Gubbio"],["¿Qué hizo san Francisco con el lobo?",["Fue a hablar con él.","Hicieron un trato de paz."],"Lo amansó con amor e hizo las paces con el pueblo."],[["eCompr",8]],[["eCompr",10]],[["eCompr",10]]]};
+(function(){const s=SUBJ.find(x=>x.id==="esp");if(!s)return;const by={};s.units.forEach(u=>u.ls.forEach(l=>by[l.id]=l));Object.assign(by,ESP1N);
+ for(const[id,[rr,ee,ps,l1,l2,l3]]of Object.entries(ESP1T)){const l=by[id];if(!l)continue;const k0=l.learn.findIndex(p=>p.fe||p.info||(p.v&&p.v.t==="vida"));const k=k0<0?l.learn.length:k0;l.learn.splice(k,0,P("Pizarrón: lo más importante","",{t:"piz",r:rr,e:ee}),P("Ejemplo resuelto, paso a paso","",{t:"paso",q:ps[0],s:ps[1],r:ps[2]}));l.lv=[l1,l2,l3]}
+ const U=[["Las letras y sus sonidos",["e17","e1","e2","e18","e3","e4","e5","e6","e7","e19","e20","e21","e22","e8","e23","eR1"]],["Leer y escribir oraciones",["e24","e9","e25","e26","e27","e28","e29","eR2"]],["Las palabras y cómo se escriben",["e10","e30","e31","e32","e33","e34","e35","e36","e37","e38","e39","e40","e41","e14","e15","eR3"]],["Juegos con palabras",["e11","e42","e43","e44","e45","e46","e47","eR4"]],["Cuentos y libros",["e48","e49","e12","e50","e51","e52","e53","e54","e16","eR5"]],["Textos de todos los días",["e55","e13","e56","e57","e58","e59","e60","e61","e62","eR6"]]];
+ s.units=U.map(([t,ids])=>({t,ls:ids.map(i=>by[i]).filter(Boolean)}));s.d="Letras, sílabas y sílabas trabadas; leer y escribir oraciones; mayúsculas, punto, coma y signos; verbos, adjetivos, género y número; ortografía (b/v, c/s/z, g/j, r/rr, ñ, ll/y, h); rimas, adivinanzas y trabalenguas; cuentos, leyendas, historietas; cartas, recados, invitaciones, instructivos, carteles, noticias y entrevistas. Cada lección tiene pizarrón, ejemplo resuelto y 3 niveles.";})();
 
 init();
 if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}

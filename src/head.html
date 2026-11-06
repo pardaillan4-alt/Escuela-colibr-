@@ -702,6 +702,31 @@ table.prog.plst{min-width:0}
 .adj-b{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-weight:700;color:var(--ink);cursor:pointer}
 .adj-b.on{background:var(--mat);border-color:var(--mat);color:#fff}
 @media (prefers-color-scheme:dark){.mtgr-c{background:#3a3226;border-color:#6b5a40}.mttb-c.dg{background:#3a3420}.mttb-c.rc{background:#1f2c44}}
+
+/* esp-juegos */
+.esfr-o{text-align:center;margin:6px 0}.esfr-e{font-size:48px;letter-spacing:6px}
+.esfr-s{font-size:22px;font-weight:800;line-height:1.5}.esfr-s .s0{color:var(--mat)}.esfr-s .s1{color:var(--esp)}.esfr-s .s2{color:var(--cie)}
+.esfr-c{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.esfr-b{border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px 14px;font-weight:800;font-size:15px;color:var(--ink);cursor:pointer}
+.esfr-b:nth-child(1){border-color:var(--mat)}.esfr-b:nth-child(2){border-color:var(--esp)}.esfr-b:nth-child(3){border-color:var(--cie)}
+.esle-l{text-align:center;font-size:44px;color:var(--esp);margin:4px 0}
+.esle-g{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:420px;margin:8px auto}
+.esle-c{display:flex;flex-direction:column;align-items:center;justify-content:center;border:3px solid var(--line);background:var(--card);border-radius:14px;padding:8px 2px;cursor:pointer;min-height:76px}
+.esle-c span{font-size:34px}.esle-c small{font-size:12px;font-weight:700;color:var(--soft);min-height:14px}
+.esle-c.on{border-color:var(--esp);background:#fde7ea}
+.essc-g{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;max-width:440px;margin:8px auto}
+.essc-c{display:flex;flex-direction:column;align-items:center;gap:4px;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px;font-weight:700;font-size:14px;color:var(--ink);cursor:pointer}
+.essc-c span{font-size:34px}.essc-c.done{opacity:.35}.essc-c.shake{animation:mtsh .35s}
+.essc-o{display:flex;flex-direction:column;gap:3px;max-width:440px;margin:0 auto;font-weight:700;color:var(--cie)}
+@keyframes mtsh{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.esmy-s{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0}
+.esmy-w{border:2px solid var(--line);background:var(--card);border-radius:10px;padding:8px 10px;font-size:19px;font-weight:700;color:var(--ink);cursor:pointer}
+.esmy-w.on{border-color:var(--esp);color:var(--esp)}
+.essp-s{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:12px 0;row-gap:8px;padding:8px;background:#fffdf5;border-radius:12px}
+.essp-l{font-size:26px;letter-spacing:0;font-weight:800;color:var(--ink);font-family:ui-rounded,system-ui,sans-serif}
+.essp-g{width:10px;height:34px;border:none;background:transparent;border-radius:4px;cursor:pointer;padding:0;margin:0 -4px;position:relative;z-index:1}
+.essp-g:hover{background:var(--chip)}.essp-g.on{width:20px;margin:0 2px;background:#ffe7a8;border-bottom:3px solid var(--sun)}
+@media (prefers-color-scheme:dark){.esle-c.on{background:#40222a}}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
