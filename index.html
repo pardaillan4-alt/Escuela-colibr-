@@ -679,6 +679,34 @@ table.prog.plst{min-width:0}
 .mtes-c{aspect-ratio:1;border-radius:4px;background:#fff;border:none}.mtes-c.on{background:#8f5ad6}.mtes-c.r{cursor:pointer;background:#f6f1ff}.mtes-c.r.on{background:#8f5ad6}
 .mtdd-d{font-size:84px;line-height:1.1;margin:6px 0}.mtdd-t{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin:8px 0}.mtdd-t div{display:flex;flex-direction:column;align-items:center;padding:6px 2px;border-radius:10px;background:#fffaf0;color:#1b2a44}
 .mtdd-t b{font:900 18px var(--body)}.mtdd-t span{font:700 14px monospace;min-height:18px;word-break:break-all;color:#8f5ad6}.mtdd-t i{font:800 15px var(--body);font-style:normal}
+
+/* mat-juegos2 */
+.mtab-f{display:flex;justify-content:center;gap:10px;margin:8px 0}
+.mtab-c{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:54px}
+.mtab-rod{position:relative;width:46px;height:190px;display:flex;flex-direction:column-reverse;align-items:center;gap:2px;padding:4px 0;background:linear-gradient(90deg,transparent 21px,#8a6a3e 21px,#8a6a3e 25px,transparent 25px)}
+.mtab-rod i{display:block;width:42px;height:15px;border-radius:9px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
+.mtab-b{width:40px;height:34px;border-radius:10px;border:2px solid var(--line);background:var(--card);font-size:20px;font-weight:800;color:var(--ink);cursor:pointer}
+.mtab-c b{font-size:17px}.mtab-c span{font-weight:800;font-size:18px}
+.mtab-n{text-align:center;font-size:17px}
+.mttb-g{display:grid;gap:2px;max-width:520px;margin:8px auto;font-size:13px}
+.mttb-g .hd{display:flex;align-items:center;justify-content:center;background:var(--mat);color:#fff;border-radius:5px;min-height:30px}
+.mttb-c{min-height:30px;border:1px solid var(--line);background:var(--card);border-radius:5px;font-weight:700;font-size:13px;color:var(--ink);padding:0;cursor:pointer}
+.mttb-c.dg{background:#fff6dc}.mttb-c.rc{background:#e3eeff}.mttb-c.on{background:var(--sun);color:#1b2a44;transform:scale(1.12)}
+.mtgr-g{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;max-width:480px;margin:8px auto}
+.mtgr-c{aspect-ratio:1;border:1px solid #c9a77a;background:#f6ecd9;border-radius:3px;padding:0}
+.mtgr-c.on{background:#b5452f}.mtgr-c.u{cursor:pointer;border-color:#9ab}
+.mtgr-c:nth-child(12n+4){margin-right:3px}
+.mtge-w{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.mtge-s{width:min(46%,200px);height:auto}
+.mtro-o{text-align:center;margin:8px 0}
+.mtro-r{font-family:Georgia,serif;font-size:54px;font-weight:700;letter-spacing:3px;color:#8a5a00;display:block}
+.mtro-a{font-size:24px;font-weight:800}
+.mtan-w,.mtfr-w{display:flex;justify-content:center}
+.mtan-s{width:min(100%,320px);height:auto}.mtfr-s{width:min(100%,460px);height:auto}
+.mtfr-d{flex-wrap:wrap;gap:6px}
+.adj-b{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-weight:700;color:var(--ink);cursor:pointer}
+.adj-b.on{background:var(--mat);border-color:var(--mat);color:#fff}
+@media (prefers-color-scheme:dark){.mtgr-c{background:#3a3226;border-color:#6b5a40}.mttb-c.dg{background:#3a3420}.mttb-c.rc{background:#1f2c44}}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
@@ -6280,7 +6308,7 @@ ACT.mtddclr=(v,b)=>{const w=b.closest(".mt");w.querySelectorAll("[data-c]").forE
 /* --- Generadores nuevos --- */
 const SHV={triangulo:3,cuadrado:4,rectangulo:4,rombo:4,pentagono:5,hexagono:6};
 Object.assign(G,{
-xLine20:()=>{const a=pick([0,5,10]),n=mtRnd(a+1,a+10);return N("¿Qué número está marcado en la recta?",n,{t:"line",a,b:a+10,m:[n]},"Cuenta las rayitas desde el número de la orilla.")},
+xLine20:()=>{const a=pick([0,5,10]),n=mtRnd(a+1,a+9);return N("¿Qué número está marcado en la recta?",n,{t:"mline",a,st:1,m:n,all:1},"Cuenta las rayitas desde el número de la orilla.")},
 xUse:()=>{const Q=[["El número de tu casa","para saber dónde está"],["Cuántos hermanos tienes","para contar"],["Llegaste en 2.º lugar","para ordenar"],["La edad del abuelo","para medir el tiempo"],["El precio de un pan","para saber cuánto cuesta"]],[a,b]=pick(Q);return C(`«${a}». ¿Para qué sirve ese número?`,[b,...Q.map(x=>x[1]).filter(x=>x!==b).slice(0,2)],null,"Piensa qué te dice el número.")},
 xTensOp:()=>{const a=10*mtRnd(1,8),t=Math.random()<.5,b=t?10*mtRnd(1,(100-a)/10):10*mtRnd(1,a/10);return N(`${a} ${t?"+":"−"} ${b} = ?`,t?a+b:a-b,null,"Piensa en barras de 10: suma o quita barras completas.")},
 xExp:()=>{const d=mtRnd(2,9);let u=mtRnd(1,9);while(u===d)u=mtRnd(1,9);const n=10*d+u;return Math.random()<.5?N(`${n} = ${10*d} + ?`,u,{t:"blocks",d,u},"Las barras son las decenas; los cuadritos, las unidades."):C(`¿Cómo se descompone el ${n}?`,[`${10*d} + ${u}`,`${10*u} + ${d}`,`${d} + ${u}`],null,"Primero las decenas completas y luego las unidades.")},
@@ -6570,6 +6598,1076 @@ mR6:[["Usa todo lo de la unidad: dinero, cambio, gráficas, clasificar, seguro, 
  const U=[["Los números hasta el 20",["m1","m38","m2","m39","m3","m4","m40","m18","m19","m20","m22","mR1"]],["Sumamos y restamos",["m5","m6","m21","m47","m7","m45","m46","m53","m25","m26","m27","m8","m50","m51","m28","mR2"]],["Los números hasta el 100",["m9","m41","m29","m43","m42","m10","m44","m23","m24","m30","m11","m48","m49","mR3"]],["Formas y medidas",["m31","m32","m12","m56","m57","m58","m13","m54","m55","m33","m34","mR4"]],["El tiempo",["m36","m35","m14","m59","m60","mR5"]],["El dinero y los datos",["m15","m52","m37","m16","m61","m62","m17","mR6"]]];
  mat.units=U.map(([t,ids])=>({t,ls:ids.map(i=>byId[i]).filter(Boolean)}));
  mat.d="Números hasta el 100, patrones y series, sumas y restas (también en columna), cálculo mental, problemas, figuras y cuerpos, simetría, medidas, tiempo, dinero, datos y probabilidad. Cada lección tiene pizarrón, ejemplo resuelto y 3 niveles de práctica.";})();
+/* ========= Matemáticas: juegos interactivos y generadores para 1.º (Alfa), 2.º y 3.º ========= */
+/* --- Constructor compacto de lección profunda ---
+   DL(id, título, [[h,p,v],...], fe[h,p,v], vida[t,ic,h,q,o], pz[reglas,ejemplos], ps[q,pasos,r], lv[[n1],[n2],[n3]], ex, frase) */
+function DL(id,t,pages,fe,vd,pz,ps,lv,ex,frase){const l=L(id,t,pages.map(([h,p,v])=>P(h,p,v)),ex||[],lv[0]||[]);
+ l.learn.push(P("Pizarrón: lo más importante","",{t:"piz",r:pz[0],e:pz[1]}),P("Ejemplo resuelto, paso a paso","",{t:"paso",q:ps[0],s:ps[1],r:ps[2]}));
+ if(fe)l.learn.push(F(fe[0],fe[1],fe[2]));if(vd){const[vt,ic,h,q,o]=vd;l.learn.push(P(vt,"",{t:"vida",ic,h,q,o}))}
+ l.learn.push(I(t.replace(/^🏆 /,""),"grid",(pz[1]||[]).slice(0,6).map(e=>["star",e.replace(/<[^>]+>/g,"")]),frase||(fe?fe[0]:"")));l.lv=lv;return l}
+function DRETO(id,t,gen,ps,frase){const l=DL(id,"🏆 "+t,[["¿Qué es un reto?","Un reto es un problema que te hace pensar un poco más. Usa todo lo que aprendiste en esta unidad: léelo dos veces, haz un dibujo, resuélvelo por pasos y revisa si tu respuesta tiene sentido.",{t:"steps",x:["Léelo dos veces","Haz un dibujo","Resuélvelo por pasos","Revisa tu respuesta"]}]],["Todo lo puedo en Cristo","San Pablo decía: «Todo lo puedo en Cristo, que me fortalece» (Flp 4, 13). Cuando algo cuesta, pídele ayuda a Jesús y vuelve a intentarlo.",{t:"emo",x:"💪 ✝️"}],null,[["Usa todo lo que aprendiste en la unidad.","Si te equivocas, ¡vuelve a intentarlo!"],["Lee dos veces","Dibuja","Por pasos","Revisa"]],ps,[[[gen,10]],[[gen,12]],[[gen,6],["yProb2",6]]],[],frase);l.isReto=true;return l}
+
+/* --- El ábaco --- */
+VX.mtabaco=v=>{const k=v.k||2;return mtBox("mtab",`<div class="mtab-w" data-k="${k}" data-v="${"0".repeat(k)}"></div><p class="mt-r mtab-n" aria-live="polite"></p><div class="row center">${mtBtn("mtabgo","reto","🎯 Reto: forma el número",1)}${mtBtn("mtabgo","clr","🧹 Borrar")}</div>`)};
+const ABN=[["U","unidades","#3fa34d"],["D","decenas","#3d8bfd"],["C","centenas","#e5484d"],["UM","millares","#8f5ad6"]];
+function mtabDraw(w){const k=+w.dataset.k,d=w.dataset.v.split("").map(Number);let h=`<div class="mtab-f">`;for(let i=0;i<k;i++){const pos=k-1-i,[ab,nm,c]=ABN[pos];h+=`<div class="mtab-c"><button class="mtab-b" data-act="mtabp" data-v="${i}:1" aria-label="Agregar ${nm}">＋</button><div class="mtab-rod">${Array.from({length:d[i]},()=>`<i style="background:${c}"></i>`).join("")}</div><button class="mtab-b" data-act="mtabp" data-v="${i}:-1" aria-label="Quitar ${nm}">−</button><b style="color:${c}">${ab}</b><span>${d[i]}</span></div>`}h+="</div>";w.innerHTML=h;const n=+d.join("");const box=w.closest(".mt");box.querySelector(".mtab-n").innerHTML=`<b>${n.toLocaleString("es-MX")}</b> · ${numPal(n)}${box.dataset.goal?` · Reto: forma el ${(+box.dataset.goal).toLocaleString("es-MX")}`:""}`;return n}
+ACT.mtabp=(v,b)=>{const w=b.closest(".mt").querySelector(".mtab-w"),[i,dd]=v.split(":").map(Number),d=w.dataset.v.split("").map(Number);d[i]=Math.max(0,Math.min(9,d[i]+dd));w.dataset.v=d.join("");const n=mtabDraw(w),box=w.closest(".mt");say(numPal(n),true);if(box.dataset.goal&&n===+box.dataset.goal){box.querySelector(".mtab-n").innerHTML=`¡Lo lograste! Formaste el <b>${n.toLocaleString("es-MX")}</b>. ⭐`;delete box.dataset.goal;mtOk()}};
+ACT.mtabgo=(v,b)=>{const box=b.closest(".mt"),w=box.querySelector(".mtab-w"),k=+w.dataset.k;if(v==="clr"){w.dataset.v="0".repeat(k);delete box.dataset.goal;mtabDraw(w);return}const g=mtRnd(Math.pow(10,k-1),Math.pow(10,k)-1);box.dataset.goal=g;mtabDraw(w);say("Forma el "+numPal(g),true)};
+
+/* --- Tabla de sumar / tabla de multiplicar --- */
+VX.mttabla=v=>{const op=v.op||"+",n=v.n||10;return mtBox("mttb",`<p class="note">Toca una casilla para ver la ${op==="+"?"suma":"multiplicación"}. Busca los patrones: ¡la tabla es simétrica!</p><div class="mttb-g" data-op="${op}" style="grid-template-columns:repeat(${n+(op==="+"?2:1)},1fr)">${mttbCells(op,n)}</div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("mttbreto",op,"🎯 Reto: encuentra la casilla",1)}</div>`)};
+function mttbCells(op,n){const s=op==="+"?0:1,e=n;let h=`<b class="hd">${op==="+"?"+":"×"}</b>`;for(let c=s;c<=e;c++)h+=`<b class="hd">${c}</b>`;for(let r=s;r<=e;r++){h+=`<b class="hd">${r}</b>`;for(let c=s;c<=e;c++){const x=op==="+"?r+c:r*c;h+=`<button class="mttb-c${r===c?" dg":""}" data-act="mttbc" data-v="${r}:${c}">${x}</button>`}}return h}
+ACT.mttbc=(v,b)=>{const box=b.closest(".mt"),g=box.querySelector(".mttb-g"),op=g.dataset.op,[r,c]=v.split(":").map(Number),x=op==="+"?r+c:r*c;g.querySelectorAll(".mttb-c").forEach(e=>{const[a,d]=e.dataset.v.split(":").map(Number);e.classList.toggle("on",e===b);e.classList.toggle("rc",(a===r||d===c)&&e!==b)});const rr=box.querySelector(".mt-r");
+ if(box.dataset.goal){const[gr,gc]=box.dataset.goal.split(":").map(Number);if((r===gr&&c===gc)||(r===gc&&c===gr)){rr.textContent=`¡Exacto! ${r} ${op==="+"?"+":"×"} ${c} = ${x}. ⭐`;delete box.dataset.goal;mtOk()}else rr.textContent=`Esa es ${r} ${op==="+"?"+":"×"} ${c} = ${x}. Busca otra vez.`}else rr.textContent=`${r} ${op==="+"?"+":"×"} ${c} = ${x}`;say(`${numPal(r)} ${op==="+"?"más":"por"} ${numPal(c)}, ${numPal(x)}`,true)};
+ACT.mttbreto=(op,b)=>{const box=b.closest(".mt"),s=op==="+"?0:1,r=mtRnd(s+1,9),c=mtRnd(s+1,9);box.dataset.goal=r+":"+c;box.querySelector(".mt-r").textContent=`Reto: toca la casilla de ${r} ${op==="+"?"+":"×"} ${c}.`;say(`Toca la casilla de ${numPal(r)} ${op==="+"?"más":"por"} ${numPal(c)}`,true)};
+
+/* --- Grecas y mosaicos --- */
+const GRECAS=[[[1,0,0,1],[1,1,0,1],[0,1,1,1],[0,0,0,0]],[[1,1,0,0],[0,1,1,0],[0,0,1,1],[0,0,0,0]],[[1,0,1,0],[0,1,0,1],[1,0,1,0],[0,1,0,1]],[[1,1,1,0],[1,0,1,0],[1,0,0,0],[0,0,0,0]]];
+VX.mtgreca=()=>mtBox("mtgr",`<p class="note">Una <b>greca</b> repite un dibujo una y otra vez, como en las paredes de Mitla, Oaxaca. Continúa la greca pintando los cuadritos.</p><div class="mtgr-g"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("mtgrok","","✓ Comprobar",1)}${mtBtn("mtgrnew","","🔄 Otra greca")}</div>`);
+function mtgrNew(w){const p=GRECAS[mtRnd(0,GRECAS.length-1)];w._g={p,R:new Set()};mtgrDraw(w);w.querySelector(".mt-r").textContent=""}
+function mtgrDraw(w){const{p,R}=w._g;let h="";for(let r=0;r<4;r++)for(let c=0;c<12;c++){const i=r*12+c;h+=c<4?`<span class="mtgr-c${p[r][c]?" on":""}"></span>`:`<button class="mtgr-c u${R.has(i)?" on":""}" data-act="mtgrt" data-v="${i}" aria-label="cuadro"></button>`}w.querySelector(".mtgr-g").innerHTML=h}
+ACT.mtgrt=(v,b)=>{const w=b.closest(".mt");w._g.R.has(+v)?w._g.R.delete(+v):w._g.R.add(+v);mtgrDraw(w)};
+ACT.mtgrnew=(v,b)=>mtgrNew(b.closest(".mt"));
+ACT.mtgrok=(v,b)=>{const w=b.closest(".mt"),{p,R}=w._g;let bad=0;for(let r=0;r<4;r++)for(let c=4;c<12;c++){const want=!!p[r][c%4],has=R.has(r*12+c);if(want!==has)bad++}const r=w.querySelector(".mt-r");if(!bad){r.textContent="¡Hermosa greca! El dibujo se repite perfecto. ⭐";say("¡Hermosa greca!",true);mtOk()}else{r.textContent=`Hay ${bad} cuadritos diferentes. Copia el dibujo de 4 en 4 columnas.`;say("Revisa los cuadritos",true)}};
+
+/* --- Geoplano: copia la figura --- */
+const GEOF=[["cuadrado",[[1,1],[3,1],[3,3],[1,3]]],["triángulo",[[1,3],[3,3],[2,1]]],["rectángulo",[[0,1],[4,1],[4,3],[0,3]]],["rombo",[[2,0],[4,2],[2,4],[0,2]]],["triángulo rectángulo",[[1,1],[1,4],[4,4]]],["trapecio",[[1,1],[3,1],[4,3],[0,3]]]];
+VX.mtgeo=()=>mtBox("mtge",`<p class="note">Copia la figura de la izquierda en el geoplano de la derecha: toca los puntos en orden, uno tras otro.</p><div class="mtge-w"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("mtgeok","","✓ Comprobar",1)}${mtBtn("mtgeclr","","🧹 Borrar")}${mtBtn("mtgenew","","🔄 Otra figura")}</div>`);
+function mtgeNew(w){w._f=GEOF[mtRnd(0,GEOF.length-1)];w._p=[];mtgeDraw(w);w.querySelector(".mt-r").textContent=`Copia el ${w._f[0]}.`}
+function mtgeDraw(w){const S2=34,o=14,pt=([x,y])=>[o+x*S2,o+y*S2];const dots=(clk)=>{let h="";for(let y=0;y<5;y++)for(let x=0;x<5;x++){const[a,b]=pt([x,y]);h+=clk?`<circle cx="${a}" cy="${b}" r="9" fill="transparent" data-act="mtgep" data-v="${x},${y}" style="cursor:pointer"/><circle cx="${a}" cy="${b}" r="4" fill="#7a5a3a" pointer-events="none"/>`:`<circle cx="${a}" cy="${b}" r="3.5" fill="#7a5a3a"/>`}return h};const poly=(ps,c,cl)=>ps.length?`<polyline points="${ps.map(p=>pt(p).join(",")).join(" ")}${cl&&ps.length>2?" "+pt(ps[0]).join(","):""}" fill="${cl?c+"55":"none"}" stroke="${c}" stroke-width="4" stroke-linejoin="round" pointer-events="none"/>`:"";
+ w.querySelector(".mtge-w").innerHTML=`<svg viewBox="0 0 164 164" class="mtge-s"><rect width="164" height="164" rx="12" fill="#f4e7c9"/>${poly(w._f[1],"#3d8bfd",1)}${dots(0)}</svg><svg viewBox="0 0 164 164" class="mtge-s"><rect width="164" height="164" rx="12" fill="#f4e7c9"/>${poly(w._p,"#e5484d",w._closed)}${dots(1)}${w._p.map(p=>{const[a,b]=pt(p);return`<circle cx="${a}" cy="${b}" r="6" fill="#e5484d" pointer-events="none"/>`}).join("")}</svg>`}
+ACT.mtgep=(v,b)=>{const w=b.closest(".mt"),p=v.split(",").map(Number);if(w._closed){w._p=[];w._closed=false}if(w._p.length>2&&w._p[0][0]===p[0]&&w._p[0][1]===p[1])w._closed=true;else w._p.push(p);mtgeDraw(w)};
+ACT.mtgeclr=(v,b)=>{const w=b.closest(".mt");w._p=[];w._closed=false;mtgeDraw(w)};ACT.mtgenew=(v,b)=>mtgeNew(b.closest(".mt"));
+ACT.mtgeok=(v,b)=>{const w=b.closest(".mt"),f=w._f[1],p=w._p,key=a=>a.map(x=>x.join(",")).sort().join("|");const r=w.querySelector(".mt-r");if(p.length===f.length&&key(p)===key(f)){w._closed=true;mtgeDraw(w);r.textContent=`¡Perfecto! Copiaste el ${w._f[0]}: tiene ${f.length} vértices. ⭐`;say(`¡Perfecto! Copiaste el ${w._f[0]}`,true);mtOk()}else{r.textContent=`Todavía no. El ${w._f[0]} tiene ${f.length} vértices; tú marcaste ${p.length}. Cuenta los puntos de cada esquina.`;say("Todavía no. Revisa los puntos",true)}};
+
+/* --- Números romanos --- */
+function romano(n){const T=[[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];let s="";for(const[v,l]of T)while(n>=v){s+=l;n-=v}return s}
+VX.mtromano=v=>{const mx=v.max||20;return mtBox("mtro",`<div class="mtro-o" data-mx="${mx}"><span class="mtro-r">I</span><span class="mtro-a">= 1</span></div><div class="row center">${mtBtn("mtrop","-1","⏪ −1")}${mtBtn("mtrop","1","+1 ⏩")}${mx>=50?mtBtn("mtrop","10","+10 ⏩⏩"):""}${mtBtn("mtrop","r","🎲 Al azar",1)}</div><p class="note">I = 1 · V = 5 · X = 10${mx>=50?" · L = 50 · C = 100":""}. Si una letra menor va <b>antes</b> de una mayor, se resta: IV = 4, IX = 9.</p>`)};
+ACT.mtrop=(v,b)=>{const w=b.closest(".mt").querySelector(".mtro-o"),mx=+w.dataset.mx;let n=+(w.dataset.n||1);n=v==="r"?mtRnd(1,mx):Math.max(1,Math.min(mx,n+ +v));w.dataset.n=n;w.querySelector(".mtro-r").textContent=romano(n);w.querySelector(".mtro-a").textContent="= "+n;say(numPal(n),true)};
+
+/* --- Ángulos --- */
+VX.mtangulo=()=>mtBox("mtan",`<div class="mtan-w" data-a="90"></div><p class="mt-r" aria-live="polite"></p><div class="row center">${mtBtn("mtana","-15","↺ Cerrar")}${mtBtn("mtana","15","Abrir ↻")}${mtBtn("mtana","r","🎲 Otro",1)}</div><p class="note">Recto: como la esquina de una hoja (90°). Agudo: más cerrado. Obtuso: más abierto. Llano: una línea recta (180°).</p>`);
+function mtanDraw(w){const a=+w.dataset.a,r=a*Math.PI/180,x=100+90*Math.cos(-r),y=120+90*Math.sin(-r),tp=a===90?"recto":a===180?"llano":a<90?"agudo":"obtuso",col={recto:"#3d8bfd",agudo:"#3fa34d",obtuso:"#f58a2a",llano:"#8f5ad6"}[tp];
+ w.innerHTML=`<svg viewBox="0 0 220 140" class="mtan-s"><path d="M100 120h100" stroke="#1b2a44" stroke-width="5" stroke-linecap="round"/><path d="M100 120L${x.toFixed(1)} ${y.toFixed(1)}" stroke="#1b2a44" stroke-width="5" stroke-linecap="round"/>${a===90?`<path d="M100 100h20v20" fill="none" stroke="${col}" stroke-width="3"/>`:`<path d="M130 120A30 30 0 0 0 ${(100+30*Math.cos(-r)).toFixed(1)} ${(120+30*Math.sin(-r)).toFixed(1)}" fill="${col}55" stroke="${col}" stroke-width="3"/>`}<circle cx="100" cy="120" r="5" fill="#e5484d"/></svg>`;w.closest(".mt").querySelector(".mt-r").innerHTML=`Ángulo <b style="color:${col}">${tp}</b> · ${a}°`;return tp}
+ACT.mtana=(v,b)=>{const w=b.closest(".mt").querySelector(".mtan-w");let a=+w.dataset.a;a=v==="r"?pick([30,45,60,90,120,135,150,180]):Math.max(15,Math.min(180,a+ +v));w.dataset.a=a;say("Ángulo "+mtanDraw(w),true)};
+
+/* --- Fracciones en la recta --- */
+VX.mtfracrecta=v=>{const ds=v.d||[2,3,4,6,8];return mtBox("mtfr",`<div class="row center mtfr-d">${ds.map((d,i)=>`<button class="adj-b${i?"":" on"}" data-act="mtfrd" data-v="${d}">en ${d}</button>`).join("")}</div><div class="mtfr-w" data-d="${ds[0]}" data-k="1"></div><div class="row center">${mtBtn("mtfrk","-1","⏪")}${mtBtn("mtfrk","1","⏩")}</div><p class="mt-r" aria-live="polite"></p>`)};
+function mtfrDraw(w){const d=+w.dataset.d,k=+w.dataset.k,x=i=>20+i*300/d;let s=`<svg viewBox="0 0 340 90" class="mtfr-s"><path d="M14 46H326" stroke="#1b2a44" stroke-width="3"/><rect x="20" y="38" width="${(k*300/d).toFixed(1)}" height="16" rx="4" fill="#f2a03d" opacity=".8"/>`;for(let i=0;i<=d;i++)s+=`<path d="M${x(i)} 34v24" stroke="#1b2a44" stroke-width="${i===0||i===d?4:2}"/><text x="${x(i)}" y="80" text-anchor="middle" font-size="${d>6?11:14}" font-weight="800" fill="#1b2a44">${i===0?"0":i===d?"1":i+"/"+d}</text>`;w.innerHTML=s+`<text x="${x(k)}" y="26" text-anchor="middle" font-size="22">🐸</text></svg>`;const box=w.closest(".mt");box.querySelector(".mt-r").innerHTML=`<span class="frc"><sup>${k}</sup><sub>${d}</sub></span> ${k===d?"= 1 entero":k*2===d?"= un medio":""}`}
+ACT.mtfrd=(v,b)=>{const box=b.closest(".mt"),w=box.querySelector(".mtfr-w");box.querySelectorAll(".mtfr-d .adj-b").forEach(x=>x.classList.toggle("on",x===b));w.dataset.d=v;w.dataset.k=1;mtfrDraw(w)};
+ACT.mtfrk=(v,b)=>{const w=b.closest(".mt").querySelector(".mtfr-w"),d=+w.dataset.d;w.dataset.k=Math.max(0,Math.min(d,+w.dataset.k+ +v));mtfrDraw(w);say(`${numPal(+w.dataset.k)} de ${numPal(d)}`,true)};
+
+{const _vt=visText;visText=function(v){if(v&&/^mt(abaco|tabla|greca|geo|romano|angulo|fracrecta)$/.test(v.t||""))return"";return _vt(v)}}
+{const _ln=learn;learn=function(){const r=_ln.apply(this,arguments);try{document.querySelectorAll(".mtab-w").forEach(w=>mtabDraw(w));document.querySelectorAll(".mtgr").forEach(w=>{if(!w._g)mtgrNew(w)});document.querySelectorAll(".mtge").forEach(w=>{if(!w._f)mtgeNew(w)});document.querySelectorAll(".mtan-w").forEach(w=>mtanDraw(w));document.querySelectorAll(".mtfr-w").forEach(w=>mtfrDraw(w))}catch(e){console.error(e)}return r}}
+
+/* --- Recta con flecha (sin mostrar la respuesta) y pastel de fracciones --- */
+VX.mline=v=>{const k=10,W=360,pad=22,dx=(W-2*pad)/k,lg=String(v.a+k*v.st).length>=4;let s=`<svg viewBox="0 0 ${W} ${lg?82:74}" class="nline" role="img" aria-label="Recta numérica"><line x1="${pad-10}" y1="34" x2="${W-pad+10}" y2="34"/>`;for(let i=0;i<=k;i++){const x=pad+i*dx,val=v.a+i*v.st,isM=val===v.m;s+=`<line x1="${x}" y1="${isM?24:28}" x2="${x}" y2="${isM?44:40}"/>`;if(isM)s+=`<text x="${x}" y="16" text-anchor="middle" font-size="18">⬇️</text>`;const ly=lg&&i%2?76:62,fs=lg?' font-size="11"':'';if(i===0||i===k||(!isM&&(i%5===0||v.all)))s+=`<text x="${x}" y="${ly}" text-anchor="middle"${fs}>${val.toLocaleString("es-MX")}</text>`;if(isM)s+=`<text x="${x}" y="${ly}" text-anchor="middle" font-weight="900">?</text>`}return s+"</svg>"};
+VX.pie=v=>{const n=v.n,k=v.k||0,R=60;let s="";for(let i=0;i<n;i++){const a0=i/n*2*Math.PI-Math.PI/2,a1=(i+1)/n*2*Math.PI-Math.PI/2,p=a=>[70+R*Math.cos(a),70+R*Math.sin(a)];const[x0,y0]=p(a0),[x1,y1]=p(a1);s+=n===1?`<circle cx="70" cy="70" r="${R}" fill="${k?"#f2a03d":"#f8e2a8"}"/>`:`<path d="M70 70L${x0.toFixed(1)} ${y0.toFixed(1)}A${R} ${R} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}z" fill="${i<k?"#f2a03d":"#f8e2a8"}" stroke="#c9952f" stroke-width="2"/>`}return`<svg viewBox="0 0 140 140" style="width:140px;display:block;margin:0 auto" role="img" aria-label="Fracción">${s}</svg>`};
+{const _vt=visText;visText=function(v){if(v&&(v.t==="mline"||v.t==="pie"))return"";return _vt(v)}}
+/* =========== Generadores =========== */
+const yOpts=(a,ds)=>{const o=new Set([a]);for(const d of ds){if(o.size>=3)break;if(a+d>=0)o.add(a+d)}return[...o]};
+Object.assign(G,{
+/* 1.º (Alfa) */
+yMuchos:()=>{const a=mtRnd(1,9);let b=mtRnd(1,9);while(b===a)b=mtRnd(1,9);const[e1,e2]=pick([["🍎","🍐"],["🐑","🐄"],["⭐","🌙"],["🐟","🐢"]]);const t=mtRnd(0,1);return C(t?"¿Dónde hay muchos?":"¿Dónde hay pocos?",t?(a>b?["Arriba","Abajo"]:["Abajo","Arriba"]):(a<b?["Arriba","Abajo"]:["Abajo","Arriba"]),{t:"emo",x:e1.repeat(a)+"<br>"+e2.repeat(b)},"Haz parejas: al grupo que le sobran tiene más.")},
+yTantos:()=>{const a=mtRnd(2,8),eq=Math.random()<.4,b=eq?a:mtRnd(2,8);return TF(`¿Hay tantos niños como sillas? (${a} niños y ${b} sillas)`,a===b,{t:"emo",x:"🧒".repeat(a)+"<br>"+"🪑".repeat(b)},"Haz parejas: un niño con una silla.")},
+yGrupos:()=>{const g=mtRnd(2,5),n=mtRnd(2,5),e=pick(["🍎","⭐","🐟","🌸"]);return N(`Hay ${g} grupos iguales con ${n} en cada uno. ¿Cuántos hay en total?`,g*n,{t:"emo",x:Array(g).fill(e.repeat(n)).join(" | ")},"Cuenta de cuántos en cuántos hay en cada grupo.")},
+yTablaS:()=>{const a=mtRnd(0,10),b=mtRnd(0,10);return N(`En la tabla de sumar, ¿qué número va donde se cruzan el ${a} y el ${b}?`,a+b,null,`Es ${a} + ${b}.`)},
+yAbaco:(k=2)=>{const n=mtRnd(Math.pow(10,k-1),Math.pow(10,k)-1),ds=String(n).split("");return N("¿Qué número muestra el ábaco?",n,{t:"emo",x:ds.map((d,i)=>`${["C","D","U"].slice(-ds.length)[i]}: ${"●".repeat(+d)||"—"}`).join("<br>")},"Cada cuenta en la varilla de las decenas vale 10.")},
+yCentena:()=>{const t=mtRnd(0,2);if(t===0)return N("¿Cuántas decenas forman una centena?",10,null,"10 barras de 10 = 100.");if(t===1){const a=10*mtRnd(1,9);return N(`¿Cuánto le falta al ${a} para llegar a 100?`,100-a,null,"Cuenta de 10 en 10 hasta 100.")}const n=mtRnd(91,99);return N(`¿Cuánto le falta al ${n} para llegar a 100?`,100-n,null,"Cuenta hacia adelante hasta 100.")},
+yRoman:(mx=12)=>{const n=mtRnd(1,mx),t=Math.random()<.5;return t?C(`¿Qué número es ${romano(n)}?`,yOpts(n,[1,-1,2,5,-2]).map(String),null,"I = 1, V = 5, X = 10. Si una menor va antes de una mayor, se resta."):C(`¿Cómo se escribe ${n} en números romanos?`,[...new Set([romano(n),romano(n+1),romano(Math.max(1,n-1)),romano(n+2)])].slice(0,3),null,"Busca primero la letra más grande que quepa.")},
+yFrac1:()=>{const t=mtRnd(0,2);if(t===0)return C("Si parto una tortilla en 2 partes iguales, cada parte es…",["un medio","un cuarto","un tercio"]);if(t===1)return C("Si parto un pastel en 4 partes iguales, cada parte es…",["un cuarto","un medio","un tercio"]);return N("¿Cuántos cuartos forman una pizza entera?",4,{t:"pie",n:4,k:4},"Cuenta las partes.")},
+yFracAdd1:()=>{const d=pick([2,4]),a=1,b=d===2?1:mtRnd(1,2);return N(`${a}/${d} + ${b}/${d} = ¿cuántos ${d===2?"medios":"cuartos"}?`,a+b,null,"Si las partes son del mismo tamaño, solo cuenta cuántas juntas.")},
+yTam:()=>{const Q=[["¿Qué es más grueso?",["un tronco 🪵","una ramita 🌿"]],["¿Qué es más delgado?",["un hilo 🧵","una cuerda gruesa 🪢"]],["¿Qué es más grande?",["una ballena 🐋","un pez 🐟"]],["¿Qué es más pequeño?",["una hormiga 🐜","un gato 🐱"]]],[q,o]=pick(Q);return C(q,o,null,"Compara los dos.")},
+yTamOrd:()=>{const S=pick([["🐜","🐭","🐱","🐘"],["🌱","🌿","🌳"],["🍇","🍎","🍉"],["✏️","📏","🚪"]]);return O("Ordena de pequeño a grande",S,null,"Empieza por el más pequeño.")},
+ySuperf:()=>{const Q=[["¿Qué cubre más superficie?",["el mantel de la mesa","una servilleta"]],["¿Qué cubre menos superficie?",["una estampa","una cobija"]],["¿Qué tiene superficie curva?",["una pelota","una mesa"]],["¿Qué tiene superficie plana?",["una hoja de papel","una naranja"]]],[q,o]=pick(Q);return C(q,o,null,"Imagina que lo cubres con cuadritos de papel.")},
+yTray:()=>{const a=mtRnd(3,9);let b=mtRnd(3,9);while(b===a)b=mtRnd(3,9);return C(`Para llegar a la iglesia, el camino rojo tiene ${a} cuadras y el azul ${b}. ¿Cuál es más corto?`,[a<b?"El rojo":"El azul",a<b?"El azul":"El rojo","Son iguales"],null,"El camino más corto tiene menos cuadras.")},
+yMetro:()=>{const t=mtRnd(0,2);if(t===0)return C("¿Con qué medirías el largo del patio?",["con un metro","con una regla de 15 cm","con un clip"]);if(t===1)return N("¿Cuántos centímetros tiene un metro?",100,null,"1 metro = 100 centímetros.");return C("¿Qué mide como un metro?",["una puerta de ancho","un lápiz","una hormiga"],null,"Un metro es como un paso grande de un adulto.")},
+/* 2.º */
+yEq:()=>{const a=mtRnd(2,40),b=mtRnd(2,40),eq=Math.random()<.5,c=eq?a+b-mtRnd(1,a):mtRnd(2,40),d=eq?a+b-c:mtRnd(1,40);return TF(`¿Es verdad que ${a} + ${b} = ${c} + ${d}?`,a+b===c+d,null,`Calcula cada lado: ${a+b} y ${c+d}.`)},
+yNeq:()=>{const a=mtRnd(10,99),b=mtRnd(10,99);return C(`¿Qué signo va? ${a} ▢ ${b}`,a===b?["=","≠"]:["≠","="],null,"= si valen lo mismo; ≠ si son diferentes.")},
+yLine1000:()=>{const st=pick([10,100]),a=st===10?10*mtRnd(0,89):0,n=a+st*mtRnd(1,9);return N("¿Qué número marca la flecha?",n,{t:"mline",a,st,m:n},`Cada rayita vale ${st}.`)},
+yPV3:()=>{const n=mtRnd(111,999),k=mtRnd(0,2),d=+String(n)[k];return N(`En el ${n}, ¿cuánto vale la cifra ${d} de las ${["centenas","decenas","unidades"][k]}?`,d*[100,10,1][k],null,"El lugar cambia el valor: en las centenas vale cien veces.")},
+yExp3:()=>{const c=mtRnd(1,9),d=mtRnd(0,9),u=mtRnd(1,9),n=100*c+10*d+u;return Math.random()<.5?N(`${n} = ${100*c} + ${10*d} + ?`,u,null,"Centenas + decenas + unidades."):N(`${100*c} + ${10*d} + ${u} = ?`,n,null,"Escribe las cifras en su lugar.")},
+yNext1000:()=>{const n=mtRnd(100,998),t=mtRnd(0,1);if(Math.random()<.3){const m=pick([199,299,499,599,899,700,400,300]);return N(t?`¿Cuál es el sucesor del ${m}?`:`¿Cuál es el antecesor del ${m}?`,t?m+1:m-1,null,"¡Cuidado con el cambio de centena!")}return N(t?`¿Cuál es el sucesor del ${n}?`:`¿Cuál es el antecesor del ${n}?`,t?n+1:n-1,null,"Sucesor: +1 · Antecesor: −1.")},
+ySer2:()=>{const st=pick([2,5,10,50,100,3,4]),back=Math.random()<.35,s0=back?mtRnd(st*5,st*5+200):mtRnd(0,500),seq=[0,1,2,3,4].map(i=>back?s0-i*st:s0+i*st),k=mtRnd(1,4);return N(`Completa la serie (${back?"−":"+"}${st}):`,seq[k],{t:"seq",x:seq.map((n,i)=>i===k?"?":n)},`${back?"Resta":"Suma"} ${st}.`)},
+yOrd20:()=>{const O20=["primero","segundo","tercero","cuarto","quinto","sexto","séptimo","octavo","noveno","décimo","undécimo","duodécimo","decimotercero","decimocuarto","decimoquinto","decimosexto","decimoséptimo","decimoctavo","decimonoveno","vigésimo"],k=mtRnd(0,19);return C(`¿Cómo se dice el lugar número ${k+1}?`,[O20[k],O20[(k+1)%20],O20[(k+3)%20]],null,"Del 11.º al 19.º se dicen decimo + primero, segundo…")},
+yComm:()=>{const a=mtRnd(10,90);let b=mtRnd(10,90);if(b===a)b=a<50?a+7:a-7;return C(`${a} + ${b} es igual a…`,[`${b} + ${a}`,`${a} − ${b}`,`${a} + ${a}`],null,"El orden de los sumandos no cambia el resultado.")},
+yTens2:()=>{const t=mtRnd(0,3);if(t===0){const a=10*mtRnd(1,8),b=10*mtRnd(1,9-a/10);return N(`${a} + ${b} = ?`,a+b)}if(t===1){const a=100*mtRnd(1,8),b=100*mtRnd(1,9-a/100);return N(`${a} + ${b} = ?`,a+b,null,"Suma las centenas como números chicos.")}if(t===2){const a=mtRnd(11,89);return N(`${a} + 10 = ?`,a+10,null,"Sumar 10: sube una decena.")}const a=mtRnd(100,890);return N(`${a} + 100 = ?`,a+100,null,"Sumar 100: sube una centena.")},
+yComp100:()=>{const t=Math.random()<.5,a=t?mtRnd(11,99):10*mtRnd(1,9);return N(`¿Cuánto le falta al ${a} para llegar a ${t?100:100}?`,100-a,null,"Completa primero la decena y luego cuenta de 10 en 10.")},
+yLineAdd:()=>{const a=mtRnd(10,80),b=mtRnd(5,19);return N(`Usa la recta: ${a} + ${b} = ?`,a+b,{t:"line",a:Math.floor(a/10)*10,b:Math.floor(a/10)*10+40,m:[a]},`Salta ${Math.floor(b/10)*10} y luego ${b%10}.`)},
+yLineSub:()=>{const a=mtRnd(30,99),b=mtRnd(5,25);return N(`Usa la recta: ${a} − ${b} = ?`,a-b,{t:"line",a:Math.floor((a-b)/10)*10,b:Math.floor((a-b)/10)*10+40,m:[a]},"Salta hacia atrás.")},
+yChk:()=>{const a=mtRnd(40,99),b=mtRnd(11,a-10),r=a-b,bad=Math.random()<.4;return TF(`Comprobando: ${a} − ${b} = ${bad?r+pick([1,-1,10]):r}. ¿Está bien?`,!bad,null,`Comprueba sumando: resultado + ${b} debe dar ${a}.`)},
+yMiss100:()=>{const c=mtRnd(30,99),a=mtRnd(10,c-5),t=mtRnd(0,1);return t?N(`${a} + ▢ = ${c}`,c-a,null,`Piensa ${c} − ${a}.`):N(`▢ − ${a} = ${c-a}`,c,null,"Suma para encontrar el número del principio.")},
+yProb2:()=>{const a1=pick(NAMES),t=mtRnd(0,4);if(t===0){const a=mtRnd(20,60),b=mtRnd(10,30),c=mtRnd(5,a);return N(`En la kermés ${a1} vendió ${a} tamales en la mañana y ${b} en la tarde. Se regalaron ${c} a los ayudantes. ¿Cuántos se vendieron y no se regalaron?`,a+b-c,null,"Primero suma, luego resta.")}if(t===1){const p=mtRnd(3,9),k=mtRnd(3,6),pay=p*k<50?pick([50,100]):100;return N(`${a1} compró ${k} velas de $${p}. Pagó con $${pay}. ¿Cuánto le dieron de cambio?`,pay-p*k,null,"Primero multiplica el precio por las velas.")}if(t===2){const g=mtRnd(3,6),n=mtRnd(4,8),f=mtRnd(1,g*n-1);return N(`Hay ${g} bancas con ${n} niños cada una. Se van ${f}. ¿Cuántos quedan?`,g*n-f,null,"Primero multiplica, luego resta.")}if(t===3){const a=mtRnd(100,400),b=mtRnd(100,400);return N(`La parroquia juntó $${a} el sábado y $${b} el domingo para los pobres. ¿Cuánto juntó?`,a+b)}const t2=mtRnd(4,8)*4;return N(`Hay ${t2} estampas para repartir entre 4 grupos. A cada grupo le dan 2 más de regalo. ¿Cuántas tiene cada grupo?`,t2/4+2,null,"Primero reparte y luego suma.")},
+yIter:()=>{const a=mtRnd(2,6),b=mtRnd(2,6),s=Array(b).fill(a).join(" + ");return Math.random()<.5?N(`${s} = ?`,a*b,null,`Es ${b} × ${a}.`):C(`${s} se escribe como…`,[`${b} × ${a}`,`${a} + ${b}`,`${a+b} × ${b}`],null,"Cuenta cuántas veces se repite el número.")},
+yLineMul:()=>{const a=pick([2,3,4,5]),b=mtRnd(2,6);return N(`La ranita da ${b} saltos de ${a} en ${a} desde el 0. ¿Dónde queda?`,a*b,{t:"line",a:0,b:a*b+a,m:Array.from({length:b-1},(_,i)=>a*(i+1))},`${b} × ${a}.`)},
+yTabla:(mx=10)=>{const a=mtRnd(1,mx),b=mtRnd(1,10);return N(`${a} × ${b} = ?`,a*b,null,"Busca en la tabla de multiplicar: fila por columna.")},
+yDbl3:()=>{const n=mtRnd(2,10),t=mtRnd(0,1);return t?N(`¿Cuál es el triple de ${n}?`,3*n,null,"El triple es 3 veces el número."):N(`¿Cuál es el doble de ${n}?`,2*n,null,"El doble es 2 veces el número.")},
+y01:()=>{const n=mtRnd(2,99),t=mtRnd(0,2);return t===0?N(`${n} × 1 = ?`,n,null,"Multiplicar por 1 deja el número igual."):t===1?N(`${n} × 0 = ?`,0,null,"Multiplicar por 0 siempre da 0."):N(`${n} × 10 = ?`,n*10,null,"Multiplicar por 10: agrega un cero.")},
+yMProb2:()=>{const a=mtRnd(2,5),b=mtRnd(2,10),T=pick([[`Cada niño del catecismo trae ${b} flores para la Virgen. Son ${a} niños. ¿Cuántas flores llevan?`],[`Un rosario tiene 5 decenas. ¿Cuántas Avemarías hay en ${a} decenas?`,10*a],[`Hay ${a} mesas y en cada una caben ${b} personas. ¿Cuántas personas caben?`],[`Cada caja tiene ${b} galletas. ¿Cuántas hay en ${a} cajas?`]]);return N(T[0],T[1]!=null?T[1]:a*b,null,"Grupos iguales: multiplica.")},
+yDiv2:()=>{const b=mtRnd(2,5),q=mtRnd(2,10),t=mtRnd(0,1),ob=pick(["dulces","estampas","flores","panes"]);return t?N(`Reparte ${b*q} ${ob} entre ${b} niños en partes iguales. ¿Cuántos le tocan a cada uno?`,q,{t:"emo",x:"🍬".repeat(Math.min(b*q,30))},"Reparte uno a uno hasta que se acaben."):N(`Tengo ${b*q} ${ob} y hago grupos de ${b}. ¿Cuántos grupos salen?`,q,null,`¿Cuántas veces cabe el ${b}?`)},
+yDProb2:()=>{const b=mtRnd(2,6),q=mtRnd(2,9);return N(pick([`Hay ${b*q} sillas para acomodar en ${b} filas iguales. ¿Cuántas en cada fila?`,`${b*q} niños hacen equipos de ${b}. ¿Cuántos equipos son?`,`La maestra reparte ${b*q} lápices entre ${b} mesas. ¿Cuántos por mesa?`]),q,null,"Es una división: reparte o agrupa.")},
+yFracOf2:()=>{const d=pick([2,3,4]),q=mtRnd(2,8),n=d*q;return N(`¿Cuánto es ${{2:"la mitad",3:"un tercio",4:"un cuarto"}[d]} de ${n}?`,q,null,`Reparte ${n} en ${d} partes iguales.`)},
+yFrac2:()=>{const d=pick([2,3,4,8]),k=mtRnd(1,d-1),nm={2:"medios",3:"tercios",4:"cuartos",8:"octavos"}[d];return N(`Partí una pizza en ${d} partes iguales y me comí ${k}. ¿Cuántos ${nm} quedan?`,d-k,{t:"pie",n:d,k},`El entero tiene ${d} ${nm}.`)},
+yFracCmp2:()=>{const a=pick([2,3,4,8]);let b=pick([2,3,4,8]);while(b===a)b=pick([2,3,4,8]);return C(`¿Qué es más grande: 1/${a} o 1/${b} de la misma pizza?`,[`1/${Math.min(a,b)}`,`1/${Math.max(a,b)}`,"Son iguales"],null,"Mientras en más partes se divide, más pequeña es cada parte.")},
+yMoney2:()=>{const p=mtRnd(30,180),pay=pick([200,100,500].filter(x=>x>p));return N(`Compras algo de $${p} y pagas con un billete de $${pay}. ¿Cuánto es tu cambio?`,pay-p,{t:"bill",v:pay},"Cambio = lo que pagas − el precio.")},
+yLines:()=>{const Q=[["Las vías del tren 🛤️ nunca se juntan. Son rectas…","paralelas"],["Las esquinas de una hoja forman rectas…","perpendiculares"],["Los rieles de una escalera de mano son…","paralelos"],["La cruz ✝️ está formada por rectas…","perpendiculares"]],[q,a]=pick(Q);return C(q,[a,a.startsWith("paral")?(a.endsWith("s")&&a.endsWith("os")?"perpendiculares":"perpendiculares"):"paralelas","curvas"],null,"Paralelas: nunca se cruzan. Perpendiculares: se cruzan formando esquinas rectas.")},
+yQuad:()=>{const Q=[["Tiene 4 lados iguales y 4 ángulos rectos.","cuadrado"],["Tiene 4 ángulos rectos y sus lados opuestos son iguales.","rectángulo"],["Tiene 3 lados.","triángulo"],["No tiene lados ni vértices.","círculo"],["Tiene 4 lados iguales pero sus ángulos no son rectos.","rombo"]],[q,a]=pick(Q);return C(`¿Qué figura es? ${q}`,[a,...["cuadrado","rectángulo","triángulo","círculo","rombo"].filter(x=>x!==a).sort(()=>Math.random()-.5).slice(0,2)],null,"Cuenta lados y fíjate en las esquinas.")},
+yCirc:()=>{const t=mtRnd(0,2);return t===0?C("La línea que forma la orilla redonda se llama…",["circunferencia","círculo","radio"]):t===1?C("La superficie que queda dentro de la circunferencia es el…",["círculo","radio","centro"]):C("¿Qué objeto tiene forma de círculo?",["una moneda","un lápiz","una caja"])},
+yAng:()=>{const a=pick([30,45,60,90,120,135,150]);return C(`Un ángulo de ${a}° es…`,[a===90?"recto":a<90?"agudo":"obtuso",...["recto","agudo","obtuso"].filter(x=>x!==(a===90?"recto":a<90?"agudo":"obtuso"))],null,"Recto = 90°. Más cerrado: agudo. Más abierto: obtuso.")},
+yCard:()=>{const Q=[["¿Por dónde sale el Sol?","este"],["¿Por dónde se oculta el Sol?","oeste"],["Si miras hacia donde sale el Sol, a tu izquierda queda el…","norte"],["Lo contrario del norte es el…","sur"]],[q,a]=pick(Q);return C(q,[a,...["norte","sur","este","oeste"].filter(x=>x!==a).slice(0,2)],null,"El Sol sale por el este y se oculta por el oeste.")},
+yConv:()=>{const t=mtRnd(0,3);if(t===0){const m=mtRnd(1,9);return N(`¿Cuántos centímetros son ${m} metros?`,100*m,null,"1 m = 100 cm.")}if(t===1){const d=mtRnd(1,9);return N(`¿Cuántos centímetros son ${d} decímetros?`,10*d,null,"1 dm = 10 cm.")}if(t===2)return N("¿Cuántos decímetros tiene un metro?",10,null,"1 m = 10 dm.");const c=mtRnd(1,9)*100;return N(`¿Cuántos metros son ${c} centímetros?`,c/100,null,"100 cm = 1 m.")},
+ySeg:()=>{const cm=mtRnd(3,14);return N("¿Cuánto mide el segmento?",cm,{t:"ruler",cm},"Empieza en el 0 de la regla.")},
+yKg:()=>{const t=mtRnd(0,2);return t===0?C("¿Qué pesa más o menos un kilogramo?",["un paquete de azúcar","una pluma","un coche"]):t===1?N("¿Cuántos medios kilos forman un kilo?",2):C("¿Qué pesa más: 1 kg de algodón o 1 kg de piedras?",["Pesan lo mismo","El algodón","Las piedras"],null,"¡Los dos pesan 1 kg!")},
+yLt:()=>{const t=mtRnd(0,2);return t===0?C("¿Qué se mide en litros?",["la leche","la tela","el arroz"]):t===1?N("¿Cuántos medios litros forman un litro?",2):N("Una jarra tiene 3 litros. ¿Cuántas jarras llenan un garrafón de 18 litros?",6,null,"18 ÷ 3.")},
+yCal:()=>{const t=mtRnd(0,3);if(t===0)return N("¿Cuántos días tienen 2 semanas?",14);if(t===1)return C("¿Qué mes tiene 28 días (o 29 en año bisiesto)?",["febrero","marzo","enero"]);if(t===2){const d=mtRnd(1,20);return N(`Hoy es ${d} de diciembre. ¿Cuántos días faltan para la Navidad (25)?`,25-d)}return N("¿Cuántos meses tiene un año?",12)},
+yTally2:()=>{const R=[["Mango",mtRnd(3,12)],["Uva",mtRnd(3,12)],["Pera",mtRnd(3,12)]];const t=mtRnd(0,1);if(t){const r=pick(R);return N(`Según la tabla de conteo, ¿cuántos eligieron ${r[0]}?`,r[1],{t:"bars",rows:R})}return N("¿Cuántos votos hay en total?",R.reduce((a,r)=>a+r[1],0),{t:"bars",rows:R},"Suma todas las barras.")},
+yMix2a:()=>G[pick(["yEq","yLine1000","yPV3","yExp3","yNext1000","ySer2","yOrd20","yRoman","cmp1000"])](20),
+yMix2b:()=>G[pick(["add2r","sub2r","yTens2","yComp100","yMiss100","yChk","prob2","yComm"])](),
+yMix2c:()=>G[pick(["yIter","yTabla","yDbl3","y01","yMProb2","yDiv2","yDProb2","yFracOf2"])](5),
+yMix2d:()=>G[pick(["yFrac2","yFracCmp2","yMoney2","money2","change","frac"])](),
+yMix2e:()=>G[pick(["yLines","yQuad","yCirc","yAng","yCard","sides","xSym","xFaces"])](),
+yMix2f:()=>G[pick(["yConv","ySeg","yKg","yLt","clock2","yCal","yTally2","xChance"])](),
+/* 3.º */
+zPV4:()=>{const n=mtRnd(1111,9999),k=mtRnd(0,3),d=+String(n)[k];return Math.random()<.5?N(`En el ${n.toLocaleString("es-MX")}, ¿cuál es el valor posicional del ${d} que está en las ${["unidades de millar","centenas","decenas","unidades"][k]}?`,d*[1000,100,10,1][k],null,"Valor posicional = la cifra × lo que vale su lugar."):N(`En el ${n.toLocaleString("es-MX")}, ¿cuál es el valor absoluto de la cifra de las ${["unidades de millar","centenas","decenas","unidades"][k]}?`,d,null,"El valor absoluto es la cifra sola, sin importar su lugar.")},
+zExp4:()=>{const m=mtRnd(1,9),c=mtRnd(0,9),d=mtRnd(0,9),u=mtRnd(0,9),n=1000*m+100*c+10*d+u;return Math.random()<.5?N(`${1000*m} + ${100*c} + ${10*d} + ${u} = ?`,n):N(`${n.toLocaleString("es-MX")} = ${1000*m} + ${100*c} + ▢ + ${u}`,10*d,null,"Busca el valor de las decenas.")},
+zLine:()=>{const st=pick([100,1000,50]),a=st===1000?0:st*mtRnd(0,80),n=a+st*mtRnd(1,9);return N("¿Qué número marca la flecha?",n,{t:"mline",a,st,m:n},`Cada rayita vale ${st}.`)},
+zSer:()=>{const st=pick([3,4,6,7,8,9,25,50,100,250,500,1000]),back=Math.random()<.35,s0=back?mtRnd(st*5,st*5+2000):mtRnd(0,4000),seq=[0,1,2,3,4].map(i=>back?s0-i*st:s0+i*st),k=mtRnd(1,4);return Math.random()<.75?N(`Completa la serie:`,seq[k],{t:"seq",x:seq.map((n,i)=>i===k?"?":n)},"Encuentra la regla: ¿cuánto cambia cada vez?"):C("¿Cuál es la regla de la serie?",[`${back?"Resta":"Suma"} ${st}`,`${back?"Suma":"Resta"} ${st}`,`${back?"Resta":"Suma"} ${st+1}`],{t:"seq",x:seq})},
+zMult:()=>{const n=mtRnd(1,99);return N(`¿El ${n} es múltiplo de ${pick([2,3,5,10])}?`.replace(/¿El (\d+) es múltiplo de (\d+)\?/,(m,a,b)=>m),0,null,"")},
+zMul:()=>{const b=pick([2,3,4,5,6,9,10]),k=mtRnd(1,10),n=Math.random()<.6?b*k:b*k+mtRnd(1,b-1);return TF(`¿El ${n} es múltiplo de ${b}?`,n%b===0,null,`¿Está en la tabla del ${b}? ${n} ÷ ${b}…`)},
+zRom:()=>G.yRoman(100),
+zAdd4:()=>{const a=mtRnd(1200,6000),b=mtRnd(800,9999-a);return N(`${a} + ${b} = ?`,a+b,{t:"vert",a,b,op:"+",hide:1},"Empieza por las unidades y no olvides las que llevas.")},
+zSub4:()=>{const a=pick([mtRnd(2000,9999),1000*mtRnd(2,9),100*mtRnd(20,99)]),b=mtRnd(300,a-100);return N(`${a} − ${b} = ?`,a-b,{t:"vert",a,b,op:"−",hide:1},"Si arriba hay menos, pide prestado a la columna de la izquierda (¡aunque haya ceros!).")},
+zEst:()=>{const a=mtRnd(110,890),b=mtRnd(110,890),ra=Math.round(a/100)*100,rb=Math.round(b/100)*100;return C(`Estima redondeando a las centenas: ${a} + ${b} es aproximadamente…`,[String(ra+rb),String(ra+rb+200),String(Math.max(100,ra+rb-200))],null,`${a} ≈ ${ra} y ${b} ≈ ${rb}.`)},
+zProb:()=>{const a1=pick(NAMES),t=mtRnd(0,4);if(t===0){const a=mtRnd(1200,3500),b=mtRnd(500,1500),c=mtRnd(200,900);return N(`Para la peregrinación, la parroquia juntó $${a} en septiembre y $${b} en octubre. Gastaron $${c} en el autobús. ¿Cuánto les queda?`,a+b-c,null,"Suma lo que juntaron y resta lo que gastaron.")}if(t===1){const p=mtRnd(12,48),k=mtRnd(3,9);return N(`Un libro de santos cuesta $${p}. ¿Cuánto cuestan ${k} libros?`,p*k,{t:"vert",a:p,b:k,op:"×",hide:1})}if(t===2){const b=mtRnd(3,9),q=mtRnd(4,12);return N(`Hay ${b*q} sillas para acomodar en ${b} filas iguales. ¿Cuántas van en cada fila?`,q)}if(t===3){const a=mtRnd(1000,5000),b=mtRnd(100,a-100);return N(`El cerro mide ${a} metros. ${a1} ya subió ${b} metros. ¿Cuántos le faltan?`,a-b)}const k=mtRnd(3,8),p=mtRnd(15,40),pay=pick([200,500].filter(x=>x>k*p));return N(`${a1} compró ${k} veladoras de $${p}. Pagó con $${pay}. ¿Cuánto le dieron de cambio?`,pay-k*p,null,"Primero multiplica y luego resta.")},
+zProps:()=>{const a=mtRnd(2,9),b=a<9?mtRnd(a+1,9):mtRnd(2,8),c=mtRnd(2,9),t=mtRnd(0,2);return t===0?C(`${a} × ${b} es igual a…`,[`${b} × ${a}`,`${a} + ${b}`,`${a} × ${a}`],null,"Propiedad conmutativa: el orden no cambia el producto."):t===1?N(`(${a} × ${b}) × ${c} = ?`,a*b*c,null,"Puedes agrupar como quieras: el resultado es el mismo."):N(`${a} × ${b} + ${a} × ${c} = ${a} × ?`,b+c,null,`${a} veces ${b} más ${a} veces ${c} es ${a} veces ${b+c}.`)},
+zX10:()=>{const n=mtRnd(2,99),k=pick([10,100,1000]);return N(`${n} × ${k} = ?`,n*k,null,`Multiplicar por ${k}: agrega ${String(k).length-1} cero${k>10?"s":""}.`)},
+zMul2:()=>{const a=mtRnd(12,99),b=mtRnd(2,9);return N(`${a} × ${b} = ?`,a*b,{t:"vert",a,b,op:"×",hide:1},`Multiplica ${a%10} × ${b} y lleva; luego ${Math.floor(a/10)} × ${b} y suma lo que llevas.`)},
+zMul3:()=>{const a=mtRnd(102,450),b=mtRnd(2,9);return N(`${a} × ${b} = ?`,a*b,{t:"vert",a,b,op:"×",hide:1},"Unidades, decenas y centenas, sin olvidar lo que llevas.")},
+zMProb:()=>{const a=mtRnd(3,9),b=mtRnd(6,25),T=pick([[`Un autobús lleva ${b} peregrinos. ¿Cuántos llevan ${a} autobuses?`],[`Cada caja tiene ${b} velas. ¿Cuántas hay en ${a} cajas?`],[`El salón tiene ${a} filas de ${b} mesabancos. ¿Cuántos mesabancos hay?`]]);return N(T[0],a*b,null,"Grupos iguales: multiplica.")},
+zArr:()=>{const r=mtRnd(3,9),c=mtRnd(3,9);return N("¿Cuántos cuadritos tiene el arreglo?",r*c,{t:"area",r,c},`${r} filas × ${c} columnas.`)},
+zDivG:()=>{const b=mtRnd(2,9),q=mtRnd(2,10);return N(`¿Cuántas veces cabe el ${b} en el ${b*q}?`,q,null,`Busca en la tabla del ${b}.`)},
+zDivT:()=>{const b=mtRnd(2,9),q=mtRnd(2,10);return Math.random()<.5?N(`${b*q} ÷ ${b} = ?`,q,null,`¿${b} por cuánto da ${b*q}?`):N(`Si ${b} × ${q} = ${b*q}, ¿cuánto es ${b*q} ÷ ${q}?`,b,null,"La división es la operación inversa de la multiplicación.")},
+zDivR:()=>{const b=mtRnd(2,9),q=mtRnd(2,9),r=mtRnd(1,b-1),t=b*q+r;return Math.random()<.5?N(`${t} ÷ ${b} = ? (cociente)`,q,null,`¿Cuántas veces cabe el ${b} en el ${t}? Lo que sobra es el residuo.`):N(`${t} ÷ ${b}: ¿cuánto sobra (residuo)?`,r,null,`${b} × ${q} = ${b*q}; ${t} − ${b*q} = ${r}.`)},
+zDivL:()=>{const b=mtRnd(2,9),q=mtRnd(11,99),t=b*q;return N(`${t} ÷ ${b} = ?`,q,null,`Divide primero las decenas: ${Math.floor(t/10)} ÷ ${b}; luego baja las unidades.`)},
+zDProb:()=>{const b=mtRnd(3,9),q=mtRnd(4,15),r=Math.random()<.4?mtRnd(1,b-1):0,t=b*q+r;return N(r?`Hay ${t} estampas para repartir entre ${b} niños en partes iguales. ¿Cuántas sobran?`:pick([`${t} peregrinos se acomodan en ${b} camiones iguales. ¿Cuántos van en cada camión?`,`Se reparten ${t} panes entre ${b} familias. ¿Cuántos le tocan a cada una?`]),r||q,null,"Es una división.")},
+zFrSet:()=>{const d=pick([2,3,4,5,6]),q=mtRnd(2,8),k=mtRnd(1,d-1),n=d*q;return N(`¿Cuánto es ${k}/${d} de ${n}?`,k*q,null,`Primero 1/${d} de ${n} = ${q}; luego por ${k}.`)},
+zFrEq:()=>{const d=pick([2,3,4]),k=mtRnd(1,d-1),m=pick([2,3]);return N(`${k}/${d} = ▢/${d*m}`,k*m,null,`Multiplica arriba y abajo por ${m}.`)},
+zFrCmp:()=>{const d=pick([3,4,5,6,8]),a=mtRnd(1,d-1);let b=mtRnd(1,d-1);while(b===a)b=mtRnd(1,d-1);return C(`¿Qué signo va? ${a}/${d} ▢ ${b}/${d}`,[a>b?">":"<",a>b?"<":">","="],null,"Con el mismo denominador, gana el numerador mayor.")},
+zFrLine:()=>{const d=pick([2,3,4,5,6,8]),k=mtRnd(1,d-1);return N(`En la recta del 0 al 1 partida en ${d} partes, la ranita está en la marca número ${k}. ¿Qué fracción es? Escribe el numerador (∎/${d}).`,k,null,"Cuenta las partes desde el 0.")},
+zFrAdd:()=>{const d=pick([4,5,6,8,10]),a=mtRnd(1,d-2),b=mtRnd(1,d-1-a),t=Math.random()<.5;return t?N(`${a}/${d} + ${b}/${d} = ▢/${d}`,a+b,null,"Suma los numeradores; el denominador se queda igual."):N(`${a+b}/${d} − ${b}/${d} = ▢/${d}`,a,null,"Resta los numeradores.")},
+zMixto:()=>{const d=pick([2,3,4]),e=mtRnd(1,3),k=mtRnd(1,d-1);return N(`${e} ${k}/${d} es igual a ▢/${d}`,e*d+k,null,`Cada entero tiene ${d}/${d}: ${e} × ${d} + ${k}.`)},
+zCent:()=>{const p=mtRnd(1,30),c=pick([50,25,75,10,20]),t=Math.random()<.5;return t?C(`¿Cómo se escribe ${p} pesos con ${c} centavos?`,[`$${p}.${c}`,`$${p}.0${Math.floor(c/10)}`,p===c?`$${p+1}.${c}`:`$${c}.${String(p).padStart(2,"0")}`],null,"Después del punto van los centavos, con dos cifras."):N(`¿Cuántos centavos son $${p}.${c}?`,p*100+c,null,"1 peso = 100 centavos.")},
+zLines:()=>G.yLines(),
+zAng:()=>G.yAng(),
+zTri:()=>{const Q=[["Tiene sus 3 lados iguales.","equilátero"],["Tiene 2 lados iguales.","isósceles"],["Tiene sus 3 lados diferentes.","escaleno"]],[q,a]=pick(Q);return C(`¿Cómo se llama el triángulo que… ${q.toLowerCase()}`,[a,...["equilátero","isósceles","escaleno"].filter(x=>x!==a)])},
+zQuad:()=>{const Q=[["4 lados iguales y 4 ángulos rectos","cuadrado"],["lados opuestos iguales y 4 ángulos rectos","rectángulo"],["4 lados iguales sin ángulos rectos","rombo"],["solo un par de lados paralelos","trapecio"]],[q,a]=pick(Q);return C(`¿Qué cuadrilátero tiene ${q}?`,[a,...["cuadrado","rectángulo","rombo","trapecio"].filter(x=>x!==a).slice(0,2)])},
+zPoly:()=>{const P=[["triángulo",3],["cuadrilátero",4],["pentágono",5],["hexágono",6],["heptágono",7],["octágono",8]],[n,k]=pick(P);return Math.random()<.5?N(`¿Cuántos lados tiene un ${n}?`,k):C(`¿Cómo se llama el polígono de ${k} lados?`,[n,...P.filter(x=>x[0]!==n).map(x=>x[0]).sort(()=>Math.random()-.5).slice(0,2)])},
+zCirc:()=>{const r=mtRnd(2,15),t=mtRnd(0,2);return t===0?N(`Si el radio de una circunferencia mide ${r} cm, ¿cuánto mide el diámetro?`,2*r,null,"El diámetro es el doble del radio."):t===1?N(`Si el diámetro mide ${2*r} cm, ¿cuánto mide el radio?`,r,null,"El radio es la mitad del diámetro."):C("El punto que está en medio de la circunferencia se llama…",["centro","radio","diámetro"])},
+zBody:()=>{const Q=[["¿Cuántas caras tiene un cubo?",6],["¿Cuántas aristas tiene un cubo?",12],["¿Cuántos vértices tiene un cubo?",8],["¿Cuántas caras tiene una pirámide de base cuadrada?",5],["¿Cuántos vértices tiene una pirámide de base cuadrada?",5],["¿Cuántas caras tiene un prisma triangular?",5]],[q,a]=pick(Q);return N(q,a,null,"Imagina el cuerpo y cuenta con cuidado.")},
+zCoord:()=>{const L="ABCDEF",c=mtRnd(0,5),r=mtRnd(1,6),it=pick(["⛪","🏫","🌳","🏥"]);return C(`En el plano, la casilla de ${it} está en la columna ${L[c]} y la fila ${r}. ¿Cómo se escribe?`,[`${L[c]}${r}`,`${L[(c+1)%6]}${r}`,`${L[c]}${r%6+1}`],null,"Primero la letra (columna) y luego el número (fila).")},
+zLen:()=>{const t=mtRnd(0,3);if(t===0){const k=mtRnd(1,9);return N(`¿Cuántos metros son ${k} kilómetros?`,1000*k,null,"1 km = 1000 m.")}if(t===1){const c=mtRnd(1,20);return N(`¿Cuántos milímetros son ${c} centímetros?`,10*c,null,"1 cm = 10 mm.")}if(t===2){const m=mtRnd(2,9);return N(`¿Cuántos centímetros son ${m} metros?`,100*m)}return C("¿Qué unidad usarías para medir la distancia de México a Puebla?",["kilómetros","centímetros","milímetros"])},
+zPerim:()=>{const t=mtRnd(0,2);if(t===0){const l=mtRnd(3,15);return N(`¿Cuál es el perímetro de un cuadrado de ${l} cm por lado?`,4*l,null,"4 lados iguales: 4 × lado.")}if(t===1){const a=mtRnd(3,12),b=mtRnd(3,12),c=mtRnd(3,12);return N(`Un triángulo mide ${a} cm, ${b} cm y ${c} cm por lado. ¿Cuál es su perímetro?`,a+b+c)}return G.perim()},
+zArea:()=>{const t=mtRnd(0,1);if(t){const l=mtRnd(2,9);return N(`¿Cuál es el área de un cuadrado de ${l} cm por lado (en cm²)?`,l*l,null,"Lado × lado.")}return G.area()},
+zMl:()=>{const t=mtRnd(0,2);return t===0?N(`¿Cuántos mililitros son ${mtRnd(1,5)} litros?`.replace(/(\d) litros/,(m,k)=>{this.k=+k;return m}),0):0},
+zCap:()=>{const t=mtRnd(0,2);if(t===0){const k=mtRnd(1,5);return N(`¿Cuántos mililitros son ${k} litros?`,1000*k,null,"1 L = 1000 ml.")}if(t===1)return N("¿Cuántos mililitros son medio litro?",500);const v=pick([250,500]);return N(`¿Cuántos vasos de ${v} ml se llenan con 2 litros?`,2000/v,null,`2 L = 2000 ml; 2000 ÷ ${v}.`)},
+zWt:()=>{const t=mtRnd(0,2);if(t===0)return G.grams();if(t===1)return N("¿Cuántos gramos son medio kilo?",500);const k=pick([250,500]);return N(`¿Cuántos paquetes de ${k} g forman 2 kg?`,2000/k,null,`2 kg = 2000 g.`)},
+zTime:()=>{const t=mtRnd(0,3);if(t===0){const h=mtRnd(1,5);return N(`¿Cuántos minutos hay en ${h} horas?`,60*h)}if(t===1)return N("¿Cuántos minutos son media hora?",30);if(t===2)return N("¿Cuántos segundos tiene un minuto?",60);return G.mins()},
+zYears:()=>{const t=mtRnd(0,3);return t===0?N("¿Cuántos años tiene una década?",10):t===1?N("¿Cuántos años tiene un siglo?",100):t===2?N("¿Cuántos días tiene un año (no bisiesto)?",365):C("¿En qué siglo estamos?",["XXI","XX","XIX"],null,"Del año 2001 al 2100 es el siglo XXI.")},
+zFreq:()=>{const R=[["Fútbol",mtRnd(4,15)],["Básquet",mtRnd(4,15)],["Cuerda",mtRnd(4,15)],["Ajedrez",mtRnd(4,15)]],t=mtRnd(0,2);if(t===0){const r=pick(R);return N(`¿Cuál es la frecuencia de «${r[0]}»?`,r[1],{t:"bars",rows:R},"La frecuencia es cuántas veces aparece.")}if(t===1)return N("¿Cuántos niños respondieron en total?",R.reduce((a,r)=>a+r[1],0),{t:"bars",rows:R});const s=[...R].sort((a,b)=>b[1]-a[1]);if(s[0][1]===s[1][1])s[0][1]++;return C("¿Cuál es la moda (la respuesta más frecuente)?",[s[0][0],s[1][0],s[2][0]],{t:"bars",rows:R})},
+zProbab:()=>{const r=mtRnd(1,9),v=mtRnd(1,9);return C(`En una bolsa hay ${r} canicas rojas y ${v} verdes. ¿Qué es más probable sacar?`,r===v?["Las dos igual","Roja","Verde"]:r>v?["Roja","Verde","Las dos igual"]:["Verde","Roja","Las dos igual"],{t:"emo",x:"🔴".repeat(r)+" "+"🟢".repeat(v)},"Hay más probabilidad de sacar el color que hay más.")},
+zMix3a:()=>G[pick(["zPV4","zExp4","zLine","zSer","zMul","zRom","cmp4","round"])](),
+zMix3b:()=>G[pick(["zAdd4","zSub4","zEst","zProb","zProps"])](),
+zMix3c:()=>G[pick(["mult69","multAll","zX10","zMul2","zMProb","zArr","zProps"])](),
+zMix3d:()=>G[pick(["zDivG","zDivT","zDivR","zDivL","zDProb","zFrSet"])](),
+zMix3e:()=>G[pick(["zFrSet","zFrEq","zFrCmp","zFrAdd","zMixto","zCent","fracOf"])](),
+zMix3f:()=>G[pick(["zLines","zAng","zTri","zQuad","zPoly","zCirc","zBody","zCoord"])](),
+zMix3g:()=>G[pick(["zLen","zPerim","zArea","zCap","zWt","zTime","zYears"])](),
+zMix3h:()=>G[pick(["zFreq","zProbab","xBars","xChance"])]()});
+delete G.zMult;delete G.zMl;
+/* ========= Matemáticas 1.º: lo que faltaba según el cuaderno Alfa 1 ========= */
+const MAT1A={
+m63:DL("m63","Muchos, pocos, nada y tantos como",[
+ ["Muchos y pocos","Donde hay <b>muchos</b>, el grupo se ve grande; donde hay <b>pocos</b>, se ve chico. Si no hay ninguno, hay <b>nada</b> (cero).",{t:"emo",x:"🐑🐑🐑🐑🐑🐑🐑🐑 · 🐄🐄 · 🫙"}],
+ ["Tantos como","Para saber si dos grupos tienen <b>tantos como</b> (la misma cantidad), haz parejas: un niño con una silla. Si a nadie le falta pareja, hay tantos como.",{t:"emo",x:"🧒🧒🧒🧒<br>🪑🪑🪑🪑"}],
+ ["Más que y menos que","Si al hacer parejas sobran niños, hay <b>más</b> niños que sillas. Si sobran sillas, hay <b>menos</b> niños que sillas.",{t:"two",a:6,b:4,s:"star"}]],
+ ["Todos tienen su lugar","En la Última Cena, Jesús preparó un lugar para cada apóstol. En el cielo también: «En la casa de mi Padre hay muchas moradas» (Jn 14, 2). ¡Hay lugar para todos!",{t:"emo",x:"🍞🍷 🪑🪑🪑🪑🪑🪑"}],
+ ["Las sillas de la fiesta","🪑","En tu fiesta hay 8 niños y solo 6 sillas.","¿Qué hacen?",[["Traemos 2 sillas más para que haya tantas sillas como niños",1,"¡Muy bien! Así nadie se queda de pie."],["Que los más chicos se queden parados",0,"Todos merecen un lugar."],["Que se vayan dos",0,"Mejor buscar más sillas."]]],
+ [["Haz <b>parejas</b> para comparar dos grupos.","Si nadie sobra: <b>tantos como</b>. Si sobran: ese grupo tiene <b>más</b>."],["🧒🧒🧒 = 🪑🪑🪑","🍎🍎🍎🍎 &gt; 🍐🍐","🫙 nada = 0"]],
+ ["Hay 5 platos y 3 cucharas. ¿Hay tantas cucharas como platos?",["Hago parejas: un plato con una cuchara.","Me quedan 2 platos sin cuchara."],"No: hay menos cucharas. Faltan 2."],
+ [[["yMuchos",5],["yTantos",4]],[["yTantos",5],["cmp",5,10]],[["yTantos",4],["xComp",4]]],[],"En la casa de mi Padre hay lugar para todos."),
+m69:DL("m69","Los números romanos",[
+ ["Los números de los romanos","Hace muchos siglos, los romanos escribían los números con letras: <b>I = 1</b>, <b>V = 5</b> y <b>X = 10</b>. ¡Todavía los usamos!",{t:"cards",x:[["I","1"],["V","5"],["X","10"]]}],
+ ["Juntar y quitar","Si las letras van juntas, se suman: II = 2, III = 3, VI = 6, XII = 12. Si una letra menor va <b>antes</b>, se resta: IV = 4, IX = 9.",{t:"syl",x:["I II III IV V","VI VII VIII IX X","XI XII"]}],
+ ["Practica con los romanos","Cambia el número y mira cómo se escribe en romano.",{t:"mtromano",max:12}],
+ ["¿Dónde los vemos?","En algunos relojes antiguos, en los capítulos de los libros, en los siglos (siglo XXI) y en los nombres de los Papas: Juan Pablo II, León XIV.",{t:"emo",x:"🕰️ XII · 📖 Cap. IV · ⛪ León XIV"}]],
+ ["Los Papas y sus números","Cuando un Papa elige el nombre de otro que ya existió, se le agrega un número romano. San Juan Pablo II fue el segundo Papa llamado Juan Pablo. ¡Recemos siempre por el Papa!",{t:"emo",x:"⛪ II · XIV"}],
+ ["El reloj del abuelo","🕰️","Tu abuelo tiene un reloj con números romanos y te pregunta qué hora es: la manecilla corta está en el IV.","¿Qué le dices?",[["Son las 4, porque IV es 4",1,"¡Muy bien! IV es 5 menos 1."],["Son las 6",0,"IV es 4: la I antes de la V resta."],["No sé leer ese reloj",0,"¡Sí puedes! I = 1, V = 5."]]],
+ [["I = 1 · V = 5 · X = 10","Juntas se suman: VII = 7.","Menor antes de mayor se resta: IV = 4, IX = 9."],["III = 3","VI = 6","IX = 9","XII = 12"]],
+ ["¿Qué número es VIII?",["V vale 5.","Después vienen tres I: 1 + 1 + 1 = 3.","5 + 3 = 8."],"VIII = 8."],
+ [[["yRoman",8,12]],[["yRoman",10,12]],[["yRoman",8,20]]],[],"Recemos siempre por el Papa."),
+m65:DL("m65","La tabla de sumar",[
+ ["Una tabla con todas las sumas","La tabla de sumar tiene los números del 0 al 10 arriba y a un lado. Donde se cruzan una fila y una columna está su suma.",{t:"mttabla",op:"+",n:10}],
+ ["Patrones de la tabla","Si bajas una fila, la suma crece 1. En la diagonal están los dobles: 1 + 1, 2 + 2, 3 + 3… ¡Y la tabla es igual de los dos lados, porque 3 + 5 = 5 + 3!",{t:"syl",x:["2 + 2 = 4","3 + 3 = 6","4 + 4 = 8"]}]],
+ ["Dios sostiene todo en orden","En la tabla de sumar todo tiene su lugar y nada falla. Así es el amor de Dios: fiel, ordenado y seguro. «El Señor es fiel en todas sus palabras» (Sal 145, 13).",{t:"emo",x:"➕ ✨"}],
+ ["La tarea con tu hermano","✏️","Tu hermano tiene que aprender las sumas y se aburre.","¿Qué haces?",[["Jugamos a buscar sumas en la tabla y le hago retos",1,"¡Muy bien! Aprender jugando es más fácil."],["Le digo las respuestas",0,"Así no aprende."],["Lo dejo solo",0,"Puedes ayudarlo con paciencia."]]],
+ [["Busca la <b>fila</b> de un número y la <b>columna</b> del otro.","Donde se cruzan está la suma.","En la diagonal están los dobles."],["3 + 4 = 7","5 + 5 = 10","0 + 8 = 8"]],
+ ["¿Qué número va donde se cruzan la fila del 6 y la columna del 3?",["Busco la fila del 6.","Me muevo hasta la columna del 3.","Ahí está 6 + 3."],"Es el 9."],
+ [[["yTablaS",8]],[["yTablaS",6],["add20",4]],[["yTablaS",4],["xMiss",4,20]]],[],"El Señor es fiel."),
+m64:DL("m64","Grupos iguales",[
+ ["Grupos con lo mismo","Cuando varios grupos tienen <b>la misma cantidad</b>, decimos que son <b>grupos iguales</b>: 3 platos con 2 tamales cada uno.",{t:"emo",x:"🫔🫔 | 🫔🫔 | 🫔🫔"}],
+ ["Contar grupos iguales","Para saber cuántos hay en total, cuenta de 2 en 2, de 5 en 5… según cuántos tenga cada grupo: 2, 4, 6. ¡Son 6 tamales!",{t:"seq",x:[2,4,6]}],
+ ["Formar grupos","Con 12 galletas puedes hacer 2 grupos de 6, 3 grupos de 4, 4 grupos de 3 o 6 grupos de 2.",{t:"mtrepartir",n:12,k:3}]],
+ ["Los discípulos de dos en dos","Jesús envió a sus discípulos «de dos en dos» a anunciar el Evangelio (Lc 10, 1). Así se ayudaban y se acompañaban en el camino.",{t:"emo",x:"🚶🚶 🚶🚶 🚶🚶"}],
+ ["Los equipos de limpieza","people","En el catecismo hay 12 niños y la catequista quiere 3 equipos iguales para limpiar el salón.","¿Cuántos niños van en cada equipo?",[["4 niños en cada equipo",1,"¡Muy bien! 4 + 4 + 4 = 12."],["5, 5 y 2",0,"Así no son iguales."],["Todos en uno",0,"Necesitan 3 equipos iguales."]]],
+ [["<b>Grupos iguales</b>: todos tienen la misma cantidad.","Para el total, cuenta de tantos en tantos."],["3 grupos de 2 = 6","2 grupos de 5 = 10","4 grupos de 3 = 12"]],
+ ["Hay 4 canastas con 5 panes cada una. ¿Cuántos panes hay?",["Cada canasta tiene 5.","Cuento de 5 en 5: 5, 10, 15, 20."],"Hay 20 panes."],
+ [[["yGrupos",8]],[["yGrupos",10]],[["yGrupos",6],["xMProb",3]]],[],"Jesús los envió de dos en dos."),
+m68:DL("m68","Repartir en partes iguales",[
+ ["Repartir es justo","<b>Repartir en partes iguales</b> es dar a cada uno lo mismo. Ve dando uno a cada quien, por turnos, hasta que se acaben.",{t:"mtrepartir",n:9,k:3}],
+ ["¿Y si sobra?","A veces sobra algo que no alcanza para todos: 7 dulces entre 3 niños, a cada uno 2 y sobra 1. ¡Ese puede ser para compartir con alguien más!",{t:"emo",x:"🍬🍬 | 🍬🍬 | 🍬🍬 · sobra 🍬"}]],
+ ["La primera comunidad","Los primeros cristianos «lo tenían todo en común» y se repartía a cada uno según lo que necesitaba (Hch 4, 35). Nadie pasaba necesidad porque compartían.",{t:"emo",x:"🍞 ➗ 👨‍👩‍👧‍👦"}],
+ ["Las tortas de la kermés","bread","Sobraron 10 tortas de la kermés y hay 5 familias que ayudaron.","¿Qué es lo justo?",[["Darle 2 tortas a cada familia",1,"¡Muy bien! Repartir en partes iguales es justo."],["Que se las lleve todas el que llegue primero",0,"Así no es justo."],["Tirarlas",0,"¡Nunca se desperdicia la comida!"]]],
+ [["Repartir: dar <b>uno a uno</b> por turnos hasta que se acaben.","Si sobra, es lo que no alcanza para todos."],["6 entre 2 = 3","8 entre 4 = 2","7 entre 3 = 2, sobra 1"]],
+ ["Reparte 12 estampas entre 4 niños.",["Doy una a cada niño: ya repartí 4.","Otra vuelta: 8. Otra: 12.","Dí 3 vueltas."],"A cada niño le tocan 3 estampas."],
+ [[["share",8]],[["share",6],["half",4]],[["share",5],["yGrupos",3]]],[],"Los primeros cristianos compartían todo."),
+m70:DL("m70","Medios y cuartos: las fracciones",[
+ ["Partes iguales de un entero","Si partes una tortilla en <b>2 partes iguales</b>, cada parte es <b>un medio</b> (½). Si la partes en <b>4 partes iguales</b>, cada parte es <b>un cuarto</b> (¼).",{t:"mtfrac",n:[2,4]}],
+ ["¡Tienen que ser iguales!","Si las partes no son del mismo tamaño, no son medios ni cuartos. Para que sea justo, hay que partir bien.",{t:"cards",x:[["◐","2 partes iguales: medios"],["◔","4 partes iguales: cuartos"]]}]],
+ ["Partir el pan","Jesús, en la Última Cena, tomó el pan, lo partió y se lo dio a sus discípulos. En cada Misa el sacerdote parte la Hostia: ¡Jesús se da entero en cada pedacito!",{t:"emo",x:"🍞 ✝️"}],
+ ["La pizza en la cena","🍕","Hay una pizza para ti y tus 3 hermanos. Tu hermano quiere partirla como sea.","¿Qué le dices?",[["Que la partamos en 4 partes iguales: un cuarto para cada uno",1,"¡Muy bien! Así es justo."],["Que me dé la más grande",0,"Lo justo es repartir igual."],["Que se la coma él",0,"Todos merecen su parte."]]],
+ [["Un <b>medio</b> (½): una de 2 partes iguales.","Un <b>cuarto</b> (¼): una de 4 partes iguales.","2 medios o 4 cuartos forman <b>un entero</b>."],["½ + ½ = 1","4 cuartos = 1","½ = 2 cuartos"]],
+ ["Mamá partió un pastel en 4 partes iguales y tú te comiste una. ¿Qué parte te comiste?",["El pastel tiene 4 partes iguales.","Me comí 1 de esas 4."],"Me comí un cuarto (¼)."],
+ [[["yFrac1",8]],[["yFrac1",5],["frac",4]],[["frac",5],["half",3]]],[],"Jesús partió el pan."),
+m71:DL("m71","Juntar fracciones",[
+ ["Juntar partes iguales","Si tienes un cuarto de pizza y te dan otro cuarto, tienes <b>dos cuartos</b>. Solo cuentas las partes: 1 + 1 = 2 cuartos.",{t:"pie",n:4,k:2}],
+ ["Dos cuartos son un medio","Fíjate: 2 cuartos ocupan lo mismo que un medio. Y 4 cuartos forman la pizza entera.",{t:"mtfracrecta",d:[2,4]}]],
+ ["Juntos estamos completos","Cada uno de nosotros es como una parte de un entero: en la familia, en la parroquia, en la Iglesia. ¡Juntos formamos el Cuerpo de Cristo (1 Co 12, 27)!",{t:"emo",x:"¼ + ¼ + ¼ + ¼ = ❤️"}],
+ ["La gelatina","🍮","Tu mamá partió una gelatina en 4 partes. Tú te comiste una y tu hermano otra.","¿Qué parte se comieron entre los dos?",[["Dos cuartos, o sea la mitad",1,"¡Muy bien! ¼ + ¼ = 2/4 = ½."],["Toda la gelatina",0,"Quedan 2 partes."],["Un cuarto",0,"Fueron dos partes."]]],
+ [["Si las partes son del mismo tamaño, solo <b>cuenta cuántas</b> juntas.","2 cuartos = 1 medio. 4 cuartos = 1 entero."],["¼ + ¼ = 2/4","½ + ½ = 1","¼ + ¼ + ¼ = 3/4"]],
+ ["¿Cuánto es ¼ + ¼ + ¼?",["Los tres son cuartos: del mismo tamaño.","Cuento las partes: 1, 2, 3."],"Son 3 cuartos (¾)."],
+ [[["yFracAdd1",8]],[["yFracAdd1",6],["yFrac1",4]],[["yFracAdd1",4],["frac",4]]],[],"Juntos formamos el Cuerpo de Cristo."),
+m67:DL("m67","La centena: llegamos al 100",[
+ ["Diez decenas","Si juntas <b>10 decenas</b> (10 barras de 10), formas <b>una centena</b>: ¡el 100! Se dibuja como un cuadrado grande.",{t:"mtbloques",max:100}],
+ ["Contar hasta el 100","10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Y de uno en uno: …97, 98, 99, 100.",{t:"mtcien"}],
+ ["¿Cuánto falta para el 100?","Al 70 le faltan 30 para el 100 (3 decenas). Al 96 le faltan 4.",{t:"seq",x:[70,80,90,100]}]],
+ ["El ciento por uno","Jesús prometió que quien deja algo por amor a Él «recibirá cien veces más» (Mc 10, 30). ¡Dios es generoso: devuelve centenas por cada unidad que le damos!",{t:"big",x:"1 → 100"}],
+ ["El álbum completo","📒","Tu álbum de santos tiene 100 estampas y ya llevas 90.","¿Cuántas te faltan?",[["10 estampas: una decena",1,"¡Muy bien! 90 + 10 = 100."],["1",0,"Del 90 al 100 hay una decena."],["90",0,"Esas son las que ya tienes."]]],
+ [["<b>10 unidades = 1 decena.</b>","<b>10 decenas = 1 centena = 100.</b>"],["10 × 10 = 100","90 + 10 = 100","99 + 1 = 100"]],
+ ["¿Cuánto le falta al 65 para llegar a 100?",["Del 65 al 70 faltan 5.","Del 70 al 100 faltan 3 decenas: 30.","5 + 30 = 35."],"Le faltan 35."],
+ [[["yCentena",8]],[["yCentena",6],["tens",4]],[["yCentena",6],["xTensOp",3]]],[],"Dios devuelve el ciento por uno."),
+m66:DL("m66","El ábaco: sumar y restar",[
+ ["¿Qué es un ábaco?","El ábaco es una herramienta muy antigua para contar. Cada varilla es un lugar: la de la derecha son las <b>unidades</b> y la de al lado, las <b>decenas</b>.",{t:"mtabaco",k:2}],
+ ["Sumar con el ábaco","Para 23 + 14: pon 2 cuentas en las decenas y 3 en las unidades. Agrega 1 decena y 4 unidades. ¡Quedan 3 decenas y 7 unidades: 37!",{t:"steps",x:["23: D 2 · U 3","+14: D +1 · U +4","Resultado: D 3 · U 7 = 37"]}],
+ ["Restar con el ábaco","Para 48 − 15: quita 1 decena y 5 unidades. Quedan 3 decenas y 3 unidades: <b>33</b>.",{t:"steps",x:["48: D 4 · U 8","−15: D −1 · U −5","Resultado: 33"]}]],
+ ["Cuentas que rezan","Así como el ábaco tiene cuentas, el rosario tiene cuentas para rezar. Cada cuenta es una Avemaría: ¡cada una vale mucho para la Virgen!",{t:"emo",x:"🧮 📿"}],
+ ["El ábaco del abuelo","🧮","Tu abuelo te enseña a usar su ábaco, pero tú prefieres la calculadora del celular.","¿Qué haces?",[["Aprendo a usarlo: entrena mi mente y paso tiempo con mi abuelo",1,"¡Muy bien! Tu mente es la mejor calculadora."],["Le digo que es anticuado",0,"Respeta lo que te enseña con cariño."],["Me voy a jugar",0,"Aprovecha el tiempo con él."]]],
+ [["La varilla de la derecha: <b>unidades</b>. La siguiente: <b>decenas</b>.","Para sumar, agrega cuentas; para restar, quita."],["3 D y 4 U = 34","34 + 12 = 46","46 − 21 = 25"]],
+ ["Usa el ábaco: 51 + 26",["51: 5 cuentas en D y 1 en U.","Agrego 2 en D y 6 en U.","Quedan 7 en D y 7 en U."],"51 + 26 = 77."],
+ [[["yAbaco",8,2]],[["yAbaco",4,2],["add100",4]],[["add100",4],["sub100",4]]],[],"Cada cuenta del rosario vale mucho."),
+m75:DL("m75","Caminos largos y cortos",[
+ ["Comparar caminos","Para ir de un lugar a otro puede haber varios caminos. El más <b>corto</b> tiene menos cuadras o menos pasos.",{t:"lam",id:"comunidad"}],
+ ["Contar las cuadras","Si un camino tiene 4 cuadras y otro 6, el de 4 es más corto: llegas más rápido.",{t:"emo",x:"🔴 ▪▪▪▪ · 🔵 ▪▪▪▪▪▪"}]],
+ ["El camino estrecho","Jesús dijo: «Entren por la puerta estrecha» (Mt 7, 13). El camino del bien a veces no es el más fácil, pero es el que lleva a la vida verdadera.",{t:"emo",x:"🚪 ✝️ 🌄"}],
+ ["El atajo peligroso","map","Para llegar a la escuela, tu amigo quiere cortar camino por un terreno baldío peligroso.","¿Qué haces?",[["Seguimos por el camino seguro, aunque sea un poco más largo",1,"¡Muy bien! La seguridad es primero."],["Lo sigo por el atajo",0,"El camino más corto no siempre es el mejor."],["Voy solo por el atajo",0,"Nunca te vayas solo por lugares peligrosos."]]],
+ [["El camino más <b>corto</b> tiene menos cuadras o pasos.","Cuenta y compara."],["4 cuadras &lt; 6 cuadras","8 pasos &gt; 5 pasos"]],
+ ["Por el camino rojo hay 7 cuadras y por el azul 5. ¿Cuántas cuadras más tiene el rojo?",["Comparo: 7 y 5.","7 − 5 = 2."],"El rojo tiene 2 cuadras más."],
+ [[["yTray",8]],[["yTray",6],["xUbi",4]],[["yTray",5],["xComp",3]]],[],"Entren por la puerta estrecha."),
+m72:DL("m72","Grande, pequeño, grueso y delgado",[
+ ["Comparar tamaños","Las cosas pueden ser <b>grandes</b> o <b>pequeñas</b>, <b>gruesas</b> o <b>delgadas</b>. Un tronco es grueso; una ramita, delgada.",{t:"emo",x:"🐘 🐜 · 🪵 🌿"}],
+ ["Ordenar de pequeño a grande","Podemos poner las cosas en orden: de la más pequeña a la más grande, o al revés.",{t:"emo",x:"🐜 → 🐭 → 🐱 → 🐘"}]],
+ ["El grano de mostaza","Jesús dijo que el Reino de Dios es como un grano de mostaza: la semilla más pequeña, que crece y se hace un árbol grande donde anidan los pájaros (Mt 13, 31).",{t:"photo",src:WM(IM.mostaza[0],800),alt:"Planta de mostaza",cap:"",credit:IM.mostaza[1],art:false}],
+ ["El más chiquito del equipo","people","En el equipo de fútbol no quieren al niño más pequeño porque dicen que no sirve.","¿Qué piensas?",[["Que ser pequeño no importa: todos valen y tienen sus talentos",1,"¡Muy bien! Como el grano de mostaza, lo pequeño puede ser grande."],["Que tienen razón",0,"El tamaño no dice cuánto vale alguien."],["Que juegue solo",0,"Inclúyelo en el juego."]]],
+ [["Grande ↔ pequeño · Grueso ↔ delgado","Para ordenar, busca primero el más pequeño."],["🐜 &lt; 🐭 &lt; 🐘","🌿 delgado · 🪵 grueso"]],
+ ["Ordena de pequeño a grande: 🍉 🍇 🍎",["El más pequeño es la uva.","Luego la manzana.","La sandía es la más grande."],"🍇 → 🍎 → 🍉"],
+ [[["yTam",8]],[["yTam",4],["yTamOrd",4]],[["yTamOrd",6],["xPeso",3]]],[],"Lo pequeño puede crecer y ser grande."),
+m76:DL("m76","El metro y el decímetro",[
+ ["Una medida más grande","Para medir cosas grandes, como un salón, usamos el <b>metro</b> (m). Un metro tiene <b>100 centímetros</b>. Es como un paso grande de un adulto.",{t:"emo",x:"📏 1 m = 100 cm"}],
+ ["El decímetro","Un <b>decímetro</b> (dm) son 10 centímetros: como el ancho de tu mano. Un metro tiene 10 decímetros.",{t:"syl",x:["1 m = 10 dm","1 dm = 10 cm","1 m = 100 cm"]}],
+ ["¿Con qué mido?","Con centímetros mido un lápiz; con metros, una cancha; con kilómetros, el camino a otra ciudad.",{t:"cards",x:[["✏️","centímetros"],["🏫","metros"],["🛣️","kilómetros"]]}]],
+ ["Las medidas del Templo","El rey Salomón construyó un gran Templo para Dios con medidas muy cuidadas (1 Re 6). ¡Hacer las cosas bien medidas también es una forma de honrar a Dios!",{t:"emo",x:"🏛️ 📐"}],
+ ["El listón de la procesión","ruler","Para la procesión necesitan 2 metros de listón y la señora de la mercería pregunta cuántos centímetros son.","¿Qué le dices?",[["200 centímetros, porque cada metro tiene 100",1,"¡Muy bien!"],["2 centímetros",0,"Sería un listón diminuto."],["20 centímetros",0,"Un metro tiene 100 cm."]]],
+ [["<b>1 metro = 100 centímetros</b>","<b>1 metro = 10 decímetros</b> · <b>1 decímetro = 10 cm</b>"],["2 m = 200 cm","1 dm = 10 cm","5 dm = 50 cm"]],
+ ["¿Cuántos centímetros son 3 decímetros?",["Cada decímetro tiene 10 cm.","3 decímetros: 10 + 10 + 10."],"30 centímetros."],
+ [[["yMetro",8]],[["yMetro",5],["yConv",5]],[["yConv",8]]],[],"Hacer las cosas bien honra a Dios."),
+m74:DL("m74","¿Qué cubre más? Las superficies",[
+ ["La superficie","La <b>superficie</b> es la parte de afuera que podemos tocar. Una hoja es plana; una pelota es curva.",{t:"emo",x:"📄 plana · ⚽ curva"}],
+ ["Comparar superficies","Para saber qué cubre más, cuenta cuántos cuadritos caben encima: el que tiene más cuadritos cubre más.",{t:"mtarea"}]],
+ ["Cubrir con amor","«El amor cubre multitud de pecados» (1 Pe 4, 8). Como un mantel grande cubre toda la mesa, el amor y el perdón cubren las faltas de los demás.",{t:"emo",x:"❤️ 🛏️"}],
+ ["El mantel del altar","⛪","Para el altar de la Virgen hay un mantel chico y uno grande.","¿Cuál usas para cubrir toda la mesa?",[["El grande, porque cubre más superficie",1,"¡Muy bien!"],["El chico",0,"No alcanzaría a cubrir la mesa."],["Ninguno",0,"El altar se ve más bonito con mantel."]]],
+ [["La <b>superficie</b> es lo de afuera.","Cubre más el que tiene <b>más cuadritos</b>."],["6 cuadritos &gt; 4 cuadritos","📄 plana · ⚽ curva"]],
+ ["Una estampa cubre 6 cuadritos y otra 9. ¿Cuál cubre más?",["Comparo 6 y 9.","9 es mayor."],"La de 9 cuadritos cubre más."],
+ [[["ySuperf",8]],[["ySuperf",5],["area",4]],[["area",6],["ySuperf",2]]],[],"El amor cubre todo."),
+m73:DL("m73","Grecas y mosaicos",[
+ ["¿Qué es una greca?","Una <b>greca</b> es una franja con un dibujo que se repite. En Mitla, Oaxaca, los zapotecas hicieron grecas de piedra hermosísimas.",{t:"mtgreca"}],
+ ["Mosaicos","Un <b>mosaico</b> cubre una superficie con figuras que encajan sin dejar huecos, como los azulejos de la cocina o el piso de muchas iglesias.",{t:"emo",x:"🟦🟨🟦🟨<br>🟨🟦🟨🟦"}],
+ ["Copia en el geoplano","Copia la figura tocando los puntos.",{t:"mtgeo"}]],
+ ["Los mosaicos de las iglesias","En las iglesias antiguas hay mosaicos hechos con miles de piedritas de colores que forman imágenes de Jesús, la Virgen y los santos. ¡Cada piedrita pequeña ayuda a formar algo hermoso!",{t:"photo",src:WM(IM.pantocrator[0],800),alt:"Mosaico de Cristo",cap:"",credit:IM.pantocrator[1],art:true}],
+ ["El papel picado de la fiesta","🎉","Para la fiesta del santo patrono están haciendo un adorno con un dibujo que se repite.","¿Cómo te aseguras de que quede bien?",[["Repito siempre el mismo dibujo, en el mismo orden",1,"¡Muy bien! Así es una greca."],["Pongo lo que sea",0,"Una greca repite el dibujo."],["No ayudo",0,"¡Tu ayuda es valiosa!"]]],
+ [["Una <b>greca</b> repite un dibujo en una franja.","Un <b>mosaico</b> cubre todo sin huecos."],["🔺🔻🔺🔻","🟦🟨🟦🟨"]],
+ ["¿Qué sigue en la greca? ◢◣◢◣◢ …",["El dibujo que se repite es ◢◣.","Ya va ◢; sigue ◣."],"Sigue ◣."],
+ [[["xPat",8]],[["xPat",6],["shape",4]],[["xPat",4],["xSym",4]]],[],"Cada piedrita forma algo hermoso.")};
+(function(){const mat=SUBJ.find(s=>s.id==="mat");if(!mat)return;const ins=(ui,after,ids)=>{const u=mat.units[ui];if(!u)return;let k=after?u.ls.findIndex(l=>l.id===after):-1;ids.forEach(id=>{const l=MAT1A[id];if(!l)return;u.ls.splice(++k,0,l)})};
+ ins(0,null,["m63"]);ins(0,"m18",["m69"]);
+ ins(1,"m7",["m65"]);ins(1,"m53",["m64","m68","m70","m71"]);
+ ins(2,"m10",["m67"]);ins(2,"m43",["m66"]);
+ ins(3,"m31",["m75"]);ins(3,"m58",["m73"]);ins(3,"m12",["m72"]);ins(3,"m55",["m76"]);ins(3,"m34",["m74"]);})();
+/* ========= Matemáticas 2.º a profundidad (según Alfa 2 y SEP) ========= */
+const MAT2N={
+/* ---- Unidad 1: números hasta el 1000 ---- */
+"2m17":DL("2m17","Igualdad y desigualdad",[
+ ["El signo igual","El signo <b>=</b> dice que dos cosas valen lo mismo: 8 + 4 = 12 y también 8 + 4 = 10 + 2.",{t:"big",x:"8 + 4 = 10 + 2"}],
+ ["El signo diferente","Si no valen lo mismo, usamos <b>≠</b> (diferente): 7 + 5 ≠ 13. Y para comparar usamos &gt; (mayor que) y &lt; (menor que).",{t:"cards",x:[["=","igual"],["≠","diferente"],["&gt;","mayor que"],["&lt;","menor que"]]}],
+ ["La balanza","Juega a dejar la balanza derecha.",{t:"mtbalanza"}]],
+ ["Todos iguales ante Dios","Para Dios todos sus hijos valen lo mismo: ricos y pobres, grandes y pequeños. «Ya no hay judío ni griego… todos ustedes son uno en Cristo Jesús» (Gál 3, 28).",{t:"big",x:"👦 = 👧 = 👴 = 👶"}],
+ ["El reparto de la merienda","bread","Tu mamá le dio 5 galletas a tu hermano y 3 a ti, y dice que los dos tienen lo mismo.","¿Qué haces?",[["Le explico con respeto que 5 ≠ 3, y pedimos repartir parejo",1,"¡Muy bien! Decir la verdad con respeto es justo."],["Le grito que es injusta",0,"Se puede decir con respeto."],["Le quito galletas a mi hermano",0,"Mejor pedir ayuda a mamá."]]],
+ [["<b>=</b> los dos lados valen lo mismo.","<b>≠</b> son diferentes. <b>&gt;</b> mayor que, <b>&lt;</b> menor que."],["9 + 6 = 10 + 5","7 + 5 ≠ 13","25 &gt; 19"]],
+ ["¿Es verdad que 12 + 9 = 10 + 11?",["Lado izquierdo: 12 + 9 = 21.","Lado derecho: 10 + 11 = 21.","Los dos valen 21."],"Sí, es verdad: los dos lados valen lo mismo."],
+ [[["yEq",5],["yNeq",4]],[["yEq",6],["cmpSym",4]],[["yEq",4],["yMiss100",4]]],[],"Todos somos uno en Cristo."),
+"2m18":DL("2m18","La recta numérica hasta el 1000",[
+ ["Rectas con saltos grandes","En una recta podemos contar de 10 en 10 o de 100 en 100. Cada rayita vale lo mismo.",{t:"mline",a:0,st:100,m:-1,all:1}],
+ ["Ubicar un número","Para ubicar 350, busca entre 300 y 400: está justo a la mitad.",{t:"mline",a:300,st:10,m:-1,all:0}]],
+ ["Paso a paso hacia la santidad","Los santos no se hicieron santos de un salto: avanzaron poco a poco, como en la recta, con pequeños actos de amor cada día.",{t:"emo",x:"👣 👣 👣 ⭐"}],
+ ["El maratón de la parroquia","🏃","En la carrera de la parroquia hay marcas cada 100 metros hasta el 1000. Tu primo se cansó en el 700.","¿Qué le dices?",[["¡Ánimo! Solo faltan 3 marcas, 300 metros",1,"¡Muy bien! Animar es amar."],["Que se rinda",0,"Lo importante es terminar."],["Nada",0,"Una palabra de ánimo ayuda."]]],
+ [["Mira de cuánto en cuánto van las rayitas.","Cuenta desde el número de la orilla."],["0, 100, 200, 300…","250 está entre 200 y 300"]],
+ ["En una recta que va de 100 en 100, la flecha está 4 rayitas después del 300. ¿Qué número es?",["Cada rayita vale 100.","Desde 300: 400, 500, 600, 700."],"Es el 700."],
+ [[["yLine1000",8]],[["yLine1000",10]],[["yLine1000",6],["yNext1000",4]]],[],"Avanzar poco a poco."),
+"2m19":DL("2m19","Valor posicional: centenas, decenas y unidades",[
+ ["El lugar cambia el valor","En el 555 hay tres cincos, pero no valen lo mismo: el de las <b>centenas</b> vale 500, el de las <b>decenas</b> 50 y el de las <b>unidades</b> 5.",{t:"cards",x:[["5__","500"],["_5_","50"],["__5","5"]]}],
+ ["Con el ábaco","Forma números de tres cifras en el ábaco.",{t:"mtabaco",k:3}]],
+ ["Cada uno en su lugar","Dios le dio a cada uno un lugar en su plan: a unos como padres, a otros como sacerdotes, maestros, médicos. ¡Tu lugar en el plan de Dios es muy valioso!",{t:"emo",x:"👨‍👩‍👧 ⛪ 🏫 🏥"}],
+ ["El precio equivocado","🏷️","En la tienda una etiqueta dice $158 pero la cajera cobra $518.","¿Qué haces?",[["Aviso con respeto: las cifras están cambiadas de lugar",1,"¡Muy bien! El lugar de cada cifra cambia mucho el valor."],["Pago sin decir nada",0,"Avisar evita un error."],["Me enojo",0,"Se corrige con amabilidad."]]],
+ [["Cada cifra vale según su <b>lugar</b>.","C × 100 · D × 10 · U × 1"],["347: 3 C, 4 D, 7 U","el 4 vale 40","el 3 vale 300"]],
+ ["¿Cuánto vale el 6 en el 462?",["El 6 está en el lugar de las decenas.","Las decenas valen 10 cada una: 6 × 10."],"Vale 60."],
+ [[["pvd",4],["pv3",4]],[["yPV3",8]],[["yPV3",5],["pvw",4]]],[],"Tu lugar en el plan de Dios."),
+"2m20":DL("2m20","Descomponer números hasta el 1000",[
+ ["Notación desarrollada","Descomponer es escribir un número como suma de lo que vale cada cifra: 547 = <b>500 + 40 + 7</b>.",{t:"steps",x:["5 centenas = 500","4 decenas = 40","7 unidades = 7","547 = 500 + 40 + 7"]}],
+ ["Con ceros","Si un lugar está vacío, ponemos 0: 305 = 300 + 0 + 5 = 300 + 5. ¡El cero guarda el lugar!",{t:"big",x:"305 = 300 + 5"}]],
+ ["Lo pequeño cuenta","Así como el cero «guarda el lugar», las personas humildes que nadie ve también son importantes. Dios ve lo que hacemos en lo secreto (Mt 6, 4).",{t:"emo",x:"0 ❤️"}],
+ ["Contar la colecta","coin","En la colecta hay 2 billetes de $100, 3 monedas de $10 y 8 de $1.","¿Cuánto hay?",[["$238: 200 + 30 + 8",1,"¡Muy bien! Descompusiste el dinero."],["$13",0,"Cada billete y moneda vale distinto."],["$832",0,"Cuidado con el lugar de cada cifra."]]],
+ [["Número = centenas + decenas + unidades.","El <b>0</b> guarda un lugar vacío."],["547 = 500 + 40 + 7","608 = 600 + 8","290 = 200 + 90"]],
+ ["Descompón el 739.",["7 centenas: 700.","3 decenas: 30.","9 unidades: 9."],"739 = 700 + 30 + 9."],
+ [[["yExp3",8]],[["yExp3",6],["pvw",4]],[["yExp3",5],["yPV3",4]]],[],"Dios ve lo que haces en lo secreto."),
+"2m21":DL("2m21","Antecesor y sucesor hasta el 1000",[
+ ["Antes y después","El sucesor del 456 es 457; su antecesor, 455.",{t:"seq",x:[455,456,457]}],
+ ["¡Cuidado con los cambios!","El sucesor del 299 es el <b>300</b>; el antecesor del 500 es el <b>499</b>. Cuando cambian las decenas y las centenas hay que fijarse bien.",{t:"syl",x:["299 → 300","500 → 499","609 → 610"]}]],
+ ["Generaciones de fe","Antes de nosotros estuvieron los abuelos y bisabuelos que nos pasaron la fe; después de nosotros vendrán nuestros hijos. ¡Somos un eslabón en una cadena de amor!",{t:"emo",x:"👵 → 👩 → 🧒 → 👶"}],
+ ["El turno en la fila","people","En la fila del banco te tocó el turno 300 y van en el 298.","¿Cuántos faltan antes que tú?",[["Solo el 299",1,"¡Muy bien! El antecesor del 300 es el 299."],["Cien",0,"Fíjate: 298, 299, 300."],["Ninguno",0,"Falta uno."]]],
+ [["<b>Sucesor</b>: +1. <b>Antecesor</b>: −1.","Fíjate cuando cambia de decena o de centena."],["399 → 400","700 → 699","549 → 550"]],
+ ["¿Cuál es el antecesor del 800?",["Le resto 1 al 800.","No hay unidades ni decenas: bajo a 7 centenas, 9 decenas y 9 unidades."],"Es el 799."],
+ [[["yNext1000",8]],[["yNext1000",10]],[["yNext1000",6],["seq3",4]]],[],"Somos una cadena de amor."),
+"2m22":DL("2m22","Series numéricas",[
+ ["Series que crecen","Una serie sigue una regla: 5, 10, 15, 20 (+5); 100, 200, 300 (+100); 7, 10, 13, 16 (+3).",{t:"seq",x:[7,10,13,16,19]}],
+ ["Series que bajan","También hay series hacia atrás: 90, 80, 70 (−10); 500, 450, 400 (−50).",{t:"seq",x:[500,450,400,350]}],
+ ["Completa series","Elige la regla y completa.",{t:"mtserie",st:"2,5,10",back:1}]],
+ ["Los días de la Cuaresma","La Cuaresma dura 40 días. Si cada semana hacemos un pequeño sacrificio, al llegar a la Pascua habremos hecho una serie de buenas obras: ¡1, 2, 3, 4, 5, 6 semanas de amor!",{t:"emo",x:"🟣 40 días → ✝️ Pascua"}],
+ ["La alcancía para las misiones","coin","Cada semana guardas $5 para las misiones.","¿Cuánto tendrás en 8 semanas?",[["$40: 5, 10, 15, 20, 25, 30, 35, 40",1,"¡Muy bien!"],["$13",0,"Cuenta de 5 en 5."],["$8",0,"Cada semana son $5."]]],
+ [["Busca la <b>regla</b>: ¿cuánto cambia cada vez?","Si crece, suma; si baja, resta."],["4, 8, 12, 16 → +4","300, 250, 200 → −50"]],
+ ["Completa: 120, 140, 160, ▢, 200",["De 120 a 140 hay 20. De 140 a 160, también 20.","La regla es +20.","160 + 20 = 180."],"Falta el 180."],
+ [[["ySer2",8]],[["ySer2",10]],[["ySer2",6],["xSerRule",4]]],[],"Una serie de buenas obras."),
+"2m23":DL("2m23","Números ordinales hasta el vigésimo",[
+ ["Después del décimo","11.º undécimo, 12.º duodécimo, 13.º decimotercero, 14.º decimocuarto… hasta el 20.º vigésimo.",{t:"cards",x:[["11.º","undécimo"],["12.º","duodécimo"],["15.º","decimoquinto"],["20.º","vigésimo"]]}],
+ ["Los ordinales en la Iglesia","El Papa León XIV es el decimocuarto Papa llamado León. El Domingo de Pascua es el primero de 50 días de fiesta.",{t:"emo",x:"⛪ 14.º"}]],
+ ["Los primeros","«El que quiera ser el primero, que sea el servidor de todos» (Mc 9, 35). Para Jesús, el primer lugar es el de quien sirve.",{t:"emo",x:"🥇 → 🤝"}],
+ ["La carrera del festival","🏃","Llegaste en decimoquinto lugar en la carrera y te sientes triste.","¿Qué piensas?",[["Que di mi mejor esfuerzo y felicito a los que ganaron",1,"¡Muy bien! El esfuerzo y la alegría valen más que el lugar."],["Que la carrera estaba arreglada",0,"Acepta el resultado con humildad."],["Que no vuelvo a correr",0,"¡Sigue entrenando!"]]],
+ [["Del 11.º al 19.º: decimo + primero, segundo…","11.º undécimo, 12.º duodécimo, 20.º vigésimo."],["13.º decimotercero","17.º decimoséptimo","20.º vigésimo"]],
+ ["¿Cómo se dice el lugar 18?",["Es décimo + octavo."],"Decimoctavo (18.º)."],
+ [[["xOrd",4],["yOrd20",4]],[["yOrd20",8]],[["yOrd20",8]]],[],"El primero es el que sirve."),
+"2m24":DL("2m24","Los números romanos hasta el XX",[
+ ["Las letras romanas","I = 1, V = 5, X = 10. Juntas se suman: XV = 15, XX = 20. Menor antes de mayor resta: IV = 4, IX = 9, XIV = 14, XIX = 19.",{t:"mtromano",max:20}],
+ ["Siglos y capítulos","Vivimos en el siglo <b>XXI</b> (21). Los capítulos de los documentos de la Iglesia y algunas calles usan números romanos.",{t:"emo",x:"📜 Cap. XII · 🗓️ siglo XXI"}]],
+ ["Las XIV estaciones","El Viacrucis tiene <b>XIV estaciones</b>: catorce momentos del camino de Jesús con la cruz. En muchas iglesias están en las paredes, numeradas con romanos.",{t:"emo",x:"✝️ I … XIV"}],
+ ["El Viacrucis","church","En Cuaresma, tu familia reza el Viacrucis. Te toca leer la estación XII.","¿Cuál es?",[["La duodécima: Jesús muere en la cruz",1,"¡Muy bien! XII = 12."],["La segunda",0,"XII = 10 + 2 = 12."],["La séptima",0,"X vale 10."]]],
+ [["I = 1, V = 5, X = 10","Juntas se suman; menor antes de mayor resta."],["XIV = 14","XIX = 19","XX = 20"]],
+ ["¿Qué número es XVII?",["X = 10.","V = 5.","II = 2.","10 + 5 + 2 = 17."],"XVII = 17."],
+ [[["yRoman",8,12]],[["yRoman",10,20]],[["yRoman",8,20]]],[],"Las catorce estaciones del Viacrucis."),
+/* ---- Unidad 2: suma y resta ---- */
+"2m25":DL("2m25","Propiedad conmutativa: el orden no importa",[
+ ["Cambiar el orden","En la suma, el orden no cambia el resultado: 25 + 13 = 13 + 25 = 38. Esto se llama <b>propiedad conmutativa</b>.",{t:"syl",x:["25 + 13 = 38","13 + 25 = 38"]}],
+ ["Úsala a tu favor","Para 3 + 48, es más fácil pensar 48 + 3. ¡Empieza por el número grande!",{t:"big",x:"3 + 48 = 48 + 3 = 51"}]],
+ ["Juntos de cualquier forma","No importa si tú ayudas primero y tu hermano después, o al revés: lo importante es que juntos terminan el trabajo. ¡El amor suma de cualquier manera!",{t:"emo",x:"🧒 + 👧 = 👧 + 🧒"}],
+ ["¿Quién lava los trastes primero?","🍽️","Tú y tu hermana discuten quién lava primero y quién seca.","¿Qué es lo mejor?",[["Ponernos de acuerdo rápido: el orden no importa, al final terminamos igual",1,"¡Muy bien! Como en la suma."],["Pelearnos hasta que mamá lo haga",0,"Así nadie gana."],["No hacer nada",0,"Ayudar en casa es tarea de todos."]]],
+ [["<b>a + b = b + a</b>","Empieza por el número mayor para sumar más fácil."],["7 + 35 = 35 + 7","12 + 40 = 40 + 12"]],
+ ["Calcula 6 + 57 de la forma más fácil.",["Cambio el orden: 57 + 6.","57 + 3 = 60, y 3 más: 63."],"6 + 57 = 63."],
+ [[["yComm",8]],[["yComm",5],["add2r",5]],[["yComm",4],["add2r",5]]],[],"El amor suma de cualquier manera."),
+"2m26":DL("2m26","Cálculo mental con decenas y centenas",[
+ ["Sumar decenas","40 + 30 = 70, como 4 + 3 = 7 pero con decenas. 300 + 500 = 800, como 3 + 5 con centenas.",{t:"syl",x:["4 + 3 = 7","40 + 30 = 70","400 + 300 = 700"]}],
+ ["Sumar 10 y 100","Sumar 10 sube una decena: 47 + 10 = 57. Sumar 100 sube una centena: 362 + 100 = 462.",{t:"steps",x:["47 + 10 = 57","362 + 100 = 462","585 + 10 = 595"]}]],
+ ["Multiplicar los talentos","En la parábola de los talentos, el siervo bueno hizo crecer lo que su señor le dio (Mt 25). Nosotros también hacemos crecer nuestros talentos cuando los usamos para el bien.",{t:"emo",x:"🪙 → 🪙🪙"}],
+ ["El ahorro","coin","Tienes $230 ahorrados y tu abuela te regala $100.","¿Cuánto tienes ahora?",[["$330: solo sube la centena",1,"¡Muy bien!"],["$240",0,"Te regalaron 100, no 10."],["$231",0,"Son 100 pesos."]]],
+ [["Suma decenas o centenas como si fueran números chicos.","+10: sube la decena. +100: sube la centena."],["50 + 40 = 90","600 + 200 = 800","374 + 100 = 474"]],
+ ["Calcula mentalmente 245 + 30.",["Las centenas no cambian: 2.","Decenas: 4 + 3 = 7.","Unidades: 5."],"245 + 30 = 275."],
+ [[["yTens2",8]],[["yTens2",10]],[["yTens2",6],["yComp100",4]]],[],"Haz crecer tus talentos."),
+"2m27":DL("2m27","Complementar: ¿cuánto falta?",[
+ ["Completar el 100","Al 64 le faltan 6 para el 70, y 30 más para el 100: le faltan <b>36</b>.",{t:"steps",x:["64 → 70: faltan 6","70 → 100: faltan 30","6 + 30 = 36"]}],
+ ["Completar números redondos","Para pagar $85 con $100, ¿cuánto es el cambio? Completa: 85 + 15 = 100.",{t:"bill",v:100}]],
+ ["Lo que falta para la santidad","San Pablo decía que completaba en su cuerpo lo que faltaba a los padecimientos de Cristo (Col 1, 24). Ofrecer nuestras molestias con amor completa lo que Jesús nos pide.",{t:"emo",x:"🧩 ✝️"}],
+ ["El álbum de la Primera Comunión","📒","Tu álbum tiene 100 lugares y ya pegaste 72 fotos.","¿Cuántas faltan?",[["28: del 72 al 80 hay 8, y del 80 al 100 hay 20",1,"¡Muy bien!"],["38",0,"Cuenta otra vez del 72 al 80."],["72",0,"Esas son las que ya tienes."]]],
+ [["Para saber cuánto falta: completa la decena y luego cuenta de 10 en 10."],["64 + 36 = 100","85 + 15 = 100","47 + 53 = 100"]],
+ ["¿Cuánto le falta al 38 para llegar a 100?",["Del 38 al 40: 2.","Del 40 al 100: 60.","2 + 60 = 62."],"Le faltan 62."],
+ [[["yComp100",8]],[["yComp100",10]],[["yComp100",5],["yMiss100",5]]],[],"Completa con amor."),
+"2m28":DL("2m28","La suma con el ábaco",[
+ ["Sumar en el ábaco","Pon el primer número en el ábaco y agrega las cuentas del segundo, varilla por varilla.",{t:"mtabaco",k:3}],
+ ["Cuando se llenan 10 cuentas","Si en una varilla juntas 10 cuentas, las cambias por <b>1 cuenta</b> en la varilla de la izquierda. ¡Eso es «llevar»!",{t:"steps",x:["7 U + 5 U = 12 U","10 U → 1 D","Quedan 2 U y llevo 1 D"]}]],
+ ["Cuentas de amor","Cada Avemaría del rosario es como una cuenta del ábaco: una por una vamos juntando un ramillete de oraciones para la Virgen.",{t:"emo",x:"🧮 📿 🌹"}],
+ ["La cuenta del puesto","🧮","Ayudas a tu tía en su puesto y ella usa un ábaco para sumar.","¿Qué haces?",[["Le pido que me enseñe y la ayudo con cuidado",1,"¡Muy bien! Aprender de los mayores es un tesoro."],["Me burlo del ábaco",0,"Es una herramienta muy útil."],["Me aburro y me voy",0,"Ayudar también es aprender."]]],
+ [["Suma varilla por varilla.","Si juntas 10 cuentas, cámbialas por 1 en la varilla de la izquierda: <b>llevas</b>."],["48 + 25 = 73","156 + 37 = 193"]],
+ ["Usa el ábaco: 38 + 45",["Unidades: 8 + 5 = 13 → dejo 3 y llevo 1.","Decenas: 3 + 4 + 1 = 8."],"38 + 45 = 83."],
+ [[["yAbaco",8,3]],[["add2r",8]],[["add3",4],["add2r",4]]],[],"Un ramillete para la Virgen."),
+"2m29":DL("2m29","Sumar y restar en la recta numérica",[
+ ["Saltos de 10 y de 1","Para 46 + 27: salta 2 veces de 10 (56, 66) y luego 7 de 1: <b>73</b>.",{t:"steps",x:["46 + 20 = 66","66 + 7 = 73"]}],
+ ["Restar hacia atrás","Para 82 − 35: salta 3 veces de 10 hacia atrás (72, 62, 52) y luego 5: <b>47</b>.",{t:"steps",x:["82 − 30 = 52","52 − 5 = 47"]}],
+ ["Practica","Haz saltar a la ranita.",{t:"mtrecta",max:100,start:46}]],
+ ["Avanzar y volver","En la vida a veces avanzamos y a veces retrocedemos. Lo importante es levantarnos: Jesús nos espera en la Confesión para volver a avanzar.",{t:"emo",x:"⏪ 🙏 ⏩"}],
+ ["El juego de la oca","🎲","Juegas con tu familia y caes en una casilla que te regresa 15. Te enojas.","¿Qué haces?",[["Respiro, cuento hacia atrás y sigo jugando con buen humor",1,"¡Muy bien! Saber perder también es una virtud."],["Tiro el tablero",0,"El juego es para convivir."],["Hago trampa",0,"La trampa arruina el juego."]]],
+ [["Suma: salta primero las decenas y luego las unidades.","Resta: salta hacia atrás."],["46 + 27 = 73","82 − 35 = 47"]],
+ ["Usa la recta: 58 + 24",["58 + 20 = 78.","78 + 4 = 82."],"58 + 24 = 82."],
+ [[["yLineAdd",5],["yLineSub",4]],[["yLineAdd",5],["yLineSub",5]],[["add2r",4],["sub2r",4]]],[],"Jesús nos ayuda a volver a avanzar."),
+"2m30":DL("2m30","La resta con el ábaco y comprobar",[
+ ["Restar en el ábaco","Quita las cuentas del segundo número, varilla por varilla.",{t:"mtabaco",k:3}],
+ ["Pedir prestado","Si en una varilla no hay suficientes cuentas, cambia 1 cuenta de la izquierda por 10 cuentas: ¡pedir prestado!",{t:"steps",x:["52 − 17","2 U no alcanza para quitar 7","Cambio 1 D por 10 U: 12 U","12 − 7 = 5; 4 − 1 = 3 → 35"]}],
+ ["Comprueba con la suma","Si 52 − 17 = 35, entonces 35 + 17 debe dar 52. ¡Así sabes que está bien!",{t:"big",x:"35 + 17 = 52 ✓"}]],
+ ["El examen de conciencia","Comprobar una resta es como hacer un examen de conciencia: revisamos con calma para encontrar errores y corregirlos con la ayuda de Dios.",{t:"emo",x:"🔍 🙏"}],
+ ["El cambio de la tienda","coin","Pagaste $100 por algo de $63 y te dieron $27 de cambio.","¿Está bien?",[["Compruebo: 63 + 27 = 90. Faltan $10; aviso con respeto",1,"¡Muy bien! Comprobar evita errores."],["Me quedo callado",0,"Mejor avisar."],["Grito que me robaron",0,"Puede ser un error: corrige con amabilidad."]]],
+ [["Resta varilla por varilla.","Si no alcanza, pide prestado: 1 de la izquierda = 10.","<b>Comprueba sumando</b> el resultado y lo que restaste."],["52 − 17 = 35","35 + 17 = 52 ✓"]],
+ ["70 − 26 = ?",["0 U no alcanza para quitar 6: pido 1 D → 10 U.","10 − 6 = 4.","6 D − 2 D = 4 D."],"70 − 26 = 44 (y 44 + 26 = 70 ✓)."],
+ [[["sub2r",8]],[["sub2r",5],["yChk",5]],[["yChk",5],["sub2r",4]]],[],"Revisa con calma."),
+"2m31":DL("2m31","¿Qué número falta? Igualdades",[
+ ["El número escondido","En 35 + ▢ = 52, el número escondido es lo que le falta al 35 para llegar a 52: <b>17</b>.",{t:"steps",x:["35 → 40: 5","40 → 52: 12","5 + 12 = 17"]}],
+ ["Usa la operación contraria","Si sabes cuánto da la suma, resta: ▢ = 52 − 35. Si sabes cuánto queda de una resta, suma.",{t:"syl",x:["35 + ▢ = 52 → 52 − 35","▢ − 20 = 15 → 15 + 20"]}]],
+ ["Encontrar lo que falta","Como el pastor que buscó la oveja que faltaba, Jesús busca a quien se ha alejado. ¡Para Él nadie es un número escondido!",{t:"photo",src:WM(IM.buenpastor[0],800),alt:"El Buen Pastor",cap:"",credit:IM.buenpastor[1],art:true}],
+ ["Las sillas de la reunión","🪑","Para la reunión de papás se necesitan 60 sillas y ya hay 42.","¿Cuántas faltan?",[["18: 42 + 18 = 60",1,"¡Muy bien!"],["102",0,"Eso es sumar las dos."],["28",0,"Revisa: 42 + 18 = 60."]]],
+ [["Para encontrar el número que falta, piensa ¿cuánto falta? o usa la operación contraria."],["45 + ▢ = 70 → 25","▢ − 12 = 30 → 42"]],
+ ["▢ + 28 = 65",["Uso la resta: 65 − 28.","65 − 20 = 45; 45 − 8 = 37."],"El número que falta es 37."],
+ [[["yMiss100",8]],[["yMiss100",10]],[["yMiss100",6],["yEq",4]]],[],"Jesús busca al que falta."),
+"2m32":DL("2m32","Problemas de dos pasos",[
+ ["Dos operaciones","Algunos problemas necesitan <b>dos operaciones</b>. «Tenía 25 estampas, me regalaron 12 y regalé 8»: primero 25 + 12 = 37, luego 37 − 8 = <b>29</b>.",{t:"steps",x:["Leo con calma","Primer paso: 25 + 12 = 37","Segundo paso: 37 − 8 = 29","Respondo: tengo 29"]}],
+ ["Un plan para resolver","1) ¿Qué sé? 2) ¿Qué me preguntan? 3) ¿Qué hago primero? 4) Opero. 5) ¿Mi respuesta tiene sentido?",{t:"cards",x:[["📖","¿Qué sé?"],["❓","¿Qué me preguntan?"],["1️⃣2️⃣","¿Qué hago primero?"],["✅","¿Tiene sentido?"]]}]],
+ ["Paso a paso","San Juan Bosco decía que los grandes logros se hacen paso a paso, con paciencia y alegría. ¡Así se resuelven los problemas y así se llega a la santidad!",{t:"emo",x:"1️⃣ → 2️⃣ → ⭐"}],
+ ["La kermés","flag","En la kermés vendieron 45 tamales en la mañana y 38 en la tarde. Sobraron 12 que se regalaron a los ayudantes.","¿Cuántos tamales se hicieron en total?",[["95: 45 + 38 = 83, y 83 + 12 = 95",1,"¡Muy bien! Dos pasos."],["83",0,"Faltan los que se regalaron."],["71",0,"Los que se regalaron también se hicieron."]]],
+ [["Lee, haz un plan, resuelve <b>paso a paso</b> y revisa.","Escribe la respuesta con palabras."],["25 + 12 − 8 = 29","3 × 5 + 4 = 19"]],
+ ["En el autobús iban 34 personas. Bajaron 9 y subieron 15. ¿Cuántas van?",["Primero: 34 − 9 = 25.","Después: 25 + 15 = 40."],"Van 40 personas."],
+ [[["prob2",8]],[["prob2",5],["yProb2",5]],[["yProb2",8]]],[],"Paso a paso, con paciencia y alegría."),
+/* ---- Unidad 3: multiplicar y dividir ---- */
+"2m33":DL("2m33","Suma iterada: la multiplicación",[
+ ["Sumar el mismo número","Sumar varias veces el mismo número se llama <b>suma iterada</b>: 4 + 4 + 4 = 12. Es lo mismo que <b>3 × 4</b> (3 veces 4).",{t:"steps",x:["4 + 4 + 4 = 12","3 veces 4","3 × 4 = 12"]}],
+ ["Saltos en la recta","Multiplicar es dar saltos iguales: 3 × 4 son 3 saltos de 4: 4, 8, 12.",{t:"line",a:0,b:12,m:[4,8]}],
+ ["Los arreglos","Mira cómo cambia la multiplicación al agregar filas y columnas.",{t:"mtarreglo"}]],
+ ["Los panes y los peces","Jesús multiplicó cinco panes y dos peces y alcanzó para más de cinco mil personas (Jn 6). Cuando damos lo poco que tenemos, Dios lo multiplica.",{t:"photo",src:WM(IM.panes[0],800),alt:"Multiplicación de los panes",cap:"",credit:IM.panes[1],art:true}],
+ ["Las flores para la Virgen","🌹","5 niñas llevan 3 flores cada una para la Virgen.","¿Cuántas flores son?",[["15: 3 + 3 + 3 + 3 + 3 = 5 × 3",1,"¡Muy bien!"],["8",0,"Eso es 5 + 3."],["53",0,"Son 5 grupos de 3."]]],
+ [["Suma iterada = multiplicación.","<b>3 × 4</b> = 3 veces el 4 = 4 + 4 + 4."],["2 + 2 + 2 + 2 = 4 × 2","5 + 5 + 5 = 3 × 5"]],
+ ["Escribe 6 + 6 + 6 + 6 como multiplicación y resuélvela.",["El 6 se repite 4 veces.","4 × 6.","6, 12, 18, 24."],"4 × 6 = 24."],
+ [[["yIter",8]],[["yIter",5],["yLineMul",5]],[["yLineMul",5],["arrQ",4]]],[],"Dios multiplica lo que damos."),
+"2m34":DL("2m34","La tabla de multiplicar",[
+ ["Todas las tablas juntas","La tabla de multiplicar tiene los números del 1 al 10 arriba y a un lado. Donde se cruzan está el producto.",{t:"mttabla",op:"×",n:10}],
+ ["Trucos de la tabla","La tabla del 2 son los dobles. La del 5 termina en 0 o 5. La del 10 termina en 0. ¡Y 3 × 4 = 4 × 3!",{t:"cards",x:[["×2","dobles"],["×5","terminan en 0 o 5"],["×10","agrega un 0"]]}]],
+ ["Las tablas de la Ley","Moisés bajó del monte con las <b>tablas de la Ley</b>: los Diez Mandamientos (Éx 34). Las tablas de multiplicar nos ayudan a calcular; las de la Ley, a vivir como hijos de Dios.",{t:"emo",x:"📜📜 = 10"}],
+ ["Repasar las tablas","✏️","Mañana hay examen de las tablas y prefieres ver la tele.","¿Qué haces?",[["Repaso un rato con la tabla y luego descanso",1,"¡Muy bien! Primero el deber, luego el descanso."],["Veo la tele toda la tarde",0,"Mañana te sentirás mal."],["Me copio en el examen",0,"Copiar no es honesto."]]],
+ [["Busca la <b>fila</b> de un factor y la <b>columna</b> del otro.","El orden de los factores no cambia el producto."],["3 × 4 = 12","5 × 6 = 30","10 × 7 = 70"]],
+ ["¿Cuánto es 4 × 5 usando la tabla?",["Busco la fila del 4.","Voy a la columna del 5.","Ahí está el producto."],"4 × 5 = 20."],
+ [[["yTabla",8,5]],[["yTabla",10,5]],[["yTabla",10,10]]],[],"Las tablas de la Ley."),
+"2m35":DL("2m35","El doble, el triple y multiplicar por 0, 1 y 10",[
+ ["Doble y triple","El <b>doble</b> es 2 veces un número; el <b>triple</b>, 3 veces. El doble de 7 es 14; el triple, 21.",{t:"syl",x:["doble de 7 = 14","triple de 7 = 21"]}],
+ ["Multiplicaciones especiales","× 1: el número queda igual. × 0: siempre da 0. × 10: agrega un cero.",{t:"cards",x:[["× 1","igual"],["× 0","cero"],["× 10","agrega un 0"]]}]],
+ ["El ciento por uno","Jesús promete que quien deja algo por Él recibirá cien veces más. ¡Dios no da el doble ni el triple: da muchísimo más!",{t:"emo",x:"× 100 ❤️"}],
+ ["La receta doble","🍪","La receta de galletas es para 6 personas y vienen 12.","¿Qué haces?",[["Hago el doble de la receta",1,"¡Muy bien! 6 × 2 = 12."],["Hago la receta normal y que alcance",0,"No alcanzaría para todos."],["Hago el triple",0,"Sobraría mucho."]]],
+ [["Doble: × 2. Triple: × 3.","× 1 = igual · × 0 = 0 · × 10 = agrega un 0."],["triple de 5 = 15","8 × 0 = 0","23 × 10 = 230"]],
+ ["¿Cuál es el triple de 9?",["Triple es 3 veces.","9 + 9 + 9 = 27."],"El triple de 9 es 27."],
+ [[["yDbl3",8]],[["yDbl3",5],["y01",5]],[["y01",6],["yDbl3",4]]],[],"Dios da muchísimo más."),
+"2m36":DL("2m36","Problemas de multiplicar",[
+ ["Busca los grupos iguales","Si en el problema hay <b>grupos iguales</b> (cajas, filas, bolsas con la misma cantidad), se resuelve multiplicando.",{t:"emo",x:"📦📦📦 × 6 🍪"}],
+ ["Un ejemplo","Hay 4 bancas con 5 niños cada una: 4 × 5 = <b>20</b> niños.",{t:"arr",r:4,c:5,s:"star"}]],
+ ["El banquete del Reino","Jesús compara el Cielo con un gran banquete donde caben todos (Lc 14). ¡Mesas y mesas llenas de invitados!",{t:"emo",x:"🍽️🍽️🍽️ × 👨‍👩‍👧‍👦"}],
+ ["Las sillas de la fiesta","🪑","Para la fiesta hay 6 mesas y en cada una caben 4 personas. Vienen 26 invitados.","¿Alcanza?",[["No: caben 24, faltan lugares para 2",1,"¡Muy bien! 6 × 4 = 24."],["Sí, sobran",0,"6 × 4 = 24, menos que 26."],["No sé",0,"Multiplica mesas por lugares."]]],
+ [["Grupos iguales → <b>multiplica</b>.","Número de grupos × cuántos hay en cada uno."],["4 bancas × 5 = 20","3 cajas × 6 = 18"]],
+ ["Cada rosario tiene 5 decenas. ¿Cuántas decenas hay en 4 rosarios?",["Grupos iguales: 4 rosarios.","5 decenas en cada uno: 4 × 5."],"Hay 20 decenas."],
+ [[["yMProb2",8]],[["yMProb2",6],["arrQ",4]],[["yMProb2",5],["yProb2",4]]],[],"En el banquete del Reino caben todos."),
+"2m37":DL("2m37","Dividir: repartir y agrupar",[
+ ["Dos formas de dividir","<b>Repartir</b>: 12 dulces entre 3 niños → 4 a cada uno. <b>Agrupar</b>: 12 dulces en bolsas de 3 → 4 bolsas. Las dos son 12 ÷ 3 = 4.",{t:"mtrepartir",n:12,k:3}],
+ ["La división y la multiplicación","Si 3 × 4 = 12, entonces 12 ÷ 3 = 4. ¡Son operaciones hermanas!",{t:"syl",x:["3 × 4 = 12","12 ÷ 3 = 4","12 ÷ 4 = 3"]}]],
+ ["Dar a cada uno según necesite","En la primera comunidad cristiana «se repartía a cada uno según su necesidad» (Hch 4, 35). Repartir con justicia es una forma de amar.",{t:"emo",x:"🍞 ÷ 👨‍👩‍👧‍👦"}],
+ ["Las tareas de la casa","🧹","Hay 12 tareas en la casa y son 4 hermanos.","¿Qué es lo justo?",[["3 tareas para cada uno: 12 ÷ 4",1,"¡Muy bien! Repartir en partes iguales."],["Que el mayor haga todas",0,"No es justo."],["Que las haga mamá",0,"Todos ayudamos."]]],
+ [["<b>Repartir</b>: cuánto le toca a cada uno.","<b>Agrupar</b>: cuántos grupos salen.","12 ÷ 3 = 4 porque 3 × 4 = 12."],["15 ÷ 5 = 3","20 ÷ 4 = 5"]],
+ ["Hay 18 estampas para hacer paquetes de 6. ¿Cuántos paquetes salen?",["Es agrupar: ¿cuántas veces cabe el 6 en el 18?","6, 12, 18: tres veces."],"Salen 3 paquetes (18 ÷ 6 = 3)."],
+ [[["share",8]],[["yDiv2",8]],[["yDiv2",5],["yDProb2",4]]],[],"Repartir con justicia es amar."),
+"2m38":DL("2m38","Problemas de dividir y fracciones de una cantidad",[
+ ["¿Reparto o agrupo?","Si te preguntan <b>cuánto le toca a cada uno</b>, reparte. Si te preguntan <b>cuántos grupos salen</b>, agrupa. Las dos se resuelven dividiendo.",{t:"cards",x:[["👦👧👦","¿cuánto a cada uno?"],["📦📦","¿cuántos grupos?"]]}],
+ ["La mitad, el tercio y el cuarto","La mitad de 20 es 20 ÷ 2 = 10. Un tercio de 15 es 15 ÷ 3 = 5. Un cuarto de 12 es 12 ÷ 4 = 3.",{t:"syl",x:["½ de 20 = 10","⅓ de 15 = 5","¼ de 12 = 3"]}]],
+ ["Los cinco panes","Jesús repartió cinco panes entre miles y sobraron doce canastas. Cuando repartimos con amor, Dios hace que alcance.",{t:"emo",x:"🍞 ÷ 5000 = 🧺×12"}],
+ ["Los equipos del torneo","⚽","Hay 24 niños para el torneo y cada equipo es de 6.","¿Cuántos equipos se forman?",[["4 equipos: 24 ÷ 6",1,"¡Muy bien!"],["6 equipos",0,"Cada equipo tiene 6 niños."],["30",0,"Eso es sumar."]]],
+ [["Repartir o agrupar → <b>divide</b>.","La mitad: ÷ 2 · Un tercio: ÷ 3 · Un cuarto: ÷ 4."],["24 ÷ 6 = 4","½ de 18 = 9","¼ de 20 = 5"]],
+ ["¿Cuánto es un cuarto de 28?",["Un cuarto es repartir en 4 partes iguales.","28 ÷ 4: 4 × 7 = 28."],"Un cuarto de 28 es 7."],
+ [[["yDProb2",8]],[["yDProb2",5],["yFracOf2",5]],[["yFracOf2",5],["yDProb2",4]]],[],"Cuando repartimos con amor, alcanza."),
+/* ---- Unidad 4: fracciones y dinero ---- */
+"2m39":DL("2m39","Tercios y octavos",[
+ ["Más fracciones","Si partes en <b>3</b> partes iguales, cada una es <b>un tercio</b> (⅓). Si partes en <b>8</b>, cada una es <b>un octavo</b> (⅛).",{t:"mtfrac",n:[2,3,4,8]}],
+ ["Nombres de las fracciones","2 partes: medios · 3: tercios · 4: cuartos · 8: octavos. El número de abajo dice en cuántas partes se partió.",{t:"cards",x:[["½","medios"],["⅓","tercios"],["¼","cuartos"],["⅛","octavos"]]}]],
+ ["La Santísima Trinidad","Un solo Dios en tres Personas: Padre, Hijo y Espíritu Santo. No son tres tercios de Dios: ¡cada Persona es Dios completo! Es un misterio de amor más grande que las matemáticas.",{t:"emo",x:"☝️ Padre · Hijo · Espíritu Santo"}],
+ ["El pastel de la fiesta","🎂","Tu mamá partió el pastel en 8 rebanadas iguales. Ya se comieron 5.","¿Cuánto queda?",[["3 octavos",1,"¡Muy bien! 8 − 5 = 3 octavos."],["5 octavos",0,"Esos se comieron."],["La mitad",0,"La mitad serían 4 octavos."]]],
+ [["El número de abajo (<b>denominador</b>): en cuántas partes se partió.","El de arriba (<b>numerador</b>): cuántas partes tomo."],["⅓ un tercio","⅜ tres octavos","¾ tres cuartos"]],
+ ["Una pizza se partió en 8 y te comiste 3. ¿Qué fracción comiste?",["El entero tiene 8 partes: octavos.","Comí 3."],"Comí tres octavos (⅜)."],
+ [[["frac",4],["yFrac2",4]],[["yFrac2",8]],[["yFrac2",5],["yFracCmp2",4]]],[],"Un solo Dios en tres Personas."),
+"2m40":DL("2m40","Comparar fracciones y la recta",[
+ ["¿Qué parte es más grande?","Si la misma pizza se parte en más partes, cada parte es <b>más pequeña</b>: ½ es más grande que ¼, y ¼ es más grande que ⅛.",{t:"cards",x:[["½","grande"],["¼","mediana"],["⅛","pequeña"]]}],
+ ["Fracciones en la recta","Entre el 0 y el 1 caben las fracciones. Mira cómo se parte la recta.",{t:"mtfracrecta",d:[2,3,4,8]}]],
+ ["Lo pequeño es grande","La viuda dio dos moneditas, lo más pequeño, pero Jesús dijo que era lo más grande porque lo dio todo (Mc 12, 43). Dios mide el amor, no el tamaño.",{t:"emo",x:"🪙🪙 = ❤️❤️❤️"}],
+ ["El pedazo más grande","🍰","Te ofrecen ⅓ o ⅛ del mismo pastel.","¿Cuál es más grande?",[["⅓, porque el pastel se partió en menos partes",1,"¡Muy bien!"],["⅛, porque 8 es más grande",0,"Más partes = partes más pequeñas."],["Son iguales",0,"Son diferentes."]]],
+ [["Mismo entero: <b>más partes → partes más pequeñas</b>.","½ &gt; ⅓ &gt; ¼ &gt; ⅛"],["½ &gt; ¼","¼ &gt; ⅛","2/4 = ½"]],
+ ["¿Qué es más grande: ¼ o ⅓ de una tortilla?",["¼: la tortilla en 4 partes.","⅓: la tortilla en 3 partes: menos partes, más grandes."],"⅓ es más grande que ¼."],
+ [[["yFracCmp2",8]],[["yFracCmp2",5],["yFrac2",5]],[["yFracCmp2",5],["yFracOf2",4]]],[],"Dios mide el amor, no el tamaño."),
+"2m41":DL("2m41","Monedas y billetes hasta $500",[
+ ["Nuestro dinero","En México hay monedas de 50¢, $1, $2, $5, $10 y $20, y billetes de $20, $50, $100, $200 y $500.",{t:"cards",x:[["🪙","$1 $2 $5 $10"],["💵","$20 $50 $100"],["💵","$200 $500"]]}],
+ ["Contar dinero","Empieza por el billete o moneda de más valor: $200 + $50 + $20 + $5 = <b>$275</b>.",{t:"steps",x:["200","+50 = 250","+20 = 270","+5 = 275"]}],
+ ["La tiendita","Compra y paga con billetes.",{t:"mttienda",bills:1}]],
+ ["El dinero sirve para el bien","El dinero es bueno cuando lo usamos para lo necesario, para ayudar a los demás y para dar a Dios. Jesús dijo: «No se puede servir a Dios y al dinero» (Mt 6, 24).",{t:"emo",x:"💵 → 🤝 ⛪"}],
+ ["El billete encontrado","💵","Encuentras un billete de $200 en el piso de la iglesia.","¿Qué haces?",[["Lo entrego en la sacristía o al padre para que lo devuelvan a su dueño",1,"¡Muy bien! Eso es ser honrado."],["Me lo quedo",0,"No es tuyo: alguien lo está buscando."],["Me compro dulces",0,"El dinero es de otra persona."]]],
+ [["Cuenta de la de <b>más valor</b> a la de menos.","Billetes: $20, $50, $100, $200, $500."],["$100 + $50 + $5 = $155","$200 + $200 = $400"]],
+ ["Tienes 2 billetes de $100, 1 de $50 y 3 monedas de $5. ¿Cuánto tienes?",["$100 + $100 = $200.","+ $50 = $250.","+ $15 = $265."],"Tengo $265."],
+ [[["money2",8]],[["money2",5],["change",5]],[["yMoney2",5],["change",4]]],[],"No se puede servir a Dios y al dinero."),
+"2m42":DL("2m42","Problemas con dinero y el cambio",[
+ ["El cambio","Si pagas con más de lo que cuesta, te dan <b>cambio</b>: lo que pagaste menos el precio. $100 − $65 = <b>$35</b>.",{t:"bill",v:100}],
+ ["Cuenta hacia adelante","Los vendedores cuentan desde el precio hasta lo que pagaste: 65… 70, 80, 90, 100. ¡$35!",{t:"steps",x:["65 + 5 = 70","70 + 30 = 100","5 + 30 = 35"]}]],
+ ["Zaqueo devolvió","Zaqueo, después de conocer a Jesús, devolvió cuatro veces lo que había cobrado de más (Lc 19, 8). Ser honrado con el dinero es una forma de seguir a Jesús.",{t:"photo",src:WM(IM.zaqueo[0],800),alt:"Zaqueo",cap:"",credit:IM.zaqueo[1],art:true}],
+ ["Te dieron de más","coin","Compraste algo de $45, pagaste con $100 y te dieron $65 de cambio.","¿Qué haces?",[["Devuelvo $10, porque el cambio era $55",1,"¡Muy bien! Como Zaqueo, eres honrado."],["Me lo quedo, no fue mi culpa",0,"Ese dinero no es tuyo."],["No reviso",0,"Revisar el cambio es importante."]]],
+ [["<b>Cambio = lo que pago − el precio.</b>","Cuenta hacia adelante desde el precio."],["$50 − $32 = $18","$200 − $145 = $55"]],
+ ["Compras 3 libros de $25 y pagas con $100. ¿Cuánto es tu cambio?",["3 × $25 = $75.","$100 − $75 = $25."],"Mi cambio es $25."],
+ [[["change",8]],[["change",5],["yMoney2",5]],[["yMoney2",5],["yProb2",4]]],[],"Ser honrado es seguir a Jesús."),
+/* ---- Unidad 5: geometría ---- */
+"2m43":DL("2m43","Líneas rectas, curvas y segmentos",[
+ ["Rectas y curvas","Una línea <b>recta</b> no se dobla y sigue sin fin; una <b>curva</b> se dobla. Un <b>segmento</b> es un pedazo de recta con dos extremos.",{t:"emo",x:"➖ recta · 〰️ curva · •—• segmento"}],
+ ["Medir segmentos","Los segmentos se pueden medir con la regla, porque tienen principio y fin.",{t:"ruler",cm:8}]],
+ ["El camino recto","«Preparen el camino del Señor, enderecen sus senderos» (Mc 1, 3). Juan el Bautista nos invita a enderezar lo torcido de nuestro corazón.",{t:"emo",x:"〰️ → ➖ ❤️"}],
+ ["La raya torcida","✏️","Tu cuaderno debe tener una línea recta y la tuya salió chueca. Te enojas.","¿Qué haces?",[["Uso la regla y la vuelvo a trazar con calma",1,"¡Muy bien! La regla ayuda a hacer rectas."],["Rompo la hoja",0,"Respira: se puede corregir."],["La dejo así",0,"Inténtalo con la regla."]]],
+ [["<b>Recta</b>: no se dobla. <b>Curva</b>: se dobla.","<b>Segmento</b>: pedazo de recta con dos extremos; se puede medir."],["📏 recta","🌈 curva","•—• segmento"]],
+ ["¿Cuánto mide un segmento que empieza en el 0 y termina en el 11 de la regla?",["Empieza en el 0: está bien colocado.","Termina en el 11."],"Mide 11 cm."],
+ [[["xLin",8]],[["ySeg",8]],[["ySeg",5],["xLin",3]]],[],"Enderecen sus senderos."),
+"2m44":DL("2m44","Rectas paralelas y perpendiculares",[
+ ["Paralelas","Las rectas <b>paralelas</b> van una junto a la otra y <b>nunca se cruzan</b>, como las vías del tren.",{t:"emo",x:"🛤️ ‖"}],
+ ["Perpendiculares","Las rectas <b>perpendiculares</b> se cruzan formando <b>esquinas rectas</b>, como la cruz o las esquinas de una hoja.",{t:"emo",x:"✝️ ⊥ 📄"}]],
+ ["La Cruz","La Cruz está formada por dos maderos perpendiculares. Para los cristianos es el signo más grande del amor de Dios: Jesús dio su vida por nosotros.",{t:"photo",src:WM(IM.crucificado[0],800),alt:"Cristo crucificado",cap:"",credit:IM.crucificado[1],art:true}],
+ ["La cancha","⚽","Están pintando la cancha y el pintor pregunta cómo deben ir las líneas de los lados.","¿Qué le dices?",[["Las de los lados paralelas, y las esquinas perpendiculares",1,"¡Muy bien! Así queda un rectángulo."],["Todas curvas",0,"La cancha tiene líneas rectas."],["Como sea",0,"Las líneas deben ir bien trazadas."]]],
+ [["<b>Paralelas</b>: nunca se cruzan.","<b>Perpendiculares</b>: se cruzan en ángulo recto."],["🛤️ paralelas","✝️ perpendiculares"]],
+ ["¿Cómo son los lados de enfrente de un rectángulo?",["Van en la misma dirección.","Nunca se cruzan."],"Son paralelos."],
+ [[["yLines",8]],[["yLines",6],["yAng",4]],[["yLines",5],["yQuad",4]]],[],"La Cruz, signo del amor."),
+"2m45":DL("2m45","Cuadrados, rectángulos y triángulos",[
+ ["El cuadrado y el rectángulo","El <b>cuadrado</b> tiene 4 lados iguales y 4 ángulos rectos. El <b>rectángulo</b> tiene 4 ángulos rectos y sus lados de enfrente son iguales.",{t:"shapes",x:["cuadrado","rectangulo"]}],
+ ["Los triángulos","Los triángulos tienen 3 lados y 3 vértices. ¡Son las figuras más fuertes: por eso se usan en los puentes y en los techos!",{t:"shapes",x:["triangulo"]}],
+ ["Copia en el geoplano","Copia las figuras tocando los puntos.",{t:"mtgeo"}]],
+ ["La casa sobre la roca","Jesús dijo que quien escucha su palabra y la cumple es como el que construye su casa sobre roca: aunque venga la tormenta, no se cae (Mt 7, 24).",{t:"emo",x:"🏠 🪨 ⛈️"}],
+ ["La maqueta","📐","Haces la maqueta de una iglesia y tu primo quiere usar círculos para el techo.","¿Qué le sugieres?",[["Usar triángulos, que son firmes y forman techos de dos aguas",1,"¡Muy bien!"],["Lo que él quiera",0,"Mejor proponer algo que funcione."],["Que no ayude",0,"Trabajen juntos."]]],
+ [["<b>Cuadrado</b>: 4 lados iguales, 4 ángulos rectos.","<b>Rectángulo</b>: lados opuestos iguales, 4 ángulos rectos.","<b>Triángulo</b>: 3 lados."],["⬛ cuadrado","▭ rectángulo","🔺 triángulo"]],
+ ["¿En qué se parecen y en qué son diferentes el cuadrado y el rectángulo?",["Los dos tienen 4 lados y 4 ángulos rectos.","El cuadrado tiene todos sus lados iguales; el rectángulo, solo los de enfrente."],"Se parecen en los ángulos rectos; son diferentes en la medida de sus lados."],
+ [[["yQuad",8]],[["yQuad",5],["sides",5]],[["yQuad",5],["xVert",4]]],[],"Construye sobre roca."),
+"2m46":DL("2m46","La circunferencia y el círculo",[
+ ["Dos cosas distintas","La <b>circunferencia</b> es la línea curva cerrada (la orilla). El <b>círculo</b> es toda la superficie que queda dentro.",{t:"emo",x:"⭕ circunferencia · 🔵 círculo"}],
+ ["El centro","Todos los puntos de la circunferencia están a la misma distancia del <b>centro</b>. Por eso puedes trazarla con un hilo y un lápiz.",{t:"emo",x:"✏️〰️📍"}]],
+ ["La aureola de los santos","En las pinturas, los santos tienen una aureola: un círculo de luz alrededor de la cabeza. Significa que están llenos de la luz de Dios.",{t:"photo",src:WM(IM.virgenNino[0],800),alt:"La Virgen y el Niño",cap:"",credit:IM.virgenNino[1],art:true}],
+ ["El círculo de amigos","people","En el recreo hacen un círculo para jugar y dejan fuera a un niño nuevo.","¿Qué haces?",[["Hago el círculo más grande para que quepa",1,"¡Muy bien! El círculo siempre puede crecer."],["Lo dejo fuera",0,"Nadie debería quedarse fuera."],["Me salgo yo",0,"Mejor inclúyelo."]]],
+ [["<b>Circunferencia</b>: la línea de la orilla.","<b>Círculo</b>: la superficie de adentro.","El <b>centro</b> está a la misma distancia de toda la orilla."],["⭕ la orilla","🔵 lo de adentro","📍 el centro"]],
+ ["Una moneda: ¿su orilla es circunferencia o círculo?",["La orilla es la línea curva."],"La orilla es una circunferencia; la cara completa es un círculo."],
+ [[["yCirc",8]],[["yCirc",5],["shape",5]],[["yCirc",5],["yQuad",4]]],[],"Llenos de la luz de Dios."),
+"2m47":DL("2m47","Los ángulos",[
+ ["¿Qué es un ángulo?","Un <b>ángulo</b> se forma cuando dos líneas se juntan en un punto. Puede estar más abierto o más cerrado.",{t:"mtangulo"}],
+ ["Tipos de ángulos","<b>Recto</b>: como la esquina de una hoja. <b>Agudo</b>: más cerrado que el recto. <b>Obtuso</b>: más abierto que el recto.",{t:"cards",x:[["∟","recto"],["∠","agudo"],["⦦","obtuso"]]}]],
+ ["Los brazos abiertos","Jesús en la cruz tiene los brazos abiertos, como un ángulo llano: abraza a todo el mundo. La Iglesia, con sus columnatas en Roma, también abre los brazos a todos.",{t:"emo",x:"✝️ 🤗"}],
+ ["La puerta abierta","🚪","Tu mamá te pide dejar la puerta «en ángulo recto» para que entre aire.","¿Cómo la dejas?",[["Abierta como la esquina de una hoja",1,"¡Muy bien! Eso es un ángulo recto."],["Casi cerrada",0,"Eso sería un ángulo agudo."],["Abierta del todo",0,"Eso sería un ángulo llano."]]],
+ [["Ángulo: dos líneas que se juntan en un punto.","<b>Recto</b> (esquina) · <b>agudo</b> (más cerrado) · <b>obtuso</b> (más abierto)."],["∟ recto: 90°","agudo: menos de 90°","obtuso: más de 90°"]],
+ ["Las manecillas del reloj marcan las 3 en punto. ¿Qué ángulo forman?",["Una apunta al 12 y otra al 3.","Forman una esquina como la de una hoja."],"Forman un ángulo recto."],
+ [[["yAng",8]],[["yAng",10]],[["yAng",6],["yLines",4]]],[],"Los brazos abiertos de Jesús."),
+"2m48":DL("2m48","Caras planas y curvas de los cuerpos",[
+ ["Caras planas y curvas","El <b>cubo</b> y el <b>prisma</b> tienen solo caras planas. La <b>esfera</b> es toda curva. El <b>cilindro</b> y el <b>cono</b> tienen caras planas y curvas.",{t:"lam",id:"figuras"}],
+ ["Ruedan o no ruedan","Los cuerpos con superficies curvas ruedan; los de caras planas, se deslizan.",{t:"mtcanasta",sets:["rueda"]}]],
+ ["Las piedras vivas","San Pedro dice que somos piedras vivas que forman la Iglesia (1 Pe 2, 5). Cada uno, con su forma distinta, encaja en el edificio de Dios.",{t:"emo",x:"🧱⛪"}],
+ ["El empaque del regalo","🎁","Quieres envolver un regalo que tiene forma de cilindro.","¿Qué haces?",[["Lo envuelvo en papel como un tubo y cierro las dos tapas redondas",1,"¡Muy bien! Pensaste en sus caras."],["Lo meto en una caja",0,"También funciona, pero piensa en sus caras."],["No lo envuelvo",0,"Un regalo bien envuelto muestra cariño."]]],
+ [["Caras <b>planas</b>: cubo, prisma, pirámide.","Superficies <b>curvas</b>: esfera, cilindro, cono."],["🧊 6 planas","🥫 2 planas + 1 curva","⚽ curva"]],
+ ["¿Cuántas caras planas tiene un cilindro?",["Tiene una tapa arriba y una abajo.","Las dos son círculos planos."],"Tiene 2 caras planas (y una curva)."],
+ [[["xFaces",8]],[["xFaces",10]],[["xFaces",6],["yCirc",3]]],[],"Somos piedras vivas."),
+"2m49":DL("2m49","Trazos en cuadrícula y simetría",[
+ ["Copiar figuras","En una <b>cuadrícula</b> o un <b>geoplano</b> podemos copiar figuras contando cuadritos o puntos.",{t:"mtgeo"}],
+ ["Simetría","Una figura es simétrica si al doblarla las dos mitades coinciden.",{t:"mtespejo"}]],
+ ["El orden de la creación","«Todo lo hiciste con medida, número y peso» (Sab 11, 20). En las alas de las mariposas y en los copos de nieve se ve la simetría que Dios puso en la creación.",{t:"photo",src:WM(IM.monarca[0],800),alt:"Mariposa monarca",cap:"",credit:IM.monarca[1],art:false}],
+ ["El dibujo del compañero","✏️","Un compañero copió mal una figura y todos se ríen.","¿Qué haces?",[["Le ayudo a contar los cuadritos para que la corrija",1,"¡Muy bien!"],["Me río también",0,"Las burlas lastiman."],["Le borro su dibujo",0,"Mejor ayúdalo."]]],
+ [["Para copiar, cuenta cuadritos o puntos.","Simétrica: dos mitades iguales al doblar."],["🦋 simétrica","🐌 no simétrica"]],
+ ["Un cuadrado tiene sus esquinas en (1,1), (3,1), (3,3) y (1,3). ¿Cuántos cuadritos mide cada lado?",["De 1 a 3 hay 2 cuadritos."],"Cada lado mide 2 cuadritos."],
+ [[["xSym",8]],[["xSym",5],["shape",5]],[["xSym",6],["yQuad",3]]],[],"Medida, número y peso."),
+"2m50":DL("2m50","Puntos cardinales y planos",[
+ ["Los puntos cardinales","<b>Norte, sur, este y oeste</b>. El Sol sale por el este y se oculta por el oeste.",{t:"lam",id:"brujula"}],
+ ["Leer un plano","Un plano o croquis muestra los lugares vistos desde arriba. La rosa de los vientos indica dónde está el norte.",{t:"lam",id:"comunidad"}]],
+ ["La estrella de Belén","Los Magos vinieron de Oriente (el este) siguiendo una estrella que los guió hasta Jesús (Mt 2). ¡Jesús es la estrella que guía nuestra vida!",{t:"photo",src:WM(IM.magos[0],800),alt:"Los Reyes Magos",cap:"",credit:IM.magos[1],art:true}],
+ ["Perdidos en el campamento","compass","En el campamento, el guía dice que el comedor está al oeste. Es de tarde.","¿Hacia dónde caminan?",[["Hacia donde se oculta el Sol",1,"¡Muy bien! El Sol se oculta por el oeste."],["Hacia donde salió el Sol",0,"Ese es el este."],["Hacia cualquier lado",0,"El Sol puede guiarnos."]]],
+ [["Norte · Sur · Este · Oeste","Sol sale: <b>este</b>. Sol se oculta: <b>oeste</b>."],["🌅 este","🌇 oeste","⬆️ norte"]],
+ ["Si miras hacia donde sale el Sol, ¿qué queda a tu izquierda?",["Miro al este.","A mi izquierda queda el norte."],"El norte."],
+ [[["yCard",8]],[["yCard",5],["xUbi",5]],[["yCard",6],["zCoord",3]]],[],"Jesús es la estrella que nos guía."),
+/* ---- Unidad 6: medida, tiempo y datos ---- */
+"2m51":DL("2m51","El metro, el decímetro y el centímetro",[
+ ["Tres medidas de longitud","<b>1 metro = 10 decímetros = 100 centímetros.</b> El metro sirve para lo grande, el centímetro para lo pequeño.",{t:"syl",x:["1 m = 10 dm","1 dm = 10 cm","1 m = 100 cm"]}],
+ ["Medir segmentos con regla","Coloca el 0 de la regla en un extremo y lee dónde termina el otro.",{t:"ruler",cm:12}]],
+ ["Medir con justicia","«No tendrán en su bolsa dos pesas distintas» (Dt 25, 13). Medir con honestidad es amar al prójimo.",{t:"emo",x:"📏 ✅"}],
+ ["La medida de la ventana","ruler","Ayudas a tu papá a medir la ventana para una cortina. Mide 1 metro y 20 centímetros.","¿Cuántos centímetros son?",[["120 cm",1,"¡Muy bien! 100 + 20."],["21 cm",0,"Un metro tiene 100 cm."],["12 cm",0,"Sería muy chiquita."]]],
+ [["<b>1 m = 100 cm · 1 m = 10 dm · 1 dm = 10 cm</b>"],["3 m = 300 cm","4 dm = 40 cm","200 cm = 2 m"]],
+ ["¿Cuántos centímetros son 2 metros y 35 centímetros?",["2 metros = 200 cm.","200 + 35 = 235."],"Son 235 cm."],
+ [[["yConv",4],["ySeg",4]],[["yConv",10]],[["yConv",6],["ySeg",4]]],[],"Medir con honestidad."),
+"2m52":DL("2m52","El kilogramo y el litro",[
+ ["El kilogramo","Para pesar usamos el <b>kilogramo</b> (kg). Un paquete de azúcar pesa 1 kg; un bebé al nacer, como 3 kg. Medio kilo es la mitad.",{t:"emo",x:"⚖️ 1 kg · ½ kg"}],
+ ["El litro","Para los líquidos usamos el <b>litro</b> (L). Un cartón de leche tiene 1 litro; un garrafón, 20 litros.",{t:"emo",x:"🥛 1 L · 🫙 20 L"}],
+ ["La balanza","Compara pesos en la balanza.",{t:"mtpeso"}]],
+ ["El aceite de la viuda","El profeta Elías le pidió a una viuda pobre que compartiera su poquito de harina y aceite. Dios hizo que nunca se le acabaran (1 Re 17). ¡Quien comparte, recibe!",{t:"emo",x:"🫙 🍞 ♾️"}],
+ ["El mandado","🛒","Tu mamá te pide 2 kilos de tortillas y 3 litros de leche.","¿Qué pides?",[["2 kg de tortillas y 3 L de leche",1,"¡Muy bien!"],["2 litros de tortillas",0,"Las tortillas se pesan."],["3 kilos de leche",0,"La leche se mide en litros."]]],
+ [["Peso: <b>kilogramo</b> (kg).","Líquidos: <b>litro</b> (L).","2 medios = 1 entero."],["1 kg = 2 medios kilos","1 L = 2 medios litros"]],
+ ["¿Cuántos medios litros de agua necesitas para llenar una jarra de 3 litros?",["Cada litro son 2 medios.","3 litros: 2 + 2 + 2."],"Necesito 6 medios litros."],
+ [[["yKg",4],["yLt",4]],[["yKg",5],["yLt",5]],[["yLt",5],["yKg",4]]],[],"Quien comparte, recibe."),
+"2m53":DL("2m53","El reloj: cuartos y minutos",[
+ ["Una hora tiene 60 minutos","La manecilla larga da una vuelta completa en 60 minutos. Cada número del reloj son 5 minutos.",{t:"mtreloj",step:5}],
+ ["Y cuarto, y media, menos cuarto","Larga en el 3: <b>y cuarto</b> (15 min). En el 6: <b>y media</b> (30 min). En el 9: <b>menos cuarto</b> (45 min).",{t:"cards",x:[["3","y cuarto"],["6","y media"],["9","menos cuarto"]]}]],
+ ["El tiempo es un regalo","«Hay un tiempo para cada cosa bajo el cielo» (Ecl 3, 1): tiempo para estudiar, para jugar, para rezar y para descansar. Usar bien el tiempo es agradecerle a Dios.",{t:"emo",x:"⏰ 🙏"}],
+ ["El horario del día","clock","Tienes de 4:00 a 4:45 para hacer la tarea y después puedes jugar.","¿Cuánto tiempo tienes para la tarea?",[["45 minutos: tres cuartos de hora",1,"¡Muy bien!"],["4 horas",0,"Son 45 minutos."],["Media hora",0,"Media hora serían 30 minutos."]]],
+ [["1 hora = 60 minutos. Cada número = 5 minutos.","y cuarto = :15 · y media = :30 · menos cuarto = :45"],["3:15 y cuarto","3:30 y media","3:45 cuarto para las 4"]],
+ ["La larga está en el 9 y la corta casi en el 6. ¿Qué hora es?",["La larga en el 9: 45 minutos.","La corta todavía no llega al 6: son las 5 y 45."],"Son las 5:45, cuarto para las 6."],
+ [[["clock2",8]],[["clock2",10]],[["clock2",6],["mins",3]]],[],"Hay un tiempo para cada cosa."),
+"2m54":DL("2m54","El calendario: días, semanas y meses",[
+ ["El calendario","Una semana tiene 7 días; un mes, 30 o 31 (febrero 28 o 29); un año, 12 meses y 365 días.",{t:"mtcal"}],
+ ["Contar días","Para saber cuántos días faltan, cuenta en el calendario desde hoy hasta la fecha: del 5 al 12 de diciembre faltan 7 días.",{t:"emo",x:"📅 5 → 12 = 7 días"}]],
+ ["El año de la Iglesia","El año litúrgico empieza con el Adviento, cuatro domingos antes de Navidad. Así la Iglesia nos ayuda a vivir cada tiempo con Jesús.",{t:"lam",id:"colores"}],
+ ["La fiesta de la Virgen","calendar","Hoy es 1 de diciembre y quieres preparar algo para el 12, día de la Virgen de Guadalupe.","¿Cuántos días tienes?",[["11 días",1,"¡Muy bien! 12 − 1 = 11."],["12 días",0,"Hoy ya es el día 1."],["1 día",0,"Faltan más días."]]],
+ [["7 días = 1 semana · 12 meses = 1 año.","Para contar días: fecha final − fecha de hoy."],["2 semanas = 14 días","diciembre: 31 días"]],
+ ["Hoy es 18 de diciembre. ¿Cuántos días faltan para Navidad?",["Navidad es el 25.","25 − 18 = 7."],"Faltan 7 días: ¡una semana!"],
+ [[["yCal",8]],[["yCal",5],["xMes",5]],[["yCal",6],["xDia",3]]],[],"El año de la Iglesia."),
+"2m55":DL("2m55","Registros, tablas y gráficas",[
+ ["Registrar datos","Para contar votos rápido hacemos <b>marcas de conteo</b>: palitos de 5 en 5. Luego pasamos los números a una <b>tabla</b>.",{t:"big",x:"<s>||||</s> <s>||||</s> ||| = 13"}],
+ ["De la tabla a la gráfica","En la <b>gráfica de barras</b> cada dato es una barra: la más alta es la que tiene más.",{t:"mtgrafica"}]],
+ ["Cuidar a cada uno","El Buen Pastor conoce a cada oveja por su nombre. Llevar registros sirve para cuidar: ¿quién falta? ¿quién necesita ayuda?",{t:"emo",x:"📋 🐑 ❤️"}],
+ ["La encuesta de la fiesta","people","El salón vota el sabor del pastel: chocolate 9, fresa 7, vainilla 4.","¿Cuántos votaron?",[["20 niños",1,"¡Muy bien! 9 + 7 + 4."],["9",0,"Ese es solo el de chocolate."],["3",0,"Hay 3 sabores, pero votaron más niños."]]],
+ [["<b>Marcas de conteo</b>: palitos de 5 en 5.","<b>Gráfica</b>: la barra más alta es la que tiene más."],["<s>||||</s> || = 7","Total = suma de todas"]],
+ ["En una gráfica, mango tiene 8, uva 5 y pera 6. ¿Cuántos más eligieron mango que uva?",["Comparo mango (8) y uva (5).","8 − 5 = 3."],"3 más."],
+ [[["yTally2",8]],[["yTally2",5],["xBars",5]],[["yTally2",5],["xPict",4]]],[],"El pastor conoce a cada oveja."),
+"2m56":DL("2m56","¿Qué tan probable es?",[
+ ["Seguro, posible e imposible","<b>Seguro</b>: siempre pasa. <b>Posible</b>: puede pasar o no. <b>Imposible</b>: nunca pasa.",{t:"cards",x:[["☀️","seguro"],["🌧️","posible"],["🐟🌳","imposible"]]}],
+ ["Experimenta","Tira el dado muchas veces y registra los resultados.",{t:"mtdados"}]],
+ ["Para Dios nada es imposible","«Para Dios nada es imposible» (Lc 1, 37). Lo que para nosotros parece imposible, Dios lo puede hacer: ¡como la Encarnación de Jesús!",{t:"photo",src:WM(IM.anunMurillo[0],800),alt:"La Anunciación",cap:"",credit:IM.anunMurillo[1],art:true}],
+ ["La rifa de la parroquia","🎟️","Compraste 1 boleto de 100 para la rifa de la parroquia.","¿Qué piensas?",[["Es posible ganar, pero poco probable; igual ayudé a la parroquia",1,"¡Muy bien! Y lo importante es ayudar."],["Seguro gano",0,"Hay 99 boletos más."],["Es imposible",0,"Es posible, aunque poco probable."]]],
+ [["Seguro · posible · imposible.","Más probable: lo que hay más."],["dado: sacar 7 → imposible","sacar un número del 1 al 6 → seguro"]],
+ ["En una bolsa hay 7 canicas azules y 2 rojas. ¿Qué es más probable sacar?",["Hay más azules que rojas."],"Es más probable sacar una azul."],
+ [[["xChance",8]],[["xChance",5],["zProbab",5]],[["zProbab",8]]],[],"Para Dios nada es imposible.")};
+/* --- Retos de unidad --- */
+Object.assign(MAT2N,{
+"2mR1":DRETO("2mR1","Reto de los números hasta el 1000","yMix2a",["Soy un número entre 400 y 500. Mis decenas son 6 y mis unidades son la mitad de 6. ¿Quién soy?",["Estoy entre 400 y 500: mis centenas son 4.","Mis decenas: 6.","Mis unidades: la mitad de 6 = 3."],"Soy el 463."],"Todo lo puedo en Cristo."),
+"2mR2":DRETO("2mR2","Reto de sumas y restas","yMix2b",["Tenía $85. Gasté $27 y luego me dieron $40. ¿Cuánto tengo?",["85 − 27 = 58.","58 + 40 = 98."],"Tengo $98."],"Todo lo puedo en Cristo."),
+"2mR3":DRETO("2mR3","Reto de multiplicar y dividir","yMix2c",["Hay 4 cajas con 6 velas. Se reparten entre 3 capillas. ¿Cuántas velas le tocan a cada capilla?",["4 × 6 = 24 velas.","24 ÷ 3 = 8."],"8 velas a cada capilla."],"Todo lo puedo en Cristo."),
+"2mR4":DRETO("2mR4","Reto de fracciones y dinero","yMix2d",["Tengo $100. Gasto la mitad en un libro y $15 en una estampa. ¿Cuánto me queda?",["La mitad de 100 es 50.","100 − 50 = 50.","50 − 15 = 35."],"Me quedan $35."],"Todo lo puedo en Cristo."),
+"2mR5":DRETO("2mR5","Reto de geometría","yMix2e",["¿Cuántos lados tienen juntos 2 cuadrados y 3 triángulos?",["2 cuadrados: 2 × 4 = 8.","3 triángulos: 3 × 3 = 9.","8 + 9 = 17."],"17 lados."],"Todo lo puedo en Cristo."),
+"2mR6":DRETO("2mR6","Reto de medida, tiempo y datos","yMix2f",["La Misa empieza a las 10:15 y dura 45 minutos. ¿A qué hora termina?",["10:15 + 45 minutos.","15 + 45 = 60 minutos = 1 hora."],"Termina a las 11:00."],"Todo lo puedo en Cristo.")});
+/* --- Pizarrón, ejemplo y niveles para las lecciones que ya existían en 2.º --- */
+const MAT2T={
+"2m1":[["10 decenas forman <b>1 centena</b> (100).","Un número de 3 cifras tiene centenas, decenas y unidades."],["300 = 3 centenas","452 = 4 C, 5 D, 2 U"],["¿Qué número tiene 6 centenas, 0 decenas y 4 unidades?",["6 centenas: 600.","0 decenas: el cero guarda el lugar.","4 unidades."],"Es el 604."],[["pv3",4],["pvw",4]],[["pvw",5],["pvd",5]],[["pvd",5],["nname3",4]]],
+"2m2":[["Compara primero las <b>centenas</b>; si son iguales, las decenas; luego las unidades."],["532 &gt; 498","716 &lt; 761"],["¿Cuál es mayor: 645 o 654?",["Centenas iguales: 6.","Decenas: 4 y 5. 5 es mayor."],"654 &gt; 645."],[["cmp1000",8]],[["cmp1000",5],["seq3",5]],[["cmp1000",5],["yNext1000",4]]],
+"2m3":[["Suma en columna desde las <b>unidades</b>.","Si una columna da 10 o más, escribe las unidades y <b>lleva</b> 1 a la siguiente."],["38 + 45 = 83","267 + 158 = 425"],["47 + 36 = ?",["Unidades: 7 + 6 = 13 → escribo 3, llevo 1.","Decenas: 4 + 3 + 1 = 8."],"47 + 36 = 83."],[["add2r",8]],[["add2r",5],["add3",5]],[["add3",6],["prob2",3]]],
+"2m4":[["Resta en columna desde las unidades.","Si arriba hay menos, <b>pide prestado</b> 1 decena = 10 unidades."],["52 − 17 = 35","80 − 34 = 46"],["63 − 28 = ?",["3 no alcanza para quitar 8: pido 1 decena → 13.","13 − 8 = 5.","5 − 2 = 3."],"63 − 28 = 35."],[["sub2r",8]],[["sub2r",6],["yChk",4]],[["sub2r",5],["prob2",4]]],
+"2m5":[["Lee, busca los datos, decide la operación, resuelve y responde."],["juntar → +","quitar → −"],["En la biblioteca había 125 libros y donaron 48. ¿Cuántos hay?",["Donaron: se agregan → suma.","125 + 48 = 173."],"Hay 173 libros."],[["prob2",8]],[["prob2",8]],[["prob2",4],["yProb2",5]]],
+"2m6":[["Multiplicar es sumar <b>grupos iguales</b>.","3 × 4 = 4 + 4 + 4."],["2 × 5 = 10","4 × 3 = 12"],["Hay 5 platos con 2 tamales cada uno. ¿Cuántos tamales?",["5 grupos de 2.","2, 4, 6, 8, 10."],"5 × 2 = 10 tamales."],[["multRep",4],["arrQ",4]],[["arrQ",5],["yIter",5]],[["yMProb2",5],["arrQ",4]]],
+"2m7":[["Tabla del 2: dobles. Del 5: terminan en 0 o 5. Del 10: agrega un 0."],["2 × 7 = 14","5 × 6 = 30","10 × 8 = 80"],["¿Cuánto es 5 × 7?",["Cuento de 5 en 5, 7 veces.","5, 10, 15, 20, 25, 30, 35."],"5 × 7 = 35."],[["mult",8]],[["mult",10]],[["mult",6],["yMProb2",3]]],
+"2m8":[["Tabla del 3: 3, 6, 9, 12… Tabla del 4: el doble del doble."],["3 × 6 = 18","4 × 7 = 28"],["¿Cuánto es 4 × 6?",["El doble de 6 es 12.","El doble de 12 es 24."],"4 × 6 = 24."],[["mult",8]],[["yTabla",10,4]],[["yTabla",6,4],["yMProb2",4]]],
+"2m9":[["Repartir: dar uno a cada uno por turnos hasta que se acaben.","La mitad es repartir en 2."],["12 entre 3 = 4","½ de 16 = 8"],["Reparte 20 panes entre 5 familias.",["Doy uno a cada familia: 5. Otra vuelta: 10. 15. 20.","Fueron 4 vueltas."],"A cada familia le tocan 4 panes."],[["share",5],["half",3]],[["share",5],["yDiv2",5]],[["yDiv2",5],["yDProb2",4]]],
+"2m10":[["½: 2 partes iguales. ¼: 4 partes iguales.","2 cuartos = 1 medio."],["½ + ½ = 1","¼ + ¼ = ½"],["Si te comes ¾ de una pizza, ¿cuánto queda?",["La pizza entera son 4 cuartos.","4 − 3 = 1 cuarto."],"Queda ¼."],[["frac",5],["half",3]],[["frac",5],["yFrac2",5]],[["yFrac2",5],["yFracOf2",4]]],
+"2m11":[["El <b>metro</b> para lo grande, el <b>centímetro</b> para lo pequeño.","1 m = 100 cm."],["un salón: metros","un lápiz: centímetros"],["Un listón mide 1 m y otro 85 cm. ¿Cuánto más largo es el primero?",["1 m = 100 cm.","100 − 85 = 15."],"15 cm más largo."],[["ruler",8]],[["ruler",5],["yConv",5]],[["yConv",5],["ySeg",4]]],
+"2m12":[["Peso: kilogramo. Líquidos: litro."],["1 kg de frijol","1 L de leche"],["¿Cuántos kilos pesan 4 bolsas de medio kilo?",["2 medios = 1 kilo.","4 medios = 2 kilos."],"Pesan 2 kg."],[["yKg",4],["yLt",4]],[["yKg",5],["yLt",5]],[["yKg",4],["yLt",4]]],
+"2m13":[["Larga en el 12: en punto · en el 3: y cuarto · en el 6: y media · en el 9: menos cuarto."],["8:15","8:30","8:45"],["El catecismo empieza a las 4:30 y dura una hora. ¿A qué hora termina?",["4:30 + 1 hora."],"A las 5:30."],[["clock2",8]],[["clock2",5],["yCal",5]],[["clock2",5],["mins",3]]],
+"2m14":[["Cuenta de la moneda o billete de más valor a la de menos.","Cambio = pago − precio."],["$50 + $20 + $5 = $75","$100 − $68 = $32"],["Compras un libro de $73 con $100. ¿Cambio?",["73 → 80: 7.","80 → 100: 20.","7 + 20 = 27."],"El cambio es $27."],[["money2",5],["change",3]],[["change",5],["yMoney2",5]],[["yMoney2",5],["yProb2",3]]],
+"2m15":[["Figuras: lados y vértices. Cuerpos: caras.","Simétrica: dos mitades iguales."],["🔺 3 lados","🧊 6 caras","🦋 simétrica"],["¿Cuántos vértices tienen juntos un triángulo y un cuadrado?",["Triángulo: 3.","Cuadrado: 4.","3 + 4 = 7."],"7 vértices."],[["sides",5],["xSym",3]],[["sides",4],["xFaces",4],["xSym",2]],[["yQuad",4],["xFaces",4]]],
+"2m16":[["Tabla: ordena los datos. Gráfica: la barra más alta es la que tiene más."],["Fútbol 8","Cuerda 5"],["Votaron: fútbol 8, cuerda 5, escondidas 6. ¿Cuántos votaron?",["8 + 5 = 13.","13 + 6 = 19."],"Votaron 19 niños."],[["xBars",5],["xPict",3]],[["yTally2",5],["xBars",5]],[["yTally2",5],["xPict",4]]]};
+(function(){const s=SUBJ.find(x=>x.id==="2mat");if(!s)return;const by={};s.units.forEach(u=>u.ls.forEach(l=>by[l.id]=l));Object.assign(by,MAT2N);
+ for(const[id,[rr,ee,ps,l1,l2,l3]]of Object.entries(MAT2T)){const l=by[id];if(!l)continue;const k0=l.learn.findIndex(p=>p.fe||p.info||(p.v&&p.v.t==="vida"));const k=k0<0?l.learn.length:k0;l.learn.splice(k,0,P("Pizarrón: lo más importante","",{t:"piz",r:rr,e:ee}),P("Ejemplo resuelto, paso a paso","",{t:"paso",q:ps[0],s:ps[1],r:ps[2]}));l.lv=[l1,l2,l3]}
+ const U=[["Los números hasta el 1000",["2m1","2m17","2m18","2m19","2m20","2m21","2m2","2m22","2m23","2m24","2mR1"]],["Sumamos y restamos",["2m25","2m26","2m27","2m28","2m3","2m29","2m30","2m4","2m31","2m5","2m32","2mR2"]],["Multiplicar y dividir",["2m6","2m33","2m7","2m8","2m34","2m35","2m36","2m9","2m37","2m38","2mR3"]],["Fracciones y dinero",["2m10","2m39","2m40","2m14","2m41","2m42","2mR4"]],["Geometría",["2m43","2m44","2m15","2m45","2m46","2m47","2m48","2m49","2m50","2mR5"]],["Medida, tiempo y datos",["2m11","2m51","2m12","2m52","2m13","2m53","2m54","2m16","2m55","2m56","2mR6"]]];
+ s.units=U.map(([t,ids])=>({t,ls:ids.map(i=>by[i]).filter(Boolean)}));s.d="Números hasta el 1000, igualdades, series, ordinales y romanos; suma y resta con transformación; multiplicación y división; fracciones; dinero; geometría; medidas; tiempo; datos y probabilidad. Cada lección tiene pizarrón, ejemplo resuelto y 3 niveles.";})();
+/* ========= Matemáticas 3.º a profundidad (diseño propio, continúa Alfa 1 y 2 y SEP) ========= */
+const MAT3N={
+/* ---- U1 Números hasta el 10 000 ---- */
+"3m13":DL("3m13","Valor posicional hasta el 10 000",[
+ ["Cuatro lugares","Un número como 4 735 tiene <b>unidades de millar</b> (4 000), <b>centenas</b> (700), <b>decenas</b> (30) y <b>unidades</b> (5).",{t:"cards",x:[["4","UM = 4 000"],["7","C = 700"],["3","D = 30"],["5","U = 5"]]}],
+ ["En el ábaco","10 centenas forman 1 millar. Forma números de cuatro cifras.",{t:"mtabaco",k:4}]],
+ ["Miles de ángeles","La Biblia dice que «miles de millares» de ángeles sirven a Dios (Dn 7, 10). ¡Son tantos que no se pueden contar, y todos alaban al Señor!",{t:"photo",src:WM(IM.arcangeles[0],800),alt:"Los arcángeles",cap:"",credit:IM.arcangeles[1],art:true}],
+ ["La peregrinación a la Basílica","⛪","Te dicen que a la peregrinación fueron 3 058 personas y tu amigo lee «trescientos cincuenta y ocho».","¿Qué le dices?",[["Que el 3 está en los millares: son tres mil cincuenta y ocho",1,"¡Muy bien! El lugar de cada cifra importa."],["Nada",0,"Ayudarle a leer bien es un favor."],["Que lea solo los dos primeros",0,"Hay que leer todas las cifras."]]],
+ [["UM × 1000 · C × 100 · D × 10 · U × 1","El <b>0</b> guarda el lugar vacío."],["6 042: 6 UM, 0 C, 4 D, 2 U","el 6 vale 6 000"]],
+ ["¿Cuánto vale el 8 en 5 813?",["El 8 está en las centenas.","8 × 100."],"Vale 800."],
+ [[["zPV4",8]],[["zPV4",5],["pv4w",5]],[["zPV4",5],["nname4",4]]],[],"Miles de millares alaban a Dios."),
+"3m14":DL("3m14","Descomponer y componer números",[
+ ["Notación desarrollada","7 386 = 7 000 + 300 + 80 + 6. También: 7 × 1000 + 3 × 100 + 8 × 10 + 6.",{t:"steps",x:["7 UM = 7 000","3 C = 300","8 D = 80","6 U = 6"]}],
+ ["Otras formas","Un número se puede descomponer de muchas formas: 2 500 = 2 000 + 500 = 25 centenas = 250 decenas.",{t:"syl",x:["2 500 = 2 000 + 500","= 25 centenas","= 250 decenas"]}]],
+ ["Muchos miembros, un cuerpo","«Así como el cuerpo es uno y tiene muchos miembros…, así también Cristo» (1 Cor 12, 12). Un número está formado por muchas partes; la Iglesia, por muchas personas unidas.",{t:"emo",x:"🧩🧩🧩 = ⛪"}],
+ ["La colecta grande","💵","Para el comedor de la parroquia se juntaron 4 billetes de $1 000, 2 de $100 y 5 monedas de $10.","¿Cuánto se juntó?",[["$4 250",1,"¡Muy bien! 4 000 + 200 + 50."],["$425",0,"Los billetes de $1 000 son millares."],["$11",0,"Cada billete vale distinto."]]],
+ [["Número = UM + C + D + U.","Se puede descomponer de varias formas."],["9 204 = 9 000 + 200 + 4","3 600 = 36 centenas"]],
+ ["Compón: 5 000 + 60 + 9",["No hay centenas: escribo 0.","5 UM, 0 C, 6 D, 9 U."],"Es el 5 069."],
+ [[["zExp4",8]],[["zExp4",10]],[["zExp4",5],["zPV4",4]]],[],"Muchos miembros, un solo cuerpo."),
+"3m15":DL("3m15","La recta numérica hasta el 10 000",[
+ ["Saltos de 1000","En una recta de millares, cada rayita vale 1 000: 0, 1 000, 2 000…",{t:"mline",a:0,st:1000,m:-1,all:1}],
+ ["Rectas con otros saltos","Siempre mira primero de cuánto en cuánto van las marcas: pueden ir de 50, de 100 o de 1 000.",{t:"mline",a:4000,st:100,m:-1,all:0}]],
+ ["El camino a la meta","San Pablo dice: «Corro hacia la meta» (Flp 3, 14). En la recta numérica avanzamos hacia números grandes; en la vida, hacia el Cielo.",{t:"emo",x:"🏃 → 🏁 → ☁️"}],
+ ["La carretera","🚗","Viajan a ver a los abuelos que viven en el kilómetro 3 000. Van en el 2 400.","¿Cuánto falta?",[["600 km",1,"¡Muy bien!"],["2 400 km",0,"Ese es lo recorrido."],["5 400 km",0,"Eso sería sumar."]]],
+ [["Mira cuánto vale cada rayita.","Cuenta desde el número de la orilla."],["0, 1 000, 2 000…","4 500 está entre 4 000 y 5 000"]],
+ ["Una recta va de 100 en 100 empezando en 6 000. La flecha está en la 7.ª rayita. ¿Qué número es?",["Cada rayita: 100.","7 × 100 = 700.","6 000 + 700."],"Es el 6 700."],
+ [[["zLine",8]],[["zLine",10]],[["zLine",6],["round",4]]],[],"Corro hacia la meta."),
+"3m16":DL("3m16","Series numéricas y patrones",[
+ ["Series de todo tipo","Las series pueden crecer de 25 en 25, de 250 en 250, de 1 000 en 1 000… o bajar.",{t:"seq",x:[250,500,750,1000,1250]}],
+ ["Descubre la regla","Resta dos números seguidos para encontrar la regla: 1 300, 1 200, 1 100 → la regla es −100.",{t:"mtserie",st:"25,50,100,250",back:1}]],
+ ["Setenta veces siete","Pedro preguntó cuántas veces perdonar. Jesús respondió: «setenta veces siete» (Mt 18, 22), es decir, ¡siempre! El perdón no tiene fin, como una serie que sigue y sigue.",{t:"emo",x:"🤝 70 × 7 = ∞"}],
+ ["El ahorro para las misiones","🪙","Cada mes tu familia aparta $250 para las misiones.","¿Cuánto llevan en 6 meses?",[["$1 500",1,"¡Muy bien! 250, 500, 750, 1 000, 1 250, 1 500."],["$256",0,"Es cada mes $250."],["$2 500",0,"Cuenta otra vez de 250 en 250."]]],
+ [["Busca la <b>regla</b>: ¿cuánto cambia?","Puede sumar o restar."],["75, 100, 125 → +25","9 000, 8 500, 8 000 → −500"]],
+ ["Completa: 2 750, 3 000, 3 250, ▢",["La regla es +250.","3 250 + 250."],"Falta el 3 500."],
+ [[["zSer",8]],[["zSer",10]],[["zSer",8]]],[],"Perdonar siempre."),
+"3m17":DL("3m17","Múltiplos: par, impar y más",[
+ ["Números pares e impares","Los <b>pares</b> terminan en 0, 2, 4, 6, 8 (son múltiplos de 2). Los <b>impares</b> terminan en 1, 3, 5, 7, 9.",{t:"cards",x:[["2 4 6 8","pares"],["1 3 5 7 9","impares"]]}],
+ ["Múltiplos","Los múltiplos de un número son los resultados de su tabla: los de 5 terminan en 0 o 5; los de 10, en 0; los de 3, en 3, 6, 9, 12, 15…",{t:"mttabla",op:"×",n:10}]],
+ ["Los doce apóstoles","Jesús escogió a 12 apóstoles. El 12 es múltiplo de 2, 3, 4 y 6: ¡se pueden formar grupos parejos de muchas formas, como Jesús los envió de dos en dos!",{t:"photo",src:WM(IM.apostoles[0],800),alt:"Los apóstoles",cap:"",credit:IM.apostoles[1],art:true}],
+ ["Los equipos del catecismo","👥","Son 24 niños en el catecismo y la catequista quiere grupos iguales.","¿Qué grupos se pueden hacer?",[["De 2, 3, 4, 6, 8 o 12: el 24 es múltiplo de todos",1,"¡Muy bien!"],["Solo de 5",0,"24 no es múltiplo de 5."],["No se puede",0,"Sí se puede de muchas formas."]]],
+ [["<b>Múltiplo</b> de un número: está en su tabla.","Pares: terminan en 0, 2, 4, 6, 8."],["35: múltiplo de 5 y 7","48: par"]],
+ ["¿Es 42 múltiplo de 6?",["Busco en la tabla del 6: 6 × 7 = 42."],"Sí, 42 es múltiplo de 6."],
+ [[["xPar",4],["zMul",4]],[["zMul",10]],[["zMul",8]]],[],"Doce apóstoles."),
+"3m18":DL("3m18","Números romanos hasta el C",[
+ ["Más letras","I = 1, V = 5, X = 10, <b>L = 50</b>, <b>C = 100</b>. XL = 40, XC = 90, LX = 60.",{t:"mtromano",max:100}],
+ ["Reglas","Una letra se repite hasta 3 veces (XXX = 30). Una menor antes de una mayor resta (IV, IX, XL, XC).",{t:"cards",x:[["XXX","30"],["XL","40"],["LXX","70"],["XC","90"]]}]],
+ ["Los papas","Los papas usan números romanos: Juan Pablo <b>II</b>, Benedicto <b>XVI</b>, León <b>XIV</b>. Desde san Pedro, la Iglesia ha tenido más de 260 papas.",{t:"emo",x:"⛪ II · XVI · XIV"}],
+ ["El reloj de la torre","🕰️","El reloj de la iglesia tiene números romanos y tu primo no sabe leerlo.","¿Qué haces?",[["Le explico: I es 1, V es 5, X es 10, y le enseño a leerlo",1,"¡Muy bien! Enseñar es una obra de misericordia."],["Me burlo",0,"Mejor ayúdalo."],["Le digo que es muy difícil",0,"Es fácil con las reglas."]]],
+ [["I 1 · V 5 · X 10 · L 50 · C 100","Hasta 3 iguales; menor antes de mayor resta."],["XLV = 45","LXXX = 80","XCIX = 99"]],
+ ["¿Qué número es LXIV?",["L = 50.","X = 10.","IV = 4.","50 + 10 + 4."],"LXIV = 64."],
+ [[["yRoman",8,50]],[["zRom",10]],[["zRom",8]]],[],"Los sucesores de Pedro."),
+/* ---- U2 Suma y resta ---- */
+"3m19":DL("3m19","Sumas con números de cuatro cifras",[
+ ["En columnas","Acomoda unidades bajo unidades, decenas bajo decenas… y suma de derecha a izquierda, llevando cuando haga falta.",{t:"vert",a:2847,b:3586,op:"+"}],
+ ["Practica","Escribe tú los números.",{t:"vert",a:4568,b:2795,op:"+",hide:1}]],
+ ["Sumar esfuerzos","«Dos valen más que uno» (Ecl 4, 9). Cuando la familia suma esfuerzos, el trabajo sale mejor y con alegría.",{t:"emo",x:"🤝 + 🤝 = 💪"}],
+ ["La rifa del templo","🎟️","En la rifa se vendieron $3 475 el sábado y $2 890 el domingo.","¿Cuánto se juntó?",[["$6 365",1,"¡Muy bien!"],["$5 265",0,"No olvides lo que llevas."],["$585",0,"Hay que sumar."]]],
+ [["Acomoda bien las columnas.","Suma de las unidades hacia la izquierda y <b>lleva</b>."],["2 847 + 3 586 = 6 433"]],
+ ["1 568 + 2 754",["U: 8 + 4 = 12, llevo 1.","D: 6 + 5 + 1 = 12, llevo 1.","C: 5 + 7 + 1 = 13, llevo 1.","UM: 1 + 2 + 1 = 4."],"4 322."],
+ [[["add4",8]],[["zAdd4",8]],[["zAdd4",5],["zProb",4]]],[],"Dos valen más que uno."),
+"3m20":DL("3m20","Restas con ceros y comprobación",[
+ ["Restar con ceros","En 3 000 − 1 247, como no hay unidades, decenas ni centenas, se pide prestado desde los millares: 3 000 = 2 millares, 9 centenas, 9 decenas y 10 unidades.",{t:"vert",a:3000,b:1247,op:"−"}],
+ ["Comprobar","Suma el resultado y lo que restaste: debe dar el primer número. 1 753 + 1 247 = 3 000 ✓",{t:"big",x:"1 753 + 1 247 = 3 000 ✓"}],
+ ["Practica","Resuelve la resta.",{t:"vert",a:5004,b:2368,op:"−",hide:1}]],
+ ["Revisar la conciencia","Antes de dormir, podemos revisar el día con Jesús, como comprobamos una resta: ¿qué hice bien? ¿qué puedo mejorar? Y pedimos perdón.",{t:"emo",x:"🌙 🔍 🙏"}],
+ ["El presupuesto de la fiesta","📝","Para la fiesta patronal hay $5 000 y gastaron $3 275.","¿Cuánto queda?",[["$1 725, y lo compruebo: 1 725 + 3 275 = 5 000",1,"¡Muy bien!"],["$2 735",0,"Comprueba con la suma."],["$8 275",0,"Eso sería sumar."]]],
+ [["Si hay ceros, pide prestado desde el lugar que sí tiene.","<b>Comprueba</b> sumando."],["4 000 − 1 586 = 2 414","2 414 + 1 586 = 4 000 ✓"]],
+ ["2 000 − 865",["2 000 = 1 UM, 9 C, 9 D, 10 U.","10 − 5 = 5; 9 − 6 = 3; 9 − 8 = 1; 1 − 0 = 1."],"1 135."],
+ [[["sub4",8]],[["zSub4",8]],[["zSub4",6],["zProb",3]]],[],"Revisa tu día con Jesús."),
+"3m21":DL("3m21","Estimar y redondear",[
+ ["Redondear","Para redondear a las centenas, mira las decenas: si son 5 o más, sube; si no, se queda. 368 → 400; 342 → 300.",{t:"mline",a:300,st:10,m:-1,all:0}],
+ ["Estimar","Antes de sumar, estima: 412 + 289 ≈ 400 + 300 = 700. Así sabes si tu resultado tiene sentido.",{t:"steps",x:["412 ≈ 400","289 ≈ 300","400 + 300 = 700","Exacto: 701 ✓"]}]],
+ ["Prudencia","La prudencia es pensar antes de actuar. Estimar es una forma de ser prudentes con los números: antes de gastar, calcula si te alcanza.",{t:"photo",src:WM(IM.prudencia[0],800),alt:"La prudencia",cap:"",credit:IM.prudencia[1],art:true}],
+ ["En el súper","🛒","Llevas $500 y en el carrito hay cosas de $189, $162 y $178.","¿Te alcanza?",[["Estimo: 200 + 200 + 200 = 600, quizá no. Sumo: $529, no alcanza",1,"¡Muy bien! Estimar ayuda a decidir."],["Seguro sí",0,"Mejor estimar antes de pasar a la caja."],["No sé",0,"Redondea y suma."]]],
+ [["Redondeo: 5 o más sube; 4 o menos se queda.","Estimar = calcular con números redondos."],["2 680 → 2 700","4 349 → 4 300"]],
+ ["Estima 587 + 214 redondeando a centenas.",["587 ≈ 600.","214 ≈ 200.","600 + 200."],"Aproximadamente 800."],
+ [[["round",8]],[["round",4],["zEst",6]],[["zEst",8]]],[],"Piensa antes de actuar."),
+"3m22":DL("3m22","Problemas de suma y resta",[
+ ["Lee y decide","Agregar, juntar → suma. Quitar, comparar, cuánto falta → resta. Algunos problemas necesitan las dos.",{t:"cards",x:[["➕","juntar, agregar"],["➖","quitar, cuánto falta, cuánto más"]]}],
+ ["Problemas de comparar","«Pedro tiene 1 250 y Ana 875. ¿Cuánto más tiene Pedro?» → 1 250 − 875 = 375.",{t:"bars",rows:[["Pedro",12],["Ana",9]]}]],
+ ["Los talentos","En la parábola, un siervo recibió 5 talentos y ganó 5 más: 5 + 5 = 10. Dios nos pide hacer rendir lo que nos dio (Mt 25, 20).",{t:"emo",x:"🪙×5 + 🪙×5 = 🪙×10"}],
+ ["El viaje a la Basílica","🚌","Para ir a la Basílica rentan un autobús de $4 500. Ya juntaron $2 875.","¿Cuánto falta?",[["$1 625",1,"¡Muy bien!"],["$7 375",0,"Eso sería sumar."],["$2 375",0,"Revisa la resta."]]],
+ [["Lee dos veces, subraya los datos, decide, resuelve y <b>revisa</b>."],["juntar → +","cuánto falta → −"]],
+ ["En la escuela hay 1 348 alumnos. 586 son niñas. ¿Cuántos niños hay?",["Total menos niñas.","1 348 − 586."],"Hay 762 niños."],
+ [[["prob3",8]],[["prob3",4],["zProb",6]],[["zProb",8]]],[],"Haz rendir tus talentos."),
+/* ---- U3 Multiplicación ---- */
+"3m23":DL("3m23","Propiedades de la multiplicación",[
+ ["Conmutativa","El orden de los factores no cambia el producto: 6 × 8 = 8 × 6 = 48.",{t:"area",r:6,c:8}],
+ ["Asociativa y distributiva","(2 × 3) × 4 = 2 × (3 × 4) = 24. Y 7 × 12 = 7 × 10 + 7 × 2 = 70 + 14 = 84: ¡partir el número ayuda!",{t:"steps",x:["7 × 12","= 7 × 10 + 7 × 2","= 70 + 14","= 84"]}]],
+ ["Dios multiplica","«El que siembra con generosidad, cosechará con generosidad» (2 Cor 9, 6). Un grano de trigo da muchas espigas.",{t:"photo",src:WM(IM.sembrador[0],800),alt:"El sembrador",cap:"",credit:IM.sembrador[1],art:true}],
+ ["El truco del compañero","✏️","Tu compañero no se sabe 8 × 7 pero sí 7 × 8.","¿Qué le dices?",[["Que es lo mismo: el orden no cambia el producto, 56",1,"¡Muy bien!"],["Que se copie",0,"Mejor ayúdale a entender."],["Que no tiene remedio",0,"Todos podemos aprender."]]],
+ [["a × b = b × a","Partir un factor ayuda: 6 × 14 = 6 × 10 + 6 × 4."],["9 × 4 = 4 × 9","5 × 13 = 50 + 15 = 65"]],
+ ["Calcula 8 × 15 partiendo el 15.",["15 = 10 + 5.","8 × 10 = 80; 8 × 5 = 40.","80 + 40."],"120."],
+ [[["zProps",8]],[["zProps",6],["multAll",4]],[["zProps",5],["zMul2",4]]],[],"Siembra con generosidad."),
+"3m24":DL("3m24","Multiplicar por 10, 100 y 1000",[
+ ["Agregar ceros","× 10 agrega un cero; × 100, dos; × 1000, tres. 34 × 10 = 340; 34 × 100 = 3 400.",{t:"syl",x:["34 × 10 = 340","34 × 100 = 3 400","7 × 1000 = 7 000"]}],
+ ["Con decenas","40 × 6: 4 × 6 = 24 y agrego el cero: 240.",{t:"big",x:"40 × 6 = 240"}]],
+ ["El ciento por uno","«Recibirá cien veces más» (Mc 10, 30). ¡Dios es tan generoso que multiplica por cien lo que le damos!",{t:"emo",x:"❤️ × 100"}],
+ ["Las cajas de veladoras","🕯️","Para el 12 de diciembre llegan 30 cajas con 100 veladoras cada una.","¿Cuántas veladoras son?",[["3 000",1,"¡Muy bien! 30 × 100."],["130",0,"Eso sería sumar."],["300",0,"Revisa los ceros."]]],
+ [["× 10: un cero · × 100: dos · × 1000: tres.","Decenas: multiplica sin el cero y agrégalo."],["25 × 100 = 2 500","60 × 7 = 420"]],
+ ["¿Cuánto es 300 × 8?",["3 × 8 = 24.","Agrego los dos ceros."],"2 400."],
+ [[["zX10",8]],[["zX10",10]],[["zX10",6],["zMProb",3]]],[],"Cien veces más."),
+"3m25":DL("3m25","Multiplicar con transformación",[
+ ["Llevar en la multiplicación","Para 47 × 6: 7 × 6 = 42, escribo 2 y llevo 4. 4 × 6 = 24, más 4 = 28. Resultado: 282.",{t:"vert",a:47,b:6,op:"×"}],
+ ["Practica","Hazlo tú.",{t:"vert",a:68,b:7,op:"×",hide:1}]],
+ ["Paciencia","San Francisco de Sales decía: «Ten paciencia con todos, pero sobre todo contigo mismo». Si te equivocas al llevar, respira y vuelve a intentar.",{t:"emo",x:"😌 ✏️ 🔁"}],
+ ["Los boletos del festival","🎫","Cada boleto cuesta $35 y tu familia compra 6.","¿Cuánto pagan?",[["$210",1,"¡Muy bien! 35 × 6."],["$41",0,"Eso es sumar."],["$180",0,"No olvides lo que llevas."]]],
+ [["Multiplica las unidades, escribe y <b>lleva</b>.","Multiplica las decenas y suma lo que llevaste."],["47 × 6 = 282","58 × 4 = 232"]],
+ ["36 × 8",["6 × 8 = 48: escribo 8, llevo 4.","3 × 8 = 24, + 4 = 28."],"288."],
+ [[["mult2x1",8]],[["zMul2",8]],[["zMul2",5],["zMul3",4]]],[],"Ten paciencia contigo."),
+"3m26":DL("3m26","Multiplicar números de tres cifras",[
+ ["Tres lugares","Para 243 × 4: unidades (12, llevo 1), decenas (16 + 1 = 17, llevo 1), centenas (8 + 1 = 9). Resultado: 972.",{t:"vert",a:243,b:4,op:"×"}],
+ ["Practica","Hazlo tú.",{t:"vert",a:315,b:6,op:"×",hide:1}]],
+ ["Las bodas de Caná","Jesús convirtió el agua en vino en seis tinajas de unos 100 litros cada una (Jn 2). ¡Unos 600 litros de vino para la fiesta!",{t:"photo",src:WM(IM.cana[0],800),alt:"Bodas de Caná",cap:"",credit:IM.cana[1],art:true}],
+ ["Los cuadernos para la escuela rural","📒","Tu escuela regala 125 cuadernos a cada una de 4 escuelas rurales.","¿Cuántos cuadernos son?",[["500",1,"¡Muy bien! 125 × 4."],["129",0,"Eso es sumar."],["4 125",0,"Hay que multiplicar."]]],
+ [["Multiplica unidades, decenas y centenas, en ese orden.","Suma siempre lo que llevas."],["243 × 4 = 972","125 × 8 = 1 000"]],
+ ["312 × 3",["2 × 3 = 6.","1 × 3 = 3.","3 × 3 = 9."],"936."],
+ [[["zMul3",8]],[["zMul3",10]],[["zMul3",6],["zMProb",4]]],[],"Agua convertida en vino."),
+"3m27":DL("3m27","Problemas de multiplicación y arreglos",[
+ ["¿Cuándo multiplico?","Cuando hay grupos iguales, filas iguales o un precio que se repite.",{t:"area",r:5,c:9}],
+ ["Combinar","Con 3 playeras y 4 pantalones se pueden formar 3 × 4 = 12 combinaciones.",{t:"emo",x:"👕👕👕 × 👖👖👖👖 = 12"}]],
+ ["La pesca milagrosa","Después de la Resurrección, Jesús les dijo a los apóstoles dónde echar la red y sacaron 153 peces grandes (Jn 21, 11). ¡Dios llena nuestras redes cuando le obedecemos!",{t:"emo",x:"🎣 🐟 × 153"}],
+ ["Las sillas del salón","🪑","El salón parroquial tiene 12 filas de 15 sillas. Vienen 170 personas.","¿Alcanza?",[["Sí: hay 180 sillas, sobran 10",1,"¡Muy bien! 12 × 15 = 180."],["No",0,"Calcula 12 × 15."],["Justas",0,"Sobran algunas."]]],
+ [["Grupos iguales, filas, precios repetidos → <b>multiplica</b>.","Combinaciones: multiplica las opciones."],["8 filas × 12 = 96","3 sopas × 2 guisados = 6 menús"]],
+ ["Un paquete tiene 24 estampas. ¿Cuántas hay en 7 paquetes?",["24 × 7.","4 × 7 = 28, llevo 2. 2 × 7 = 14 + 2 = 16."],"168 estampas."],
+ [[["zArr",8]],[["zMProb",8]],[["zMProb",6],["zProb",4]]],[],"Dios llena las redes."),
+/* ---- U4 División ---- */
+"3m28":DL("3m28","Multiplicación y división: hermanas",[
+ ["Familias de operaciones","Con 6, 7 y 42: 6 × 7 = 42, 7 × 6 = 42, 42 ÷ 6 = 7, 42 ÷ 7 = 6.",{t:"syl",x:["6 × 7 = 42","42 ÷ 6 = 7","42 ÷ 7 = 6"]}],
+ ["Usa la tabla","Para dividir 56 ÷ 8, busca en la tabla del 8 qué número da 56: 8 × 7 = 56.",{t:"mttabla",op:"×",n:10}]],
+ ["La Sagrada Familia","Jesús, María y José formaban una familia unida. Las operaciones también son familia: se ayudan una a la otra.",{t:"photo",src:WM(IM.natividad[0],800),alt:"La Sagrada Familia",cap:"",credit:IM.natividad[1],art:true}],
+ ["Repartir las galletas","🍪","Hay 48 galletas para 8 niños.","¿Cuántas le tocan a cada uno?",[["6, porque 8 × 6 = 48",1,"¡Muy bien!"],["8",0,"8 × 8 = 64."],["40",0,"Eso es restar."]]],
+ [["Si a × b = c, entonces c ÷ a = b.","Para dividir, busca en la tabla."],["63 ÷ 9 = 7","9 × 7 = 63"]],
+ ["¿Cuánto es 54 ÷ 6?",["Busco en la tabla del 6: 6 × 9 = 54."],"54 ÷ 6 = 9."],
+ [[["div",8]],[["zDivT",5],["zDivG",5]],[["zDivT",8]]],[],"Una familia unida."),
+"3m29":DL("3m29","Divisiones con residuo",[
+ ["Lo que sobra","Si repartes 23 dulces entre 5 niños, a cada uno le tocan 4 y <b>sobran 3</b>. El 3 es el <b>residuo</b>.",{t:"mtrepartir",n:23,k:5}],
+ ["Las partes de la división","Dividendo ÷ divisor = cociente, y sobra el residuo. Comprueba: 5 × 4 + 3 = 23.",{t:"cards",x:[["23","dividendo"],["5","divisor"],["4","cociente"],["3","residuo"]]}]],
+ ["Las sobras","Después de que Jesús multiplicó los panes, mandó recoger lo que sobró «para que nada se pierda» (Jn 6, 12). ¡No desperdiciemos!",{t:"photo",src:WM(IM.panes[0],800),alt:"Los panes",cap:"",credit:IM.panes[1],art:true}],
+ ["Los equipos de fútbol","⚽","Hay 39 niños y cada equipo es de 7.","¿Qué pasa?",[["Salen 5 equipos y sobran 4: los invitamos a formar otro equipo o rotar",1,"¡Muy bien! Nadie se queda fuera."],["Los 4 se van a su casa",0,"Busquen una forma de incluirlos."],["Salen 6 equipos",0,"6 × 7 = 42."]]],
+ [["El residuo siempre es <b>menor</b> que el divisor.","Comprueba: divisor × cociente + residuo = dividendo."],["29 ÷ 4 = 7, sobra 1","4 × 7 + 1 = 29 ✓"]],
+ ["38 ÷ 6",["6 × 6 = 36, cabe 6 veces.","38 − 36 = 2."],"Cociente 6, residuo 2."],
+ [[["divRem",8]],[["zDivR",10]],[["zDivR",8]]],[],"Que nada se pierda."),
+"3m30":DL("3m30","La división en la galera",[
+ ["Dividir números grandes","Para 84 ÷ 4: primero las decenas: 8 ÷ 4 = 2. Luego las unidades: 4 ÷ 4 = 1. Resultado: 21.",{t:"steps",x:["8 decenas ÷ 4 = 2 decenas","4 unidades ÷ 4 = 1","84 ÷ 4 = 21"]}],
+ ["Con residuo intermedio","Para 72 ÷ 3: 7 ÷ 3 = 2 y sobra 1 decena; 1 decena + 2 = 12; 12 ÷ 3 = 4. Resultado: 24.",{t:"steps",x:["7 ÷ 3 = 2, sobra 1","bajo el 2: 12","12 ÷ 3 = 4","72 ÷ 3 = 24"]}]],
+ ["Orden y paciencia","La división se hace con orden, paso a paso. Así también la vida cristiana: un día a la vez, con la gracia de Dios.",{t:"emo",x:"1️⃣ 2️⃣ 3️⃣ 🙏"}],
+ ["El reparto de la despensa","📦","Hay 96 latas para repartir en 4 familias.","¿Cuántas a cada una?",[["24",1,"¡Muy bien! 96 ÷ 4."],["23",0,"Comprueba: 4 × 24 = 96."],["92",0,"Eso es restar."]]],
+ [["Divide de <b>izquierda a derecha</b>: primero decenas, luego unidades.","Lo que sobra se junta con la cifra siguiente."],["84 ÷ 4 = 21","72 ÷ 3 = 24","96 ÷ 8 = 12"]],
+ ["75 ÷ 5",["7 ÷ 5 = 1, sobran 2.","Bajo el 5: 25.","25 ÷ 5 = 5."],"15."],
+ [[["zDivL",6],["div",3]],[["zDivL",10]],[["zDivL",6],["zDProb",4]]],[],"Un día a la vez."),
+"3m31":DL("3m31","Problemas de división",[
+ ["Repartir o agrupar","Si preguntan cuánto le toca a cada uno o cuántos grupos salen, divide. Fíjate qué hacer con lo que sobra.",{t:"cards",x:[["👦👧","¿cuánto a cada uno?"],["📦","¿cuántos grupos?"],["➕","¿qué hago con lo que sobra?"]]}],
+ ["¿Qué hago con el residuo?","Si 30 personas van en coches de 4, salen 7 coches y sobran 2 personas: ¡se necesita <b>otro coche</b>, son 8!",{t:"emo",x:"🚗×7 + 🚗 = 8"}]],
+ ["Compartir con justicia","«El que tenga dos túnicas, que dé una al que no tiene» (Lc 3, 11). Repartir con justicia es parte de seguir a Jesús.",{t:"photo",src:WM(IM.martin[0],800),alt:"San Martín",cap:"",credit:IM.martin[1],art:true}],
+ ["Los coches para la peregrinación","🚗","Van 30 personas y en cada coche caben 4.","¿Cuántos coches se necesitan?",[["8 coches: salen 7 y sobran 2 personas",1,"¡Muy bien! Nadie se queda."],["7 coches",0,"Quedarían 2 personas sin coche."],["120",0,"Eso sería multiplicar."]]],
+ [["Divide y piensa qué significa el residuo.","A veces hay que agregar uno más."],["30 ÷ 4 = 7 r 2 → 8 coches","25 ÷ 6 = 4 r 1"]],
+ ["Se empacan 50 huevos en cajas de 12. ¿Cuántas cajas se llenan y cuántos sobran?",["12 × 4 = 48.","50 − 48 = 2."],"Se llenan 4 cajas y sobran 2 huevos."],
+ [[["zDProb",8]],[["zDProb",10]],[["zDProb",6],["zMProb",4]]],[],"Repartir con justicia."),
+/* ---- U5 Fracciones y decimales ---- */
+"3m32":DL("3m32","Fracciones de un entero y de un conjunto",[
+ ["De un entero","Si parto un pastel en 5 y tomo 2, tengo <b>2/5</b>.",{t:"pie",n:5,k:2}],
+ ["De un conjunto","Para saber 3/4 de 20: primero 1/4 de 20 = 5, luego 3 × 5 = <b>15</b>.",{t:"steps",x:["20 ÷ 4 = 5","3 × 5 = 15","3/4 de 20 = 15"]}],
+ ["Juega","Colorea partes.",{t:"mtfrac",n:[3,4,5,6,8]}]],
+ ["El diezmo","En la Biblia, el pueblo daba a Dios la décima parte (1/10) de sus cosechas. Hoy también compartimos una parte de lo que tenemos para la Iglesia y los pobres.",{t:"emo",x:"🌾 1/10 → ⛪"}],
+ ["Las tareas de la semana","🧹","Hay 12 tareas en la semana y a ti te toca 1/3.","¿Cuántas te tocan?",[["4 tareas",1,"¡Muy bien! 12 ÷ 3 = 4."],["3 tareas",0,"1/3 de 12 es 12 ÷ 3."],["9 tareas",0,"Esas serían 3/4."]]],
+ [["Denominador: en cuántas partes. Numerador: cuántas tomo.","k/d de n: divide entre d y multiplica por k."],["2/5 de un pastel","3/4 de 20 = 15"]],
+ ["¿Cuánto es 2/3 de 18?",["1/3 de 18 = 6.","2 × 6 = 12."],"12."],
+ [[["fracOf",4],["zFrSet",4]],[["zFrSet",10]],[["zFrSet",8]]],[],"Compartir una parte."),
+"3m33":DL("3m33","Fracciones equivalentes",[
+ ["Valen lo mismo","1/2 = 2/4 = 4/8: son partes diferentes pero cubren lo mismo.",{t:"mtfracrecta",d:[2,4,8]}],
+ ["Cómo encontrarlas","Multiplica (o divide) arriba y abajo por el mismo número: 1/3 = 2/6 = 3/9.",{t:"syl",x:["1/3","= 2/6","= 3/9"]}]],
+ ["Distintos, pero iguales en dignidad","Las personas somos muy distintas, pero ante Dios todos valemos lo mismo, como las fracciones equivalentes.",{t:"emo",x:"½ = ²⁄₄ = ⁴⁄₈ · 👦 = 👧"}],
+ ["La pizza compartida","🍕","Tu hermano tomó 2/4 de pizza y tú 1/2 de otra igual. Dice que él comió más.","¿Qué le dices?",[["Que comimos igual: 2/4 = 1/2",1,"¡Muy bien!"],["Que sí, él comió más",0,"Revisa: son equivalentes."],["Me enojo",0,"Mejor explícale."]]],
+ [["Equivalentes: valen lo mismo.","Multiplica arriba y abajo por el mismo número."],["1/2 = 3/6","2/3 = 4/6","3/4 = 6/8"]],
+ ["Completa: 3/4 = ▢/12",["De 4 a 12 se multiplicó por 3.","3 × 3 = 9."],"3/4 = 9/12."],
+ [[["zFrEq",8]],[["zFrEq",10]],[["zFrEq",6],["zFrCmp",4]]],[],"Iguales en dignidad."),
+"3m34":DL("3m34","Comparar y ordenar fracciones",[
+ ["Mismo denominador","Si se partió igual, gana el que toma más partes: 5/8 &gt; 3/8.",{t:"cards",x:[["5/8","más partes"],["3/8","menos partes"]]}],
+ ["Mismo numerador","Si toman las mismas partes, gana el que se partió en menos: 1/3 &gt; 1/6.",{t:"mtfracrecta",d:[3,6]}]],
+ ["El más pequeño","«El más pequeño entre ustedes, ese es el más grande» (Lc 9, 48). Para Jesús, servir con humildad vale más que ser el primero.",{t:"photo",src:WM(IM.ninos[0],800),alt:"Jesús y los niños",cap:"",credit:IM.ninos[1],art:true}],
+ ["El reparto del pastel","🎂","Te ofrecen 3/8 o 5/8 del mismo pastel, y tu hermana tiene hambre.","¿Qué haces?",[["Sé que 5/8 es más; le ofrezco a ella la parte grande",1,"¡Qué generoso!"],["Tomo 5/8 sin pensar",0,"Piensa también en tu hermana."],["Digo que son iguales",0,"5/8 es más que 3/8."]]],
+ [["Mismo denominador: más numerador → mayor.","Mismo numerador: menor denominador → mayor."],["4/5 &gt; 2/5","1/4 &gt; 1/8"]],
+ ["Ordena de menor a mayor: 1/2, 1/8, 1/4",["Mismo numerador.","Mayor denominador → parte más pequeña."],"1/8, 1/4, 1/2."],
+ [[["fracCmp",4],["zFrCmp",4]],[["zFrCmp",10]],[["zFrCmp",6],["zFrEq",4]]],[],"El más pequeño es el más grande."),
+"3m35":DL("3m35","Fracciones en la recta numérica",[
+ ["Partir la recta","Entre 0 y 1, parte la recta en partes iguales. Si son 4, las marcas son 1/4, 2/4, 3/4 y 4/4 = 1.",{t:"mtfracrecta",d:[2,3,4,5,6,8]}],
+ ["Más allá del 1","5/4 está después del 1: es 1 entero y 1/4.",{t:"line",a:0,b:2,m:[]}]],
+ ["Poco a poco","El Reino de Dios crece poco a poco, como una semilla de mostaza (Mc 4, 31). Paso a paso, fracción a fracción, nos acercamos a Dios.",{t:"photo",src:WM(IM.mostaza[0],800),alt:"Semilla de mostaza",cap:"",credit:IM.mostaza[1],art:false}],
+ ["La caminata","🥾","La caminata al santuario es de 1 km. Ya llevan 3/4.","¿Cuánto falta?",[["1/4 de kilómetro",1,"¡Muy bien!"],["3/4",0,"Eso ya lo caminaron."],["Nada",0,"Todavía falta un poco."]]],
+ [["Parte de 0 a 1 en <b>partes iguales</b>.","Cada marca es una fracción."],["en 4 partes: 1/4, 2/4, 3/4","4/4 = 1"]],
+ ["La recta de 0 a 1 está partida en 6. ¿Qué fracción es la 5.ª marca?",["Cada parte es 1/6.","5 partes."],"5/6."],
+ [[["zFrLine",8]],[["zFrLine",10]],[["zFrLine",6],["zFrCmp",4]]],[],"El Reino crece poco a poco."),
+"3m36":DL("3m36","Sumar y restar fracciones",[
+ ["Mismo denominador","Si se partió igual, suma o resta solo los numeradores: 2/8 + 3/8 = 5/8.",{t:"syl",x:["2/8 + 3/8 = 5/8","7/10 − 4/10 = 3/10"]}],
+ ["Con dibujos","Juntar pedazos de pizza del mismo tamaño es como sumar fracciones.",{t:"pie",n:8,k:5}]],
+ ["Juntos somos más","Cuando cada quien pone su parte, la obra de Dios se completa: unos rezan, otros ayudan, otros enseñan.",{t:"emo",x:"🧩+🧩+🧩 = ⛪"}],
+ ["El listón","🎀","Usaste 3/10 de un listón para un moño y 4/10 para otro.","¿Cuánto usaste?",[["7/10",1,"¡Muy bien!"],["7/20",0,"El denominador se queda igual."],["1/10",0,"Eso sería restar."]]],
+ [["Mismo denominador: suma o resta <b>solo los numeradores</b>.","El denominador no cambia."],["1/5 + 2/5 = 3/5","5/6 − 2/6 = 3/6"]],
+ ["5/8 − 2/8",["Mismo denominador: 8.","5 − 2 = 3."],"3/8."],
+ [[["fracAdd",4],["zFrAdd",4]],[["zFrAdd",10]],[["zFrAdd",6],["zMixto",4]]],[],"Cada quien pone su parte."),
+"3m37":DL("3m37","Números mixtos",[
+ ["Más de un entero","2 1/4 son 2 pizzas enteras y 1/4 de otra. Como fracción: 9/4.",{t:"emo",x:"🍕🍕 + ¼"}],
+ ["Convertir","2 enteros = 8/4; 8/4 + 1/4 = 9/4.",{t:"steps",x:["2 × 4 = 8 cuartos","8 + 1 = 9","2 1/4 = 9/4"]}]],
+ ["El pan de cada día","Rezamos «danos hoy nuestro pan de cada día». Si compramos 1 1/2 kg de tortillas, pidamos que nunca falten a ninguna familia.",{t:"emo",x:"🫓 1½ kg 🙏"}],
+ ["El mandado","🛒","Tu mamá pide 1 1/2 kg de frijol y solo hay bolsas de 1/2 kg.","¿Cuántas compras?",[["3 bolsas",1,"¡Muy bien! 1 1/2 = 3/2."],["2 bolsas",0,"Serían solo 1 kg."],["1 bolsa",0,"Falta mucho."]]],
+ [["Mixto = enteros + fracción.","Entero × denominador + numerador."],["1 1/2 = 3/2","2 3/4 = 11/4"]],
+ ["3 1/3 = ▢/3",["3 × 3 = 9.","9 + 1 = 10."],"10/3."],
+ [[["zMixto",8]],[["zMixto",10]],[["zMixto",6],["zFrAdd",4]]],[],"El pan de cada día."),
+"3m38":DL("3m38","Pesos y centavos: los decimales",[
+ ["El punto decimal","$12.50 son 12 pesos y 50 centavos. Un peso tiene 100 centavos; 50 centavos es medio peso.",{t:"cards",x:[["$0.50","medio peso"],["$0.25","un cuarto"],["$1.00","100 centavos"]]}],
+ ["Sumar con centavos","$3.50 + $2.50 = $6.00. Acomoda el punto en la misma columna.",{t:"big",x:"$3.50 + $2.50 = $6.00"}]],
+ ["Las dos moneditas","La viuda pobre dio dos moneditas, ¡centavos! Pero Jesús dijo que dio más que todos porque dio todo lo que tenía (Lc 21, 3).",{t:"emo",x:"🪙🪙 = ❤️"}],
+ ["El pasaje","🚌","El pasaje cuesta $9.50 y pagas con un billete de $20.","¿Cuánto es tu cambio?",[["$10.50",1,"¡Muy bien!"],["$11.50",0,"Revisa los centavos."],["$29.50",0,"Eso sería sumar."]]],
+ [["$ pesos . centavos","100 centavos = 1 peso. 50¢ = ½ peso."],["$4.50 + $1.50 = $6.00","$10 − $2.50 = $7.50"]],
+ ["Compras un pan de $7.50 y otro de $5.50. ¿Cuánto pagas?",["Centavos: 50 + 50 = 100 = $1.","Pesos: 7 + 5 + 1 = 13."],"$13.00."],
+ [[["zCent",8]],[["zCent",6],["money2",4]],[["zCent",8]]],[],"Dar todo con amor."),
+/* ---- U6 Geometría ---- */
+"3m39":DL("3m39","Rectas paralelas, perpendiculares y secantes",[
+ ["Tres clases","<b>Paralelas</b>: nunca se cruzan. <b>Secantes</b>: se cruzan. <b>Perpendiculares</b>: se cruzan formando ángulos rectos.",{t:"cards",x:[["‖","paralelas"],["✕","secantes"],["⊥","perpendiculares"]]}],
+ ["En la ciudad","Las calles de un cuadro de la ciudad son paralelas y perpendiculares. Busca en el mapa.",{t:"lam",id:"comunidad"}]],
+ ["La Cruz gloriosa","Los dos maderos de la Cruz son perpendiculares: uno nos une con Dios (vertical) y otro con los hermanos (horizontal).",{t:"photo",src:WM(IM.crucificado[0],800),alt:"La Cruz",cap:"",credit:IM.crucificado[1],art:true}],
+ ["El croquis para el amigo","🗺️","Tu amigo nuevo no sabe llegar a tu casa.","¿Cómo lo ayudas?",[["Le dibujo un croquis con las calles paralelas y perpendiculares",1,"¡Muy bien!"],["Le digo que pregunte",0,"Mejor ayúdale tú."],["No lo invito",0,"La hospitalidad es una virtud."]]],
+ [["Paralelas ‖ · Secantes ✕ · Perpendiculares ⊥"],["vías del tren ‖","la letra T ⊥","las tijeras ✕"]],
+ ["Las rayas de un cuaderno, ¿cómo son?",["Van en la misma dirección.","Nunca se cruzan."],"Son paralelas."],
+ [[["zLines",8]],[["zLines",10]],[["zLines",6],["zAng",4]]],[],"Unidos con Dios y los hermanos."),
+"3m40":DL("3m40","Ángulos: recto, agudo, obtuso y llano",[
+ ["Medir la abertura","El ángulo <b>recto</b> mide 90°. <b>Agudo</b>: menos de 90°. <b>Obtuso</b>: más de 90°. <b>Llano</b>: 180°, una línea recta.",{t:"mtangulo"}],
+ ["Ángulos en el reloj","A las 3:00 las manecillas forman un ángulo recto; a las 6:00, un ángulo llano.",{t:"clock",h:3,m:0}]],
+ ["Las manos que rezan","Al rezar juntamos las manos formando un ángulo agudo, como una flecha que apunta al Cielo.",{t:"photo",src:WM(IM.manos[0],800),alt:"Manos que rezan",cap:"",credit:IM.manos[1],art:true}],
+ ["La escalera","🪜","Tu papá recarga una escalera en la pared y te pregunta cómo debe quedar.","¿Qué le dices?",[["Inclinada, formando un ángulo agudo con la pared, y la sostengo",1,"¡Muy bien! Y ayudas a que no se caiga."],["Pegada derechita",0,"Se podría caer."],["Acostada en el piso",0,"Así no sirve."]]],
+ [["Recto 90° · Agudo &lt; 90° · Obtuso &gt; 90° · Llano 180°"],["esquina de hoja: recto","tijera casi cerrada: agudo"]],
+ ["A las 6:00, ¿qué ángulo forman las manecillas?",["Una apunta al 12 y otra al 6.","Forman una línea recta."],"Un ángulo llano (180°)."],
+ [[["zAng",8]],[["zAng",10]],[["zAng",6],["zLines",4]]],[],"Manos que apuntan al Cielo."),
+"3m41":DL("3m41","Clasificar triángulos",[
+ ["Por sus lados","<b>Equilátero</b>: 3 lados iguales. <b>Isósceles</b>: 2 lados iguales. <b>Escaleno</b>: 3 lados diferentes.",{t:"shapes",x:["triangulo"]}],
+ ["Por sus ángulos","Un triángulo <b>rectángulo</b> tiene un ángulo recto. Los ángulos de todo triángulo suman 180°.",{t:"cards",x:[["△","equilátero"],["◮","isósceles"],["◺","rectángulo"]]}]],
+ ["El triángulo de la Trinidad","Los artistas cristianos pintan a Dios Padre con un triángulo: tres lados iguales, un solo triángulo, ¡como tres Personas iguales en un solo Dios!",{t:"photo",src:WM(IM.rublev[0],800),alt:"La Trinidad de Rublev",cap:"",credit:IM.rublev[1],art:true}],
+ ["La piñata","🪅","Haces una piñata de estrella con conos y te piden triángulos iguales.","¿Cuáles usas?",[["Isósceles iguales, con dos lados largos para las picos",1,"¡Muy bien!"],["Cualquiera",0,"Para que se vea bonita deben ser iguales."],["Círculos",0,"Los picos son triángulos."]]],
+ [["Equilátero (3 iguales) · Isósceles (2 iguales) · Escaleno (ninguno igual)","Rectángulo: un ángulo recto."],["5, 5, 5 cm: equilátero","4, 4, 6: isósceles","3, 4, 5: escaleno"]],
+ ["Un triángulo mide 7, 7 y 4 cm. ¿Cómo se llama?",["Tiene 2 lados iguales."],"Isósceles."],
+ [[["zTri",8]],[["zTri",10]],[["zTri",6],["zPoly",4]]],[],"Un solo Dios, tres Personas."),
+"3m42":DL("3m42","Cuadriláteros",[
+ ["Cuatro lados","<b>Cuadrado</b>, <b>rectángulo</b>, <b>rombo</b>, <b>romboide</b> y <b>trapecio</b> son cuadriláteros.",{t:"shapes",x:["cuadrado","rectangulo","rombo"]}],
+ ["Sus diferencias","Cuadrado: 4 lados iguales y ángulos rectos. Rombo: 4 lados iguales sin ángulos rectos. Trapecio: solo 2 lados paralelos.",{t:"mtgeo"}]],
+ ["La Jerusalén del Cielo","El Apocalipsis describe la ciudad del Cielo como un cuadrado perfecto, con doce puertas de perla (Ap 21, 16). ¡Un lugar para todos!",{t:"emo",x:"⬜ 🚪×12 ✨"}],
+ ["El papel picado","🎊","Para la fiesta haces papel picado con rombos y trapecios.","¿Cómo ayudas mejor?",[["Doblo con cuidado y recorto despacio cada figura",1,"¡Muy bien!"],["Recorto rápido y mal",0,"El cuidado hace la belleza."],["No ayudo",0,"La fiesta es de todos."]]],
+ [["Cuadrado · rectángulo · rombo · romboide · trapecio","Todos tienen 4 lados y 4 vértices."],["rombo: 4 lados iguales","trapecio: 2 lados paralelos"]],
+ ["Tiene 4 lados iguales, pero no tiene ángulos rectos. ¿Qué es?",["4 lados iguales: cuadrado o rombo.","Sin ángulos rectos: no es cuadrado."],"Es un rombo."],
+ [[["zQuad",8]],[["zQuad",10]],[["zQuad",6],["zTri",4]]],[],"La ciudad del Cielo."),
+"3m43":DL("3m43","Polígonos",[
+ ["Muchos lados","Un <b>polígono</b> es una figura cerrada de lados rectos: triángulo (3), cuadrilátero (4), pentágono (5), hexágono (6), octágono (8).",{t:"shapes",x:["triangulo","cuadrado","pentagono","hexagono"]}],
+ ["Regulares","Un polígono es <b>regular</b> si todos sus lados y ángulos son iguales, como las celdas del panal de las abejas (hexágonos).",{t:"photo",src:WM(IM.abeja[0],800),alt:"Abeja",cap:"",credit:IM.abeja[1],art:false}]],
+ ["Los vitrales","Los vitrales de las catedrales están hechos de muchos polígonos de colores. La luz los atraviesa y llena el templo, como la gracia de Dios llena nuestra alma.",{t:"photo",src:WM(IM.vitral[0],800),alt:"Vitral",cap:"",credit:IM.vitral[1],art:true}],
+ ["La señal de alto","🛑","Vas con tu papá en el coche y no ve la señal de alto (un octágono rojo).","¿Qué haces?",[["Le aviso con calma: «Papá, hay un alto»",1,"¡Muy bien! Cuidar a los demás."],["Me callo",0,"Avisar puede evitar un accidente."],["Grito asustado",0,"Avisa con calma."]]],
+ [["Polígono: figura cerrada de lados rectos.","Pentágono 5 · Hexágono 6 · Octágono 8."],["🛑 octágono","🐝 hexágono"]],
+ ["¿Cuántos lados tienen juntos un pentágono y un hexágono?",["5 + 6."],"11 lados."],
+ [[["zPoly",8]],[["zPoly",10]],[["zPoly",6],["zQuad",4]]],[],"La luz de la gracia."),
+"3m44":DL("3m44","Circunferencia: centro, radio y diámetro",[
+ ["Sus partes","<b>Centro</b>: el punto de en medio. <b>Radio</b>: del centro a la orilla. <b>Diámetro</b>: de orilla a orilla pasando por el centro. ¡El diámetro mide dos radios!",{t:"emo",x:"⭕ · 📍 · ↔️"}],
+ ["Trazar con compás","El compás abre el radio y gira alrededor del centro.",{t:"shapes",x:["circulo"]}]],
+ ["Las coronas","Las coronas de Adviento son circulares: no tienen principio ni fin, como el amor eterno de Dios.",{t:"emo",x:"🟢🕯️🕯️🕯️🕯️"}],
+ ["La ronda","👫","En el recreo hacen una ronda y un niño queda en medio como «centro».","¿Cómo hacen para que la ronda sea redonda?",[["Todos a la misma distancia del niño del centro",1,"¡Muy bien! Eso es el radio."],["Como sea",0,"La misma distancia la hace redonda."],["En fila",0,"Así no es ronda."]]],
+ [["Diámetro = 2 × radio.","Todos los puntos están a la misma distancia del centro."],["radio 5 cm → diámetro 10 cm"]],
+ ["Una rueda tiene 30 cm de diámetro. ¿Cuánto mide su radio?",["El radio es la mitad del diámetro.","30 ÷ 2."],"15 cm."],
+ [[["zCirc",8]],[["zCirc",10]],[["zCirc",8]]],[],"El amor eterno de Dios."),
+"3m45":DL("3m45","Cuerpos geométricos: caras, aristas y vértices",[
+ ["Prismas y pirámides","Los <b>prismas</b> tienen dos bases iguales; las <b>pirámides</b>, una base y una punta. Cada cuerpo tiene caras, aristas (bordes) y vértices (esquinas).",{t:"lam",id:"figuras"}],
+ ["Contar","Un cubo tiene 6 caras, 12 aristas y 8 vértices.",{t:"shapes",x:["cubo","esfera","cilindro","cono"]}]],
+ ["Las pirámides de México","Nuestros antepasados construyeron grandes pirámides como la del Sol en Teotihuacán. Hoy los templos cristianos también se elevan para recordarnos que Dios está arriba y cerca.",{t:"photo",src:WM(IM.teoti[0],800),alt:"Teotihuacán",cap:"",credit:IM.teoti[1],art:false}],
+ ["El regalo para la abuela","🎁","Haces una caja de cartón para el regalo de la abuela.","¿Cuántas caras recortas para un cubo?",[["6 cuadrados iguales",1,"¡Muy bien!"],["4",0,"Faltan la tapa y el fondo."],["8",0,"8 son los vértices."]]],
+ [["Caras · aristas · vértices.","Cubo: 6 caras, 12 aristas, 8 vértices."],["pirámide cuadrada: 5 caras","prisma triangular: 5 caras"]],
+ ["¿Cuántas caras tiene una pirámide de base cuadrada?",["1 base cuadrada.","4 caras triangulares."],"5 caras."],
+ [[["xFaces",4],["zBody",4]],[["zBody",10]],[["zBody",8]]],[],"Dios está arriba y cerca."),
+"3m46":DL("3m46","Planos y ubicación en cuadrícula",[
+ ["Columnas y filas","En un plano con cuadrícula, cada lugar se nombra con una letra (columna) y un número (fila): la iglesia está en C4.",{t:"emo",x:"A B C D · 1 2 3 4 → ⛪ C4"}],
+ ["Puntos cardinales","Un plano tiene la rosa de los vientos: norte arriba, sur abajo, este a la derecha y oeste a la izquierda.",{t:"lam",id:"brujula"}]],
+ ["El camino a Belén","José y María viajaron de Nazaret, en el norte, hasta Belén, en el sur (Lc 2, 4). ¡Un largo camino para que Jesús naciera donde Dios lo había anunciado!",{t:"photo",src:WM(IM.natividad[0],800),alt:"La Natividad",cap:"",credit:IM.natividad[1],art:true}],
+ ["El turista perdido","🧭","Un señor pregunta cómo llegar a la catedral, que está en el plano en D2, y ustedes están en B2.","¿Qué le dices?",[["Que camine 2 cuadras al este",1,"¡Muy bien! De B a D, hacia la derecha."],["Que camine al norte",0,"La fila es la misma: 2."],["No sé",0,"Usa el plano."]]],
+ [["Ubicación = columna (letra) + fila (número).","Norte arriba, este a la derecha."],["⛪ C4","🏫 A1"]],
+ ["En el plano, la escuela está en B3 y el parque en B5. ¿Cuántas casillas hay entre ellos y hacia dónde?",["Misma columna B.","De la fila 3 a la 5: 2 casillas."],"2 casillas, en la misma columna."],
+ [[["zCoord",8]],[["zCoord",5],["yCard",5]],[["zCoord",8]]],[],"El camino a Belén."),
+/* ---- U7 Medición ---- */
+"3m47":DL("3m47","Kilómetro, metro, centímetro y milímetro",[
+ ["Unidades de longitud","1 km = 1 000 m · 1 m = 100 cm · 1 cm = 10 mm. El kilómetro sirve para distancias largas; el milímetro, para cosas muy pequeñas.",{t:"cards",x:[["km","carreteras"],["m","cuartos"],["cm","cuadernos"],["mm","hormigas"]]}],
+ ["Medir con precisión","En la regla, entre cada centímetro hay 10 rayitas: los milímetros.",{t:"ruler",cm:10}]],
+ ["Los peregrinos","Cada año millones de peregrinos caminan muchos kilómetros para visitar a la Virgen de Guadalupe en su Basílica. ¡Caminan con fe!",{t:"photo",src:WM(IM.basilica[0],800),alt:"Basílica de Guadalupe",cap:"",credit:IM.basilica[1],art:false}],
+ ["La medida del marco","📏","Haces un marco para la estampa de la Virgen y debe medir 25 cm.","¿Cuántos milímetros son?",[["250 mm",1,"¡Muy bien!"],["25 mm",0,"Cada cm tiene 10 mm."],["2 500 mm",0,"Revisa: 25 × 10."]]],
+ [["1 km = 1 000 m · 1 m = 100 cm · 1 cm = 10 mm"],["3 km = 3 000 m","4 m = 400 cm","7 cm = 70 mm"]],
+ ["¿Cuántos metros son 2 km y 350 m?",["2 km = 2 000 m.","2 000 + 350."],"2 350 m."],
+ [[["zLen",8]],[["zLen",10]],[["zLen",6],["zPerim",4]]],[],"Caminar con fe."),
+"3m48":DL("3m48","El perímetro",[
+ ["La orilla","El <b>perímetro</b> es la medida del contorno: se suman todos los lados.",{t:"rectp",w:6,h:4}],
+ ["Atajos","Cuadrado: 4 × lado. Rectángulo: 2 × largo + 2 × ancho.",{t:"cards",x:[["⬛","4 × lado"],["▭","2 × largo + 2 × ancho"]]}]],
+ ["La cerca del jardín","En el Edén, Dios puso al hombre a cuidar el jardín (Gn 2, 15). Cuidar nuestra casa común también es una tarea que Dios nos encargó.",{t:"photo",src:WM(IM.paraiso[0],800),alt:"El Paraíso",cap:"",credit:IM.paraiso[1],art:true}],
+ ["La cerca del huerto","🌱","El huerto de la escuela mide 8 m de largo y 5 m de ancho. Quieren cercarlo.","¿Cuánta malla necesitan?",[["26 m",1,"¡Muy bien! 8 + 5 + 8 + 5."],["40 m",0,"Eso es el área (8 × 5)."],["13 m",0,"Son 4 lados."]]],
+ [["Perímetro = suma de todos los lados.","Cuadrado: 4 × lado."],["cuadrado de 5: 20","rectángulo 6 × 3: 18"]],
+ ["Un triángulo equilátero mide 9 cm por lado. ¿Cuál es su perímetro?",["3 lados iguales.","3 × 9."],"27 cm."],
+ [[["perim",8]],[["zPerim",10]],[["zPerim",6],["zArea",4]]],[],"Cuida la casa común."),
+"3m49":DL("3m49","El área",[
+ ["Lo que cubre","El <b>área</b> es la superficie que cubre una figura. Se mide en cuadritos: un rectángulo de 5 × 3 cubre 15 cuadritos.",{t:"area",r:3,c:5}],
+ ["Centímetros cuadrados","Un cuadrito de 1 cm por lado es <b>1 cm²</b>. Área del rectángulo = largo × ancho.",{t:"big",x:"5 cm × 3 cm = 15 cm²"}]],
+ ["El manto de la Virgen","El manto de la Virgen de Guadalupe está cubierto de estrellas. Ella nos cubre con su manto y nos protege como una madre.",{t:"photo",src:WM(IM.guadalupe[0],800),alt:"Virgen de Guadalupe",cap:"",credit:IM.guadalupe[1],art:true}],
+ ["El tapete del altar","🧵","Quieren un tapete de 4 m por 2 m para el altar.","¿Cuántos metros cuadrados de tela se necesitan?",[["8 m²",1,"¡Muy bien! 4 × 2."],["12 m²",0,"Eso es el perímetro (12 m)."],["6 m²",0,"Es largo × ancho."]]],
+ [["Área = cuadritos que cubre.","Rectángulo: largo × ancho. Cuadrado: lado × lado."],["6 × 4 = 24 cm²","5 × 5 = 25 cm²"]],
+ ["Un cuarto mide 4 m por 3 m. ¿Cuál es su área?",["Largo × ancho.","4 × 3."],"12 m²."],
+ [[["area",8]],[["zArea",10]],[["zArea",6],["zPerim",4]]],[],"Bajo el manto de María."),
+"3m50":DL("3m50","Capacidad: litro y mililitro",[
+ ["Litros y mililitros","1 litro = <b>1 000 mililitros</b>. Una cucharita tiene como 5 ml; un vaso, 250 ml.",{t:"cards",x:[["🥄","5 ml"],["🥛","250 ml"],["🍼","1 L = 1 000 ml"]]}],
+ ["Medios y cuartos","½ L = 500 ml; ¼ L = 250 ml.",{t:"pie",n:4,k:1}]],
+ ["El agua bendita","Con el agua del Bautismo fuimos hechos hijos de Dios. Al entrar a la iglesia, nos santiguamos con agua bendita para recordarlo.",{t:"photo",src:WM(IM.pila[0],800),alt:"Pila bautismal",cap:"",credit:IM.pila[1],art:false}],
+ ["Ahorrar agua","🚿","Al lavarte los dientes con la llave abierta gastas como 6 litros.","¿Qué haces?",[["Uso un vaso de 250 ml y cierro la llave",1,"¡Muy bien! Cuidar el agua es cuidar la creación."],["Dejo la llave abierta",0,"El agua es un regalo."],["No me lavo",0,"¡La higiene es importante!"]]],
+ [["1 L = 1 000 ml.","½ L = 500 ml · ¼ L = 250 ml"],["3 L = 3 000 ml","4 vasos de 250 ml = 1 L"]],
+ ["¿Cuántos vasos de 250 ml llenas con 2 litros?",["1 L = 4 vasos de 250 ml.","2 L = 8 vasos."],"8 vasos."],
+ [[["zCap",8]],[["zCap",10]],[["zCap",8]]],[],"El agua del Bautismo."),
+"3m51":DL("3m51","Peso: kilogramo y gramo",[
+ ["Kilos y gramos","1 kg = <b>1 000 g</b>. Un clip pesa como 1 g; un paquete de arroz, 1 kg.",{t:"cards",x:[["📎","1 g"],["🍫","100 g"],["🍚","1 kg = 1 000 g"]]}],
+ ["La balanza","Compara pesos.",{t:"mtpeso"}]],
+ ["Pesar con justicia","«Balanza justa, pesas justas» (Lv 19, 36). Dios quiere que en el comercio seamos honrados.",{t:"emo",x:"⚖️ ✅"}],
+ ["La tienda del barrio","⚖️","Ayudas en la tienda y ves que la báscula marca 50 g de más.","¿Qué haces?",[["Aviso para que la arreglen: hay que pesar con justicia",1,"¡Muy bien!"],["Me callo",0,"Los clientes pagarían de más."],["Aprovecho",0,"No es honrado."]]],
+ [["1 kg = 1 000 g · ½ kg = 500 g · ¼ kg = 250 g"],["2 kg = 2 000 g","4 paquetes de 250 g = 1 kg"]],
+ ["¿Cuántos gramos son 2 kg y medio?",["2 kg = 2 000 g.","½ kg = 500 g."],"2 500 g."],
+ [[["grams",8]],[["zWt",10]],[["zWt",8]]],[],"Pesas justas."),
+"3m52":DL("3m52","El tiempo: horas y minutos",[
+ ["Leer el reloj al minuto","Cada número del reloj son 5 minutos; entre número y número hay 5 rayitas de 1 minuto.",{t:"mtreloj",step:1}],
+ ["Calcular duraciones","Si la Misa empieza a las 9:15 y termina a las 10:05, duró 50 minutos.",{t:"steps",x:["9:15 → 10:00 = 45 min","10:00 → 10:05 = 5 min","Total: 50 min"]}]],
+ ["Las horas de oración","Los monjes rezan varias veces al día: al amanecer, al mediodía, en la tarde y en la noche. ¡Santificamos el tiempo con la oración!",{t:"photo",src:WM(IM.angelus[0],800),alt:"El Ángelus",cap:"",credit:IM.angelus[1],art:true}],
+ ["Llegar puntual","⏰","El catecismo es a las 5:00 y tardas 25 minutos en llegar.","¿A qué hora sales?",[["A las 4:35 o antes",1,"¡Muy bien! La puntualidad es respeto."],["A las 5:00",0,"Llegarías tarde."],["A las 5:25",0,"Esa es la hora de llegada si sales a las 5."]]],
+ [["1 h = 60 min. Cada número = 5 min.","Duración: cuenta de la hora inicial a la final."],["8:40 + 30 min = 9:10","2 h = 120 min"]],
+ ["Salen a las 7:50 y llegan a las 8:35. ¿Cuánto tardaron?",["7:50 → 8:00 = 10 min.","8:00 → 8:35 = 35 min."],"45 minutos."],
+ [[["clock2",4],["mins",4]],[["zTime",10]],[["zTime",8]]],[],"Santificar el tiempo."),
+"3m53":DL("3m53","Días, semanas, años, décadas y siglos",[
+ ["Medidas largas de tiempo","1 año = 12 meses = 365 días (366 en bisiesto). 1 década = 10 años. 1 siglo = 100 años.",{t:"cards",x:[["📅","1 año = 365 días"],["🔟","década = 10 años"],["💯","siglo = 100 años"]]}],
+ ["La línea del tiempo","En una línea del tiempo ordenamos acontecimientos: la Virgen se apareció en 1531, siglo XVI.",{t:"steps",x:["1531: la Virgen en el Tepeyac","1810: Independencia","2026: hoy"]}]],
+ ["Antes y después de Cristo","Contamos los años desde el nacimiento de Jesús: por eso decimos «después de Cristo». ¡Jesús es el centro de la historia!",{t:"photo",src:WM(IM.pantocrator[0],800),alt:"Cristo Pantocrátor",cap:"",credit:IM.pantocrator[1],art:true}],
+ ["La historia de la familia","👴","Tu abuelo nació en 1956 y quieres saber cuántas décadas ha vivido en 2026.","¿Cuántas?",[["7 décadas: 70 años",1,"¡Muy bien! 2026 − 1956 = 70."],["70 décadas",0,"70 años son 7 décadas."],["Un siglo",0,"Un siglo son 100 años."]]],
+ [["Década 10 años · Siglo 100 años.","Años transcurridos: año final − año inicial."],["1531 → 2026: 495 años","siglo XXI: 2001–2100"]],
+ ["¿Cuántos años pasaron de 1810 (Independencia) a 2010?",["2010 − 1810."],"200 años: dos siglos."],
+ [[["zYears",8]],[["zYears",10]],[["zYears",6],["zTime",4]]],[],"Jesús, centro de la historia."),
+/* ---- U8 Datos ---- */
+"3m54":DL("3m54","Tablas de frecuencia",[
+ ["Organizar datos","Una <b>tabla de frecuencia</b> dice cuántas veces aparece cada dato. Primero contamos con marcas y luego escribimos el número.",{t:"bars",rows:[["Fútbol",9],["Básquet",6],["Cuerda",4]]}],
+ ["Leer la tabla","¿Cuál es el más votado? ¿Cuántos votaron en total? ¿Cuántos más prefieren una cosa que otra?",{t:"mtgrafica"}]],
+ ["Contados por Dios","«Hasta los cabellos de su cabeza están contados» (Mt 10, 30). ¡Dios nos conoce y nos cuida a cada uno!",{t:"emo",x:"👦 ❤️ 👧"}],
+ ["La encuesta del salón","📋","Haces una encuesta sobre el santo favorito del salón.","¿Cómo la haces bien?",[["Pregunto a todos, anoto marcas y hago la tabla",1,"¡Muy bien!"],["Pregunto solo a mis amigos",0,"Así no sabes lo que piensa todo el salón."],["Invento los datos",0,"Los datos deben ser verdaderos."]]],
+ [["Frecuencia: cuántas veces aparece.","El total es la suma de todas las frecuencias."],["Fútbol 9 · Básquet 6","Total: 15"]],
+ ["En una tabla: manzana 7, pera 4, uva 9. ¿Cuántos más eligieron uva que pera?",["Uva 9, pera 4.","9 − 4."],"5 más."],
+ [[["xTally",4],["zFreq",4]],[["zFreq",10]],[["zFreq",8]]],[],"Dios nos tiene contados."),
+"3m55":DL("3m55","Gráficas de barras y pictogramas",[
+ ["Gráfica de barras","Cada barra muestra un dato; su altura dice cuánto. Lee la escala del lado.",{t:"bars",rows:[["Lunes",5],["Martes",8],["Miércoles",3]]}],
+ ["Pictogramas","En un pictograma un dibujo puede valer varios: si 🙂 = 2 niños, 🙂🙂🙂 = 6 niños.",{t:"pict",rows:[["🌹",4,"Rosario"],["⛪",6,"Misa"]]}]],
+ ["La verdad de los números","Los números deben decir la verdad. Jesús dijo: «La verdad los hará libres» (Jn 8, 32). Hacer gráficas honestas también es amar la verdad.",{t:"emo",x:"📊 ✅"}],
+ ["La gráfica de la colecta","📊","Haces la gráfica de la colecta y la barra de tu grupo salió baja.","¿Qué haces?",[["La dejo como es: los datos se respetan",1,"¡Muy bien! La honestidad primero."],["La hago más alta",0,"Eso sería mentir."],["No la entrego",0,"Entrégala con la verdad."]]],
+ [["Barras: la altura es el dato.","Pictograma: fíjate cuánto vale cada dibujo."],["🙂 = 2 → 🙂🙂🙂 = 6"]],
+ ["Si ⭐ = 5 votos, ¿cuántos votos son ⭐⭐⭐⭐?",["Cada estrella vale 5.","4 × 5."],"20 votos."],
+ [[["xBars",8]],[["xBars",5],["xPict",5]],[["xPict",5],["zFreq",4]]],[],"La verdad nos hace libres."),
+"3m56":DL("3m56","Probabilidad: ¿qué es más probable?",[
+ ["Más o menos probable","Si en una bolsa hay 8 canicas rojas y 2 azules, es <b>más probable</b> sacar roja. Imposible: sacar verde.",{t:"cards",x:[["🔴×8","más probable"],["🔵×2","menos probable"],["🟢×0","imposible"]]}],
+ ["Experimenta","Tira los dados y registra.",{t:"mtdados"}]],
+ ["Confiar en Dios","No todo depende del azar: Dios cuida de nosotros. «Miren los pájaros del cielo… su Padre celestial los alimenta» (Mt 6, 26).",{t:"photo",src:WM(IM.pajarito[0],800),alt:"Pajarito",cap:"",credit:IM.pajarito[1],art:false}],
+ ["El juego de la feria","🎡","En la feria hay un juego donde de 20 boletos solo 1 gana. Te piden todo tu dinero.","¿Qué haces?",[["No juego todo: es muy poco probable ganar",1,"¡Muy bien! La prudencia te cuida."],["Juego todo",0,"Lo más probable es perder."],["Pido prestado para jugar más",0,"No es prudente."]]],
+ [["Más casos → más probable.","Seguro · probable · poco probable · imposible."],["6 rojas, 1 azul → roja más probable"]],
+ ["Un dado tiene 6 caras. ¿Es más probable sacar un número par o el 6?",["Pares: 2, 4, 6 → 3 caras.","El 6: 1 cara."],"Es más probable sacar un número par."],
+ [[["xChance",8]],[["zProbab",10]],[["zProbab",8]]],[],"Dios cuida de nosotros.")};
+Object.assign(MAT3N,{
+"3mR1":DRETO("3mR1","Reto de los números hasta el 10 000","zMix3a",["Soy un número de 4 cifras. Mis millares son 7, no tengo centenas, mis decenas son el doble de 4 y mis unidades son 3. ¿Quién soy?",["UM = 7.","C = 0.","D = 8.","U = 3."],"Soy el 7 083."],"Todo lo puedo en Cristo."),
+"3mR2":DRETO("3mR2","Reto de sumas y restas","zMix3b",["La parroquia tenía $3 250. Recibió $1 875 y gastó $2 400. ¿Cuánto tiene?",["3 250 + 1 875 = 5 125.","5 125 − 2 400 = 2 725."],"$2 725."],"Todo lo puedo en Cristo."),
+"3mR3":DRETO("3mR3","Reto de multiplicación","zMix3c",["Un catequista compra 8 Biblias de $125 y 3 rosarios de $45. ¿Cuánto paga?",["8 × 125 = 1 000.","3 × 45 = 135.","1 000 + 135."],"$1 135."],"Todo lo puedo en Cristo."),
+"3mR4":DRETO("3mR4","Reto de división","zMix3d",["Hay 94 tamales para repartir en charolas de 8. ¿Cuántas charolas se llenan y cuántos tamales sobran?",["8 × 11 = 88.","94 − 88 = 6."],"11 charolas y sobran 6."],"Todo lo puedo en Cristo."),
+"3mR5":DRETO("3mR5","Reto de fracciones","zMix3e",["De 24 velas, 3/8 son blancas y el resto rojas. ¿Cuántas son rojas?",["1/8 de 24 = 3.","3/8 = 9 blancas.","24 − 9 = 15."],"15 rojas."],"Todo lo puedo en Cristo."),
+"3mR6":DRETO("3mR6","Reto de geometría","zMix3f",["¿Cuántas aristas tienen juntos un cubo y una pirámide de base cuadrada?",["Cubo: 12.","Pirámide cuadrada: 4 de la base + 4 laterales = 8.","12 + 8."],"20 aristas."],"Todo lo puedo en Cristo."),
+"3mR7":DRETO("3mR7","Reto de medición","zMix3g",["Un jardín cuadrado tiene 36 m² de área. ¿Cuál es su perímetro?",["Lado × lado = 36 → lado = 6.","Perímetro = 4 × 6."],"24 m."],"Todo lo puedo en Cristo."),
+"3mR8":DRETO("3mR8","Reto de datos","zMix3h",["Votaron 30 niños: 12 por fútbol, 9 por cuerda y el resto por escondidas. ¿Cuántos por escondidas?",["12 + 9 = 21.","30 − 21."],"9 niños."],"Todo lo puedo en Cristo.")});
+const MAT3T={
+"3m1":[["10 centenas = 1 millar (1 000).","Números de 4 cifras: UM, C, D, U."],["1 000 = 10 centenas","3 452: 3 UM, 4 C, 5 D, 2 U"],["¿Cómo se escribe «seis mil cuarenta»?",["6 millares.","0 centenas.","4 decenas, 0 unidades."],"6 040."],[["pv4",5],["nname4",3]],[["pv4w",5],["zPV4",5]],[["nname4",4],["zExp4",5]]],
+"3m2":[["Compara de izquierda a derecha.","Redondeo: 5 o más sube."],["4 562 &gt; 4 526","3 480 → 3 500"],["Ordena: 5 210, 5 120, 5 201",["Millares iguales.","Centenas: 2, 1, 2 → el 5 120 es menor.","5 201 &lt; 5 210."],"5 120, 5 201, 5 210."],[["cmp4",8]],[["cmp4",5],["round",5]],[["cmp4",4],["zEst",5]]],
+"3m3":[["Columnas bien acomodadas.","Suma: lleva. Resta: pide prestado."],["3 456 + 2 789 = 6 245","5 000 − 1 234 = 3 766"],["4 527 + 1 698",["7 + 8 = 15, llevo 1.","2 + 9 + 1 = 12, llevo 1.","5 + 6 + 1 = 12, llevo 1.","4 + 1 + 1 = 6."],"6 225."],[["add4",4],["sub4",4]],[["zAdd4",5],["zSub4",5]],[["zAdd4",3],["zSub4",3],["zProb",3]]],
+"3m4":[["Tabla del 6: 6, 12, 18, 24, 30… Tabla del 7: 7, 14, 21, 28, 35…"],["6 × 7 = 42","7 × 8 = 56"],["¿Cuánto es 7 × 6?",["Es igual a 6 × 7.","6, 12, 18, 24, 30, 36, 42."],"42."],[["mult69",8]],[["mult69",10]],[["mult69",6],["zMProb",3]]],
+"3m5":[["Tabla del 9: las cifras suman 9 (18, 27, 36…).","Tabla del 8: doble de la del 4."],["8 × 7 = 56","9 × 6 = 54"],["¿Cuánto es 9 × 8?",["9 × 8 = 10 × 8 − 8.","80 − 8."],"72."],[["mult69",8]],[["multAll",10]],[["multAll",6],["zProps",3]]],
+"3m6":[["Multiplica unidades y luego decenas.","Suma lo que llevas."],["23 × 3 = 69","45 × 4 = 180"],["34 × 5",["4 × 5 = 20: escribo 0, llevo 2.","3 × 5 = 15 + 2 = 17."],"170."],[["mult2x1",8]],[["mult2x1",5],["zMul2",5]],[["zMul2",5],["zMProb",4]]],
+"3m7":[["Dividir = repartir en partes iguales.","Usa la tabla: 35 ÷ 7 = 5 porque 7 × 5 = 35."],["24 ÷ 6 = 4","45 ÷ 9 = 5"],["Reparte 42 dulces entre 7 niños.",["7 × ? = 42.","7 × 6 = 42."],"6 a cada uno."],[["div",8]],[["div",5],["divRem",5]],[["zDivT",5],["zDProb",4]]],
+"3m8":[["Numerador / denominador.","Mismo denominador: suma los de arriba."],["3/4","2/5 + 1/5 = 3/5"],["¿Qué es más: 3/8 o 5/8?",["Mismo denominador.","5 &gt; 3."],"5/8."],[["frac",4],["fracCmp",4]],[["fracAdd",4],["fracOf",4]],[["zFrSet",4],["zFrAdd",4]]],
+"3m9":[["Perímetro: suma de lados.","Área: largo × ancho."],["rect 5 × 3: P 16, A 15"],["Un cuadrado de 6 cm: ¿perímetro y área?",["P = 4 × 6.","A = 6 × 6."],"P = 24 cm, A = 36 cm²."],[["perim",4],["area",4]],[["zPerim",5],["zArea",5]],[["zPerim",4],["zArea",4]]],
+"3m10":[["1 h = 60 min · 1 kg = 1 000 g · 1 L = 1 000 ml"],["2 h = 120 min","½ kg = 500 g"],["¿Cuántos minutos hay en 1 hora y media?",["1 h = 60.","½ h = 30."],"90 minutos."],[["mins",4],["grams",4]],[["zTime",4],["zWt",3],["zCap",3]],[["zTime",3],["zWt",3],["zCap",3]]],
+"3m11":[["Ángulos: recto, agudo, obtuso.","Cuerpos: caras, aristas, vértices."],["∟ recto","cubo: 6 caras"],["¿Cuántos lados tiene un hexágono?",["Hexa = seis."],"6 lados."],[["sides",4],["zAng",4]],[["zAng",3],["zLines",3],["zBody",3]],[["zPoly",3],["zBody",3],["zTri",3]]],
+"3m12":[["Datos en tablas y gráficas.","Probabilidad: más casos → más probable."],["Fútbol 9 · Cuerda 5","8 rojas, 2 azules"],["En una bolsa hay 5 rojas y 5 azules. ¿Qué es más probable?",["Hay la misma cantidad."],"Las dos son igual de probables."],[["xBars",4],["xChance",4]],[["zFreq",5],["zProbab",5]],[["zFreq",4],["zProbab",4]]]};
+(function(){const s=SUBJ.find(x=>x.id==="3mat");if(!s)return;const by={};s.units.forEach(u=>u.ls.forEach(l=>by[l.id]=l));Object.assign(by,MAT3N);
+ for(const[id,[rr,ee,ps,l1,l2,l3]]of Object.entries(MAT3T)){const l=by[id];if(!l)continue;const k0=l.learn.findIndex(p=>p.fe||p.info||(p.v&&p.v.t==="vida"));const k=k0<0?l.learn.length:k0;l.learn.splice(k,0,P("Pizarrón: lo más importante","",{t:"piz",r:rr,e:ee}),P("Ejemplo resuelto, paso a paso","",{t:"paso",q:ps[0],s:ps[1],r:ps[2]}));l.lv=[l1,l2,l3]}
+ const U=[["Los números hasta el 10 000",["3m1","3m13","3m14","3m15","3m2","3m16","3m17","3m18","3mR1"]],["Suma y resta",["3m3","3m19","3m20","3m21","3m22","3mR2"]],["Multiplicación",["3m4","3m5","3m23","3m24","3m6","3m25","3m26","3m27","3mR3"]],["División",["3m7","3m28","3m29","3m30","3m31","3mR4"]],["Fracciones y decimales",["3m8","3m32","3m33","3m34","3m35","3m36","3m37","3m38","3mR5"]],["Geometría",["3m11","3m39","3m40","3m41","3m42","3m43","3m44","3m45","3m46","3mR6"]],["Medición",["3m9","3m47","3m48","3m49","3m10","3m50","3m51","3m52","3m53","3mR7"]],["Datos y probabilidad",["3m12","3m54","3m55","3m56","3mR8"]]];
+ s.units=U.map(([t,ids])=>({t,ls:ids.map(i=>by[i]).filter(Boolean)}));s.d="Números hasta el 10 000, múltiplos y romanos; suma y resta con transformación; multiplicación y división; fracciones y decimales; geometría; perímetro, área, capacidad, peso y tiempo; datos y probabilidad. Cada lección tiene pizarrón, ejemplo resuelto y 3 niveles.";})();
 
 init();
 if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}

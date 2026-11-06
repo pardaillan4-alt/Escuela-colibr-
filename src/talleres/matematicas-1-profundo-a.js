@@ -18,7 +18,7 @@ ACT.mtddclr=(v,b)=>{const w=b.closest(".mt");w.querySelectorAll("[data-c]").forE
 /* --- Generadores nuevos --- */
 const SHV={triangulo:3,cuadrado:4,rectangulo:4,rombo:4,pentagono:5,hexagono:6};
 Object.assign(G,{
-xLine20:()=>{const a=pick([0,5,10]),n=mtRnd(a+1,a+10);return N("¿Qué número está marcado en la recta?",n,{t:"line",a,b:a+10,m:[n]},"Cuenta las rayitas desde el número de la orilla.")},
+xLine20:()=>{const a=pick([0,5,10]),n=mtRnd(a+1,a+9);return N("¿Qué número está marcado en la recta?",n,{t:"mline",a,st:1,m:n,all:1},"Cuenta las rayitas desde el número de la orilla.")},
 xUse:()=>{const Q=[["El número de tu casa","para saber dónde está"],["Cuántos hermanos tienes","para contar"],["Llegaste en 2.º lugar","para ordenar"],["La edad del abuelo","para medir el tiempo"],["El precio de un pan","para saber cuánto cuesta"]],[a,b]=pick(Q);return C(`«${a}». ¿Para qué sirve ese número?`,[b,...Q.map(x=>x[1]).filter(x=>x!==b).slice(0,2)],null,"Piensa qué te dice el número.")},
 xTensOp:()=>{const a=10*mtRnd(1,8),t=Math.random()<.5,b=t?10*mtRnd(1,(100-a)/10):10*mtRnd(1,a/10);return N(`${a} ${t?"+":"−"} ${b} = ?`,t?a+b:a-b,null,"Piensa en barras de 10: suma o quita barras completas.")},
 xExp:()=>{const d=mtRnd(2,9);let u=mtRnd(1,9);while(u===d)u=mtRnd(1,9);const n=10*d+u;return Math.random()<.5?N(`${n} = ${10*d} + ?`,u,{t:"blocks",d,u},"Las barras son las decenas; los cuadritos, las unidades."):C(`¿Cómo se descompone el ${n}?`,[`${10*d} + ${u}`,`${10*u} + ${d}`,`${d} + ${u}`],null,"Primero las decenas completas y luego las unidades.")},
