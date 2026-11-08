@@ -5,7 +5,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 g=int(sys.argv[1]); O='out'
-GN={1:'1.º',2:'2.º',3:'3.º'}
+GN={1:'1.º',2:'2.º',3:'3.º',4:'4.º',5:'5.º',6:'6.º'}
 def run(m): subprocess.run(['node','render.js',m,str(g)],check=True)
 run('body')
 body=PdfReader(f'{O}/g{g}-body.pdf'); key=PdfReader(f'{O}/g{g}-key.pdf')

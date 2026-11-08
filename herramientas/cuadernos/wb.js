@@ -24,17 +24,22 @@ function exHTML(ex){let h="",a="";
 function calWords(l){const w=new Set();l.ex.forEach(e=>{if(e.k==="b")w.add(e.a.join(""))});l.learn.forEach(p=>{if(!p.v)return;if(p.v.t==="syl")p.v.x.forEach(x=>{if(x.length<=16&&!/[=→↔+×−]/.test(x))w.add(x)});if(p.v.t==="word")w.add(p.v.x.replace(/-/g,""));if(p.v.t==="cards")p.v.x.forEach(([_,b])=>{const t=strip2(b).split(/[ (:=→↔]/)[0].replace(/-/g,"");if(t.length>1&&t.length<=12)w.add(t)})});return[...w].slice(0,4)}
 function calHTML(words){return`<section class="wsec cal"><h3>Caligrafía: copia con tu mejor letra</h3>${words.map(w=>`<div class="calrow"><span class="calm">${esc(w)}</span><span class="calm ghost">${esc(w)}</span><span class="calfree"></span></div><div class="calrow"></div>`).join("")}</section>`}
 window.buildLesson=function(s,l,idx,total){srand(hash(l.id));const c=s.c||s.id,info=l.learn.find(p=>p.info),fe=l.learn.find(p=>p.fe),first=l.learn.find(p=>!p.info&&!p.fe);
- let list=l.ex.slice();const seen=new Set(l.ex.map(e=>e.q));(l.g||[]).forEach(([n,cnt,arg])=>{for(let i=0;i<Math.min(cnt,6);i++){for(let t=0;t<8;t++){try{const e=G[n](arg);if(seen.has(e.q)&&t<7)continue;seen.add(e.q);list.push(e)}catch(e){}break}}});
+ let list=l.ex.slice();const seen=new Set(l.ex.map(e=>e.q));if(l.lv&&!l.ex.length){}else (l.g||[]).forEach(([n,cnt,arg])=>{for(let i=0;i<Math.min(cnt,6);i++){for(let t=0;t<8;t++){try{const e=G[n](arg);if(seen.has(e.q)&&t<7)continue;seen.add(e.q);list.push(e)}catch(e){}break}}});
+ if(!list.length&&l.lv){const nq=e=>strip2(e.q).toLowerCase();const seenN=new Set();/* Lecciones por niveles (4.º a 6.º): se toman preguntas de los tres niveles, alternando banco y generadores */
+  const gl=[...(l.g||[]),...l.lv.flat()],buckets=gl.map(([n,cnt,arg])=>{const out=[];if(!G[n])return out;for(let i=0;i<6;i++){for(let t=0;t<10;t++){let e;try{e=G[n](arg)}catch(x){break}if(!e||seenN.has(nq(e)))continue;seenN.add(nq(e));out.push(e);break}}return out});
+  for(let r=0;list.length<12&&r<6;r++)buckets.forEach(bk=>{if(list.length<12&&bk[r])list.push(bk[r])})}
  if(list.length>12){const st=l.ex.slice(0,8),gen=list.slice(l.ex.length);list=st.concat(gen.slice(0,Math.max(4,12-st.length)))}
  const exs=list.map(exHTML),answers=exs.map(x=>x.a);
  let h=`<article class="wl" style="${sv(s)}"><span class="mark">§${l.id}§</span>
- <header class="wh"><div class="whl"><p class="wk">${gName(s.g||1)} de primaria · ${SUBJ_NAME(c)} · Lección ${idx} de ${total}</p><h2>${esc(l.t)}</h2></div><span class="whi">${SICON[c]||""}</span></header>
+ <header class="wh"><div class="whl"><p class="wk">${gName(s.g||1)} de primaria · ${(s.g||1)>3?s.n:SUBJ_NAME(c)} · Lección ${idx} de ${total}</p><h2>${esc(l.t)}</h2></div><span class="whi">${SICON[c]||""}</span></header>
  <div class="wname"><span>Nombre: <i></i></span><span>Fecha: <i></i></span></div>`;
- if(info)h+=`<section class="wsec winfo"><h3>Repasa</h3>${V(info.v)}</section>`;
+ const piz=l.lv?l.learn.find(p=>p.v&&p.v.t==="piz"):null;
+ if(info&&!l.lv)h+=`<section class="wsec winfo"><h3>Repasa</h3>${V(info.v)}</section>`;
+ else if(l.lv&&first){const pg=l.learn.filter(p=>!p.info&&!p.fe&&!(p.v&&/^(piz|paso|vd|lvq)$/.test(p.v.t))).slice(0,2);h+=`<section class="wsec"><h3>Repasa</h3>${pg.map(p=>`<p class="wtext"><b>${p.h}.</b> ${p.p||""}</p>`).join("")}${piz?`<div class="wvis">${V(piz.v)}</div>`:""}</section>`}
  else if(first)h+=`<section class="wsec"><h3>Repasa: ${first.h}</h3><p class="wtext">${first.p||""}</p>${vis(first.v)}</section>`;
  h+=`<section class="wsec"><h3>Ejercicios</h3><ol class="wex">${exs.map(x=>`<li>${x.h}</li>`).join("")}</ol></section>`;
  if(c==="esp")h+=calHTML(calWords(l));
- if(c==="mat"&&(l.g||[]).length){srand(hash(l.id+"x"));const ops=[];(l.g||[]).forEach(([n,cnt,arg])=>{for(let i=0;i<4;i++){try{const e=G[n](arg);if(e.k==="n"&&/^[\d\s+−×÷=?]+$/.test(strip2(e.q)))ops.push(e)}catch(e){}}});
+ const mg=[...(l.g||[]),...(l.g&&l.g.length?[]:(l.lv||[]).flat().filter(x=>x[0]!=="qb"))];if(c==="mat"&&mg.length){srand(hash(l.id+"x"));const ops=[];mg.forEach(([n,cnt,arg])=>{for(let i=0;i<4;i++){try{const e=G[n](arg);if(e.k==="n"&&/^[\d\s+−×÷=?]+$/.test(strip2(e.q)))ops.push(e)}catch(e){}}});
   if(ops.length){const vo=ops.filter(e=>e.v&&e.v.t==="vert").slice(0,6),ho=ops.filter(e=>!(e.v&&e.v.t==="vert")).slice(0,8);
    if(vo.length){answers.push("Columnas: "+vo.map(e=>strip2(e.q).replace("= ?","= "+e.a)).join(" · "));h+=`<section class="wsec wavoid"><h3>Resuelve en columnas</h3><p class="win">Empieza por las unidades (azul), sigue con las decenas (rojo) y las centenas (verde). Anota arriba lo que llevas.</p><div class="wcols">${vo.map(e=>`<div>${vertHTML(e.v,null)}</div>`).join("")}</div></section>`}
    if(ho.length){answers.push("Cuaderno: "+ho.map(e=>strip2(e.q).replace("= ?","= "+e.a)).join(" · "));h+=`<section class="wsec"><h3>En tu cuaderno de cuadrícula</h3><p class="win">Copia cada operación en tu cuaderno, resuélvela y escribe aquí el resultado.</p><div class="wops">${ho.map(e=>`<span>${strip2(e.q).replace("= ?","=")} <i class="wblank sm"></i></span>`).join("")}</div></section>`}}}
@@ -43,7 +48,7 @@ window.buildLesson=function(s,l,idx,total){srand(hash(l.id));const c=s.c||s.id,i
  if(fe)h+=`<section class="wsec wfe"><h3>${CROSS} Con los ojos de la fe: ${fe.h}</h3><p class="wtext">${fe.p||""}</p><p class="win">¿Qué te enseña esto sobre Dios? Escríbelo o haz un dibujo.</p>${lines(3)}</section>`;
  else if(c==="rel"||c==="com")h+=`<section class="wsec wfe"><h3>${CROSS} Mi oración</h3><p class="win">Escribe una oración a Dios sobre lo que aprendiste en esta lección.</p>${lines(4)}</section>`;
  h+=`</article>`;return{h,answers}};
-window.buildGrade=function(g){const subs=gSubj(g);let html="",key=[],toc=[];subs.forEach(s=>{const ls=allLessons(s),c=s.c||s.id;html+=`<section class="wsub" style="${sv(s)}"><span class="mark">§S-${s.id}§</span><div class="wsubin">${SICON[c]?`<span class="whi big">${SICON[c]}</span>`:""}<p class="wk">${gName(g)} de primaria</p><h1>${s.n}</h1><p>${s.d}</p><ol class="wsl">${ls.map(l=>`<li>${esc(l.t)}</li>`).join("")}</ol></div></section>`;
+window.buildGrade=function(g){const subs=gSubj(g).filter(s=>g<=3||(s.g===g&&!s.noCuad&&!s.all&&!s.lvl));let html="",key=[],toc=[];subs.forEach(s=>{const ls=allLessons(s),c=s.c||s.id;html+=`<section class="wsub" style="${sv(s)}"><span class="mark">§S-${s.id}§</span><div class="wsubin">${SICON[c]?`<span class="whi big">${SICON[c]}</span>`:""}<p class="wk">${gName(g)} de primaria</p><h1>${s.n}</h1><p>${s.d}</p><ol class="wsl">${ls.map(l=>`<li>${esc(l.t)}</li>`).join("")}</ol></div></section>`;
  const kk={s:s.n,c,ls:[]};toc.push({id:"S-"+s.id,n:s.n,c,ls:[]});ls.forEach((l,i)=>{const r=buildLesson(s,l,i+1,ls.length);html+=r.h;kk.ls.push({id:l.id,t:l.t,n:i+1,a:r.answers});toc[toc.length-1].ls.push({id:l.id,t:l.t,n:i+1})});key.push(kk)});
  return{html,key,toc}};
 })();

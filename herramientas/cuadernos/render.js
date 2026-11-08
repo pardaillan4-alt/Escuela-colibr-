@@ -2,12 +2,11 @@
 // node render.js front <grado>  → out/g<g>-front.pdf (portada + índice) usando out/g<g>-pages.json
 const {chromium}=require('playwright');const fs=require('fs');const path=require('path');
 const [,,mode,gs]=process.argv;const g=+gs;const OUT=path.join(__dirname,'out');fs.mkdirSync(OUT,{recursive:true});
-// Lee los estilos y el código de la app desde la raíz del repositorio
-const C=path.join(__dirname,'..','..');
-const head=fs.readFileSync(C+'/src/head.html','utf8').replace(/<link[^>]+>\n?/g,'');
-const base=`<!doctype html><html lang="es-MX"><head><meta charset="utf-8">${head}<style>${fs.readFileSync(__dirname+'/print.css','utf8')}</style></head><body><div id="doc"></div><script>${fs.readFileSync(C+'/index.html','utf8').split('<script>')[1].split('</script>')[0].replace(/\ninit\(\);\s*$/,'')}</script><script>${fs.readFileSync(__dirname+'/wb.js','utf8')}</script></body></html>`;
+const C='/home/claude/colibri';
+const head=fs.readFileSync(C+'/head.html','utf8').replace(/<link[^>]+>\n?/g,'');
+const base=`<!doctype html><html lang="es-MX"><head><meta charset="utf-8">${head}<style>${fs.readFileSync(__dirname+'/print.css','utf8')}</style></head><body><div id="doc"></div><script>${fs.readFileSync(C+'/all.js','utf8')}</script><script>${fs.readFileSync(__dirname+'/wb.js','utf8')}</script></body></html>`;
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const GN={1:"1.º",2:"2.º",3:"3.º"};
+const GN={1:"1.º",2:"2.º",3:"3.º",4:"4.º",5:"5.º",6:"6.º"};
 (async()=>{const b=await chromium.launch();const p=await b.newPage();p.on('pageerror',e=>console.log('pageerror',e.message));
  fs.writeFileSync(OUT+'/base.html',base);await p.goto('file://'+OUT+'/base.html');await p.waitForTimeout(300);
  const pdf=async f=>{await p.evaluate(()=>document.fonts.ready);await p.pdf({path:f,format:'Letter',printBackground:true,preferCSSPageSize:true})};
@@ -22,7 +21,7 @@ const GN={1:"1.º",2:"2.º",3:"3.º"};
   fs.writeFileSync(`${OUT}/g${g}-data.json`,JSON.stringify(r.toc));
  } else {
   const toc=JSON.parse(fs.readFileSync(`${OUT}/g${g}-data.json`,'utf8')),pages=JSON.parse(fs.readFileSync(`${OUT}/g${g}-pages.json`,'utf8'));
-  const html=await p.evaluate(({g,toc,pages,GNg})=>{const subs=gSubj(g);
+  const html=await p.evaluate(({g,toc,pages,GNg})=>{const subs=gSubj(g).filter(s=>g<=3||(s.g===g&&!s.noCuad&&!s.all&&!s.lvl));
    const cover=`<section class="cov"><div class="covbird">${bird("big")}</div><p class="wk">Escuelita Colibrí</p><h1>Cuaderno de trabajo</h1><p class="covg">${GNg} de primaria</p><div class="covsub">${subs.map(s=>`<span style="${sv(s)}"><span class="whi">${SICON[s.c||s.id]}</span>${s.n}</span>`).join('')}</div><div class="covname"><span>Nombre: <i></i></span><span>Ciclo escolar: <i></i></span></div><div class="covpray">${CROSS}<p><b>Oración antes de estudiar.</b> ${PRAYER}</p></div></section>`;
    const how=`<section class="how"><h2>Cómo usar este cuaderno</h2><ul><li>Cada lección de la app tiene aquí su hoja de trabajo, en el mismo orden. Lo ideal es hacer la hoja después de la lección en la app.</li><li>Cada hoja empieza con la infografía para repasar, sigue con los ejercicios y termina con la sección «Con los ojos de la fe» o «Mi oración».</li><li>En Español hay renglones de caligrafía con doble raya. En Matemáticas hay operaciones para resolver en el cuaderno de cuadrícula.</li><li>El solucionario está al final. Revisen juntos los errores: son la mejor oportunidad para aprender.</li><li>Pueden imprimir solo una materia usando los números de página del índice.</li></ul></section>`;
    const t=`<section class="toc"><h2>Índice</h2>${toc.map(s=>`<div class="ts" style="${sv(subs.find(x=>'S-'+x.id===s.id))}"><p class="tsh"><span>${s.n}</span><b>${pages[s.id]}</b></p><ol>${s.ls.map(l=>`<li><span>${l.n}. ${l.t}</span><b>${pages[l.id]}</b></li>`).join('')}</ol></div>`).join('')}<p class="tsh tkey"><span>Solucionario</span><b>${pages.key}</b></p></section>`;

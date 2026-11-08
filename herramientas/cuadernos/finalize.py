@@ -3,7 +3,8 @@ from pypdf import PdfReader,PdfWriter
 def slug(s):return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFD',s.lower()).encode('ascii','ignore').decode()).strip('-')
 Q=['qpdf','--object-streams=generate','--recompress-flate','--compression-level=9']
 os.makedirs('final/por-materia',exist_ok=True)
-for g in (1,2,3):
+import sys
+for g in [int(x) for x in sys.argv[1:]] or (1,2,3):
     src=f'Cuaderno-{g}o-primaria.pdf';sm=json.load(open(f'g{g}-summary.json'))
     subprocess.run(Q+[src,f'final/{src}'],check=True)
     r=PdfReader(src);subs=sm['subjects'];keyStart=sm['front']+sm['body']+1
