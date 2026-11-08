@@ -2,10 +2,11 @@
    Trimestre: preguntas de las lecciones que el plan reparte en ese trimestre (o, sin plan, de la tercera parte de las unidades).
    Final: preguntas de todo el grado. Se guardan en p.exam[sid-t1|t2|t3|fin] y entran al promedio de exámenes de la boleta. */
 WEEKSUB[1].push("geo");WEEKSUB[3].push("geo");
-{const _gp=gradePlan;gradePlan=function(g){const P=schoolDays();if(P.plans[g])return P.plans[g];
+{const _gp=gradePlan;const fixCuad=out=>{for(const k in out)for(const d in out[k].map)out[k].map[d].forEach(it=>{if(it.kind==="cuad"&&!(typeof CUADP!=="undefined"&&CUADP[it.l.id]))it.kind="prac"});return out};
+ gradePlan=function(g){const P=schoolDays();if(P.plans[g])return P.plans[g];
  /* Geografía (5.º y 6.º) comparte color con Historia: se agenda con su propia clave para que no se pisen */
- const ss=gSubj(g),geo=ss.filter(s=>/geo$/.test(s.id));if(!geo.length)return _gp(g);
- geo.forEach(s=>{s._c=s.c;s.c="geo"});try{return _gp(g)}finally{geo.forEach(s=>{s.c=s._c;delete s._c})}}}
+ const ss=gSubj(g),geo=ss.filter(s=>/geo$/.test(s.id));if(!geo.length)return fixCuad(_gp(g));
+ geo.forEach(s=>{s._c=s.c;s.c="geo"});try{return fixCuad(_gp(g))}finally{geo.forEach(s=>{s.c=s._c;delete s._c})}}}
 const TRI=[["t1","1.er trimestre"],["t2","2.º trimestre"],["t3","3.er trimestre"],["fin","Examen final de grado"]];
 function periodLessons(s,tk){const ls=s.units.flatMap(u=>u.ls).filter(l=>!/R\d*$/.test(l.id)&&qpool(l,1).length);if(tk==="fin")return ls;
  const g=s.g||me().grade||1,y=cicloOf(Date.now()),P=periods(y),per=P.find(x=>x[0]===tk);
