@@ -2,10 +2,10 @@
 SUBJ.push({id:"his",n:"Historia y Geografía",campo:"Ética, naturaleza y sociedades",d:"Mi familia, el paso del tiempo, mi comunidad, México y sus tradiciones.",units:[
 {t:"Mi historia",ls:[
 L("h1","Mi familia",[
-P("¿Qué es una familia?","La familia son las personas que nos quieren, nos cuidan y viven con nosotros o cerca. Hay familias grandes y pequeñas, y todas son importantes.",{t:"emo",x:"👨‍👩‍👧‍👦"}),
+P("¿Qué es una familia?","Dios pensó la familia así: un <b>papá y una mamá</b> unidos en matrimonio y los hijos que Dios les regala; con abuelos, tíos y primos. Hay familias grandes y pequeñas. A veces falta papá o mamá (porque murió o está lejos) y los abuelos o tíos ayudan a cuidar: Dios ama y cuida a cada familia.",{t:"emo",x:"👨‍👩‍👧‍👦"}),
 P("Quién es quién","Los papás de tu papá o de tu mamá son tus <b>abuelos</b>. Los hermanos de tus papás son tus <b>tíos</b>. Los hijos de tus tíos son tus <b>primos</b>.",{t:"cards",x:[["👴👵","abuelos"],["👨👩","papás y tíos"],["🧒👧","hermanos y primos"]]}),
 P("Todos ayudamos","En la familia todos colaboramos: tender la cama, poner la mesa, recoger los juguetes, cuidar a los hermanos pequeños.",{t:"emo",x:"🛏️🍽️🧸"})
-],[C("¿Quién es la mamá de tu mamá?",["Tu abuela","Tu tía","Tu prima"]),C("¿Quién es el hijo de tu tío?",["Tu primo","Tu hermano","Tu abuelo"]),C("¿Quién es el hermano de tu papá?",["Tu tío","Tu primo","Tu abuelo"]),C("¿Cómo puedes ayudar en casa?",["Poniendo la mesa","Dejando todo tirado","Gritando"]),TF("Todas las familias son iguales.",false,null,"Piensa en las familias que conoces: ¿todas tienen los mismos miembros?")]),
+],[C("¿Quién es la mamá de tu mamá?",["Tu abuela","Tu tía","Tu prima"]),C("¿Quién es el hijo de tu tío?",["Tu primo","Tu hermano","Tu abuelo"]),C("¿Quién es el hermano de tu papá?",["Tu tío","Tu primo","Tu abuelo"]),C("¿Cómo puedes ayudar en casa?",["Poniendo la mesa","Dejando todo tirado","Gritando"]),TF("La familia empieza con el matrimonio de un papá y una mamá.",true,null,"Así lo pensó Dios desde Adán y Eva.")]),
 L("h2","Ayer, hoy y mañana",[
 P("El tiempo pasa","<b>Ayer</b> es el día que ya pasó. <b>Hoy</b> es el día que estamos viviendo. <b>Mañana</b> es el día que va a venir.",{t:"cards",x:[["⬅️","ayer"],["📍","hoy"],["➡️","mañana"]]}),
 P("Pasado, presente y futuro","Lo que ya pasó es el <b>pasado</b>, lo que pasa ahora es el <b>presente</b> y lo que pasará es el <b>futuro</b>.",{t:"emo",x:"👶 ➜ 🧒 ➜ 🧑‍🎓"}),
