@@ -34,5 +34,6 @@ ingl:()=>{const[q,u,r]=pick([[1,"pulgada",2.54],[1,"pie",30.48],[1,"yarda",91.44
 media:()=>{const k=rnd(3,5),m=rnd(4,20);let v=Array.from({length:k},()=>m+rnd(-3,3));const s=v.reduce((a,b)=>a+b,0);v[k-1]+=m*k-s;return N(`¿Cuál es el promedio (media) de: ${v.join(", ")}?`,m,null,"Suma todos y divide entre cuántos son.")},
 mediana:()=>{const v=Array.from({length:5},()=>rnd(1,30)),o=[...v].sort((a,b)=>a-b);return N(`¿Cuál es la mediana de: ${v.join(", ")}?`,o[2],null,"Ordena de menor a mayor y toma el de en medio.")},
 prob:()=>{const r=rnd(1,6),a=rnd(1,6),t=r+a;return C(`En una bolsa hay ${r} canicas rojas y ${a} azules. ¿Cuál es la probabilidad de sacar una roja?`,uniq([`${r}/${t}`,`${a}/${t}`,`${r}/${a}`]),null,"Casos favorables ÷ casos posibles.")},
+suc:()=>{const a=rnd(2,40),d=pick([2,3,4,5,6,7,8,9,11,12,15,25]),k=pick([1,-1]),A=k<0?a+d*8:a,v=[0,1,2,3,4].map(i=>A+k*d*i);return N(`¿Qué número sigue? ${v.slice(0,4).join(", ")}, …`,v[4],null,`Cada vez ${k>0?"suma":"resta"} ${d}.`)},
 rom5:()=>{const n=rnd(40,3999),R=x=>[[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]].reduce((s,[v,l])=>{while(x>=v){s+=l;x-=v}return s},"");return C(`¿Cómo se escribe ${n} en números romanos?`,uniq([R(n),R(n+10),R(n-1)]),null,"M=1000, D=500, C=100, L=50, X=10, V=5, I=1.")}
 });
