@@ -1,6 +1,6 @@
 // Escuelita Colibrí: guarda la app para que funcione sin internet.
 // La página se pide primero a la red (para recibir actualizaciones) y, si no hay conexión, se usa la copia guardada.
-const CACHE = "colibri-v41";
+const CACHE = "colibri-v42";
 const FOTOS = "colibri-fotos"; // las fotos se guardan aparte y no se borran al actualizar
 const VOZ = "colibri-voz"; // el programa de la voz natural (se guarda para usarla sin internet)
 const ARCHIVOS = ["./", "./index.html", "./manifest.webmanifest", "./iconos/icon-192.png", "./iconos/icon-512.png", "./iconos/apple-touch-icon.png"];
