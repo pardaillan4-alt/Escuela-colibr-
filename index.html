@@ -1158,6 +1158,133 @@ body.focus #tabs{display:none}
 .prow.on{background:var(--brand-s);box-shadow:inset 0 0 0 2px var(--brand)}
 .avatar{box-shadow:inset 0 -3px 0 rgba(0,0,0,.16)}
 
+/* ---------- Modelos: pictogramas inteligentes ---------- */
+.pg{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;min-width:0}
+.pg-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;max-width:100%}
+.pg-row.gs{gap:12px;align-items:stretch}
+.pg-g{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;background:var(--ss);border-radius:18px;padding:10px 14px;min-width:56px;position:relative}
+.pg-t{display:inline-flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:8px;max-width:100%}
+.pg-e{font-size:44px;line-height:1.05;display:inline-grid;place-items:center}
+.pg-e.solo{width:68px;height:68px;border-radius:20px;background:var(--card);box-shadow:0 3px 0 var(--lip),0 0 0 1.5px var(--line);font-size:40px}
+.pg-row:not(.gs)>.pg-t:nth-of-type(odd) .pg-e.solo:first-child{transform:rotate(-3deg)}
+.pg-row:not(.gs)>.pg-t:nth-of-type(even) .pg-e.solo:first-child{transform:rotate(3deg)}
+.pg-g .pg-e.solo{box-shadow:none;background:none;width:auto;height:auto;font-size:42px}
+.pg-pile{display:inline-grid;grid-template-columns:repeat(var(--c),auto);gap:4px 6px;padding:10px 12px;background:var(--ss);border-radius:18px;position:relative;justify-items:center}
+.pg-g .pg-pile{background:none;padding:0;position:static}
+.pg-pile .pg-e{font-size:38px}
+.pg-pile.m .pg-e{font-size:31px}
+.pg-pile.s .pg-e{font-size:24px}
+.pg-n{position:absolute;top:-10px;right:-10px;min-width:30px;height:30px;padding:0 7px;border-radius:99px;background:var(--sc);color:var(--on);font:800 16px/30px var(--display);text-align:center;box-shadow:0 2px 0 rgba(0,0,0,.2);box-sizing:border-box;font-variant-numeric:tabular-nums}
+.pg-w{font:800 clamp(21px,5.4vw,29px)/1.15 var(--display);color:var(--ink);display:inline-flex;align-items:center;gap:6px;text-align:center}
+.pg-w.num{color:var(--sc);font-variant-numeric:tabular-nums;font-size:clamp(25px,6.4vw,35px)}
+.pg-op{width:40px;height:40px;border-radius:50%;display:inline-grid;place-items:center;font:800 26px/1 var(--display);flex:none;color:var(--on);background:var(--soft)}
+.pg-op svg{width:22px;height:22px}
+.pg-op.eq{background:var(--ok)}.pg-op.pl{background:var(--mat)}.pg-op.mi{background:var(--esp)}.pg-op.ti{background:var(--civ)}.pg-op.di{background:var(--his)}.pg-op.cm{background:var(--sun);color:#3b2a00}.pg-op.ar{background:var(--chip);color:var(--soft)}
+.pg-op.big{width:54px;height:54px;font-size:34px}
+.fr{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1;margin:0 2px}
+.fr i{font-style:normal;padding:1px 5px}
+.fr i:first-child{border-bottom:3px solid currentColor;padding-bottom:4px}
+.fr i:last-child{padding-top:4px}
+.pg-pairs{display:flex;flex-direction:column;gap:8px;align-items:stretch;background:var(--ss);border-radius:18px;padding:12px 14px;width:100%;max-width:calc(var(--c)*46px + 68px);box-sizing:border-box}
+.pg-pr{display:grid;grid-template-columns:repeat(var(--c),minmax(0,1fr));gap:4px;align-items:center;justify-items:center;position:relative;padding-right:40px;min-height:40px}
+.pg-pr .pg-e{font-size:clamp(16px,calc(60vw/var(--c)),34px)}
+.pg-pr .pg-n{right:0;top:50%;margin-top:-15px}
+.pg-line{width:100%;max-width:540px;height:auto;overflow:visible}
+.pg-line .ax{stroke:var(--ink);stroke-width:2.200;stroke-linecap:round;fill:none}
+.pg-line .jump{fill:none;stroke:var(--sc);stroke-width:2.200;stroke-dasharray:4 4;stroke-linecap:round}
+.pg-line .jl{font:800 12px var(--display);fill:var(--sc);text-anchor:middle}
+.pg-line .pt{fill:var(--sc);stroke:var(--card);stroke-width:2}
+.pg-line .pt.neg{fill:var(--esp)}.pg-line .pt.zero{fill:var(--ink)}
+.pg-line .nl{font:800 14px var(--display);fill:var(--ink);text-anchor:middle;font-variant-numeric:tabular-nums}
+.pg-line .nl.neg{fill:var(--esp)}
+.pg-line .ld{stroke:var(--line);stroke-width:1.500}
+.pg-col,.pg-cmp{display:inline-flex;flex-direction:column;align-items:flex-end;gap:4px;font:800 clamp(27px,7.4vw,40px)/1 var(--display);font-variant-numeric:tabular-nums}
+.pg-col .cr,.pg-cmp .cr{display:flex;align-items:center}
+.cd{width:.84em;height:1.3em;display:inline-grid;place-items:center;color:var(--k,var(--ink))}
+.cd.th{margin-left:.22em}
+.cd.pad{opacity:.35}
+.cp{width:.32em;text-align:center;color:var(--ruby)}
+.cs{width:1em;text-align:center;color:var(--soft)}
+.pg-col .cl{align-self:stretch;height:4px;border-radius:2px;background:var(--ink);margin:2px 0}
+.pg-col .res{background:var(--ss);border-radius:10px}
+.pg-cmp{flex-direction:row;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center}
+.pg-cmp.long{font-size:clamp(19px,5.4vw,34px);gap:8px;flex-wrap:nowrap}
+.pg-cmp.long .pg-op.big{width:40px;height:40px;font-size:26px}
+.pg-cmp .cd{color:var(--ink)}
+.pg-cmp .cd.same{color:var(--soft)}
+.pg-cmp .cd.hit{background:var(--sun);color:#3b2a00;border-radius:10px;box-shadow:0 3px 0 var(--sun-d)}
+.pg-row.fb{gap:8px;align-items:flex-start}
+.pg-row.fb .pg-op{margin-top:6px}
+.pg-row.fb .pg-t{margin-top:8px}
+.pg-fb{display:inline-flex;flex-direction:column;align-items:center;gap:8px;font:800 clamp(24px,6vw,32px)/1 var(--display);color:var(--sc)}
+.pg-bar{display:grid;grid-template-columns:repeat(var(--b),1fr);width:clamp(84px,24vw,150px);height:32px;border:2.500px solid var(--sc);border-radius:9px;overflow:hidden;background:var(--card);box-sizing:border-box}
+.pg-bar i{border-left:2px solid var(--sc)}
+.pg-bar i:first-child{border-left:0}
+.pg-bar i.on{background:color-mix(in srgb,var(--sc) 55%,var(--card))}
+.pg-cien{display:grid;grid-template-columns:repeat(10,1fr);gap:2px;width:min(220px,62vw);aspect-ratio:1;padding:6px;background:var(--card);border:2.500px solid var(--sc);border-radius:14px;box-sizing:border-box}
+.pg-cien i{background:var(--ss);border-radius:3px}
+.pg-cien i.on{background:var(--sc)}
+.pg-plano{width:min(100%,300px);height:auto;overflow:visible}
+.pg-plano .gr{stroke:var(--line);stroke-width:1}
+.pg-plano .ax{stroke:var(--ink);stroke-width:2.200;stroke-linecap:round;fill:none}
+.pg-plano .tk{font:700 11px var(--body);fill:var(--soft);text-anchor:middle}
+.pg-plano .axl{font:800 14px var(--display);fill:var(--ink);font-style:italic}
+.pg-plano .gd{stroke:var(--soft);stroke-width:1.500;stroke-dasharray:4 4;fill:none}
+.pg-plano .mvx{stroke:var(--esp);stroke-width:4;stroke-linecap:round;fill:none}
+.pg-plano .mvy{stroke:var(--cie);stroke-width:4;stroke-linecap:round;fill:none}
+.pg-plano .pt{fill:var(--sun);stroke:var(--ink);stroke-width:2}
+.pg-plano .pl{font:800 14px var(--display);fill:var(--ink)}
+.pg-pv{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:6px;width:100%;max-width:540px}
+.pvc{display:flex;flex-direction:column;align-items:center;gap:3px;background:var(--ks);border-radius:14px;padding:10px 3px 8px;text-align:center;border-bottom:4px solid var(--k);min-width:0}
+.pvc b{font:800 clamp(18px,5vw,26px)/1 var(--display);color:var(--k)}
+.pvc small{font-size:11.5px;line-height:1.15;color:var(--ink);hyphens:auto;overflow-wrap:anywhere}
+.pvc i{font:800 11.5px var(--display);font-style:normal;color:var(--k);white-space:nowrap}
+.pg-tape{display:flex;flex-direction:column;gap:4px;width:min(100%,360px);font:800 22px var(--display)}
+.tp-tot{border:2.500px solid var(--sc);border-radius:12px;background:var(--ss);text-align:center;padding:6px;color:var(--sc)}
+.tp-row{display:grid;grid-template-columns:3fr 2fr;gap:4px}
+.tp-x{border:2.500px dashed var(--ruby);border-radius:12px;text-align:center;padding:6px;color:var(--ruby);font-style:italic}
+.tp-a{border:2.500px solid var(--sc);border-radius:12px;text-align:center;padding:6px;background:var(--card)}
+.geo2{width:min(100%,380px);height:auto;overflow:visible}
+.geo2 .st{stroke:var(--sc);stroke-width:3;stroke-linejoin:round;stroke-linecap:round;fill:none}
+.geo2 .fill{fill:var(--ss)}.geo2 .fill2{fill:color-mix(in srgb,var(--sc) 30%,var(--card))}.geo2 .fill3{fill:color-mix(in srgb,var(--sc) 48%,var(--card))}
+.geo2 .fill.st,.geo2 .fill2.st,.geo2 .fill3.st{stroke:var(--sc)}
+.geo2 path.fill.st{fill:var(--ss)}.geo2 path.fill2.st,.geo2 rect.fill2.st{fill:color-mix(in srgb,var(--sc) 30%,var(--card))}.geo2 path.fill3.st{fill:color-mix(in srgb,var(--sc) 48%,var(--card))}.geo2 rect.fill.st,.geo2 circle.fill.st{fill:var(--ss)}
+.geo2 .arc{stroke:var(--ruby);stroke-width:3.500;fill:none;stroke-linecap:round}
+.geo2 .ray{stroke:var(--ruby);stroke-width:3.500;stroke-linecap:round;fill:none}
+.geo2 .ray2{stroke:var(--civ);stroke-width:3.500;stroke-linecap:round;fill:none}
+.geo2 .dash{stroke-dasharray:6 6}
+.geo2 .tk{stroke:var(--ink);stroke-width:1.800;stroke-linecap:round}
+.geo2 .dot{fill:var(--ink)}
+.geo2 .lb{font:700 13px var(--body);fill:var(--ink)}
+.geo2 .lb.sc{fill:var(--ruby);font-weight:800}.geo2 .lb.b2{fill:var(--civ);font-weight:800}
+.geo2 .big{font:800 17px var(--display);fill:var(--ruby)}
+.geo2 .tn{font:700 10.5px var(--body);fill:var(--soft)}
+.nline{max-width:560px}
+.nline .ax,.nline .tk{stroke:var(--ink);stroke-width:2.200;stroke-linecap:round;fill:none}
+.nline text{font:800 14px var(--display);fill:var(--ink);font-variant-numeric:tabular-nums}
+.nline .mk{fill:var(--sc);stroke:var(--card);stroke-width:2.500}
+.nline .mkt{fill:var(--sc);font-size:17px}
+/* pasos numerados y tarjetas */
+.steps.st2{list-style:none;padding:0;margin:0;gap:0;font-size:19px;align-self:stretch;max-width:none;width:100%}
+.st2 li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;position:relative;padding:0 0 12px}
+.st2 li:last-child{padding-bottom:0}
+.st2 li::before{content:"";position:absolute;left:17px;top:38px;bottom:2px;width:3px;border-radius:2px;background:var(--ss)}
+.st2 li:last-child::before{display:none}
+.st2 .sn{width:37px;height:37px;border-radius:50%;background:var(--sc);color:var(--on);display:grid;place-items:center;font:800 17px var(--display);box-shadow:0 3px 0 color-mix(in srgb,var(--sc) 66%,#000)}
+.st2 .stx{background:var(--ss);border-radius:14px;padding:7px 12px;line-height:1.4;font-weight:700;justify-self:start}
+.cards{gap:10px;grid-template-columns:repeat(auto-fit,minmax(104px,1fr))}
+.mini{background:var(--card);border-radius:16px;padding:12px 8px 10px;box-shadow:0 0 0 1.500px var(--line),0 3px 0 var(--lip);gap:6px;font-size:16px;line-height:1.25}
+.mini .mi{font-size:34px;min-height:44px;display:grid;place-items:center}
+/* contenedores: ejemplo paso a paso y situación de la vida diaria */
+.paso{border:0;background:none;padding:0;width:100%}
+.paso-q{background:var(--sun-s);color:var(--ink);border-radius:16px;padding:12px 14px;font-weight:700;font-size:18.5px}
+.paso-n{background:var(--sc);color:var(--on);box-shadow:0 3px 0 color-mix(in srgb,var(--sc) 66%,#000)}
+.paso-r{background:var(--okbg);color:var(--ink);border-radius:14px}
+.vida{border:0;background:var(--ss);border-radius:20px;padding:16px;box-sizing:border-box}
+.vida-tag{background:var(--card);letter-spacing:.04em}
+.vida-b{border-radius:16px;box-shadow:0 3px 0 var(--lip);min-height:54px;font-weight:700;font-size:17.5px;transition:transform .08s,box-shadow .08s}
+.vida-b:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px 0 var(--lip)}
+
 /* ---------- Zona de papás ---------- */
 .panel.fold{padding:0;gap:0;overflow:hidden}
 .panel.fold>h2{font-size:18.5px}
@@ -1358,7 +1485,7 @@ esfera:`<circle cx="60" cy="50" r="42" ${a}/><ellipse cx="60" cy="50" rx="42" ry
 cilindro:`<path d="M24 22v58a36 12 0 0 0 72 0V22" ${a}/><ellipse cx="60" cy="22" rx="36" ry="12" class="shp t"/>`,
 cono:`<path d="M60 6L96 80a36 12 0 0 1-72 0z" ${a}/><path d="M24 80a36 12 0 0 0 72 0" class="ln"/>`};
 return`<svg viewBox="0 0 120 100" width="140" height="117" class="shape" role="img" aria-label="${SHN[s]||""}">${m[s]||""}</svg>`}
-function nline(a,b,mk){mk=[].concat(mk==null?[]:mk);const W=360,pad=18,st=(W-2*pad)/(b-a),big=b-a>12;let s=`<svg viewBox="0 0 ${W} 64" class="nline" role="img" aria-label="Recta numérica del ${a} al ${b}"><line x1="${pad-8}" y1="30" x2="${W-pad+8}" y2="30"/>`;for(let i=a;i<=b;i++){const x=pad+(i-a)*st;s+=`<line x1="${x}" y1="${mk.includes(i)?22:25}" x2="${x}" y2="${mk.includes(i)?38:35}"/>`;if(mk.includes(i))s+=`<circle cx="${x}" cy="30" r="8" class="mk"/>`;if(!big||i%2===0||mk.includes(i))s+=`<text x="${x}" y="56" text-anchor="middle">${i}</text>`}return s+"</svg>"}
+function nline(a,b,mk){mk=[].concat(mk==null?[]:mk);const n=b-a,W=360,pad=22,st=(W-2*pad)/n,step=n>24?5:n>12?2:1;let s=`<svg viewBox="0 0 ${W} 72" class="nline" role="img" aria-label="Recta numérica del ${a} al ${b}"><path d="M8 30H${W-8}" class="ax"/><path d="M${W-14} 24l7 6-7 6M14 24l-7 6 7 6" class="ax" fill="none"/>`;for(let i=a;i<=b;i++){const x=(pad+(i-a)*st).toFixed(1),m=mk.includes(i),lab=m||(i-a)%step===0;s+=`<path d="M${x} ${lab?22:25}V${lab?38:35}" class="tk"/>`;if(m)s+=`<circle cx="${x}" cy="30" r="9" class="mk"/>`;if(lab)s+=`<text x="${x}" y="60" text-anchor="middle"${m?` class="mkt"`:""}>${i}</text>`}return s+"</svg>"}
 function plate(){const cx=110,cy=110,r=100,col=["#4caf50","#f4b400","#e4572e"],lab=[["Verduras","y frutas"],["Cereales",""],["Leguminosas y","origen animal"]];let s=`<svg viewBox="0 0 220 220" width="230" height="230" role="img" aria-label="Plato del Bien Comer">`;for(let i=0;i<3;i++){const a0=(i*120-90)*Math.PI/180,a1=((i+1)*120-90)*Math.PI/180,am=((i+.5)*120-90)*Math.PI/180;s+=`<path d="M${cx} ${cy}L${(cx+r*Math.cos(a0)).toFixed(1)} ${(cy+r*Math.sin(a0)).toFixed(1)}A${r} ${r} 0 0 1 ${(cx+r*Math.cos(a1)).toFixed(1)} ${(cy+r*Math.sin(a1)).toFixed(1)}Z" fill="${col[i]}" stroke="#fff" stroke-width="3"/>`;const tx=cx+r*.55*Math.cos(am),ty=cy+r*.55*Math.sin(am);s+=`<text x="${tx.toFixed(1)}" y="${(ty-2).toFixed(1)}" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b2a44" font-family="Andika,sans-serif">${lab[i][0]}</text><text x="${tx.toFixed(1)}" y="${(ty+13).toFixed(1)}" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b2a44" font-family="Andika,sans-serif">${lab[i][1]}</text>`}return s+`<circle cx="${cx}" cy="${cy}" r="${r+4}" fill="none" stroke="var(--line)" stroke-width="4"/></svg>`}
 function flag(){return`<svg viewBox="0 0 210 120" width="230" height="131" role="img" aria-label="Bandera de México"><rect width="70" height="120" fill="#006847"/><rect x="70" width="70" height="120" fill="#fff"/><rect x="140" width="70" height="120" fill="#ce1126"/><rect x=".5" y=".5" width="209" height="119" fill="none" stroke="#9aa8b8"/><g transform="translate(105 62)"><path d="M-17 15c6 6 28 6 34 0" stroke="#3b7a2a" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M-4 16v-8h8v8" fill="#4a8f34"/><ellipse cx="0" cy="0" rx="11" ry="8" fill="#7a5230"/><circle cx="7" cy="-9" r="5" fill="#7a5230"/><path d="M11 -9l5 1" stroke="#c98a0b" stroke-width="2.5"/><path d="M-11 -2c-9-8-5-17 2-15M11 -1c9-8 5-17-2-15" stroke="#7a5230" stroke-width="4" fill="none"/><path d="M-6 7c4 3 8-3 13 1" stroke="#3b7a2a" stroke-width="2.5" fill="none"/></g></svg>`}
 function chalice(){return`<svg viewBox="0 0 120 140" width="130" height="152" role="img" aria-label="Cáliz y hostia"><circle cx="60" cy="27" r="21" fill="#fffaf0" stroke="#c79a1b" stroke-width="3"/><path d="M60 16v22M49 27h22" stroke="#c79a1b" stroke-width="3" stroke-linecap="round"/><path d="M26 54h68c0 27-15 41-34 41S26 81 26 54z" fill="#d9b04a" stroke="#a87c06" stroke-width="2"/><rect x="55" y="94" width="10" height="22" fill="#c79a1b"/><path d="M34 132c0-11 12-16 26-16s26 5 26 16z" fill="#d9b04a" stroke="#a87c06" stroke-width="2"/></svg>`}
@@ -1379,14 +1506,14 @@ case"seq":return`<div class="seq">${v.x.map(n=>`<span class="${n==="?"?"q":""}">
 case"big":return`<div class="bigt">${v.x}</div>`;
 case"syl":return`<div class="syl">${v.x.map(t=>`<span>${t}</span>`).join("")}</div>`;
 case"word":return`<div class="word">${v.x.split("-").map((t,i)=>`<span class="w${i%2}">${t}</span>`).join("")}</div>`;
-case"emo":return`<div class="emo" aria-hidden="true">${v.x}</div>`;
+case"emo":return emoV(v);
 case"cards":return`<div class="cards">${v.x.map(([a,b])=>`<div class="mini"><span class="mi" aria-hidden="true">${a}</span><span>${b}</span></div>`).join("")}</div>`;
 case"pict":return`<div class="pict">${v.rows.map(([e,n,lab])=>`<div class="prw"><span class="pl">${lab}</span><span class="pi" aria-label="${n}">${e.repeat(n)}</span></div>`).join("")}</div>`;
 case"plate":return plate();
 case"flag":return flag();
 case"chalice":return chalice();
 case"pray":return`<blockquote class="pray">${v.x}</blockquote>`;
-case"steps":return`<ol class="steps" start="${v.start||1}">${v.x.map(t=>`<li>${t}</li>`).join("")}</ol>`;
+case"steps":return stepsV(v);
 case"vert":return vertHTML(v,null);
 default:return VX[v.t]?VX[v.t](v):""}}
 function visText(v){if(!v)return"";if(v.t==="info")return" "+infoText(v);if(v.t==="pray")return" "+v.x;if(v.t==="steps")return" "+v.x.join(". ");return""}
@@ -1621,6 +1748,92 @@ ajvoice:()=>{S.voice=!S.voice;save();if(!S.voice)try{speechSynthesis.cancel()}ca
 ajfx:()=>{S.fx=!S.fx;save();if(S.fx)SND.ok();ajustesSheet()},
 ajmus:()=>{closeSheet();if(ACT.musbox)ACT.musbox()},
 ajpap:()=>{closeSheet();gate()}});
+/* ========= Modelos v2: pictogramas inteligentes y diagramas de apoyo =========
+   El visual «emo» (antes: emojis sueltos) ahora se interpreta: agrupa los dibujos repetidos y los cuenta,
+   compone las operaciones con sus signos, escribe las fracciones «de pie» y, cuando reconoce un patrón
+   matemático, dibuja el modelo que lo explica (recta numérica, operación en columna, comparación cifra
+   por cifra, barras de fracción, cuadrícula de 100, plano cartesiano, tabla de valor posicional).
+   En la práctica y los exámenes no se muestran conteos ni saltos calculados, para no regalar respuestas. */
+const PG_EM=/(?:\p{Regional_Indicator}{2}|[#*0-9]\uFE0F?\u20E3|\p{Extended_Pictographic}(?:\uFE0F|[\u{1F3FB}-\u{1F3FF}])?(?:\u200D\p{Extended_Pictographic}\uFE0F?)*)/gu;
+const PG_OP=/\s*(➡️|➡|→|⇒|=|≈|≠|>|<|\+|−|×|÷|\s-\s|\s:\s)\s*/u;
+const PG_OPC={"=":"eq","≈":"eq","≠":"eq","+":"pl","−":"mi","-":"mi","×":"ti","÷":"di",">":"cm","<":"cm",":":"cm","→":"ar"};
+const PG_UF={"¼":"1/4","½":"1/2","¾":"3/4","⅓":"1/3","⅔":"2/3","⅕":"1/5","⅖":"2/5","⅗":"3/5","⅘":"4/5","⅙":"1/6","⅚":"5/6","⅛":"1/8","⅜":"3/8","⅝":"5/8","⅞":"7/8"};
+const PG_PV={U:["Unidades","×1","mat"],D:["Decenas","×10","esp"],C:["Centenas","×100","cie"],UM:["Unidades de millar","×1 000","civ"],DM:["Decenas de millar","×10 000","his"],CM:["Centenas de millar","×100 000","com"],UMi:["Unidades de millón","×1 000 000","ing"]};
+const pgFr=(a,b)=>`<span class="fr"><i>${a}</i><i>${b}</i></span>`;
+function pgNum(s){s=String(s).trim().replace(/[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/g,c=>PG_UF[c]).replace(/−/g,"-");let m=s.match(/^(-?\d+)\s+(\d+)\/(\d+)$/);if(m)return+m[1]+m[2]/m[3];m=s.match(/^(-?\d+)\/(\d+)$/);if(m)return m[1]/m[2];const t=s.replace(/\s/g,"");return/^-?\d+(\.\d+)?$/.test(t)?+t:NaN}
+function pgTokens(s){const out=[];let last=0,m;PG_EM.lastIndex=0;while((m=PG_EM.exec(s))){const gap=s.slice(last,m.index);if(gap.trim())out.push({t:gap.trim()});out.push({e:m[0],sp:last>0&&/\s/.test(gap)&&!gap.trim()});last=m.index+m[0].length}const t=s.slice(last).trim();if(t)out.push({t});return out}
+function pgText(t){t=t.replace(/[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/g,c=>" "+PG_UF[c]).trim();const num=/\d/.test(t)&&!/[a-záéíóúñ]{4,}/i.test(t);let h;
+ const w=t.match(/^([^\/\d][^\/]{0,16}?)\s+\/\s+([^\/]{1,18})$/);if(w)h=pgFr(esc(w[1]),esc(w[2]));
+ else h=esc(t).replace(/(\d+)\/(\d+)/g,(_,a,b)=>pgFr(a,b));
+ return`<span class="pg-w${num?" num":""}">${h}</span>`}
+function pgPile(e,n,count){const c=n<=5?n:n<=10?5:n<=18?6:8;return`<span class="pg-pile${n>10?" s":n>3?" m":""}" style="--c:${c}">${`<span class="pg-e">${e}</span>`.repeat(n)}${count?`<b class="pg-n">${n}</b>`:""}</span>`}
+function pgTerm(s,count){const tk=pgTokens(s),grp=tk.some((k,i)=>k.e&&i>0&&tk[i-1].e===k.e&&!k.sp);let h="";for(let i=0;i<tk.length;i++){const k=tk[i];if(k.e){let n=1;while(tk[i+1]&&tk[i+1].e===k.e&&!(grp&&tk[i+1].sp)){n++;i++}h+=n>1?pgPile(k.e,n,count):`<span class="pg-e solo">${k.e}</span>`}else h+=pgText(k.t)}return`<span class="pg-t">${h}</span>`}
+function pgExpr(s,count){const p=s.replace(/➕/g," + ").replace(/➖/g," − ").replace(/✖️?/g," × ").replace(/➗/g," ÷ ").replace(/🟰/g," = ").split(PG_OP);let h="";p.forEach((x,i)=>{if(i%2){const o=x.trim().replace(/^(➡️|➡|⇒)$/,"→");h+=`<span class="pg-op ${PG_OPC[o]||"eq"}">${o==="→"?`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`:o}</span>`}else if(x.trim())h+=pgTerm(x,count)});return h}
+/* Recta numérica con los valores de una serie (y sus saltos, si son iguales) */
+function pgLine(vals,labs){const n=vals.length,W=340,L=26,R=W-26,a=vals[0],b=vals[n-1],X=v=>L+(v-a)/(b-a)*(R-L),d=vals[1]-vals[0],even=vals.every((v,i)=>i===0||Math.abs(v-vals[i-1]-d)<1e-9),plain=labs.every(l=>!/[\/¼½¾]/.test(l)),neg=vals.some(v=>v<0);
+ let tight=false;for(let i=1;i<n;i++)if(X(vals[i])-X(vals[i-1])<30)tight=true;const y=even&&n<=13?50:30,H=y+(tight?52:38);
+ let s=`<svg class="pg-line" viewBox="0 0 ${W} ${H}" role="img" aria-label="Recta numérica: ${labs.join(", ")}"><path d="M8 ${y}H${W-8}" class="ax"/><path d="M${W-14} ${y-5}l7 5-7 5M14 ${y-5}l-7 5 7 5" class="ax" fill="none"/>`;
+ if(even&&n<=13)for(let i=1;i<n;i++){const x0=X(vals[i-1]),x1=X(vals[i]),mx=(x0+x1)/2,h=Math.min(26,(x1-x0)*.55);s+=`<path d="M${x0.toFixed(1)} ${y-6}Q${mx.toFixed(1)} ${(y-6-h*1.5).toFixed(1)} ${x1.toFixed(1)} ${y-6}" class="jump"/>`;if(plain&&x1-x0>=26){const dd=Math.round(d*1000)/1000;s+=`<text x="${mx.toFixed(1)}" y="${(y-12-h*.75).toFixed(1)}" class="jl">+${String(dd).replace(/\B(?=(\d{3})+(?!\d))/g," ")}</text>`}}
+ vals.forEach((v,i)=>{const x=X(v).toFixed(1),lo=tight&&i%2,cl=neg?(v<0?"neg":v===0?"zero":"pos"):"";s+=`<path d="M${x} ${y-6}V${y+6}" class="ax"/><circle cx="${x}" cy="${y}" r="5.500" class="pt ${cl}"/>${lo?`<path d="M${x} ${y+8}V${y+20}" class="ld"/>`:""}<text x="${x}" y="${y+(lo?36:23)}" class="nl ${cl}">${esc(labs[i])}</text>`});
+ return s+"</svg>"}
+/* Operación en columna (enteros o decimales), alineada por valor posicional */
+function pgCol(a,op,b,c){const sp=s=>{s=String(s).replace(/\s/g,"");const[i,d=""]=s.split(".");return[i,d]},A=sp(a),B=sp(b),C=sp(c),mi=Math.max(A[0].length,B[0].length,C[0].length),md=Math.max(A[1].length,B[1].length,C[1].length),COL=["mat","esp","cie","civ","his","com","ing"],DCOL=["geo","ora","tra"];
+ const row=(P,sign,cls)=>{let h=`<span class="cs">${sign||""}</span>`;const I=P[0].padStart(mi," ");for(let k=0;k<mi;k++){const ch=I[k],pos=mi-1-k;h+=`<span class="cd${pos%3===2&&k>0?" th":""}" style="--k:var(--${COL[pos%7]})">${ch===" "?"":ch}</span>`}
+  if(md){h+=`<span class="cp">.</span>`;for(let k=0;k<md;k++){const ch=P[1][k];h+=`<span class="cd${ch==null?" pad":""}" style="--k:var(--${DCOL[k%3]})">${ch==null?"0":ch}</span>`}}return`<div class="cr ${cls||""}">${h}</div>`};
+ return`<div class="pg-col" role="img" aria-label="${esc(a)} ${op} ${esc(b)} = ${esc(c)}">${row(A)}${row(B,op)}<div class="cl"></div>${row(C,"","res")}</div>`}
+/* Comparación cifra por cifra: resalta la primera cifra distinta */
+function pgCmp(a,sym,b){const sp=s=>{s=String(s).replace(/\s/g,"");const[i,d=""]=s.split(".");return[i,d]},A=sp(a),B=sp(b),mi=Math.max(A[0].length,B[0].length),md=Math.max(A[1].length,B[1].length),f=P=>P[0].padStart(mi," ")+(md?"."+P[1].padEnd(md,"0"):""),sa=f(A),sb=f(B);let k=-1;for(let i=0;i<sa.length;i++)if(sa[i]!==sb[i]){k=i;break}
+ const row=(s,P)=>{let h="";const il=mi;for(let i=0;i<s.length;i++){const ch=s[i],pos=il-1-i,pad=md&&i>il&&i-il>P[1].length;h+=ch==="."?`<span class="cp">.</span>`:`<span class="cd${i===k?" hit":""}${i<k?" same":""}${pad?" pad":""}${i<il&&pos%3===2&&i>0?" th":""}">${ch===" "?"":ch}</span>`}return`<div class="cr">${h}</div>`};
+ return`<div class="pg-cmp${sa.length+sb.length>9?" long":""}" role="img" aria-label="${esc(a)} ${sym==="≈"?"aproximadamente":sym===">"?"es mayor que":"es menor que"} ${esc(b)}">${row(sa,A)}<span class="pg-op cm big">${sym}</span>${row(sb,B)}</div>`}
+/* Barra de fracción */
+function pgBar(a,b){let h="";for(let i=0;i<b;i++)h+=`<i class="${i<a?"on":""}"></i>`;return`<span class="pg-bar" style="--b:${b}">${h}</span>`}
+function pgFracs(s){const p=s.split(PG_OP);let h="";p.forEach((x,i)=>{if(i%2){const o=x.trim().replace(/^(➡️|➡|⇒)$/,"→");h+=`<span class="pg-op ${PG_OPC[o]||"eq"}">${o==="→"?"→":o}</span>`}else{const t=x.trim().replace(/[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/g,c=>PG_UF[c]),m=t.match(/^(\d+)\/(\d+)$/);h+=m?`<span class="pg-fb">${pgFr(m[1],m[2])}${pgBar(+m[1],+m[2])}</span>`:pgTerm(x,false)}});return h}
+/* Cuadrícula de 100 para porcentajes */
+function pgCien(n){let h="";for(let i=0;i<100;i++)h+=`<i class="${i<n?"on":""}"></i>`;return`<span class="pg-cien" role="img" aria-label="${n} de 100 cuadritos">${h}</span>`}
+/* Plano cartesiano con un punto de ejemplo */
+function pgPlano(px,py,q4){const W=230,H=q4?230:210,n=q4?5:6,u=q4?20:28,ox=q4?W/2:34,oy=q4?H/2:H-30,X=x=>ox+x*u,Y=y=>oy-y*u,lo=q4?-n:0;let s=`<svg class="pg-plano" viewBox="0 0 ${W} ${H}" role="img" aria-label="Plano cartesiano con el punto (${px}, ${py})">`;
+ for(let i=lo;i<=n;i++){s+=`<path d="M${X(i)} ${Y(lo)}V${Y(n)}M${X(lo)} ${Y(i)}H${X(n)}" class="gr"/>`;if(i===0&&q4)continue;s+=`<text x="${X(i)}" y="${oy+15}" class="tk">${i}</text>`;if(i!==0)s+=`<text x="${ox-8}" y="${Y(i)+4}" class="tk" text-anchor="end">${i}</text>`}
+ s+=`<path d="M${X(lo)-4} ${oy}H${X(n)+10}M${ox} ${Y(lo)+4}V${Y(n)-10}" class="ax"/><path d="M${X(n)+4} ${oy-5}l7 5-7 5M${ox-5} ${Y(n)-4}l5-7 5 7" class="ax" fill="none"/><text x="${X(n)+8}" y="${oy+17}" class="axl">x</text><text x="${ox+10}" y="${Y(n)-6}" class="axl">y</text>`;
+ s+=`<path d="M${ox} ${Y(py)}H${X(px)}" class="gd"/><path d="M${ox} ${oy}H${X(px)}" class="mvx"/><path d="M${X(px)} ${oy}V${Y(py)}" class="mvy"/><circle cx="${X(px)}" cy="${Y(py)}" r="6.500" class="pt"/><text x="${X(px)+(px<0?-10:10)}" y="${Y(py)+(py<0?18:-10)}" class="pl" text-anchor="${px<0?"end":"start"}">(${px}, ${py})</text></svg>`;return s}
+/* Tabla de valor posicional */
+function pgPV(keys){return`<div class="pg-pv" role="img" aria-label="Valor posicional: ${keys.map(k=>PG_PV[k][0]).join(", ")}">${keys.map(k=>`<span class="pvc" style="--k:var(--${PG_PV[k][2]});--ks:var(--${PG_PV[k][2]}-s)"><b>${k}</b><small>${PG_PV[k][0]}</small><i>${PG_PV[k][1]}</i></span>`).join("")}</div>`}
+/* Diagrama de barra para una ecuación x + a = b */
+function pgTape(x,a,b){return`<div class="pg-tape" role="img" aria-label="${x} más ${a} es igual a ${b}"><div class="tp-tot"><span>${b}</span></div><div class="tp-row"><span class="tp-x">${x}</span><span class="tp-a">${a}</span></div></div>`}
+function pgRows(rows,count){const tk=rows.map(r=>pgTokens(r)),mx=Math.max(...tk.map(t=>t.length));return`<div class="pg-pairs" style="--c:${Math.min(mx,10)}">${tk.map(t=>`<div class="pg-pr">${t.map(k=>k.e?`<span class="pg-e">${k.e}</span>`:pgText(k.t)).join("")}${count&&t.length>1&&t.every(k=>k.e)?`<b class="pg-n">${t.length}</b>`:""}</div>`).join("")}</div>`}
+function emoV(v){const x=String(v.x==null?"":v.x).replace(/&gt;/g,">").replace(/&lt;/g,"<").replace(/&amp;/g,"&").trim(),learn=MODE!=="prac";let body="";
+ try{const rows=x.split(/\s*<br\s*\/?>\s*/i);if(rows.length>1)return`<div class="pg" aria-hidden="true">${pgRows(rows,learn)}</div>`;
+  const groups=x.split(/\s+[·|]\s+/);
+  if(learn){let m;
+   if(/^\(\s*x\s*,\s*y\s*\)$/.test(x))body=pgPlano(3,5,false);
+   else if(groups.length>=2&&groups.every(g=>PG_PV[g.trim()]))body=pgPV(groups.map(g=>g.trim()));
+   else if(groups.length>=3&&groups.every(g=>!isNaN(pgNum(g)))&&groups.every((g,i)=>i===0||pgNum(g)>pgNum(groups[i-1]))){const vs=groups.map(pgNum),sp=vs[vs.length-1]-vs[0];body=vs.every((v,i)=>i===0||(v-vs[i-1])/sp*288>=20)?pgLine(vs,groups.map(g=>g.trim())):`<div class="pg-row">${pgExpr(groups.map(g=>g.trim()).join(" < "),false)}</div>`}
+   else if((m=x.match(/^(?:[✔✓]️?\s*)?(\d[\d\s]*(?:\.\d+)?)\s*([+−])\s*(\d[\d\s]*(?:\.\d+)?)\s*=\s*(\d[\d\s]*(?:\.\d+)?)$/))&&(/\./.test(x)||m[1].replace(/\s/g,"").length>=3))body=pgCol(m[1].trim(),m[2],m[3].trim(),m[4].trim());
+   else if((m=x.match(/^(\d[\d\s]*(?:\.\d+)?)\s*([><≈])\s*(\d[\d\s]*(?:\.\d+)?)$/)))body=pgCmp(m[1].trim(),m[2],m[3].trim());
+   else if((m=x.match(/^([a-zñ])\s*\+\s*(\d+)\s*=\s*(\d+)$/i)))body=`<div class="pg-row">${pgExpr(x,false)}</div>${pgTape(m[1],m[2],m[3])}`;
+   else if((m=x.match(/^(\d{1,3})\s?%\s*=/))&&+m[1]<=100)body=`<div class="pg-row">${pgExpr(x,false)}</div>${pgCien(+m[1])}`;
+   else{const fr=x.replace(/[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/g,c=>PG_UF[c]).match(/\d+\/\d+/g);if(fr&&groups.length===1&&!/[+−×÷]/.test(x.replace(/×\s*\d+\s*(?=→)/,""))&&fr.every(f=>{const[a,b]=f.split("/").map(Number);return b>=2&&b<=20&&a<=b}))body=`<div class="pg-row fb">${pgFracs(x)}</div>`}}
+  if(!body)body=groups.length>1?`<div class="pg-row gs">${groups.map(g=>`<span class="pg-g">${pgExpr(g,learn)}</span>`).join("")}</div>`:`<div class="pg-row">${pgExpr(x,learn)}</div>`}
+ catch(e){body=`<div class="pg-row"><span class="pg-t">${esc(x)}</span></div>`}
+ return`<div class="pg" aria-hidden="true">${body}</div>`}
+function stepsV(v){const s0=v.start||1;return`<ol class="steps st2" start="${s0}">${v.x.map((t,i)=>`<li><span class="sn" aria-hidden="true">${s0+i}</span><span class="stx">${t}</span></li>`).join("")}</ol>`}
+
+/* ---------- Geometría: figuras con sus partes rotuladas ---------- */
+VX.geo2=v=>{const k=v.k,T=(x,y,t,c,a)=>`<text x="${x}" y="${y}" class="${c||"lb"}"${a?` text-anchor="${a}"`:""}>${t}</text>`;let s="",W=280,H=180,al="";
+ if(k==="ang"){const d=v.deg||50,r=d*Math.PI/180,vx=44,vy=146,L=190,ex=vx+L*Math.cos(r),ey=vy-L*Math.sin(r),ar=54;al=`Ángulo de ${d} grados con sus dos lados y su vértice`;
+  s=`<path d="M${vx} ${vy}H${vx+L+10}M${vx} ${vy}L${ex.toFixed(1)} ${ey.toFixed(1)}" class="st"/><path d="M${vx+ar} ${vy}A${ar} ${ar} 0 0 0 ${(vx+ar*Math.cos(r)).toFixed(1)} ${(vy-ar*Math.sin(r)).toFixed(1)}" class="arc"/><circle cx="${vx}" cy="${vy}" r="6" class="dot"/>${T(vx+ar+12,vy-18,d+"°","big")}${T(vx-6,vy+22,"vértice","lb")}${T(vx+L-36,vy+22,"lado","lb")}${T((vx+ex)/2-44,(vy+ey)/2-8,"lado","lb")}${T(vx+86,vy-58,"abertura","lb sc")}`}
+ else if(k==="trans"){const cx=140,cy=150,R=112,d=v.deg||60;H=176;al=`Transportador que marca ${d} grados`;s=`<path d="M${cx-R} ${cy}A${R} ${R} 0 0 1 ${cx+R} ${cy}Z" class="fill"/><path d="M${cx-R-8} ${cy}H${cx+R+8}" class="st"/>`;
+  for(let a=0;a<=180;a+=10){const q=a*Math.PI/180,big=a%30===0,r1=R-(big?16:9);s+=`<path d="M${(cx+R*Math.cos(q)).toFixed(1)} ${(cy-R*Math.sin(q)).toFixed(1)}L${(cx+r1*Math.cos(q)).toFixed(1)} ${(cy-r1*Math.sin(q)).toFixed(1)}" class="tk"/>`;if(big&&a!==d)s+=T((cx+(R-30)*Math.cos(q)).toFixed(1),(cy-(R-30)*Math.sin(q)+(a%180===0?-7:4)).toFixed(1),a,"tn","middle")}
+  const q=d*Math.PI/180;s+=`<path d="M${cx} ${cy}L${(cx+(R+12)*Math.cos(q)).toFixed(1)} ${(cy-(R+12)*Math.sin(q)).toFixed(1)}" class="ray"/><path d="M${cx+34} ${cy}A34 34 0 0 0 ${(cx+34*Math.cos(q)).toFixed(1)} ${(cy-34*Math.sin(q)).toFixed(1)}" class="arc"/><circle cx="${cx}" cy="${cy}" r="5" class="dot"/>${T((cx+(R+16)*Math.cos(q)+6).toFixed(1),(cy-(R+16)*Math.sin(q)+2).toFixed(1),d+"°","big")}`}
+ else if(k==="alt"){al="Triángulo con su base y su altura";s=`<path d="M34 150L246 150L170 30Z" class="fill st"/><path d="M170 30V150" class="ray dash"/><path d="M170 138h12v12" class="tk" fill="none"/>${T(140,170,"base","lb","middle")}${T(178,96,"altura","lb sc")}<circle cx="170" cy="30" r="5" class="dot"/>`}
+ else if(k==="circ"){const cx=140,cy=92,R=74;H=184;al="Círculo con su centro, su radio y su diámetro";s=`<circle cx="${cx}" cy="${cy}" r="${R}" class="fill st"/><path d="M${cx-R*.707} ${cy+R*.707}L${cx+R*.707} ${cy-R*.707}" class="ray2"/><path d="M${cx} ${cy}H${cx+R}" class="ray"/><circle cx="${cx}" cy="${cy}" r="5" class="dot"/>${T(cx+R/2,cy+18,"radio","lb sc","middle")}${T(cx-52,cy+16,"diámetro","lb b2","middle")}${T(cx-4,cy-10,"centro","lb","end")}${T(cx,cy+R+20,"circunferencia: el borde","lb","middle")}`}
+ else if(k==="caja"){H=176;al="Prisma rectangular con su largo, su ancho y su altura";s=`<path d="M40 64H190V146H40Z" class="fill st"/><path d="M40 64L84 30H234L190 64Z" class="fill2 st"/><path d="M190 64L234 30V112L190 146Z" class="fill3 st"/>${T(115,166,"largo","lb","middle")}${T(232,140,"ancho","lb")}${T(34,108,"alto","lb","end")}`}
+ else if(k==="red"){W=300;H=176;al="Un cubo y su desarrollo plano de seis cuadrados";const q=36,ox=150,oy=16,sq=(i,j,c)=>`<rect x="${ox+i*q}" y="${oy+j*q}" width="${q}" height="${q}" class="${c||"fill"} st"/>`;
+  s=`<path d="M22 78H74V130H22Z" class="fill st"/><path d="M22 78L42 60H94L74 78Z" class="fill2 st"/><path d="M74 78L94 60V112L74 130Z" class="fill3 st"/><path d="M104 96h28M124 88l9 8-9 8" class="tk" fill="none"/>${sq(1,0)}${sq(0,1)}${sq(1,1,"fill2")}${sq(2,1)}${sq(3,1)}${sq(1,2)}${sq(1,3)}${T(58,154,"cubo","lb","middle")}${T(ox+2*q,oy+4*q+16,"desarrollo plano","lb","middle")}`.replace(sq(1,3),"")+""}
+ else if(k==="plano4")return`<div class="pg">${pgPlano(v.x==null?-3:v.x,v.y==null?2:v.y,true)}</div>`;
+ return`<div class="pg"><svg class="geo2" viewBox="0 0 ${W} ${H}" role="img" aria-label="${al}">${s}</svg></div>`};
+/* Lecciones que cambian su dibujo de apoyo por un modelo geométrico */
+const MODELFIX={"4m17#0":{t:"geo2",k:"ang",deg:50},"5m23#1":{t:"geo2",k:"trans",deg:60},"5m24#1":{t:"geo2",k:"alt"},"5m25#1":{t:"geo2",k:"circ"},"5m29#0":{t:"geo2",k:"caja"},"6m11#0":{t:"geo2",k:"caja"},"6m9#0":{t:"geo2",k:"plano4"},"4m20#1":{t:"geo2",k:"red"}};
+function applyModelFix(){SUBJ.forEach(s=>allLessons(s).forEach(l=>l.learn.forEach((pg,i)=>{const f=MODELFIX[l.id+"#"+i];if(f&&pg.v&&pg.v.t==="emo")pg.v=f})))}
 /* ========= Visuales y generadores para 2.º grado ========= */
 VX.arr=v=>{let h="";for(let r=0;r<v.r;r++){let row="";for(let c=0;c<v.c;c++)row+=icon(v.s||"apple",26);h+=`<div class="arow">${row}</div>`}return`<div class="arr" role="img" aria-label="${v.r} filas de ${v.c}">${h}</div>`};
 VX.share=v=>{let h="";for(let i=0;i<v.g;i++){let row="";for(let k=0;k<v.e;k++)row+=icon(v.s||"apple",24);h+=`<div class="grp">${row}</div>`}return`<div class="eq">${h}</div>`};
@@ -12800,6 +13013,7 @@ function foldPanels(){document.querySelectorAll("#app > section.panel").forEach(
  sec.classList.add("fold");sec.classList.toggle("open",open);h.innerHTML=`<button class="pf-b" data-act="pfold" data-v="${esc(key)}" aria-expanded="${open}"><span>${h.innerHTML}</span><span class="pf-ch" aria-hidden="true">${ui("fwd")}</span></button>`})}
 ACT.pfold=(v,b)=>{const sec=b.closest(".panel");if(!sec)return;const open=!sec.classList.contains("open");sec.classList.toggle("open",open);b.setAttribute("aria-expanded",open);if(open)PFOLD.add(v);else PFOLD.delete(v)};
 {const _pa=parents;parents=function(){TAB="parents";const r=_pa.apply(this,arguments);try{foldPanels()}catch(e){}return r}}
+try{applyModelFix()}catch(e){}
 
 init();
 if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}

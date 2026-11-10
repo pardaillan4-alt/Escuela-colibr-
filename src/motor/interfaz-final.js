@@ -42,3 +42,4 @@ function foldPanels(){document.querySelectorAll("#app > section.panel").forEach(
  sec.classList.add("fold");sec.classList.toggle("open",open);h.innerHTML=`<button class="pf-b" data-act="pfold" data-v="${esc(key)}" aria-expanded="${open}"><span>${h.innerHTML}</span><span class="pf-ch" aria-hidden="true">${ui("fwd")}</span></button>`})}
 ACT.pfold=(v,b)=>{const sec=b.closest(".panel");if(!sec)return;const open=!sec.classList.contains("open");sec.classList.toggle("open",open);b.setAttribute("aria-expanded",open);if(open)PFOLD.add(v);else PFOLD.delete(v)};
 {const _pa=parents;parents=function(){TAB="parents";const r=_pa.apply(this,arguments);try{foldPanels()}catch(e){}return r}}
+try{applyModelFix()}catch(e){}
