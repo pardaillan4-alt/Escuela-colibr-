@@ -12128,6 +12128,17 @@ Object.assign(ACT,{porta:v=>porta(v),
  evadd:async()=>{const f=$("#evf"),m=$("#evmsg");if(!f||!f.files[0]){if(m)m.textContent="Primero toma o escoge una foto.";return}try{if(m)m.textContent="Guardando…";const img=await shrink(f.files[0]);await evPut({id:Date.now()+"-"+Math.random().toString(36).slice(2,7),pid:me().id,date:$("#evd").value||ds(new Date()),subj:$("#evs").value,title:$("#evt").value.trim(),note:$("#evn").value.trim(),img});porta()}catch(e){if(m)m.textContent="No se pudo guardar la foto en este navegador."}},
  evdel:async v=>{await evDel(v);porta()}});
 {const _pa=parents;parents=function(){const r=_pa.apply(this,arguments);try{const a=$("#app");if(a){const bk=$("#bk");const h=`<section class="panel"><h2>📁 Portafolio del alumno</h2><p class="note">Expediente imprimible con días y tiempo de estudio, avance y calificaciones de cada materia, lectura, cálculo mental y fotos de trabajos y proyectos. Útil para trámites, revalidación o si entra a una escuela.</p><div class="row"><button class="btn" data-act="porta">Abrir el portafolio de ${esc(me().name)}</button></div></section>`;if(bk)bk.insertAdjacentHTML("beforebegin",h);else a.insertAdjacentHTML("beforeend",h)}}catch(e){}return r}}
+/* ========= Sincronización: refrescar la pantalla abierta cuando llega avance de otro equipo, y unir todos los datos del niño ========= */
+const VIEW={fn:null,args:[]};
+["home","subj","planView","porta","boleta","albumView","litCal","gospelView"].forEach(n=>{const f=globalThis[n];if(typeof f!=="function")return;globalThis[n]=function(...a){VIEW.fn=n;VIEW.args=a;return f.apply(this,a)}});
+{const _old=syncRefresh;syncRefresh=function(){try{if(MODE==="parents")return parents();drawTop();
+ /* Si el niño está a la mitad de una lección, examen o dibujo, no se interrumpe: se verá al terminar */
+ if(LS||["trazo","ora","mis","prac"].includes(MODE)||!VIEW.fn)return;const y=scrollY;globalThis[VIEW.fn](...VIEW.args);scrollTo(0,y)}catch(e){try{_old()}catch(x){}}}}
+{const _mp=mergeProfiles;mergeProfiles=function(L,R,del){const out=_mp(L,R,del);try{const all=[...(R||[]),...(L||[])];out.forEach(m=>{all.filter(p=>p&&p.id===m.id).forEach(p=>{
+ if(p.act){m.act=m.act||{};for(const[d,v]of Object.entries(p.act))m.act[d]=Math.max(m.act[d]||0,v)}
+ if(p.retoD)m.retoD=[...new Set([...(m.retoD||[]),...p.retoD])].sort().slice(-60);
+ if(p.retoT)m.retoT=m.retoT?Math.min(m.retoT,p.retoT):p.retoT;
+ if(p.mis){m.mis=m.mis||{};for(const[k,v]of Object.entries(p.mis)){const w=m.mis[k];m.mis[k]=w==null?JSON.parse(JSON.stringify(v)):(typeof v==="number"&&typeof w==="number"?Math.max(v,w):(typeof v==="object"&&typeof w==="object"&&v&&w?Object.assign({},v,w,{done:!!(v.done||w.done)}):w||v))}}})})}catch(e){}return out}}
 
 init();
 if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}
