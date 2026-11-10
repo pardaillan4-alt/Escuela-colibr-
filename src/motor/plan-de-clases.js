@@ -46,7 +46,7 @@ function todayCard(){const p=me(),g=p.grade||1,t=todayStr(),P=schoolDays(),isSch
  const items=planDay(g,d),idx=P.days.indexOf(d)+1,B=behind(p,g).filter(x=>x.miss>0),off=P.off.get(t);
  let h=`<div class="gradebar"><h2 class="sec">${isSchool?"Hoy te toca":"Próxima clase: "+fecha(d)}</h2><span class="pmeta">Día ${idx} de ${P.days.length} del ciclo</span></div>`;
  if(!isSchool)h+=`<p class="lead">${off?`Hoy es <b>${off}</b>: no hay clases.`:"Hoy no hay clases."} ¡Descansa, juega y reza en familia! Si quieres adelantar, aquí está lo de la próxima clase.</p>`;
- h+=`<div class="plan">${items.map(it=>{const s=it.s,done=itemDone(p,it,d);return`<div class="pcard${done?" pdone":""}" style="${sv(s)}"><div class="pc-h">${sicon(s)}<span>${s.n}</span>${done?`<span class="okmark" aria-label="Terminado">✓</span>`:""}</div><p class="pk">${KIND[it.kind]}</p><p class="pc-l">${it.exam!=null?esc(it.u.t):esc(it.l.t)}</p><div class="row">${itemBtn(it,d)}</div></div>`}).join("")}</div>`;
+ h+=`<div class="plan">${items.map(it=>{const s=it.s,done=itemDone(p,it,d);return`<div class="pcard${done?" pdone":""}" style="${sv(s)}">${sicon(s)}<div class="pc-t"><p class="pk">${s.n} · ${KIND[it.kind]}</p><p class="pc-l">${it.exam!=null?esc(it.u.t):esc(it.l.t)}</p></div>${done?`<span class="okmark" role="img" aria-label="Terminado">✓</span>`:""}<div class="row pc-a">${itemBtn(it,d)}</div></div>`}).join("")}</div>`;
  if(B.length)h+=`<p class="note behind">Lecciones atrasadas según el plan: ${B.map(x=>`<b>${x.s.n}</b> ${x.miss}`).join(" · ")}. <button class="mini-btn" data-act="open" data-v="${B[0].next}">Ponerme al día</button></p>`;
  return h}
 /* ---- Vista del plan (papás) ---- */

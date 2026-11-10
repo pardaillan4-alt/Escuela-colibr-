@@ -1,6 +1,6 @@
 /* ========= Sincronización: refrescar la pantalla abierta cuando llega avance de otro equipo, y unir todos los datos del niño ========= */
 const VIEW={fn:null,args:[]};
-["home","subj","planView","porta","boleta","albumView","litCal","gospelView"].forEach(n=>{const f=globalThis[n];if(typeof f!=="function")return;globalThis[n]=function(...a){VIEW.fn=n;VIEW.args=a;return f.apply(this,a)}});
+["home","subj","planView","porta","boleta","albumView","litCal","gospelView","feView","retosView"].forEach(n=>{const f=globalThis[n];if(typeof f!=="function")return;globalThis[n]=function(...a){VIEW.fn=n;VIEW.args=a;return f.apply(this,a)}});
 {const _old=syncRefresh;syncRefresh=function(){try{if(MODE==="parents")return parents();drawTop();
  /* Si el niño está a la mitad de una lección, examen o dibujo, no se interrumpe: se verá al terminar */
  if(LS||["trazo","ora","mis","prac"].includes(MODE)||!VIEW.fn)return;const y=scrollY;globalThis[VIEW.fn](...VIEW.args);scrollTo(0,y)}catch(e){try{_old()}catch(x){}}}}

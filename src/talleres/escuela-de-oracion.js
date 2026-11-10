@@ -39,7 +39,7 @@ Object.assign(ACT,{rz:v=>rzStart(v),rznext:()=>{RZS.i++;rzDraw()},rzprev:()=>{RZ
 /* --- Datos de oración del niño --- */
 function oraOf(p){p.ora=p.ora||{};const o=p.ora;o.days=o.days||{};o.k=o.k||{};o.d=o.d||{};return o}
 function oraStreak(p){const o=oraOf(p);let n=0,d=new Date();if(!o.days[todayStr()])d.setDate(d.getDate()-1);while(o.days[ds(d)]){n++;d.setDate(d.getDate()-1)}return n}
-function oraCard(){const p=me(),s=oraStreak(p);return`<section class="reto" style="border-color:var(--ora)"><div class="tz-mini" aria-hidden="true">🙏</div><div><h3>Mi rincón de oración</h3><p>${s?`¡Llevas ${s} ${s===1?"día":"días"} seguidos rezando!`:"Aprende a platicar con Dios y reza paso a paso."}</p></div><button class="btn" data-act="orav" style="--sc:var(--ora)">Rezar</button></section>`}
+function oraCard(){const p=me(),s=oraStreak(p);return`<section class="reto" style="border-color:var(--ora)"><span class="sic" style="--sc:var(--ora)" aria-hidden="true">${SICON.ora}</span><div><h3>Mi rincón de oración</h3><p>${s?`¡Llevas ${s} ${s===1?"día":"días"} seguidos rezando!`:"Aprende a platicar con Dios y reza paso a paso."}</p></div><button class="btn" data-act="orav" style="--sc:var(--ora)">Rezar</button></section>`}
 function oracionView(tab,keep){if(!keep){LS=null;begin()}MODE="ora";tab=tab||"rezar";const p=me(),o=oraOf(p),s=oraStreak(p),known=Object.keys(o.k).length;
  const tabs=[["rezar","Rezar ahora"],["aprender","Aprender a orar"],["mis","Mis oraciones"],["diario","Mi diario"]];
  let body="";
