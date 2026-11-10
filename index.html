@@ -1285,6 +1285,33 @@ body.focus #tabs{display:none}
 .vida-b{border-radius:16px;box-shadow:0 3px 0 var(--lip);min-height:54px;font-weight:700;font-size:17.5px;transition:transform .08s,box-shadow .08s}
 .vida-b:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px 0 var(--lip)}
 
+/* ---------- Álbum de santos ---------- */
+.albprog{background:var(--card);border-radius:var(--r-lg);box-shadow:var(--sh1);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.albprog p{font-size:15.5px;color:var(--soft);line-height:1.4}
+.albprog .lbar{height:12px}
+.album{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 10px;align-items:start}
+@media (min-width:600px){.album{grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:14px}}
+.stampbtn{position:relative;padding:4px;gap:6px;font:700 13px/1.2 var(--body);border-radius:14px;min-width:0;box-sizing:border-box;width:100%;overflow-wrap:anywhere;hyphens:auto}
+.stampbtn .stamp{width:100%;height:auto;border-radius:8px}
+.stampbtn .lockq{width:100%;height:auto;aspect-ratio:4/5;box-sizing:border-box;border-width:2.500px;font-size:clamp(30px,9vw,46px)}
+.stampbtn.locked{color:var(--soft);font-weight:400}
+.sday{position:absolute;top:0;left:0;z-index:1;min-width:26px;height:26px;padding:0 6px;border-radius:13px;background:var(--rel);color:var(--on);font:800 14px/26px var(--display);font-style:normal;text-align:center;box-shadow:0 2px 0 rgba(0,0,0,.18);box-sizing:border-box}
+.stampbtn.locked .sday{background:var(--lip);color:var(--ink)}
+.albmes{display:flex;flex-direction:column;gap:10px}
+.albmes h2{display:flex;align-items:baseline;gap:10px;font-size:21px;position:sticky;top:60px;background:var(--paper);padding:6px 0;z-index:2}
+.albmes h2 small{font:700 13.5px var(--body);color:var(--soft)}
+/* ---------- Hoy en la Iglesia ---------- */
+.faith{border-radius:var(--r-lg);padding:16px;gap:12px}
+.fbox{border-radius:16px}
+.fbox.fsaint{display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;width:100%;font:inherit;color:inherit;border:0;box-sizing:border-box}
+.fs-st{flex:0 0 56px;line-height:0}.fs-st .stamp{width:56px;height:auto;border-radius:6px}
+.fs-go{color:var(--rel);font-weight:700}
+.feacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.feact{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;border:0;background:var(--card);border-radius:16px;padding:10px 6px;box-shadow:0 3px 0 var(--lip),0 0 0 1.500px var(--line);cursor:pointer;font:inherit;color:var(--ink);min-height:98px;box-sizing:border-box;transition:transform .08s,box-shadow .08s}
+.feact:active{transform:translateY(2px);box-shadow:0 1px 0 var(--lip),0 0 0 1.500px var(--line)}
+.feact .sic{width:44px;height:44px;border-radius:14px}
+.feact b{font:800 13.5px/1.15 var(--display)}
+
 /* ---------- Zona de papás ---------- */
 .panel.fold{padding:0;gap:0;overflow:hidden}
 .panel.fold>h2{font-size:18.5px}
@@ -2565,13 +2592,22 @@ const ALBUM=[
 ["San Pier Giorgio Frassati","0704","#1d8c5c","mountain","Joven alegre, deportista y servidor de los pobres: «¡Hacia lo alto!»."]];
 function unlockedN(p){return Math.min(ALBUM.length,Math.floor(totalStars(p)/STAR_PER))}
 function stampSVG(i,sz){const[n,,col,ic]=ALBUM[i],h=sz||150;return`<svg class="stamp" viewBox="0 0 120 150" width="${h*0.8}" height="${h}" role="img" aria-label="${n}"><defs><linearGradient id="sg${i}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8e6"/><stop offset="1" stop-color="${col}" stop-opacity=".35"/></linearGradient></defs><rect x="3" y="3" width="114" height="144" rx="10" fill="url(#sg${i})" stroke="#c79a1b" stroke-width="4"/><rect x="9" y="9" width="102" height="132" rx="7" fill="none" stroke="#e8c45a" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="60" cy="42" r="24" fill="#ffe08a" opacity=".8"/><circle cx="60" cy="42" r="24" fill="none" stroke="#f6b42c" stroke-width="2.5"/><path d="M28 132c0-34 14-62 32-62s32 28 32 62z" fill="${col}"/><path d="M50 74h20l-4 58h-12z" fill="#fff" opacity=".18"/><circle cx="60" cy="46" r="14" fill="#e9b88a"/><path d="M47 44c0-11 26-11 26 0-4-5-22-5-26 0z" fill="#5a3a22"/><g transform="translate(70 98) scale(.5)">${ART[ic]||ART.star}</g></svg>`}
-function albumView(){LS=null;begin();MODE="album";const p=me(),u=unlockedN(p),st=totalStars(p),nextAt=(u+1)*STAR_PER;
- app(`<button class="back" data-act="home">${ui("back")} Inicio</button><h1>Mi álbum de santos</h1><p class="lead">Tienes <b>${u} de ${ALBUM.length}</b> estampas. Cada ${STAR_PER} estrellas ganas una nueva.${u<ALBUM.length?` Te faltan <b>${nextAt-st}</b> estrellas para la siguiente.`:" ¡Completaste el álbum!"}</p>
- <div class="album">${ALBUM.map((a,i)=>i<u?`<button class="stampbtn" data-act="stamp" data-v="${i}">${stampSVG(i,150)}<span>${a[0]}</span></button>`:`<div class="stampbtn locked" aria-label="Estampa bloqueada"><span class="lockq">?</span><span>Estampa ${i+1}</span></div>`).join("")}</div>`);scrollTo(0,0)}
+let ALBTAB="mias";
+const ALBMES=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+function albumView(){LS=null;begin();MODE="album";const p=me(),u=unlockedN(p),st=totalStars(p),N=ALBUM.length,falta=Math.max(0,(u+1)*STAR_PER-st),prog=u<N?Math.max(6,Math.round((STAR_PER-Math.min(STAR_PER,falta))/STAR_PER*100)):100;
+ const cell=(i,day)=>i<u?`<button class="stampbtn" data-act="stamp" data-v="${i}">${day?`<i class="sday" aria-hidden="true">${+ALBUM[i][1].slice(2)}</i>`:""}${stampSVG(i,150)}<span>${ALBUM[i][0]}</span></button>`:`<div class="stampbtn locked">${day?`<i class="sday" aria-hidden="true">${+ALBUM[i][1].slice(2)}</i>`:""}<span class="lockq" aria-hidden="true">?</span><span>${day?ALBUM[i][0]:"Próxima estampa"}</span></div>`;
+ let body;
+ if(ALBTAB==="anio"){const byM=Array.from({length:12},()=>[]);ALBUM.forEach((a,i)=>byM[+a[1].slice(0,2)-1].push(i));
+  body=byM.map((l,m)=>l.length?`<section class="albmes"><h2>${ALBMES[m]} <small>${l.filter(i=>i<u).length} de ${l.length}</small></h2><div class="album">${l.sort((x,y)=>ALBUM[x][1].localeCompare(ALBUM[y][1])||x-y).map(i=>cell(i,true)).join("")}</div></section>`:"").join("")}
+ else{const mine=[];for(let i=u-1;i>=0;i--)mine.push(i);body=`<div class="album">${u<N?cell(u,false):""}${mine.map(i=>cell(i,false)).join("")}</div>${u?"":`<p class="lead">Todavía no tienes estampas. ¡Termina lecciones para ganar estrellas y abrir la primera!</p>`}`}
+ app(`<header class="vhead" style="--sc:var(--rel);--ss:var(--rel-s)"><span class="sic" aria-hidden="true">${typeof TABICON!=="undefined"?TABICON.album:""}</span><div><h1>Mi álbum de santos</h1><p>Tienes <b>${u} de ${N}</b> estampas.</p></div></header>
+ <section class="albprog"><div class="lbar" role="img" aria-label="Avance hacia la siguiente estampa"><i style="width:${prog}%"></i></div><p>${u<N?`Te faltan <b>${falta}</b> ${falta===1?"estrella":"estrellas"} para la siguiente. Cada ${STAR_PER} estrellas ganas una estampa nueva.`:"¡Completaste todo el álbum! ¡Felicidades!"}</p></section>
+ <div class="seg" role="group" aria-label="Qué estampas ver"><button class="segb${ALBTAB==="mias"?" on":""}" data-act="albtab" data-v="mias" aria-pressed="${ALBTAB==="mias"}">Mis estampas</button><button class="segb${ALBTAB==="anio"?" on":""}" data-act="albtab" data-v="anio" aria-pressed="${ALBTAB==="anio"}">Todo el año</button></div>
+ ${body}`);scrollTo(0,0)}
 function stampSheet(i){const[n,f,,,d]=ALBUM[i],fe=new Date(2026,+f.slice(0,2)-1,+f.slice(2),12).toLocaleDateString("es-MX",{day:"numeric",month:"long"});sheet(`<div class="stampbig">${stampSVG(i,220)}</div><h2>${n}</h2><p>${d}</p><p class="note">Su fiesta: ${fe}.</p>${sayBtn(n+". "+d)}<button class="btn ghost" data-act="close" style="--sc:var(--rel)">Cerrar</button>`)}
 function albumCard(){const p=me(),u=unlockedN(p);return`<section class="reto alb"><div class="albmini">${u?stampSVG(u-1,84):`<span class="lockq sm">?</span>`}</div><div><h3>Mi álbum de santos</h3><p>${u} de ${ALBUM.length} estampas. Gana una nueva cada ${STAR_PER} estrellas.</p></div><button class="btn" data-act="album" style="--sc:var(--rel)">Ver álbum</button></section>`}
 function newStampHTML(before,after){if(after<=before)return"";const i=after-1;return`<div class="newstamp">${stampSVG(i,140)}<div><p class="pk">¡Estampa nueva!</p><h3>${ALBUM[i][0]}</h3><p>${ALBUM[i][4]}</p><button class="btn" data-act="album" style="--sc:var(--rel)">Ver mi álbum</button></div></div>`}
-Object.assign(ACT,{album:()=>albumView(),stamp:v=>stampSheet(+v)});
+Object.assign(ACT,{album:()=>albumView(),albtab:v=>{ALBTAB=v==="anio"?"anio":"mias";albumView()},stamp:v=>stampSheet(+v)});
 /* ===== MATEMÁTICAS ===== */
 SUBJ.push({id:"mat",n:"Matemáticas",campo:"Saberes y pensamiento científico",d:"Números hasta el 100, sumas y restas, figuras, medidas, tiempo y dinero.",units:[
 {t:"Los números hasta el 20",ls:[
@@ -5548,6 +5584,723 @@ Object.assign(ALBUMIMG,{
 "Santa Gianna Beretta Molla":"Gianna_Beretta_Molla.jpg",
 "San Josemaría Escrivá":"Josemaria_Escriva.jpg",
 "Santa Teresa Benedicta de la Cruz":"Edith_Stein_(ca._1938-1939).jpg"});
+/* ========= Santos y fiestas del calendario litúrgico que faltaban en el álbum · enero a marzo ========= */
+NS("Santa María, Madre de Dios","0101","#2f6fb5","crown","El primer día del año celebramos a María: es Madre de Jesús, que es Dios, y también Madre nuestra.",
+"Ocho días después de la Navidad, la Iglesia empieza el año mirando a María con el Niño en brazos. Como Jesús es verdadero Dios y verdadero hombre, María es de verdad Madre de Dios. Así lo enseñaron los obispos reunidos en la ciudad de Éfeso en el año 431, y la gente salió a las calles con antorchas para festejarlo.","A empezar el año, y cada día, de la mano de mi Madre del cielo.",
+"—","—","—","la Virgen con el Niño Jesús en brazos",
+["El Evangelio de este día cuenta que los pastores fueron corriendo a Belén y encontraron a María, a José y al Niño acostado en el pesebre. María «guardaba todas estas cosas y las meditaba en su corazón».","En griego a María se le llama «Theotokos», que significa «la que dio a luz a Dios». El 1 de enero es también la Jornada Mundial de la Paz: le pedimos a la Reina de la Paz que cuide a todas las familias del mundo."],
+"«María guardaba todas estas cosas y las meditaba en su corazón» (Lc 2, 19).","Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Cuida a mi familia en este año. Amén.");
+NS("Santísimo Nombre de Jesús","0103","#b8860b","sun","El nombre de Jesús significa «Dios salva». Lo decimos siempre con respeto y con amor.",
+"El ángel Gabriel le dijo a María: «Le pondrás por nombre Jesús». Y a José le explicó en sueños por qué: «porque Él salvará a su pueblo de sus pecados». A los ocho días de nacer, sus papás le pusieron ese nombre. En hebreo, Jesús quiere decir «Dios salva».","A decir el nombre de Jesús con cariño, nunca como una grosería ni en vano.",
+"—","—","—","las letras IHS rodeadas de rayos de sol",
+["San Pablo escribió que «al nombre de Jesús toda rodilla se doble, en el cielo, en la tierra y en los abismos». Por eso muchos cristianos inclinan la cabeza al decirlo.","San Bernardino de Siena recorría los pueblos de Italia con una tabla que tenía pintadas las letras IHS, las primeras del nombre de Jesús en griego. Una oración muy corta y muy antigua es repetir despacio: «Jesús, en Ti confío»."],
+"«Todo el que invoque el nombre del Señor se salvará» (Rom 10, 13).","Jesús, que tu nombre sea lo primero que diga al despertar y lo último al dormir. Jesús, José y María, les doy el corazón y el alma mía. Amén.");
+NS("Epifanía del Señor (Día de Reyes)","0106","#b8860b","star","Unos Magos de Oriente siguieron una estrella hasta Belén y adoraron al Niño Jesús.",
+"Unos sabios de tierras lejanas vieron una estrella nueva y se pusieron en camino. Llegaron a Belén, encontraron al Niño con María, su madre, se pusieron de rodillas y lo adoraron. Le regalaron oro, incienso y mirra. «Epifanía» significa «manifestación»: Jesús se muestra como Salvador de todos los pueblos del mundo.","Que Jesús vino para todos, y que yo también puedo llevarle mi regalo: mi corazón.",
+"—","—","—","la estrella, los tres cofres, la rosca de Reyes",
+["Los regalos tienen un significado: el oro, porque Jesús es Rey; el incienso, porque es Dios; y la mirra, porque es hombre y daría su vida por nosotros. La tradición los llama Melchor, Gaspar y Baltasar.","En México partimos la rosca de Reyes: su forma redonda recuerda el amor de Dios, que no tiene fin, y el muñequito escondido recuerda que María y José escondieron al Niño del rey Herodes."],
+"«Vimos salir su estrella y venimos a adorarlo» (Mt 2, 2).","Niño Jesús, como los Reyes Magos vengo a adorarte. Te regalo mi cariño, mi oración y mis esfuerzos de cada día. Amén.");
+NS("San Raimundo de Peñafort","0107","#5b4a9c","scroll","Sacerdote dominico muy sabio: ordenó las leyes de la Iglesia y ayudó a muchos a confesarse bien.",
+"Raimundo nació cerca de Barcelona, en el castillo de Peñafort. Fue maestro de leyes y a los 47 años se hizo fraile dominico. El Papa le pidió reunir y ordenar todas las leyes de la Iglesia, y escribió un libro para ayudar a los sacerdotes a confesar con justicia y misericordia. Vivió casi cien años.","A estudiar con empeño para servir mejor a los demás.",
+"Peñafort, Cataluña, hacia 1175","Barcelona, 1275","los abogados y los que estudian leyes","un libro, una llave y una capa sobre el mar",
+["Fue superior de todos los dominicos, pero renunció para volver a ser un fraile sencillo. Animó a santo Tomás de Aquino a escribir un libro para explicar la fe a quienes no la conocían.","Una leyenda cuenta que, para volver de la isla de Mallorca a Barcelona, extendió su capa sobre el mar y navegó sobre ella como si fuera una barca."],
+"«Lámpara es tu palabra para mis pasos, luz en mi sendero» (Sal 119, 105).","San Raimundo, ayúdame a amar la verdad, a reconocer mis faltas y a pedir perdón con confianza. Amén.");
+NS("San Hilario de Poitiers","0113","#5b4a9c","book","Obispo valiente que defendió, aun en el destierro, que Jesús es verdadero Dios.",
+"Hilario nació en Poitiers, Francia. Buscando el sentido de la vida leyó la Biblia y se hizo cristiano. El pueblo lo eligió obispo. En su tiempo muchos decían que Jesús no era Dios; Hilario lo defendió con tanta fuerza que el emperador lo desterró a tierras lejanas. Allí siguió escribiendo y enseñando.","A defender mi fe con firmeza y sin enojo.",
+"Poitiers, Francia, hacia 310","Poitiers, 367","los que sufren por decir la verdad","un libro y el báculo de obispo",
+["En el destierro escribió su gran obra sobre la Santísima Trinidad. Lo llamaron «el Atanasio de Occidente», porque hizo en Europa lo mismo que san Atanasio en Egipto.","Fue maestro y amigo de san Martín de Tours. También compuso himnos para que la gente aprendiera la fe cantando. La Iglesia lo nombró Doctor."],
+"«Te pido, Señor, que conserves pura la fe que he profesado».","San Hilario, pídele a Dios que yo crea de corazón que Jesús es mi Dios y mi Salvador. Amén.");
+NS("San Antonio Abad","0117","#7a5a3a","leaf","Dejó todo para vivir en el desierto rezando. Es el padre de los monjes y patrono de los animales.",
+"Antonio nació en Egipto. A los veinte años escuchó en Misa: «Vende lo que tienes, dalo a los pobres y sígueme», y lo cumplió al pie de la letra. Se fue al desierto a rezar y trabajar. Muchos lo buscaron para pedirle consejo y quisieron vivir como él: así nacieron los primeros monjes. Vivió 105 años.","Que el silencio y la oración me hacen fuerte contra las tentaciones.",
+"Egipto, hacia 251","Monte Colzim, Egipto, 356","los animales, los ganaderos y los monjes","un cerdito, una campanilla y un bastón en forma de T",
+["En el desierto sufrió muchas tentaciones y las venció rezando y haciendo la señal de la cruz. Su amigo san Atanasio escribió su vida, y ese libro llevó a muchos jóvenes a seguir a Cristo.","El 17 de enero, en muchos pueblos de México, la gente lleva a bendecir a sus animales: perros, gatos, pájaros, borregos y hasta tortugas, adornados con flores y listones."],
+"«Vende lo que tienes, dalo a los pobres y tendrás un tesoro en el cielo; luego ven y sígueme» (Mt 19, 21).","San Antonio Abad, enséñame a cuidar con cariño a los animales y a buscar ratos de silencio para estar con Dios. Amén.");
+NS("San Vicente, diácono","0122","#b8323c","flame","Diácono de Zaragoza, mártir valiente y alegre aun en medio del sufrimiento.",
+"Vicente nació en Huesca, España. Era diácono y ayudaba al obispo Valero, que hablaba con dificultad: por eso Vicente predicaba en su nombre. En la persecución del emperador Diocleciano los llevaron presos a Valencia. Vicente no quiso renegar de Jesús ni entregar los libros sagrados, y murió mártir.","A no avergonzarme nunca de ser amigo de Jesús.",
+"Huesca, España, siglo III","Valencia, España, 304","Valencia, Lisboa y los que cultivan la vid","una parrilla, la ropa de diácono y un cuervo",
+["Su nombre significa «vencedor». Los que lo vieron sufrir se admiraban de su paz y de su alegría, y hasta su carcelero se convirtió.","San Agustín predicaba cada año en su fiesta y decía que no había rincón del Imperio donde no se celebrara a san Vicente."],
+"«Dichosos los perseguidos por causa de la justicia, porque de ellos es el Reino de los cielos» (Mt 5, 10).","San Vicente, vencedor por Cristo, consígueme valentía para hacer el bien aunque cueste. Amén.");
+NS("Conversión de San Pablo","0125","#b8860b","sun","Jesús resucitado salió al encuentro de Saulo, que perseguía a los cristianos, y lo hizo su apóstol.",
+"Saulo iba camino a Damasco para apresar a los cristianos. De pronto lo envolvió una luz del cielo, cayó al suelo y oyó una voz: «Saulo, Saulo, ¿por qué me persigues?». «¿Quién eres, Señor?». «Yo soy Jesús, a quien tú persigues». Quedó ciego tres días, hasta que un cristiano llamado Ananías lo bautizó.","Que Jesús puede cambiar cualquier corazón, también el mío.",
+"—","—","—","una luz en el camino y un caballo",
+["Cuando Ananías le impuso las manos, cayeron de sus ojos como unas escamas y recobró la vista. Aquel perseguidor se convirtió en Pablo, el gran apóstol que llevó el Evangelio a muchos pueblos.","Este día termina la Semana de oración por la unidad de los cristianos: pedimos que todos los que creen en Jesús lleguen a estar unidos."],
+"«Ya no vivo yo: es Cristo quien vive en mí» (Gál 2, 20).","Señor Jesús, que llamaste a Pablo en el camino, cambia en mí lo que no te agrada y hazme tu amigo fiel. Amén.");
+NS("San Timoteo y San Tito","0126","#2e7d5b","scroll","Discípulos y amigos de san Pablo. Fueron obispos de las primeras comunidades cristianas.",
+"Timoteo aprendió la fe desde niño con su mamá Eunice y su abuela Loida. Era joven y tímido, pero san Pablo confió en él y lo dejó como obispo de Éfeso. Tito era griego; Pablo lo envió a poner paz en comunidades difíciles y lo dejó al frente de la Iglesia en la isla de Creta.","Que la fe se aprende en casa y que los jóvenes también pueden servir a la Iglesia.",
+"Listra (hoy Turquía) y Grecia, siglo I","Éfeso y Creta, siglo I","los jóvenes que sirven a la Iglesia","las cartas de san Pablo",
+["En la Biblia hay tres cartas que san Pablo les escribió: dos a Timoteo y una a Tito. Allí les da consejos para cuidar a su gente con paciencia y buen ejemplo.","Se celebran al día siguiente de la Conversión de san Pablo porque fueron sus colaboradores más queridos. A Timoteo lo llamaba «mi hijo querido»."],
+"«Que nadie te desprecie por ser joven; sé ejemplo para los creyentes» (1 Tim 4, 12).","San Timoteo y san Tito, ayúdenme a ser buen amigo y a dar buen ejemplo en mi casa. Amén.");
+NS("Santa Ángela de Mérici","0127","#b0466e","book","Fundó la primera comunidad dedicada a educar a las niñas: las Ursulinas.",
+"Ángela nació en el norte de Italia y quedó huérfana muy joven. Vio que muchas niñas crecían sin que nadie les enseñara a leer, a rezar ni a vivir bien, y empezó a reunirlas en su casa. En 1535 fundó en Brescia la Compañía de Santa Úrsula, para formar a las niñas y a las futuras mamás.","Que enseñar a otros lo que sé es una forma muy bonita de amar.",
+"Desenzano del Garda, Italia, 1474","Brescia, Italia, 1540","las maestras y los huérfanos","un libro y niñas a su alrededor",
+["Decía que cada niña debía ser tratada según su manera de ser, con dulzura y sin gritos. Era una idea nueva para su tiempo.","Sus hijas, las Ursulinas, abrieron escuelas en todo el mundo. Ángela peregrinó a Tierra Santa y a Roma, y siempre confió en que Dios cuidaría su obra."],
+"«Dejen que los niños vengan a mí» (Mc 10, 14).","Santa Ángela, bendice a mis maestras y maestros, y ayúdame a aprender con gusto. Amén.");
+NS("Presentación del Señor (Candelaria)","0202","#b8860b","candle","Cuarenta días después de Navidad, María y José llevan al Niño Jesús al Templo.",
+"María y José llevaron a Jesús al Templo de Jerusalén para presentarlo a Dios, y ofrecieron dos palomas, la ofrenda de los pobres. Un anciano llamado Simeón tomó al Niño en brazos y lo llamó «luz para alumbrar a las naciones». También la profetisa Ana, de 84 años, dio gracias a Dios al verlo.","Que Jesús es la luz que alumbra mi vida.",
+"—","—","—","las velas encendidas y dos palomas",
+["Por las palabras de Simeón, este día se bendicen velas o candelas: de ahí viene el nombre de «Candelaria». Las velas benditas se guardan en casa para rezar en los momentos difíciles.","En México vestimos y llevamos a bendecir al Niño Dios, y quien encontró el muñequito en la rosca de Reyes invita los tamales."],
+"«Mis ojos han visto a tu Salvador, luz para alumbrar a las naciones» (Lc 2, 30-32).","Jesús, luz del mundo, alumbra mi casa y mi corazón para que nunca camine a oscuras. Amén.");
+NS("San Pablo Miki y compañeros","0206","#b8323c","cross","Veintiséis cristianos crucificados en Japón. Murieron cantando y perdonando.",
+"Pablo Miki era un joven jesuita japonés que predicaba muy bien. Cuando el gobernante de Japón prohibió la fe cristiana, lo apresaron junto con otros 25: sacerdotes, catequistas y hasta tres niños ayudantes del altar. Los hicieron caminar casi mil kilómetros en invierno hasta Nagasaki, y allí los crucificaron en una colina, el 5 de febrero de 1597.","A perdonar siempre, hasta a quien me hace daño.",
+"Cerca de Osaka, Japón, 1564","Nagasaki, Japón, 1597","Japón","cruces sobre una colina",
+["Desde la cruz, Pablo Miki predicó su último sermón: dijo que perdonaba al emperador y a todos los que lo mataban, y pidió que conocieran a Jesús.","Entre los 26 estaba el mexicano san Felipe de Jesús, el primer santo de México. Los cristianos de Japón guardaron su fe en secreto, sin sacerdotes, durante más de doscientos años."],
+"«Perdono al emperador y a todos los que me quitan la vida».","San Pablo Miki y compañeros mártires, enséñenme a perdonar de corazón y a ser fiel a Jesús. Amén.");
+NS("Nuestra Señora de Lourdes","0211","#2f6fb5","water","En 1858 la Virgen se apareció a Bernardita en una gruta de Francia. Allí brota un manantial.",
+"El 11 de febrero de 1858, una niña pobre de 14 años, Bernardita Soubirous, fue a recoger leña cerca de la gruta de Massabielle, en Lourdes. Vio a una Señora vestida de blanco, con una cinta azul y un rosario. Se le apareció 18 veces, le pidió oración y penitencia por los pecadores, y le dijo su nombre: «Yo soy la Inmaculada Concepción».","A rezar por los enfermos y a visitarlos con cariño.",
+"—","—","los enfermos","la gruta, el manantial y el rosario",
+["La Señora le pidió a Bernardita escarbar en el suelo: de ahí brotó un manantial que sigue dando agua. Millones de enfermos van cada año a Lourdes a rezar y bañarse en esa agua.","El 11 de febrero es la Jornada Mundial del Enfermo. Bernardita, que después fue religiosa, ya tiene su estampa en este álbum."],
+"«Yo soy la Inmaculada Concepción».","Virgen de Lourdes, salud de los enfermos, cuida a los que sufren en mi familia y dales tu consuelo. Amén.");
+NS("San Cirilo y San Metodio","0214","#1f7a7a","pencil","Dos hermanos misioneros que inventaron un alfabeto para llevar el Evangelio a los pueblos eslavos.",
+"Cirilo y Metodio eran hermanos, nacidos en Tesalónica, Grecia. Fueron enviados a evangelizar a los pueblos eslavos del centro de Europa. Como esos pueblos no tenían letras para escribir su idioma, Cirilo inventó un alfabeto y tradujeron la Biblia y la Misa, para que la gente rezara en su propia lengua.","Que para anunciar a Jesús hay que conocer y querer a la gente.",
+"Tesalónica, Grecia, siglo IX","Roma, 869 (Cirilo) y Moravia, 885 (Metodio)","Europa y los pueblos eslavos","un libro con letras nuevas",
+["Algunos los criticaron por rezar en la lengua del pueblo. Ellos viajaron a Roma y el Papa les dio la razón y bendijo sus libros. Cirilo murió allí; Metodio volvió como obispo.","Del alfabeto que crearon viene el «cirílico», con el que hoy escriben en Rusia, Ucrania, Bulgaria y Serbia. San Juan Pablo II los nombró patronos de Europa."],
+"«Vayan por todo el mundo y anuncien el Evangelio a toda la creación» (Mc 16, 15).","Santos Cirilo y Metodio, ayúdenme a usar bien las letras y las palabras para hablar de Dios. Amén.");
+NS("Siete Santos Fundadores de los Servitas","0217","#2f6fb5","hands","Siete amigos comerciantes de Florencia que lo dejaron todo para servir a María.",
+"En 1233, siete amigos de Florencia, comerciantes ricos, sintieron que la Virgen los invitaba a una vida más sencilla. Repartieron sus bienes entre los pobres y se fueron a rezar a un monte cercano, el Monte Senario. Se llamaron «Siervos de María» y vivían como hermanos, acompañando a la Virgen al pie de la cruz.","Que los buenos amigos se ayudan a acercarse a Dios.",
+"Florencia, Italia, siglo XIII","Monte Senario, Italia, siglos XIII y XIV","los Siervos de María","siete frailes de hábito negro",
+["Son los únicos santos fundadores que la Iglesia celebra en grupo, porque quisieron ser «un solo corazón». Fueron canonizados juntos en 1888.","Los Servitas difundieron la devoción a los siete dolores de la Virgen. El último de los siete, san Alejo Falconieri, murió un 17 de febrero a los 110 años."],
+"«Miren qué bueno y qué agradable es que los hermanos vivan unidos» (Sal 133, 1).","Santos Fundadores, enséñenme a ser buen amigo y a servir a la Virgen María con alegría. Amén.");
+NS("San Pedro Damián","0221","#7a5a3a","scroll","Monje y cardenal que amaba la oración y ayudó a renovar la Iglesia.",
+"Pedro nació en Rávena, Italia, y quedó huérfano muy pequeño. De niño cuidó cerdos, hasta que un hermano suyo sacerdote, llamado Damián, lo mandó a estudiar; por gratitud tomó su nombre. Fue maestro famoso, pero lo dejó todo para ser monje. El Papa lo nombró cardenal para ayudar a corregir los abusos de su tiempo.","A agradecer a quienes me ayudan a estudiar y a crecer.",
+"Rávena, Italia, 1007","Faenza, Italia, 1072","los que buscan una vida sencilla","un libro y el sombrero de cardenal",
+["Aunque era cardenal, firmaba sus cartas como «Pedro, monje pecador». En cuanto podía, regresaba a su monasterio de Fonte Avellana, en las montañas.","Escribió muchísimas cartas y poemas. La Iglesia lo nombró Doctor por su sabiduría."],
+"«Señor, enséñanos a orar» (Lc 11, 1).","San Pedro Damián, ayúdame a ser agradecido y a guardar cada día un momento para rezar. Amén.");
+NS("Cátedra de San Pedro","0222","#b8860b","church","Jesús encargó a Pedro cuidar a toda su Iglesia. Hoy rezamos por el Papa, su sucesor.",
+"«Cátedra» significa «silla»: es el asiento desde donde el obispo enseña. Esta fiesta celebra la misión que Jesús le dio a san Pedro: «Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia». El Papa es el sucesor de Pedro: enseña la fe y mantiene unidos a los católicos de todo el mundo.","A querer al Papa y a rezar por él todos los días.",
+"—","—","—","una silla y dos llaves cruzadas",
+["Jesús también le dijo a Pedro: «Te daré las llaves del Reino de los cielos». Por eso las llaves aparecen en el escudo de los Papas.","En la Basílica de San Pedro, en Roma, hay un gran trono de bronce hecho por el artista Bernini, y arriba un vitral con la paloma del Espíritu Santo."],
+"«Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia» (Mt 16, 18).","Señor Jesús, cuida al Papa: dale salud, sabiduría y fortaleza para guiar a tu Iglesia. Amén.");
+NS("San Policarpo","0223","#b8323c","flame","Obispo de Esmirna y discípulo del apóstol san Juan. Murió mártir a los 86 años.",
+"Policarpo conoció al apóstol san Juan y aprendió de él lo que Jesús hizo y dijo. Fue obispo de Esmirna, en la actual Turquía, durante muchos años. Ya anciano, lo arrestaron y le ordenaron maldecir a Cristo para salvar la vida. No quiso, y murió mártir en el estadio de la ciudad.","A ser fiel a Jesús toda la vida, de niño y de grande.",
+"Asia Menor (hoy Turquía), hacia el año 69","Esmirna (hoy Turquía), hacia 155","los que sufren dolor de oídos","una hoguera que no lo quema",
+["Cuando llegaron los soldados a apresarlo, les ofreció de cenar y solo pidió un rato para rezar. Los cristianos de Esmirna escribieron lo que pasó: es el relato de martirio más antiguo que se conserva.","Fue maestro de san Ireneo, que después llevó la fe hasta Francia. Así la enseñanza de los apóstoles pasó de mano en mano."],
+"«Ochenta y seis años llevo sirviéndole y ningún mal me ha hecho. ¿Cómo voy a maldecir a mi Rey, que me salvó?».","San Policarpo, pídele a Dios que yo sea fiel a Jesús todos los días de mi vida. Amén.");
+NS("San Casimiro","0304","#8a5a00","crown","Príncipe de Polonia que prefirió servir a Dios y a los pobres antes que las riquezas.",
+"Casimiro era hijo del rey de Polonia. Vivía en un palacio, pero dormía en el suelo, se levantaba de noche a rezar y repartía sus cosas entre los pobres. Gobernó un tiempo en nombre de su padre, con mucha justicia. Amaba a la Virgen María y le cantaba cada día. Murió joven, a los 25 años.","Que se puede ser sencillo y generoso aunque se tenga mucho.",
+"Cracovia, Polonia, 1458","Grodno (hoy Bielorrusia), 1484","Polonia, Lituania y los jóvenes","una corona, un lirio y un rollo con un canto a María",
+["La gente lo llamaba «defensor de los pobres». Decía que prefería morir antes que cometer un pecado.","Su himno favorito a la Virgen empieza así: «Cada día, alma mía, canta alabanzas a María». Pidió que lo enterraran con una copia entre las manos."],
+"«Busquen primero el Reino de Dios y su justicia, y todo lo demás se les dará por añadidura» (Mt 6, 33).","San Casimiro, ayúdame a compartir lo que tengo y a querer mucho a la Virgen María. Amén.");
+NS("Santas Perpetua y Felicidad","0307","#b8323c","heart","Dos jóvenes mamás de Cartago, una noble y una esclava, mártires y amigas en la fe.",
+"Perpetua era una joven de familia importante y tenía un bebé; Felicidad era esclava y esperaba un hijo. Las dos se preparaban para el Bautismo en Cartago, al norte de África, cuando las arrestaron por ser cristianas. El papá de Perpetua le rogaba que renegara de la fe, pero ella no quiso. Murieron juntas en el año 203.","Que en la Iglesia todos somos hermanos, sin importar si somos ricos o pobres.",
+"Cartago (hoy Túnez), siglo II","Cartago, 203","las mamás y las mujeres que esperan un bebé","dos mujeres que se dan la mano",
+["Perpetua escribió en la cárcel un diario que todavía podemos leer. Felicidad dio a luz a una niña en la prisión, y una familia cristiana la adoptó.","Antes de morir se dieron el beso de la paz. Sus nombres se dicen en una de las oraciones más antiguas de la Misa."],
+"«No puedo llamarme con otro nombre que el que tengo: cristiana».","Santas Perpetua y Felicidad, cuiden a todas las mamás y a los bebés que van a nacer. Amén.");
+NS("San Juan de Dios","0308","#2e7d5b","hands","Cuidó a los enfermos más pobres con ternura y fundó hospitales.",
+"Juan nació en Portugal y de niño se fue a España. Fue pastor, soldado y vendedor de libros. A los 42 años, al oír un sermón en Granada, decidió cambiar de vida. Empezó a recoger de la calle a los enfermos y a los abandonados; los cargaba en hombros hasta una casa que alquiló, los lavaba y les daba de comer.","A tratar a los enfermos como trataría a Jesús.",
+"Montemor-o-Novo, Portugal, 1495","Granada, España, 1550","los enfermos, los hospitales, las enfermeras y los bomberos","una granada con una cruz y un enfermo en brazos",
+["Una vez el hospital se incendió, y Juan entró muchas veces entre las llamas para sacar a los enfermos, uno por uno, sin quemarse.","De noche pedía limosna por las calles gritando: «¡Hagan bien, hermanos, para ustedes mismos!». Sus seguidores, los Hermanos Hospitalarios, hoy atienden hospitales en todo el mundo."],
+"«Tengan siempre caridad, porque donde no hay caridad no hay Dios».","San Juan de Dios, cuida a los enfermos de mi familia y dame un corazón atento para ayudar. Amén.");
+NS("San Cirilo de Jerusalén","0318","#5b4a9c","water","Obispo de Jerusalén y gran catequista de los que se preparaban para el Bautismo.",
+"Cirilo fue obispo en Jerusalén, la ciudad donde Jesús murió y resucitó. En Cuaresma reunía a los adultos que iban a bautizarse en la Pascua y les explicaba, con palabras sencillas, el Credo, el Padre Nuestro y los sacramentos. Aquellas catequesis se copiaron y todavía se leen hoy.","A prepararme bien para recibir los sacramentos.",
+"Jerusalén, hacia 315","Jerusalén, 386","los catequistas y los que se preparan al Bautismo","un libro y la pila bautismal",
+["Lo desterraron tres veces por defender que Jesús es verdadero Dios, y pasó dieciséis años lejos de su ciudad.","Enseñaba a recibir la Comunión con mucho respeto, haciendo con las manos «un trono para recibir al Rey». La Iglesia lo nombró Doctor."],
+"«Haz de tu mano izquierda un trono para la derecha, que va a recibir al Rey».","San Cirilo, ayúdame a entender mi fe y a recibir a Jesús con el corazón limpio. Amén.");
+NS("Santo Toribio de Mogrovejo","0323","#1f7a7a","map","Arzobispo de Lima que recorrió a pie y en mula todo el Perú para cuidar a su gente.",
+"Toribio era un maestro de leyes español. El rey y el Papa lo enviaron como arzobispo a Lima, en el Perú. Su diócesis era enorme, con montañas, selvas y desiertos, y él la recorrió tres veces, a pie y en mula, durante años. Aprendió quechua para hablar con los indígenas y los defendió de los abusos.","Que un buen pastor va a buscar a su gente hasta donde esté.",
+"Mayorga, España, 1538","Zaña, Perú, 1606","los obispos de América Latina","un bastón de caminante y una mula",
+["Fundó el primer seminario de América y mandó hacer un catecismo en quechua y aimara. Confirmó a tres santos: santa Rosa de Lima, san Martín de Porres y san Juan Macías.","Murió un Jueves Santo en un pueblito, mientras hacía una de sus visitas, lejos de su casa."],
+"«El tiempo no es nuestro: tendremos que dar cuenta estricta de él».","Santo Toribio, bendice a mi obispo y a los sacerdotes que caminan mucho para llevarnos a Jesús. Amén.");
+NS("La Anunciación del Señor","0325","#2f6fb5","flower","El ángel Gabriel anunció a María que sería la Madre de Jesús, y ella dijo que sí.",
+"Dios envió al ángel Gabriel a Nazaret, a una joven llamada María. El ángel la saludó: «Alégrate, llena de gracia, el Señor está contigo», y le anunció que sería la Madre del Hijo de Dios. María preguntó cómo sería eso y luego respondió con toda confianza. En ese momento el Hijo de Dios se hizo hombre en su seno.","A decirle que sí a Dios, como María, aunque no entienda todo.",
+"—","—","—","el ángel, un lirio blanco y la paloma del Espíritu Santo",
+["Esta fiesta es el 25 de marzo, exactamente nueve meses antes de la Navidad. Las primeras palabras del Ave María son el saludo del ángel.","Cada vez que rezamos el Ángelus, al mediodía, recordamos este momento: «El ángel del Señor anunció a María...»."],
+"«Aquí está la esclava del Señor; hágase en mí según tu palabra» (Lc 1, 38).","Virgen María, enséñame a escuchar a Dios y a responderle siempre: «Sí, Señor». Amén.");
+/* ========= Santos y fiestas del calendario litúrgico que faltaban en el álbum · abril a junio ========= */
+NS("San Francisco de Paula","0402","#7a5a3a","mountain","Ermitaño humilde. Fundó a los frailes «Mínimos», los más pequeños de todos.",
+"Francisco nació en Paula, al sur de Italia. A los catorce años se fue a vivir a una cueva frente al mar para rezar. Otros jóvenes quisieron imitarlo y nació una comunidad a la que llamó «los Mínimos», porque quería que fueran los más pequeños y humildes. Su lema era una sola palabra: «Caridad».","Que ser humilde es parecerse a Jesús.",
+"Paula, Calabria, Italia, 1416","Tours, Francia, 1507","los marineros y la región de Calabria","un bastón y la palabra «Charitas» rodeada de luz",
+["Reyes y papas le pedían consejo. El rey de Francia lo mandó llamar cuando estaba muy enfermo, y Francisco, que nunca había salido de su tierra, fue y se quedó allí hasta su muerte.","Una leyenda cuenta que un barquero no quiso llevarlo a la isla de Sicilia; entonces tendió su manto sobre el mar y cruzó sobre él con sus compañeros."],
+"«Todo lo que hagan, háganlo con amor» (1 Cor 16, 14).","San Francisco de Paula, enséñame a ser sencillo y a hacerlo todo con caridad. Amén.");
+NS("San Isidoro de Sevilla","0404","#5b4a9c","book","Obispo sabio que reunió en una gran enciclopedia todo lo que se sabía en su tiempo.",
+"Isidoro nació en España, en una familia de santos: sus hermanos Leandro, Fulgencio y Florentina también lo son. De niño le costaba estudiar, pero no se rindió y llegó a ser el hombre más sabio de su época. Fue arzobispo de Sevilla casi cuarenta años y escribió las «Etimologías», veinte libros con todos los saberes de entonces.","Que con constancia se aprende hasta lo más difícil.",
+"Cartagena, España, hacia 560","Sevilla, España, 636","los estudiantes y quienes usan internet","un libro, una pluma y unas abejas",
+["Cuentan que, desanimado por las tareas, vio una piedra desgastada por las gotas de agua y pensó: «Si el agua, gota a gota, puede con la piedra, yo también podré estudiando poco a poco».","Mandó abrir escuelas junto a las catedrales para formar a los jóvenes. Por haber reunido tantos conocimientos, muchos lo consideran patrono de internet."],
+"«Si quieres estar siempre con Dios, reza y lee: cuando rezamos, hablamos con Dios; cuando leemos, Dios habla con nosotros».","San Isidoro, ayúdame a estudiar con paciencia y a usar bien la computadora y el internet. Amén.");
+NS("San Vicente Ferrer","0405","#1f7a7a","speech","Fraile dominico de Valencia, uno de los predicadores más grandes de la historia.",
+"Vicente nació en Valencia, España, y se hizo dominico. Durante veinte años recorrió a pie y en burrito España, Francia, Italia y Suiza, predicando en las plazas porque la gente no cabía en las iglesias. Invitaba a todos a cambiar de vida y a hacer las paces. Ayudó a que la Iglesia, que estaba dividida, volviera a unirse.","A hablar de Dios con alegría y sin miedo.",
+"Valencia, España, 1350","Vannes, Francia, 1419","Valencia, los albañiles y los predicadores","un dedo que señala al cielo y una llama sobre la frente",
+["Hablaba en su lengua, el valenciano, y cuentan que gente de muchos países lo entendía. Tras escucharlo, enemigos de años se perdonaban.","Antes de predicar rezaba y estudiaba mucho. Decía que quien quiere ayudar a otros primero tiene que escuchar a Dios."],
+"«Si quieres ser útil a los demás, acude primero a Dios de todo corazón».","San Vicente Ferrer, ayúdame a decir siempre palabras que unan y que hagan bien. Amén.");
+NS("San Juan Bautista de La Salle","0407","#2e7d5b","pencil","Sacerdote que dedicó su vida a las escuelas para niños pobres. Patrono de los maestros.",
+"Juan Bautista nació en Reims, Francia, en una familia rica. Ya sacerdote, se dio cuenta de que los niños pobres no tenían escuela ni buenos maestros. Reunió a un grupo de maestros, vivió con ellos, repartió su fortuna entre los pobres y fundó a los Hermanos de las Escuelas Cristianas. Abrió escuelas gratuitas por toda Francia.","A valorar mi escuela y a respetar a quienes me enseñan.",
+"Reims, Francia, 1651","Ruan, Francia, 1719","los maestros y educadores","un libro abierto y niños a su lado",
+["Tuvo ideas nuevas que hoy nos parecen normales: enseñar en grupos y no de uno en uno, y en el idioma de los niños en lugar del latín. También fundó escuelas para preparar maestros.","Los Hermanos de La Salle tienen hoy escuelas y universidades en unos ochenta países, también en México."],
+"«Acordémonos de que estamos en la santa presencia de Dios».","San Juan Bautista de La Salle, bendice a todos los maestros y ayúdame a aprovechar mis clases. Amén.");
+NS("San Estanislao","0411","#b8323c","shield","Obispo de Cracovia que defendió a su pueblo ante un rey injusto y murió mártir.",
+"Estanislao nació en un pueblo de Polonia. Fue un sacerdote muy querido y lo eligieron obispo de Cracovia. El rey Boleslao trataba con crueldad a la gente y vivía de mala manera. Estanislao le habló con claridad, como buen pastor, pero el rey no quiso escuchar y lo mató mientras celebraba la Misa.","A decir la verdad con respeto, aunque sea difícil.",
+"Szczepanów, Polonia, hacia 1030","Cracovia, Polonia, 1079","Polonia","el báculo de obispo y una espada",
+["El pueblo lo veneró enseguida como santo. Su tumba está en la catedral de Cracovia, donde eran coronados los reyes de Polonia.","Muchos siglos después, otro obispo de Cracovia que lo admiraba mucho llegó a ser Papa: san Juan Pablo II."],
+"«El buen pastor da la vida por sus ovejas» (Jn 10, 11).","San Estanislao, dame valor para defender a los más débiles y decir siempre la verdad. Amén.");
+NS("San Martín I, papa","0413","#b8323c","church","Papa que sufrió la cárcel y el destierro por defender la verdad sobre Jesús.",
+"Martín nació en Italia y fue elegido Papa en el año 649. Reunió a los obispos para enseñar con claridad que Jesús es verdadero Dios y verdadero hombre. Esto enojó al emperador, que mandó arrestarlo aunque estaba enfermo. Lo llevaron preso en barco a Constantinopla y luego lo desterraron muy lejos, a Crimea.","A mantenerme firme en la verdad sin guardar rencor.",
+"Todi, Italia, hacia 598","Quersoneso, Crimea, 655","los que sufren por su fe","las llaves de san Pedro y unas cadenas",
+["En el destierro pasó hambre, frío y soledad. En sus cartas no se queja de sus enemigos: reza por ellos.","Es el último Papa al que la Iglesia venera como mártir."],
+"«Dichosos ustedes cuando los insulten y los persigan por mi causa» (Mt 5, 11).","San Martín, ayúdame a no rendirme cuando hacer el bien me cueste, y a rezar por quien me trata mal. Amén.");
+NS("San Anselmo","0421","#5b4a9c","book","Monje, arzobispo y gran pensador: buscaba entender con la razón lo que creía con la fe.",
+"Anselmo nació en Aosta, en los Alpes de Italia. Cruzó las montañas para estudiar en el monasterio de Bec, en Francia, donde se hizo monje y luego abad. Enseñaba con tanta bondad que sus alumnos lo adoraban. Más tarde fue arzobispo de Canterbury, en Inglaterra, y defendió la libertad de la Iglesia frente a los reyes.","Que la fe y la razón son amigas: puedo creer y también pensar.",
+"Aosta, Italia, 1033","Canterbury, Inglaterra, 1109","los que estudian y enseñan la fe","un libro y un barco",
+["Decía que a los niños no se les educa con golpes, sino como a un arbolito: con espacio, cuidado y cariño para que crezcan derechos.","Escribió oraciones muy hermosas y libros para explicar por qué Dios se hizo hombre. La Iglesia lo nombró Doctor."],
+"«No busco entender para creer, sino que creo para entender».","San Anselmo, ayúdame a hacer buenas preguntas y a buscar a Dios con la cabeza y con el corazón. Amén.");
+NS("San Fidel de Sigmaringa","0424","#b8323c","cross","Abogado de los pobres que se hizo fraile capuchino y murió mártir predicando.",
+"Marcos Roy nació en Sigmaringa, Alemania. Fue un abogado tan honrado que lo llamaban «el abogado de los pobres», porque los defendía sin cobrar. Cansado de las injusticias, dejó los tribunales, se hizo capuchino y tomó el nombre de Fidel, que significa «fiel». Lo enviaron a predicar a Suiza, donde murió mártir.","A ser fiel a Dios y honrado en todo lo que haga.",
+"Sigmaringa, Alemania, 1578","Seewis, Suiza, 1622","los abogados y los misioneros","un hábito café y una palma de mártir",
+["Antes de su última misión firmó una carta así: «Fray Fidel, que pronto será alimento de gusanos». Sabía que corría peligro y aun así fue.","Cuando lo rodearon para obligarlo a dejar su fe, respondió que había venido a enseñar la verdad, no a abandonarla."],
+"«Sé fiel hasta la muerte y te daré la corona de la vida» (Ap 2, 10).","San Fidel, hazme fiel en las cosas pequeñas de cada día: mis tareas, mis promesas y mi oración. Amén.");
+NS("San Pío V","0430","#5b4a9c","pray","Papa dominico que renovó la Iglesia y pidió a todos rezar el rosario.",
+"Antonio Ghislieri nació en una familia pobre del norte de Italia y de niño fue pastor de ovejas. Se hizo fraile dominico y, sin buscarlo, llegó a ser Papa. Puso en práctica lo que había decidido el Concilio de Trento: mandó hacer un catecismo y ordenó el misal para que la Misa se celebrara igual en todas partes.","Que el rosario es un arma poderosa de paz.",
+"Bosco Marengo, Italia, 1504","Roma, 1572","los que rezan el rosario","un rosario y la sotana blanca",
+["Como Papa siguió viviendo como fraile: comía poco, rezaba mucho y visitaba a pie los hospitales. Dicen que por él los Papas visten de blanco, como los dominicos.","En 1571 pidió a toda la cristiandad rezar el rosario ante un gran peligro. Tras la victoria de Lepanto instituyó la fiesta de la Virgen del Rosario."],
+"«Dios mío, auméntame el dolor, con tal de que me aumentes la paciencia».","San Pío V, enséñame a rezar el rosario con mi familia y a confiar en la Virgen María. Amén.");
+NS("San José Obrero","0501","#8a5a33","hands","San José, el carpintero de Nazaret, es modelo y patrono de todos los trabajadores.",
+"San José se ganaba el pan con el trabajo de sus manos: era carpintero en Nazaret. Con su esfuerzo dio casa y alimento a Jesús y a María, y enseñó su oficio al Niño. A Jesús lo conocían como «el hijo del carpintero». En 1955 el papa Pío XII puso esta fiesta el 1 de mayo, Día del Trabajo.","Que todo trabajo bien hecho y ofrecido a Dios vale mucho.",
+"Belén, siglo I a. C.","Nazaret, siglo I","los trabajadores y los carpinteros","el serrucho, el martillo y la escuadra",
+["Jesús pasó casi treinta años en el taller de Nazaret, trabajando junto a José. Así nos enseñó que el trabajo es algo santo.","José no dijo ni una palabra en el Evangelio: habló con sus obras. Por eso se le pide ayuda para trabajar bien, sin flojera y sin quejas."],
+"«¿No es este el hijo del carpintero?» (Mt 13, 55).","San José Obrero, bendice el trabajo de mis papás y ayúdame a hacer mis tareas con esmero, por amor a Jesús. Amén.");
+NS("San Atanasio","0502","#5b4a9c","shield","Obispo de Alejandría. Defendió toda su vida que Jesús es verdadero Dios y lo desterraron cinco veces.",
+"Atanasio nació en Alejandría, Egipto. Siendo un joven diácono participó en el Concilio de Nicea, donde la Iglesia proclamó en el Credo que Jesús es «Dios verdadero de Dios verdadero». Luego fue obispo durante 45 años. Los que negaban esa verdad lo acusaron con mentiras, y cinco emperadores lo mandaron al destierro. Nunca se rindió.","A no cansarme de defender lo que es verdad.",
+"Alejandría, Egipto, hacia 296","Alejandría, 373","los que defienden la fe","un libro y el manto de obispo",
+["Pasó diecisiete años desterrado. Varias veces lo escondieron los monjes del desierto. Decían de él: «Atanasio contra el mundo».","Escribió la vida de su amigo san Antonio Abad, un libro que animó a muchísimos jóvenes a seguir a Cristo. Es Doctor de la Iglesia."],
+"«Dios verdadero de Dios verdadero» (Credo de Nicea).","San Atanasio, ayúdame a rezar el Credo con atención y a creer firmemente en Jesús. Amén.");
+NS("San Nereo, San Aquileo y San Pancracio","0512","#b8323c","shield","Dos soldados que dejaron las armas por Cristo y un muchacho de catorce años, mártires de Roma.",
+"Nereo y Aquileo eran soldados romanos. Al conocer a Jesús dejaron el ejército y dieron la vida por la fe. Pancracio era un muchacho huérfano que llegó a Roma con su tío; allí se bautizó. Cuando tenía solo catorce años le ordenaron adorar a los dioses falsos, se negó con valentía y murió mártir hacia el año 304.","Que no hay que ser grande para ser valiente por Jesús.",
+"Roma y Frigia (hoy Turquía), siglos I al III","Roma, siglos I al IV","los niños y jóvenes, y los que buscan trabajo","una palma y un casco de soldado",
+["El papa san Dámaso escribió un poema en la tumba de Nereo y Aquileo: cuenta que «tiraron sus escudos y sus armas» para seguir a Cristo.","En muchas casas y negocios hay una imagen de san Pancracio: la gente le pide salud y trabajo."],
+"«Nadie tiene amor más grande que el que da la vida por sus amigos» (Jn 15, 13).","San Pancracio, que diste la vida por Jesús siendo casi un niño, hazme valiente y fiel. Amén.");
+NS("Nuestra Señora de Fátima","0513","#2f6fb5","pray","En 1917 la Virgen se apareció a tres pastorcitos en Portugal y pidió rezar el rosario por la paz.",
+"El 13 de mayo de 1917, tres niños que cuidaban ovejas en Fátima, Portugal —Lucía, Francisco y Jacinta— vieron sobre una encina a una Señora más brillante que el sol. Les pidió volver el día 13 de cada mes, rezar el rosario todos los días por la paz del mundo y ofrecer pequeños sacrificios por los pecadores.","A rezar el rosario y a ofrecer mis pequeños sacrificios por los demás.",
+"—","—","Portugal","una encina, el rosario y tres pastorcitos",
+["El 13 de octubre se reunieron unas setenta mil personas. Había llovido toda la noche, y de pronto el sol pareció bailar en el cielo y todo quedó seco: lo llamaron «el milagro del sol».","Francisco y Jacinta ya tienen su estampa en este álbum: son los santos no mártires más jóvenes. La Virgen les enseñó a decir: «Jesús, es por tu amor»."],
+"«Recen el rosario todos los días para alcanzar la paz del mundo».","Virgen de Fátima, enséñame a rezar el rosario con mi familia y a pedir por la paz. Amén.");
+NS("San Juan I, papa","0518","#b8323c","church","Papa que murió en la cárcel por no traicionar su fe ni su conciencia.",
+"Juan nació en la Toscana, Italia, y fue elegido Papa ya anciano y enfermo. El rey Teodorico, que no era católico, lo obligó a viajar a Constantinopla para pedirle un favor al emperador. Allá lo recibieron con grandes honores. Cuando volvió, el rey desconfió de él, lo encerró en la cárcel de Rávena, y allí murió de hambre y maltratos.","A hacer lo correcto aunque los poderosos se enojen.",
+"Toscana, Italia, hacia 470","Rávena, Italia, 526","los que sufren injusticias","las llaves del Papa y unas cadenas",
+["Fue el primer Papa que viajó a Constantinopla. Celebró allí la Pascua y coronó al emperador.","Su cuerpo fue llevado a Roma y enterrado en la Basílica de San Pedro como mártir."],
+"«No tengan miedo a los que matan el cuerpo pero no pueden matar el alma» (Mt 10, 28).","San Juan I, ruega por el Papa y por todos los que sufren por ser fieles a Dios. Amén.");
+NS("San Bernardino de Siena","0520","#1f7a7a","sun","Fraile franciscano que predicaba por toda Italia el amor al nombre de Jesús.",
+"Bernardino nació en Italia y quedó huérfano de niño. A los veinte años, durante una epidemia de peste, se ofreció con sus amigos para cuidar a los enfermos del hospital de Siena. Después se hizo franciscano y recorrió toda Italia a pie, predicando con ejemplos tan divertidos y claros que las plazas se llenaban.","A pronunciar el nombre de Jesús con respeto y cariño.",
+"Massa Marittima, Italia, 1380","L'Aquila, Italia, 1444","los predicadores y los publicistas","una tabla con las letras IHS dentro de un sol",
+["Al terminar de predicar mostraba una tabla con las letras IHS, el nombre de Jesús, rodeadas de un sol dorado, y pedía a la gente ponerla en sus casas en lugar de los escudos de los bandos que peleaban.","Tres veces le ofrecieron ser obispo y tres veces dijo que no, para seguir predicando por los caminos."],
+"«El nombre de Jesús es la luz de los predicadores».","San Bernardino, que el nombre de Jesús esté siempre en mis labios y en mi corazón. Amén.");
+NS("San Beda el Venerable","0525","#7a5a3a","scroll","Monje inglés, sabio y humilde, que pasó la vida rezando, estudiando y escribiendo.",
+"A Beda lo llevaron al monasterio a los siete años, y ahí vivió toda su vida, en el norte de Inglaterra. Decía que su mayor gusto era «aprender, enseñar y escribir». Escribió sobre la Biblia, las ciencias y, sobre todo, la historia de cómo llegó la fe a su país. Gracias a él contamos los años «antes y después de Cristo».","A disfrutar del estudio y a compartir lo que aprendo.",
+"Northumbria, Inglaterra, hacia 672","Jarrow, Inglaterra, 735","los historiadores y los estudiantes","una pluma, un libro y el hábito de monje",
+["El día de su muerte estaba dictando la traducción del Evangelio de san Juan a la lengua de su pueblo. Al terminar la última frase, cantó «Gloria al Padre, y al Hijo, y al Espíritu Santo» y murió.","Es el único inglés nombrado Doctor de la Iglesia. Lo llaman «el Venerable» por su sabiduría y santidad."],
+"«Mi mayor alegría ha sido siempre aprender, enseñar y escribir».","San Beda, ayúdame a amar la lectura y a terminar bien todo lo que empiezo. Amén.");
+NS("San Gregorio VII, papa","0525","#5b4a9c","church","Papa valiente que luchó por que la Iglesia fuera libre y sus pastores fueran santos.",
+"Hildebrando nació en la Toscana, Italia, hijo de un carpintero. Fue monje y ayudó a varios Papas antes de ser elegido él mismo. En su tiempo los reyes ponían y quitaban obispos como querían, y muchos compraban esos cargos. Gregorio lo prohibió, y por eso el emperador Enrique IV se le enfrentó.","A amar la justicia aunque me traiga problemas.",
+"Sovana, Italia, hacia 1020","Salerno, Italia, 1085","los que trabajan por una Iglesia santa","las llaves y la tiara del Papa",
+["El emperador, arrepentido, esperó tres días descalzo en la nieve frente al castillo de Canossa para pedirle perdón, y el Papa lo perdonó. Pero después volvió a atacarlo.","Gregorio tuvo que huir de Roma y murió lejos de casa, en Salerno. La reforma que comenzó lleva su nombre: «reforma gregoriana»."],
+"«He amado la justicia y odiado la maldad; por eso muero en el destierro».","San Gregorio VII, consígueme amor a la justicia y fuerza para hacer lo correcto. Amén.");
+NS("Santa María Magdalena de Pazzi","0525","#b0466e","heart","Carmelita de Florencia que amó a Jesús con todo su corazón.",
+"Catalina nació en una de las familias más ricas de Florencia, Italia. Desde niña le gustaba rezar y enseñar el catecismo a los hijos de los campesinos. Hizo su Primera Comunión a los diez años, algo raro entonces. A los dieciséis entró al convento de las carmelitas y tomó el nombre de María Magdalena. Vivió ahí, escondida, rezando por la Iglesia.","A ofrecer con amor lo que me cuesta.",
+"Florencia, Italia, 1566","Florencia, 1607","los enfermos y la ciudad de Florencia","un corazón encendido y el hábito carmelita",
+["Sufrió enfermedades y años de tristeza interior, y los ofreció todos a Dios sin perder la paciencia con sus hermanas.","Cuentan que a veces corría por el convento tocando las campanas y gritando que el Amor —es decir, Dios— no es amado como merece."],
+"«¡El Amor no es amado!».","Santa María Magdalena de Pazzi, enciende mi corazón de amor a Jesús. Amén.");
+NS("San Agustín de Canterbury","0527","#1f7a7a","map","Monje misionero enviado por el Papa a llevar la fe a Inglaterra.",
+"Agustín era el superior de un monasterio en Roma. El papa san Gregorio Magno lo envió con cuarenta monjes a evangelizar Inglaterra. En el camino les contaron historias terribles y quisieron regresar, pero el Papa los animó a seguir. El rey Etelberto los recibió bien, escuchó el Evangelio y pidió el Bautismo junto con miles de su pueblo.","A no echarme para atrás cuando algo bueno me da miedo.",
+"Roma, siglo VI","Canterbury, Inglaterra, hacia 604","Inglaterra","el báculo de obispo y un barco",
+["El rey estaba casado con una princesa cristiana, Berta, que rezaba desde hacía años por su conversión.","Agustín fue el primer arzobispo de Canterbury. El Papa le aconsejó no destruir las costumbres buenas del pueblo, sino llenarlas de sentido cristiano."],
+"«Vayan y hagan discípulos a todos los pueblos» (Mt 28, 19).","San Agustín de Canterbury, dame ánimo para empezar las cosas buenas aunque me den miedo. Amén.");
+NS("La Visitación de la Virgen María","0531","#2f6fb5","gift","María fue de prisa a la montaña para ayudar a su prima Isabel, que esperaba a Juan el Bautista.",
+"Después del anuncio del ángel, María supo que su prima Isabel, ya mayor, esperaba un bebé. Sin pensar en sí misma, se puso en camino por las montañas para ayudarla. Cuando Isabel oyó su saludo, el niño saltó de alegría en su seno, y ella exclamó: «¡Bendita tú entre las mujeres y bendito el fruto de tu vientre!».","Que quien lleva a Jesús en el corazón corre a ayudar a los demás.",
+"—","—","—","dos mujeres que se abrazan",
+["María respondió con un canto de alabanza, el «Magníficat»: «Proclama mi alma la grandeza del Señor». Se quedó con Isabel unos tres meses.","Las palabras de Isabel forman parte del Ave María. Es el segundo misterio gozoso del rosario."],
+"«Proclama mi alma la grandeza del Señor, se alegra mi espíritu en Dios, mi Salvador» (Lc 1, 46-47).","Virgen María, enséñame a ayudar pronto y con alegría a quien me necesita. Amén.");
+NS("San Justino","0601","#b8323c","scroll","Filósofo que buscó la verdad en muchas escuelas y la encontró en Jesús. Murió mártir.",
+"Justino nació en Samaria y desde joven buscó la verdad con los grandes maestros de su tiempo. Un día, paseando a la orilla del mar, un anciano le habló de los profetas y de Jesús, y se hizo cristiano. Abrió una escuela en Roma y escribió cartas al emperador para defender a los cristianos de las mentiras que se decían de ellos.","Que quien busca la verdad con sinceridad encuentra a Jesús.",
+"Flavia Neápolis (hoy Nablus), Samaria, hacia el año 100","Roma, hacia 165","los filósofos y los que buscan la verdad","el manto de filósofo y un libro",
+["En sus escritos explica cómo era la Misa de los primeros cristianos, cada domingo: las lecturas, la homilía, el pan y el vino. ¡Es igual a la nuestra!","Cuando el juez le ordenó adorar a los dioses, respondió que nadie en su sano juicio deja la verdad por el error."],
+"«Nadie que piense bien abandona la verdad para caer en el error».","San Justino, ayúdame a buscar siempre la verdad y a explicar mi fe con respeto. Amén.");
+NS("San Marcelino y San Pedro","0602","#b8323c","cross","Un sacerdote y un exorcista de Roma, mártires que convirtieron hasta a su carcelero.",
+"Marcelino era sacerdote y Pedro era exorcista: rezaba por las personas para librarlas del mal. En la persecución del emperador Diocleciano los encerraron por ser cristianos. En la cárcel no dejaron de anunciar a Jesús, y el carcelero, con toda su familia, pidió el Bautismo. Los llevaron a un bosque apartado y allí murieron.","Que en cualquier lugar puedo hablar de Jesús con mi ejemplo.",
+"Roma, siglo III","Roma, 304","los presos","dos palmas de mártir",
+["El papa san Dámaso contaba que, de niño, escuchó esta historia de labios del propio verdugo, que después se hizo cristiano.","Sus nombres se dicen en una de las oraciones más antiguas de la Misa. En Roma hay unas catacumbas que llevan su nombre."],
+"«Si morimos con Cristo, viviremos con Él» (2 Tim 2, 11).","Santos Marcelino y Pedro, ayúdenme a llevar a mis amigos hacia Jesús. Amén.");
+NS("San Carlos Lwanga y compañeros","0603","#b8323c","flame","Veintidós jóvenes de Uganda, África, que dieron la vida por ser fieles a Jesús.",
+"Carlos Lwanga era el jefe de los pajes, los jóvenes que servían al rey Mwanga en Uganda. Muchos se habían hecho cristianos. El rey quería obligarlos a cometer pecados, y Carlos los protegía y les enseñaba el catecismo a escondidas. Cuando el rey lo supo, les ordenó dejar la fe. Ninguno aceptó, y murieron mártires en 1886.","A decir que no al pecado, aunque todos digan que sí.",
+"Uganda, hacia 1860","Namugongo, Uganda, 1886","los jóvenes de África","una palma de mártir y el rosario",
+["El más pequeño era Kizito, de catorce años. Carlos lo bautizó la noche anterior a que los apresaran. Caminaron hasta el lugar del martirio cantando y animándose unos a otros.","El papa san Pablo VI los canonizó en 1964 y visitó Uganda. Hoy la Iglesia en África es joven y crece mucho."],
+"«Dichosos los limpios de corazón, porque ellos verán a Dios» (Mt 5, 8).","San Carlos Lwanga y compañeros, den a todos los jóvenes pureza y valentía. Amén.");
+NS("San Bonifacio","0605","#1f7a7a","leaf","Monje inglés, apóstol de Alemania. Derribó un árbol que la gente adoraba como dios.",
+"Se llamaba Winfrido y nació en Inglaterra. Era monje y maestro, pero quiso ser misionero entre los pueblos de Alemania que no conocían a Cristo. El Papa lo nombró obispo y le dio el nombre de Bonifacio. Fundó iglesias y monasterios, como el de Fulda. Ya anciano, volvió a misionar y murió mártir.","A confiar solo en Dios y no en supersticiones.",
+"Wessex, Inglaterra, hacia 675","Dokkum (hoy Países Bajos), 754","Alemania","un hacha, un roble y un libro atravesado por una espada",
+["En Geismar la gente adoraba un roble enorme dedicado al dios Thor. Bonifacio lo derribó a hachazos; como nada malo le pasó, muchos creyeron. Con la madera construyó una capilla.","Cuando lo atacaron, a los 79 años, pidió a los suyos no pelear y levantó el libro de los Evangelios."],
+"«No seamos perros mudos ni centinelas silenciosos, sino pastores que cuidan el rebaño de Cristo».","San Bonifacio, líbrame de las supersticiones y ayúdame a confiar solo en Dios. Amén.");
+NS("San Norberto","0606","#5b4a9c","host","Dejó una vida cómoda para seguir a Cristo, fundó una orden y amó mucho la Eucaristía.",
+"Norberto nació en Alemania, en una familia noble, y vivía en la corte entre lujos y diversiones. Un día de tormenta, un rayo cayó junto a su caballo y lo tiró al suelo. Entendió que debía cambiar. Repartió sus bienes, se hizo sacerdote y predicó descalzo por los caminos. Fundó una comunidad en el valle de Prémontré, en Francia.","Que nunca es tarde para cambiar y empezar de nuevo.",
+"Xanten, Alemania, hacia 1080","Magdeburgo, Alemania, 1134","los que quieren cambiar de vida","la custodia con la Hostia y un hábito blanco",
+["Sus hijos, los premonstratenses o «canónigos blancos», viven en comunidad y atienden parroquias. Fue después arzobispo de Magdeburgo.","Defendió con fuerza que Jesús está realmente presente en la Eucaristía, por eso lo pintan con la custodia en la mano."],
+"«Yo soy el pan vivo que ha bajado del cielo» (Jn 6, 51).","San Norberto, aumenta mi amor a Jesús en la Eucaristía. Amén.");
+NS("San Efrén","0609","#2e7d5b","music","Diácono y poeta de Siria. Escribió cientos de himnos; lo llaman «el arpa del Espíritu Santo».",
+"Efrén nació en Nísibis, en la antigua Siria. Fue diácono toda su vida y nunca quiso ser sacerdote, por humildad. Era maestro y poeta: para enseñar la fe componía himnos con melodías que la gente ya conocía, y formó coros de mujeres y niñas para cantarlos en la iglesia. Cuando hubo hambre, organizó la ayuda para los pobres.","Que cantar a Dios es rezar dos veces.",
+"Nísibis (hoy Turquía), hacia 306","Edesa (hoy Turquía), 373","los catequistas y los músicos de la iglesia","un arpa y un rollo de himnos",
+["Escribió muchos cantos a la Virgen María, a la que llamaba «toda hermosa», sin mancha alguna.","Murió por contagiarse de la peste mientras cuidaba a los enfermos. Es Doctor de la Iglesia."],
+"«Canten al Señor un cántico nuevo» (Sal 96, 1).","San Efrén, enséñame a cantar en Misa con todo mi corazón. Amén.");
+NS("San Romualdo","0619","#7a5a3a","mountain","Monje que buscó a Dios en el silencio de los bosques y fundó a los camaldulenses.",
+"Romualdo nació en Rávena, Italia, en una familia noble. A los veinte años, impresionado por una pelea en la que murió un hombre, entró a un monasterio para rezar. Pasó la vida fundando pequeños monasterios y ermitas en los montes de Italia. El más famoso está en Camaldoli, entre los bosques.","Que en el silencio se escucha mejor a Dios.",
+"Rávena, Italia, hacia 951","Val di Castro, Italia, 1027","los que buscan silencio para rezar","un hábito blanco y una escalera al cielo",
+["Sus monjes viven cada uno en una casita, en silencio, y se reúnen para rezar. Su consejo era sencillo: siéntate en tu celda como en el paraíso y pon tu atención en los salmos.","Cuentan que soñó con una escalera por la que subían al cielo monjes vestidos de blanco: por eso los camaldulenses visten ese color."],
+"«Siéntate en tu celda como en el paraíso».","San Romualdo, ayúdame a guardar silencio un ratito cada día para escuchar a Dios. Amén.");
+NS("Santo Tomás Moro y San Juan Fisher","0622","#b8323c","scroll","Un papá sabio y alegre, y un obispo. Prefirieron morir antes que ir contra su conciencia.",
+"Tomás Moro era abogado, escritor, buen esposo y papá cariñoso de cuatro hijos. Fue el hombre más importante de Inglaterra después del rey Enrique VIII. Juan Fisher era obispo y gran maestro. Cuando el rey quiso separarse de su esposa y declararse cabeza de la Iglesia, los dos se negaron a apoyarlo. Los encerraron en la Torre de Londres y murieron mártires en 1535.","A obedecer a mi conciencia y a Dios antes que a nadie.",
+"Londres, 1478 (Tomás) y Beverley, 1469 (Juan)","Londres, 1535","los gobernantes, los políticos y los abogados","un collar de canciller y el sombrero de cardenal",
+["Tomás Moro conservó el buen humor hasta el final: bromeó con el verdugo al subir. Desde la cárcel escribía cartas llenas de ternura a su hija Margarita.","Decía que nada puede pasar que Dios no quiera, y que lo que Él quiere, aunque parezca malo, es en realidad lo mejor."],
+"«Muero siendo buen servidor del rey, pero primero de Dios».","Santo Tomás Moro, dame buen humor, y junto con san Juan Fisher, fuerza para hacer siempre lo correcto. Amén.");
+NS("San Cirilo de Alejandría","0627","#2f6fb5","crown","Obispo de Egipto que defendió que María es de verdad Madre de Dios.",
+"Cirilo fue obispo de Alejandría, en Egipto. En su tiempo un obispo importante enseñaba que a María no se le debía llamar «Madre de Dios». Cirilo explicó que Jesús es una sola persona, Dios y hombre a la vez, y que por eso su Madre es Madre de Dios. En el año 431 los obispos, reunidos en Éfeso, le dieron la razón.","A llamar a María con cariño «Madre de Dios y Madre mía».",
+"Alejandría, Egipto, hacia 376","Alejandría, 444","los que defienden a la Virgen María","un libro y una imagen de la Virgen",
+["La noche en que el Concilio de Éfeso proclamó a María «Madre de Dios», la gente acompañó a los obispos por las calles con antorchas y cantos de alegría.","Cirilo escribió muchos libros sobre la Biblia. Es Doctor de la Iglesia."],
+"«Santa María, Madre de Dios, ruega por nosotros».","San Cirilo, ayúdame a querer mucho a la Virgen y a rezarle cada día el Ave María. Amén.");
+NS("San Ireneo","0628","#2e7d5b","book","Obispo de Lyon, discípulo de san Policarpo, que guardó la fe recibida de los apóstoles.",
+"Ireneo nació en Esmirna y de joven escuchó a san Policarpo, que había conocido al apóstol san Juan. Viajó a Francia como misionero y fue obispo de Lyon. Algunos enseñaban doctrinas extrañas y secretas; Ireneo respondió que la fe verdadera es la que los apóstoles enseñaron a todos, la que guardan los obispos unidos al Papa.","Que mi fe es la misma de los apóstoles.",
+"Esmirna (hoy Turquía), hacia 130","Lyon, Francia, hacia 202","los que trabajan por la unidad de los cristianos","un libro y el báculo de obispo",
+["Su nombre significa «hombre de paz», y lo fue: ayudó a que los cristianos de Oriente y de Occidente no se pelearan por la fecha de la Pascua.","En 2022 el papa Francisco lo nombró Doctor de la Iglesia con el título de «Doctor de la unidad»."],
+"«La gloria de Dios es que el hombre viva».","San Ireneo, hombre de paz, ayúdame a unir a mis amigos y a no dividir. Amén.");
+NS("Primeros mártires de Roma","0630","#b8323c","flame","Los primeros cristianos de Roma que dieron la vida por Jesús en tiempos del emperador Nerón.",
+"En el año 64 un gran incendio destruyó buena parte de la ciudad de Roma. El emperador Nerón culpó injustamente a los cristianos y mandó apresar a muchísimos: hombres, mujeres y niños. Murieron en los jardines del emperador, donde hoy está el Vaticano. No conocemos sus nombres, pero Dios sí los conoce.","Que mi fe llegó hasta mí gracias a la valentía de muchos.",
+"—","Roma, año 64","—","palmas de mártir y antorchas",
+["Se les celebra al día siguiente de san Pedro y san Pablo, que también murieron mártires en Roma por esos años.","Un escritor antiguo dijo: «La sangre de los mártires es semilla de cristianos». Mientras más los perseguían, más personas creían en Jesús."],
+"«La sangre de los mártires es semilla de nuevos cristianos».","Santos mártires de Roma, gracias por su ejemplo. Ayúdenme a vivir mi fe sin esconderla. Amén.");
+/* ========= Santos y fiestas del calendario litúrgico que faltaban en el álbum · julio a septiembre ========= */
+NS("San Antonio María Zaccaria","0705","#5b4a9c","host","Médico que se hizo sacerdote para sanar también las almas. Gran amigo de la Eucaristía.",
+"Antonio María nació en Cremona, Italia. Su papá murió cuando era bebé y su mamá le enseñó a compartir con los pobres. Estudió medicina y curaba gratis a quien no podía pagar. Luego entendió que Dios lo llamaba a curar las almas y se hizo sacerdote. Fundó una comunidad de sacerdotes, los barnabitas, y murió joven, a los 36 años.","A visitar a Jesús en el sagrario.",
+"Cremona, Italia, 1502","Cremona, 1539","los médicos","una Hostia, un lirio y un crucifijo",
+["Difundió la adoración de las Cuarenta Horas: la Hostia queda expuesta en el altar y la gente se turna para acompañar a Jesús de día y de noche.","También pidió tocar las campanas los viernes a las tres de la tarde, para recordar la hora en que Jesús murió por nosotros."],
+"«Corramos como locos no solo hacia Dios, sino también hacia el prójimo».","San Antonio María Zaccaria, enséñame a adorar a Jesús en la Eucaristía y a correr a ayudar. Amén.");
+NS("San Agustín Zhao Rong y compañeros","0709","#b8323c","cross","Ciento veinte mártires de China: obispos, sacerdotes, catequistas, papás, mamás y niños.",
+"Agustín Zhao Rong era un soldado chino al que mandaron custodiar a un obispo preso. Le impresionó tanto la paciencia y la bondad de aquel hombre que pidió el Bautismo. Después se hizo sacerdote y murió mártir en 1815. Con él celebramos a 120 cristianos que dieron la vida en China a lo largo de casi trescientos años.","Que el buen ejemplo convence más que muchas palabras.",
+"Guizhou, China, 1746","Chengdu, China, 1815","la Iglesia en China","palmas de mártir y una cruz",
+["Entre ellos hay niños y jóvenes, como Ana Wang, de catorce años, y Chi Zhuzi, de dieciocho, que dijo que aunque lo hicieran pedazos, cada pedacito diría que era cristiano.","San Juan Pablo II los canonizó a todos juntos en el año 2000. Hoy hay millones de católicos en China."],
+"«Cada pedazo de mi carne y cada gota de mi sangre les dirá que soy cristiano».","Santos mártires de China, cuiden a los cristianos de ese país y háganme firme en la fe. Amén.");
+NS("San Enrique","0713","#8a5a00","crown","Emperador que gobernó con justicia, construyó iglesias y buscó la paz.",
+"Enrique nació en Baviera, Alemania, y un obispo santo, Wolfgango, fue su maestro. Llegó a ser emperador del Sacro Imperio. Gobernó pensando en el bien de su pueblo: hizo las paces entre los que peleaban, ayudó a los pobres y construyó catedrales y monasterios. Su esposa, Cunegunda, también es santa.","Que quien manda debe servir.",
+"Baviera, Alemania, 973","Gotinga, Alemania, 1024","los gobernantes","una corona, un cetro y una pequeña catedral",
+["Rezaba antes de tomar decisiones importantes. Fundó la diócesis y la catedral de Bamberg, donde está enterrado junto a su esposa.","Cuentan que quiso hacerse monje, y el abad le pidió obediencia; luego le ordenó: «Entonces vuelve a gobernar el imperio, que es lo que Dios quiere de ti»."],
+"«El que quiera ser el primero, que sea el servidor de todos» (Mc 9, 35).","San Enrique, ruega por los que nos gobiernan, para que busquen la justicia y la paz. Amén.");
+NS("San Buenaventura","0715","#7a5a3a","book","Franciscano muy sabio y sencillo. Lo llaman «el Doctor Seráfico».",
+"Juan de Fidanza nació en Bagnoregio, Italia. De niño estuvo muy enfermo, y su mamá pidió su curación por medio de san Francisco de Asís. Ya joven se hizo franciscano con el nombre de Buenaventura. Estudió y enseñó en París, y fue superior de todos los franciscanos durante diecisiete años. Escribió la vida de san Francisco.","Que la verdadera sabiduría es conocer y amar a Jesús.",
+"Bagnoregio, Italia, hacia 1217","Lyon, Francia, 1274","los estudiosos de la fe","el sombrero de cardenal colgado de un árbol",
+["Cuando llegaron a avisarle que el Papa lo nombraba cardenal, estaba lavando los platos del convento. Pidió que colgaran el sombrero en un árbol hasta que terminara.","Fue amigo de santo Tomás de Aquino. Decía que su mejor libro era el crucifijo. Es Doctor de la Iglesia."],
+"«En Cristo están escondidos todos los tesoros de la sabiduría» (Col 2, 3).","San Buenaventura, ayúdame a estudiar con humildad y a servir en mi casa sin que me lo pidan. Amén.");
+NS("Nuestra Señora del Carmen","0716","#7a5a3a","mountain","La Virgen del escapulario café, patrona de los marineros y pescadores.",
+"El Carmelo es un monte de Tierra Santa, junto al mar, donde rezaba el profeta Elías. Muchos siglos después, unos ermitaños vivieron allí bajo el cuidado de la Virgen: fueron los primeros carmelitas. La tradición cuenta que, en 1251, María se apareció a su superior, san Simón Stock, y le entregó el escapulario como señal de su protección.","Que María me cubre con su manto como una mamá.",
+"—","—","los marineros, los pescadores y los carmelitas","el escapulario café y una estrella",
+["El escapulario son dos pedacitos de tela café unidos por cordones. Quien lo lleva se compromete a vivir como hijo de María: rezar y portarse como cristiano.","A la Virgen del Carmen la llaman «Estrella del Mar». En los puertos la pasean en lanchas adornadas con flores."],
+"«Hagan lo que Él les diga» (Jn 2, 5).","Virgen del Carmen, Estrella del Mar, guíame para no perderme y llévame siempre a Jesús. Amén.");
+NS("San Apolinar","0720","#b8323c","church","Primer obispo de Rávena, en Italia. Sufrió mucho por anunciar el Evangelio.",
+"Una tradición muy antigua cuenta que Apolinar llegó desde Antioquía y que el mismo san Pedro lo envió a predicar a Rávena, una ciudad junto al mar. Fue su primer obispo. Lo golpearon y lo echaron de la ciudad varias veces, pero siempre regresaba a cuidar a los cristianos. Al final murió mártir.","A volver a intentarlo aunque las cosas salgan mal.",
+"Antioquía (hoy Turquía), siglo I","Rávena, Italia, siglo II","la ciudad de Rávena","un obispo con los brazos abiertos entre ovejas",
+["En Rávena hay dos iglesias antiquísimas con su nombre, famosas por sus mosaicos de colores y oro. En uno de ellos aparece rezando rodeado de doce ovejas.","San Pedro Crisólogo, que fue obispo de la misma ciudad siglos después, decía que Apolinar fue un buen pastor que nunca abandonó a su rebaño."],
+"«El que persevere hasta el fin, ese se salvará» (Mt 24, 13).","San Apolinar, dame constancia para no abandonar lo bueno que empiezo. Amén.");
+NS("San Lorenzo de Brindis","0721","#1f7a7a","bible","Capuchino que sabía muchas lenguas y conocía la Biblia casi de memoria.",
+"Julio César Russo nació en Bríndisi, al sur de Italia. A los seis años ya predicaba un sermoncito de Navidad, como era costumbre entre los niños. Se hizo capuchino con el nombre de Lorenzo. Aprendió hebreo, griego, alemán, francés y español, y leía la Biblia en sus lenguas originales. Predicó por toda Europa.","Que conocer la Biblia es conocer a Jesús.",
+"Bríndisi, Italia, 1559","Lisboa, Portugal, 1619","la ciudad de Bríndisi","una Biblia y un crucifijo en alto",
+["Los Papas y los reyes le confiaron misiones de paz muy difíciles. Murió en Lisboa, a donde viajó para defender ante el rey a la gente de Nápoles, que sufría abusos.","Por su sabiduría fue nombrado Doctor de la Iglesia, con el título de «Doctor Apostólico»."],
+"«La palabra de Dios es luz para la mente y fuego para la voluntad».","San Lorenzo de Brindis, ayúdame a leer la Biblia con gusto y a guardarla en el corazón. Amén.");
+NS("Santa Brígida","0723","#b0466e","candle","Esposa, mamá de ocho hijos, peregrina y fundadora. Patrona de Europa.",
+"Brígida nació en Suecia. Se casó con Ulf y tuvieron ocho hijos; una de ellas es santa Catalina de Suecia. Cuidaba a los enfermos en un hospital que fundó. Cuando quedó viuda, repartió sus bienes y fundó una orden religiosa. Vivió en Roma, ayudando a los pobres y pidiendo a los Papas que volvieran a la ciudad.","Que en la familia se aprende a ser santo.",
+"Finsta, Suecia, 1303","Roma, 1373","Europa, Suecia y las viudas","un libro, una vela y el bastón de peregrina",
+["Con su esposo peregrinó hasta Santiago de Compostela, en España, y ya anciana fue a Tierra Santa, a los lugares donde vivió Jesús.","Desde niña meditaba en la Pasión de Jesús. Sus oraciones se rezan en muchos países. San Juan Pablo II la nombró copatrona de Europa."],
+"«Señor, muéstrame tu camino y dame fuerzas para seguirlo».","Santa Brígida, cuida a mi familia y enséñanos a rezar juntos. Amén.");
+NS("San Sharbel","0724","#4a6a8a","candle","Monje del Líbano que vivió en silencio y oración. Dios ha hecho muchos milagros por su intercesión.",
+"Yusef Makhluf nació en un pueblito de las montañas del Líbano. De niño cuidaba una vaca y se escondía en una cueva para rezar. A los 23 años se fue al monasterio de Annaya y tomó el nombre de Sharbel. Fue sacerdote y pasó sus últimos 23 años como ermitaño: rezaba, trabajaba en el campo y celebraba la Misa con gran amor.","A amar el silencio y la Misa.",
+"Bekaa Kafra, Líbano, 1828","Annaya, Líbano, 1898","el Líbano y los enfermos","la capucha negra de monje y las manos en oración",
+["Murió en la Nochebuena de 1898. Después, muchos enfermos se curaron al pedir su ayuda, y su fama llegó a todo el mundo. Fue canonizado en 1977.","En México se le quiere mucho: en las iglesias la gente le cuelga listones de colores con sus peticiones y agradecimientos."],
+"«Mi alma tiene sed de Dios, del Dios vivo» (Sal 42, 3).","San Sharbel, pídele a Dios salud para los enfermos de mi familia y enséñame a rezar en silencio. Amén.");
+NS("San Pedro Crisólogo","0730","#5b4a9c","speech","Obispo de Rávena. Predicaba tan bonito y tan breve que lo llamaron «palabra de oro».",
+"Pedro nació en Ímola, Italia, y fue obispo de Rávena, donde vivía el emperador. «Crisólogo» significa «palabra de oro». Sus sermones eran cortos, claros y llenos de ejemplos, para que la gente no se cansara y se acordara de todo. Animaba a comulgar con frecuencia y a ser generosos con los pobres.","A decir cosas buenas con pocas palabras.",
+"Ímola, Italia, hacia 380","Ímola, hacia 450","los predicadores","un libro y el báculo de obispo",
+["Enseñaba que la oración, el ayuno y la limosna van siempre juntos: «Lo que la oración pide, el ayuno lo alcanza y la misericordia lo recibe».","Se conservan casi doscientos de sus sermones. Es Doctor de la Iglesia."],
+"«Quien quiera reír con el demonio no podrá alegrarse con Cristo».","San Pedro Crisólogo, que mis palabras sean siempre claras, verdaderas y amables. Amén.");
+NS("San Eusebio de Vercelli","0802","#5b4a9c","shield","Obispo que defendió que Jesús es Dios y vivió en comunidad con sus sacerdotes.",
+"Eusebio nació en la isla de Cerdeña y fue el primer obispo de Vercelli, al norte de Italia. Tuvo una idea nueva: vivir con sus sacerdotes en la misma casa, rezando y trabajando juntos, como una familia de monjes. Por defender que Jesús es verdadero Dios, el emperador lo desterró a tierras muy lejanas durante años.","Que los amigos de Jesús se apoyan viviendo unidos.",
+"Cerdeña, Italia, hacia 283","Vercelli, Italia, 371","la región del Piamonte","un libro y el báculo de obispo",
+["En el destierro lo maltrataron y pasó hambre, pero siguió escribiendo cartas para animar a su gente a mantenerse fiel.","Al volver, recorrió su diócesis junto con san Hilario para reconciliar a los que se habían alejado."],
+"«Estén firmes en la fe» (1 Cor 16, 13).","San Eusebio, bendice a los sacerdotes de mi parroquia y manténlos unidos. Amén.");
+NS("San Pedro Julián Eymard","0802","#b8860b","host","Sacerdote francés, apóstol de la Eucaristía: quería que todos adoraran a Jesús en el sagrario.",
+"Pedro Julián nació en un pueblo de los Alpes franceses. De pequeño se escapaba a la iglesia y pegaba el oído al sagrario «para escuchar mejor a Jesús». Fue sacerdote y descubrió su misión: que la gente amara a Jesús presente en la Eucaristía. Fundó la Congregación del Santísimo Sacramento y preparaba a obreros y niños pobres para su Primera Comunión.","Que Jesús me espera en el sagrario.",
+"La Mure, Francia, 1811","La Mure, 1868","la adoración eucarística","la custodia con la Hostia",
+["Decía que la Eucaristía es Jesús vivo, y que sin ella la vida cristiana se apaga como una lámpara sin aceite.","Animaba a comulgar con frecuencia, cuando casi nadie lo hacía. San Juan XXIII lo canonizó en 1962."],
+"«La Eucaristía es la vida de los pueblos».","San Pedro Julián, enséñame a hacerle a Jesús una visita en el sagrario siempre que pueda. Amén.");
+NS("Dedicación de Santa María la Mayor","0805","#2f6fb5","church","La iglesia más antigua e importante dedicada a la Virgen María, en Roma.",
+"En Roma, sobre una de sus siete colinas, hay una basílica muy grande y hermosa dedicada a la Virgen. La construyó el papa Sixto III poco después del año 431, cuando los obispos proclamaron que María es Madre de Dios. Sus mosaicos de oro cuentan la vida de Jesús y de María desde hace casi 1600 años.","Que las iglesias son casas de Dios y de su Madre, y casas mías.",
+"—","—","—","una basílica con nieve en verano",
+["Una leyenda cuenta que, en pleno verano, la noche del 5 de agosto, nevó en esa colina para señalar dónde debía construirse. Por eso se le llama también Nuestra Señora de las Nieves.","Allí se guarda una imagen muy querida de la Virgen, «Salud del pueblo romano», y unas reliquias del pesebre de Belén. El papa Francisco pidió ser enterrado en esta basílica."],
+"«Dichosa tú, que has creído» (Lc 1, 45).","Virgen María, ayúdame a portarme en la iglesia con respeto y cariño, como en tu casa. Amén.");
+NS("La Transfiguración del Señor","0806","#b8860b","sun","En lo alto de un monte, Jesús dejó ver a tres apóstoles su gloria de Hijo de Dios.",
+"Jesús subió a un monte alto con Pedro, Santiago y Juan. Mientras rezaba, su rostro brilló como el sol y su ropa se volvió blanca como la luz. Aparecieron Moisés y Elías conversando con Él. Una nube luminosa los cubrió y se oyó la voz del Padre: «Este es mi Hijo amado, escúchenlo».","A escuchar a Jesús, que es el Hijo amado del Padre.",
+"—","—","—","Jesús vestido de luz sobre un monte",
+["Pedro estaba tan feliz que quería quedarse ahí: «Señor, ¡qué bien estamos aquí! Hagamos tres tiendas». Pero había que bajar del monte y seguir el camino.","Jesús les mostró su gloria para darles fuerza: poco después lo verían sufrir en la cruz. La tradición dice que fue en el monte Tabor."],
+"«Este es mi Hijo amado; escúchenlo» (Mc 9, 7).","Jesús, quiero escucharte. Que tu luz me dé fuerza en los días difíciles. Amén.");
+NS("San Sixto II y compañeros","0807","#b8323c","church","Papa que murió mártir junto con sus diáconos mientras celebraba con los cristianos en las catacumbas.",
+"Sixto fue Papa en un tiempo en que el emperador Valeriano prohibió a los cristianos reunirse. Aun así, el Papa siguió cuidando a su gente. El 6 de agosto del año 258 estaba enseñando a los fieles en una catacumba cuando llegaron los soldados. Lo mataron allí mismo, junto con varios de sus diáconos.","A no dejar de rezar ni de ir a Misa aunque sea difícil.",
+"Grecia, siglo III","Roma, 258","—","las llaves del Papa y una palma",
+["Cuatro días después murió también su diácono más famoso: san Lorenzo, que ya tiene su estampa en el álbum.","Cuentan que Lorenzo lloraba por no morir con él, y el Papa le dijo: «No te abandono, hijo; dentro de cuatro días me seguirás»."],
+"«Yo estoy con ustedes todos los días, hasta el fin del mundo» (Mt 28, 20).","San Sixto, ayúdame a amar la Misa del domingo y a no faltar por flojera. Amén.");
+NS("San Cayetano","0807","#2e7d5b","bread","Sacerdote que confió siempre en la Providencia. Patrono del pan y del trabajo.",
+"Cayetano nació en Vicenza, Italia, en una familia noble. Era abogado y trabajaba para el Papa, pero prefirió dedicarse a los enfermos de los hospitales. Con unos amigos fundó a los teatinos: sacerdotes que no pedían limosna ni tenían propiedades, sino que confiaban en que Dios les daría lo necesario.","A confiar en que Dios cuida de mi familia.",
+"Vicenza, Italia, 1480","Nápoles, Italia, 1547","los que buscan pan y trabajo","una espiga de trigo y el Niño Jesús en brazos",
+["Para ayudar a los pobres que caían en manos de prestamistas abusivos, fundó en Nápoles un «monte de piedad» que les prestaba sin cobrarles de más.","En Argentina y en otros países, cada 7 de agosto miles de personas van a su santuario a pedir y agradecer «pan y trabajo»."],
+"«Busquen primero el Reino de Dios, y todo lo demás se les dará por añadidura» (Mt 6, 33).","San Cayetano, que en mi casa nunca falten el pan ni el trabajo, ni las ganas de compartir. Amén.");
+NS("Santa Juana Francisca de Chantal","0812","#b0466e","heart","Esposa, mamá y viuda. Con san Francisco de Sales fundó la Orden de la Visitación.",
+"Juana nació en Dijon, Francia. Se casó con el barón de Chantal y tuvieron seis hijos. Era una mamá alegre que daba de comer a los pobres en la puerta de su castillo. Su esposo murió en un accidente de cacería, y ella perdonó al hombre que lo hirió. Años después conoció a san Francisco de Sales y fundaron juntos la Orden de la Visitación.","A perdonar de corazón, como ella perdonó.",
+"Dijon, Francia, 1572","Moulins, Francia, 1641","las mamás, las viudas y los que han sido olvidados","un corazón con el nombre de Jesús",
+["En la Visitación recibían a mujeres mayores o enfermas, a las que otros conventos no aceptaban. Al morir Juana ya había 87 monasterios.","Para demostrar que perdonaba al hombre que causó la muerte de su esposo, aceptó ser madrina de uno de sus hijos."],
+"«Perdonen y serán perdonados» (Lc 6, 37).","Santa Juana de Chantal, enséñame a perdonar y a tratar a todos con dulzura. Amén.");
+NS("San Ponciano y San Hipólito","0813","#b8323c","hands","Un Papa y un sacerdote que estaban peleados. Se reconciliaron en el destierro y murieron mártires.",
+"Hipólito era un sacerdote muy sabio de Roma, pero se enojó con el Papa y se separó de él con un grupo de seguidores. Ponciano era el Papa. El emperador mandó a los dos a trabajar como esclavos en las minas de la isla de Cerdeña. Allí, sufriendo juntos, hicieron las paces. Hipólito pidió a los suyos volver a la unidad.","Que siempre se puede pedir perdón y hacer las paces.",
+"Roma, siglo II","Cerdeña, Italia, 235","los que necesitan reconciliarse","dos hombres que se dan la mano",
+["Para que la Iglesia no se quedara sin pastor, Ponciano renunció a ser Papa: fue el primero en hacerlo.","Los cristianos llevaron sus cuerpos a Roma y los enterraron el mismo día, un 13 de agosto, como hermanos."],
+"«Dichosos los que trabajan por la paz, porque serán llamados hijos de Dios» (Mt 5, 9).","Santos Ponciano e Hipólito, ayúdenme a pedir perdón pronto y a no quedarme enojado. Amén.");
+NS("San Esteban de Hungría","0816","#8a5a00","crown","Primer rey de Hungría. Llevó la fe a su pueblo y gobernó con justicia.",
+"Esteban era hijo de un jefe húngaro. Lo bautizaron de niño y, al gobernar, quiso que todo su pueblo conociera a Jesús. El día de Navidad del año 1000 fue coronado rey con una corona que le envió el Papa. Construyó iglesias y monasterios, hizo leyes justas y él mismo repartía limosna a los pobres, a veces disfrazado.","A usar lo que tengo para hacer el bien.",
+"Esztergom, Hungría, hacia 975","Hungría, 1038","Hungría, los reyes y los albañiles","una corona con una cruz y un cetro",
+["Consagró su reino a la Virgen María. Escribió para su hijo, san Emerico, unos consejos para gobernar: le pedía ser humilde, paciente y recibir bien a los extranjeros.","La «Santa Corona» de Hungría, con su cruz inclinada, es el símbolo más querido de ese país. Esteban murió un 15 de agosto, fiesta de la Asunción."],
+"«Sé humilde en esta vida, para que Dios te enaltezca en la otra».","San Esteban, ruega por los que gobiernan, para que cuiden a los más pobres. Amén.");
+NS("San Juan Eudes","0819","#b0466e","heart","Sacerdote misionero que enseñó a amar al Corazón de Jesús y al Corazón de María.",
+"Juan nació en Normandía, Francia, hijo de campesinos. Ya sacerdote, cuidó a los enfermos durante dos epidemias de peste; para no contagiar a nadie dormía en un tonel en medio del campo. Predicó más de cien misiones por los pueblos. Fundó seminarios para formar buenos sacerdotes y casas para ayudar a mujeres en dificultades.","Que Jesús y María me aman con todo su corazón.",
+"Ri, Normandía, Francia, 1601","Caen, Francia, 1680","los misioneros y los seminarios","dos corazones encendidos",
+["Fue el primero en celebrar con Misa propia las fiestas del Corazón de Jesús y del Corazón de María.","Decía que el corazón de un cristiano debe latir al mismo ritmo que el Corazón de Jesús: amar lo que Él ama."],
+"«Aprendan de mí, que soy manso y humilde de corazón» (Mt 11, 29).","San Juan Eudes, pon mi corazón muy cerca del Corazón de Jesús y del de María. Amén.");
+NS("San Pío X","0821","#b8860b","host","El Papa que abrió la puerta de la Primera Comunión a los niños.",
+"José Sarto nació en Riese, un pueblito de Italia, en una familia pobre: su papá era cartero y su mamá, costurera. Caminaba descalzo varios kilómetros a la escuela para no gastar los zapatos. Fue párroco, obispo y Papa, y nunca dejó de ser sencillo. Su lema fue «Restaurar todas las cosas en Cristo».","A recibir a Jesús en la Comunión con frecuencia y con amor.",
+"Riese, Italia, 1835","Roma, 1914","los niños de Primera Comunión y los catequistas","la sotana blanca y un cáliz con la Hostia",
+["Antes, los niños esperaban hasta los doce o catorce años para comulgar. En 1910 Pío X decidió que podían hacerlo desde que distinguen el Pan de la Eucaristía del pan común, hacia los siete años.","También animó a todos a comulgar seguido, escribió un catecismo y cuidó el canto en la Misa. Dijo: «Nací pobre, he vivido pobre y quiero morir pobre»."],
+"«La Sagrada Comunión es el camino más corto y seguro para llegar al cielo».","San Pío X, gracias por acercar a los niños a Jesús. Ayúdame a comulgar siempre con el alma limpia. Amén.");
+NS("Santa María Reina","0822","#2f6fb5","crown","María, la Madre de Jesús Rey, es Reina del cielo y de la tierra.",
+"Ocho días después de la Asunción celebramos que María fue coronada en el cielo. Jesús es Rey del universo, y María, su Madre, reina junto a Él. No es una reina lejana que da órdenes: es una Madre que cuida, escucha y pide por sus hijos. El papa Pío XII puso esta fiesta en 1954.","Que tengo en el cielo una Reina que es mi Mamá.",
+"—","—","—","una corona de doce estrellas",
+["Es el quinto misterio glorioso del rosario: la coronación de María como Reina de todo lo creado.","En las letanías la llamamos Reina de los ángeles, Reina de los apóstoles, Reina de la familia, Reina de la paz. Y en la Salve le decimos: «Dios te salve, Reina y Madre de misericordia»."],
+"«Apareció en el cielo una mujer vestida de sol, con la luna bajo sus pies y una corona de doce estrellas» (Ap 12, 1).","Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra. Cuídame siempre. Amén.");
+NS("Martirio de San Juan Bautista","0829","#b8323c","speech","Juan el Bautista dio la vida por decir la verdad al rey Herodes.",
+"Juan el Bautista preparó el camino de Jesús. Era valiente: le dijo al rey Herodes que no estaba bien vivir con Herodías, la esposa de su hermano. Herodes lo metió a la cárcel. En una fiesta de cumpleaños, la hija de Herodías bailó, y el rey le prometió darle lo que pidiera. Aconsejada por su mamá, pidió la muerte de Juan.","A decir la verdad aunque no les guste a los demás.",
+"Ain Karim, Judea, siglo I a. C.","Fortaleza de Maqueronte, hacia el año 30","los que defienden la verdad","una bandeja y una espada",
+["Herodes se puso triste, porque sabía que Juan era un hombre justo, pero le dio pena quedar mal ante sus invitados. ¡Qué mala consejera es la vergüenza!","De Juan celebramos el nacimiento, el 24 de junio, y el martirio. Jesús dijo que entre los nacidos de mujer no había nadie más grande que él."],
+"«Es necesario que Él crezca y que yo disminuya» (Jn 3, 30).","San Juan Bautista, hazme valiente para decir siempre la verdad y humilde para señalar a Jesús. Amén.");
+NS("Natividad de la Virgen María","0908","#2f6fb5","flower","¡El cumpleaños de la Virgen! Nació la niña que sería la Madre de Jesús.",
+"Hoy celebramos el nacimiento de María, hija de san Joaquín y santa Ana. La tradición cuenta que eran ya mayores y pedían a Dios un hijo. Con el nacimiento de María empezó a amanecer para el mundo: llegaba la que sería la Madre del Salvador. Su fiesta es el 8 de septiembre, nueve meses después de la Inmaculada Concepción.","A dar gracias por el regalo de mi Madre del cielo.",
+"Jerusalén o Nazaret, siglo I a. C.","—","—","una niña en brazos de santa Ana",
+["La Iglesia solo celebra tres nacimientos: el de Jesús, el de María y el de san Juan Bautista.","En muchos lugares este día se bendicen las semillas y los primeros frutos del campo, y se le cantan «Las mañanitas» a la Virgen."],
+"«Tu nacimiento, Virgen Madre de Dios, anunció la alegría a todo el mundo».","¡Feliz cumpleaños, Virgen María! Te regalo una oración y mi esfuerzo de portarme bien hoy. Amén.");
+NS("Santísimo Nombre de María","0912","#2f6fb5","star","El dulce nombre de María: lo decimos con amor cada vez que rezamos.",
+"Después del nombre de Jesús, no hay nombre más querido para los cristianos que el de María. Lo decimos muchas veces al día en el Ave María. En hebreo era «Miriam». Los santos enseñan a invocarlo en los peligros y en las tentaciones, como un niño que llama a su mamá.","A llamar a María cuando tengo miedo o me siento solo.",
+"—","—","—","la letra M con una corona y una estrella",
+["San Bernardo decía: «En los peligros, en las angustias, en las dudas, piensa en María, invoca a María. Mira la estrella, llama a María».","Esta fiesta se celebra en toda la Iglesia desde 1683, en agradecimiento por la protección de la Virgen."],
+"«Y el nombre de la virgen era María» (Lc 1, 27).","María, Madre mía, que tu nombre esté siempre en mis labios y en mi corazón. Amén.");
+NS("San Juan Crisóstomo","0913","#5b4a9c","speech","El predicador más famoso de la antigüedad: lo llamaron «boca de oro».",
+"Juan nació en Antioquía. Su mamá, Antusa, quedó viuda muy joven y lo educó con esmero. Fue monje y luego sacerdote; predicaba tan bien que la gente aplaudía en la iglesia, y él los regañaba. Lo hicieron arzobispo de Constantinopla. Vendió los lujos del palacio para construir hospitales, y decía verdades incómodas a los ricos y a la emperatriz.","A escuchar con atención la Palabra de Dios.",
+"Antioquía (hoy Turquía), hacia 349","Comana (hoy Turquía), 407","los predicadores","un libro, una paloma y una colmena",
+["Por decir la verdad lo desterraron dos veces. Murió en el camino, agotado, a los 58 años. Sus últimas palabras fueron de agradecimiento.","Enseñaba que no sirve adornar el altar con oro si dejamos a Cristo con hambre en los pobres. Es Doctor de la Iglesia."],
+"«Gloria a Dios por todo».","San Juan Crisóstomo, enséñame a decir siempre «gracias a Dios», también cuando algo me cuesta. Amén.");
+NS("Exaltación de la Santa Cruz","0914","#b8323c","cross","La cruz donde Jesús dio la vida es la señal del amor más grande.",
+"La cruz era un castigo terrible, pero Jesús la convirtió en señal de amor y de victoria: en ella dio su vida por nosotros. Santa Elena, mamá del emperador Constantino, viajó ya anciana a Jerusalén y encontró la cruz del Señor. Sobre el Calvario y el sepulcro se construyó una gran iglesia, dedicada un 13 de septiembre; al día siguiente se mostró la cruz al pueblo.","A hacer la señal de la cruz despacio y con respeto.",
+"—","—","—","la cruz adornada con flores",
+["«Exaltar» significa levantar en alto. Los cristianos levantamos la cruz con cariño: la ponemos en casa, en la escuela, en las iglesias y en la cima de los montes.","En México adornamos las cruces con flores el 3 de mayo, fiesta de la Santa Cruz y de los albañiles. Santa Elena ya tiene su estampa en este álbum."],
+"«Te adoramos, Cristo, y te bendecimos, porque con tu santa cruz redimiste al mundo».","Jesús, gracias por dar tu vida por mí en la cruz. Por la señal de la santa cruz, líbranos de todo mal. Amén.");
+NS("Nuestra Señora de los Dolores","0915","#4a6a8a","heart","María estuvo de pie junto a la cruz de Jesús. Ella entiende y consuela a los que sufren.",
+"Al día siguiente de la fiesta de la Santa Cruz recordamos a María, que acompañó a su Hijo hasta el final. Cuando Jesús era bebé, el anciano Simeón le anunció: «Una espada te atravesará el alma». María sufrió con Jesús en el camino del Calvario y al pie de la cruz, de pie, firme, llena de fe.","A acompañar a quien está triste, como María acompañó a Jesús.",
+"—","—","las mamás que sufren","un corazón atravesado por siete espadas",
+["Desde la cruz, Jesús nos la regaló como Madre: le dijo a Juan «Ahí tienes a tu madre». La tradición recuerda siete dolores de María, desde la profecía de Simeón hasta la sepultura de Jesús.","En México, el viernes anterior a la Semana Santa se pone en muchas casas el «altar de Dolores», con flores, naranjas y germinados."],
+"«Junto a la cruz de Jesús estaba su madre» (Jn 19, 25).","Virgen de los Dolores, consuela a los que hoy están tristes o enfermos, y enséñame a acompañarlos. Amén.");
+NS("San Cornelio y San Cipriano","0916","#b8323c","hands","Un Papa y un obispo de África, amigos por carta, que murieron mártires.",
+"Cornelio era el Papa en Roma y Cipriano el obispo de Cartago, en África. En tiempo de persecución, algunos cristianos renegaron de la fe por miedo y después quisieron volver. Cornelio y Cipriano enseñaron que la Iglesia, como una madre, perdona a quien se arrepiente. Se escribían cartas para darse ánimo. Los dos murieron mártires.","Que la Iglesia es mi madre y siempre me perdona.",
+"Roma y Cartago (hoy Túnez), siglo III","Civitavecchia, 253 (Cornelio) y Cartago, 258 (Cipriano)","—","las llaves del Papa y un libro",
+["Cipriano había sido un abogado rico; al bautizarse repartió su dinero entre los pobres. Cuando lo condenaron respondió: «¡Gracias a Dios!», y mandó dar unas monedas de oro a su verdugo.","Sus nombres van juntos en una de las oraciones más antiguas de la Misa."],
+"«No puede tener a Dios por Padre quien no tiene a la Iglesia por Madre».","Santos Cornelio y Cipriano, ayúdenme a querer a la Iglesia como a una madre. Amén.");
+NS("San Roberto Belarmino","0917","#5b4a9c","book","Jesuita y cardenal muy sabio que escribió catecismos para grandes y chicos.",
+"Roberto nació en Montepulciano, Italia. Era bajito, de mala salud y muy inteligente: tocaba el violín y escribía poemas. Se hizo jesuita y fue profesor en Roma. Explicaba la fe católica con claridad y con respeto hacia quienes pensaban distinto. Escribió dos catecismos, uno para niños y otro para maestros, que se usaron durante trescientos años.","A aprender bien mi catecismo.",
+"Montepulciano, Italia, 1542","Roma, 1621","los catequistas y los que estudian el catecismo","el sombrero rojo de cardenal y un libro",
+["Aunque era cardenal, vivía pobremente: una vez regaló las cortinas de su casa para vestir a los pobres. «Las paredes no se resfrían», dijo.","Fue director espiritual de san Luis Gonzaga, y pidió ser enterrado a sus pies. Es Doctor de la Iglesia."],
+"«Las paredes no se resfrían».","San Roberto Belarmino, ayúdame a aprender y a explicar mi fe con claridad y respeto. Amén.");
+NS("San Jenaro","0919","#b8323c","flame","Obispo y mártir, patrono de la ciudad de Nápoles.",
+"Jenaro era obispo de Benevento, al sur de Italia. En la persecución del emperador Diocleciano fue a visitar a unos cristianos presos para darles ánimo, y por eso lo arrestaron también a él. Murió mártir cerca de Pozzuoli, hacia el año 305, junto con varios compañeros.","A visitar y animar a quien la está pasando mal.",
+"Italia, siglo III","Pozzuoli, Italia, hacia 305","Nápoles","la mitra de obispo y dos frasquitos",
+["En la catedral de Nápoles se guardan unas ampolletas con su sangre. Varias veces al año, ante el pueblo que reza, la sangre seca se vuelve líquida.","Los napolitanos le tienen muchísimo cariño y le piden protección contra las erupciones del volcán Vesubio."],
+"«Estuve en la cárcel y vinieron a verme» (Mt 25, 36).","San Jenaro, enséñame a visitar a los enfermos y a los que están solos. Amén.");
+NS("San Andrés Kim y compañeros","0920","#b8323c","cross","Ciento tres mártires de Corea. Andrés Kim fue el primer sacerdote coreano.",
+"La fe llegó a Corea de una manera única: no la llevaron misioneros, sino unos coreanos que leyeron libros cristianos y fueron a bautizarse a China. Durante años no tuvieron sacerdotes. Andrés Kim viajó muy lejos para estudiar y fue el primer sacerdote de su país. Murió mártir a los 25 años, en 1846.","Que los laicos, grandes y chicos, también anunciamos a Jesús.",
+"Solmoe, Corea, 1821","Seúl, Corea, 1846","Corea y sus sacerdotes","un sombrero coreano y una cruz",
+["Con él celebramos a 103 mártires. Entre ellos está Pablo Chong Hasang, un catequista que cruzó la frontera muchas veces para traer sacerdotes, y niños como Pedro Yu, de trece años.","San Juan Pablo II los canonizó en Seúl en 1984. Fue la primera canonización fuera de Roma en muchos siglos."],
+"«Esta es mi última hora: escúchenme con atención. Si he tratado con extranjeros ha sido por mi religión y por mi Dios».","San Andrés Kim y compañeros, ayúdenme a compartir mi fe con mis amigos. Amén.");
+NS("San Cosme y San Damián","0926","#2e7d5b","leaf","Hermanos gemelos y médicos. Curaban a los enfermos sin cobrar ni una moneda.",
+"Cosme y Damián eran gemelos y vivieron en Asia Menor. Estudiaron medicina y atendían a todos por igual, ricos y pobres, sin aceptar nunca dinero: por eso los llamaban «los sin plata». Decían que curaban en nombre de Jesús y aprovechaban para hablar de Él. Murieron mártires en la persecución de Diocleciano.","A ayudar sin esperar nada a cambio.",
+"Arabia, siglo III","Egea, Cilicia (hoy Turquía), hacia 303","los médicos, los farmacéuticos y los cirujanos","frascos de medicina y un estuche de médico",
+["Aplicaban las palabras de Jesús: «Gratis lo recibieron; denlo gratis».","Sus nombres se dicen en una de las oraciones más antiguas de la Misa, y en Roma tienen una basílica en el antiguo Foro."],
+"«Gratis lo recibieron; denlo gratis» (Mt 10, 8).","Santos Cosme y Damián, bendigan a los médicos y enfermeras que nos cuidan. Amén.");
+NS("San Wenceslao","0928","#8a5a00","crown","Joven duque de Bohemia, bueno con los pobres. Murió mártir a manos de su hermano.",
+"Wenceslao nació en Bohemia, hoy República Checa. Su abuela, santa Ludmila, lo educó en la fe. Gobernó desde muy joven: construyó iglesias, liberó esclavos y prisioneros, y de noche salía a llevar leña y comida a los pobres. Su hermano Boleslao, que le tenía envidia, lo invitó a una fiesta y lo mató en la puerta de la iglesia.","Que la envidia hace mucho daño y el perdón la vence.",
+"Bohemia (hoy República Checa), hacia 907","Stará Boleslav, hacia 935","la República Checa","una lanza con bandera y una corona",
+["Sus últimas palabras fueron de perdón: «Que Dios te perdone, hermano».","Un villancico inglés muy famoso cuenta cómo «el buen rey Wenceslao» salió una noche helada a llevar comida a un campesino pobre."],
+"«Que Dios te perdone, hermano».","San Wenceslao, líbrame de la envidia y enséñame a compartir con los que tienen menos. Amén.");
+NS("San Lorenzo Ruiz","0928","#b8323c","family","Papá de familia filipino, el primer santo de Filipinas. Murió mártir en Japón.",
+"Lorenzo nació en Manila, Filipinas, de papá chino y mamá filipina. De niño fue monaguillo con los dominicos y aprendió a escribir con letra muy hermosa: trabajaba como escribano. Estaba casado y tenía tres hijos. Lo acusaron injustamente y tuvo que huir en un barco de misioneros que iba a Japón, donde los cristianos eran perseguidos.","A ser fiel a Dios en mi familia y en cualquier lugar.",
+"Manila, Filipinas, hacia 1600","Nagasaki, Japón, 1637","Filipinas, las familias y los migrantes","un rosario entre las manos",
+["En Japón lo apresaron junto con los misioneros. Le ofrecieron la libertad si dejaba su fe y respondió que no.","San Juan Pablo II lo canonizó en 1987, junto con quince compañeros mártires de varios países."],
+"«Soy cristiano y de corazón acepto morir por Dios. Si tuviera mil vidas, todas se las ofrecería».","San Lorenzo Ruiz, cuida a los papás que trabajan lejos de casa y a todos los migrantes. Amén.");
+/* ========= Santos y fiestas del calendario litúrgico que faltaban en el álbum · octubre a diciembre ========= */
+NS("Santos Ángeles Custodios","1002","#2f6fb5","bird","Dios le dio a cada persona un ángel que la cuida y la guía. ¡Tú tienes el tuyo!",
+"Los ángeles son espíritus creados por Dios para servirlo y ayudarnos. La Iglesia enseña que cada persona tiene, desde que empieza a vivir, un ángel de la guarda que la acompaña, la protege y le sugiere hacer el bien. Jesús mismo habló de los ángeles de los niños, que ven siempre el rostro de Dios.","A saludar a mi ángel cada mañana y a hacerle caso.",
+"—","—","todos los niños","un ángel que lleva de la mano a un niño",
+["La Biblia dice: «A sus ángeles ha dado órdenes para que te guarden en tus caminos». No los vemos, pero están muy cerca.","Muchos santos tenían gran amistad con su ángel. San Juan Bosco decía a sus muchachos que, en el peligro, lo llamaran, y él los ayudaría."],
+"«Sus ángeles en el cielo ven continuamente el rostro de mi Padre» (Mt 18, 10).","Ángel de mi guarda, dulce compañía, no me desampares ni de noche ni de día. No me dejes solo, que me perdería. Amén.");
+NS("San Bruno","1006","#4a6a8a","mountain","Maestro famoso que se fue a las montañas a vivir en silencio con Dios. Fundó a los cartujos.",
+"Bruno nació en Colonia, Alemania, y fue un maestro muy admirado en Francia. Uno de sus alumnos llegó a ser Papa. Pero él deseaba una vida escondida con Dios. Con seis compañeros subió a unas montañas solitarias y nevadas, cerca de Grenoble, y allí comenzó la Cartuja: monjes que viven en silencio, rezando y trabajando.","Que el silencio no es vacío: está lleno de Dios.",
+"Colonia, Alemania, hacia 1030","Calabria, Italia, 1101","los cartujos y los que buscan a Dios en el silencio","un hábito blanco, siete estrellas y un dedo sobre los labios",
+["El obispo de Grenoble había soñado con siete estrellas que le señalaban aquel lugar, justo antes de que llegaran Bruno y sus seis amigos.","Los cartujos casi no hablan, pero rezan por todo el mundo. Dicen que su orden nunca ha tenido que reformarse, porque nunca se ha deformado."],
+"«¡Oh, Bondad!».","San Bruno, enséñame a guardar silencio para escuchar a Dios en mi corazón. Amén.");
+NS("Nuestra Señora del Rosario","1007","#2f6fb5","pray","La Virgen nos regaló el rosario: una oración sencilla para mirar la vida de Jesús con ella.",
+"El rosario es como una corona de rosas para la Virgen: cada Ave María es una flor. Mientras lo rezamos recordamos los misterios, es decir, los momentos más importantes de la vida de Jesús y de María. La tradición cuenta que la Virgen se lo enseñó a santo Domingo de Guzmán. Octubre es el mes del rosario.","A rezar el rosario en familia, aunque sea un misterio.",
+"—","—","los que rezan el rosario","la Virgen que entrega un rosario",
+["Esta fiesta nació en 1571. El papa san Pío V pidió a todos los cristianos rezar el rosario ante un gran peligro, y el 7 de octubre llegó la noticia de la victoria.","Los misterios son veinte: gozosos, luminosos, dolorosos y gloriosos. En Lourdes y en Fátima la Virgen se apareció con el rosario en las manos."],
+"«Dios te salve, María, llena eres de gracia, el Señor es contigo».","Virgen del Rosario, enséñame a rezar despacio cada Ave María, pensando en Jesús. Amén.");
+NS("San Dionisio y compañeros","1009","#b8323c","church","Primer obispo de París. Murió mártir con dos compañeros en la colina de Montmartre.",
+"Hacia el año 250, el Papa envió a Dionisio desde Italia a anunciar el Evangelio en la Galia, la actual Francia. Llegó con el sacerdote Rústico y el diácono Eleuterio a una pequeña ciudad junto al río Sena: París. Allí formaron la primera comunidad cristiana. Los tres murieron mártires en una colina de las afueras.","Que alguien tuvo que llegar primero a anunciar a Jesús en cada lugar.",
+"Italia, siglo III","París, Francia, hacia 258","París y Francia","un obispo que lleva su cabeza en las manos",
+["La colina se llama desde entonces Montmartre, «monte de los mártires». Una leyenda cuenta que, después de morir, Dionisio caminó hasta el lugar donde quería ser enterrado.","Sobre su tumba se levantó la abadía de Saint-Denis, donde fueron sepultados los reyes de Francia."],
+"«Serán mis testigos hasta los confines de la tierra» (Hch 1, 8).","San Dionisio, bendice a los misioneros que llevan el Evangelio a lugares donde no lo conocen. Amén.");
+NS("San Juan Leonardi","1009","#2e7d5b","leaf","Farmacéutico que se hizo sacerdote para dar la mejor medicina: Jesús.",
+"Juan nació cerca de Lucca, Italia. Trabajó diez años como ayudante de farmacia, preparando medicinas. Luego fue sacerdote y se dedicó a enseñar el catecismo a los niños y a visitar hospitales y cárceles. Fundó una comunidad de sacerdotes y ayudó a crear en Roma un colegio para formar misioneros de todo el mundo.","Que Jesús es la medicina del alma.",
+"Diecimo, Lucca, Italia, 1541","Roma, 1609","los farmacéuticos","un frasco de farmacia y un catecismo",
+["Decía que quien quiere mejorar el mundo debe comenzar por los niños, enseñándoles bien desde pequeños.","Murió por contagiarse mientras cuidaba a los enfermos de una epidemia en Roma."],
+"«Cristo ante todo».","San Juan Leonardi, bendice a mis catequistas y a quienes preparan las medicinas. Amén.");
+NS("San Calixto I, papa","1014","#b8323c","church","Fue esclavo y llegó a ser Papa. Enseñó que la Iglesia perdona a todo el que se arrepiente.",
+"Calixto nació esclavo en Roma. Sufrió mucho: lo condenaron a trabajos forzados en las minas de Cerdeña. Al recobrar la libertad, el Papa le encargó cuidar el cementerio de los cristianos, que hoy llamamos catacumbas de San Calixto. Después lo eligieron Papa. Algunos lo criticaban por perdonar con facilidad, pero él recordaba la misericordia de Jesús.","Que no importa de dónde vengo, sino cuánto amo.",
+"Roma, siglo II","Roma, 222","los que cuidan los cementerios","las llaves del Papa y una catacumba",
+["En las catacumbas que él organizó fueron enterrados muchos Papas y mártires de los primeros siglos. Todavía se pueden visitar.","Murió mártir durante un tumulto en el barrio del Trastévere, donde hoy está la iglesia de Santa María."],
+"«Sean misericordiosos, como su Padre es misericordioso» (Lc 6, 36).","San Calixto, enséñame a perdonar a los demás como Dios me perdona a mí. Amén.");
+NS("San Ignacio de Antioquía","1017","#b8323c","bread","Obispo y mártir. Camino a Roma escribió siete cartas llenas de amor a Cristo.",
+"Ignacio fue obispo de Antioquía, la ciudad donde por primera vez nos llamaron «cristianos». Ya anciano, lo arrestaron y lo llevaron encadenado hasta Roma para echarlo a las fieras del circo. Durante el largo viaje escribió siete cartas a las comunidades. Les pedía mantenerse unidos a su obispo y no impedir su martirio.","A estar unido a mi Iglesia y a amar la Eucaristía.",
+"Siria, siglo I","Roma, hacia el año 107","la Iglesia de Siria","un obispo entre dos leones",
+["Es el primero que usó la expresión «Iglesia católica», que quiere decir «universal», para todos.","A la Eucaristía la llamaba «medicina de inmortalidad». Se decía a sí mismo «Teóforo», que significa «el que lleva a Dios»."],
+"«Soy trigo de Dios, y seré molido por los dientes de las fieras para ser pan limpio de Cristo».","San Ignacio, ayúdame a llevar a Dios en mi corazón a donde quiera que vaya. Amén.");
+NS("San Juan de Brébeuf, San Isaac Jogues y compañeros","1019","#b8323c","map","Ocho misioneros jesuitas que llevaron el Evangelio a los pueblos indígenas de Norteamérica.",
+"En el siglo XVII, unos jesuitas franceses cruzaron el océano para vivir entre los hurones, en los bosques y lagos de lo que hoy es Canadá y Estados Unidos. Remaban en canoa, pasaban inviernos helados y aprendían la lengua de la gente. Juan de Brébeuf escribió un diccionario y un villancico en hurón. Los ocho murieron mártires entre 1642 y 1649.","Que para anunciar a Jesús hay que aprender a querer a cada pueblo.",
+"Francia, siglos XVI y XVII","Canadá y Estados Unidos, 1642 a 1649","Canadá y los misioneros","una canoa y una cruz",
+["A Isaac Jogues lo hirieron en las manos. Volvió a Francia y, en cuanto pudo, regresó a su misión, donde dio la vida.","Diez años después nació en esa región santa Catalina Tekakwitha, la primera santa indígena de Norteamérica."],
+"«Jesús, ¿qué puedo darte por todo lo que me has dado? Tomaré tu cáliz e invocaré tu nombre».","Santos mártires de Norteamérica, den a la Iglesia muchos misioneros valientes y alegres. Amén.");
+NS("San Juan de Capistrano","1023","#1f7a7a","speech","Juez que se hizo franciscano y recorrió Europa predicando y defendiendo a los cristianos.",
+"Juan nació en Capistrano, Italia. Era abogado y, muy joven, gobernador de una ciudad. En una guerra lo metieron a la cárcel, y allí pensó en lo que de verdad vale la pena. Al salir lo dejó todo y se hizo franciscano. Durante cuarenta años predicó por Italia, Alemania, Polonia y Hungría. Fue amigo de san Bernardino de Siena.","Que hasta en los momentos malos Dios me puede hablar.",
+"Capestrano, Italia, 1386","Ilok (hoy Croacia), 1456","los jueces y los capellanes militares","una bandera con una cruz",
+["Dormía poco, comía poco y viajaba siempre a pie. A sus sermones llegaban miles de personas.","Ya de setenta años animó a los defensores de la ciudad de Belgrado. En California hay una misión con su nombre, famosa por sus golondrinas."],
+"«Ustedes son la luz del mundo» (Mt 5, 14).","San Juan de Capistrano, hazme incansable para hacer el bien. Amén.");
+NS("Todos los Santos","1101","#b8860b","star","Hoy celebramos a todos los que ya están en el cielo, conocidos y desconocidos.",
+"Además de los santos que tienen su día en el calendario, hay en el cielo una multitud inmensa que nadie puede contar: abuelos, papás, niños, sacerdotes, religiosas, campesinos, maestros... personas de todos los tiempos y países que amaron a Dios y al prójimo. Hoy los festejamos a todos juntos, como una gran familia.","¡Que yo también estoy llamado a ser santo!",
+"—","—","—","una multitud vestida de blanco con palmas",
+["Ser santo no es hacer cosas raras: es dejar que Dios nos llene de su amor y vivir las bienaventuranzas, haciendo con cariño lo de cada día.","Los santos son nuestros amigos y hermanos mayores: nos dan ejemplo y piden por nosotros. A esto lo llamamos «la comunión de los santos»."],
+"«Vi una muchedumbre inmensa, que nadie podía contar, de toda nación, raza, pueblo y lengua» (Ap 7, 9).","Santos y santas de Dios, rueguen por nosotros. Ayúdenme a llegar al cielo con ustedes. Amén.");
+NS("Fieles Difuntos","1102","#4a6a8a","candle","Rezamos con cariño por todos los que ya murieron, para que estén con Dios.",
+"Al día siguiente de Todos los Santos, la Iglesia reza por todos los difuntos. Creemos que la vida no termina con la muerte: Jesús resucitó y nos abrió el cielo. Con nuestras oraciones, y sobre todo con la Misa, ayudamos a quienes se están purificando para ver a Dios. Y ellos, desde allá, también nos quieren.","A rezar por mis seres queridos que ya murieron.",
+"—","—","—","una vela encendida y flores de cempasúchil",
+["En México ponemos la ofrenda con fotos, flores, pan y velas. Lo más importante para un cristiano es rezar por ellos, ir a Misa y visitar el panteón con esperanza.","La oración más conocida por los difuntos dice: «Dales, Señor, el descanso eterno, y brille para ellos la luz perpetua»."],
+"«Yo soy la resurrección y la vida; el que cree en mí, aunque muera, vivirá» (Jn 11, 25).","Dales, Señor, el descanso eterno a mis familiares difuntos, y brille para ellos la luz perpetua. Amén.");
+NS("Dedicación de la Basílica de Letrán","1109","#b8860b","church","La catedral del Papa en Roma: «madre y cabeza de todas las iglesias del mundo».",
+"Muchos creen que la iglesia del Papa es San Pedro, pero su catedral es San Juan de Letrán. Fue la primera gran iglesia que los cristianos pudieron construir cuando terminaron las persecuciones, en tiempos del emperador Constantino. El papa san Silvestre la dedicó en el año 324. Está consagrada al Salvador y a los dos san Juanes.","Que todos los católicos formamos una sola familia unida al Papa.",
+"—","—","—","una basílica y la silla del obispo de Roma",
+["«Dedicar» una iglesia es consagrarla solo para Dios. Celebrar esta fiesta es una manera de decir que queremos estar unidos al Papa, obispo de Roma.","San Pablo enseña que el templo más importante somos nosotros: «Ustedes son templo de Dios y el Espíritu de Dios habita en ustedes»."],
+"«Ustedes son templo de Dios» (1 Cor 3, 16).","Señor, cuida a tu Iglesia en todo el mundo y haz de mi corazón una casa limpia para Ti. Amén.");
+NS("San León Magno","1110","#5b4a9c","shield","Papa sabio y valiente que detuvo al temible Atila y enseñó quién es Jesús.",
+"León nació en Italia y fue Papa durante 21 años, en una época de guerras e invasiones. Cuando Atila, rey de los hunos, avanzaba hacia Roma arrasando ciudades, León salió a su encuentro sin armas y lo convenció de retirarse. También explicó con claridad que Jesús es una sola persona, verdadero Dios y verdadero hombre.","Que la valentía y la palabra pueden más que las armas.",
+"Toscana, Italia, hacia 400","Roma, 461","los Papas y los predicadores","las llaves del Papa frente a un guerrero a caballo",
+["Cuando se leyó su carta en el Concilio de Calcedonia, los obispos exclamaron: «¡Pedro ha hablado por boca de León!».","Fue el primer Papa al que llamaron «Magno», que significa «grande». Es Doctor de la Iglesia."],
+"«Reconoce, cristiano, tu dignidad».","San León Magno, ayúdame a recordar que soy hijo de Dios y a portarme como tal. Amén.");
+NS("San Josafat","1112","#b8323c","hands","Obispo que dio la vida por la unidad de los cristianos de Oriente con el Papa.",
+"Juan Kuncewicz nació en Ucrania. De niño, al mirar un crucifijo, sintió como una chispa de fuego en el corazón. Se hizo monje con el nombre de Josafat y luego arzobispo. Trabajó sin descanso para que los cristianos de su tierra estuvieran unidos al Papa, conservando sus hermosas ceremonias orientales. Algunos no lo aceptaron y lo mataron.","A rezar para que todos los cristianos estemos unidos.",
+"Volodímir, Ucrania, hacia 1580","Vítebsk (hoy Bielorrusia), 1623","Ucrania y la unidad de los cristianos","un obispo con vestiduras orientales",
+["Lo llamaban «ladrón de almas», porque con su bondad acercaba a muchos a la Iglesia. Ayunaba, rezaba de noche y repartía todo a los pobres.","Fue el primer santo de las Iglesias orientales canonizado en Roma."],
+"«Que todos sean uno» (Jn 17, 21).","San Josafat, pide a Jesús la paz para Ucrania y la unidad de todos los cristianos. Amén.");
+NS("San Alberto Magno","1115","#1f7a7a","leaf","Fraile dominico y gran científico: estudió plantas, animales y estrellas. Maestro de santo Tomás.",
+"Alberto nació en Alemania y de joven se hizo dominico. Quería saberlo todo: observaba los animales, las plantas, los minerales y las estrellas, hacía experimentos y lo anotaba todo. Decía que estudiar la naturaleza es conocer la obra de Dios. Fue maestro en París y en Colonia, donde tuvo un alumno muy callado: Tomás de Aquino.","Que la ciencia y la fe no se pelean: las dos vienen de Dios.",
+"Lauingen, Alemania, hacia 1200","Colonia, Alemania, 1280","los científicos y los estudiantes de ciencias","un libro, una pluma y plantas",
+["A Tomás sus compañeros le decían «el buey mudo». Alberto les dijo: «Este buey dará un mugido que se oirá en el mundo entero».","Fue obispo dos años y recorría su diócesis a pie. Por tanto que sabía lo llamaron «Doctor Universal»."],
+"«Los cielos proclaman la gloria de Dios» (Sal 19, 2).","San Alberto Magno, despierta mi curiosidad y ayúdame a descubrir a Dios en la naturaleza. Amén.");
+NS("Santa Margarita de Escocia","1116","#8a5a00","crown","Reina, esposa y mamá de ocho hijos. Daba de comer a los pobres con sus propias manos.",
+"Margarita era una princesa inglesa nacida en Hungría. Un naufragio la llevó a Escocia, donde se casó con el rey Malcolm. Con su dulzura hizo de él un rey más justo. Tuvieron ocho hijos y los educó ella misma. Cada día, antes de comer, servía la mesa a los pobres y a los huérfanos, y les lavaba los pies.","A servir primero a los que más lo necesitan.",
+"Hungría, hacia 1045","Edimburgo, Escocia, 1093","Escocia, las familias numerosas y las mamás","una corona y un libro de los Evangelios",
+["Su esposo no sabía leer, pero besaba con cariño los libros de oración de Margarita y mandó adornarlos con oro.","Pagó un servicio de barcas gratis para los peregrinos; ese lugar todavía se llama «el paso de la Reina». Su hijo David también es santo."],
+"«Lo que hicieron con uno de estos mis hermanos más pequeños, conmigo lo hicieron» (Mt 25, 40).","Santa Margarita, enséñame a servir con alegría en mi casa y a compartir mi mesa. Amén.");
+NS("Santa Gertrudis","1116","#b0466e","heart","Monja alemana que descubrió el amor inmenso del Corazón de Jesús.",
+"A Gertrudis la llevaron al monasterio de Helfta, en Alemania, cuando tenía cinco años, y ahí creció. Era muy inteligente y amaba estudiar y escribir. A los veinticinco años sintió que Jesús la invitaba a una amistad más profunda. Desde entonces su mayor alegría fue rezar, y escribió lo que aprendía para ayudar a otros.","Que Jesús me quiere como amigo.",
+"Alemania, 1256","Helfta, Alemania, hacia 1302","los que aman al Corazón de Jesús","un corazón encendido y una pluma",
+["Mucho antes de que hubiera una fiesta del Sagrado Corazón, Gertrudis ya hablaba del Corazón de Jesús, lleno de amor por cada persona.","Su libro se llama «El heraldo del amor divino». Es la única santa alemana a la que llaman «la Grande»."],
+"«Permanezcan en mi amor» (Jn 15, 9).","Santa Gertrudis, llévame al Corazón de Jesús y enséñame a ser su amigo. Amén.");
+NS("Dedicación de las Basílicas de San Pedro y San Pablo","1118","#b8860b","church","Las dos grandes iglesias de Roma construidas sobre las tumbas de los apóstoles.",
+"San Pedro y san Pablo dieron su vida en Roma. Sobre la tumba de Pedro, en la colina del Vaticano, se levanta la Basílica de San Pedro, con su enorme cúpula diseñada por Miguel Ángel. Sobre la tumba de Pablo, en el camino hacia el mar, está la Basílica de San Pablo Extramuros. Hoy recordamos el día en que fueron dedicadas a Dios.","Que la Iglesia está edificada sobre la fe de los apóstoles.",
+"—","—","—","una gran cúpula, unas llaves y una espada",
+["La actual Basílica de San Pedro tardó más de cien años en construirse y fue dedicada en 1626. Cabe dentro muchísima gente, y en su plaza el Papa reza con los peregrinos.","La de San Pablo se incendió en 1823 y fue reconstruida con ayuda de personas de todo el mundo. En sus muros están los retratos de todos los Papas."],
+"«Edificados sobre el cimiento de los apóstoles, siendo Cristo Jesús la piedra angular» (Ef 2, 20).","San Pedro y san Pablo, cuiden al Papa y a todos los que formamos la Iglesia. Amén.");
+NS("Presentación de la Virgen María","1121","#2f6fb5","flower","María, desde niña, fue toda de Dios.",
+"Una tradición muy antigua cuenta que san Joaquín y santa Ana, agradecidos con Dios, llevaron a María al Templo de Jerusalén cuando era pequeña, y que la niña subió contenta los escalones. Lo que celebramos es que María, desde el principio de su vida, se entregó a Dios con todo su corazón, y así se preparó para ser la Madre de Jesús.","A ofrecerle a Dios mi día desde que me levanto.",
+"—","—","las religiosas de clausura","una niña que sube los escalones del Templo",
+["Este día la Iglesia reza especialmente por las monjas de clausura, que dedican su vida entera a la oración por todos nosotros.","Un buen propósito para hoy es rezar el ofrecimiento de obras: «Te ofrezco, Señor, mis pensamientos, palabras y obras de este día»."],
+"«Dichosos los que escuchan la palabra de Dios y la cumplen» (Lc 11, 28).","Virgen María, que desde niña fuiste toda de Dios, ayúdame a ofrecerle hoy todo lo que haga. Amén.");
+NS("San Andrés Dung-Lac y compañeros","1124","#b8323c","cross","Ciento diecisiete mártires de Vietnam: obispos, sacerdotes, papás, mamás, soldados y campesinos.",
+"Andrés nació en una familia muy pobre de Vietnam. Un catequista lo recibió en su casa y lo educó en la fe. Llegó a ser sacerdote; era sencillo, ayunaba y repartía lo que tenía. En tiempo de persecución lo apresaron varias veces, y los cristianos pagaron para liberarlo. Para seguir sirviendo se cambió el nombre, pero al final murió mártir en 1839.","A ser agradecido con quienes me enseñaron la fe.",
+"Bac Ninh, Vietnam, hacia 1795","Hanói, Vietnam, 1839","Vietnam","un sombrero cónico y una palma",
+["Con él recordamos a 117 mártires de tres siglos: 96 vietnamitas, 11 españoles y 10 franceses. Entre ellos hay mamás como Inés Le Thi Thanh, que tuvo seis hijos.","San Juan Pablo II los canonizó en 1988. Hoy Vietnam es uno de los países de Asia con más católicos."],
+"«¿Quién nos separará del amor de Cristo?» (Rom 8, 35).","Santos mártires de Vietnam, bendigan a mis catequistas y háganme fiel a Jesús. Amén.");
+NS("Santa Catalina de Alejandría","1125","#b0466e","book","Joven sabia de Egipto que defendió su fe ante el emperador y los filósofos.",
+"La tradición cuenta que Catalina era una joven noble y muy estudiosa de Alejandría, en Egipto. Cuando el emperador mandó perseguir a los cristianos, ella se presentó ante él para decirle que estaba equivocado. El emperador llamó a cincuenta sabios para discutir con ella, y Catalina los convenció a todos. Murió mártir a principios del siglo IV.","A estudiar para saber explicar lo que creo.",
+"Alejandría, Egipto, siglo III","Alejandría, hacia 305","los estudiantes, los filósofos y las jóvenes","una rueda con picos, una espada y un libro",
+["Quisieron atormentarla con una rueda con cuchillas, pero la rueda se rompió. Por eso siempre la pintan junto a una rueda.","Al pie del monte Sinaí hay un monasterio muy antiguo que lleva su nombre. Fue una de las voces que escuchaba santa Juana de Arco."],
+"«Yo les daré palabras y sabiduría a las que no podrá resistir ninguno de sus adversarios» (Lc 21, 15).","Santa Catalina, ayúdame a estudiar con gusto y a hablar de mi fe sin miedo. Amén.");
+NS("San Juan Damasceno","1204","#5b4a9c","music","Monje de Damasco, poeta y sabio, que defendió las imágenes sagradas.",
+"Juan nació en Damasco, Siria, en una familia cristiana; su papá trabajaba para el califa. Dejó su puesto en la corte y se hizo monje en el monasterio de San Sabas, cerca de Jerusalén. Cuando un emperador mandó destruir las imágenes de Jesús, de la Virgen y de los santos, Juan escribió para defenderlas.","Que las imágenes me ayudan a pensar en Jesús, en María y en los santos.",
+"Damasco, Siria, hacia 675","Monasterio de San Sabas, cerca de Jerusalén, hacia 749","los pintores de imágenes sagradas","una pluma y un icono de la Virgen",
+["Explicó que no adoramos la madera ni la pintura: al mirar una imagen, nuestro corazón va hacia la persona que representa. Y como Dios se hizo hombre y se dejó ver, podemos pintarlo.","También compuso himnos que todavía cantan los cristianos de Oriente en la Pascua. Es Doctor de la Iglesia."],
+"«No adoro la materia, sino al Creador de la materia, que por mí se hizo materia».","San Juan Damasceno, enséñame a rezar con respeto ante las imágenes de mi casa y de mi iglesia. Amén.");
+NS("Inmaculada Concepción","1208","#2f6fb5","star","Dios preservó a María de todo pecado desde el primer instante de su vida.",
+"Dios eligió a María para ser la Madre de su Hijo, y por eso le hizo un regalo único: desde que empezó a existir en el seno de su mamá, santa Ana, estuvo libre del pecado original y llena de gracia. Nunca cometió ningún pecado. Por eso el ángel la saludó: «Alégrate, llena de gracia».","A cuidar la limpieza de mi alma, como María.",
+"—","—","España, Estados Unidos y muchos pueblos de América","la Virgen de azul y blanco sobre la luna, con doce estrellas",
+["Los cristianos lo creyeron durante siglos, y en 1854 el papa Pío IX lo declaró verdad de fe. Cuatro años después, en Lourdes, la Virgen dijo: «Yo soy la Inmaculada Concepción».","En muchos países, el 7 de diciembre por la noche se encienden velitas en las ventanas y en las calles para recibir esta fiesta."],
+"«Alégrate, llena de gracia, el Señor está contigo» (Lc 1, 28).","Oh María, sin pecado concebida, ruega por nosotros, que recurrimos a ti. Amén.");
+NS("San Dámaso I, papa","1211","#5b4a9c","bible","Papa que encargó a san Jerónimo traducir la Biblia y honró las tumbas de los mártires.",
+"Dámaso nació en Roma, en una familia de origen hispano; su papá era sacerdote. Fue Papa en un tiempo en que los cristianos por fin podían vivir su fe en libertad. Encargó a su secretario, san Jerónimo, traducir la Biblia al latín, la lengua que todos entendían. Esa traducción, la Vulgata, se usó durante más de mil años.","A leer la Biblia, que es la Palabra de Dios para mí.",
+"Roma, hacia 305","Roma, 384","los arqueólogos","las llaves del Papa y una Biblia",
+["Buscó y arregló las tumbas de los mártires en las catacumbas, y compuso poemas que mandó grabar en mármol para que nadie olvidara sus historias.","En su tiempo se decidió cuáles son los libros que forman la Biblia."],
+"«Tu palabra, Señor, es la verdad» (Jn 17, 17).","San Dámaso, despierta en mí el amor por la Biblia y el respeto por los mártires. Amén.");
+NS("San Pedro Canisio","1221","#1f7a7a","book","Jesuita holandés que escribió catecismos y fue llamado «segundo apóstol de Alemania».",
+"Pedro nació en Nimega, Países Bajos, y fue uno de los primeros jesuitas. En un tiempo de grandes divisiones entre los cristianos, recorrió a pie y a caballo Alemania, Austria y Suiza: predicaba, fundaba colegios y trataba a todos con respeto. Escribió tres catecismos, uno de ellos para niños, que se tradujeron a muchas lenguas.","A explicar mi fe sin pelear ni ofender.",
+"Nimega, Países Bajos, 1521","Friburgo, Suiza, 1597","los catequistas y las escuelas católicas","un catecismo y niños a su alrededor",
+["Su catecismo fue tan famoso que en Alemania, durante siglos, «saber el Canisio» quería decir «saber el catecismo».","Decía que hay que defender la verdad con amabilidad, sin insultar a los que piensan distinto. Es Doctor de la Iglesia."],
+"«Si tienes mucho que hacer, con la ayuda de Dios encontrarás tiempo para hacerlo todo».","San Pedro Canisio, ayúdame a aprender bien el catecismo y a ser amable con todos. Amén.");
+NS("San Juan de Kety","1223","#2e7d5b","gift","Sacerdote y maestro polaco, humilde y muy generoso con los pobres.",
+"Juan nació en Kety, Polonia, y fue profesor en la Universidad de Cracovia casi toda su vida. Enseñaba a sus alumnos a buscar la verdad y a discutir sin enojarse. Vivía con muy poco: lo que ganaba lo repartía a los pobres, y más de una vez regaló su propia comida y hasta sus zapatos.","A compartir aunque tenga poco.",
+"Kety, Polonia, 1390","Cracovia, Polonia, 1473","Polonia, los maestros y los estudiantes","una capa de profesor y una bolsa de monedas",
+["Cuentan que una vez unos ladrones le robaron en el camino. Cuando se iban, recordó que traía unas monedas cosidas en la ropa y corrió a alcanzarlos para dárselas. Los ladrones, admirados, le devolvieron todo.","Peregrinó a pie a Roma varias veces, cargando él mismo su equipaje. Murió en la víspera de Navidad."],
+"«Combatan el error, pero con paciencia, bondad y amor».","San Juan de Kety, ayúdame a ser honrado siempre y generoso con los que tienen menos. Amén.");
+NS("Natividad del Señor","1225","#b8860b","star","¡Nació Jesús! El Hijo de Dios se hizo niño en Belén para salvarnos.",
+"María y José viajaron a Belén y no encontraron lugar en la posada. Allí, en un establo, nació Jesús. María lo envolvió en pañales y lo acostó en un pesebre. Unos pastores que cuidaban sus ovejas vieron a un ángel que les dijo: «Les ha nacido un Salvador». Corrieron y encontraron al Niño. El Hijo de Dios se hizo pequeño y pobre por amor.","Que Dios me ama tanto que se hizo niño como yo.",
+"Belén de Judá","—","—","el pesebre, la estrella y los pastores",
+["Los ángeles cantaron: «Gloria a Dios en el cielo, y en la tierra paz a los hombres que ama el Señor». Lo cantamos en Misa los domingos.","San Francisco de Asís hizo el primer nacimiento con personas y animales en 1223. En México nos preparamos con las posadas y arrullamos al Niño Dios en la Nochebuena."],
+"«Hoy les ha nacido en la ciudad de David un Salvador, que es el Mesías, el Señor» (Lc 2, 11).","Niño Jesús, gracias por venir a salvarnos. Nace también en mi corazón y en mi familia. Amén.");
+NS("Santos Inocentes","1228","#b8323c","flower","Los niños de Belén que murieron por causa de Jesús cuando el rey Herodes lo buscaba.",
+"Cuando los Magos preguntaron por «el rey de los judíos que ha nacido», el rey Herodes tuvo miedo de perder su trono. Como no supo dónde estaba Jesús, mandó matar a los niños pequeños de Belén. Un ángel avisó a José en sueños, y la Sagrada Familia huyó a Egipto. Aquellos niños dieron la vida por Cristo sin saber hablar todavía.","A cuidar y defender a los niños más pequeños.",
+"Belén, siglo I","Belén, siglo I","los bebés y los niños pequeños","palmas de mártir y coronas de flores",
+["La Iglesia los llama «las primeras flores de los mártires» y los celebra tres días después de la Navidad.","Este día rezamos por todos los niños que sufren en el mundo: por hambre, guerra o abandono."],
+"«Levántate, toma al niño y a su madre, y huye a Egipto» (Mt 2, 13).","Santos Inocentes, pidan a Jesús por todos los niños que sufren y por los bebés que van a nacer. Amén.");
+NS("Santo Tomás Becket","1229","#b8323c","church","Arzobispo de Canterbury que defendió la libertad de la Iglesia y murió mártir en su catedral.",
+"Tomás nació en Londres. Era el mejor amigo del rey Enrique II y su canciller: vivía con lujo y le gustaban las fiestas y la cacería. El rey lo hizo nombrar arzobispo, pensando que así mandaría en la Iglesia. Pero Tomás cambió: se volvió pobre y orante, y defendió los derechos de la Iglesia. Cuatro caballeros del rey lo mataron en la catedral.","Que ser amigo de Dios está por encima de todo.",
+"Londres, Inglaterra, hacia 1118","Canterbury, Inglaterra, 1170","los sacerdotes","una espada y la mitra de arzobispo",
+["Tuvo que vivir seis años desterrado en Francia. Cuando volvió, el pueblo lo recibió con alegría. Al llegar sus asesinos, no quiso que cerraran las puertas: «La iglesia no es un castillo», dijo.","El rey, arrepentido, hizo penitencia ante su tumba, que se volvió uno de los lugares de peregrinación más visitados de Europa."],
+"«Por el nombre de Jesús y por defender a la Iglesia, estoy dispuesto a morir».","Santo Tomás Becket, ayúdame a elegir siempre a Dios, aunque pierda otras cosas. Amén.");
+NS("San Silvestre I, papa","1231","#b8860b","church","El Papa del tiempo en que terminaron las persecuciones y se construyeron las primeras basílicas.",
+"Silvestre fue elegido Papa en el año 314, apenas un año después de que el emperador Constantino diera libertad a los cristianos. Tras casi trescientos años de persecuciones, la Iglesia pudo salir de las catacumbas. En su tiempo se levantaron las primeras grandes iglesias de Roma: San Juan de Letrán y la antigua San Pedro. Fue Papa durante 21 años.","A dar gracias a Dios por el año que termina.",
+"Roma, siglo III","Roma, 335","los que celebran el fin de año","las llaves del Papa y un dragón vencido",
+["Durante su pontificado se reunió el Concilio de Nicea, en el año 325, donde se escribió la primera parte del Credo que rezamos en Misa.","Su fiesta es el último día del año. Por eso en muchos países a la Nochevieja la llaman «la noche de san Silvestre», y se da gracias a Dios con una oración antigua, el «Te Deum»."],
+"«Den gracias al Señor porque es bueno, porque es eterna su misericordia» (Sal 118, 1).","San Silvestre, ayúdame a terminar este año dando gracias a Dios y a empezar el nuevo con Él. Amén.");
+/* ========= Pinturas (Wikimedia Commons) para las estampas del calendario litúrgico ========= */
+Object.assign(ALBUMIMG,{
+"San Raimundo de Peñafort": "Dolabella_St._Raymond_of_Penyafort.jpg",
+"San Hilario de Poitiers": "Hilaryofpoitiers.jpg",
+"San Antonio Abad": "San_Antonio_Abad,_de_Juan_Reixac_(Museo_del_Prado).jpg",
+"San Vicente, diácono": "Vicente_de_Zaragoza_by_Tomás_Giner,_1462–1466.jpg",
+"Conversión de San Pablo": "Caravaggio_-_La_conversione_di_San_Paolo.jpg",
+"San Timoteo y San Tito": "Saint_Timothy.jpg",
+"Santa Ángela de Mérici": "Saint_Angela_Merici.jpg",
+"Presentación del Señor (Candelaria)": "Fra_Angelico_-_Presentation_of_Jesus_in_the_Temple_(Cell_10)_-_WGA00544.jpg",
+"San Pablo Miki y compañeros": "Painting_of_the_Nagasaki_Martyrs.jpg",
+"Nuestra Señora de Lourdes": "Our_Lady_of_Lourdes_-_Grotto_of_Lourdes_-_Lourdes_2014.JPG",
+"Santísimo Nombre de Jesús": "El_Greco_-_The_Adoration_of_the_Name_of_Jesus_-_WGA10432.jpg",
+"San Cirilo y San Metodio": "Cyril_and_Methodius.jpg",
+"Siete Santos Fundadores de los Servitas": "Sevensa.jpg",
+"San Pedro Damián": "Maestro_di_san_pier_damiani,_san_pier_damiani,_1440-60_ca._(faenza).jpg",
+"San Policarpo": "Burghers_michael_saintpolycarp.jpg",
+"San Casimiro": "Šventasis_Kazimieras,_1594.jpg",
+"Santas Perpetua y Felicidad": "Unknown_-_Sacra_Conversazione_Mary_with_the_Child,_St_Felicity_of_Carthage_and_St_Perpetua_-_Śr.37_-_National_Museum_in_Warsaw.jpg",
+"San Juan de Dios": "San_Juan_de_Dios._Bartolomé_Esteban_Murillo.jpg",
+"San Cirilo de Jerusalén": "Saint_Cyril_of_Jerusalem.jpg",
+"Santo Toribio de Mogrovejo": "Santo_Toribio_Alfonso_de_Mogrovejo,_Arzobispo_de_Lima.jpg",
+"San Francisco de Paula": "San_Francisco_de_Paula,_Bartolomé_Esteban_Murillo.jpg",
+"San Isidoro de Sevilla": "San_Isidoro_de_Sevilla,_de_Murillo_(Sacristía_mayor_de_la_catedral_de_Sevilla).jpg",
+"San Vicente Ferrer": "San_Vicente_Ferrer_predicando,_de_Alonso_Cano_(Museo_de_Bellas_Artes_de_Valencia).jpg",
+"San Juan Bautista de La Salle": "DeLasalle_Leger.jpg",
+"San Estanislao": "Stanisław_Samostrzelnik,_Św_Stanisław.jpg",
+"San Martín I, papa": "Pope_Martin_I_Illustration.jpg",
+"San Anselmo": "Anselm_of_Canterbury.jpg",
+"San Fidel de Sigmaringa": "Giovanni_Battista_Tiepolo_-_Saint_Fidelis_of_Sigmaringen_and_Saint_Joseph_of_Leonessa,_c._1747-1758_-_Google_Art_Project.jpg",
+"San Pío V": "Bartolomeo_Passarotti_-_Pius_V.jpg",
+"San José Obrero": "Georges_de_La_Tour._St._Joseph,_the_Carpenter.JPG",
+"San Atanasio": "Ikone_Athanasius_von_Alexandria.jpg",
+"Nuestra Señora de Fátima": "Escultura_de_Nossa_Senhora_do_Rosário_de_Fátima_(Capelinha_das_Aparições,_Fátima).jpg",
+"San Juan I, papa": "Ioannes_I._Giovanni_I,_santo_e_papa.jpg",
+"San Bernardino de Siena": "San_Bernardino_(El_Greco).jpg",
+"San Beda el Venerable": "The_Venerable_Bede_translates_John_1902.jpg",
+"San Gregorio VII, papa": "Papa_Gregorio_VII.jpg",
+"Santa María Magdalena de Pazzi": "Maria_Maddalena_de'_Pazzi.jpg",
+"San Agustín de Canterbury": "Augustine_of_Canterbury.jpg",
+"San Justino": "Saint_Justin_Martyr_by_Theophanes_the_Cretan.jpg",
+"San Carlos Lwanga y compañeros": "St._Kizito_being_baptised_by_St._Charles_Lwanga_at_Munyonyo.jpg",
+"San Bonifacio": "Bonifatius_Donareiche.jpg",
+"San Norberto": "Jan_de_Hoey,_Norbert_von_Xanten,_Stiftsmuseum_Xanten,_Objekt_X11-9491.jpg",
+"San Efrén": "Ephrem_the_Syrian_(mosaic_in_Nea_Moni).jpg",
+"San Romualdo": "Guercino_san_Romualdo.jpg",
+"Santo Tomás Moro y San Juan Fisher": "Hans_Holbein,_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
+"San Cirilo de Alejandría": "Icon_St._Cyril_of_Alexandria.jpg",
+"San Ireneo": "Saint_Irenaeus.jpg",
+"Primeros mártires de Roma": "Jean-Léon_Gérôme_-_The_Christian_Martyrs'_Last_Prayer_-_Walters_37113.jpg",
+"San Antonio María Zaccaria": "San_Antonio_Maria_Zaccaria.jpg",
+"San Agustín Zhao Rong y compañeros": "Martyr_Saints_of_China.jpg",
+"San Enrique": "Henry_II,_Holy_Roman_Emperor.jpg",
+"San Buenaventura": "François,_Claude_(dit_Frère_Luc)_-_Saint_Bonaventure.jpg",
+"Nuestra Señora del Carmen": "Ignacio_Ayala_Rodríguez_-_La_virgen_del_Carmen_entrega_el_escapulario_a_San_Simón.jpg",
+"San Apolinar": "Saint_Apollenaris.jpg",
+"San Lorenzo de Brindis": "San_Lorenzo_da_Brindisi.jpg",
+"Santa Brígida": "Heliga_Birgitta_på_ett_altarskåp_i_Salems_kyrka.jpg",
+"San Sharbel": "Charbel.jpg",
+"San Pedro Crisólogo": "Saint_Peter_Chrysologus.jpg",
+"San Eusebio de Vercelli": "Eusebius_von_Vercelli.jpg",
+"San Pedro Julián Eymard": "Eymard.jpg",
+"Dedicación de Santa María la Mayor": "Basilica_di_Santa_Maria_Maggiore_-_Roma.jpg",
+"San Sixto II y compañeros": "Sandro_Botticelli_-_St_Sixtus_II_-_WGA2754.jpg",
+"San Cayetano": "Cayetano_de_Thiene,_siglo_XVIII.jpg",
+"Santa Juana Francisca de Chantal": "Sainte_Jeanne-Françoise_Frémyot_de_Chantal.jpg",
+"San Ponciano y San Hipólito": "Pontianus_(pope).jpg",
+"San Esteban de Hungría": "Portrayal_of_Stephen_I,_King_of_Hungary_on_the_coronation_pall.jpg",
+"San Juan Eudes": "JeanEudes.png",
+"San Pío X": "Portrait_of_Pope_St._Pius_X_(Colored).jpg",
+"Santa María Reina": "Diego_Velázquez_-_Coronation_of_the_Virgin_-_Prado.jpg",
+"Martirio de San Juan Bautista": "Fra_Filippo_Lippi_-_Herod's_Banquet_-_WGA13286.jpg",
+"Santísimo Nombre de María": "Sassoferrato_-_Jungfrun_i_bön.jpg",
+"San Juan Crisóstomo": "Johnchrysostom.jpg",
+"Nuestra Señora de los Dolores": "Bartolomé_Esteban_Murillo_-_Mater_Dolorosa.jpg",
+"San Cornelio y San Cipriano": "San_Cornelio_y_San_Cipriano_(HD)_(31432147131).jpg",
+"San Roberto Belarmino": "San_Roberto_Bellarmino.jpg",
+"San Jenaro": "Saint_Januarius.jpg",
+"San Andrés Kim y compañeros": "Andrew_Kim_Tae-gŏn.jpg",
+"San Cosme y San Damián": "Fra_Angelico_-_The_Healing_of_Palladia_by_Saint_Cosmas_and_Saint_Damian_-_WGA00511.jpg",
+"San Wenceslao": "Wenzeslaus_by_Peter_Parler.JPG",
+"San Lorenzo Ruiz": "San_Lorenzo_Ruiz.JPG",
+"San Bruno": "Zurbarán_-_San_Bruno,_1637-39.jpg",
+"Nuestra Señora del Rosario": "Virgen_del_Rosario_(Murillo).jpg",
+"San Dionisio y compañeros": "Saint_Denis,_bishop_of_Paris_and_the_christian_martyr.jpg",
+"San Juan Leonardi": "Rome_Santa_Maria_in_Campitelli_2020_P03_Saint_Giovanni_Leonardi_Altar.jpg",
+"San Calixto I, papa": "Pope_Callixtus_I.jpg",
+"San Ignacio de Antioquía": "Icon_of_Ignatius_of_Antioch_1.JPG",
+"San Juan de Brébeuf, San Isaac Jogues y compañeros": "North_American_Martyrs.jpg",
+"San Juan de Capistrano": "Lotz_John_of_Capistrano.jpg",
+"Fieles Difuntos": "William-Adolphe_Bouguereau_(1825-1905)_-_The_Day_of_the_Dead_(1859).jpg",
+"Dedicación de la Basílica de Letrán": "San_Giovanni_in_Laterano_-_Rome.jpg",
+"San León Magno": "Herrera_mozo_San_León_magno_Lienzo._Óvalo._164_x_105_cm._Museo_del_Prado.jpg",
+"San Josafat": "St_Josaphat_Saint_of_Ruthenia.jpg",
+"San Alberto Magno": "AlbertusMagnus.jpg",
+"Santa Margarita de Escocia": "Nicolas_de_Largillière_(1656-1746)_-_Saint_Margaret_(c.1045–1093),_Queen_of_Scotland_-_998409_-_National_Trust.jpg",
+"Santa Gertrudis": "Miguel_Cabrera,_Santa_Gertrudis,_1763_Mexico.jpg",
+"Presentación de la Virgen María": "Titian_-_Presentation_of_the_Virgin_at_the_Temple_-_WGA22797.jpg",
+"Santa Catalina de Alejandría": "Caravaggio_-_Saint_Catherine_of_Alexandria_(post-restoration_image).jpg",
+"San Juan Damasceno": "Ioann_Damaskin_ikona.jpg",
+"Inmaculada Concepción": "Inmaculada_de_los_Venerables_o_de_Soult.jpg",
+"San Dámaso I, papa": "Saintdamasus.jpg",
+"San Pedro Canisio": "Saint_Petrus_Canisius.jpg",
+"San Juan de Kety": "Jan_Kanty.jpg",
+"Natividad del Señor": "Gerard_van_Honthorst_-_Adoration_of_the_Shepherds_(1622).jpg",
+"Santos Inocentes": "Giotto_-_Scrovegni_-_-20-_-_Flight_into_Egypt.jpg",
+"Santo Tomás Becket": "Canterbury_Cathedral_011_Medieval_glass_Thomas_a_Becket.JPG",
+"San Silvestre I, papa": "Sylvester_I_and_Constantine.jpg",
+"San Marcelino y San Pedro": "Marcellinus_Petrus.jpg",
+"San Andrés Dung-Lac y compañeros": "Saint_Paul_Catholic_Church_(Westerville,_Ohio)_-_stained_glass,_arcade,_Saint_Andrew_Dung_Lac.jpg"
+});
+/* Fiestas que usan pinturas que la app ya tenía en su biblioteca */
+{const R={"Santa María, Madre de Dios": "virgenNino", "Epifanía del Señor (Día de Reyes)": "magos", "La Anunciación del Señor": "anunFra", "La Visitación de la Virgen María": "visitacion", "La Transfiguración del Señor": "transfig", "Santos Ángeles Custodios": "angelguarda", "Todos los Santos": "paraiso", "Cátedra de San Pedro": "vitral", "Dedicación de las Basílicas de San Pedro y San Pablo": "plaza", "Natividad de la Virgen María": "natividad", "Exaltación de la Santa Cruz": "crucificado"};Object.keys(R).forEach(n=>{const v=typeof IM!=="undefined"&&IM[R[n]];if(v&&!ALBUMIMG[n])ALBUMIMG[n]=Array.isArray(v)?v[0]:v})}
 /* ========= Escuela de oración: aprender a orar, rezar guiado, mis oraciones y mi diario ========= */
 SICON.ora=`<svg viewBox="0 0 40 40"><path d="M20 4c-2 4-6 9-6 15v9l-5 6h22l-5-6v-9c0-6-4-11-6-15z" fill="currentColor"/><path d="M20 10v18" stroke="var(--card)" stroke-width="2"/></svg>`;
 const SALVE="Dios te salve, Reina y Madre de misericordia,<br>vida, dulzura y esperanza nuestra; Dios te salve.<br>A ti llamamos los desterrados hijos de Eva;<br>a ti suspiramos, gimiendo y llorando en este valle de lágrimas.<br>Ea, pues, Señora, abogada nuestra,<br>vuelve a nosotros esos tus ojos misericordiosos,<br>y después de este destierro muéstranos a Jesús,<br>fruto bendito de tu vientre.<br>¡Oh clementísima, oh piadosa, oh dulce Virgen María!<br>Ruega por nosotros, santa Madre de Dios,<br>para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo. Amén.";
@@ -12444,10 +13197,11 @@ function dayInfo(d){d=new Date(d);d.setHours(12,0,0,0);const L=litInfo(d),f=feas
  if(!f&&sa&&/mártir|Mártir|Mártires|apóstol|Apóstol|Evangelista/.test(sa)&&L.season==="ord")color="rojo";
  return{d,L,color,feast:f?f[0]:null,saint:sa?sa.split("|")[0]:(ai>=0?ALBUM[ai][0]:null),saintTxt:sa?sa.split("|")[1]:(ai>=0?ALBUM[ai][4]:""),ai,sunday:d.getDay()===0}}
 /* Tarjeta de inicio ampliada */
-{const _fc=faithCard;faithCard=function(){let h=_fc();const t=new Date(),ai=albumIdx(md4(t)),sun=upcomingSunday(t),SK=sundayKey(sun);
- if(ai>=0){const a=ALBUM[ai];const box=`<button class="fbox" data-act="stamp" data-v="${ai}" style="border:0;text-align:left;cursor:pointer;width:100%;font:inherit;color:inherit"><span style="flex:0 0 52px">${stampSVG(ai,60)}</span><div><p class="pk">Santo del día · su estampa</p><b>${a[0]}</b><p>${a[4]}</p><p style="color:var(--rel);font-weight:700">Toca para leer su vida →</p></div></button>`;
+{const _fc=faithCard;faithCard=function(){let h=_fc();const t=new Date(),md=md4(t),ais=ALBUM.map((a,i)=>a[1]===md?i:-1).filter(i=>i>=0),sun=upcomingSunday(t);
+ if(ais.length){const box=ais.map(ai=>{const a=ALBUM[ai];return`<button class="fbox fsaint" data-act="stamp" data-v="${ai}"><span class="fs-st">${stampSVG(ai,60)}</span><div><p class="pk">${ais.length>1?"Santos de hoy":"Santo del día"} · su estampa</p><b>${a[0]}</b><p>${a[4]}</p><p class="fs-go">Toca para leer su vida →</p></div></button>`}).join("");
   h=h.replace(/<div class="fgrid">(<div class="fbox">[\s\S]*?<\/div><\/div>)/,(m,first)=>/Santo del día|Día ferial/.test(first)?`<div class="fgrid">${box}`:`<div class="fgrid">${box}${first}`)}
- const btns=`<div style="display:flex;flex-wrap:wrap;gap:8px"><button class="btn" data-act="gospel" data-v="${ds(sun)}">📖 Evangelio explicado</button><button class="btn ghost" data-act="litcal">📅 Calendario litúrgico</button><button class="btn ghost" data-act="sacr">✝️ Camino a los sacramentos</button></div>`;
+ const cal=`<svg viewBox="0 0 40 40"><rect x="5" y="8" width="30" height="27" rx="6" fill="currentColor"/><path d="M12.500 4v8M27.500 4v8" stroke="currentColor" stroke-width="3.600" stroke-linecap="round"/><rect x="9.500" y="16" width="21" height="15" rx="2.500" fill="var(--sicb,#fff)"/></svg>`;
+ const btns=`<div class="feacts"><button class="feact" data-act="gospel" data-v="${ds(sun)}" style="--sc:var(--rel)"><span class="sic" aria-hidden="true">${SICON.lec}</span><b>Evangelio explicado</b></button><button class="feact" data-act="litcal" style="--sc:var(--com)"><span class="sic" aria-hidden="true">${cal}</span><b>Calendario litúrgico</b></button><button class="feact" data-act="sacr" style="--sc:var(--sac)"><span class="sic" aria-hidden="true">${SICON.sac}</span><b>Camino a los sacramentos</b></button></div>`;
  return h.replace(/<\/section>\s*$/,btns+"</section>")}}
 /* Pantalla: Evangelio del domingo explicado */
 function gospelView(v){LS=null;begin();const sun=v?new Date(v+"T12:00:00"):upcomingSunday(new Date());const SK=sundayKey(sun),g=gosOf(SK.k),L=litInfo(sun),f=feastOf(sun);

@@ -550,6 +550,33 @@ body.focus #tabs{display:none}
 .vida-b{border-radius:16px;box-shadow:0 3px 0 var(--lip);min-height:54px;font-weight:700;font-size:17.5px;transition:transform .08s,box-shadow .08s}
 .vida-b:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px 0 var(--lip)}
 
+/* ---------- Álbum de santos ---------- */
+.albprog{background:var(--card);border-radius:var(--r-lg);box-shadow:var(--sh1);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.albprog p{font-size:15.5px;color:var(--soft);line-height:1.4}
+.albprog .lbar{height:12px}
+.album{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 10px;align-items:start}
+@media (min-width:600px){.album{grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:14px}}
+.stampbtn{position:relative;padding:4px;gap:6px;font:700 13px/1.2 var(--body);border-radius:14px;min-width:0;box-sizing:border-box;width:100%;overflow-wrap:anywhere;hyphens:auto}
+.stampbtn .stamp{width:100%;height:auto;border-radius:8px}
+.stampbtn .lockq{width:100%;height:auto;aspect-ratio:4/5;box-sizing:border-box;border-width:2.500px;font-size:clamp(30px,9vw,46px)}
+.stampbtn.locked{color:var(--soft);font-weight:400}
+.sday{position:absolute;top:0;left:0;z-index:1;min-width:26px;height:26px;padding:0 6px;border-radius:13px;background:var(--rel);color:var(--on);font:800 14px/26px var(--display);font-style:normal;text-align:center;box-shadow:0 2px 0 rgba(0,0,0,.18);box-sizing:border-box}
+.stampbtn.locked .sday{background:var(--lip);color:var(--ink)}
+.albmes{display:flex;flex-direction:column;gap:10px}
+.albmes h2{display:flex;align-items:baseline;gap:10px;font-size:21px;position:sticky;top:60px;background:var(--paper);padding:6px 0;z-index:2}
+.albmes h2 small{font:700 13.5px var(--body);color:var(--soft)}
+/* ---------- Hoy en la Iglesia ---------- */
+.faith{border-radius:var(--r-lg);padding:16px;gap:12px}
+.fbox{border-radius:16px}
+.fbox.fsaint{display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;width:100%;font:inherit;color:inherit;border:0;box-sizing:border-box}
+.fs-st{flex:0 0 56px;line-height:0}.fs-st .stamp{width:56px;height:auto;border-radius:6px}
+.fs-go{color:var(--rel);font-weight:700}
+.feacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.feact{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;border:0;background:var(--card);border-radius:16px;padding:10px 6px;box-shadow:0 3px 0 var(--lip),0 0 0 1.500px var(--line);cursor:pointer;font:inherit;color:var(--ink);min-height:98px;box-sizing:border-box;transition:transform .08s,box-shadow .08s}
+.feact:active{transform:translateY(2px);box-shadow:0 1px 0 var(--lip),0 0 0 1.500px var(--line)}
+.feact .sic{width:44px;height:44px;border-radius:14px}
+.feact b{font:800 13.5px/1.15 var(--display)}
+
 /* ---------- Zona de papás ---------- */
 .panel.fold{padding:0;gap:0;overflow:hidden}
 .panel.fold>h2{font-size:18.5px}
