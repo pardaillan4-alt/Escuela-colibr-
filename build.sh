@@ -23,7 +23,9 @@ JS=(src/motor/motor.js src/motor/interfaz.js src/motor/modelos.js src/motor/gene
     src/grado5/cie.js src/grado5/geo-his.js src/grado5/civ.js src/grado5/ampliacion-esp-cie.js src/grado5/ampliacion-geo-his-civ.js src/grado6/base-y-mat.js
     src/grado6/esp-cie.js src/grado6/geo-his-civ-rel.js src/grado6/ampliacion-mat-esp-cie.js src/grado6/ampliacion-geo-his-civ-rel.js src/talleres/ingles-niveles.js src/fe/evangelios-ciclos-a-c.js
     src/fe/calendario-liturgico.js src/fe/camino-sacramentos.js src/grado5/historia-de-la-iglesia.js src/grado6/historia-de-la-iglesia.js src/talleres/voz-natural-piper.js src/motor/calculo-mental.js
-    src/motor/respaldo.js src/motor/guia-para-papas.js src/motor/portafolio.js src/motor/sincronizacion-pantalla.js src/motor/sesiones-sin-repetir.js src/motor/interfaz-final.js)
+    src/motor/respaldo.js src/motor/guia-para-papas.js src/motor/portafolio.js src/motor/sincronizacion-pantalla.js src/motor/profundizacion.js src/banco/6cie.js
+    src/banco/6civ.js src/banco/6esp.js src/banco/6geo.js src/banco/6his.js src/banco/6mat.js src/banco/6rel.js
+    src/motor/sesiones-sin-repetir.js src/motor/interfaz-final.js)
 {
   echo '<!doctype html>'
   echo '<html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'

@@ -14,6 +14,15 @@ Funciona en el navegador del teléfono, la tableta o la computadora, sin instala
 | Todos | Inglés (3 niveles: el plan de cada grado usa su nivel), Arte y Música, Educación Física | 35 |
 | Cada grado | Biblioteca: 6 cuentos con comprensión lectora y medición de fluidez | 18 |
 
+### Novedades de la versión 2 (noviembre de 2026)
+
+- **Diseño nuevo «Jardín del colibrí»:** pantalla de inicio con paisaje y racha de días, barra inferior con cinco secciones (Inicio, Fe, Álbum, Retos y Papás), cada materia como un camino de flores que se abren al terminar las lecciones, botones grandes con relieve, mascota colibrí animada, modo claro y oscuro, y letras Grandstander y Andika incrustadas (se ven igual sin internet).
+- **Sesiones sin preguntas repetidas:** ninguna pregunta sale dos veces en la misma práctica, examen, reto o repaso. La app recuerda las últimas preguntas que vio cada niño en cada lección y prefiere las que no ha visto.
+- **Modelos para explicar:** los dibujos de emojis ahora se convierten solos en el modelo que conviene (recta numérica con saltos, operación en columna, comparación cifra por cifra, barras de fracciones, cuadrícula de 100 para porcentajes, tabla de valor posicional, plano cartesiano, diagrama de cinta) y hay modelos geométricos nuevos (transportador, triángulos, círculo, prisma con sus medidas).
+- **Álbum completo (222 estampas):** se agregaron los 120 santos y fiestas del calendario litúrgico que faltaban, con su pintura, biografía, datos, frase y oración. El álbum tiene dos pestañas: «Mis estampas» y «Todo el año» (por mes y día). «Hoy en la Iglesia» muestra todas las estampas del día.
+- **Profundización de 4.º a 6.º y bancos ampliados (en curso):** cada lección recibe un pizarrón con ideas completas, un ejemplo resuelto en varios pasos, una infografía de cuatro ideas ilustradas y unas 10 preguntas nuevas para que los tres niveles (Practica, Ejercita, Reto) sean distintos entre sí. Muchas lecciones tienen además tablas de práctica (clasificar o relacionar) de las que salen decenas de preguntas diferentes. Listo: 6.º completo (125 lecciones, 1 152 preguntas escritas y unas 360 de tablas).
+- **Zona de papás en acordeón** y progreso compacto por grado; se corrigió un error que borraba las estrellas de un nivel al terminar otro.
+
 - **Infografías ilustradas:** cada una de las 230 lecciones tiene una infografía con ilustraciones propias, en cinco diseños: ciclo, pasos, comparación, datos clave y cuadrícula. Todas incluyen una frase de fe. Cada materia tiene una galería para repasarlas juntas.
 - **Cuadernos para imprimir:** en la carpeta `cuadernos/` hay un cuaderno de trabajo en PDF para cada grado (tamaño carta). Incluye portada, índice con páginas, una hoja por lección con infografía, ejercicios para lápiz y papel, caligrafía en Español, operaciones en Matemáticas, recuadro para dibujar en Ciencias e Historia, sección de fe y solucionario al final. En `cuadernos/por-materia/` está cada materia por separado.
 - **Cada lección tiene dos partes:** *Aprende*, con dibujos y lectura en voz alta, y *Practica*, con ejercicios de opción múltiple, teclado numérico, formar palabras, ordenar y clasificar.
@@ -120,6 +129,16 @@ src/talleres/oraciones-finales.js ← oración final de cada lección y oración
 src/talleres/vida-diaria.js  ← historias de la vida diaria con pregunta para decidir
 src/talleres/ciencias-imagenes.js ← fotos de Ciencias y láminas del cuerpo, el plato, el agua y el sistema solar
 src/motor/fotos.js           ← fotos, lámina de la planta y viñetas de crecimiento
+src/motor/interfaz.js        ← pantallas de la versión 2 (inicio, pestañas, materia, lección, práctica, resultado, papás)
+src/motor/interfaz-final.js  ← íconos de materias, pestaña activa y acordeón de la Zona de papás
+src/motor/modelos.js         ← modelos que explican: pictogramas inteligentes, rectas, columnas, fracciones, geometría
+src/motor/sesiones-sin-repetir.js ← arma cada sesión sin preguntas repetidas y recuerda las ya vistas
+src/motor/profundizacion.js  ← aplica los bancos ampliados y arma preguntas a partir de las tablas de práctica
+src/banco/<materia>.txt      ← FUENTE editable: pizarrón, ejemplo resuelto, infografía, preguntas y tablas de cada lección
+src/banco/<materia>.js       ← lo mismo ya compilado (lo genera herramientas/banco/mkbanco.py; no se edita a mano)
+src/estilos/                 ← letras incrustadas (fuentes.css) y diseño de la versión 2 (diseno-v2.css)
+src/fe/santos-calendario-*.js ← las 120 estampas del calendario litúrgico y sus imágenes
+herramientas/banco/          ← herramientas para escribir y compilar los bancos (ver abajo)
 ```
 
 ## Cómo agregar o cambiar contenido
@@ -144,6 +163,36 @@ L("2m6", "Título de la lección", [
 ```
 
 En las preguntas de opción múltiple, la respuesta correcta siempre va primero. La app revuelve las opciones al mostrarlas.
+
+### Bancos de preguntas y profundización (`src/banco/`)
+
+Cada archivo `src/banco/<materia>.txt` enriquece las lecciones de una materia. Una lección empieza con `#` y su clave:
+
+```
+#6h5
+Z|idea completa|otra idea|otra idea              ← pizarrón (se permiten <b>negritas</b>)
+E|ejemplo|ejemplo                                ← ejemplos del pizarrón
+S|pregunta|paso 1|paso 2|paso 3|=resultado       ← ejemplo resuelto paso a paso
+I|🏰 Título: detalle|📚 Título: detalle|…         ← infografía (Is = pasos, Ic = ciclo, If = datos)
+0|V|afirmación verdadera                         ← nivel 1 (0), nivel 2 (1) o nivel 3 (2)
+0|F|afirmación falsa
+1|pregunta|respuesta correcta|incorrecta|incorrecta
+2|O|instrucción|primero|segundo|tercero          ← ordenar
+K|{x}: ¿físico o químico?|título|físico: derretir hielo; romper papel|químico: quemar madera; oxidarse un clavo
+P|¿Junto a qué río nació {x}?|{x}: ¿qué civilización nació ahí?|Egipto = el Nilo|China = el río Amarillo|la India = el Indo
+```
+
+`K` es una tabla para clasificar y `P` una tabla de parejas: de cada elemento sale una pregunta distinta (y, si hay pregunta inversa, otra más), así que el niño no ve siempre lo mismo. En una sesión salen como máximo tres preguntas de la misma tabla.
+
+Para compilar después de editar (desde la raíz del repositorio):
+
+```bash
+node herramientas/banco/lecciones.js      # índice de lecciones (solo si cambiaste el temario)
+python3 herramientas/banco/mkbanco.py -v  # revisa y genera src/banco/<materia>.js
+./build.sh
+```
+
+`mkbanco.py` avisa si una pregunta está repetida, si faltan opciones, si la respuesta correcta es mucho más larga que las demás o si algún nivel se queda con menos de 5 preguntas. `node herramientas/banco/digest.js <materia>` imprime un resumen de cada lección para escribir su enriquecimiento.
 
 ## Regenerar los cuadernos
 

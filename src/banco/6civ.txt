@@ -1,0 +1,213 @@
+// Cívica y Valores 6.º — profundización y banco ampliado
+#6v1
+Z|<b>Conocerme</b> es reconocer mis cualidades, mis talentos y también mis límites.|Un <b>proyecto de vida</b> es un plan con metas y valores para mi futuro.|Dios tiene un plan de amor para cada persona: descubrirlo es encontrar mi <b>vocación</b>.
+E|Meta concreta: practicar 20 minutos diarios|Vocación: el llamado de Dios para mi vida
+S|¿Qué es un proyecto de vida?|Me pregunto: ¿quién soy?, ¿qué talentos tengo?|Pienso qué quiero lograr y a quién quiero servir.|Me pongo metas pequeñas que me acerquen a las grandes.|=Un plan de metas y valores para mi futuro.
+I|💎 Cualidades: Lo bueno que tengo y puedo compartir.|🧗 Límites: Lo que me cuesta y puedo mejorar.|🎯 Metas: Pasos concretos hacia lo que quiero lograr.|✝️ Vocación: El plan de amor que Dios tiene para mí.
+0|V|Todos tenemos cualidades y también límites.
+0|F|Un proyecto de vida se hace solo cuando uno ya es adulto.
+1|¿Qué es una cualidad?|algo bueno que tengo, como ser generoso|un error que cometí ayer|un objeto que me regalaron
+1|¿Cuál de estas es una meta bien planteada?|leer 15 minutos cada noche|ser mejor algún día|que todo me salga bien
+1|¿Para qué sirve conocer mis límites?|para saber en qué puedo mejorar|para sentirme menos|para rendirme antes
+1|V|Los talentos que Dios me dio son para servir a los demás.
+2|O|Ordena las preguntas del proyecto de vida|¿Quién soy?|¿Qué quiero?|¿Cómo lo logro?|¿A quién sirvo?
+2|Sacaste una mala nota. ¿Qué actitud te ayuda a crecer?|ver en qué fallé y estudiar mejor|pensar que no sirvo para nada|culpar al maestro
+2|¿Qué es la vocación?|el llamado de Dios para mi vida|un trabajo cualquiera|una materia de la escuela
+2|¿Cuánto valgo como persona?|mucho, porque soy hijo de Dios|según mis calificaciones|según lo que tengo
+#6v10
+Z|Las <b>emociones</b> no son buenas ni malas: lo importante es qué hago con ellas.|Para <b>autorregularme</b>: reconozco lo que siento, respiro, pienso y elijo cómo actuar.|La <b>resiliencia</b> es la capacidad de levantarme después de una dificultad, con ayuda de mi familia, mis amigos y la fe.
+E|Enojo: respiro antes de contestar|Resiliencia: caer y volver a levantarse
+S|¿Qué es la resiliencia?|Todos pasamos por momentos difíciles: una pérdida, un fracaso, un cambio.|Podemos pedir ayuda, aprender de lo que pasó y seguir adelante.|Como una planta que se dobla con el viento y vuelve a levantarse.|=La capacidad de superar las dificultades y crecer con ellas.
+I|🔎 Reconozco: Le pongo nombre a lo que siento.|🌬️ Respiro: Me calmo antes de actuar.|💭 Pienso: ¿Qué consecuencias tendrá lo que haga?|✅ Elijo: Actúo de la mejor manera.
+0|V|Sentir enojo es normal; lo importante es no lastimar a nadie.
+0|F|Una persona resiliente nunca se pone triste.
+1|¿Cuál es el primer paso para manejar una emoción?|reconocer lo que siento|gritar muy fuerte|esconderme
+1|¿Qué ayuda a calmarse cuando uno está muy enojado?|respirar profundo y esperar|aventar las cosas|contestar de inmediato
+1|¿Quiénes pueden ayudarme en un momento difícil?|mi familia y mis buenos amigos|nadie: debo aguantar solo|los desconocidos de internet
+1|V|Hablar de lo que siento me ayuda a sentirme mejor.
+2|O|Ordena los pasos para autorregularme|Reconozco|Respiro|Pienso|Elijo
+2|Tu hermano rompe tu dibujo sin querer y sientes coraje. ¿Qué haces?|respiro y le digo cómo me siento|le rompo algo suyo|le dejo de hablar un mes
+2|Perdiste un concurso para el que te preparaste mucho. ¿Qué es ser resiliente?|aprender y volver a intentarlo|no participar nunca más|culpar a los jueces
+2|¿En quién confía un cristiano en las dificultades?|en Cristo, que lo fortalece|solo en su suerte|en nadie
+#6v2
+Z|La <b>sexualidad</b> es un don de Dios que abarca el cuerpo, los afectos y las relaciones; está orientada al amor verdadero y a la vida, en el matrimonio.|Me respeto y respeto a los demás: no acepto presiones y me cuido en internet.|Nadie tiene derecho a tocarme de forma indebida: <b>digo NO, me alejo y lo cuento</b> a mis papás.
+E|Regla de oro: digo NO, me alejo y lo cuento|Castidad: amar con un corazón limpio
+S|¿Qué hago si alguien me presiona a hacer algo indebido?|Mi cuerpo merece respeto: nadie puede obligarme.|Digo NO con firmeza y me alejo de inmediato.|Se lo cuento a mis papás o a un adulto de confianza: no es mi culpa ni debo guardar el secreto.|=Digo NO, me alejo y se lo cuento a mis papás.
+I|🎁 Don de Dios: Cuerpo y afectos son un regalo para amar.|🤍 Castidad: Virtud que guarda limpio el corazón.|✋ Digo NO: Nadie puede presionarme ni tocarme indebidamente.|💬 Lo cuento: Hablo con papá y mamá; no guardo secretos que dañan.
+0|V|Mi cuerpo merece respeto y cuidado.
+0|F|Si un adulto me pide guardar un secreto que me incomoda, debo callar.
+1|¿Qué hago si alguien me toca de forma indebida?|digo NO, me alejo y lo cuento|me quedo callado|pienso que es mi culpa
+1|¿A quién le cuento si algo me incomoda o me asusta?|a mis papás o a un adulto de confianza|a nadie, es mejor callar|a un desconocido en internet
+1|¿Para qué es el don de la sexualidad?|para el amor verdadero y la vida, en el matrimonio|para presumir ante los amigos|para pasar el rato sin compromiso
+1|V|En la adolescencia aparecen sentimientos nuevos, que se viven con responsabilidad.
+2|Un desconocido te escribe en un juego en línea y te pide tu dirección. ¿Qué haces?|no respondo, bloqueo y aviso a mis papás|se la doy si es amable conmigo|le pido la suya primero
+2|Unos amigos te presionan para ver contenido inapropiado. ¿Qué haces?|me niego y me alejo|lo veo para no quedar mal|lo comparto con otros
+2|¿Cómo describe san Pablo el amor verdadero?|paciente y servicial|impaciente y egoísta|presumido y celoso
+2|F|Si alguien me hace daño, la culpa es mía.
+#6v11
+Z|Un <b>buen amigo</b> me quiere bien, me dice la verdad, me anima a hacer el bien y respeta mis decisiones.|En la adolescencia puede aparecer el gusto por alguien: es normal y se vive con <b>respeto</b>.|El <b>noviazgo</b> es para más adelante: pide madurez, pureza y la guía de los papás.
+E|Amigo verdadero: te anima al bien|Presión: «todos lo hacen»
+S|¿Qué hace un buen amigo?|No te pide hacer cosas malas ni te deja solo cuando te equivocas.|Te dice la verdad aunque cueste, y se alegra de tus logros.|Con él eres mejor persona.|=Me quiere bien, me dice la verdad y me anima al bien.
+I|🤝 Lealtad: Está contigo en las buenas y en las malas.|💬 Verdad: Te dice las cosas con cariño.|✅ Bien: Te anima a ser mejor.|⏳ Paciencia: El noviazgo llega a su tiempo, con madurez.
+0|V|Un buen amigo se alegra de mis logros.
+0|F|Un amigo verdadero me presiona para hacer cosas indebidas.
+1|¿Qué hago si un amigo me pide hacer algo malo?|le digo que no y le explico por qué|lo hago para no perderlo|se lo pido a otro
+1|¿Qué necesita un noviazgo, cuando llegue su tiempo?|madurez, respeto y pureza|prisa y secretos|dinero y regalos
+1|¿Con quién platico si me gusta alguien y no sé qué hacer?|con mis papás|con nadie|con cualquiera en redes sociales
+1|V|Sentir gusto por alguien en la adolescencia es normal.
+2|Tu mejor amigo copió en el examen y te pide guardar silencio. ¿Qué hace un buen amigo?|lo anima a decir la verdad|presume lo que sabe|copia también
+2|«Todos tienen novia, ¿y tú?». ¿Qué respondes?|que cada cosa tiene su tiempo|que mañana consigo una|que me da pena
+2|¿Cómo es el amor verdadero según san Pablo?|no busca su propio interés|busca solo divertirse|exige y presiona
+2|F|Para tener amigos debo hacer todo lo que me pidan.
+#6v12
+Z|Una <b>adicción</b> es depender de una sustancia o de una actividad hasta perder la libertad: alcohol, tabaco, vapeadores, drogas o pantallas en exceso.|Las adicciones dañan el cuerpo, la mente, la familia y los estudios.|Me protegen: decir <b>NO</b>, los amigos sanos, el deporte, las metas, la fe y hablar con mis papás.
+E|Factor de protección: deporte y buenos amigos|Línea de la Vida: 800 911 2000
+S|¿Qué es un factor de protección?|Hay situaciones que me acercan a un riesgo: malas compañías, estar solo, aburrirme.|Y hay otras que me alejan de él y me hacen fuerte.|Por ejemplo: una familia unida, amigos sanos, metas, deporte y fe.|=Algo que me ayuda a evitar riesgos.
+I|🚫 Decir NO: Con firmeza y sin dar largas explicaciones.|⚽ Deporte: Cuerpo sano y mente ocupada.|🏠 Familia: Hablo con mis papás de lo que me pasa.|🙏 Fe: Cristo me hace libre.
+0|V|El alcohol y el tabaco dañan el cuerpo.
+0|F|Los vapeadores son inofensivos para los niños.
+1|¿Qué es una adicción?|depender de algo hasta perder la libertad|tener gusto por el deporte|tener la costumbre de estudiar
+1|¿Cuál de estos es un factor de protección?|tener metas y amigos sanos|estar siempre aburrido|juntarme con quien fuma
+1|¿Qué daña el uso excesivo de pantallas?|el sueño, la vista y el estudio|los zapatos y la ropa|el clima de la ciudad
+1|V|Pedir ayuda a tiempo es de valientes.
+2|En una fiesta te insisten en probar un vapeador. ¿Qué haces?|digo que no y, si insisten, me voy|lo pruebo para que me dejen en paz|lo escondo en mi mochila
+2|Juegas videojuegos tantas horas que ya no haces la tarea. ¿Qué conviene?|poner un horario y pedir ayuda a mis papás|jugar de noche, a escondidas|dejar la escuela
+2|¿Por qué las adicciones quitan la libertad?|porque ya no decides tú, sino la adicción|porque cuestan muy poco dinero|porque son muy divertidas
+2|¿Para qué nos liberó Cristo, según san Pablo?|para ser libres|para tener miedo|para estar solos
+#6v3
+Z|Los <b>valores</b> (honestidad, respeto, responsabilidad, solidaridad, justicia) guían mis decisiones.|La <b>tolerancia</b> es respetar a las personas aunque piensen distinto.|Tolerar no significa que todo dé igual: buscamos la <b>verdad</b> y la decimos con caridad.
+E|Honestidad: decir la verdad|Justicia: dar a cada quien lo suyo
+S|¿Tolerancia significa que todo da igual?|Hay que distinguir a las personas de las ideas.|A las personas siempre se les respeta, piensen lo que piensen.|Las ideas se pueden discutir, porque unas son verdaderas y otras no.|=No: respeto a las personas, pero busco la verdad.
+I|✅ Honestidad: Decir la verdad y no tomar lo ajeno.|🤝 Respeto: Tratar bien a todos.|⚖️ Justicia: Dar a cada quien lo que le corresponde.|🤲 Solidaridad: Ayudar a quien lo necesita.
+0|V|La justicia es dar a cada quien lo que le corresponde.
+0|F|Ser tolerante es pensar que todas las ideas son verdaderas.
+1|¿Qué valor practico al devolver un dinero que encontré?|honestidad|pereza|envidia
+1|¿Qué valor practico al cumplir mis tareas a tiempo?|responsabilidad|tolerancia|valentía
+1|¿Cómo se dice la verdad a alguien que está equivocado?|con caridad y respeto|con burlas|a gritos
+1|V|Puedo respetar a una persona sin estar de acuerdo con sus ideas.
+2|Un compañero dice que copiar no tiene nada de malo. ¿Qué haces?|le explico con respeto por qué no es honesto|le doy la razón para no discutir|lo insulto frente a todos
+2|¿Quién dijo: «Yo soy el camino, la verdad y la vida»?|Jesús|Pilato|Herodes
+2|Excluyen a una niña del juego por su forma de hablar. ¿Qué valor falta?|respeto|puntualidad|ahorro
+2|F|Para vivir en paz hay que callar siempre la verdad.
+K|{x}: ¿qué valor es?|¿Qué valor es?|honestidad: devolver lo que no es mío; decir la verdad aunque cueste|respeto: escuchar sin interrumpir; no burlarme de nadie|solidaridad: compartir mi comida; ayudar a quien se cayó|responsabilidad: cumplir mis tareas; llegar a tiempo
+#6v4
+Z|Las <b>normas de convivencia</b> (saludar, respetar turnos, cuidar lo común, cumplir acuerdos) nos ayudan a vivir en paz.|Hay costumbres que ayudan a convivir y otras que dañan, como la violencia y la discriminación: esas deben cambiar.|La <b>seguridad vial</b> protege la vida: paso peatonal, semáforo, cinturón y casco.
+E|Cortesía: por favor, gracias, perdón|Seguridad vial: cinturón y casco
+S|¿Por dónde cruzo una avenida?|Busco el paso de peatones o un puente peatonal.|Espero la luz verde del semáforo para peatones.|Miro a ambos lados y cruzo caminando, sin distraerme con el celular.|=Por la zona de peatones o el puente peatonal.
+I|👋 Cortesía: Saludar, pedir por favor y dar las gracias.|✋ Turnos: Esperar y escuchar a los demás.|🚦 Semáforo: Cruzo solo con luz verde para peatones.|🪖 Casco y cinturón: Protegen la vida en bici y en auto.
+0|V|Respetar turnos ayuda a convivir mejor.
+0|F|Cruzar la calle mirando el celular es seguro.
+1|¿Qué indica la luz roja del semáforo a los autos?|alto|avanzar|ir más rápido
+1|¿Qué hago con una costumbre que daña a otros?|trato de cambiarla|la sigo porque así ha sido siempre|la enseño a otros
+1|¿Cuál es una norma de convivencia?|cumplir los acuerdos|hablar todos al mismo tiempo|tomar lo ajeno
+1|V|Decir «por favor» y «gracias» es una forma de respeto.
+2|En tu grupo acostumbran poner apodos que lastiman. ¿Qué haces?|propongo llamarnos por nuestro nombre|invento apodos todavía peores|me río de todos igual que los demás
+2|Vas en auto y es un trayecto corto. ¿Te pones el cinturón?|sí, siempre|no, es cerca|solo en carretera
+2|O|Ordena cómo cruzar una avenida|Busco el paso peatonal|Espero la luz verde|Miro a ambos lados|Cruzo caminando
+2|V|Cuidar las cosas de todos (bancas, jardines) es parte de la convivencia.
+#6v14
+Z|La <b>violencia</b> puede ser física, verbal, psicológica o digital; se aprende y también se puede desaprender.|La <b>paz</b> se construye con diálogo, empatía, perdón y justicia.|Un <b>mediador</b> ayuda a dos personas en conflicto a escucharse y llegar a un acuerdo.
+E|Empatía: ponerme en el lugar del otro|Mediación: ayudar a llegar a un acuerdo
+S|Menciona dos herramientas para construir la paz.|Cuando hay un conflicto, primero escucho lo que el otro siente (empatía).|Luego hablamos sin insultos para encontrar una solución (diálogo).|Y si hubo ofensa, pido perdón o perdono.|=El diálogo y el perdón.
+I|👂 Escuchar: Dejar que el otro hable sin interrumpir.|💗 Empatía: Ponerme en su lugar.|💬 Diálogo: Buscar juntos una solución.|🕊️ Perdón: Sana las heridas y devuelve la paz.
+0|V|Los insultos son una forma de violencia.
+0|F|La violencia es la mejor manera de resolver un problema.
+1|¿Qué tipo de violencia es difundir un rumor por mensajes?|digital|física|ninguna
+1|¿Qué hace un mediador?|ayuda a que las dos partes se escuchen|decide quién gana la pelea|castiga a los dos por igual
+1|¿Qué tipo de violencia es dar un empujón?|física|verbal|digital
+1|V|Perdonar ayuda a recuperar la paz.
+2|O|Ordena los pasos para resolver un conflicto|Escuchar|Ponerme en su lugar|Dialogar|Perdonar
+2|Dos amigos pelean por un balón. ¿Qué haces como mediador?|los ayudo a escucharse y acordar turnos|le doy el balón al más fuerte|me pongo a gritar también
+2|¿A qué santo se atribuye la oración «Hazme un instrumento de tu paz»?|san Francisco de Asís|san Pablo|san Pedro
+2|F|Si me insultan, lo correcto es insultar más fuerte.
+#6v5
+Z|Los <b>derechos humanos</b> pertenecen a toda persona por su <b>dignidad</b>: vida, libertad, igualdad ante la ley, educación, salud y libertad religiosa.|En México los protegen la Constitución, la CNDH y los tratados internacionales.|Las autoridades están obligadas a respetarlos; todos tenemos el deber de respetar los derechos de los demás.
+E|CNDH: Comisión Nacional de los Derechos Humanos|Derecho a la vida: el primero de todos
+S|¿De dónde viene la dignidad humana?|La dignidad es el valor que tiene toda persona por ser persona.|No depende del dinero, la edad, la salud ni de lo que diga un gobierno.|La fe nos enseña su raíz más profunda: Dios nos creó a su imagen.|=De que somos creados a imagen de Dios.
+I|❤️ Vida: El primer derecho; sin él no hay otros.|🕊️ Libertad: Pensar, expresarse y creer.|🏫 Educación: Todos los niños tienen derecho a aprender.|⚖️ Igualdad: La ley protege a todos por igual.
+0|V|Todas las personas tienen la misma dignidad.
+0|F|Los derechos humanos son solo para los adultos.
+1|¿Qué documento protege los derechos humanos en México?|la Constitución|el periódico|el reglamento de tránsito
+1|¿Qué significan las siglas CNDH?|Comisión Nacional de los Derechos Humanos|Consejo Nacional de Deportes y Hábitos|Centro Nacional de Historia
+1|¿Cuál de estos es un derecho humano?|recibir educación|tener el juguete de moda|ganar siempre
+1|V|Tener derechos también me compromete a respetar los de los demás.
+2|A un niño no lo dejan entrar a la escuela por tener una discapacidad. ¿Qué derecho se viola?|el derecho a la educación|el derecho al juego|el derecho al descanso
+2|¿Por qué el derecho a la vida es el primero?|porque sin vida no se ejercen los demás|porque es el más antiguo|porque se eligió por sorteo
+2|¿Qué permite la libertad religiosa?|practicar la fe sin ser perseguido|obligar a otros a creer|prohibir las iglesias
+2|F|La dignidad de una persona depende de cuánto dinero tiene.
+#6v13
+Z|En México el poder se divide en tres: <b>Ejecutivo</b> (presidente), <b>Legislativo</b> (Congreso: diputados y senadores) y <b>Judicial</b> (Suprema Corte y jueces).|Los tres poderes se vigilan entre sí para que ninguno abuse.|México es una <b>federación</b> de 32 entidades; las autoridades se eligen con el voto libre y secreto.
+E|Legislativo: hace las leyes|INE: organiza las elecciones
+S|¿Qué poder hace las leyes?|El Ejecutivo gobierna y aplica las leyes.|El Judicial resuelve conflictos y vigila que se cumplan.|El Congreso (diputados y senadores) las discute y las aprueba.|=El Poder Legislativo.
+I|🏛️ Ejecutivo: El presidente gobierna y aplica las leyes.|📜 Legislativo: El Congreso hace las leyes.|⚖️ Judicial: Los jueces imparten justicia.|🗳️ Voto: Libre y secreto, para elegir autoridades.
+0|V|El presidente encabeza el Poder Ejecutivo.
+0|F|En México una sola persona tiene todo el poder.
+1|¿Quiénes forman el Congreso de la Unión?|diputados y senadores|jueces y ministros|gobernadores y alcaldes
+1|¿Qué institución organiza las elecciones federales?|el INE|la CNDH|la Suprema Corte
+1|¿Para qué se dividen los poderes?|para que ninguno abuse|para gastar más|para que nadie gobierne
+1|¿Cómo debe ser el voto?|libre y secreto|obligado y público|comprado
+2|Los diputados aprueban una nueva ley de aguas. ¿Qué poder actuó?|Legislativo|Ejecutivo|Judicial
+2|Un juez resuelve un conflicto entre dos vecinos. ¿Qué poder actuó?|Judicial|Legislativo|Ejecutivo
+2|¿Cómo participa un católico en la vida pública?|con honestidad y buscando el bien común|buscando solo su propio provecho|sin que le importen los demás
+2|V|Votar informado es una manera de cuidar el bien común.
+K|{x}: ¿a qué poder pertenece?|¿Ejecutivo, Legislativo o Judicial?|Ejecutivo: el presidente de la República; el gobernador de un estado|Legislativo: el diputado; el senador|Judicial: el juez; el ministro de la Suprema Corte
+#6v6
+Z|La <b>transparencia</b> es el derecho de los ciudadanos a saber cómo usa el gobierno el dinero de todos.|La <b>rendición de cuentas</b> obliga a las autoridades a informar qué hacen y cuánto gastan.|La <b>corrupción</b> (usar un cargo para beneficio propio) daña a todos, sobre todo a los más pobres.
+E|Soborno: dar dinero para obtener un favor indebido|Rendir cuentas: informar cómo se usó el dinero
+S|¿Qué es la corrupción?|Una autoridad recibe un cargo para servir a todos.|Si lo usa para ganar dinero o favores para sí misma, traiciona esa confianza.|Por ejemplo: aceptar dinero para perdonar una multa.|=Usar un cargo o dinero de forma injusta para beneficio propio.
+I|🔍 Transparencia: Derecho a saber cómo se usa el dinero público.|📊 Rendir cuentas: Las autoridades informan lo que hacen.|🚫 Corrupción: Usar el cargo para beneficio propio.|✅ Honestidad: Ser fiel en lo poco y en lo mucho.
+0|V|El dinero público es de todos los ciudadanos.
+0|F|Las autoridades no tienen que informar cómo gastan.
+1|¿Qué es el dinero público?|el que se reúne con los impuestos de todos|el que guarda cada familia en su casa|el que hay en las alcancías
+1|¿Qué es la transparencia?|que la información del gobierno esté a la vista|que los edificios sean de vidrio|que nadie pregunte nada
+1|¿A quiénes daña más la corrupción?|a los más pobres|a nadie|solo a los ricos
+1|V|Ser honesto en las cosas pequeñas me prepara para las grandes.
+2|Un funcionario pide dinero por hacer un trámite gratuito. ¿Qué es?|corrupción|transparencia|rendición de cuentas
+2|El cajero te da cambio de más. ¿Qué haces?|lo devuelvo|me lo quedo|lo gasto rápido
+2|¿Para qué sirve pedir información pública?|para vigilar que el dinero se use bien|para molestar al gobierno|para hacer más larga la tarea
+2|En tu salón eligen tesorero. ¿Cómo rinde cuentas?|muestra cuánto se juntó y en qué se gastó|guarda el dinero sin decir nada|lo gasta en lo que quiere
+#6v7
+Z|<b>Participar</b> es tomar parte en las decisiones y en la solución de los problemas de la comunidad.|Hay muchas formas: consultas ciudadanas, propuestas, asociaciones civiles, voluntariado y comités escolares.|Organizaciones como la Cruz Roja, los bancos de alimentos y Cáritas ayudan sin buscar ganancias.
+E|Voluntariado: ayudar sin recibir pago|Asociación civil: ciudadanos organizados
+S|¿Qué es una asociación civil?|Varios ciudadanos ven una necesidad: niños sin útiles, un río sucio.|Se organizan, ponen reglas y reúnen recursos para atenderla.|No buscan ganar dinero, sino ayudar.|=Un grupo de ciudadanos organizados para un fin social, sin buscar ganancias.
+I|📋 Consulta: La gente opina sobre una decisión.|🤝 Asociación civil: Ciudadanos unidos para ayudar.|🙋 Voluntariado: Dar tiempo y trabajo sin pago.|⛪ Parroquia: Grupos que sirven a la comunidad.
+0|V|Un banco de alimentos reúne comida para quien la necesita.
+0|F|Solo los adultos pueden ayudar en su comunidad.
+1|¿Qué es el voluntariado?|ayudar sin recibir pago|trabajar por un sueldo|mandar a otros
+1|¿Cuál es una forma de participar en la escuela?|proponer ideas en la asamblea de grupo|quedarse callado siempre|romper los acuerdos
+1|¿Qué hace Cáritas?|ayuda a los necesitados en nombre de la Iglesia|organiza las elecciones del país|construye carreteras y puentes
+1|V|Organizados, los vecinos pueden resolver problemas de su colonia.
+2|O|Ordena cómo se organiza una comunidad|Detectar la necesidad|Organizarse|Actuar|Evaluar
+2|El parque de tu colonia está lleno de basura. ¿Qué propones?|organizar una jornada de limpieza|esperar a que alguien más lo limpie|dejar de ir al parque
+2|¿Qué dijo Jesús que son sus discípulos en el mundo?|sal de la tierra y luz del mundo|jueces de los demás|dueños del mundo
+2|F|Participar es criticar sin proponer nada.
+#6v8
+Z|Algunos daños al ambiente son casi <b>permanentes</b>: una especie extinta no regresa y un suelo erosionado tarda siglos en recuperarse.|Por eso <b>prevenir</b> es más fácil y barato que reparar.|Acciones: reforestar, ahorrar agua y energía, separar la basura y consumir con responsabilidad.
+E|Erosión: pérdida del suelo fértil|Ecología integral: cuidar la naturaleza y a los pobres
+S|¿Por qué es mejor prevenir el daño ambiental?|Si un bosque se tala, el suelo queda sin protección y la lluvia se lo lleva.|Recuperarlo tarda muchísimos años; a veces ya no se puede.|En cambio, cuidarlo hoy cuesta poco.|=Porque algunos daños son casi permanentes.
+I|🐾 Extinción: Una especie que desaparece no vuelve.|🏜️ Erosión: El suelo sin plantas se pierde.|🌳 Reforestar: Sembrar y cuidar árboles.|💧 Ahorrar: Agua y energía, sin desperdicio.
+0|V|Ahorrar agua es una forma de cuidar el ambiente.
+0|F|Un suelo erosionado se recupera en una semana.
+1|¿Qué protege al suelo de la erosión?|las raíces de las plantas|el viento fuerte|la basura
+1|¿Cuál es un consumo responsable?|comprar solo lo necesario|comprar por moda|tirar lo que sirve
+1|¿Cómo se separa la basura?|en orgánica e inorgánica|en grande y chica|en nueva y vieja
+1|V|Prevenir un daño ambiental es más fácil que repararlo.
+2|En tu casa hay una fuga de agua. ¿Qué haces?|aviso para que la reparen pronto|la dejo, es poca agua|pongo música para no oírla
+2|Después de una reforestación, ¿qué es lo más importante?|cuidar y regar los árboles|olvidarse de ellos|tomar la foto e irse
+2|O|Ordena de menor a mayor tiempo de recuperación|Recoger la basura de un parque|Que crezca un árbol|Que se recupere un suelo erosionado
+2|F|Como ya hay daños, no vale la pena cuidar nada.
+#6v9
+Z|Al terminar la primaria conozco mis <b>derechos y deberes</b>, sé dialogar, participar, cuidarme y cuidar a otros.|En la secundaria habrá nuevos retos y amigos: conviene mantener mis <b>valores</b>, mi fe, el estudio y la comunicación con mi familia.|Los jóvenes también pueden ser <b>santos</b>, como san José Sánchez del Río y san Carlo Acutis.
+E|San Carlo Acutis: «La Eucaristía es mi autopista al cielo»|San José Sánchez del Río: «¡Viva Cristo Rey!»
+S|Menciona un santo joven.|Vivió en nuestro tiempo: le gustaban las computadoras y el futbol.|Iba a Misa todos los días y creó un sitio web sobre los milagros eucarísticos.|Murió a los 15 años, en 2006, y fue canonizado en 2025.|=San Carlo Acutis.
+I|🪞 Me conozco: Sé quién soy y cuánto valgo.|🤝 Convivo: Dialogo y respeto a los demás.|🙋 Participo: Propongo y ayudo en mi comunidad.|✨ Sirvo: Pongo mis talentos al servicio, como los santos.
+0|V|Tengo derechos y también deberes.
+0|F|Al entrar a la secundaria conviene olvidar los valores aprendidos.
+1|¿Qué conviene mantener con la familia al crecer?|la comunicación y la confianza|los secretos y el silencio|la distancia y el enojo
+1|¿A qué edad murió san Carlo Acutis?|a los 15 años|a los 50 años|a los 90 años
+1|¿Qué gritó san José Sánchez del Río al dar su vida?|«¡Viva Cristo Rey!»|«¡Sálvese quien pueda!»|«¡Me rindo!»
+1|V|Saber dialogar me ayudará en la secundaria.
+2|O|Ordena el camino de tu formación|Me conozco|Convivo|Participo|Sirvo
+2|En la nueva escuela te invitan a burlarte de un compañero. ¿Qué haces?|no participo y lo trato con respeto|me uno para tener amigos|grabo la burla
+2|¿Qué decía san Carlo Acutis de la Eucaristía?|que es su autopista al cielo|que es solo una costumbre|que es para los adultos
+2|¿Qué necesitas para ser santo en tu vida diaria?|amar a Dios y al prójimo en lo pequeño|hacer cosas imposibles y raras|ser famoso y salir en las noticias

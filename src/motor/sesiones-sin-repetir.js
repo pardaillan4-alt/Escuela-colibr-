@@ -17,13 +17,17 @@ function seenMark(lid,e){if(!lid||!e)return;const a=seenOf(lid),h=h32(exKey(e)),
 function seenRank(lid,e){return seenOf(lid).indexOf(h32(exKey(e)))}
 /* Todas las preguntas fijas de una lección (ejercicios, retos y banco), como objetos nuevos */
 function staticPool(l,tier){const out=[];if(tier==null||tier==="*"){(l.ex||[]).forEach(e=>out.push(e));(l.rx||[]).forEach(e=>out.push(e))}
- const B=typeof QB!=="undefined"&&QB[l.id];if(B){(tier==null||tier==="*"?B.flat():(B[+tier]||[])).forEach(q=>{try{out.push(qbEx(q))}catch(e){}})}return out}
+ const B=typeof QB!=="undefined"&&QB[l.id];if(B){(tier==null||tier==="*"?B.flat():(B[+tier]||[])).forEach(q=>{try{out.push(qbEx(q))}catch(e){}})}
+ if(typeof tabPool==="function")try{out.push(...tabPool(l,tier))}catch(e){}return out}
+/* Las preguntas que salen de una misma tabla forman una «familia»: máximo FAMCAP por sesión, para que no sea monótona */
+const FAMCAP=3;
+function famOk(keys,e){const f=e&&e.__f;if(!f)return true;const fc=keys.fc=keys.fc||{};const cap=/s$/.test(f)?1:FAMCAP;if((fc[f]||0)>=cap)return false;fc[f]=(fc[f]||0)+1;return true}
 /* Elige hasta n preguntas de cands que no estén ya en la sesión, prefiriendo las menos vistas */
 function pickFresh(cands,keys,lid,n){const pool=[];const local=new Set();for(const e of cands){const k=exKey(e);if(keys.has(k)||local.has(k))continue;local.add(k);pool.push([seenRank(lid,e),Math.random(),e,k])}
- pool.sort((a,b)=>a[0]-b[0]||a[1]-b[1]);const out=[];for(const[, ,e,k]of pool){if(out.length>=n)break;keys.add(k);out.push(e)}return out}
+ pool.sort((a,b)=>a[0]-b[0]||a[1]-b[1]);const out=[];for(const[, ,e,k]of pool){if(out.length>=n)break;if(!famOk(keys,e))continue;keys.add(k);out.push(e)}return out}
 /* Pide una pregunta nueva a un generador; reintenta hasta encontrar una que no esté en la sesión */
-function genFresh(name,arg,keys,lid){if(!G[name])return null;let best=null,bestR=1e9;for(let t=0;t<14;t++){let e;try{e=G[name](arg)}catch(x){continue}if(!e)continue;const k=exKey(e);if(keys.has(k))continue;const r=seenRank(lid,e);if(r<0){keys.add(k);return e}if(r<bestR){bestR=r;best=e}}
- if(best){keys.add(exKey(best))}return best}
+function genFresh(name,arg,keys,lid){if(!G[name])return null;let best=null,bestR=1e9;for(let t=0;t<14;t++){let e;try{e=G[name](arg)}catch(x){continue}if(!e)continue;const k=exKey(e);if(keys.has(k))continue;if(e.__f){const fc=keys.fc||{};if((fc[e.__f]||0)>=(/s$/.test(e.__f)?1:FAMCAP))continue}const r=seenRank(lid,e);if(r<0){famOk(keys,e);keys.add(k);return e}if(r<bestR){bestR=r;best=e}}
+ if(best){famOk(keys,best);keys.add(exKey(best))}return best}
 function fromSources(l,src,keys,want){const out=[],onlyQB=(src||[]).every(x=>x[0]==="qb");for(const[name,cnt,arg]of src||[]){if(out.length>=want)break;
   /* en lecciones solo de banco, el nivel toma todo lo que haya en su grupo (hasta el tamaño de la sesión) */
   const n=name==="qb"&&onlyQB?want-out.length:Math.min(cnt||1,want-out.length);
@@ -45,6 +49,8 @@ buildLevel=function(l,n){const keys=new Set(),want=LVWANT[n-1]||8;let list=[];
 buildList=function(l){const keys=new Set();let list=pickFresh(l.ex||[],keys,l.id,12);list.push(...fromSources(l,l.g,keys,Math.max(0,12-list.length)));if(list.length<LVMIN)topUp(l,list,keys,LVMIN);return shuf(list)};
 /* Banco para exámenes: preguntas distintas de una lección */
 qpool=function(l,k){const keys=new Set();const list=pickFresh(staticPool(l),keys,l.id,40);const gens=[...(l.g||[]),...((l.lv||[]).flat())].filter(x=>x[0]!=="qb");for(const[name,cnt,arg]of gens){for(let i=0;i<Math.min(cnt||1,k);i++){const e=genFresh(name,arg,keys,l.id);if(e)list.push(e);else break}}return list};
+/* En retos de unidad y exámenes, las lecciones con tablas de práctica también aportan preguntas de sus tablas */
+{const _qb=G.qb;G.qb=a=>{try{const id=String(a).split(":")[0];if(typeof QK!=="undefined"&&(QK[id]||QP[id])&&Math.random()<.3){const L=enrLesson(id);if(L){const p=tabPool(L,"*");if(p.length)return pick(p)}}}catch(e){}return _qb(a)}}
 /* Quita repetidas de cualquier lista ya armada (exámenes, repaso) */
 function dedupeList(list){const keys=new Set();return list.filter(e=>{const k=exKey(e);if(keys.has(k))return false;keys.add(k);return true})}
 /* Reto de cálculo mental sin operaciones repetidas */

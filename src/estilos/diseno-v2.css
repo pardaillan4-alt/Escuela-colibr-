@@ -616,3 +616,15 @@ table.prog.pg2 th:nth-child(3),table.prog.pg2 td:nth-child(3){width:20%;text-ali
 
 /* ---------- Movimiento reducido ---------- */
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* ---------- Infografía (v2): dos columnas también en el teléfono ---------- */
+.ig-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px}
+.ig-grid .ig-cell:last-child:nth-child(odd){grid-column:1/-1}
+.ig-cell{padding:12px 8px 14px;border-radius:var(--r-md,16px);gap:6px}
+.ig-cell b{font-size:16.5px;line-height:1.2;overflow-wrap:anywhere}
+.ig-cell p{margin:0;font-size:13.5px;line-height:1.35;color:var(--ink)}
+.ig-facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px}
+.ig-facts .ig-fact:last-child:nth-child(odd){grid-column:1/-1}
+.ig-fact{padding:12px 8px;font-size:13.5px;line-height:1.35}
+.ig-fact .ig-big{white-space:normal;font-size:clamp(20px,5.4vw,30px);line-height:1.05}
+@media(min-width:700px){.ig-grid,.ig-facts{gap:14px;padding:18px}.ig-cell b{font-size:18px}.ig-cell p,.ig-fact{font-size:15px}}

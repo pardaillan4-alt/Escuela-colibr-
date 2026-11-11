@@ -1,0 +1,340 @@
+// Religión Católica 6.º — profundización y banco ampliado
+#6r1
+Z|Creemos en <b>un solo Dios</b> en <b>tres Personas</b> distintas: Padre, Hijo y Espíritu Santo.|Las tres Personas son iguales y eternas: ninguna es más grande ni más antigua que otra.|Es el <b>misterio central</b> de la fe: lo conocemos porque Jesús nos lo reveló.
+E|Señal de la cruz: «En el nombre del Padre, y del Hijo, y del Espíritu Santo»|Trébol: tres hojas, una sola planta
+S|¿Qué Persona de la Trinidad se hizo hombre?|El Padre envió a su Hijo al mundo para salvarnos.|El Hijo tomó nuestra carne en el seno de la Virgen María, por obra del Espíritu Santo.|Por eso el ángel dijo a María: «Será llamado Hijo de Dios».|=El Hijo: Jesucristo.
+I|👑 Padre: Creador del cielo y de la tierra.|✝️ Hijo: Jesucristo, nuestro Redentor.|🕊️ Espíritu Santo: Nos santifica y da vida a la Iglesia.|☘️ Un solo Dios: Tres Personas distintas, iguales y eternas.
+0|V|Nos bautizan en el nombre del Padre, y del Hijo, y del Espíritu Santo.
+0|F|Los cristianos creemos en tres dioses.
+1|¿Cuántas Personas hay en Dios?|tres|una|siete
+1|¿Con qué oración sencilla confesamos a la Trinidad?|con la señal de la cruz|con el Ángelus|con el acto penitencial
+1|¿Cómo conocemos el misterio de la Trinidad?|porque Jesús nos lo reveló|porque lo inventaron los sabios|porque lo vimos en el cielo
+1|F|El Padre es más Dios que el Hijo y que el Espíritu Santo.
+2|¿Qué oración breve alaba a las tres Personas?|«Gloria al Padre, y al Hijo, y al Espíritu Santo»|«Dios te salve, María, llena eres de gracia»|«Ángel de mi guarda, dulce compañía»
+2|En el Bautismo de Jesús se manifestó la Trinidad. ¿Cómo apareció el Espíritu Santo?|en forma de paloma|en forma de fuego|en forma de nube
+2|¿Qué nos enseña que Dios sea Trinidad?|que Dios es comunión de amor|que Dios está solo|que Dios está lejos
+2|V|Las tres Personas divinas actúan siempre juntas.
+P|¿Qué obra se atribuye {x}?|¿A qué Persona divina se atribuye {x}?|al Padre = la creación|al Hijo = la redención|al Espíritu Santo = la santificación
+#6r13
+Z|Jesucristo es <b>verdadero Dios y verdadero hombre</b>: una sola Persona divina con dos naturalezas, la divina y la humana.|Los concilios de Nicea (325), Éfeso (431) y Calcedonia (451) defendieron esta verdad.|Sus títulos nos dicen quién es: Mesías, Señor, Hijo de Dios, Salvador, Buen Pastor.
+E|Cristo = Mesías = Ungido|Encarnación: el Hijo de Dios se hizo hombre
+S|¿Qué significa «Cristo»?|«Cristo» es una palabra griega; en hebreo se dice «Mesías».|Las dos significan «Ungido»: en Israel se ungía con aceite a reyes, sacerdotes y profetas.|Jesús es el Ungido por el Espíritu Santo, el Salvador esperado.|=Ungido (Mesías).
+I|👑 Señor: Jesús es Dios, igual al Padre.|🧒 Verdadero hombre: Nació de María, trabajó, sufrió y murió.|🐑 Buen Pastor: Conoce a sus ovejas y da la vida por ellas.|💡 Luz del mundo: Quien lo sigue no camina en tinieblas.
+0|V|Jesús nació de la Virgen María.
+0|F|Jesús solo parecía hombre, pero no lo era de verdad.
+1|¿Cuántas naturalezas tiene Jesucristo?|dos: divina y humana|una sola|tres
+1|¿Cómo se llama el misterio del Hijo de Dios hecho hombre?|Encarnación|Ascensión|Pentecostés
+1|¿Qué concilio llamó a María «Madre de Dios»?|Éfeso|Trento|Vaticano II
+1|V|Jesús, como hombre, sintió hambre, cansancio y tristeza.
+2|¿Por qué María es llamada Madre de Dios?|porque su Hijo Jesús es Dios|porque ella es una diosa|porque así le dicen de cariño
+2|¿Qué proclamó el Concilio de Nicea sobre Jesús?|que es Dios como el Padre|que es solo un profeta|que es un ángel
+2|¿Con qué título se presentó Jesús como alimento?|Pan de vida|Buen Pastor|Luz del mundo
+2|F|Jesús dejó de ser Dios cuando se hizo hombre.
+P|¿Qué significa el nombre «{x}»?||Jesús = Dios salva|Cristo = Ungido|Emmanuel = Dios con nosotros
+P|¿En qué año fue el Concilio de {x}?||Nicea = 325|Éfeso = 431|Calcedonia = 451
+#6r14
+Z|El <b>Espíritu Santo</b> es la tercera Persona de la Trinidad: Señor y dador de vida, que procede del Padre y del Hijo.|Sus símbolos son el agua, el fuego, la paloma, el viento y la unción con aceite.|Santifica a la Iglesia, inspiró las Escrituras, reparte sus dones y nos enseña a orar.
+E|Pentecostés: 50 días después de la Pascua|«Ven, Espíritu Santo»
+S|Menciona tres símbolos del Espíritu Santo.|En el Bautismo de Jesús bajó como paloma.|En Pentecostés llegó con ruido de viento y lenguas de fuego.|En el Bautismo y la Confirmación actúa con el agua y la unción.|=Paloma, viento y fuego (también agua y unción).
+I|🔥 Fuego: Enciende el corazón de amor.|🕊️ Paloma: Bajó sobre Jesús en su Bautismo.|💨 Viento: Soplo de vida y de fuerza.|💧 Agua: Vida nueva en el Bautismo.
+0|V|El Espíritu Santo es la tercera Persona de la Santísima Trinidad.
+0|F|El Espíritu Santo es solo una fuerza, no una Persona.
+1|¿Cuándo vino el Espíritu Santo sobre los apóstoles?|en Pentecostés|en Navidad|en la Última Cena
+1|¿De quién procede el Espíritu Santo?|del Padre y del Hijo|de los ángeles|de los profetas
+1|¿Quiénes estaban reunidos en oración en Pentecostés?|María y los apóstoles|los pastores de Belén|los Magos de Oriente
+1|V|El Espíritu Santo habló por medio de los profetas.
+2|Después de Pentecostés, ¿qué hicieron los apóstoles?|salieron a anunciar a Jesús sin miedo|se escondieron otra vez|volvieron a pescar para siempre
+2|¿En qué sacramento recibimos la fuerza del Espíritu para ser testigos?|la Confirmación|la Unción de los enfermos|el Matrimonio
+2|¿Qué le pedimos al decir «Ven, Espíritu Santo»?|que encienda en nosotros el fuego de su amor|que nos quite las tareas de la escuela|que nos haga famosos en todo el mundo
+2|O|Ordena según sucedió|Resurrección de Jesús|Ascensión al cielo|Pentecostés|Los apóstoles predican
+#6r2
+Z|Dios creó <b>todo de la nada</b>, por amor: lo visible y lo invisible.|Los <b>ángeles</b> son criaturas espirituales que sirven a Dios y nos protegen: Miguel, Gabriel, Rafael y nuestro ángel de la guarda.|El <b>ser humano</b> es unidad de cuerpo y alma, creado hombre y mujer a imagen de Dios.
+E|Miguel: «¿Quién como Dios?»|Ángel de la guarda: nos cuida desde que nacemos
+S|¿Qué arcángel anunció a María que sería Madre de Dios?|Dios envió a un arcángel a Nazaret.|La saludó: «Alégrate, llena de gracia, el Señor está contigo».|María respondió: «Hágase en mí según tu palabra».|=San Gabriel.
+I|🌍 Creación: Dios hizo todo de la nada, por amor.|👼 Ángeles: Espíritus que sirven a Dios y nos cuidan.|🧍 Ser humano: Cuerpo y alma, a imagen de Dios.|🔬 Fe y ciencia: La ciencia dice cómo; la fe, quién y para qué.
+0|V|Dios creó todo por amor.
+0|F|Los ángeles tienen cuerpo como nosotros.
+1|¿Qué significa crear «de la nada»?|que Dios no necesitó nada para crear|que el mundo no existe|que todo se hizo solo
+1|¿Qué es el alma?|la parte espiritual e inmortal de la persona|una parte del cuerpo, como el corazón|un pensamiento que tenemos al dormir
+1|¿Quién nos cuida desde que nacemos?|el ángel de la guarda|san Gabriel|san Rafael
+1|V|Dios creó al ser humano hombre y mujer.
+2|¿Para qué creó Dios al ser humano?|para conocerlo, amarlo y ser feliz con Él|para estar solo|para trabajar sin descanso
+2|¿Qué significa el nombre de san Miguel?|«¿Quién como Dios?»|«Dios cura»|«Fuerza de Dios»
+2|¿Por qué no se oponen la fe y la ciencia?|porque responden a preguntas distintas|porque la ciencia se equivoca siempre|porque la fe no dice nada del mundo
+2|¿Qué día celebramos a los santos ángeles custodios?|el 2 de octubre|el 25 de diciembre|el 1 de enero
+#6r15
+Z|La Biblia está <b>inspirada</b>: Dios es su autor y se valió de autores humanos guiados por el Espíritu Santo.|Se lee <b>en la Iglesia</b>, con la Tradición y el Magisterio, fijándose en el género literario de cada libro.|La <b>lectio divina</b> es orar con la Biblia en cuatro pasos: leer, meditar, orar y contemplar.
+E|73 libros: 46 del Antiguo y 27 del Nuevo Testamento|«Ignorar las Escrituras es ignorar a Cristo»
+S|¿Cuáles son los pasos de la lectio divina?|Leer: ¿qué dice el texto?|Meditar: ¿qué me dice a mí?|Orar: ¿qué le digo yo a Dios?|Contemplar: me quedo en silencio con Él.|=Leer, meditar, orar y contemplar.
+I|✍️ Inspirada: Dios es el autor; usó autores humanos.|📚 73 libros: 46 del Antiguo y 27 del Nuevo Testamento.|⛪ En la Iglesia: Se interpreta con la Tradición y el Magisterio.|🙏 Lectio divina: Leer, meditar, orar y contemplar.
+0|V|La Biblia tiene Antiguo y Nuevo Testamento.
+0|F|La Biblia la escribió una sola persona en un solo año.
+1|¿Cuántos libros tiene la Biblia católica?|73|27|100
+1|¿Qué significa que la Biblia está inspirada?|que Dios es su autor principal|que es un libro muy antiguo|que tiene muchos dibujos
+1|¿En qué parte de la Biblia están los Evangelios?|en el Nuevo Testamento|en el Antiguo Testamento|en los Salmos
+1|¿Qué género literario usó Jesús para enseñar con historias?|las parábolas|las cartas|las leyes
+2|O|Ordena los pasos de la lectio divina|Leer|Meditar|Orar|Contemplar
+2|¿Qué quiso decir san Jerónimo con «ignorar las Escrituras es ignorar a Cristo»?|que en la Biblia conocemos a Jesús|que no hay que leer|que la Biblia es difícil
+2|¿Quién nos ayuda a interpretar bien la Biblia?|la Iglesia, con su Magisterio|cada quien como quiera|cualquier página de internet
+2|V|Los salmos son oraciones en forma de poesía.
+#6r3
+Z|Los primeros cristianos sufrieron <b>persecuciones</b>: los mártires dieron la vida por Cristo hasta el Edicto de Milán (313).|Los concilios de Nicea y Constantinopla formularon el <b>Credo</b>; los Padres de la Iglesia explicaron la fe.|En la Edad Media, los monasterios, las universidades y las órdenes de san Francisco y santo Domingo llenaron Europa de fe y cultura.
+E|Mártir: testigo que da la vida por Cristo|Padres de la Iglesia: san Agustín, san Jerónimo
+S|¿Por qué decimos que la Iglesia es santa si tiene pecadores?|La Iglesia es el Cuerpo de Cristo, y Cristo, su cabeza, es santo.|Él la santifica con su Palabra y sus sacramentos.|Sus miembros somos pecadores en camino de conversión.|=Porque Cristo, su cabeza, es santo y la santifica.
+I|🩸 Mártires: Dieron la vida antes que negar a Cristo.|📜 Credo: Formulado en Nicea y Constantinopla.|📚 Monasterios: San Benito: «Ora et labora».|👣 Mendicantes: San Francisco y santo Domingo predicaron en pobreza.
+0|V|Los mártires dieron la vida por su fe en Cristo.
+0|F|Los primeros cristianos nunca fueron perseguidos.
+1|¿Qué permitió el Edicto de Milán en el año 313?|la libertad de los cristianos|la persecución de los cristianos|la construcción de pirámides
+1|¿Quién fundó la Orden de Predicadores (dominicos)?|santo Domingo de Guzmán|san Benito|san Agustín
+1|¿Cuál de estos es un Padre de la Iglesia?|san Agustín|san Juan Bosco|san Juan Diego
+1|V|En el Credo resumimos lo que creemos los cristianos.
+2|O|Ordena de lo más antiguo a lo más reciente|Persecuciones y mártires|Edicto de Milán (313)|Concilio de Nicea (325)|San Francisco de Asís
+2|¿Qué significa la palabra «mártir»?|testigo|soldado|maestro
+2|¿Cómo vivían san Francisco y sus frailes?|en pobreza, predicando el Evangelio|en grandes palacios|escondidos en cuevas toda la vida
+2|¿Qué han hecho los papas ante los errores de los hijos de la Iglesia?|pedir perdón|negarlos|esconderlos
+#6r4
+Z|El <b>Concilio de Trento</b> renovó la Iglesia; santos como Ignacio, Teresa y Francisco Javier impulsaron la reforma y las misiones.|El <b>Concilio Vaticano II</b> (1962-1965) renovó la liturgia, el diálogo con el mundo y recordó que todos estamos llamados a la santidad.|En México, la fe echó raíces con Guadalupe, los mártires y muchos santos.
+E|Vaticano II: 1962-1965|San Francisco Javier: patrono de las misiones
+S|¿Qué concilio renovó la Iglesia en el siglo XX?|El papa san Juan XXIII quiso «abrir las ventanas» de la Iglesia.|Convocó a todos los obispos del mundo en Roma, de 1962 a 1965.|Lo concluyó san Pablo VI.|=El Concilio Vaticano II.
+I|⛪ Trento: Reforma católica y formación de sacerdotes.|🌏 Misiones: San Francisco Javier llevó el Evangelio a Asia.|🕊️ Vaticano II: Renovación y llamada universal a la santidad.|🇲🇽 México: Guadalupe, mártires y santos.
+0|V|San Francisco Javier fue un gran misionero.
+0|F|El Concilio Vaticano II se celebró en la Edad Media.
+1|¿Qué papa concluyó el Concilio Vaticano II?|san Pablo VI|san Pío X|san Pedro
+1|¿Qué renovó el Vaticano II para que el pueblo participara mejor?|la liturgia|los castillos|las cruzadas
+1|¿De qué orden era san Francisco Javier?|de los jesuitas|de los benedictinos|de los franciscanos
+1|V|San Juan Pablo II quiso mucho a México y lo visitó varias veces.
+2|¿Qué significa la «llamada universal a la santidad»?|que todos podemos y debemos ser santos|que solo los sacerdotes son santos|que la santidad ya no existe
+2|O|Ordena de lo más antiguo a lo más reciente|Concilio de Trento|Concilio Vaticano I (1870)|Concilio Vaticano II (1962)|San Juan Pablo II visita México
+2|¿Qué hago cuando el papa habla a la Iglesia?|lo escucho y rezo por él|no le hago caso|pienso que no es para mí
+2|¿Quién es hoy el sucesor de san Pedro?|el papa|cada obispo|el párroco
+#6r20
+Z|México tiene muchos <b>santos</b>: san Felipe de Jesús, san Juan Diego, santo Toribio Romo, san Rafael Guízar, san José Sánchez del Río.|Vivieron la fe en su tiempo con misión, caridad, valentía y, algunos, con el <b>martirio</b>.|Los mártires mexicanos murieron perdonando y proclamando: <b>«¡Viva Cristo Rey!»</b>.
+E|San Felipe de Jesús: fiesta el 5 de febrero|San Juan Diego: fiesta el 9 de diciembre
+S|¿Qué santo mexicano murió mártir en Japón?|Nació en la Ciudad de México y se hizo fraile franciscano.|Su barco, rumbo a México, fue arrastrado por una tormenta hasta Japón.|Ahí lo crucificaron por ser cristiano, en Nagasaki, en 1597.|=San Felipe de Jesús.
+I|🌹 San Juan Diego: Mensajero de la Virgen de Guadalupe.|✝️ San Felipe de Jesús: Primer santo mexicano, mártir en Japón.|⛪ San Rafael Guízar: Obispo misionero de Veracruz.|🧒 San José Sánchez del Río: Mártir a los 14 años.
+0|V|San Felipe de Jesús fue fraile franciscano.
+0|F|Ningún niño mexicano ha sido declarado santo.
+1|¿A quién se apareció la Virgen de Guadalupe?|a san Juan Diego|a san Felipe de Jesús|a santo Toribio Romo
+1|¿En qué ciudad murió san Felipe de Jesús?|Nagasaki|Roma|Jerusalén
+1|¿Qué fue santo Toribio Romo?|un sacerdote mártir|un rey|un soldado romano
+1|V|Santa María de Jesús Sacramentado fue la primera santa mexicana.
+2|¿Cómo murieron los mártires mexicanos?|perdonando a sus perseguidores|con odio y venganza|negando su fe
+2|¿A qué edad dio su vida san José Sánchez del Río?|a los 14 años|a los 40 años|a los 80 años
+2|¿Para qué leemos la vida de los santos?|para imitarlos y pedir su intercesión|para adorarlos como a Dios|para pasar el rato
+2|F|Solo se puede ser santo si se muere mártir.
+P|¿Quién fue {x}?|¿De qué santo hablamos? Fue {x}.|san Felipe de Jesús = el primer santo mexicano, mártir en Japón|san Juan Diego = el mensajero de la Virgen de Guadalupe|san Rafael Guízar = el obispo misionero de Veracruz|santo Toribio Romo = un sacerdote mártir de la persecución|san José Sánchez del Río = un niño mártir de 14 años
+#6r21
+Z|Católicos, ortodoxos y protestantes creemos en Cristo, pero estamos separados: esa división es una herida.|El <b>ecumenismo</b> es el esfuerzo por la unidad de todos los cristianos, como pidió Jesús: «Que todos sean uno».|Con las demás religiones dialogamos con respeto, y anunciamos a Cristo con caridad y verdad.
+E|Semana de oración por la unidad: 18 al 25 de enero|Judíos: nuestros hermanos mayores en la fe
+S|¿Qué es el ecumenismo?|Jesús fundó una sola Iglesia, pero a lo largo de los siglos hubo separaciones.|Él oró al Padre: «Que todos sean uno» (Jn 17, 21).|Por eso rezamos, dialogamos y trabajamos juntos para volver a la unidad.|=El esfuerzo por la unidad de todos los cristianos.
+I|🤝 Ecumenismo: Buscar la unidad de los cristianos.|🙏 Oración: Del 18 al 25 de enero rezamos por la unidad.|✡️ Judíos: Nuestros hermanos mayores en la fe.|📣 Anuncio: Mostramos a Cristo con caridad y verdad.
+0|V|Los cristianos ortodoxos y protestantes creen en Jesucristo.
+0|F|La división entre los cristianos es algo bueno.
+1|¿Qué oración podemos rezar juntos todos los cristianos?|el Padrenuestro|ninguna|solo oraciones secretas
+1|¿Por qué llamamos a los judíos «hermanos mayores»?|porque Dios se reveló primero a su pueblo|porque son más altos que nosotros|porque viven muchos más años
+1|¿Qué sacramento nos une a todos los cristianos?|el Bautismo|el Orden|la Unción de los enfermos
+1|V|Jesús quiere que todos sus discípulos estén unidos.
+2|Un amigo de otra iglesia cristiana te invita a rezar el Padrenuestro. ¿Qué haces?|rezo con él con alegría|me burlo de su iglesia|me voy enojado
+2|¿Cómo anunciamos a Cristo a quien no lo conoce?|con caridad, respeto y buen ejemplo|a la fuerza|con burlas a su religión
+2|¿Qué podemos hacer por la unidad de los cristianos?|rezar y tratarnos como hermanos|discutir hasta ganar|ignorarnos
+2|F|Dialogar con otras religiones significa renunciar a nuestra fe.
+#6r5
+Z|La <b>Confirmación</b> perfecciona la gracia del Bautismo: nos une más a Cristo y a la Iglesia.|Nos da la fuerza del <b>Espíritu Santo</b> para ser testigos de Jesús con palabras y obras.|El obispo impone las manos y unge la frente con el <b>santo crisma</b>: «Recibe por esta señal el don del Espíritu Santo».
+E|Siete dones del Espíritu Santo|Crisma: aceite perfumado y consagrado
+S|¿Qué dice el obispo al ungir la frente?|El confirmando se acerca con su padrino o madrina.|El obispo le traza la cruz en la frente con el santo crisma.|Dice: «Recibe por esta señal el don del Espíritu Santo», y se responde: «Amén».|=«Recibe por esta señal el don del Espíritu Santo».
+I|🕊️ Espíritu Santo: Nos da su fuerza y sus siete dones.|🫒 Crisma: Aceite consagrado con que se unge la frente.|🧑‍🤝‍🧑 Padrino: Acompaña y da buen ejemplo.|📣 Testigos: Anunciamos a Jesús con la vida.
+0|V|El obispo es quien ordinariamente confirma.
+0|F|La Confirmación se puede recibir muchas veces.
+1|¿Qué sacramento perfecciona la Confirmación?|el Bautismo|el Matrimonio|la Penitencia
+1|¿En qué parte del cuerpo se unge al confirmando?|en la frente|en las manos|en los pies
+1|¿Qué se responde cuando el obispo unge con el crisma?|«Amén»|«Gracias»|«Adiós»
+1|¿Cuál es la misión del padrino de Confirmación?|acompañar y dar buen ejemplo de fe|dar el regalo más caro de todos|organizar la fiesta y la comida
+2|¿Para qué nos fortalece el Espíritu Santo en la Confirmación?|para ser testigos de Cristo|para sacar dieces|para ganar en los deportes
+2|Un compañero se burla de que vas a Misa. ¿Qué don del Espíritu te ayuda?|fortaleza|temor|ciencia
+2|¿Cómo me preparo para la Confirmación?|con catequesis, oración y confesión|comprando ropa nueva|no hace falta prepararse
+2|O|Ordena el rito de la Confirmación|Renovar las promesas del Bautismo|Imposición de manos|Unción con el crisma|Saludo de paz
+K|{x}: ¿don o fruto del Espíritu Santo?|¿Don o fruto del Espíritu Santo?|don: la sabiduría; el entendimiento; el consejo; la fortaleza; la ciencia; la piedad; el temor de Dios|fruto: el amor; la alegría; la paz; la paciencia; la bondad; la mansedumbre
+#6r6
+Z|La Misa tiene dos grandes partes: la <b>Liturgia de la Palabra</b> y la <b>Liturgia eucarística</b>, con ritos iniciales y de conclusión.|En la <b>consagración</b>, el pan y el vino se convierten en el Cuerpo y la Sangre de Cristo.|La Misa hace presente el único <b>sacrificio de Cristo</b> en la cruz; al final somos enviados a llevarlo al mundo.
+E|Homilía: explicación de la Palabra de Dios|«Pueden ir en paz» — «Demos gracias a Dios»
+S|¿Cuáles son las dos grandes partes de la Misa?|Primero Dios nos habla: lecturas, salmo, Evangelio y homilía.|Después Jesús se ofrece y se nos da: ofertorio, consagración y comunión.|Son las dos «mesas»: la de la Palabra y la del Pan.|=La Liturgia de la Palabra y la Liturgia eucarística.
+I|🙏 Ritos iniciales: Saludo, perdón, Gloria y oración.|📖 Palabra: Lecturas, salmo, Evangelio, homilía y Credo.|🍞 Eucaristía: Ofertorio, consagración y comunión.|🚶 Envío: Bendición y «pueden ir en paz».
+0|V|La Misa hace presente el sacrificio de Jesús en la cruz.
+0|F|En la Misa el pan consagrado es solo un símbolo.
+1|¿Qué rezamos después de la homilía los domingos?|el Credo|el Ángelus|el Rosario
+1|¿En qué momento el pan se convierte en el Cuerpo de Cristo?|en la consagración|en el Gloria|en la colecta
+1|¿Qué respondemos a «Pueden ir en paz»?|«Demos gracias a Dios»|«Y con tu espíritu»|«Amén, aleluya»
+1|¿Qué hacemos en el acto penitencial?|pedimos perdón por nuestros pecados|damos la ofrenda|recibimos la bendición
+2|¿Qué se necesita para comulgar bien?|estar en gracia de Dios y guardar el ayuno|tener hambre y llegar con prisa|llegar tarde y salir antes de terminar
+2|O|Ordena las partes de la Misa|Ritos iniciales|Liturgia de la Palabra|Liturgia eucarística|Ritos de conclusión
+2|¿Para qué nos envía el sacerdote al final de la Misa?|para llevar a Cristo a los demás|para olvidar lo que oímos|para descansar toda la semana
+2|¿Qué hacemos durante la consagración?|nos arrodillamos y adoramos|platicamos en voz baja|salimos de la iglesia
+K|{x}: ¿en qué parte de la Misa está?|¿En qué parte de la Misa está?|Ritos iniciales: el acto penitencial; el Gloria|Liturgia de la Palabra: el Evangelio; la homilía; el Credo; el salmo|Liturgia eucarística: la consagración; el Padrenuestro; la comunión; el ofertorio|Ritos de conclusión: la bendición final; el envío
+#6r16
+Z|En la <b>Penitencia</b>, Jesús perdona los pecados por medio del sacerdote; el secreto de confesión es absoluto.|Pasos: examen de conciencia, arrepentimiento (contrición), confesión, absolución y penitencia.|La <b>Unción de los enfermos</b> da fuerza, paz y perdón a los enfermos graves y a los ancianos.
+E|Contrición: dolor de haber ofendido a Dios|«Jesús, en ti confío»
+S|¿Qué es la contrición?|No es solo sentirse mal porque me descubrieron.|Es dolor por haber ofendido a Dios, que me ama tanto.|Va unida al propósito de no volver a pecar.|=El dolor de haber ofendido a Dios, con el propósito de no volver a pecar.
+I|🔎 Examen: Reviso mi vida a la luz de los mandamientos.|💔 Contrición: Me duele haber ofendido a Dios.|🗣️ Confesión: Digo mis pecados al sacerdote.|🫒 Unción: Óleo que da fuerza y paz a los enfermos.
+0|V|En la confesión, es Jesús quien perdona por medio del sacerdote.
+0|F|El sacerdote puede contar a otros lo que escuchó en confesión.
+1|¿Qué es el examen de conciencia?|revisar mis actos para reconocer mis pecados|una prueba escrita que ponen en la escuela|una oración que se reza al despertar
+1|¿Con qué se unge a los enfermos?|con el óleo de los enfermos|con agua bendita|con ceniza
+1|¿Qué hago después de recibir la absolución?|cumplo la penitencia|me olvido de todo|vuelvo a confesar lo mismo
+1|V|La Unción de los enfermos puede recibirse más de una vez.
+2|O|Ordena los pasos de una buena confesión|Examen de conciencia|Arrepentimiento|Confesar los pecados|Absolución|Cumplir la penitencia
+2|Tu abuelita está muy enferma. ¿Qué pueden hacer por ella?|llamar a un sacerdote para la Unción|esperar a que no se entere|no decirle nada a nadie
+2|¿Qué nos enseña la devoción a la Divina Misericordia?|a confiar en el perdón de Jesús|a tenerle miedo a Dios|a no confesarnos nunca
+2|¿Por qué es bueno confesarse con frecuencia?|porque recibimos perdón y fuerza para mejorar|porque es una costumbre sin sentido|porque así nadie nos regaña
+#6r17
+Z|El <b>Matrimonio</b> es la alianza de un hombre y una mujer para toda la vida: fiel y abierta a los hijos.|Es signo del amor de Cristo por su Iglesia; los esposos se dan el sacramento uno al otro.|El <b>Orden</b> tiene tres grados (obispos, presbíteros y diáconos) para enseñar, santificar y guiar al pueblo de Dios.
+E|Matrimonio: uno con una, para siempre|Orden: obispo, presbítero, diácono
+S|¿Cuáles son las propiedades del Matrimonio?|Unidad: un solo hombre con una sola mujer, fieles el uno al otro.|Indisolubilidad: «Lo que Dios unió, que no lo separe el hombre».|Apertura a la vida: reciben con amor a los hijos que Dios les dé.|=Unidad e indisolubilidad, abierto a la vida.
+I|💍 Matrimonio: Un hombre y una mujer unidos para siempre.|👶 Familia: Los esposos reciben y educan a los hijos.|⛪ Obispo: Sucesor de los apóstoles; guía una diócesis.|✝️ Presbítero: El sacerdote celebra la Misa y perdona los pecados.
+0|V|Los esposos se prometen fidelidad para toda la vida.
+0|F|El sacramento del Orden lo puede dar cualquier persona.
+1|¿Quién ordena a los sacerdotes?|el obispo|el diácono|el padrino
+1|¿De quiénes son sucesores los obispos?|de los apóstoles|de los profetas|de los reyes de Israel
+1|¿Quiénes son los ministros del sacramento del Matrimonio?|los propios esposos|los padrinos|los invitados
+1|V|El sacerdote puede celebrar la Misa y perdonar los pecados.
+2|¿Qué significa que el Matrimonio es indisoluble?|que dura hasta la muerte|que dura mientras haya fiesta|que puede terminar cuando quieran
+2|¿Qué dijo Jesús sobre los esposos?|«Lo que Dios unió, que no lo separe el hombre»|«Cada quien puede irse por su lado»|«Únanse solo por un tiempo y ya»
+2|¿Qué hace un diácono?|proclama el Evangelio, predica y bautiza|consagra el pan y el vino|ordena sacerdotes
+2|¿Por qué rezamos por las vocaciones?|para que haya familias y sacerdotes santos|para que haya menos trabajo|para tener más fiestas
+#6r7
+Z|El <b>año litúrgico</b> nos hace vivir cada año los misterios de Cristo: empieza con el Adviento y tiene su centro en la <b>Pascua</b>.|Tiempos: Adviento, Navidad, Tiempo Ordinario, Cuaresma, Triduo Pascual y Pascua.|Los <b>colores</b> nos ayudan: morado (preparación), blanco (fiesta), verde (esperanza) y rojo (Espíritu Santo y mártires).
+E|Adviento: 4 semanas antes de Navidad|Cuaresma: 40 días antes de la Pascua
+S|¿Qué tiempo es el centro del año litúrgico?|Lo más importante de nuestra fe es que Jesús murió y resucitó.|Lo celebramos en el Triduo Pascual: Jueves Santo, Viernes Santo y Vigilia Pascual.|La alegría continúa 50 días, hasta Pentecostés.|=La Pascua.
+I|🟣 Morado: Adviento y Cuaresma: preparación.|⚪ Blanco: Navidad y Pascua: fiesta y alegría.|🟢 Verde: Tiempo Ordinario: esperanza.|🔴 Rojo: Pentecostés, Viernes Santo y mártires.
+0|V|El año litúrgico comienza con el Adviento.
+0|F|La Cuaresma dura una semana.
+1|¿Cuántos días dura el tiempo de Pascua?|50 días|7 días|100 días
+1|¿Con qué día comienza la Cuaresma?|Miércoles de Ceniza|Domingo de Ramos|Jueves Santo
+1|¿Qué celebramos el Jueves Santo?|la Última Cena|la Resurrección|la Navidad
+1|¿Qué fiesta cierra el tiempo de Pascua?|Pentecostés|Epifanía|Corpus Christi
+2|O|Ordena los tiempos del año litúrgico|Adviento|Navidad|Cuaresma|Pascua
+2|El sacerdote viste de rojo. ¿Qué puede celebrarse?|la fiesta de un mártir|la Navidad|un domingo de Adviento
+2|¿Por qué la Pascua es el centro del año litúrgico?|porque celebra la Resurrección de Jesús|porque en esos días hay vacaciones|porque siempre cae en primavera
+2|¿Qué días forman el Triduo Pascual?|Jueves Santo, Viernes Santo y Vigilia Pascual|lunes, martes y miércoles santos|Navidad, Año Nuevo y Reyes
+P|¿Qué color litúrgico se usa en {x}?||Adviento = morado|Cuaresma = morado|Navidad = blanco|Pascua = blanco|el Viernes Santo = rojo|el Domingo de Ramos = rojo
+#6r18
+Z|Los <b>Diez Mandamientos</b> son el camino de la vida que Dios dio a Moisés en el Sinaí.|Los tres primeros enseñan el <b>amor a Dios</b>; los otros siete, el <b>amor al prójimo</b>.|Jesús los resumió en dos: amar a Dios sobre todas las cosas y al prójimo como a uno mismo.
+E|1.º al 3.º: amor a Dios|4.º al 10.º: amor al prójimo
+S|¿Qué mandamiento protege la vida?|Busca entre los mandamientos del amor al prójimo.|El 4.º protege a la familia; el 6.º y el 9.º, la pureza; el 7.º y el 10.º, los bienes; el 8.º, la verdad.|El que dice «No matarás» defiende toda vida humana.|=El quinto.
+I|🙏 1.º a 3.º: Amar, respetar y dar culto a Dios.|🏠 4.º: Honrar a papá y mamá.|❤️ 5.º: Respetar toda vida humana.|🗣️ 8.º: Decir siempre la verdad.
+0|V|Dios dio los mandamientos a Moisés en el monte Sinaí.
+0|F|Los mandamientos son una carga que nos quita la libertad.
+1|¿Cuántos mandamientos se refieren al amor a Dios?|los tres primeros|los siete últimos|solo el décimo
+1|¿Qué pide el 3.er mandamiento?|santificar las fiestas|no robar|honrar a los padres
+1|¿En qué dos mandamientos resumió Jesús toda la Ley?|amar a Dios y al prójimo|ayunar y dar limosna|rezar y cantar
+1|¿Qué mandamiento cumplo al obedecer a mis papás?|el cuarto|el segundo|el séptimo
+2|Tomar algo de una tienda sin pagar va contra…|el 7.º mandamiento|el 2.º mandamiento|el 3.er mandamiento
+2|Inventar un chisme de un compañero va contra…|el 8.º mandamiento|el 1.er mandamiento|el 4.º mandamiento
+2|Creer en horóscopos y amuletos va contra…|el 1.er mandamiento|el 5.º mandamiento|el 10.º mandamiento
+2|¿Qué respondió Jesús al joven rico que quería la vida eterna?|«Guarda los mandamientos»|«Haz lo que quieras»|«Vende tus libros»
+P|¿Qué pide {x} mandamiento?|¿Qué mandamiento es «{x}»?|el 1.er = amar a Dios sobre todas las cosas|el 2.º = no tomar el nombre de Dios en vano|el 4.º = honrar al padre y a la madre|el 7.º = no robar|el 10.º = no codiciar los bienes ajenos
+#6r8
+Z|La <b>doctrina social de la Iglesia</b> aplica el Evangelio a la vida en sociedad.|Sus principios: dignidad de la persona, bien común, destino universal de los bienes, subsidiariedad y <b>solidaridad</b>.|Enseña el salario justo, el cuidado de la creación, la paz y el amor preferente por los pobres.
+E|Rerum novarum (1891): los trabajadores|Laudato si' (2015): la casa común
+S|¿Qué es la solidaridad?|Todos formamos una sola familia humana.|Lo que le pasa a uno nos importa a todos.|Por eso nos comprometemos con el bien de los demás, sobre todo de los más débiles.|=El compromiso firme por el bien de todos.
+I|💎 Dignidad: Toda persona vale por ser imagen de Dios.|🌍 Bien común: Lo que ayuda a todos a vivir mejor.|🤝 Solidaridad: Todos somos responsables de todos.|🍞 Pobres: La Iglesia los ama de modo preferente.
+0|V|Toda persona tiene dignidad porque es imagen de Dios.
+0|F|A la Iglesia no le interesan los problemas de la sociedad.
+1|¿Qué papa escribió Rerum novarum?|León XIII|san Pedro|Pío XII
+1|¿De qué trata Fratelli tutti?|de la fraternidad y la amistad social|de las partes de la liturgia|de los ángeles y los arcángeles
+1|¿Qué es el bien común?|las condiciones que ayudan a todos|el bien de unos pocos|un tesoro escondido
+1|V|El destino universal de los bienes enseña que Dios creó la Tierra para todos.
+2|Un patrón paga muy poco a sus empleados para ganar más. ¿Qué principio rompe?|la justicia del salario|la puntualidad|la cortesía
+2|¿Qué dice el apóstol Santiago sobre la fe?|que sin obras está muerta|que basta con decirla|que es solo para los domingos
+2|O|Ordena las encíclicas de la más antigua a la más reciente|Rerum novarum (1891)|Laudato si' (2015)|Fratelli tutti (2020)
+2|En tu colonia hay una familia sin comida. ¿Qué pide la solidaridad?|compartir y organizarnos para ayudar|pensar que no es mi problema|esperar a que el gobierno llegue
+#6r19
+Z|Orar es hablar con Dios como con un amigo: hay oración <b>vocal</b>, <b>meditación</b> y <b>contemplación</b>.|En la oración bendecimos, pedimos, intercedemos por otros, damos gracias y alabamos.|Un <b>plan de vida</b> sencillo nos ayuda: oración diaria, Misa dominical, confesión, Evangelio, Rosario y caridad.
+E|Oración vocal: Padrenuestro, Avemaría|Intercesión: rezar por otra persona
+S|¿Qué es la meditación?|Tomo un texto, por ejemplo un pasaje del Evangelio.|Lo pienso despacio delante de Dios: ¿qué me dice?, ¿qué me pide?|Termino hablando con Él y haciendo un propósito.|=Reflexionar en presencia de Dios sobre su Palabra.
+I|🗣️ Vocal: Rezo con palabras: Padrenuestro, Avemaría.|💭 Meditación: Pienso la Palabra delante de Dios.|🤍 Contemplación: Miro a Dios en silencio y con amor.|📅 Plan de vida: Oración, Misa, confesión y caridad.
+0|V|El Padrenuestro es una oración vocal.
+0|F|Solo se puede orar dentro de una iglesia.
+1|¿Cómo se llama la oración de dar gracias a Dios?|acción de gracias|petición|intercesión
+1|¿Qué oración nos enseñó Jesús?|el Padrenuestro|el Ángelus|la Salve
+1|¿Cuándo conviene orar cada día?|al levantarme y al acostarme|solo en los exámenes|solo en Navidad
+1|¿Qué hago en la oración de petición?|pido a Dios lo que necesito|le doy gracias|lo alabo por su grandeza
+2|Rezas por tu amigo enfermo. ¿Qué forma de oración es?|intercesión|alabanza|bendición
+2|¿Qué hacía Jesús antes de las decisiones importantes?|se retiraba a orar|consultaba a los fariseos|se iba de viaje
+2|Te distraes al rezar. ¿Qué haces?|vuelvo con calma a hablar con Dios|dejo de rezar para siempre|rezo más rápido para acabar
+2|V|Un plan de vida me ayuda a crecer en la amistad con Jesús.
+#6r9
+Z|Dios llama a <b>todos</b> a la santidad: esa es la primera vocación.|Además llama a cada uno por un camino: matrimonio, sacerdocio, vida consagrada o vida laical en medio del mundo.|<b>Discernir</b> es descubrir lo que Dios quiere: rezando, conociéndome, pidiendo consejo y sirviendo.
+E|Samuel: «Habla, Señor, que tu siervo escucha»|María: «Hágase en mí según tu palabra»
+S|¿A qué llama Dios a todos?|No todos serán sacerdotes ni todos se casarán.|Pero todos fuimos bautizados y somos hijos de Dios.|Y a todos sus hijos Dios les pide lo mismo: amar como Jesús.|=A la santidad.
+I|💍 Matrimonio: Esposos que forman una familia cristiana.|✝️ Sacerdocio: Servir a Dios y a su pueblo.|🕯️ Vida consagrada: Religiosas y religiosos entregados a Dios.|🌎 Laicos: Santos en la familia, el estudio y el trabajo.
+0|V|Dios tiene un llamado para cada persona.
+0|F|Solo los sacerdotes y las religiosas tienen vocación.
+1|¿Qué es la vida consagrada?|entregar la vida a Dios como religioso o religiosa|trabajar muchas horas en una oficina|viajar por el mundo conociendo países
+1|¿Qué respondió María al llamado de Dios?|«Hágase en mí según tu palabra»|«Déjame pensarlo unos años»|«Mejor busca a otra persona»
+1|¿Qué me ayuda a discernir mi vocación?|rezar y pedir consejo|no pensar en el futuro|imitar a los famosos
+1|V|Los laicos se santifican en su familia, su estudio y su trabajo.
+2|O|Ordena los pasos para discernir|Rezar|Conocerme|Pedir consejo|Servir
+2|¿Qué pidió Jesús que hiciéramos por las vocaciones?|rogar al dueño de la mies que envíe obreros|esperar tranquilos sin hacer nada|obligar a los jóvenes a ser sacerdotes
+2|Sientes que Dios te pide algo grande. ¿Qué haces?|lo platico con Dios y con mis papás|lo escondo porque me da miedo|me río de la idea y la olvido
+2|¿Cómo respondieron los apóstoles al llamado de Jesús?|dejaron sus redes y lo siguieron|le pidieron dinero a cambio|huyeron lejos para esconderse
+#6r22
+Z|Por el Bautismo participamos de la misión de Cristo: somos <b>sacerdotes, profetas y reyes</b>.|Ofrecemos nuestra vida a Dios, anunciamos el Evangelio y servimos a los demás, en la casa, la escuela y las redes.|Jesús nos dice: «Ustedes son la <b>sal de la tierra</b> y la <b>luz del mundo</b>».
+E|Sal: da sabor y conserva|Luz: alumbra a todos los de la casa
+S|¿Qué significa ser «sal de la tierra»?|La sal da sabor a la comida y evita que se eche a perder.|Un poco de sal basta para cambiar todo el guiso.|Así el cristiano, con su alegría y su bondad, mejora el ambiente donde vive.|=Dar sabor cristiano al mundo con nuestra vida.
+I|🙏 Ofrecer: Entrego a Dios mi estudio y mi día.|📣 Anunciar: Hablo de Jesús con palabras y ejemplo.|🤲 Servir: Ayudo a quien me necesita.|💡 Luz: Mis buenas obras llevan a otros a Dios.
+0|V|Un niño puede anunciar a Jesús con su buen ejemplo.
+0|F|La misión de anunciar a Jesús es solo para los misioneros que viajan lejos.
+1|¿Para qué sirve la sal en la comida?|para dar sabor y conservar|para adornar el plato|para enfriar la sopa
+1|¿Cómo «ofrezco» mi día a Dios?|haciendo bien mis deberes por amor a Él|quedándome sin hacer nada todo el día|quejándome de todo lo que me pasa
+1|¿Dónde puedo ser testigo de Jesús?|en mi casa, mi escuela y mis juegos|solo dentro de la iglesia|en ningún lado
+1|V|Las buenas obras de un cristiano dan gloria a Dios.
+2|En el recreo todos se burlan de un niño. ¿Cómo eres luz?|lo defiendo y lo invito a jugar|me río con los demás|me voy a otro lado
+2|¿Qué dijo Jesús de la luz?|que no se enciende para esconderla|que hay que apagarla|que es solo para uno mismo
+2|¿Cuál es un buen proyecto de vida cristiano?|oración, estudio, servicio y amistad con Jesús|fama, dinero y diversión|hacer siempre lo que yo quiero
+2|Antes de compartir algo en redes, ¿qué te preguntas?|si es verdadero, bueno y útil|si me dará muchos «me gusta»|si molestará a alguien
+#6r10
+Z|Al morir, el alma se presenta ante Dios en el <b>juicio particular</b>.|El <b>cielo</b> es la felicidad eterna con Dios; el <b>purgatorio</b>, la purificación antes de entrar al cielo; el <b>infierno</b>, la separación eterna de quien rechazó libremente a Dios.|Al final de los tiempos Cristo volverá glorioso, resucitarán los muertos y habrá <b>juicio final</b>.
+E|Novísimos: muerte, juicio, infierno y gloria|«Al atardecer de la vida nos examinarán en el amor»
+S|¿Qué es el purgatorio?|Quien muere en amistad con Dios, pero aún con faltas, se salvará.|Antes necesita purificarse para ver a Dios cara a cara.|Podemos ayudar a esas almas con la oración y la Misa.|=La purificación antes de entrar al cielo.
+I|☁️ Cielo: Felicidad eterna con Dios y los santos.|🕯️ Purgatorio: Purificación; rezamos por esas almas.|⚖️ Juicio: Dios mira cuánto amamos.|🌅 Resurrección: Al final, los cuerpos resucitarán.
+0|V|El cielo es estar para siempre con Dios.
+0|F|Rezar por los difuntos no sirve de nada.
+1|¿Qué pasa con el alma inmediatamente después de la muerte?|es juzgada por Dios|desaparece|se duerme para siempre
+1|¿Qué día recordamos de modo especial a los fieles difuntos?|el 2 de noviembre|el 6 de enero|el 15 de agosto
+1|¿Quién va al infierno?|quien rechaza libremente a Dios hasta el final|quien se equivoca una vez y se arrepiente|quien es pobre o está enfermo
+1|V|Dios quiere que todos los hombres se salven.
+2|¿Qué decimos en el Credo sobre el final de los tiempos?|«Creo en la resurrección de la carne»|«Creo en la reencarnación»|«Creo que todo se acaba»
+2|¿Cómo me preparo para el encuentro con Dios?|viviendo en gracia y amando al prójimo|teniendo miedo todo el día|sin pensar nunca en ello
+2|¿Cómo ayudo a las almas del purgatorio?|ofreciendo oraciones y la Misa por ellas|olvidándome de ellas para siempre|llorando sin ninguna esperanza
+2|¿Por qué el cristiano no vive con miedo a la muerte?|porque Cristo resucitó y nos abrió el cielo|porque está seguro de que nunca morirá|porque prefiere no pensar en nada
+#6r11
+Z|La <b>comunión de los santos</b> es la unión de toda la Iglesia: los que peregrinamos en la tierra, las almas del purgatorio y los santos del cielo.|Nos ayudamos unos a otros con la oración.|A los santos los <b>veneramos</b> y les pedimos su intercesión; solo a Dios lo <b>adoramos</b>.
+E|Venerar: honrar a los santos|Adorar: solo a Dios
+S|¿Adoramos a los santos?|Adorar es reconocer a alguien como Dios y Señor de todo.|Los santos son amigos de Dios, no dioses.|Por eso los honramos, los imitamos y les pedimos que recen por nosotros.|=No: los veneramos y pedimos su intercesión; solo adoramos a Dios.
+I|🌎 Tierra: La Iglesia que peregrina y lucha.|🕯️ Purgatorio: La Iglesia que se purifica.|☁️ Cielo: La Iglesia que ya goza de Dios.|🙏 Intercesión: Rezamos unos por otros.
+0|V|Los santos del cielo rezan por nosotros.
+0|F|Los católicos adoramos a los santos.
+1|¿Qué significa «interceder»?|rezar a Dios en favor de otra persona|castigar a alguien por sus faltas|olvidar a los demás al rezar
+1|¿Qué día celebramos a Todos los Santos?|el 1 de noviembre|el 2 de febrero|el 12 de diciembre
+1|¿A quién adoramos los cristianos?|solo a Dios|a los santos|a los ángeles
+1|V|Nosotros podemos ayudar con la oración a las almas del purgatorio.
+2|¿Por qué la fiesta de un santo se celebra el día de su muerte?|porque ese día nació para el cielo|porque es un día triste|porque así cae en vacaciones
+2|¿Qué le pido a un santo cuando le rezo?|que interceda por mí ante Dios|que me conceda todo sin Dios|que me haga adivinar el futuro
+2|¿Quiénes pueden ser santos?|todos los bautizados que aman a Dios|solo los sacerdotes|solo la gente de antes
+2|¿Para qué tenemos imágenes de los santos?|para recordarlos e imitarlos|para adorarlas|para decorar solamente
+#6r12
+Z|<b>María</b> es Madre de Dios y Madre nuestra: modelo de fe, obediencia y servicio.|La honramos con muchas advocaciones: Guadalupe, Fátima, Lourdes, del Carmen, Inmaculada.|Sus devociones (Rosario, Ángelus, escapulario) nos llevan a Jesús: «Hagan lo que Él les diga».
+E|Ángelus: se reza al mediodía|Rosario: meditamos la vida de Jesús con María
+S|¿Qué dijo María en las bodas de Caná?|En la fiesta se acabó el vino y María lo notó.|Se lo dijo a Jesús y luego habló a los sirvientes.|Ellos obedecieron y Jesús convirtió el agua en vino.|=«Hagan lo que Él les diga».
+I|🌹 Guadalupe: Se apareció a san Juan Diego en el Tepeyac.|📿 Rosario: Meditamos los misterios de Jesús con María.|🔔 Ángelus: Recordamos la Encarnación.|🤎 Escapulario: Signo de la Virgen del Carmen.
+0|V|María es Madre de Dios y Madre nuestra.
+0|F|María quiere que la sigamos a ella en lugar de a Jesús.
+1|¿En qué cerro se apareció la Virgen de Guadalupe?|en el Tepeyac|en el Sinaí|en el Calvario
+1|¿Qué recordamos al rezar el Ángelus?|la Encarnación del Hijo de Dios|la Resurrección del Señor|la Última Cena con los apóstoles
+1|¿A quién se apareció la Virgen en Lourdes?|a santa Bernardita|a san Juan Diego|a santa Teresita
+1|¿Qué mes dedica la Iglesia de modo especial a María?|mayo|marzo|septiembre
+2|¿Por qué decimos «a Jesús por María»?|porque ella siempre nos lleva a su Hijo|porque ella es más importante|porque Jesús está lejos
+2|¿Qué hizo Jesús en Caná por la petición de su Madre?|convirtió el agua en vino|multiplicó los panes|calmó la tempestad
+2|¿En qué se parece un buen hijo de María a ella?|en decir «sí» a Dios|en no rezar|en hacer solo su voluntad
+2|¿Qué pidió la Virgen a los niños de Fátima?|rezar el Rosario y hacer penitencia|construir un castillo|guardar silencio para siempre
+P|¿Qué día se celebra {x}?||la Virgen de Guadalupe = el 12 de diciembre|la Inmaculada Concepción = el 8 de diciembre|la Virgen del Carmen = el 16 de julio|la Asunción de María = el 15 de agosto|la Virgen de Fátima = el 13 de mayo|la Virgen de Lourdes = el 11 de febrero

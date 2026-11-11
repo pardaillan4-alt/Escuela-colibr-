@@ -1,0 +1,233 @@
+// Historia 6.º — profundización y banco ampliado
+#6h1
+Z|Los primeros humanos eran <b>nómadas</b>: iban de un lugar a otro para cazar, pescar y recolectar.|En el <b>Paleolítico</b> tallaron la piedra, dominaron el fuego y pintaron en las cuevas.|En el <b>Neolítico</b> aprendieron a sembrar y a criar animales, y se hicieron <b>sedentarios</b>.
+E|Paleolítico: piedra tallada|Neolítico: cultivos y aldeas
+S|¿Qué permitió que los humanos se volvieran sedentarios?|Los nómadas se movían siguiendo a los animales y los frutos.|Al aprender a sembrar, tenían que cuidar el campo y esperar la cosecha.|Por eso construyeron casas y aldeas junto a sus cultivos.|=La agricultura y la cría de animales.
+I|🔥 El fuego: Dio calor, luz, comida cocida y protección.|🎨 Pintura rupestre: Animales y manos pintados en las cuevas.|🌾 Agricultura: Sembrar permitió quedarse en un solo lugar.|🏘️ Aldeas: Nacieron junto a los campos; después, las ciudades.
+0|V|En el Paleolítico las herramientas eran de piedra tallada.
+0|F|Los primeros humanos vivían en grandes ciudades.
+1|¿Cómo conseguían su alimento los nómadas?|cazando, pescando y recolectando|comprando en el mercado|sembrando trigo y maíz
+1|¿En qué periodo comenzó la agricultura?|Neolítico|Paleolítico|Edad Media
+1|V|Domesticar animales ayudó a los humanos a quedarse a vivir en un solo lugar.
+1|¿Qué significa ser sedentario?|vivir en un lugar fijo|viajar todo el tiempo|vivir solo en cuevas
+2|O|Ordena de lo más antiguo a lo más reciente|Vida nómada|Agricultura|Aldeas|Ciudades
+2|¿Por qué las pinturas rupestres muestran inteligencia?|porque expresan ideas con arte|porque usaban pinceles finos|porque son muy grandes
+2|F|La fe y la ciencia se contradicen cuando hablan del origen del ser humano.
+2|Según la fe, ¿qué distingue al ser humano de los animales?|su alma espiritual|su fuerza física|su tamaño
+K|¿A qué periodo pertenece {x}?|¿Paleolítico o Neolítico?|Paleolítico: la piedra tallada; el dominio del fuego; la vida nómada; la pintura en cuevas|Neolítico: la agricultura; la cría de animales; las primeras aldeas; la piedra pulida
+#6h2
+Z|Las primeras civilizaciones nacieron junto a <b>grandes ríos</b>: el agua y la tierra fértil daban buenas cosechas.|<b>Mesopotamia</b> (Tigris y Éufrates), <b>Egipto</b> (Nilo), <b>India</b> (Indo) y <b>China</b> (río Amarillo).|Nos dejaron la <b>escritura</b>, las leyes, la rueda y el calendario.
+E|Código de Hammurabi: leyes escritas|Jeroglíficos: escritura egipcia
+S|¿Por qué las primeras civilizaciones nacieron junto a ríos?|Para sembrar se necesita agua y tierra fértil.|Los ríos, al crecer, dejaban lodo que abonaba los campos.|Con buenas cosechas, la población creció y surgieron ciudades.|=Por el agua y las tierras fértiles para la agricultura.
+I|📜 Mesopotamia: Entre el Tigris y el Éufrates; escritura cuneiforme y leyes.|🔺 Egipto: Junto al Nilo; pirámides y jeroglíficos.|🕉️ India: Junto al río Indo; ciudades bien trazadas.|🐉 China: Junto al río Amarillo; papel y seda.
+0|V|Mesopotamia estaba entre los ríos Tigris y Éufrates.
+0|F|La civilización china nació junto al río Nilo.
+1|¿Qué escritura usaban los egipcios?|jeroglíficos|cuneiforme|alfabeto latino
+1|¿Para qué servía el Código de Hammurabi?|para dar leyes escritas al pueblo|para contar los días del año|para medir las pirámides
+1|V|La escritura permitió guardar leyes, historia y conocimientos.
+1|F|Las primeras civilizaciones se formaron lejos del agua.
+2|¿Qué dejaban los ríos al crecer, que ayudaba a las cosechas?|lodo fértil|arena seca|piedras
+2|¿Dónde vivió esclavo el pueblo de Israel antes de que Moisés lo liberara?|en Egipto|en China|en la India
+2|O|Ordena cómo surgió una civilización|Siembran junto al río|Hay buenas cosechas|Crece la población|Nacen las ciudades
+2|¿Cuál de estos NO es un aporte de las primeras civilizaciones?|la imprenta|la escritura|la rueda
+P|¿Junto a qué río o ríos nació {x}?|{x}: ¿qué civilización nació en sus orillas?|Egipto = el Nilo|China = el río Amarillo|la India = el Indo|Mesopotamia = el Tigris y el Éufrates
+#6h10
+Z|Los hebreos creían en <b>un solo Dios</b>: eso se llama <b>monoteísmo</b>.|Dios hizo una <b>alianza</b> con Abraham; Moisés liberó al pueblo de Egipto y recibió los Diez Mandamientos.|David y Salomón reinaron en <b>Jerusalén</b>, y los profetas anunciaron al Mesías.
+E|Monoteísmo: un solo Dios|Politeísmo: muchos dioses
+S|¿Qué es el monoteísmo?|«Mono» significa uno y «teo» significa Dios.|Los pueblos vecinos adoraban a muchos dioses (politeísmo).|Israel adoraba solo al Dios que habló a Abraham.|=La fe en un solo Dios.
+I|⭐ Abraham: Padre del pueblo; Dios le prometió una gran descendencia.|📜 Moisés: Liberó a Israel de Egipto y recibió los Diez Mandamientos.|👑 David y Salomón: Reyes en Jerusalén; Salomón construyó el Templo.|📣 Profetas: Hablaron en nombre de Dios y anunciaron al Mesías.
+0|V|Abraham es llamado el padre del pueblo de Israel.
+0|F|Los hebreos adoraban a muchos dioses, igual que sus vecinos.
+1|¿Qué recibió Moisés en el monte Sinaí?|los Diez Mandamientos|el Templo de Jerusalén|la corona de Israel
+1|¿Cuál era la misión de los profetas?|hablar en nombre de Dios|gobernar como reyes|construir pirámides
+1|F|El politeísmo es la fe en un solo Dios.
+1|¿Cómo se llama el pacto de amistad entre Dios y su pueblo?|alianza|imperio|código
+2|O|Ordena la historia de Israel|Abraham|Moisés|David|Los profetas|Jesús
+2|¿A quién esperaba Israel, según el anuncio de los profetas?|al Mesías|a un faraón|a un emperador romano
+2|V|Los cristianos reconocemos en Jesús al Mesías que anunciaron los profetas.
+2|¿Por qué somos herederos de la fe de Abraham?|porque creemos en el mismo Dios|porque nacimos en su tierra|porque hablamos su idioma
+P|¿Quién fue {x}?|¿Quién fue {x}?|Abraham = el padre del pueblo de Israel|Moisés = el que liberó al pueblo de Egipto|David = el rey que hizo de Jerusalén su capital|Salomón = el rey que construyó el Templo
+#6h11
+Z|<b>Persia</b> fue un gran imperio; su rey <b>Ciro</b> dejó que los judíos volvieran a Jerusalén.|La <b>India</b> nos dio el número cero, el ajedrez y avances en medicina.|<b>China</b> inventó el papel, la brújula, la pólvora y la seda, y construyó la Gran Muralla.
+E|Ciro: rey de Persia|Confucio: sabio de China
+S|¿Qué rey persa liberó a los judíos?|Los judíos vivían desterrados en Babilonia.|Persia conquistó Babilonia y su rey respetó a los pueblos vencidos.|Ese rey les permitió volver y reconstruir el Templo (Esd 1).|=Ciro, rey de Persia.
+I|👑 Persia: El rey Ciro permitió a los judíos volver a Jerusalén.|🔢 India: Inventó el cero y las cifras que hoy usamos.|🧭 China: Papel, brújula, pólvora y seda.|🧱 Gran Muralla: Defendía a China de las invasiones.
+0|V|La Gran Muralla se construyó en China.
+0|F|El ajedrez nació en China.
+1|¿Quién fue Confucio?|un sabio chino|un rey persa|un médico de la India
+1|¿Qué pueblo inventó la pólvora?|los chinos|los persas|los griegos
+1|¿Para qué servía la Gran Muralla?|para defenderse de invasiones|para llevar agua a los campos|para sembrar arroz
+1|V|Gracias al número cero es más fácil escribir cantidades grandes.
+2|¿Qué permitió Ciro a los judíos?|volver a Jerusalén y reconstruir el Templo|quedarse como esclavos en Egipto|irse a vivir a China
+2|¿Qué regalos llevaron los Magos de Oriente a Jesús?|oro, incienso y mirra|seda, papel y brújulas|pan, vino y aceite
+2|¿Para qué buscaron los Magos a Jesús?|para adorarlo|para venderle seda|para medir las estrellas
+2|F|Los Magos de Oriente eran pastores de Belén.
+K|{x}: ¿viene de la India o de China?|¿India o China?|India: el número cero; el ajedrez; las cifras del 0 al 9|China: el papel; la brújula; la pólvora; la seda; la Gran Muralla
+#6h3
+Z|Grecia se organizaba en <b>polis</b> (ciudades-Estado): Atenas creó la <b>democracia</b> y Esparta era militar.|Los <b>filósofos</b> Sócrates, Platón y Aristóteles buscaron la verdad usando la razón.|Grecia nos dejó el teatro, las Olimpiadas, la geometría y bellos templos.
+E|Democracia: gobierno del pueblo|Filosofía: amor a la sabiduría
+S|¿Qué significa «filosofía»?|La palabra viene del griego.|«Filo» quiere decir amor y «sofía», sabiduría.|Los filósofos se hacían preguntas para encontrar la verdad.|=Amor a la sabiduría.
+I|🏛️ Atenas: Cuna de la democracia: los ciudadanos votaban.|🛡️ Esparta: Ciudad de soldados, con educación militar.|🤔 Filósofos: Sócrates, Platón y Aristóteles buscaron la verdad.|🏅 Olimpiadas: Competencias deportivas cada cuatro años.
+0|V|En la democracia de Atenas, los ciudadanos votaban las decisiones.
+0|F|Esparta era famosa por sus filósofos y su teatro.
+1|¿Qué era una polis?|una ciudad-Estado griega|un templo griego|un barco de guerra
+1|¿Quién fue el maestro de Platón?|Sócrates|Aristóteles|Pitágoras
+1|¿En qué destacaron Pitágoras y Euclides?|en matemáticas|en teatro|en la guerra
+1|V|Aristóteles fue maestro de Alejandro Magno.
+2|O|Ordena de maestro a discípulo|Sócrates|Platón|Aristóteles
+2|¿Qué significa «democracia»?|gobierno del pueblo|gobierno de un rey|gobierno de los soldados
+2|¿Qué santo usó las ideas de Aristóteles para explicar la fe?|santo Tomás de Aquino|san Pedro|san Francisco de Asís
+2|F|Para un cristiano, pensar con la razón estorba a la fe.
+K|{x}: ¿Atenas o Esparta?|¿Atenas o Esparta?|Atenas: la democracia; los filósofos; el teatro|Esparta: la educación militar; los soldados más temidos; la vida dura y disciplinada
+#6h4
+Z|Roma pasó de ser una ciudad pequeña a un <b>imperio</b> alrededor del mar Mediterráneo.|Nos dejó el <b>latín</b>, el derecho romano, caminos y acueductos.|Jesús nació en tiempos del emperador Augusto; tras casi 300 años de persecución, el <b>Edicto de Milán</b> (313) dio libertad a los cristianos.
+E|313: Edicto de Milán|380: religión oficial del Imperio
+S|¿Qué edicto dio libertad a los cristianos?|Durante casi 300 años ser cristiano estuvo prohibido y hubo muchos mártires.|En el año 313 el emperador Constantino firmó un edicto en Milán.|Desde entonces los cristianos pudieron vivir su fe sin esconderse.|=El Edicto de Milán (313).
+I|⚖️ Derecho romano: Leyes escritas que aún inspiran a las nuestras.|🛣️ Caminos y acueductos: Unían el imperio y llevaban agua a las ciudades.|📜 Latín: De él nacieron el español, el francés y el italiano.|✝️ Cristianismo: Perseguido casi 300 años; libre desde 313.
+0|V|El español es una lengua que nació del latín.
+0|F|Los acueductos servían para llevar soldados a la guerra.
+1|¿Qué emperador firmó el Edicto de Milán?|Constantino|Augusto|Nerón
+1|¿Alrededor de qué mar creció el Imperio romano?|Mediterráneo|Caribe|Rojo
+1|¿Qué pasó en el año 380?|el cristianismo fue religión oficial|nació Jesús en Belén|se fundó la ciudad de Roma
+1|¿Cómo llamamos a los cristianos que dieron la vida por su fe?|mártires|emperadores|senadores
+2|O|Ordena de lo más antiguo a lo más reciente|Nace Jesús|Persecuciones|Edicto de Milán (313)|Religión oficial (380)
+2|¿Por qué el papa vive en Roma?|porque ahí murió san Pedro, el primer papa|porque Roma es la ciudad más grande|porque ahí nació Jesús
+2|V|Los caminos romanos ayudaron a los apóstoles a llevar el Evangelio.
+2|¿Qué era el derecho romano?|su sistema de leyes|su ejército|su idioma
+#6h5
+Z|En <b>476</b> cayó el Imperio romano de Occidente y comenzó la <b>Edad Media</b>.|En el <b>feudalismo</b>, los campesinos trabajaban la tierra del señor a cambio de protección.|Los <b>monasterios</b> guardaron los libros y la cultura; después nacieron las universidades y las catedrales góticas.
+E|Ora et labora: reza y trabaja|Gótico: catedrales altas y luminosas
+S|¿Qué conservaron los monasterios?|Tras la caída de Roma hubo guerras y se perdieron muchas escuelas.|Los monjes copiaban a mano los libros antiguos y la Biblia.|También enseñaban a leer, a cultivar y a curar enfermos.|=Los libros y la cultura antigua.
+I|🏰 Feudalismo: Rey, señores, caballeros y campesinos.|📚 Monasterios: Los monjes copiaban libros a mano y enseñaban.|🎓 Universidades: Nacieron a la sombra de las catedrales.|⛪ Catedrales góticas: Altas, con vitrales llenos de luz.
+0|V|En Oriente, el Imperio bizantino siguió existiendo después del año 476.
+0|F|En el feudalismo, los campesinos eran dueños de grandes castillos.
+1|¿Qué significa «Ora et labora»?|reza y trabaja|estudia y descansa|lucha y vence
+1|¿Qué recibían los campesinos del señor feudal?|protección|un castillo|una corona
+1|¿Cuál era la capital del Imperio bizantino?|Constantinopla|Roma|Atenas
+1|¿Cuál de estos santos vivió en la Edad Media?|san Francisco de Asís|san Juan Pablo II|san Juan Bosco
+2|O|Ordena de lo más antiguo a lo más reciente|Caída de Roma (476)|Feudalismo|Crecen las ciudades|Universidades y catedrales
+2|¿Cómo copiaban los libros los monjes?|a mano, uno por uno|con una imprenta|con computadoras
+2|V|En la Edad Media hubo grandes santos, pero también guerras y errores.
+2|¿Para qué tienen grandes vitrales las catedrales góticas?|para llenarse de luz|para que entre el frío|para guardar armas
+#6h12
+Z|El <b>Imperio bizantino</b> fue el Imperio romano de Oriente; su capital era <b>Constantinopla</b>.|El emperador <b>Justiniano</b> construyó Santa Sofía y reunió las leyes romanas.|En <b>1054</b> se separaron la Iglesia católica y las Iglesias ortodoxas; Constantinopla cayó en <b>1453</b>.
+E|Icono: imagen sagrada para orar|Mosaico: imagen hecha con piedritas de colores
+S|¿En qué año cayó Constantinopla?|El Imperio bizantino duró más de mil años.|Los turcos otomanos rodearon la ciudad con un gran ejército.|Al caer la capital, terminó el imperio.|=En 1453.
+I|🏛️ Constantinopla: Capital del imperio; hoy se llama Estambul.|⛪ Santa Sofía: Gran iglesia construida por Justiniano.|🖼️ Iconos: Imágenes sagradas para orar.|🤝 1054: Se separan católicos y ortodoxos; hoy buscamos la unidad.
+0|V|Constantinopla hoy se llama Estambul.
+0|F|El Imperio bizantino duró solo cincuenta años.
+1|¿Qué es un mosaico?|una imagen hecha con piedritas de colores|un libro de leyes romanas|una torre de piedra
+1|¿Qué reunió Justiniano en un gran código?|las leyes romanas|los cuentos griegos|los mapas del mundo
+1|¿Quiénes conquistaron Constantinopla en 1453?|los turcos otomanos|los romanos|los vikingos
+1|V|El Imperio bizantino fue la parte oriental del Imperio romano.
+2|O|Ordena de lo más antiguo a lo más reciente|Constantinopla, capital (330)|Se construye Santa Sofía|Separación de 1054|Caída de 1453
+2|¿Qué pidió Jesús al Padre para sus discípulos?|«Que todos sean uno»|que se separaran|que no se hablaran
+2|¿Qué tenemos en común católicos y ortodoxos?|la fe en Cristo y los sacramentos|ninguna creencia|solo el mismo idioma
+2|F|Un icono se pinta solo para decorar una casa.
+#6h13
+Z|<b>Carlomagno</b>, rey de los francos, fue coronado emperador por el papa en el año <b>800</b> y abrió escuelas.|Las <b>universidades</b> nacieron de las escuelas de catedrales y monasterios: Bolonia, París, Oxford, Salamanca.|<b>Santo Tomás de Aquino</b> enseñó que la fe y la razón se ayudan.
+E|Año 800: Carlomagno, emperador|Suma Teológica: obra de santo Tomás
+S|¿De dónde nacieron las universidades?|Junto a las catedrales y los monasterios había escuelas.|Maestros y alumnos se unieron para estudiar más a fondo.|La Iglesia las apoyó y reconoció sus títulos.|=De las escuelas de las catedrales y monasterios.
+I|👑 Carlomagno: Emperador en el año 800; fundó escuelas.|🎓 Universidades: Bolonia, París, Oxford y Salamanca.|📖 Qué estudiaban: Teología, derecho, medicina y artes.|✝️ Santo Tomás: Unió la fe y la razón en la Suma Teológica.
+0|V|Carlomagno fue rey de los francos.
+0|F|Las primeras universidades nacieron en América.
+1|¿Quién coronó emperador a Carlomagno?|el papa|un rey vecino|su ejército
+1|¿Qué promovió Carlomagno en su imperio?|las escuelas|las pirámides|los juegos olímpicos
+1|¿En qué universidad enseñó santo Tomás de Aquino?|París|Salamanca|Oxford
+1|F|En las universidades medievales no se estudiaba medicina.
+2|¿Qué enseñó santo Tomás sobre la fe y la razón?|que se ayudan una a la otra|que son enemigas|que la razón no sirve
+2|O|Ordena de lo más antiguo a lo más reciente|Escuelas de monasterios|Escuelas de catedrales|Universidades
+2|¿En qué país está la universidad de Bolonia?|Italia|España|Inglaterra
+2|V|La Iglesia impulsó el nacimiento de las universidades.
+#6h6
+Z|El <b>Islam</b> surgió en Arabia en el siglo VII con Mahoma y se extendió por el norte de África y España.|Los sabios árabes cultivaron el <b>álgebra</b>, la medicina y la astronomía, y difundieron los números que usamos.|La <b>Ruta de la Seda</b> unía Oriente y Europa por medio del comercio.
+E|Números arábigos: del 0 al 9|Marco Polo: viajero de Venecia
+S|¿Qué números usamos que llegaron por los árabes?|Los romanos escribían con letras: I, V, X…|En la India se inventaron diez cifras, con el cero.|Los árabes las aprendieron y las llevaron a Europa.|=Los números arábigos, que vienen de la India.
+I|🕌 El Islam: Nació en Arabia en el siglo VII.|🔢 Números arábigos: Vienen de la India; los árabes los difundieron.|🐫 Ruta de la Seda: Camino de comercio entre China y Europa.|🧭 Marco Polo: Viajó de Venecia a China y contó lo que vio.
+0|V|El Islam llegó hasta España.
+0|F|La Ruta de la Seda era un río de China.
+1|¿En qué siglo surgió el Islam?|siglo VII|siglo I|siglo XV
+1|¿Qué productos viajaban por la Ruta de la Seda?|seda, especias y porcelana|maíz, cacao y jitomate|petróleo y carbón
+1|¿De qué ciudad era Marco Polo?|Venecia|Roma|Madrid
+1|¿En qué ciencia destacaron los sabios árabes?|álgebra|aviación|computación
+2|¿De dónde vienen originalmente los números arábigos?|de la India|de Roma|de Egipto
+2|V|La Iglesia respeta a los musulmanes, que adoran a un solo Dios.
+2|¿Qué creemos los cristianos sobre Jesús?|que es el Hijo de Dios y Salvador|que fue solo un profeta|que fue un rey de Arabia
+2|¿Cómo debo tratar a quien tiene otra religión?|con respeto y amistad|con burlas|sin dirigirle la palabra
+#6h7
+Z|En <b>Mesoamérica</b> florecieron olmecas, mayas, teotihuacanos, zapotecos y mexicas: maíz, calendario, pirámides y escritura.|En los <b>Andes</b>, los incas construyeron Machu Picchu, caminos y terrazas de cultivo.|Los incas llevaban sus cuentas con <b>quipus</b>: cuerdas con nudos.
+E|Quipu: cuerdas con nudos para contar|Terrazas: escalones para sembrar en la montaña
+S|¿Qué usaban los incas para registrar números?|Los incas no tenían una escritura como la nuestra.|Ataban nudos en cuerdas de colores.|Cada nudo y cada color significaban una cantidad o un dato.|=Los quipus.
+I|🌽 Maíz: Base de la alimentación en Mesoamérica.|🗿 Olmecas: La cultura madre; tallaron cabezas colosales.|🏔️ Machu Picchu: Ciudad inca en lo alto de los Andes.|🪢 Quipus: Cuerdas con nudos para llevar cuentas.
+0|V|Los mayas y los mexicas vivieron en Mesoamérica.
+0|F|Los incas vivieron en la península de Yucatán.
+1|¿Qué cultura es llamada la «cultura madre» de Mesoamérica?|olmeca|inca|mexica
+1|¿Para qué servían las terrazas de los incas?|para sembrar en las montañas|para jugar a la pelota|para guardar oro
+1|¿En qué país actual está Machu Picchu?|Perú|México|Guatemala
+1|¿Qué ciudad fundaron los mexicas?|Tenochtitlan|Machu Picchu|Chichén Itzá
+2|¿Qué tenían en común mayas e incas?|agricultura, ciudades y astronomía|vivían en el mismo lugar|hablaban la misma lengua
+2|V|El Evangelio iluminó lo bueno que había en las culturas americanas.
+2|¿Qué quiere decir «semillas del Verbo»?|lo bueno de cada cultura|las semillas del maíz|unas cuerdas con nudos
+2|¿Por qué la Iglesia rechazó los sacrificios humanos?|porque van contra la dignidad humana|porque costaban demasiado dinero|porque duraban demasiado tiempo
+K|{x}: ¿Mesoamérica o los Andes?|¿Mesoamérica o los Andes?|Mesoamérica: los mayas; los mexicas; los olmecas; Teotihuacan; el juego de pelota|los Andes: los incas; Machu Picchu; los quipus; las terrazas de cultivo
+#6h8
+Z|El <b>Renacimiento</b> (siglos XV y XVI) fue un tiempo de gran arte y ciencia: Leonardo, Miguel Ángel, Copérnico.|La <b>imprenta</b> de Gutenberg hizo los libros más baratos; su primera gran obra fue la Biblia.|Los navegantes abrieron nuevas rutas: Colón llegó a América en <b>1492</b>.
+E|1492: Colón llega a América|1522: primera vuelta al mundo
+S|¿Cuál fue el primer gran libro impreso por Gutenberg?|Hacia 1450 Gutenberg inventó la imprenta de letras móviles de metal.|Quiso imprimir primero el libro más importante y más leído.|Hizo unos 180 ejemplares, todos iguales.|=La Biblia.
+I|🎨 Arte: Leonardo pintó la Mona Lisa; Miguel Ángel, la Capilla Sixtina.|🖨️ Imprenta: Gutenberg imprimió la Biblia hacia 1455.|⛵ Colón: Llegó a América en 1492.|🌍 Vuelta al mundo: Magallanes y Elcano (1519-1522).
+0|V|Leonardo da Vinci fue un artista del Renacimiento.
+0|F|La imprenta hizo que los libros fueran más caros.
+1|¿A dónde llegó Vasco da Gama navegando?|a la India|a América|a Australia
+1|¿Qué muestra la Capilla Sixtina?|la Creación y el Juicio Final|batallas de los romanos|mapas de América
+1|¿Cómo se hacían los libros antes de la imprenta?|se copiaban a mano|se compraban en China|se grababan en piedra
+1|V|Copérnico y Galileo estudiaron el cielo.
+2|O|Ordena los viajes por su fecha|Colón llega a América (1492)|Da Gama llega a la India (1498)|Primera vuelta al mundo (1522)
+2|¿Qué demostró la vuelta al mundo de Magallanes y Elcano?|que la Tierra es redonda|que la Tierra es plana|que no hay océanos
+2|V|Muchas obras del Renacimiento se hicieron para dar gloria a Dios.
+2|¿Dónde está la Capilla Sixtina?|en el Vaticano|en Madrid|en Jerusalén
+P|¿Por qué es famoso {x}?||Gutenberg = inventó la imprenta|Miguel Ángel = pintó la Capilla Sixtina|Colón = llegó a América en 1492|Elcano = completó la primera vuelta al mundo|Leonardo da Vinci = pintó la Mona Lisa
+#6h9
+Z|En <b>1517</b> Martín Lutero rechazó varias enseñanzas de la Iglesia; surgieron las iglesias protestantes y Europa se dividió.|El <b>Concilio de Trento</b> (1545-1563) corrigió abusos y explicó con claridad la fe católica.|Dios regaló grandes santos: Ignacio de Loyola, Teresa de Jesús, Carlos Borromeo.
+E|Ecumenismo: buscar la unidad de los cristianos|«Que todos sean uno» (Jn 17, 21)
+S|¿Qué concilio respondió a la Reforma protestante?|Había abusos que corregir y dudas sobre la fe.|El papa reunió a los obispos en la ciudad de Trento, en Italia.|El concilio explicó los sacramentos, la Escritura y la Tradición, y pidió formar mejor a los sacerdotes.|=El Concilio de Trento.
+I|📜 1517: Lutero se separa de la Iglesia; nacen las iglesias protestantes.|⛪ Trento: El concilio corrige abusos y explica la fe.|🔥 Santos: Ignacio, Teresa y Carlos Borromeo renuevan la Iglesia.|🤝 Ecumenismo: Hoy rezamos y dialogamos por la unidad.
+0|V|Santa Teresa de Jesús vivió en tiempos de la Reforma católica.
+0|F|El Concilio de Trento se celebró en México.
+1|¿Qué explicó con claridad el Concilio de Trento?|los sacramentos, la Escritura y la Tradición|las reglas del feudalismo y los castillos|los viajes de Colón y de Magallanes
+1|¿Qué orden fundó san Ignacio de Loyola?|la Compañía de Jesús|los franciscanos|los benedictinos
+1|¿Qué pasó en Europa después de 1517?|los cristianos se dividieron|todos se unieron|desapareció la fe
+1|V|En esa época, los misioneros llevaron el Evangelio a América y a Asia.
+2|¿Cómo se renueva de verdad la Iglesia?|con santidad y fidelidad|con peleas y divisiones|cambiando el Evangelio
+2|O|Ordena por fecha|Lutero se separa (1517)|Empieza el Concilio de Trento (1545)|Termina el Concilio (1563)
+2|¿Qué puedo hacer junto con un amigo protestante?|rezar el Padrenuestro|burlarme de su fe|dejar de hablarle
+2|F|El ecumenismo consiste en discutir hasta ganar.
+#6h14
+Z|En la <b>revolución científica</b>, Copérnico, Galileo, Kepler y Newton explicaron cómo se mueven la Tierra y los astros.|La <b>Ilustración</b> (siglo XVIII) confió en la razón y difundió ideas de libertad e igualdad.|La <b>fe</b> y la <b>ciencia</b> no se oponen: las dos buscan la verdad, que viene de Dios.
+E|Heliocentrismo: el Sol en el centro|Gravedad: fuerza que atrae los cuerpos
+S|¿Quién propuso que la Tierra gira alrededor del Sol?|Antes se pensaba que el Sol giraba alrededor de la Tierra.|Un canónigo polaco observó el cielo e hizo cálculos durante años.|Concluyó que la Tierra y los planetas giran alrededor del Sol.|=Nicolás Copérnico.
+I|☀️ Copérnico: El Sol está en el centro; la Tierra gira a su alrededor.|🔭 Galileo: Con su telescopio vio las lunas de Júpiter.|🍎 Newton: Explicó la gravedad y las leyes del movimiento.|💡 Ilustración: Confianza en la razón; libertad e igualdad.
+0|V|Galileo usó el telescopio para observar el cielo.
+0|F|La Ilustración ocurrió en el siglo X.
+1|¿Qué es el heliocentrismo?|la idea de que el Sol está en el centro|la idea de que la Tierra es plana|el estudio de los animales
+1|¿Qué explicó Newton?|la gravedad|la imprenta|la democracia
+1|¿En qué libros reunieron el saber los ilustrados?|en enciclopedias|en quipus|en papiros
+1|¿En qué influyeron las ideas de la Ilustración?|en las independencias de América|en la caída de Roma|en el feudalismo
+2|O|Ordena a los científicos, del más antiguo al más reciente|Copérnico|Galileo|Newton
+2|V|Muchos grandes científicos fueron creyentes.
+2|¿Qué hizo la Iglesia sobre el caso Galileo?|reconoció que hubo un error|lo ocultó|prohibió la ciencia
+2|¿Qué puedo sentir al mirar las estrellas?|asombro por la creación de Dios|que la ciencia estorba a la fe|que nada tiene sentido
+#6h15
+Z|A fines del siglo XVIII hubo grandes <b>revoluciones</b>: la Independencia de Estados Unidos (1776), la Revolución Francesa (1789) y la Revolución Industrial.|En el siglo XX hubo <b>dos guerras mundiales</b>; para cuidar la paz se creó la <b>ONU</b> (1945).|La tecnología avanzó muy rápido: el ser humano llegó a la Luna (1969) y nació internet.
+E|1945: nace la ONU|1969: llegada a la Luna
+S|¿Qué santo dio su vida por otro preso en Auschwitz?|En la Segunda Guerra Mundial, los nazis encerraron a millones de personas en campos de concentración.|En Auschwitz iban a matar a un padre de familia.|Un sacerdote franciscano polaco se ofreció a morir en su lugar.|=San Maximiliano Kolbe.
+I|⚙️ Revolución Industrial: Máquina de vapor y fábricas.|🕊️ ONU: Nació en 1945 para cuidar la paz.|🚀 La Luna: El ser humano llegó en 1969.|✝️ San Maximiliano Kolbe: Dio su vida por otro preso.
+0|V|La Independencia de Estados Unidos fue en 1776.
+0|F|La ONU se creó para organizar guerras.
+1|¿Qué invento impulsó las fábricas en la Revolución Industrial?|la máquina de vapor|la computadora|el avión
+1|¿Cuántas guerras mundiales hubo en el siglo XX?|dos|una|cinco
+1|¿Para qué se creó la ONU?|para cuidar la paz entre las naciones|para vender productos entre países|para explorar la Luna y los planetas
+1|V|La mayoría de los países de América Latina se independizaron en el siglo XIX.
+2|O|Ordena de lo más antiguo a lo más reciente|Independencia de EE. UU. (1776)|Revolución Francesa (1789)|Nace la ONU (1945)|Llegada a la Luna (1969)
+2|¿Qué nos enseñan las guerras mundiales?|que hay que construir la paz|que la guerra es buena|que la vida no importa
+2|¿Qué santa murió también en Auschwitz?|santa Teresa Benedicta de la Cruz|santa Teresa de Calcuta|santa Rosa de Lima
+2|¿Qué mostró san Maximiliano Kolbe con su muerte?|que el amor es más fuerte que el odio|que hay que rendirse|que no vale la pena ayudar

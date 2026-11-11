@@ -1,0 +1,300 @@
+// Español 6.º — profundización y banco ampliado
+#6e1
+Z|Una <b>guía de estudio</b> reúne preguntas sobre los temas que vendrán en el examen.|Hay preguntas <b>abiertas</b> (respondo con mis palabras) y <b>cerradas</b>: opción múltiple, relacionar, verdadero o falso y completar.|Estrategia: leo las instrucciones, contesto primero lo que sé, regreso a lo difícil y reviso.
+E|Abierta: «Explica qué es un fósil»|Cerrada: «¿Verdadero o falso?»
+S|¿Qué tipo de pregunta se responde libremente?|Las preguntas cerradas ya traen las respuestas posibles.|En cambio, hay preguntas que solo dejan renglones en blanco.|Ahí explico con mis propias palabras lo que sé.|=La pregunta abierta.
+I|✍️ Abiertas: Respondo con mis propias palabras.|🔘 Opción múltiple: Elijo una respuesta entre varias.|↔️ Relacionar: Uno dos columnas.|⏱️ Estrategia: Leo, contesto lo que sé, regreso y reviso.
+0|V|En una pregunta abierta escribo la respuesta con mis palabras.
+0|F|Conviene contestar un examen sin leer las instrucciones.
+1|¿Qué pide una pregunta de relacionar?|unir elementos de dos columnas|escribir un cuento largo|dibujar un mapa del tema
+1|¿Qué hago primero en un examen?|leer con calma las instrucciones|contestar lo más difícil|entregarlo rápido
+1|¿Para qué reviso el examen al final?|para corregir errores y lo que faltó|para borrar todas mis respuestas|para copiarle a un compañero
+1|V|Administrar el tiempo ayuda a terminar el examen.
+2|«Explica con tus palabras por qué llueve». ¿Qué tipo de pregunta es?|abierta|de opción múltiple|de verdadero o falso
+2|Te quedan 5 minutos y 3 preguntas. ¿Qué haces?|contesto las que sé más rápido|me quedo en la más difícil|dejo de escribir
+2|¿Cómo se prepara una buena guía de estudio?|con preguntas de todos los temas|copiando solo los títulos|sin incluir respuestas ni repaso
+2|¿Qué pedía santo Tomás de Aquino antes de estudiar?|agudeza para entender|suerte para adivinar|tiempo para jugar
+#6e18
+Z|El <b>resumen</b> presenta solo las ideas principales, en forma breve.|La <b>paráfrasis</b> dice lo mismo con mis propias palabras, sin cambiar el sentido.|La <b>cita textual</b> copia las palabras exactas entre comillas y nombra al autor; copiar sin citar es <b>plagio</b>.
+E|Cita textual: «…» + autor|Ficha: autor, título, editorial, año
+S|¿Qué es el plagio?|Encuentro un texto que escribió otra persona.|Lo copio igual y lo entrego como si fuera mío, sin decir de dónde salió.|Eso es tomar lo ajeno: una falta de honestidad.|=Presentar como propio un texto ajeno sin citarlo.
+I|✂️ Resumen: Solo las ideas principales.|🔁 Paráfrasis: Lo mismo, con mis palabras.|❝ Cita textual: Palabras exactas, entre comillas y con autor.|🚫 Plagio: Copiar sin citar la fuente.
+0|V|Un resumen es más corto que el texto original.
+0|F|En una paráfrasis se cambia el sentido del texto.
+1|¿Qué conserva un buen resumen?|las ideas principales|todos los ejemplos|las palabras difíciles
+1|¿Qué datos lleva una ficha bibliográfica?|autor, título, editorial y año|mi nombre y mi grupo|el precio y el color del libro
+1|¿Qué hago para no cometer plagio?|cito al autor y la fuente|cambio el tipo de letra|borro el título
+1|V|Las comillas indican que las palabras son exactamente del autor.
+2|El texto dice: «El agua es vital». Tú escribes: «Sin agua no podemos vivir». ¿Qué hiciste?|una paráfrasis|una cita textual|un plagio
+2|Copias un párrafo de internet y lo entregas sin decir de dónde es. ¿Qué es?|plagio|resumen|paráfrasis
+2|¿Por qué el plagio va contra el séptimo mandamiento?|porque es tomar lo que no es mío|porque es escribir demasiado|porque es leer muy poco
+2|O|Ordena los datos de una cita|Comillas con el texto|Autor|Fuente|Año
+#6e2
+Z|La <b>biografía</b> cuenta la vida de una persona y la escribe otro, en tercera persona: «él nació…».|La <b>autobiografía</b> la escribe el propio protagonista, en primera persona: «yo nací…».|Las dos siguen un <b>orden cronológico</b> y usan verbos en pasado.
+E|Biografía: «Nació en Asís en 1182»|Autobiografía: «Nací en un pueblo pequeño»
+S|¿Qué santo escribió su autobiografía, llamada «Confesiones»?|De joven vivió lejos de Dios; su madre, santa Mónica, rezaba por él.|Se convirtió, fue bautizado y llegó a ser obispo de Hipona.|Contó su propia vida hablando con Dios, en primera persona.|=San Agustín.
+I|👤 Biografía: La vida de alguien contada por otra persona.|🙋 Autobiografía: Mi vida contada por mí.|📅 Orden cronológico: Del nacimiento a los hechos más recientes.|⏳ Verbos en pasado: Nació, vivía, estudió, fundó.
+0|V|La biografía se escribe en tercera persona.
+0|F|En una autobiografía, otra persona cuenta mi vida.
+1|¿Qué es el orden cronológico?|contar los hechos según ocurrieron|contar primero lo más divertido|contar los hechos al azar
+1|¿Con qué empieza normalmente una biografía?|con el nacimiento|con la muerte|con una despedida
+1|¿Para qué se usan pronombres en una biografía?|para no repetir tanto el nombre|para hacerla más larga|para cambiar de personaje
+1|Copretérito de «vivir» (él):|vivía|vivió|vive
+2|«Mis padres me bautizaron al mes de nacer». ¿En qué texto está?|en una autobiografía|en una biografía|en una noticia
+2|¿Qué nexo de tiempo ordena una biografía?|años después|sin embargo|porque
+2|¿Cuál es la última parte de una biografía?|el legado: lo que dejó|la infancia|el nacimiento
+2|¿Qué contó san Agustín en sus «Confesiones»?|cómo Dios lo buscó y lo convirtió|cómo ganar batallas|cómo construir barcos
+K|«{x}»: ¿biografía o autobiografía?|¿Biografía o autobiografía?|biografía: Él nació en Asís en 1182; Ella fundó muchos conventos; Sus padres lo llevaron al templo; De niño ayudaba a su padre|autobiografía: Yo nací en un pueblo pequeño; Mis padres me enseñaron a rezar; A los diez años hice mi primera comunión; Recuerdo mi primer día de clases
+#6e3
+Z|Los verbos <b>regulares</b> se conjugan como amar, temer y partir: no cambian su raíz.|Los <b>irregulares</b> cambian: ir (voy, fui), tener (tengo, tuve), hacer (hago, hice).|Las oraciones pueden ser exclamativas (¡!), interrogativas (¿?) o imperativas (órdenes).
+E|Regular: cantar → canté|Irregular: andar → anduve
+S|¿Cuál es el pretérito de «hacer» con «yo»?|Si fuera regular, diría «hací», como «comí».|Pero «hacer» es irregular: cambia su raíz en pretérito.|Yo hice, tú hiciste, él hizo.|=Hice.
+I|✅ Regulares: No cambian la raíz: canté, comí, viví.|🔀 Irregulares: Cambian: fui, tuve, hice, anduve.|❗ Exclamativa: Expresa emoción: ¡Qué alegría!|🧩 Frase adjetiva: «De oro» en «corazón de oro».
+0|V|«Cantar» es un verbo regular.
+0|F|El pretérito de «andar» es «andé».
+1|Pretérito de «poner» (yo):|puse|poní|ponió
+1|Pretérito de «decir» (yo):|dije|decí|dijí
+1|Pretérito de «caber» (yo):|cupe|cabí|quepí
+1|Pretérito de «traer» (ellos):|trajeron|traieron|trajieron
+2|¿Cuál oración está bien escrita?|Ayer conduje con cuidado.|Ayer conducí con cuidado.|Ayer conduci con cuidado.
+2|«Sin miedo» en «un niño sin miedo» funciona como…|adjetivo|verbo|sustantivo
+2|¿Cuál es el verbo del mandamiento más importante?|amar|temer|partir
+2|Pretérito de «saber» (nosotros):|supimos|sabimos|sabemos
+K|«{x}»: ¿verbo regular o irregular?|¿Regular o irregular?|regular: amar; cantar; comer; vivir; saltar; beber|irregular: ir; tener; hacer; andar; poner; decir; ser
+K|¿Qué tipo de oración es «{x}»?|¿Qué tipo de oración es?|exclamativa: ¡Qué alegría!; ¡Cuánto te quiero!; ¡Qué bonito día!|interrogativa: ¿Vienes a Misa?; ¿Dónde está tu libro?; ¿Quién llamó?|imperativa: Cierra la puerta; Guarda silencio, por favor; Lávate las manos
+#6e19
+Z|Una <b>oración compuesta</b> tiene dos o más verbos conjugados: «Estudié mucho y aprobé».|Sus partes se unen con <b>nexos</b>: copulativos (y, ni), adversativos (pero, sin embargo), disyuntivos (o).|También causales (porque), consecutivos (por lo tanto) y condicionales (si).
+E|Estudié <b>y</b> aprobé|Llovía, <b>pero</b> fuimos a Misa
+S|¿Qué tipo de nexo es «sin embargo»?|«Quería salir; sin embargo, me quedé a estudiar».|La segunda idea se opone a la primera.|Los nexos que marcan oposición o contraste se llaman adversativos, como «pero».|=Adversativo.
+I|➕ Copulativos: Suman ideas: y, e, ni.|↔️ Adversativos: Oponen ideas: pero, sin embargo.|❓ Disyuntivos: Dan a elegir: o, u.|➡️ Causa y consecuencia: Porque; por lo tanto.
+0|V|«Canté y bailé» es una oración compuesta.
+0|F|«Porque» es un nexo que da a elegir entre dos opciones.
+1|¿Cuántos verbos tiene «Llegué, recé y dormí»?|tres|uno|dos
+1|¿Qué nexo une: «Quiero ir, ___ estoy enfermo»?|pero|porque|y
+1|¿Qué nexo une: «No fui ___ estaba lloviendo»?|porque|pero|o
+1|¿Qué expresa el nexo «si»?|una condición|una suma|una consecuencia
+2|Une las oraciones: «Estudió mucho. Aprobó el examen».|Estudió mucho; por lo tanto, aprobó.|Estudió mucho o aprobó.|Estudió mucho, pero aprobó.
+2|«Aunque llovía, fuimos a Misa». ¿Qué expresa «aunque»?|una dificultad que no impide la acción|la causa por la que fuimos a Misa|una opción para elegir entre dos cosas
+2|¿Qué tipo de oración es «Si quieres ser perfecto, sígueme»?|condicional|adversativa|disyuntiva
+2|«Ni comió ni durmió». ¿Qué tipo de nexo es «ni»?|copulativo|causal|condicional
+K|¿Qué tipo de nexo es «{x}»?|¿Qué tipo de nexo es?|copulativo: y; ni; e|adversativo: pero; sin embargo; no obstante|causal: porque; ya que; puesto que|consecutivo: por lo tanto; así que; por consiguiente
+#6e9
+Z|Un <b>texto histórico</b> narra hechos del pasado con sus causas y consecuencias.|Usa verbos en pasado, fechas y <b>conectores</b>: en aquella época, debido a, por consiguiente, posteriormente.|Un <b>hecho</b> se puede comprobar; una <b>opinión</b> es lo que alguien piensa.
+E|Hecho: «Roma cayó en 476»|Opinión: «Fue el mejor imperio»
+S|«Roma cayó en 476», ¿es hecho u opinión?|Pregúntate: ¿se puede comprobar con documentos o pruebas?|Sí: los historiadores tienen registros de esa fecha.|No depende del gusto de nadie.|=Es un hecho.
+I|📜 Contexto: Dónde y cuándo ocurrió.|🔎 Causas: Por qué ocurrió.|✅ Hecho: Algo que se puede comprobar.|💭 Opinión: Lo que alguien piensa o siente.
+0|V|Un hecho se puede comprobar.
+0|F|«Posteriormente» significa «antes».
+1|¿Qué conector indica causa?|debido a|posteriormente|por consiguiente
+1|¿Qué conector indica que algo pasó después?|posteriormente|debido a|en aquella época
+1|¿En qué tiempo se escriben los textos históricos?|en pasado|en futuro|en presente
+1|Pretérito de «llegar» (ellos):|llegaron|llegaban|llegarán
+2|O|Ordena las partes de un texto histórico|Contexto|Causas|Hechos|Consecuencias
+2|«La Independencia de México comenzó en 1810». ¿Qué es?|un hecho|una opinión|una leyenda
+2|Completa: «Hubo sequía; ___, se perdieron las cosechas».|por consiguiente|en aquella época|sin embargo
+2|¿Cómo escribió san Lucas los Hechos de los Apóstoles?|investigando con cuidado|inventando historias|copiando leyendas
+K|«{x}»: ¿hecho u opinión?|¿Hecho u opinión?|hecho: Roma cayó en el año 476; Colón llegó a América en 1492; La Independencia de México empezó en 1810; El agua hierve a 100 °C|opinión: Fue el peor imperio de la historia; Las catedrales góticas son las más bonitas; El futbol es el mejor deporte; Los lunes son aburridos
+#6e14
+Z|Se escriben con <b>b</b>: -bilidad (amabilidad), -aba (cantaba), bu-, bur-, bus-. Con <b>v</b>: después de n (enviar) y los adjetivos en -ivo, -iva.|Se escriben con <b>h</b>: hie-, hue-, hum- (hielo, hueso, humo). Con <b>c</b>: -ción, -cia, -cio.|En un <b>hiato</b>, la vocal cerrada tónica lleva tilde: Ma-rí-a, dí-a, rí-o.
+E|amabilidad · cantaba · enviar · activo|Ma-rí-a · pa-ís · ba-úl
+S|¿Por qué «día» lleva tilde?|Separa en sílabas: dí-a. Las dos vocales van en sílabas distintas: es un hiato.|La «í» es vocal cerrada y suena más fuerte (tónica).|En ese caso siempre se pone tilde, aunque las reglas generales no lo pidan.|=Porque la «í» tónica forma hiato con la «a».
+I|🅱️ Con b: -bilidad, -aba, bu-, bur-, bus-.|✌️ Con v: Después de n; adjetivos en -ivo, -iva.|🤫 Con h: hie-, hue-, hum-.|✏️ Hiato: Vocal cerrada tónica con tilde: María, día.
+0|V|«Cantaba» se escribe con b.
+0|F|«Hielo» se escribe sin h.
+1|¿Cuál está bien escrita?|posibilidad|posivilidad|pocibilidad
+1|¿Cuál está bien escrita?|invitar|inbitar|imvitar
+1|¿Cuál está bien escrita?|humedad|umedad|humedat
+1|¿Cuál está bien escrita?|canción|cansión|canzión
+2|¿Cuál lleva tilde por hiato?|baúl|aire|peine
+2|¿Cómo se separa en sílabas «país»?|pa-ís|país|pai-s
+2|¿Cuál oración está bien escrita?|Mi tía envió un regalo.|Mi tia embió un regalo.|Mi tía enbió un regalo.
+2|¿Cuál nombre está bien escrito?|María|Maria|Mariá
+K|¿Qué letra falta en «{x}»?|¿Con b o con v?|b: ama_ilidad; canta_a; _urla; posi_ilidad; _uscar; juga_a|v: en_iar; acti_o; in_ierno; moti_o; en_idia; creati_a
+K|«{x}»: ¿debe llevar tilde?|¿Lleva tilde o no?|lleva tilde: Maria; dia; rio; baul; pais; Raul; maiz|no lleva tilde: aire; cuento; ciudad; peine; cuidado; reina
+#6e15
+Z|Muchas palabras se forman con <b>raíces griegas y latinas</b>: bio (vida), geo (tierra), foto (luz), tele (lejos), crono (tiempo), teo (Dios).|Los <b>prefijos</b> van antes de la raíz: pre- (antes), anti- (contra), sub- (debajo).|Los <b>sufijos</b> van después: -logía (estudio), -itis (inflamación), -grafía (escritura).
+E|bio + logía = biología|sub + marino = submarino
+S|¿Qué significa «biología»?|Separa la palabra: bio + logía.|«Bio» significa vida; «logía», estudio o ciencia.|Une los significados.|=El estudio de la vida.
+I|🌱 Bio: Vida: biología, biografía.|🌍 Geo: Tierra: geografía, geología.|✝️ Teo: Dios: teología.|🧩 Prefijos y sufijos: Antes y después de la raíz.
+0|V|«Bio» significa vida.
+0|F|Un prefijo se coloca al final de la palabra.
+1|¿Qué estudia la zoología?|los animales|las plantas|las estrellas
+1|¿Qué significa «submarino»?|debajo del mar|lejos del mar|contra el mar
+1|¿Qué significa «prehistoria»?|antes de la historia|después de la historia|contra la historia
+1|¿Qué es la amigdalitis?|inflamación de las amígdalas|estudio de las amígdalas|falta de amígdalas
+2|¿Qué significa «geología»?|estudio de la Tierra|estudio de la vida|escritura de la Tierra
+2|¿Qué aparato sirve para «ver de lejos»?|el telescopio|el microscopio|el termómetro
+2|¿Qué significa «teología»?|estudio de Dios|estudio del tiempo|estudio de la luz
+2|Si «hidro» es agua y «fobia» es miedo, ¿qué es hidrofobia?|miedo al agua|amor al agua|falta de agua
+P|¿Qué significa la raíz «{x}»?|¿Qué raíz significa «{x}»?|bio = vida|foto = luz|crono = tiempo|hidro = agua|zoo = animal|micro = pequeño|termo = calor|grafía = escritura|logía = estudio
+P|¿Qué indica el prefijo «{x}»?||pre- = antes|anti- = contra|sub- = debajo|re- = otra vez|bi- = dos
+#6e4
+Z|El <b>reportaje</b> investiga a fondo un tema: reúne datos, entrevistas, testimonios y fotografías.|Tiene título, entrada, desarrollo y cierre, y menciona sus <b>fuentes</b>.|Lo que dice un entrevistado se cita con guion largo o comillas, y toda la información se <b>verifica</b>.
+E|Testimonio: lo que cuenta un testigo|Fuente: de dónde viene la información
+S|¿En qué se diferencia un reportaje de una noticia?|La noticia informa rápido un hecho reciente: qué, quién, cuándo, dónde.|El reportaje toma más tiempo: investiga causas, entrevista a varias personas y da contexto.|Por eso es más largo y más completo.|=El reportaje investiga a fondo y con más fuentes.
+I|🔎 Investigar: Buscar datos en varias fuentes.|🎙️ Entrevistar: Preguntar a quienes saben del tema.|📝 Redactar: Título, entrada, desarrollo y cierre.|✅ Verificar: Confirmar antes de publicar.
+0|V|Un reportaje cita sus fuentes.
+0|F|En un reportaje se publican los datos sin comprobarlos.
+1|¿Qué es una fuente?|el origen de la información|el título del reportaje|la foto de la portada
+1|¿Qué parte del reportaje presenta el tema y atrae al lector?|la entrada|el cierre|las fuentes
+1|¿Cómo se organizan muchos datos numéricos?|en tablas o gráficas|en un poema|en una carta
+1|¿Para qué se entrevista a varias personas?|para tener distintos puntos de vista|para hacer más largo el texto|para llenar más páginas
+2|O|Ordena cómo se hace un reportaje|Elegir el tema|Investigar|Entrevistar|Redactar|Revisar
+2|Dos vecinos cuentan versiones distintas de un hecho. ¿Qué haces?|busco más fuentes para comprobar|publico la que más me gusta|invento una tercera versión
+2|¿Cuál es un buen tema de reportaje para tu comunidad?|la historia de tu parroquia|tu color favorito|un sueño que tuviste
+2|¿Cómo se escribe lo que dijo el entrevistado?|—El templo se construyó en 1750 —explicó el párroco.|El templo se construyó, creo yo, hace mucho.|Dicen por ahí que el templo es muy viejo.
+#6e11
+Z|El <b>guion de radio</b> indica quién habla, qué dice, la música, los efectos de sonido y el tiempo de cada sección.|En la radio todo se comunica con la <b>voz y los sonidos</b>: se habla claro, con buen ritmo y respeto.|Un programa se planea, se ensaya, se graba y se transmite.
+E|Cortinilla: música breve entre secciones|Locutor: quien conduce el programa
+S|¿Qué es una cortinilla?|Un programa de radio tiene varias secciones: noticias, entrevista, música.|Para avisar al oyente que cambia de sección, suena una música muy corta.|Dura solo unos segundos.|=Una pieza musical breve que separa secciones.
+I|🎙️ Locutor: Conduce el programa con voz clara.|🎵 Cortinilla: Música breve entre secciones.|🔊 Efectos: Sonidos que ambientan: lluvia, pasos.|⏱️ Tiempos: Cada sección dura lo planeado.
+0|V|En la radio los efectos de sonido ayudan a imaginar.
+0|F|Un programa de radio se hace sin planear nada.
+1|¿Qué indica el guion de radio?|quién habla, qué dice y cuánto dura|el precio de los aparatos de radio|los nombres de los oyentes
+1|¿Qué va primero al hacer un programa?|el guion|la transmisión|la grabación
+1|¿Cómo debe hablar un locutor?|claro y con buen ritmo|muy rápido y bajito|gritando todo el tiempo
+1|¿Para qué sirven los efectos de sonido?|para ambientar lo que se cuenta|para tapar la voz|para alargar el programa
+2|O|Ordena cómo se hace un programa de radio|Guion|Ensayo|Grabación|Transmisión
+2|En tu programa quieres que se «vea» una tormenta. ¿Qué usas?|efectos de truenos y lluvia|una fotografía|un cartel de colores
+2|Tu programa debe durar 10 minutos y el guion es muy largo. ¿Qué haces?|ajusto el tiempo de cada sección|hablo lo más rápido posible|quito la música y los saludos
+2|¿Qué hacen muchas radios católicas?|llevan el Evangelio a lugares lejanos|solo transmiten deportes|venden aparatos
+#6e6
+Z|La <b>carta de opinión</b> se envía a un periódico o a una autoridad para opinar sobre un hecho.|Partes: lugar y fecha, destinatario, saludo, cuerpo (opinión y argumentos), despedida y firma.|Se argumenta con datos y ejemplos, usando nexos y un lenguaje <b>respetuoso</b>.
+E|En primer lugar… Además… Por lo tanto…|Argumento: razón que apoya la opinión
+S|¿Qué nexo introduce la conclusión?|Primero presento mi opinión: «En mi opinión…».|Después doy mis razones: «En primer lugar… Además…».|Al final cierro con la idea más importante.|=«En conclusión» o «por lo tanto».
+I|📅 Encabezado: Lugar, fecha y destinatario.|💭 Opinión: Lo que pienso sobre el hecho.|📊 Argumentos: Datos y ejemplos que la apoyan.|✍️ Cierre: Conclusión, despedida y firma.
+0|V|En una carta de opinión se dan razones.
+0|F|Una carta de opinión puede incluir insultos.
+1|¿Qué va al inicio de la carta?|el lugar y la fecha|la firma|la conclusión
+1|¿Qué es un argumento?|una razón que apoya mi opinión|un saludo de cortesía|una despedida formal
+1|¿Qué nexo introduce el primer argumento?|en primer lugar|en conclusión|por último
+1|¿A quién se dirige una carta sobre el alumbrado de tu calle?|a la autoridad municipal|a un amigo lejano|a tu maestro de música
+2|O|Ordena las partes de la carta de opinión|Lugar y fecha|Destinatario|Opinión|Argumentos|Firma
+2|¿Cuál es un buen argumento para pedir un parque?|«Los niños necesitan un lugar seguro para jugar»|«Porque sí, porque lo queremos y ya»|«Porque yo lo digo y soy el mayor»
+2|¿Qué enseña la Iglesia sobre el hombre y la mujer?|que tienen la misma dignidad|que uno vale más que el otro|que no deben respetarse
+2|Además de quejarte, ¿qué conviene incluir en tu carta?|una propuesta de solución|una amenaza al alcalde|una burla del problema
+#6e17
+Z|En un <b>debate</b> se defiende una <b>tesis</b> (lo que sostengo) con <b>argumentos</b>: razones, datos, ejemplos y voces de expertos.|Se escucha al otro equipo y se <b>contraargumenta</b> con respeto.|Las <b>falacias</b> son razonamientos tramposos: atacar a la persona, generalizar o meter miedo.
+E|Tesis: «Leer cada día mejora la ortografía»|Falacia: «Tú no sabes nada»
+S|¿Qué es una falacia?|Alguien dice: «No le crean, es muy chaparro».|Eso no demuestra que su idea sea falsa: ataca a la persona, no a la idea.|Parece un argumento, pero no lo es.|=Un razonamiento incorrecto que parece válido.
+I|🎯 Tesis: La idea que defiendo.|📊 Argumentos: Razones, datos y ejemplos.|🔄 Contraargumento: Respondo con respeto a la otra postura.|🚫 Falacia: Razonamiento tramposo.
+0|V|En un debate se escucha al otro equipo.
+0|F|Gritar más fuerte es un buen argumento.
+1|¿Qué es contraargumentar?|responder con razones a la otra postura|repetir lo mismo más fuerte|interrumpir al que habla
+1|¿Cuál es un argumento de autoridad?|citar lo que dice un experto|decir «porque yo lo digo»|burlarse del otro
+1|¿Cómo se cierra una participación en el debate?|con una conclusión|con un insulto|con una pregunta sin sentido
+1|¿Quién da la palabra y cuida el orden en un debate?|el moderador|el público|el más fuerte
+2|«Todos los niños de sexto son flojos». ¿Qué falacia es?|generalizar sin pruebas|ataque personal|apelar al miedo
+2|«Si no votas por mí, te irá muy mal». ¿Qué falacia es?|apelar al miedo|generalizar|ataque personal
+2|O|Ordena las partes de una argumentación|Tesis|Argumentos|Contraargumentos|Conclusión
+2|¿Cómo pide san Pedro que demos razón de nuestra esperanza?|con mansedumbre y respeto|con gritos y enojo|con burlas e insultos
+K|«{x}»: ¿argumento o falacia?|¿Argumento o falacia?|argumento: Según los médicos, dormir bien ayuda a aprender; Las cifras muestran que leer mejora la ortografía; Por ejemplo, en mi escuela bajó la basura al reciclar|falacia: No le hagan caso, es muy chaparro; Todos los niños son flojos; Si no me das la razón, te irá mal
+#6e7
+Z|La <b>carta personal</b> comunica noticias y sentimientos a familiares y amigos: saludo cálido, cuerpo y despedida.|Los <b>deícticos</b> son palabras cuyo significado depende de quién, cuándo y dónde se dicen.|Hay deícticos de lugar (aquí, allá), de tiempo (hoy, mañana) y de persona (yo, tú).
+E|«Mañana iré allá»: ¿cuándo?, ¿a dónde?|Lugar y fecha: ayudan a entender los deícticos
+S|¿Por qué «mañana» es un deíctico?|Si escribo «mañana» un lunes, significa martes.|Si lo escribo un viernes, significa sábado.|La misma palabra señala días distintos según cuándo se diga.|=Porque su significado depende del momento en que se escribe.
+I|📍 De lugar: Aquí, ahí, allá, acá.|⏰ De tiempo: Hoy, ayer, mañana, ahora.|🙋 De persona: Yo, tú, nosotros.|✉️ Carta personal: Saludo, cuerpo y despedida.
+0|V|El significado de «ayer» depende de cuándo se dice.
+0|F|En una carta personal no hace falta saludar.
+1|¿Qué dato de la carta ayuda a entender «hoy» y «mañana»?|la fecha|la firma|el saludo
+1|¿Qué dato de la carta ayuda a entender «aquí»?|el lugar|la despedida|la posdata
+1|¿Cómo es el lenguaje de una carta personal?|informal, pero correcto|lleno de groserías|muy técnico y frío
+1|¿Con qué termina una carta personal?|con la despedida y la firma|con el lugar y la fecha|con el destinatario
+2|Tu primo escribe desde Mérida: «Aquí hace mucho calor». ¿Dónde hace calor?|en Mérida|en tu ciudad|en todo el mundo
+2|Una carta del 3 de mayo dice: «Mañana es mi cumpleaños». ¿Cuándo es?|el 4 de mayo|el 3 de mayo|el 2 de mayo
+2|En «Yo te extraño», ¿quién es «yo»?|quien escribe la carta|quien la lee|el cartero
+2|¿Qué escribía santa Teresita en sus cartas?|palabras de amor a su familia|quejas y regaños|listas de compras
+K|¿De qué tipo es el deíctico «{x}»?|¿Lugar, tiempo o persona?|de lugar: aquí; ahí; acá|de tiempo: mañana; ayer; ahora|de persona: yo; tú; nosotros; ustedes
+#6e8
+Z|Un <b>manual</b> o <b>instructivo</b> explica cómo usar o armar algo.|Lleva título, materiales, <b>pasos numerados</b>, ilustraciones y advertencias.|Los verbos van en <b>imperativo</b> (corta, pega) o en <b>infinitivo</b> (cortar, pegar), con lenguaje claro y preciso.
+E|Imperativo: «Conecta el cable»|Infinitivo: «Conectar el cable»
+S|¿En qué modo van los verbos de un instructivo?|Un instructivo dice lo que hay que hacer, paso a paso.|Puede dar la orden directa: «Mezcla», «Agrega», «Espera».|O nombrar la acción: «Mezclar», «Agregar», «Esperar».|=En imperativo o en infinitivo.
+I|📦 Materiales: Lo que se necesita.|🔢 Pasos numerados: En orden y con claridad.|🖼️ Ilustraciones: Muestran cómo hacerlo.|⚠️ Advertencias: Previenen accidentes.
+0|V|Los pasos de un instructivo deben estar en orden.
+0|F|En un instructivo se usan palabras confusas a propósito.
+1|¿Qué va primero en un instructivo?|los materiales|las advertencias finales|el último paso
+1|¿Qué conector indica el primer paso?|primero|finalmente|después
+1|¿Para qué sirven las ilustraciones?|para mostrar cómo se hace cada paso|para adornar la caja|para esconder los pasos
+1|¿Cuál instrucción es más precisa?|«Agrega dos cucharadas de azúcar»|«Agrega algo de azúcar»|«Agrega azúcar o lo que sea»
+2|O|Ordena los pasos para lavarse las manos|Mojar las manos|Aplicar jabón|Tallar 20 segundos|Enjuagar|Secar
+2|Un paso dice: «Usa tijeras con ayuda de un adulto». ¿Qué es?|una advertencia|un material|una ilustración
+2|¿Por qué el Catecismo es como un manual?|porque explica la fe de forma ordenada|porque trae juegos de mesa|porque enseña a armar muebles
+2|Cambia a imperativo: «Cerrar la llave».|Cierra la llave.|Cerrando la llave.|Cerró la llave.
+K|«{x}»: ¿imperativo o infinitivo?|¿Imperativo o infinitivo?|imperativo: Corta el papel; Pega las piezas; Agita antes de usar; Lava tus manos|infinitivo: Cortar el papel; Pegar las piezas; Agitar antes de usar; Lavar las manos
+#6e10
+Z|El <b>anuario</b> es el recuerdo de un ciclo escolar: fotos, textos, anécdotas y reconocimientos.|Hacerlo es trabajo de equipo: planear, repartir tareas, redactar, revisar y diseñar.|El <b>folleto</b> informa de manera breve con títulos, viñetas e imágenes.
+E|Anécdota: relato breve de algo curioso|Viñeta: punto que encabeza cada idea
+S|¿Qué se incluye en un anuario?|Piensa en lo que querrás recordar dentro de muchos años.|Las caras de tus compañeros y maestros: fotos.|Lo que vivieron juntos: anécdotas, textos y reconocimientos.|=Fotos, textos, anécdotas y reconocimientos del ciclo escolar.
+I|📒 Anuario: Recuerdo del ciclo escolar.|📸 Contenido: Fotos, textos y anécdotas.|👥 Equipo: Planear y repartir tareas.|📄 Folleto: Información breve con imágenes.
+0|V|Un anuario se hace en equipo.
+0|F|Un folleto es un libro muy largo.
+1|¿Qué es una anécdota?|un relato breve de algo curioso|una regla de ortografía|una lista de materiales
+1|¿Qué ayuda a leer rápido un folleto?|títulos, viñetas e imágenes|párrafos muy largos|letra muy pequeña
+1|¿Qué se hace antes de imprimir el anuario?|revisar la ortografía y el diseño|repartirlo a las familias|tomar las fotos de nuevo
+1|¿Cuál es un buen tema para un folleto?|cómo cuidar el agua|una novela completa|el diccionario
+2|O|Ordena cómo se hace un anuario|Planear|Repartir tareas|Redactar|Diseñar|Imprimir
+2|Un compañero propone poner apodos ofensivos en el anuario. ¿Qué dices?|que mejor escribamos algo bueno de cada uno|que pongamos los apodos más feos|que seguro nadie se va a enojar
+2|¿Qué texto escribirías para tu maestra en el anuario?|uno de agradecimiento|uno de burla|uno de reclamo
+2|Al terminar la primaria, ¿a quién damos gracias primero?|a Dios, por todo lo recibido|a la suerte que tuvimos|a nadie: todo fue mérito mío
+#6e12
+Z|Un <b>cuento de misterio</b> crea suspenso con lugares oscuros, sonidos extraños, preguntas sin respuesta y un final sorprendente.|El <b>discurso directo</b> reproduce las palabras exactas del personaje, con guion largo: —Tengo miedo —dijo Ana.|El <b>discurso indirecto</b> las cuenta el narrador: Ana dijo que tenía miedo.
+E|Directo: —Voy a casa —dijo Luis.|Indirecto: Luis dijo que iba a casa.
+S|Pasa a discurso indirecto: —Voy a la iglesia —dijo Luis.|Quito el guion y empiezo con el narrador: «Luis dijo que…».|Cambio el verbo al pasado: «voy» se vuelve «iba».|Uno las dos partes.|=Luis dijo que iba a la iglesia.
+I|🌙 Atmósfera: Lugares oscuros y sonidos extraños.|❓ Suspenso: Preguntas que se resuelven al final.|🗨️ Directo: Palabras exactas, con guion largo.|📖 Indirecto: El narrador cuenta lo que se dijo.
+0|V|El suspenso mantiene al lector con ganas de saber qué pasará.
+0|F|En el discurso indirecto se usa guion largo.
+1|¿Qué signo abre las palabras de un personaje en un cuento?|el guion largo (—)|el paréntesis|el punto y coma
+1|¿Qué elemento crea misterio?|un ruido extraño en la noche|un día soleado de campo|una lista de compras
+1|¿Cómo es el desenlace de un buen cuento de misterio?|sorprendente|aburrido|igual al inicio
+1|En «—¡Corre! —gritó el guía», ¿quién habla?|el guía|el narrador|el lector
+2|Pasa a indirecto: —Tengo hambre —dijo Pablo.|Pablo dijo que tenía hambre.|Pablo dijo que tengo hambre.|Pablo dice: tengo hambre.
+2|Pasa a directo: Marta dijo que estaba cansada.|—Estoy cansada —dijo Marta.|—Estaba cansada —dijo Marta.|Marta dijo: que estaba cansada.
+2|¿Por qué un cristiano no juega a la ouija?|porque va contra la fe y es peligroso|porque es muy aburrido|porque cuesta mucho dinero
+2|¿Qué dijo Jesús a sus discípulos asustados en la barca?|«No tengan miedo»|«Tengan mucho miedo»|«Sálvense solos»
+K|«{x}»: ¿discurso directo o indirecto?|¿Directo o indirecto?|directo: —Tengo frío —dijo Ana; —¿Vienes? —preguntó Luis; —¡Cuidado! —gritó el guía|indirecto: Ana dijo que tenía frío; Luis preguntó si venía; El guía gritó que tuvieran cuidado
+#6e16
+Z|La <b>novela</b> es un relato largo dividido en capítulos, con varios personajes, escenarios y tramas.|Sus personajes cambian a lo largo de la historia.|En un <b>comentario literario</b> digo título, autor, de qué trata (sin contar el final), qué me enseñó y si lo recomiendo.
+E|Novela: muchos capítulos|Cuento: relato breve
+S|¿Qué no debe contar un comentario literario?|El comentario quiere animar a otros a leer el libro.|Si cuento cómo termina, les quito la sorpresa.|Por eso explico de qué trata, pero me detengo antes del desenlace.|=El final del libro.
+I|📖 Capítulos: La novela se divide en partes.|🧒 Personajes: Cambian y aprenden en la historia.|🗺️ Escenarios: Varios lugares y tramas.|💬 Comentario: Datos, resumen, enseñanza y recomendación.
+0|V|Una novela es más larga que un cuento.
+0|F|En un comentario literario hay que contar el final.
+1|¿En qué se divide una novela?|en capítulos|en estrofas|en actos y escenas
+1|¿Qué datos van primero en un comentario literario?|el título y el autor|el final del libro|el precio del libro
+1|¿Quién escribió «El principito»?|Antoine de Saint-Exupéry|C. S. Lewis|Edmundo de Amicis
+1|¿Qué es la trama?|lo que sucede en la historia|el nombre del autor|el número de páginas
+2|O|Ordena un comentario literario|Datos del libro|Resumen sin el final|Personajes|Enseñanza|Recomendación
+2|¿Qué muestra que un personaje «cambió» en la novela?|que al final piensa y actúa distinto|que se puso otra ropa al final|que le cambiaron el nombre
+2|¿Qué tienen en común las novelas de C. S. Lewis y de Tolkien?|aventuras con valores cristianos|recetas de cocina|reglas de ortografía
+2|¿Cómo recomiendas un libro sin arruinarlo?|cuento el inicio y lo que me gustó|cuento todo, hasta el final|digo solo que es largo
+#6e5
+Z|Los <b>poemas</b> expresan sentimientos con un lenguaje especial: versos, ritmo y rima.|Recursos: <b>símil</b> (compara con «como»), <b>metáfora</b> (dice que una cosa es otra), <b>personificación</b> (da vida humana a las cosas).|También <b>hipérbole</b> (exagera) y <b>aliteración</b> (repite sonidos).
+E|Símil: «fuerte como un roble»|Metáfora: «tus ojos son luceros»
+S|¿Qué figura es «la hermana luna»?|La luna no es una persona ni puede ser hermana de nadie.|San Francisco la trata como a alguien de la familia.|Dar cualidades humanas a una cosa tiene un nombre.|=Personificación.
+I|≈ Símil: Compara usando «como».|🟰 Metáfora: Dice que una cosa es otra.|🌙 Personificación: Da cualidades humanas a las cosas.|📣 Hipérbole: Exagera para impresionar.
+0|V|El símil compara usando la palabra «como».
+0|F|La hipérbole dice las cosas exactamente como son.
+1|«Eres fuerte como un roble». ¿Qué figura es?|símil|metáfora|hipérbole
+1|«Te lo dije mil veces». ¿Qué figura es?|hipérbole|símil|personificación
+1|«El ruido con que rueda la ronca tempestad». ¿Qué figura es?|aliteración|metáfora|símil
+1|¿Qué es la rima?|la repetición de sonidos al final de los versos|el título que el poeta pone al poema|el número de estrofas que tiene
+2|Convierte en metáfora: «Tus dientes son como perlas».|Tus dientes son perlas.|Tus dientes parecen perlas.|Tus dientes, como perlas, brillan.
+2|¿Qué sentimiento expresa «Alabado seas, mi Señor»?|admiración y gratitud|enojo y tristeza|miedo y vergüenza
+2|¿Cómo se lee bien un poema en voz alta?|con ritmo, pausas y entonación|lo más rápido posible|sin respirar ni hacer pausas
+2|«La luna te sonríe, Madre». ¿Qué figura es?|personificación|hipérbole|aliteración
+K|¿Qué figura es «{x}»?|¿Qué figura es?|símil: Sus manos son como seda; Corre como el viento; Duerme como un tronco|metáfora: Tus ojos son dos luceros; El tiempo es oro; Tu voz es música|personificación: El sol se asoma curioso; Las flores bailan; El río murmura un secreto|hipérbole: Lloró ríos de lágrimas; Me muero de hambre; Tardaste un siglo
+#6e13
+Z|En México se hablan <b>68 lenguas indígenas</b>, como el náhuatl, el maya y el zapoteco: son parte de nuestra riqueza.|Muchas palabras del español vienen del náhuatl: chocolate, tomate, aguacate.|El <b>haikú</b> es un poema japonés de tres versos de <b>5, 7 y 5 sílabas</b> sobre la naturaleza o un instante.
+E|Del náhuatl: chocolate, tomate, coyote|Haikú: 5 – 7 – 5 sílabas
+S|¿Cuántas sílabas tiene cada verso de un haikú?|Cuenta las sílabas de «Bri-lla la lu-na»: 5.|«So-bre el la-go dor-mi-do»: 7 (so-bre_el se une).|«Can-ta u-na ra-na»: 5 (ta_u se une).|=5, 7 y 5.
+I|🗣️ 68 lenguas: Náhuatl, maya, zapoteco y más.|🍫 Nahuatlismos: Chocolate, tomate, aguacate.|🎋 Haikú: Poema japonés de tres versos.|🔢 Métrica: 5, 7 y 5 sílabas.
+0|V|«Chocolate» es una palabra de origen náhuatl.
+0|F|Un haikú es un poema muy largo.
+1|¿De qué suele tratar un haikú?|de la naturaleza o de un instante|de batallas y de guerras|de noticias del periódico
+1|¿Cuál de estas palabras viene del náhuatl?|tomate|ventana|zapato
+1|¿En qué lengua se escribió el Nican Mopohua?|náhuatl|latín|maya
+1|¿Cuántas sílabas tiene el segundo verso de un haikú?|siete|cinco|diez
+2|¿Cuál verso tiene 5 sílabas?|«Canta el jilguero»|«Canta el pajarito azul»|«El sol»
+2|¿Qué narra el Nican Mopohua?|las apariciones de la Virgen de Guadalupe|la conquista de Tenochtitlan|la vida de san Francisco
+2|¿Por qué vale la pena aprender palabras en lenguas indígenas?|porque nos acercan a esas culturas|porque son palabras raras|porque ya nadie las habla
+2|«Brilla la luna / sobre el lago dormido / canta una rana». ¿De qué trata este haikú?|de un instante en la naturaleza|de una batalla antigua|de una fiesta de cumpleaños
