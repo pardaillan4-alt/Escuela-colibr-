@@ -1,0 +1,337 @@
+// Ciencias Naturales 5.º — profundización y banco ampliado
+#5c1
+Z|Una dieta correcta es <b>completa</b> (incluye los tres grupos), <b>equilibrada</b> (en proporciones adecuadas) y <b>suficiente</b>.|También es <b>variada</b>, <b>inocua</b> (limpia, no hace daño) y <b>adecuada</b> a la edad y la actividad.|El Plato del Bien Comer tiene tres grupos: verduras y frutas, cereales, y leguminosas y alimentos de origen animal.|La comida mexicana tradicional (maíz, frijol, chile, calabaza, nopal) es muy nutritiva.
+E|Agua simple: la mejor bebida|Taco de frijoles con nopales: completo y nutritivo
+S|¿Es completo un desayuno de fruta, tortilla y huevo con frijoles?|La fruta es del grupo de verduras y frutas.|La tortilla es un cereal.|El huevo y los frijoles son alimentos de origen animal y leguminosas.|=Sí: tiene alimentos de los tres grupos.
+I|🥗 Completa: Con los tres grupos.|⚖️ Equilibrada: Cada grupo en su proporción.|🧼 Inocua: Limpia y bien preparada.|🌽 Mexicana: Maíz, frijol, chile y nopal.
+0|V|Lavar frutas y verduras ayuda a que la comida sea inocua.
+0|¿Cuál es la mejor bebida para acompañar la comida?|agua simple|refresco|jugo embotellado
+1|¿Qué es una dieta «suficiente»?|la que cubre lo que el cuerpo necesita|la que tiene muchos dulces|la que solo incluye carne
+1|¿Cuántos grupos tiene el Plato del Bien Comer?|tres|siete|dos
+1|F|Una dieta variada consiste en comer todos los días lo mismo.
+1|¿Por qué un deportista come más que una persona sedentaria?|porque gasta más energía|porque es más alto|porque se aburre
+2|¿Qué combinación es más completa?|frijoles, arroz y ensalada|papas fritas y refresco|pan dulce con chocolate
+2|¿Qué alimentos tradicionales mexicanos son muy nutritivos?|maíz, frijol y nopal|papas fritas y pastelitos|refresco y dulces
+2|V|Agradecer los alimentos nos recuerda el trabajo de quienes los producen.
+2|¿Qué le falta a un desayuno de solo pan dulce y refresco?|verduras, frutas y proteínas|más azúcar y más refresco|más harina y más mantequilla
+K|{x}: ¿a qué grupo del Plato del Bien Comer pertenece?|¿De qué grupo es?|verduras y frutas: la zanahoria; la naranja; el nopal; la manzana|cereales: la tortilla; el arroz; el pan; la avena|leguminosas y origen animal: el frijol; la lenteja; el huevo; el pollo; el pescado
+#5c2
+Z|Comer en exceso alimentos con mucha azúcar y grasa y moverse poco causa <b>sobrepeso y obesidad</b>.|Estas condiciones favorecen la diabetes, la presión alta y los problemas del corazón.|Se <b>previenen</b> comiendo sano, bebiendo agua simple, con 60 minutos de actividad física al día y durmiendo bien.|Si alguien deja de comer o come sin control, debe hablar con sus papás y con un médico.
+E|Templanza: disfrutar con medida|El cuerpo es un regalo de Dios que se cuida
+S|¿Cómo cuido mi salud sin obsesionarme con mi cuerpo?|Como alimentos variados y en horarios regulares.|Juego, corro o hago deporte todos los días.|No me comparo con otros: cada cuerpo es distinto y valioso.|=Con buenos hábitos, alegría y gratitud por mi cuerpo.
+I|🍩 Exceso: Mucha azúcar y grasa hacen daño.|🛋️ Sedentarismo: Moverse muy poco.|🏃 Actividad: Al menos una hora al día.|⚖️ Templanza: Disfrutar con medida.
+0|V|Beber agua simple es mejor que tomar refresco.
+0|¿Qué favorece el sobrepeso?|comer de más y moverse poco|dormir bien cada noche|comer verduras y frutas
+1|¿Qué enfermedad se relaciona con la obesidad?|la diabetes|la gripe|la varicela
+1|¿Qué órgano se daña con la presión alta?|el corazón|el cabello|las uñas
+1|F|Para estar sano conviene dejar de comer.
+1|¿Qué hábito ayuda a mantener un peso saludable?|jugar al aire libre cada día|ver televisión toda la tarde|cenar frituras cada noche
+2|¿Qué hago si un amigo come a escondidas o deja de comer?|aviso a un adulto de confianza|guardo siempre su secreto|me burlo de él con otros
+2|¿Por qué no debo burlarme del cuerpo de nadie?|porque toda persona merece respeto|porque me pueden regañar|porque nadie me ve
+2|V|Cada persona vale por ser hija de Dios, no por su apariencia.
+2|¿Quién puede decir si alguien necesita cambiar su alimentación?|un médico o nutriólogo|un anuncio de internet|un compañero de clase
+K|{x}: ¿hábito saludable o de riesgo?|¿Saludable o de riesgo?|saludable: beber agua simple; jugar al aire libre una hora; dormir bien; comer verduras y frutas|de riesgo: tomar refresco a diario; pasar toda la tarde sentado; comer frituras todos los días; desvelarse con pantallas
+#5c14
+Z|El aire entra por la <b>nariz</b> y pasa por la faringe, la laringe, la tráquea y los bronquios hasta los <b>pulmones</b>.|En los <b>alvéolos</b>, la sangre toma oxígeno y deja dióxido de carbono.|El <b>diafragma</b> baja para inhalar y sube para exhalar.|Se cuida evitando el humo del tabaco, ventilando y haciendo ejercicio.
+E|Inhalar: entra oxígeno|Exhalar: sale dióxido de carbono
+S|¿Qué camino sigue el aire desde que lo inhalo?|Entra por la nariz, que lo calienta y lo limpia.|Baja por la faringe, la laringe y la tráquea.|Llega por los bronquios a los alvéolos de los pulmones.|=Nariz, faringe, laringe, tráquea, bronquios y pulmones.
+I|👃 Nariz: Calienta, humedece y limpia el aire.|🌬️ Tráquea: El tubo que lleva el aire.|🫁 Pulmones: Con millones de alvéolos.|💪 Diafragma: El músculo que mueve el aire.
+0|V|El aire entra al cuerpo por la nariz.
+0|¿Cuántos pulmones tenemos?|dos|uno|cuatro
+1|¿Dónde ocurre el intercambio de gases?|en los alvéolos|en la tráquea|en la nariz
+1|¿Qué hace el diafragma al inhalar?|baja|sube|se queda quieto
+1|F|Al respirar tomamos dióxido de carbono y expulsamos oxígeno.
+1|¿Por qué es mejor respirar por la nariz?|porque calienta y limpia el aire|porque entra más rápido|porque hace menos ruido
+2|¿Por qué respiramos más rápido al correr?|el cuerpo necesita más oxígeno|los pulmones se cansan|el aire pesa más
+2|¿Qué daña los pulmones de quien convive con fumadores?|el humo del tabaco|el aire fresco|el vapor del agua
+2|V|Ventilar la casa ayuda a respirar aire más limpio.
+2|¿Qué significa también la palabra «espíritu»?|aliento|fuerza|cuerpo
+P|¿Qué hace {x} en la respiración?|¿Qué parte del sistema respiratorio {x}?|la nariz = calienta y limpia el aire|la tráquea = conduce el aire hacia los bronquios|el diafragma = se mueve para que entre y salga el aire|el alvéolo = intercambia oxígeno y dióxido de carbono
+#5c15
+Z|El <b>corazón</b> es un músculo con cuatro cavidades: dos aurículas (reciben la sangre) y dos ventrículos (la impulsan).|Las <b>arterias</b> llevan la sangre del corazón al cuerpo; las <b>venas</b> la regresan.|Circulación menor: corazón, pulmones, corazón. Circulación mayor: corazón, todo el cuerpo, corazón.|Se cuida con ejercicio, poca sal y grasa, y sin tabaco.
+E|Pulso: los latidos que siento en la muñeca|Sagrado Corazón: el amor de Jesús
+S|¿Por qué late más rápido el corazón cuando corro?|Los músculos trabajan más y necesitan más oxígeno.|La sangre es la que lleva ese oxígeno.|El corazón bombea más rápido para enviar más sangre.|=Para llevar más oxígeno a los músculos.
+I|❤️ Corazón: Una bomba con cuatro cavidades.|🔴 Arterias: Llevan la sangre al cuerpo.|🔵 Venas: Regresan la sangre al corazón.|🏃 Cuidado: Ejercicio y poca sal.
+0|V|El corazón es un músculo.
+0|¿Qué impulsa la sangre por todo el cuerpo?|el corazón|el estómago|el cerebro
+1|¿Qué vasos regresan la sangre al corazón?|las venas|las arterias|los bronquios
+1|¿Dónde se oxigena la sangre?|en los pulmones|en el hígado|en los riñones
+1|F|El corazón humano tiene dos cavidades.
+1|¿Qué cavidades impulsan la sangre fuera del corazón?|los ventrículos|las aurículas|los alvéolos
+2|¿Qué mido cuando me tomo el pulso?|los latidos del corazón|la temperatura|la presión del aire
+2|¿Qué alimento conviene comer poco para cuidar el corazón?|la sal|la manzana|el agua
+2|V|El ejercicio fortalece el corazón.
+2|¿Qué recorrido hace la circulación mayor?|del corazón a todo el cuerpo y de regreso|del corazón solo a los pulmones|del estómago a los pies
+P|¿Qué hacen {x}?||las arterias = llevan la sangre del corazón al cuerpo|las venas = regresan la sangre al corazón|los glóbulos rojos = transportan el oxígeno|los glóbulos blancos = defienden de las infecciones|las plaquetas = ayudan a cerrar las heridas
+#5c3
+Z|El tabaco, el alcohol, los vapeadores, los inhalantes y las drogas alteran el cuerpo y la mente y crean <b>dependencia</b>.|Dañan los pulmones, el cerebro, el hígado y las relaciones con la familia y los amigos.|<b>Factores de protección</b>: familia unida, buenos amigos, deporte, fe y metas claras.|Saber decir <b>NO</b> y pedir ayuda a tiempo protege tu libertad.
+E|Línea de la Vida: 800 911 2000|«No me dejaré dominar por nada» (1 Cor 6, 12)
+S|¿Por qué una adicción quita la libertad?|Al principio la persona cree que «solo prueba».|El cuerpo y la mente se acostumbran y piden más.|Llega un momento en que ya no puede dejarlo aunque quiera.|=Porque la persona deja de decidir: la sustancia decide por ella.
+I|🚬 Tabaco y vapeadores: Dañan los pulmones.|🍺 Alcohol: Daña el hígado y el cerebro.|👨‍👩‍👧 Protección: Familia, amigos, deporte y fe.|✋ Decir NO: Con firmeza y sin miedo.
+0|V|El alcohol daña el hígado y el cerebro.
+0|¿Qué es la dependencia?|no poder dejar una sustancia|tener muchos amigos|estudiar mucho
+1|¿Qué órgano daña especialmente el alcohol?|el hígado|el oído|la piel
+1|¿Qué es un «factor de protección»?|algo que me aleja de las adicciones|una medicina que se toma a diario|un deporte extremo y peligroso
+1|F|Los vapeadores son inofensivos porque huelen a fruta.
+1|¿A quién aviso si alguien me ofrece una sustancia?|a mis papás o a un adulto de confianza|a nadie: lo guardo en secreto|a un desconocido en internet
+2|¿Cuál es la mejor respuesta si me presionan para probar?|«No, gracias», y me alejo|«Bueno, solo una vez»|me quedo callado
+2|¿Por qué un buen amigo nunca te presiona para dañarte?|porque quiere tu bien|porque no le importas|porque tiene miedo
+2|V|Tener metas claras ayuda a decir «no» a lo que hace daño.
+2|¿Qué más puede causar adicción, además de las sustancias?|el uso excesivo de pantallas|leer buenos libros|jugar en el parque
+K|{x}: ¿factor de protección o de riesgo?|¿Protección o riesgo?|protección: una familia unida; los buenos amigos; el deporte; la vida de fe; saber decir «no»|riesgo: los amigos que presionan; el aburrimiento sin metas; la curiosidad por «probar»; guardar secretos peligrosos
+#5c16
+Z|Los <b>microorganismos</b> son seres vivos diminutos: bacterias, hongos microscópicos, protozoarios y virus.|Solo se ven con <b>microscopio</b>.|Muchos son <b>útiles</b>: con ellos se hacen el yogur, el pan, el queso y la composta.|Otros causan <b>enfermedades</b>; se previenen con higiene, agua limpia, alimentos bien cocidos y vacunas.
+E|Levadura: el hongo que esponja el pan|Vacuna: enseña al cuerpo a defenderse
+S|¿Por qué lavarme las manos me protege de enfermar?|En las manos se juntan microbios de todo lo que toco.|Si como sin lavarlas, esos microbios entran a mi cuerpo.|El agua y el jabón los arrastran y los eliminan.|=Porque el jabón elimina los microbios antes de que entren al cuerpo.
+I|🦠 Bacterias: Unas útiles, otras dañinas.|🍞 Levaduras: Hongos que esponjan el pan.|🔬 Microscopio: Para ver lo diminuto.|💉 Vacunas: Preparan nuestras defensas.
+0|V|Los microorganismos no se ven a simple vista.
+0|¿Qué microorganismo esponja el pan?|la levadura|un virus|una bacteria del yogur
+1|¿Qué enfermedad causa un virus?|la gripe|una fractura|una quemadura
+1|¿Para qué sirven las vacunas?|para prevenir enfermedades|para curar heridas|para quitar el hambre
+1|F|Todos los microorganismos causan enfermedades.
+1|¿Por qué se hierve o se clora el agua?|para eliminar microbios|para que sepa dulce|para enfriarla
+2|¿Qué hacen las bacterias en la composta?|descomponen los restos orgánicos|los congelan|los convierten en plástico
+2|¿Qué es la pasteurización?|calentar un alimento para eliminar microbios|congelar la leche durante varios días|agregar azúcar para conservar la fruta
+2|V|Pasteur mostró que la fe y la ciencia pueden ir juntas.
+2|¿Por qué se cuece bien la carne?|para eliminar microbios dañinos|para que pese menos|para cambiarle el color
+K|{x}: ¿microorganismo útil o dañino?|¿Útil o dañino?|útil: la levadura del pan; la bacteria del yogur; el hongo del queso; la bacteria de la composta|dañino: el virus de la gripe; la bacteria del cólera; la salmonela; el hongo del pie de atleta
+#5c4
+Z|Entre los 9 y los 14 años empieza la <b>pubertad</b>: el cuerpo crece y madura poco a poco.|También cambian las emociones; cada persona tiene su <b>ritmo</b> y eso es normal.|Me cuido con higiene diaria, buena alimentación, descanso y ejercicio.|Mis dudas las platico con <b>mamá y papá</b> y, si hace falta, con el médico.
+E|El cuerpo es templo del Espíritu Santo|Pudor: cuidar con respeto mi intimidad
+S|¿Qué hago si me siento raro por los cambios de mi cuerpo?|Recuerdo que todos pasan por esta etapa, cada quien a su tiempo.|No me comparo ni me burlo de nadie.|Platico lo que siento con mamá o papá.|=Lo vivo con calma y lo platico con mis papás.
+I|🌱 Pubertad: El cuerpo empieza a madurar.|⏳ Ritmo: Cada quien cambia a su tiempo.|🚿 Higiene: Baño diario y ropa limpia.|👨‍👩‍👧 Confianza: Mis dudas, con mis papás.
+0|V|En la pubertad el cuerpo crece y madura.
+0|¿Qué etapa sigue a la niñez?|la pubertad y la adolescencia|la vejez y la jubilación|la infancia y la lactancia
+1|¿Qué cambia en la pubertad, además del cuerpo?|las emociones|el color de los ojos|el nombre
+1|¿Qué hábito es más necesario en esta etapa?|el baño diario|desvelarse|comer golosinas
+1|F|Todos los niños cambian exactamente a la misma edad.
+1|¿Dónde es más seguro resolver mis dudas?|con mis papás|en redes sociales|con desconocidos
+2|¿Qué es el pudor?|cuidar con respeto mi cuerpo y mi intimidad|tener miedo de todas las personas|no hablar con nadie de mi familia
+2|¿Por qué merece respeto el cuerpo de cada persona?|porque es un regalo de Dios|porque es fuerte|porque está de moda
+2|V|Dios nos creó hombre o mujer, y cada uno tiene la misma dignidad.
+2|¿Qué hago si alguien se burla de un compañero por sus cambios?|lo defiendo y aviso a un adulto|me río también con los demás|me quedo mirando sin decir nada
+K|{x}: ¿ayuda o no ayuda en la pubertad?|¿Ayuda o no ayuda?|ayuda: bañarme a diario; dormir lo suficiente; platicar mis dudas con mis papás; hacer deporte|no ayuda: burlarme de los cambios de otros; desvelarme con el celular; compararme con los demás; buscar respuestas a escondidas en internet
+#5c5
+Z|Cada persona viene de <b>Dios</b>, que crea por amor.|Dios confió a un hombre y una mujer, unidos en <b>matrimonio</b>, el don de transmitir la vida y formar una familia.|La vida humana comienza en la <b>concepción</b>; el bebé crece unos nueve meses en el vientre de su mamá.|El amor verdadero es paciente, fiel y generoso; la <b>castidad</b> ayuda a amar con un corazón limpio.
+E|Toda vida humana merece respeto y cuidado|La familia: escuela de amor
+S|¿Por qué toda vida humana merece respeto desde el principio?|Desde la concepción existe un nuevo ser humano, único e irrepetible.|Ese pequeño crece, pero es la misma persona antes y después de nacer.|Dios lo ama y lo ha querido.|=Porque es una persona, hija de Dios, desde la concepción.
+I|❤️ Amor: Dios crea a cada persona por amor.|💍 Matrimonio: Un hombre y una mujer unidos para siempre.|👶 Vida: Comienza en la concepción.|🏠 Familia: Donde aprendemos a amar.
+0|V|Cada persona es única e irrepetible.
+0|¿Dónde crece el bebé antes de nacer?|en el vientre de su mamá|en un hospital|en una cuna
+1|¿Qué necesita un bebé antes y después de nacer?|amor y cuidado|juguetes caros|una escuela
+1|¿Quiénes son los primeros educadores de los hijos?|los papás|los vecinos|los amigos
+1|F|La vida de una persona empieza cuando cumple un año.
+1|¿Qué busca el amor verdadero?|el bien de la otra persona|su propio gusto|quedar bien
+2|¿Con quién platico mis preguntas sobre el origen de la vida?|con mamá y papá|con desconocidos|con nadie
+2|¿Cómo puedo agradecer el don de la vida?|cuidando mi vida y la de los demás|olvidándome de dar las gracias|quejándome de todo lo que tengo
+2|V|La familia es el primer lugar donde aprendemos a amar y a ser amados.
+2|¿Qué virtud ayuda a esperar y a respetar?|la castidad|la soberbia|la pereza
+#5c6
+Z|La <b>biodiversidad</b> es la variedad de seres vivos, de ecosistemas y de genes.|México es uno de los 17 países <b>megadiversos</b> del mundo.|Las especies <b>endémicas</b> viven solo en un lugar: el ajolote, la vaquita marina y el teporingo.|Muchas están en <b>peligro de extinción</b> y debemos protegerlas.
+E|Ajolote: endémico de Xochimilco|Tráfico de especies: un delito
+S|¿Por qué es grave que desaparezca una especie endémica?|Una especie endémica vive en un solo lugar del mundo.|Si desaparece de ahí, ya no existe en ningún otro sitio.|Con ella se pierde algo único de la creación.|=Porque se extingue para siempre en todo el planeta.
+I|🐆 Biodiversidad: La gran variedad de la vida.|🦎 Ajolote: Vive solo en Xochimilco.|🐬 Vaquita marina: Solo en el golfo de California.|⚠️ En peligro: Hay que protegerlas.
+0|V|La biodiversidad incluye plantas, animales y otros seres vivos.
+0|¿Qué significa «megadiverso»?|con muchísimas especies|con muy poca agua|con mucho territorio
+1|¿Dónde vive la vaquita marina?|en el golfo de California|en el lago de Chapala|en el mar Caribe
+1|¿Qué pasa cuando una especie se extingue?|desaparece para siempre|se muda a otro país|vuelve al año siguiente
+1|F|El ajolote vive en todos los ríos del mundo.
+1|¿Qué animal es el teporingo?|un conejo de los volcanes|un pez del Golfo|un ave de la selva
+2|¿Por qué no se deben comprar animales silvestres?|porque daña a las especies|porque son muy baratos|porque no comen
+2|¿Qué refleja cada especie, según Laudato si'?|algo de la bondad de Dios|el poder del hombre|la suerte
+2|V|Proteger a una especie también protege el lugar donde vive.
+2|¿Qué acción ayuda más a la biodiversidad?|cuidar los bosques y los ríos|comprar loros de la selva|tirar basura al mar
+P|¿Dónde vive {x}?|¿Qué especie endémica vive {x}?|el ajolote = en los canales de Xochimilco|la vaquita marina = en el alto golfo de California|el teporingo = en los volcanes del centro de México
+#5c7
+Z|Un <b>ecosistema</b> es un lugar con sus seres vivos, su clima, su suelo y su agua, todos relacionados.|<b>Terrestres</b>: selvas, bosques templados, pastizales, matorrales y desiertos.|<b>Acuáticos</b>: marinos (arrecifes, mar abierto) y de agua dulce (ríos, lagos).|De <b>transición</b>: manglares y humedales, entre la tierra y el agua.
+E|Manglar: protege la costa de los huracanes|Arrecife: la «selva» del mar
+S|¿Por qué el manglar es tan valioso?|Sus raíces sujetan el suelo y frenan las olas de los huracanes.|Entre ellas crecen peces, camarones y aves.|Además, limpia el agua antes de que llegue al mar.|=Porque protege la costa y es criadero de muchas especies.
+I|🌴 Selva: Calor, lluvia y mucha vida.|🌲 Bosque: Pinos y encinos de clima templado.|🪸 Arrecife: Miles de especies marinas.|🌊 Manglar: Entre el mar y la tierra.
+0|V|El bosque templado es un ecosistema terrestre.
+0|¿Qué árboles abundan en el bosque templado?|pinos y encinos|palmeras|cactus
+1|¿Qué es un ecosistema?|seres vivos y su ambiente relacionados|un grupo de montañas muy altas|un tipo de roca del subsuelo
+1|¿Qué animales forman los arrecifes?|los corales|las ballenas|los tiburones
+1|F|Los manglares crecen en lo alto de las montañas.
+1|¿Qué ecosistema tiene pastos y pocos árboles?|el pastizal|la selva|el arrecife
+2|¿Qué pasa si se rellena un manglar para construir?|la costa queda sin protección|llegan más peces a la playa|llueve menos en la región
+2|¿Qué recibimos de los ecosistemas?|agua, oxígeno y alimento|ruido y basura|solo paisajes
+2|V|Todos los seres de un ecosistema dependen unos de otros.
+2|¿En qué ecosistema viven el jaguar y el tucán?|en la selva|en el desierto|en el pastizal
+K|{x}: ¿ecosistema terrestre o acuático?|¿Terrestre o acuático?|terrestre: la selva; el bosque templado; el pastizal; el desierto; el matorral|acuático: el arrecife; el río; el lago; el mar abierto; la laguna
+#5c17
+Z|La <b>raíz</b> absorbe agua y minerales; el <b>tallo</b> los transporta y sostiene a la planta.|En las <b>hojas</b>, la clorofila usa luz, agua y dióxido de carbono para fabricar glucosa y liberar oxígeno: la <b>fotosíntesis</b>.|Las plantas se reproducen con <b>flores</b>: polinización, semillas y frutos.|También por esquejes o tubérculos.
+E|Clorofila: da el color verde|Polinizadores: abejas, colibríes y mariposas
+S|¿Por qué una planta en un cuarto oscuro se pone amarilla y débil?|Para hacer la fotosíntesis necesita luz.|Sin luz no puede fabricar su alimento.|Sin alimento pierde la clorofila y deja de crecer.|=Porque sin luz no puede hacer la fotosíntesis.
+I|🌱 Raíz: Absorbe agua y minerales.|🌿 Hoja: Fabrica el alimento con luz.|🌸 Flor: Para la reproducción.|🐝 Polinización: El polen viaja de flor en flor.
+0|V|La fotosíntesis ocurre sobre todo en las hojas.
+0|¿Qué da el color verde a las plantas?|la clorofila|la raíz|el agua
+1|¿Qué gas toman las plantas del aire para la fotosíntesis?|dióxido de carbono|oxígeno|helio
+1|¿Qué hace el tallo?|transporta agua y sostiene la planta|fabrica las semillas del fruto|atrapa insectos para comer
+1|F|Las plantas pueden hacer la fotosíntesis en completa oscuridad.
+1|¿Qué se forma después de la polinización?|la semilla y el fruto|la raíz|una hoja nueva
+2|¿Por qué los animales dependemos de las plantas?|producen alimento y oxígeno|nos dan sombra solamente|hacen llover
+2|¿Qué planta se reproduce por tubérculos?|la papa|el pino|el maíz
+2|V|Las abejas ayudan a que muchas plantas den fruto.
+2|¿Qué necesita la semilla de la parábola para dar fruto?|caer en tierra buena|caer en el camino|quedar entre piedras
+P|¿Qué hace {x} de la planta?|¿Qué parte de la planta {x}?|la raíz = absorbe agua y minerales|el tallo = transporta el agua y sostiene|la hoja = fabrica el alimento|la flor = produce las semillas|el fruto = protege las semillas
+#5c20
+Z|El agua del planeta está en movimiento continuo: el <b>ciclo del agua</b>.|<b>Evaporación</b>: el Sol calienta el agua y sube como vapor. <b>Condensación</b>: el vapor se enfría y forma nubes.|<b>Precipitación</b>: cae como lluvia, nieve o granizo. <b>Infiltración</b> y escurrimiento: entra al suelo o corre a ríos y mares.|Cuidarla: captar lluvia, reparar fugas y no contaminar.
+E|El Sol: motor del ciclo del agua|Una fuga pequeña desperdicia cientos de litros
+S|¿De dónde viene el agua de la lluvia?|El Sol evapora agua de mares, ríos y plantas.|El vapor sube, se enfría y forma nubes.|Cuando las gotas pesan, caen como lluvia.|=Del agua que se evaporó y se condensó en las nubes.
+I|☀️ Evaporación: El agua sube como vapor.|☁️ Condensación: El vapor forma nubes.|🌧️ Precipitación: Lluvia, nieve o granizo.|🌱 Infiltración: El agua entra al suelo.
+0|V|El Sol evapora el agua de mares y ríos.
+0|¿En qué etapa cae el agua de las nubes?|precipitación|evaporación|infiltración
+1|¿Qué pasa con el vapor cuando se enfría?|se condensa en gotitas|desaparece|se vuelve humo
+1|¿Qué formas puede tener la precipitación?|lluvia, nieve o granizo|vapor y humo|nubes y niebla
+1|F|El agua de la lluvia es agua nueva que nunca había existido.
+1|¿A dónde va el agua que escurre por el suelo?|a ríos, lagos y mares|a las nubes|al espacio
+2|¿Qué es captar agua de lluvia?|recogerla para usarla|tirarla al drenaje|hervirla
+2|¿Por qué no se deben tirar aceite ni basura a los ríos?|contaminan el agua de todos|hacen subir el nivel|espantan las nubes
+2|V|Con el agua del Bautismo recibimos una vida nueva.
+2|O|Ordena el viaje de una gota|Se evapora del mar|Forma una nube|Cae como lluvia|Se infiltra en el suelo
+P|¿Qué ocurre en {x}?|¿En qué etapa {x}?|la evaporación = el agua sube como vapor|la condensación = el vapor forma nubes|la precipitación = el agua cae de las nubes|la infiltración = el agua entra al suelo
+#5c21
+Z|El <b>suelo</b> es la capa de la Tierra formada por rocas desgastadas, materia orgánica, agua y aire.|Tarda <b>cientos de años</b> en formarse y de él depende nuestro alimento.|La <b>erosión</b> es su desgaste por el viento, la lluvia, la deforestación y el sobrepastoreo.|Se conserva con árboles, terrazas, composta y rotación de cultivos.
+E|Composta: restos orgánicos que nutren el suelo|«Para que lo cultivara y lo cuidara» (Gn 2, 15)
+S|¿Por qué un cerro sin árboles pierde su suelo?|Las raíces de los árboles sujetan la tierra.|Las hojas frenan las gotas y el viento.|Sin árboles, la lluvia arrastra el suelo cerro abajo.|=Porque nada sujeta la tierra y la lluvia la arrastra.
+I|🪨 Rocas: Se desgastan y forman el suelo.|🍂 Materia orgánica: Lo nutre.|🌬️ Erosión: Viento y lluvia se lo llevan.|🌳 Cuidado: Árboles, terrazas y composta.
+0|V|El suelo contiene agua y aire.
+0|¿De qué depende casi todo nuestro alimento?|del suelo|de las rocas|del viento
+1|¿Qué es el sobrepastoreo?|demasiado ganado comiendo en un terreno|sembrar demasiados árboles juntos|regar el campo más de lo necesario
+1|¿Para qué sirven las terrazas en un cerro?|para frenar el agua y retener el suelo|para adornar el paisaje del cerro|para criar peces en la ladera
+1|F|El suelo se forma de nuevo en pocos días.
+1|¿Con qué se hace la composta?|con restos de frutas, verduras y hojas|con plásticos, vidrio y latas|con pilas, focos y metales
+2|¿Qué es rotar los cultivos?|cambiar lo que se siembra cada temporada|sembrar siempre lo mismo|girar las plantas
+2|¿Por qué cuidar el suelo es cuidar a los que vendrán?|sin suelo fértil no habrá alimento|porque el suelo es bonito|porque así llueve más
+2|V|Dios encargó al ser humano cultivar y cuidar la tierra.
+2|¿Qué sujeta el suelo en una ladera?|las raíces de las plantas|las piedras sueltas|el viento
+K|{x}: ¿erosiona o cuida el suelo?|¿Erosiona o cuida?|erosiona: talar los árboles; el sobrepastoreo; quemar el monte; la lluvia sobre suelo desnudo|cuida: reforestar; hacer terrazas; usar composta; rotar los cultivos
+#5c8
+Z|La biodiversidad se pierde por la <b>deforestación</b>, la contaminación, las especies invasoras, la cacería ilegal y la <b>sobreexplotación</b>.|<b>Consumo sustentable</b>: comprar lo necesario, de preferencia local y de temporada.|Las tres erres: <b>reducir, reutilizar y reciclar</b>.|Ahorrar agua y luz también cuida la creación.
+E|Conversión ecológica: cambiar hábitos por amor|Local y de temporada: menos transporte y empaques
+S|¿Qué es mejor: reciclar una botella o no comprarla?|Reciclar gasta agua y energía, aunque ayuda.|Reutilizar la botella evita fabricar otra.|No comprarla (reducir) evita todo el gasto desde el principio.|=No comprarla: primero reducir, luego reutilizar y al final reciclar.
+I|🪓 Deforestación: Se pierden bosques y selvas.|🐀 Invasoras: Especies que desplazan a las nativas.|♻️ Tres erres: Reducir, reutilizar y reciclar.|🛒 Sustentable: Comprar solo lo necesario.
+0|V|Reciclar ayuda a reducir la basura.
+0|¿Cuál es la primera de las tres erres?|reducir|reciclar|regalar
+1|¿Qué es la cacería ilegal?|matar animales protegidos|pescar con permiso|criar gallinas
+1|¿Por qué conviene comprar productos locales?|necesitan menos transporte|siempre son más grandes|vienen de muy lejos
+1|F|Los recursos del planeta nunca se acaban.
+1|¿Qué es reutilizar?|volver a usar un objeto|tirarlo a la basura|comprar otro igual
+2|¿Qué es la «conversión ecológica»?|cambiar mis hábitos para cuidar la creación|sembrar un solo árbol y olvidarlo|ver documentales de animales
+2|¿Cuál es un ejemplo de consumo sustentable?|llevar mi propia bolsa al mercado|pedir bolsas de plástico de más|comprar cosas que no necesito
+2|V|Cuidar la naturaleza es también una forma de amar al prójimo.
+2|¿Qué daño causa una especie invasora?|desplaza a las especies nativas|limpia los ríos|aumenta las cosechas
+K|{x}: ¿reducir, reutilizar o reciclar?|¿Reducir, reutilizar o reciclar?|reducir: llevar bolsa de tela al mercado; no pedir popote; comprar solo lo necesario|reutilizar: usar un frasco como lapicero; regalar la ropa que ya no me queda; rellenar mi botella de agua|reciclar: llevar latas al centro de acopio; separar el papel y el cartón; entregar botellas de PET
+#5c9
+Z|Una <b>mezcla</b> es la unión de dos o más materiales que conservan sus propiedades.|<b>Homogénea</b>: no se distinguen sus componentes (agua con azúcar). <b>Heterogénea</b>: sí se distinguen (ensalada).|Métodos de separación: <b>tamizado</b>, <b>filtración</b>, <b>decantación</b>, <b>evaporación</b> e <b>imantación</b>.|El método depende de las propiedades de cada material.
+E|Filtrar: el café en el colador|Imantar: el imán atrae el hierro
+S|¿Cómo separo una mezcla de arena, sal y limadura de hierro?|Paso un imán: atrae la limadura de hierro (imantación).|Agrego agua: la sal se disuelve y filtro para apartar la arena (filtración).|Dejo evaporar el agua y queda la sal (evaporación).|=Con imantación, filtración y evaporación, en ese orden.
+I|🥣 Tamizado: Separa sólidos por tamaño.|☕ Filtración: Separa un sólido de un líquido.|🫗 Decantación: Separa lo que flota o se asienta.|🧲 Imantación: Separa los metales magnéticos.
+0|V|En una ensalada se distinguen los ingredientes.
+0|¿Qué instrumento se usa para filtrar?|un colador o filtro|un imán|una regla
+1|¿Qué tipo de mezcla es el agua con azúcar bien disuelta?|homogénea|heterogénea|ninguna
+1|¿Qué método aprovecha el magnetismo?|la imantación|el tamizado|la filtración
+1|F|En una mezcla, los materiales se convierten en una sustancia nueva.
+1|¿Qué queda en el plato al evaporarse el agua salada?|la sal|el agua|nada
+2|¿Por qué el aceite flota sobre el agua?|es menos denso|es más pesado|está más caliente
+2|¿Qué pasos potabilizan el agua?|filtrarla y desinfectarla|agregarle sal|dejarla al sol
+2|V|Dar de beber al sediento es una obra de misericordia.
+2|¿Cómo separo las hojas del té ya preparado?|por filtración|por imantación|por evaporación
+K|{x}: ¿mezcla homogénea o heterogénea?|¿Homogénea o heterogénea?|homogénea: el agua con azúcar; el aire; el vinagre; el agua de jamaica colada|heterogénea: la ensalada; el agua con aceite; el cereal con leche; la arena con piedras
+P|¿Con qué método separo {x}?||harina y frijoles = tamizado|agua y arena = filtración|agua con azúcar = evaporación|limadura de hierro y arena = imantación
+#5c10
+Z|El <b>calor</b> es energía que pasa de un cuerpo caliente a uno frío.|La <b>temperatura</b> mide qué tan caliente está algo; se mide en grados Celsius (°C) con el termómetro.|El calor se transmite por <b>conducción</b> (contacto), <b>convección</b> (líquidos y gases) y <b>radiación</b> (ondas).|Los metales son buenos <b>conductores</b>; la madera, la tela y el plástico son <b>aislantes</b>.
+E|El agua hierve a 100 °C|Mango de madera: no quema
+S|¿Por qué las ollas son de metal y sus asas de plástico o madera?|El metal conduce bien el calor: la comida se cuece rápido.|El plástico y la madera son aislantes: casi no dejan pasar el calor.|Así podemos tomar la olla sin quemarnos.|=El metal conduce el calor y el asa aislante protege la mano.
+I|🥄 Conducción: Por contacto.|♨️ Convección: En líquidos y gases.|☀️ Radiación: Por ondas, sin contacto.|🌡️ Temperatura: Se mide en °C.
+0|V|La temperatura se mide en grados Celsius.
+0|¿Con qué instrumento se mide la temperatura?|con el termómetro|con la balanza|con la regla
+1|¿Hacia dónde pasa el calor?|del cuerpo caliente al frío|del frío al caliente|no se mueve
+1|¿A qué temperatura hierve el agua al nivel del mar?|100 °C|0 °C|50 °C
+1|F|Calor y temperatura son exactamente lo mismo.
+1|¿Por qué se usa ropa de lana cuando hace frío?|es aislante y guarda el calor|produce su propio calor|pesa mucho y aprieta
+2|¿A qué temperatura se congela el agua?|0 °C|100 °C|37 °C
+2|¿Por qué sube el aire caliente?|es más ligero que el aire frío|es más pesado que el aire frío|tiene más gotas de agua
+2|V|Una cobija no produce calor: evita que se escape el del cuerpo.
+2|¿Cuál es la temperatura normal del cuerpo humano?|unos 37 °C|unos 10 °C|unos 60 °C
+K|{x}: ¿conducción, convección o radiación?|¿Conducción, convección o radiación?|conducción: una cuchara que se calienta en la sopa; el mango caliente de un sartén; la plancha sobre la ropa|convección: el agua que hierve en la olla; el aire caliente que sube; el vapor que sale del café|radiación: el calor del Sol; el calor de una fogata a distancia; un foco que calienta sin tocarlo
+#5c18
+Z|Una <b>fuerza</b> es un empujón o un jalón: cambia el movimiento o la forma de los objetos.|La <b>gravedad</b> atrae los objetos hacia el suelo; la <b>fricción</b> frena el movimiento; el <b>magnetismo</b> atrae el hierro.|Las <b>máquinas simples</b> hacen el trabajo más fácil: palanca, polea, rueda y eje, plano inclinado, cuña y tornillo.|Con menos fuerza, logramos más.
+E|Palanca: subibaja, tijeras|Plano inclinado: rampa
+S|¿Cómo levanto una piedra muy pesada con poca fuerza?|Coloco una barra larga debajo de la piedra.|Pongo un punto de apoyo cerca de la piedra.|Empujo hacia abajo el extremo largo de la barra.|=Con una palanca: cuanto más largo el brazo, menos fuerza necesito.
+I|⬇️ Gravedad: Atrae todo hacia el suelo.|🛑 Fricción: Frena lo que se mueve.|⚖️ Palanca: Barra y punto de apoyo.|🛗 Polea: Rueda y cuerda para subir cargas.
+0|V|Empujar y jalar son formas de aplicar una fuerza.
+0|¿Qué fuerza hace caer una manzana del árbol?|la gravedad|la fricción|el magnetismo
+1|¿Qué fuerza atrae un clavo de hierro?|el magnetismo|la gravedad|la fricción
+1|¿Qué necesita una palanca para funcionar?|un punto de apoyo|una cuerda|un motor
+1|F|Las máquinas simples necesitan electricidad para funcionar.
+1|¿Por qué frenan las llantas de la bicicleta?|por la fricción con el freno|por la fuerza de gravedad|por el viento en contra
+2|¿Qué máquina simple es un hacha?|una cuña|una polea|una palanca
+2|¿Por qué es más fácil subir por una rampa que cargar derecho hacia arriba?|se reparte la fuerza en más distancia|la carga pesa menos en la rampa|en la rampa no hay gravedad
+2|V|Las grandes catedrales se construyeron con poleas y palancas.
+2|¿Dónde me siento en el subibaja para levantar a alguien más pesado?|más lejos del centro|pegado al centro|de pie
+K|{x}: ¿qué máquina simple es?|¿Qué máquina simple es?|palanca: el subibaja; las tijeras; el destapador|polea: el asta bandera; el pozo con cubeta|plano inclinado: la rampa; la resbaladilla|cuña: el hacha; el cuchillo
+#5c19
+Z|La <b>luz</b> viaja en línea recta y muy rápido: 300 000 km por segundo.|Los objetos pueden ser <b>transparentes</b> (dejan pasar la luz), <b>translúcidos</b> (dejan pasar parte) u <b>opacos</b> (no la dejan pasar y forman sombra).|La luz se <b>refleja</b> en los espejos y se <b>refracta</b> al pasar del aire al agua.|La luz blanca contiene todos los <b>colores</b>: un prisma o las gotas de lluvia los separan.
+E|Arcoíris: siete colores|Sombra: donde no llega la luz
+S|¿Por qué un lápiz dentro de un vaso con agua parece quebrado?|La luz viaja a distinta velocidad en el aire y en el agua.|Al pasar de uno a otro, cambia de dirección.|Por eso vemos la parte sumergida en otro lugar.|=Por la refracción: la luz se desvía al cambiar de medio.
+I|💡 Luz: Viaja en línea recta.|🪟 Transparente: Deja pasar toda la luz.|🪞 Reflexión: La luz rebota en el espejo.|🌈 Colores: La luz blanca los contiene todos.
+0|V|La luz viaja en línea recta.
+0|¿Qué se forma detrás de un objeto opaco iluminado?|una sombra|un arcoíris|un espejo
+1|¿Cómo es un objeto que deja pasar solo parte de la luz?|translúcido|opaco|transparente
+1|¿Qué fenómeno ocurre en un espejo?|la reflexión|la refracción|la evaporación
+1|F|La luz viaja más despacio que una bicicleta.
+1|¿Qué objeto separa la luz blanca en colores?|un prisma|un imán|una lupa de madera
+2|¿Cuántos colores se distinguen en el arcoíris?|siete|tres|doce
+2|¿Por qué vemos los objetos?|porque reflejan la luz hacia los ojos|porque brillan solos|porque los ojos emiten luz
+2|V|Jesús dijo: «Yo soy la luz del mundo».
+2|¿Qué necesita el arcoíris para formarse?|luz del Sol y gotas de agua|viento y polvo|nubes y truenos
+K|{x}: ¿transparente, translúcido u opaco?|¿Transparente, translúcido u opaco?|transparente: el vidrio limpio; el agua clara; el aire|translúcido: el papel encerado; el vidrio esmerilado; una cortina delgada|opaco: la madera; un ladrillo; el cartón; una moneda
+#5c11
+Z|El <b>sonido</b> se produce cuando algo <b>vibra</b>.|Necesita un medio para viajar: va más rápido en los sólidos, luego en los líquidos y más lento en los gases; no viaja en el vacío.|Sus características: <b>tono</b> (agudo o grave), <b>intensidad</b> (fuerte o débil) y <b>timbre</b> (lo que distingue cada voz o instrumento).|El ruido excesivo daña el oído.
+E|En el aire: 340 metros por segundo|Eco: el sonido que rebota
+S|¿Por qué en el espacio no se oye nada?|El sonido son vibraciones que pasan de partícula en partícula.|En el aire, el agua o el metal hay partículas que vibran.|En el espacio vacío no hay nada que vibre.|=Porque el sonido necesita un medio y en el vacío no lo hay.
+I|🎸 Vibración: Así nace el sonido.|🎵 Tono: Agudo o grave.|🔊 Intensidad: Fuerte o débil.|🎻 Timbre: Distingue voces e instrumentos.
+0|V|El sonido se produce por vibraciones.
+0|¿Con qué órgano percibimos el sonido?|con el oído|con la nariz|con la piel
+1|¿Cómo es el sonido de un tambor grande?|grave|agudo|mudo
+1|¿Qué es el eco?|un sonido que rebota y regresa|un sonido muy agudo|un tipo de música
+1|F|El sonido viaja más rápido en el aire que en el acero.
+1|¿Qué mide la intensidad del sonido?|qué tan fuerte o débil es|qué tan agudo es|de quién es la voz
+2|¿Por qué reconoces la voz de tu mamá sin verla?|por su timbre|por su intensidad|por su eco
+2|¿Por qué vemos el relámpago antes de oír el trueno?|la luz viaja más rápido que el sonido|el trueno ocurre después|el aire frena la luz
+2|V|El silencio ayuda a escuchar a Dios en la oración.
+2|¿Cómo cuido mis oídos?|con volumen moderado en los audífonos|escuchando música muy fuerte|acercándome a las bocinas
+K|{x}: ¿sonido agudo o grave?|¿Agudo o grave?|agudo: un silbato; el canto de un canario; un violín; un flautín|grave: un tambor grande; el trueno; una tuba; el mugido de una vaca
+#5c12
+Z|Un <b>circuito eléctrico</b> tiene una fuente (pila), conductores (cables), un interruptor y un receptor (foco).|Si el circuito está <b>cerrado</b>, pasa la corriente; si está <b>abierto</b>, no pasa.|Los metales, como el cobre, son <b>conductores</b>; el plástico, la madera y el hule son <b>aislantes</b>.|Seguridad: nunca tocar enchufes con las manos mojadas ni cables pelados.
+E|Interruptor: abre y cierra el circuito|Los cables se forran de plástico aislante
+S|El foco de mi circuito no enciende. ¿Qué reviso?|Que la pila tenga carga y esté bien colocada.|Que los cables toquen bien la pila y el foco.|Que el interruptor esté cerrado y el foco no esté fundido.|=Que el circuito esté completo y cerrado, con pila y foco en buen estado.
+I|🔋 Pila: Da la energía.|〰️ Cables: Conducen la corriente.|🔘 Interruptor: Abre o cierra el paso.|💡 Foco: Transforma la electricidad en luz.
+0|V|Para que el foco encienda, el circuito debe estar cerrado.
+0|¿Qué conduce la corriente en un circuito?|los cables|el foco|el aire
+1|¿Qué hace el interruptor?|abre o cierra el circuito|produce la energía|enfría los cables
+1|¿De qué material es el interior de los cables?|de cobre|de plástico|de madera
+1|F|El plástico es un buen conductor de la electricidad.
+1|¿En qué transforma el foco la electricidad?|en luz y calor|en sonido|en agua
+2|¿Por qué los cables están forrados de plástico?|para aislar y evitar descargas|para que pesen más|para que se vean bonitos
+2|¿Por qué es peligroso tocar un enchufe con las manos mojadas?|el agua conduce la electricidad|el agua enfría el enchufe|el agua apaga la luz
+2|V|Apagar las luces que no uso ahorra energía y cuida la creación.
+2|¿Qué pasa si quito la pila del circuito?|el foco se apaga|el foco brilla más|los cables se calientan
+K|{x}: ¿conductor o aislante de la electricidad?|¿Conductor o aislante?|conductor: el cobre; el aluminio; el oro; el agua con sal|aislante: el hule; el plástico; la madera seca; el vidrio
+#5c13
+Z|El <b>Sistema Solar</b> está formado por el Sol (una estrella) y todo lo que gira a su alrededor.|Tiene <b>8 planetas</b>: Mercurio, Venus, Tierra y Marte (rocosos); Júpiter, Saturno, Urano y Neptuno (gaseosos).|También hay satélites, como la Luna, planetas enanos, asteroides y cometas.|La Tierra es el único planeta con <b>vida</b> conocida.
+E|Traslación de la Tierra: 365 días|Lemaître: sacerdote y científico del Big Bang
+S|¿Por qué hay vida en la Tierra y no en Mercurio?|Mercurio está muy cerca del Sol: es muy caliente de día y helado de noche.|La Tierra está a la distancia justa: ni muy caliente ni muy fría.|Tiene agua líquida y una atmósfera con oxígeno.|=Por su distancia al Sol, su agua líquida y su atmósfera.
+I|☀️ Sol: La estrella del sistema.|🪨 Rocosos: Mercurio, Venus, Tierra y Marte.|🪐 Gaseosos: Júpiter, Saturno, Urano y Neptuno.|🌍 Tierra: El planeta de la vida.
+0|V|La Tierra gira alrededor del Sol.
+0|¿Cuántos planetas tiene el Sistema Solar?|ocho|cinco|doce
+1|¿Cuál es el satélite natural de la Tierra?|la Luna|el Sol|Marte
+1|¿Cómo se llama el camino de un planeta alrededor del Sol?|órbita|anillo|eje
+1|F|El Sol es un planeta muy grande.
+1|¿A qué planeta se le llama «el planeta rojo»?|Marte|Venus|Neptuno
+2|¿Cuánto tarda la Tierra en dar una vuelta al Sol?|un año|un día|un mes
+2|¿Qué planeta es el más lejano del Sol?|Neptuno|Júpiter|Marte
+2|V|Contemplar el cielo nos ayuda a admirar la grandeza del Creador.
+2|¿Qué tiene la Tierra que permite la vida?|agua líquida y atmósfera|anillos de hielo|muchas lunas
+K|{x}: ¿planeta rocoso o gaseoso?|¿Rocoso o gaseoso?|rocoso: Mercurio; Venus; la Tierra; Marte|gaseoso: Júpiter; Saturno; Urano; Neptuno

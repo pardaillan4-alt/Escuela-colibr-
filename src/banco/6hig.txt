@@ -1,0 +1,173 @@
+// Historia de la Iglesia 6.º — profundización y banco ampliado
+#6ic1
+Z|El <b>Renacimiento</b> (siglos XV y XVI) volvió a admirar el arte y el saber de Grecia y Roma.|Los papas encargaron grandes obras: Miguel Ángel pintó la <b>Capilla Sixtina</b> y Rafael, las estancias del Vaticano.|La <b>imprenta</b> de Gutenberg (hacia 1455) imprimió primero la Biblia.|Hubo sombras: algunos pastores vivían con lujo y muchos fieles pedían una <b>reforma</b>.
+E|Arte sacro: belleza que lleva a Dios|La reforma empieza por la santidad
+S|¿Por qué muchos cristianos pedían una reforma en el Renacimiento?|El arte y el estudio florecían, y eso era bueno.|Pero algunos papas y obispos vivían como príncipes, con lujo y guerras.|Esa vida no iba de acuerdo con el Evangelio que predicaban.|=Porque hacía falta que los pastores vivieran con santidad y sencillez.
+I|🎨 Miguel Ángel: Pintó la Capilla Sixtina y diseñó la cúpula de San Pedro.|🖼️ Rafael: Pintó las estancias del Vaticano.|📖 Imprenta: Gutenberg imprimió primero la Biblia, hacia 1455.|🙏 Reforma: La verdadera empieza por la santidad de cada uno.
+0|V|Miguel Ángel diseñó la cúpula de la basílica de San Pedro.
+0|F|La imprenta de Gutenberg se inventó después del año 1800.
+1|¿Por qué la imprenta ayudó a difundir la Biblia?|permitió hacer muchas copias|cambió lo que dice la Biblia|hizo los libros más pesados
+1|¿Qué pedían muchos fieles al ver el lujo de algunos pastores?|una reforma verdadera|más fiestas en palacio|cerrar todas las iglesias
+2|¿Para qué sirve el arte sacro, según la Iglesia?|para elevar el alma a Dios|para presumir riquezas|solo para adornar muros
+2|V|Que algunos pastores hayan pecado no cambia la verdad de lo que Jesús enseñó.
+2|¿Dónde está la Capilla Sixtina?|en el Vaticano|en Jerusalén|en París
+#6ic2
+Z|En <b>1517</b>, el fraile alemán Martín <b>Lutero</b> publicó 95 tesis contra la venta de indulgencias y otros abusos.|Después rechazó la autoridad del Papa, varios sacramentos y la Tradición: así nació el <b>protestantismo</b>.|La ruptura dividió a Europa y trajo guerras de religión.|Los bautizados protestantes son nuestros hermanos: la Iglesia reza y dialoga por la <b>unidad</b>.
+E|Santo Tomás Moro: fiel al Papa hasta la muerte|Ecumenismo: diálogo con respeto y verdad
+S|¿En qué se distingue la fe católica de la protestante?|Compartimos mucho: la Trinidad, Jesús Salvador, el Bautismo y el amor a la Biblia.|Lutero enseñó que basta la Escritura y rechazó al Papa y varios sacramentos.|La Iglesia católica conserva la Escritura junto con la Tradición, los siete sacramentos y al sucesor de Pedro.|=En que la Iglesia católica guarda la fe completa: Escritura y Tradición, siete sacramentos y el Papa.
+I|📜 1517: Lutero publica sus 95 tesis en Alemania.|💔 Ruptura: Europa se divide y hay guerras de religión.|👑 Inglaterra: El rey Enrique VIII se separa de Roma.|🤝 Hoy: Rezamos y dialogamos por la unidad de los cristianos.
+0|F|La Reforma protestante comenzó en México.
+0|¿Contra la venta de qué protestó Lutero?|de indulgencias|de Biblias|de iglesias
+1|¿Qué rey separó a Inglaterra de la Iglesia católica?|Enrique VIII|Carlos V|Luis XIV
+1|V|Antes de la Reforma había abusos reales que necesitaban corregirse.
+2|¿Por qué murió mártir santo Tomás Moro?|por ser fiel al Papa|por robar al rey|por no pagar impuestos
+2|¿Qué actitud pide la Iglesia hacia los hermanos separados?|diálogo, respeto y oración|burlas y discusiones|ignorarlos siempre
+2|¿Qué guarda la Iglesia católica junto con la Sagrada Escritura?|la Tradición|solo las costumbres|las leyes del rey
+#6ic3
+Z|El <b>Concilio de Trento</b> (1545–1563) explicó con claridad la fe: los siete sacramentos, la presencia real de Jesús en la Eucaristía, la Escritura y la Tradición.|Corrigió abusos y mandó fundar <b>seminarios</b> para formar bien a los sacerdotes.|Dios regaló una ola de <b>santos</b>: Ignacio de Loyola, Teresa de Jesús, Juan de la Cruz, Carlos Borromeo, Felipe Neri, Francisco de Sales.
+E|Catecismo: la fe explicada con orden|Arte barroco: la alegría de la fe
+S|¿Cómo se renueva de verdad la Iglesia?|El Concilio de Trento aclaró la fe y corrigió los abusos.|Mandó formar bien a los sacerdotes en seminarios.|Y los santos mostraron con su vida que el Evangelio se puede vivir.|=Con la verdad bien enseñada, pastores bien formados y, sobre todo, con santos.
+I|📘 Trento: Aclaró la fe y publicó un Catecismo.|🎓 Seminarios: Escuelas para formar bien a los sacerdotes.|✝️ San Ignacio: Fundó la Compañía de Jesús (jesuitas).|🌹 Santa Teresa: Reformó el Carmelo con oración y alegría.
+0|V|El Concilio de Trento enseñó que Jesús está realmente presente en la Eucaristía.
+0|¿Qué orden religiosa fundó san Ignacio de Loyola?|los jesuitas|los franciscanos|los benedictinos
+1|¿Qué santo llenó de alegría las calles de Roma?|san Felipe Neri|san Carlos Borromeo|san Juan de la Cruz
+1|F|El Concilio de Trento enseñó que basta la Escritura, sin la Tradición.
+2|¿Qué santo es recordado por su dulzura y paciencia?|san Francisco de Sales|san Ignacio de Loyola|san Carlos Borromeo
+2|¿Por qué las iglesias barrocas están llenas de oro y movimiento?|para mostrar la gloria de Dios|para gastar más dinero|para asustar a la gente
+2|O|Ordena de lo más antiguo a lo más reciente|Tesis de Lutero (1517)|Empieza el Concilio de Trento (1545)|Termina el Concilio de Trento (1563)
+P|¿Por qué se recuerda a {x}?||san Ignacio de Loyola = fundó a los jesuitas|santa Teresa de Jesús = reformó el Carmelo|san Carlos Borromeo = impulsó los seminarios|san Felipe Neri = llevó alegría a Roma|san Francisco de Sales = enseñó con dulzura
+#6ic4
+Z|Con los conquistadores llegaron <b>misioneros</b>: franciscanos (los «doce», en 1524), dominicos, agustinos y jesuitas.|Aprendieron las lenguas indígenas y fundaron escuelas, hospitales y pueblos.|Hubo abusos graves, pero frailes como <b>Las Casas</b> y Montesinos los denunciaron, y en 1537 el Papa defendió la <b>dignidad</b> de los indígenas.|En 1531 la <b>Virgen de Guadalupe</b> unió a dos pueblos en una misma fe.
+E|Vasco de Quiroga: «Tata Vasco», padre de los purépechas|1537: los indígenas son libres y capaces de la fe
+S|¿La evangelización de América fue buena o mala?|Hubo sombras: muchos conquistadores abusaron de los indígenas.|Hubo luces: misioneros que los defendieron, aprendieron sus lenguas y les enseñaron la fe.|La Virgen de Guadalupe se mostró como Madre de todos.|=Tuvo luces y sombras: hay que reconocer los abusos y agradecer la fe que recibimos.
+I|⛵ 1524: Llegan los doce primeros franciscanos.|📢 Las Casas: Denunció los abusos contra los indígenas.|🏘️ Tata Vasco: Fundó pueblos-hospital en Michoacán.|🌹 1531: La Virgen de Guadalupe se aparece a san Juan Diego.
+0|V|Los misioneros aprendieron náhuatl y otras lenguas indígenas.
+0|¿A quién se apareció la Virgen de Guadalupe?|a san Juan Diego|a fray Bartolomé|a Hernán Cortés
+1|¿Cómo llamaban los purépechas a Vasco de Quiroga?|Tata Vasco|Fray Tomás|Don Vasco el Grande
+1|F|Todos los españoles que llegaron a América trataron bien a los indígenas.
+2|¿Por qué la imagen de Guadalupe ayudó a la evangelización?|mostró a María como Madre de todos|estaba hecha de oro puro|la pintó un fraile español
+2|¿Qué fundaron los misioneros además de templos?|escuelas y hospitales|fábricas y bancos|cuarteles y cárceles
+2|V|Reconocer los abusos de la conquista y agradecer la fe recibida son dos cosas que pueden ir juntas.
+#6ic5
+Z|<b>San Francisco Javier</b> llevó el Evangelio a la India y a Japón; <b>Mateo Ricci</b>, a China, aprendiendo su lengua y su ciencia.|En 1597 murieron crucificados en Japón <b>26 mártires</b>; entre ellos, el mexicano san Felipe de Jesús.|<b>Inculturación</b>: anunciar a Cristo respetando lo bueno de cada cultura.|San Pedro Claver cuidó a los esclavos africanos y los papas condenaron la esclavitud.
+E|Domund: el domingo mundial de las misiones|Santa Teresita: misionera con su oración
+S|¿Cómo puede ser misionero alguien que no sale de su casa?|La misión necesita personas que vayan lejos, como san Francisco Javier.|También necesita oración y sacrificios que sostengan a los misioneros.|Santa Teresita nunca salió de su convento y es patrona de las misiones.|=Rezando, ofreciendo sacrificios y ayudando a los misioneros.
+I|🌏 Francisco Javier: Misionero en la India y Japón.|📚 Mateo Ricci: Ganó el respeto de los sabios de China.|✝️ Nagasaki, 1597: 26 mártires crucificados por su fe.|⛓️ Pedro Claver: Se hizo «esclavo de los esclavos».
+0|V|San Felipe de Jesús fue un mártir mexicano que murió en Japón.
+0|¿En qué país misionó Mateo Ricci?|China|Brasil|Egipto
+1|¿Cómo se ganó Mateo Ricci el respeto de los chinos?|aprendiendo su lengua y su ciencia|regalándoles mucho dinero|llegando con un ejército
+1|F|Inculturar el Evangelio significa cambiar las verdades de la fe.
+2|¿Cómo se hacía llamar san Pedro Claver?|esclavo de los esclavos|rey de los mares|maestro de reyes
+2|¿Quiénes son los patronos de las misiones?|san Francisco Javier y santa Teresita|san Pedro y san Pablo|san Benito y santa Clara
+2|¿Cómo murieron los 26 mártires de Japón?|crucificados|ahogados en el mar|de vejez
+#6ic6
+Z|La <b>Inquisición</b> fue un tribunal que juzgaba delitos contra la fe, en una época en que Iglesia y Estado estaban muy unidos.|Muchas cifras populares son exageradas, pero hubo <b>injusticias graves</b>: torturas y condenas a muerte.|En el año 2000, san Juan Pablo II <b>pidió perdón</b> por el uso de la violencia al servicio de la verdad.|Hoy la Iglesia enseña que la fe solo se acepta <b>libremente</b>.
+E|Dignitatis humanae: libertad religiosa|La verdad se propone, no se impone
+S|¿Cómo debemos hablar de los errores del pasado de la Iglesia?|Primero, con verdad: sin exagerar ni negar lo que pasó.|Después, con humildad: la Iglesia misma ha pedido perdón.|Y aprendiendo la lección: la fe se propone con amor, nunca por la fuerza.|=Con verdad, humildad y el propósito de no repetirlos.
+I|⚖️ Tribunal: Juzgaba delitos contra la fe.|📊 Verdad histórica: Ni leyenda negra ni negar las injusticias.|🙏 Año 2000: San Juan Pablo II pide perdón.|🕊️ Libertad: Nadie puede ser obligado a creer.
+0|F|La Iglesia enseña hoy que se puede obligar a alguien a creer.
+0|V|En tiempos de la Inquisición, la Iglesia y el Estado estaban muy unidos.
+1|¿Cuándo terminó la Inquisición española?|en 1834|en 1492|en 1965
+1|¿Cómo se propone la fe, según la Iglesia?|con amor y respeto|con amenazas|con castigos
+2|¿Por qué pedir perdón por el pasado es un acto de fe?|porque reconoce el pecado y confía en Dios|porque borra lo que ocurrió|porque obliga a olvidar todo
+2|F|Para defender a la Iglesia hay que negar que hubo injusticias.
+2|¿Qué concilio enseñó la libertad religiosa?|el Vaticano II|el de Trento|el de Nicea
+#6ic7
+Z|En el siglo XVIII, parte de la <b>Ilustración</b> exaltó la razón y atacó la fe.|La <b>Revolución francesa</b> (1789) cerró iglesias y persiguió a sacerdotes y religiosas: hubo muchos mártires, como las 16 carmelitas de Compiègne.|Napoleón encarceló al papa <b>Pío VII</b>, que resistió con paciencia.|En 1870, el <b>Concilio Vaticano I</b> enseñó la infalibilidad del Papa cuando define solemnemente una verdad de fe o de moral.
+E|«Las puertas del infierno no prevalecerán»|Los gobiernos cambian; la Iglesia permanece
+S|¿Por qué la Iglesia no desapareció con tantas persecuciones?|Los perseguidores tenían ejércitos, leyes y cárceles.|La Iglesia solo tenía la fe, la oración y el testimonio de sus mártires.|Pero Jesús prometió que estaría con ella hasta el fin del mundo.|=Porque la sostiene Cristo, no el poder de los hombres.
+I|⚔️ 1789: La Revolución francesa persigue a la Iglesia.|🎶 Compiègne: 16 carmelitas van al martirio cantando.|⛓️ Pío VII: Preso de Napoleón, vuelve a Roma en paz.|📜 1870: El Vaticano I enseña la infalibilidad del Papa.
+0|V|Durante la Revolución francesa se cerraron muchas iglesias.
+0|F|El papa Pío VII venció a Napoleón con un ejército.
+1|¿Qué exaltaron los pensadores de la Ilustración?|la razón|la oración|la monarquía
+1|¿Qué perdió la Iglesia en 1870?|los Estados Pontificios|la basílica de San Pedro|todos sus obispos
+2|¿Cuándo es infalible el Papa?|al definir solemnemente una verdad de fe|cuando opina de deportes|cada vez que habla en público
+2|¿Qué nos enseña el papa Pío VII en la cárcel?|a resistir con paciencia y fe|a vengarse del enemigo|a rendirse y callar
+2|V|La fe y la razón no son enemigas: las dos vienen de Dios.
+#6ic8
+Z|En el siglo XIX, la <b>Revolución industrial</b> trajo fábricas con jornadas larguísimas, salarios de hambre y niños explotados.|Dios suscitó santos que ayudaron a los pobres y a los jóvenes obreros, como <b>san Juan Bosco</b>.|En 1891, León XIII publicó <b>Rerum novarum</b>: el trabajo tiene dignidad y el salario debe ser justo.|Así comenzó la <b>doctrina social</b> de la Iglesia, que rechaza tanto la explotación como el comunismo.
+E|Bien común: lo que ayuda a todos|Solidaridad: todos somos responsables de todos
+S|¿Qué dice la Iglesia sobre un patrón que paga muy poco a sus obreros?|El trabajador es una persona con dignidad, no una máquina.|Su salario debe alcanzar para vivir bien con su familia.|Pagar menos de lo justo es una injusticia grave.|=Que comete una injusticia: el salario debe ser justo.
+I|🏭 Fábricas: Jornadas largas y niños trabajando.|👦 Don Bosco: Educó y defendió a los jóvenes obreros.|📜 Rerum novarum: León XIII pide salario justo (1891).|🌍 Laudato si': Cuidar la creación, casa de todos (2015).
+0|F|La doctrina social de la Iglesia apoya el comunismo.
+0|V|En la Revolución industrial muchos niños trabajaban en las fábricas.
+1|¿Qué derecho de los obreros defendió Rerum novarum?|asociarse para defenderse|trabajar sin descanso|dejar de ir a Misa
+1|¿Quién fundó las Conferencias de San Vicente de Paúl para ayudar a los pobres?|Federico Ozanam|León XIII|Napoleón
+2|¿Qué significa «bien común»?|lo que ayuda a todos a vivir bien|lo que conviene a los ricos|lo que decide el más fuerte
+2|Santa Josefina Bakhita fue esclava de niña. ¿Qué fue después?|religiosa|reina|soldado
+2|¿Qué rechaza la doctrina social de la Iglesia?|la explotación y el comunismo|el descanso del domingo|la propiedad de una casa
+K|{x}: ¿lo defiende o lo rechaza la doctrina social?|¿Lo defiende o lo rechaza?|lo defiende: el salario justo; el descanso dominical; el derecho a asociarse; el cuidado de la creación|lo rechaza: la explotación de los niños; el salario de hambre; el odio entre clases; el desprecio a los pobres
+#6ic9
+Z|En el siglo XIX, las <b>Leyes de Reforma</b> quitaron sus bienes a la Iglesia y separaron Iglesia y Estado.|En 1926, el presidente Calles aplicó leyes muy duras contra la fe y los obispos suspendieron el culto público.|Muchos católicos se levantaron en la <b>Cristiada</b> (1926–1929); otros resistieron de forma pacífica.|Los <b>mártires mexicanos</b> murieron perdonando y gritando «¡Viva Cristo Rey!».
+E|San José Sánchez del Río: mártir a los 14 años|1992: se reconoce la libertad religiosa
+S|¿Qué hace diferente a un mártir de un soldado?|El soldado pelea con armas para vencer a su enemigo.|El mártir no mata: prefiere morir antes que negar a Cristo.|Y muere perdonando a quienes le quitan la vida.|=El mártir da testimonio de su fe sin odio y perdonando.
+I|📜 Leyes de Reforma: La Iglesia pierde sus bienes (siglo XIX).|⛪ 1926: Se suspende el culto público.|✝️ Mártires: Padre Pro, Joselito, Toribio Romo, Magallanes.|🕊️ 1929 y 1992: Vuelve el culto; después, la libertad religiosa.
+0|V|El beato Miguel Agustín Pro fue un sacerdote jesuita.
+0|¿Qué gritaban los mártires mexicanos al morir?|¡Viva Cristo Rey!|¡Viva la guerra!|¡Viva el presidente!
+1|¿Cuántos años tenía san José Sánchez del Río al morir mártir?|14|24|40
+1|F|Durante la persecución, todos los católicos tomaron las armas.
+2|¿Qué reconoció la Constitución mexicana en 1992?|la libertad religiosa|la prohibición del culto|una religión del Estado
+2|¿Cómo morían los mártires mexicanos?|perdonando a sus verdugos|maldiciendo al gobierno|negando su fe
+2|¿Qué enseña el ejemplo de Anacleto González Flores?|a defender la fe sin violencia|a esconder siempre la fe|a odiar al enemigo
+P|¿Quién fue {x}?||san José Sánchez del Río = un niño mártir de 14 años|el beato Miguel Agustín Pro = un sacerdote jesuita fusilado|el beato Anacleto González Flores = un laico que resistió en paz|san Cristóbal Magallanes = un sacerdote mártir de Jalisco
+#6ic10
+Z|El siglo XX tuvo dos <b>guerras mundiales</b> y regímenes <b>totalitarios</b>: nazismo, fascismo y comunismo.|Persiguieron a la Iglesia y a otros grupos; el nazismo asesinó a millones de judíos en el <b>Holocausto</b>.|Hubo santos en la oscuridad: san <b>Maximiliano Kolbe</b> y santa Teresa Benedicta de la Cruz (Edith Stein).|Bajo el comunismo, la fe sobrevivió en las familias que rezaban en secreto.
+E|Kolbe: «Solo el amor crea»|El siglo XX: el siglo de los mártires
+S|¿Por qué los totalitarismos persiguen a la Iglesia?|Un régimen totalitario quiere controlar todo: lo que la gente hace, dice y piensa.|La Iglesia enseña que solo Dios es Señor y que cada persona tiene dignidad.|Por eso el dictador ve en la fe un obstáculo para su poder.|=Porque la fe recuerda que el poder del Estado no es absoluto: solo Dios es Dios.
+I|🌑 Totalitarismos: Nazismo, fascismo y comunismo.|🕯️ Holocausto: El asesinato de millones de judíos.|✝️ Kolbe: Dio su vida por un padre de familia.|🏠 Fe escondida: Familias que rezaban en secreto.
+0|F|Los regímenes totalitarios respetaban la libertad de todas las personas.
+0|¿Qué fue el Holocausto?|el asesinato de millones de judíos|una batalla en el mar|un concilio de la Iglesia
+1|¿Dónde escondieron muchos católicos a los perseguidos?|en conventos y casas|en los cuarteles|en los palacios
+1|¿Qué nombre tomó Edith Stein como carmelita?|Teresa Benedicta de la Cruz|Teresa de Calcuta|Catalina de Siena
+2|¿Por qué la fe estorba a un dictador?|recuerda que solo Dios es Señor|enseña a obedecer sin pensar|prohíbe trabajar y estudiar
+2|¿Qué nos enseña san Maximiliano Kolbe?|a dar la vida por los demás|a escapar del peligro|a callar ante la injusticia
+2|V|Defender a quien es tratado injustamente es una obra de caridad y de valentía.
+#6ic11
+Z|El <b>Concilio Vaticano II</b> (1962–1965) fue convocado por san Juan XXIII y concluido por san Pablo VI.|Más de dos mil obispos buscaron anunciar el Evangelio al mundo moderno, fieles a la fe de siempre.|Enseñó el <b>llamado universal a la santidad</b>, el amor a la Palabra de Dios y la misión de los <b>laicos</b>.|No es una Iglesia nueva: es la misma Iglesia, <b>renovada</b>.
+E|Misa en la lengua de cada pueblo|Catecismo de la Iglesia Católica (1992)
+S|¿Cambió la fe con el Concilio Vaticano II?|La fe es la misma que enseñaron Jesús y los apóstoles.|El Concilio buscó explicarla y vivirla mejor en el mundo de hoy.|Por eso debe leerse en continuidad con toda la Tradición.|=No: la fe es la misma; cambió la manera de anunciarla y celebrarla.
+I|🕊️ 1962–1965: Un nuevo Pentecostés para la Iglesia.|⭐ Santidad: Todos los bautizados están llamados a ser santos.|📖 Palabra de Dios: Leer y amar la Sagrada Escritura.|🤝 Diálogo: Con otros cristianos y otras religiones.
+0|F|El Concilio Vaticano II creó una Iglesia nueva y distinta.
+0|¿Cuántos obispos participaron en el Vaticano II?|más de dos mil|doce|unos cien
+1|¿Quiénes son los laicos?|los fieles que no son sacerdotes ni religiosos|los obispos y los cardenales de la Iglesia|las personas que no creen en Dios
+1|¿Para qué se permitió la Misa en la lengua del pueblo?|para participar mejor|para que fuera más corta|para quitar las oraciones
+2|¿Dónde viven los laicos su misión?|en la familia, el trabajo y la sociedad|solo dentro del templo|únicamente en el convento
+2|V|Un niño que estudia, obedece y reza con amor está respondiendo al llamado a la santidad.
+2|O|Ordena de lo más antiguo a lo más reciente|Concilio de Trento|Concilio Vaticano I|Concilio Vaticano II
+#6ic12
+Z|En 1978 fue elegido Papa el polaco Karol Wojtyla: <b>san Juan Pablo II</b>.|Su visita a Polonia en 1979 dio valor al pueblo; sin violencia, el comunismo cayó en Europa del Este y en <b>1989</b> cayó el Muro de Berlín.|Viajó a 129 países y cinco veces a <b>México</b>.|Creó las Jornadas Mundiales de la Juventud, defendió la vida y la familia y publicó el Catecismo.
+E|«¡No tengan miedo! ¡Abran las puertas a Cristo!»|Misterios luminosos del Rosario (2002)
+S|¿Cómo puede un Papa sin ejército ayudar a derribar un régimen?|El comunismo dominaba con miedo y mentiras.|Juan Pablo II recordó a su pueblo su dignidad y su fe.|La gente perdió el miedo y pidió libertad de forma pacífica.|=Con la fuerza de la verdad y de la fe, sin violencia.
+I|📍 Polonia: La tierra natal de Karol Wojtyla.|🧱 1989: Cae el Muro de Berlín sin violencia.|🌎 Peregrino: 129 países; cinco visitas a México.|🙌 JMJ: Encuentros del Papa con jóvenes de todo el mundo.
+0|V|Juan Pablo II fue elegido Papa en 1978.
+0|¿Cómo se llamaba Juan Pablo II antes de ser Papa?|Karol Wojtyla|Joseph Ratzinger|Jorge Bergoglio
+1|¿Qué misterios añadió Juan Pablo II al Rosario?|los luminosos|los gozosos|los dolorosos
+1|F|El comunismo cayó en Europa del Este por una gran guerra.
+2|En 1981 un hombre le disparó al Papa. ¿Qué hizo después Juan Pablo II?|lo visitó en la cárcel y lo perdonó|pidió que lo castigaran sin piedad|nunca volvió a salir a la plaza
+2|¿A qué santo mexicano canonizó Juan Pablo II en 2002?|san Juan Diego|san Felipe de Jesús|san Rafael Guízar
+2|¿Qué defendió con fuerza Juan Pablo II?|la vida y la familia|el comunismo|la guerra
+#6ic13
+Z|Después de san Juan Pablo II: <b>Benedicto XVI</b> (2005–2013), <b>Francisco</b> (2013–2025) y, desde mayo de 2025, <b>León XIV</b>.|Hoy hay más de 1 300 millones de católicos; la Iglesia crece mucho en África y Asia.|Sostiene escuelas, hospitales y obras de caridad en todo el mundo.|Enfrenta con verdad los pecados de algunos de sus miembros, pide perdón y protege a los más pequeños.
+E|San Carlo Acutis: santo de internet|La Iglesia siempre es misionera
+S|¿Por qué san Carlo Acutis es un ejemplo para los niños de hoy?|Le gustaban las computadoras, los videojuegos y el futbol, como a muchos.|Iba a Misa cada día y llamaba a la Eucaristía «mi autopista al cielo».|Usó internet para dar a conocer los milagros eucarísticos.|=Porque muestra que se puede ser santo hoy, usando bien la tecnología.
+I|📚 Benedicto XVI: Gran teólogo; renunció en 2013.|🌎 Francisco: Primer Papa latinoamericano.|🕊️ León XIV: Elegido en mayo de 2025.|💻 Carlo Acutis: Evangelizó por internet; santo desde 2025.
+0|V|Benedicto XVI renunció al pontificado en 2013.
+0|¿De qué continente era el papa Francisco?|de América|de África|de Asia
+1|¿En qué insistió mucho el papa Francisco?|en la misericordia|en las cruzadas|en cerrar las parroquias
+1|¿Dónde nació el papa León XIV?|en Estados Unidos|en Polonia|en Argentina
+2|¿Cómo llamaba Carlo Acutis a la Eucaristía?|mi autopista al cielo|mi videojuego favorito|mi tarea diaria
+2|F|Cuando un miembro de la Iglesia peca gravemente, lo mejor es ocultarlo.
+2|¿Qué obras sostiene la Iglesia en todo el mundo?|escuelas, hospitales y caridad|ejércitos y fábricas de armas|solo museos y bibliotecas
+#6ic14
+Z|La Iglesia es <b>una</b>: un solo Señor, una fe, un bautismo.|Es <b>santa</b>: Cristo la santifica, aunque sus miembros somos pecadores.|Es <b>católica</b>: universal, para todos los pueblos y tiempos.|Es <b>apostólica</b>: fundada sobre los apóstoles y guiada por sus sucesores, el Papa y los obispos.
+E|Mi Bautismo me hizo miembro de la Iglesia|Los santos dijeron «sí» a Dios
+S|Si en la Iglesia hay pecadores, ¿por qué decimos que es santa?|La Iglesia es el Cuerpo de Cristo, y Cristo es santo.|Él la santifica con su Palabra, sus sacramentos y el Espíritu Santo.|Sus miembros somos pecadores en camino de conversión.|=Porque su santidad viene de Cristo, no de nosotros.
+I|1️⃣ Una: Un Señor, una fe, un bautismo.|✨ Santa: Cristo la santifica.|🌍 Católica: Para todos los pueblos.|🪨 Apostólica: Fundada sobre los apóstoles.
+0|V|Entré a formar parte de la Iglesia el día de mi Bautismo.
+0|¿Quiénes son los sucesores de los apóstoles?|los obispos|los reyes|los maestros
+1|¿Qué significa que la Iglesia sea «una»?|que tiene una sola fe y un solo Señor|que solo existe en un país|que tiene un solo templo
+1|¿Cómo escribe un niño su página en la historia de la Iglesia?|con su oración y su buen ejemplo|esperando a ser adulto|sin hacer nada especial
+2|¿De dónde viene la santidad de la Iglesia?|de Cristo, que la santifica|de que nadie peca en ella|de sus edificios antiguos
+2|F|La Iglesia es santa porque todos sus miembros son perfectos.
+2|¿Cuántos años de historia tiene la Iglesia?|unos dos mil|unos quinientos|unos cien
+P|¿Qué significa que la Iglesia es {x}?|¿Qué nota de la Iglesia significa «{x}»?|una = que tiene una sola fe|santa = que Cristo la santifica|católica = que es para todos los pueblos|apostólica = que viene de los apóstoles

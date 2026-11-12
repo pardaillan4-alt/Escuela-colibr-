@@ -1,0 +1,255 @@
+// Geografía 5.º — profundización y banco ampliado
+#5g1
+Z|La Tierra tiene <b>seis continentes</b>: América, Europa, Asia, África, Oceanía y Antártida.|<b>Asia</b> es el más grande y poblado; <b>Oceanía</b>, el más pequeño.|Hay cinco <b>océanos</b>: Pacífico (el mayor), Atlántico, Índico, Ártico y Antártico.|Se localizan en el <b>planisferio</b> y en el globo terráqueo.
+E|México está en América|La Antártida está cubierta de hielo
+S|¿Cómo ubico un continente en el planisferio?|Busco primero América, a la izquierda, entre el Pacífico y el Atlántico.|Cruzando el Atlántico hacia el este están Europa (arriba) y África (abajo).|Más al este, Asia; al sureste, Oceanía; y hasta el sur, la Antártida.|=Usando los océanos y los puntos cardinales como guía.
+I|🌎 América: Nuestro continente, de polo a polo.|🌏 Asia: El más grande y poblado.|🌊 Pacífico: El océano mayor.|🧊 Antártida: Un continente de hielo.
+0|V|África está al sur de Europa.
+0|¿Cuántos continentes hay?|seis|tres|diez
+1|¿Qué océano separa América de Europa y África?|el Atlántico|el Índico|el Ártico
+1|¿Qué representa un planisferio?|toda la Tierra en un plano|solo un país|el cielo de noche
+1|F|Oceanía es el continente más grande.
+1|¿Qué océano baña la costa oeste de México?|el Pacífico|el Atlántico|el Índico
+2|¿Qué ventaja tiene el globo terráqueo sobre el planisferio?|muestra la forma real de la Tierra|cabe mejor en un libro|no necesita colores
+2|¿Qué continente NO tiene países ni ciudades?|la Antártida|Oceanía|África
+2|V|Hoy hay católicos en todos los continentes.
+2|¿Entre qué océanos está África?|el Atlántico y el Índico|el Pacífico y el Ártico|el Ártico y el Índico
+K|{x}: ¿en qué continente está?|¿En qué continente está?|América: México; Brasil; Canadá; Argentina|Europa: España; Italia; Francia; Alemania|Asia: China; India; Japón|África: Egipto; Nigeria; Kenia|Oceanía: Australia; Nueva Zelanda
+#5g13
+Z|El mapa <b>político</b> muestra países, estados y capitales; el <b>físico</b>, el relieve y los ríos; el <b>temático</b>, un tema: población, clima o economía.|La <b>simbología</b> explica lo que significa cada símbolo y color.|La <b>rosa de los vientos</b> indica los puntos cardinales.|La <b>escala</b> dice cuánto mide en la realidad lo que se ve en el mapa.
+E|Escala 1:100 000: 1 cm = 1 km|Escala gráfica: una barra con kilómetros
+S|En un mapa a escala 1:100 000, dos pueblos están a 5 cm. ¿A qué distancia real están?|La escala dice que 1 cm del mapa son 100 000 cm reales.|100 000 cm son 1 km: cada centímetro vale 1 km.|Multiplico: 5 cm × 1 km.|=5 km.
+I|🗺️ Político: Países, estados y capitales.|⛰️ Físico: Montañas, ríos y llanuras.|📊 Temático: Un tema, como el clima.|📏 Escala: Del mapa a la realidad.
+0|V|El mapa físico muestra el relieve.
+0|¿Qué indica la rosa de los vientos?|los puntos cardinales|la temperatura|la población
+1|¿Qué mapa uso para saber la capital de un país?|el político|el físico|el de climas
+1|¿Dónde se explica qué significan los colores de un mapa?|en la simbología|en la escala|en el título
+1|F|La escala de un mapa indica el nombre del autor.
+1|Si 1 cm representa 10 km, ¿cuánto representan 3 cm?|30 km|13 km|3 km
+2|En la escala 1:100 000, ¿cuántos kilómetros reales son 7 cm?|7 km|70 km|700 km
+2|¿Qué mapa me sirve para saber dónde vive más gente?|uno temático de población|uno físico|uno de carreteras
+2|¿Qué mapa muestra más detalle?|el de una ciudad|el del mundo|el de un continente
+2|V|Los mapas de los viajes de san Pablo ayudan a entender cómo creció la Iglesia.
+K|{x}: ¿qué tipo de mapa lo muestra?|¿Político, físico o temático?|político: los países y sus capitales; las fronteras; los estados de México|físico: las montañas; los ríos y los lagos; las llanuras|temático: la cantidad de lluvia; el número de habitantes; los tipos de clima
+#5g2
+Z|Las <b>fronteras</b> son los límites entre países.|Pueden ser <b>naturales</b> (un río o una montaña, como el río Bravo) o <b>artificiales</b> (líneas trazadas por acuerdo).|En el mundo hay cerca de <b>195 países</b>: cada uno tiene territorio, población, gobierno y capital.|México colinda con Estados Unidos, Guatemala y Belice.
+E|El Vaticano: el país más pequeño|Rusia: el país más grande
+S|¿Qué necesita un territorio para ser un país?|Un territorio con fronteras reconocidas.|Una población que vive en él.|Un gobierno propio y una capital.|=Territorio, población y gobierno propio.
+I|🏞️ Frontera natural: Un río o una sierra.|📏 Frontera artificial: Una línea acordada.|🏛️ Capital: Sede del gobierno.|⛪ Vaticano: El Estado más pequeño.
+0|V|Cada país tiene una capital.
+0|¿Qué es una frontera?|el límite entre dos países|el centro de un país|un tipo de clima
+1|¿Qué río marca parte de la frontera norte de México?|el río Bravo|el río Lerma|el río Balsas
+1|¿Con qué país colinda México al norte?|Estados Unidos|Guatemala|Canadá
+1|F|México tiene frontera con Brasil.
+1|¿Dónde está la Ciudad del Vaticano?|dentro de Roma|en París|en Jerusalén
+2|¿Por qué muchas fronteras siguen ríos y montañas?|son límites fáciles de reconocer|son más cortas|así no hay que hacer mapas
+2|¿Cuál es el país más grande del mundo?|Rusia|México|España
+2|V|El Papa vive en el Estado más pequeño del mundo.
+2|¿Con qué países colinda México al sur?|Guatemala y Belice|Honduras y Cuba|Panamá y Perú
+P|¿Cuál es la capital de {x}?|¿De qué país es capital {x}?|México = la Ciudad de México|Estados Unidos = Washington|Guatemala = la Ciudad de Guatemala|Canadá = Ottawa|España = Madrid|Italia = Roma|Francia = París
+#5g3
+Z|Los <b>paralelos</b> son círculos horizontales: el principal es el <b>Ecuador</b> (0°), que divide la Tierra en norte y sur.|Los <b>meridianos</b> van de polo a polo: el principal es el de <b>Greenwich</b> (0°), que la divide en este y oeste.|<b>Latitud</b>: distancia al Ecuador, norte o sur.|<b>Longitud</b>: distancia a Greenwich, este u oeste.
+E|México: latitud norte, longitud oeste|GPS: usa latitud y longitud
+S|¿En qué hemisferios está México?|México está arriba del Ecuador: hemisferio norte.|Está a la izquierda de Greenwich: hemisferio oeste.|Por eso sus coordenadas son latitud norte y longitud oeste.|=En el hemisferio norte y en el oeste.
+I|🌐 Paralelos: Círculos horizontales.|🧭 Meridianos: Líneas de polo a polo.|↕️ Latitud: Norte o sur del Ecuador.|↔️ Longitud: Este u oeste de Greenwich.
+0|V|Los meridianos van del polo norte al polo sur.
+0|¿Cuál es el paralelo principal?|el Ecuador|Greenwich|el trópico de Cáncer
+1|¿Qué mide la latitud?|la distancia al Ecuador|la altura de un monte|la distancia al mar
+1|¿En qué hemisferios divide Greenwich a la Tierra?|este y oeste|norte y sur|frío y caliente
+1|F|La longitud se mide desde el Ecuador.
+1|¿Qué latitud tiene el Ecuador?|0°|90°|180°
+2|¿Qué necesito para ubicar un punto exacto en la Tierra?|su latitud y su longitud|solo su latitud|el nombre del océano
+2|¿Qué latitud tienen los polos?|90°|0°|45°
+2|¿En qué hemisferio está Argentina?|en el sur|en el norte|en ninguno
+2|V|Dios conoce cada rincón de la Tierra y a cada persona que vive en él.
+K|{x}: ¿paralelo o meridiano?|¿Paralelo o meridiano?|paralelo: el Ecuador; el trópico de Cáncer; el trópico de Capricornio; el círculo polar ártico|meridiano: el de Greenwich; el de 180°; el de 90° oeste
+#5g4
+Z|El <b>relieve</b> son las formas de la superficie: montañas, mesetas, llanuras y depresiones.|Las cordilleras más importantes son el <b>Himalaya</b> (Asia) y los <b>Andes</b> (América); el <b>Everest</b> es la montaña más alta (8 849 m).|Los ríos más largos son el <b>Nilo</b> y el <b>Amazonas</b>.|Solo el <b>3 %</b> del agua del planeta es dulce.
+E|Meseta: llanura elevada|Lago Titicaca: el lago navegable más alto
+S|Si casi toda la Tierra es agua, ¿por qué hay que cuidarla?|De cada 100 litros de agua del planeta, 97 son salados.|De los 3 litros dulces, la mayor parte está congelada en los polos.|Queda muy poca para beber, regar y vivir.|=Porque el agua dulce disponible es muy poca.
+I|🏔️ Everest: 8 849 m, en el Himalaya.|⛰️ Andes: La cordillera más larga.|🌊 Nilo y Amazonas: Los ríos más largos.|💧 Agua dulce: Solo el 3 % del total.
+0|V|Los Andes están en América del Sur.
+0|¿Qué es una llanura?|un terreno plano y extenso|una montaña muy alta|un río muy largo
+1|¿En qué continente está el río Nilo?|África|Asia|Europa
+1|¿Qué es una meseta?|una llanura elevada|un valle profundo|una isla pequeña
+1|F|La mayor parte del agua del planeta es dulce.
+1|¿Por qué selva pasa el río Amazonas?|la selva amazónica|la selva Lacandona|la selva Negra
+2|¿Dónde está la mayor parte del agua dulce del planeta?|congelada en los polos|en los ríos|en las nubes
+2|¿Cuál es la cordillera más larga del mundo?|los Andes|los Alpes|el Himalaya
+2|V|En el río Jordán fue bautizado Jesús.
+2|¿Qué lago navegable es el más alto del mundo?|el Titicaca|el de Chapala|el Superior
+P|¿En qué continente está {x}?||el Himalaya = Asia|el río Nilo = África|el río Amazonas = América|el monte Everest = Asia|la cordillera de los Alpes = Europa
+#5g5
+Z|El <b>clima</b> depende de la temperatura y de la lluvia.|Hay climas cálidos, templados, secos, fríos y polares.|Cada clima forma una <b>región natural</b> con su vegetación y su fauna: selva, sabana, desierto, bosque, tundra y región polar.|Los seres vivos están <b>adaptados</b> al lugar donde viven.
+E|Selva: calor y mucha lluvia|Desierto: casi no llueve
+S|¿Por qué el camello puede vivir en el desierto?|En el desierto casi no hay agua y hace mucho calor.|El camello guarda grasa en su joroba y aguanta días sin beber.|Sus pestañas largas y sus patas anchas lo protegen de la arena.|=Porque su cuerpo está adaptado a la falta de agua y al calor.
+I|🌴 Selva: Calor, lluvia y muchísima vida.|🦒 Sabana: Pastos y pocos árboles.|🌵 Desierto: Seco; plantas que guardan agua.|❄️ Polar: Hielo casi todo el año.
+0|V|En la selva llueve mucho.
+0|¿En qué región natural crecen los cactus?|en el desierto|en la tundra|en la selva
+1|¿De qué depende el clima de un lugar?|de la temperatura y la lluvia|del idioma que se habla ahí|del número de habitantes
+1|¿Qué animal vive en la tundra?|el reno|el tucán|la jirafa
+1|F|En la región polar hace calor todo el año.
+1|¿Qué animal es típico del bosque templado?|el oso|el camello|el pingüino
+2|¿Qué significa que un animal está «adaptado»?|su cuerpo le ayuda a vivir en su ambiente|vive encerrado en un zoológico|come cualquier tipo de alimento
+2|¿Por qué el oso polar tiene una gruesa capa de grasa?|para soportar el frío|para nadar más lento|para verse grande
+2|V|La variedad de climas y seres vivos muestra la sabiduría del Creador.
+2|¿En qué clima se da mejor la selva?|cálido y húmedo|frío y seco|templado y seco
+P|¿En qué región natural vive {x}?|¿Qué animal vive en {x}?|el jaguar = la selva|la jirafa = la sabana|el camello = el desierto|el oso pardo = el bosque|el reno = la tundra|el pingüino = la región polar
+#5g11
+Z|América se divide en <b>América del Norte, América Central, el Caribe y América del Sur</b>.|Tiene grandes ríos (Amazonas, Misisipi) y cordilleras (Andes, Montañas Rocosas).|Sus pueblos nacieron del encuentro de pueblos originarios, europeos y africanos: el <b>mestizaje</b>.|Se hablan español, inglés, portugués y francés; aquí vive la mayoría de los católicos del mundo.
+E|México: América del Norte|Brasil: el país más grande de América del Sur
+S|¿Por qué en América se hablan lenguas de Europa?|Hace más de 500 años llegaron a América españoles, portugueses, ingleses y franceses.|Cada uno pobló y gobernó una parte del continente.|Su lengua se mezcló con las lenguas originarias, que aún se hablan.|=Porque fueron las lenguas de los países europeos que poblaron cada región.
+I|🏔️ Andes: A lo largo de América del Sur.|🌊 Amazonas: El río más caudaloso.|🏝️ Caribe: Islas de mar cálido.|🌹 Guadalupe: Patrona de toda América.
+0|V|México pertenece a América del Norte.
+0|¿Qué mar baña las islas de Cuba y Jamaica?|el Caribe|el Mediterráneo|el Rojo
+1|¿Qué lengua se habla en Estados Unidos y Canadá?|el inglés|el portugués|el italiano
+1|¿Qué es el mestizaje?|la mezcla de pueblos y culturas|un tipo de clima muy lluvioso|una cordillera de América
+1|F|En toda América se habla solamente español.
+1|¿Qué cordillera está en América del Norte?|las Montañas Rocosas|los Alpes|el Himalaya
+2|¿Cuál es el país más grande de América?|Canadá|México|Perú
+2|¿Qué une a casi todos los países de América Latina?|la lengua y la fe|el clima frío|una sola moneda
+2|V|Las lenguas indígenas son una riqueza de América que debemos respetar.
+2|¿Qué canal une el Atlántico y el Pacífico en América Central?|el de Panamá|el de Suez|el de la Mancha
+K|{x}: ¿en qué parte de América está?|¿En qué parte de América está?|América del Norte: Canadá; Estados Unidos; México|América Central: Guatemala; Costa Rica; Panamá; Honduras|América del Sur: Brasil; Argentina; Perú; Colombia; Chile|el Caribe: Cuba; Jamaica; República Dominicana
+#5g12
+Z|<b>Europa</b> es pequeña pero muy poblada; allí están los Alpes, el Danubio y el Vaticano.|<b>Asia</b> es el continente más grande y poblado: China, India y el Himalaya.|<b>África</b> tiene el desierto del Sahara, el río Nilo y una gran diversidad de pueblos.|<b>Oceanía</b> está formada por Australia y miles de islas.
+E|Sahara: el mayor desierto cálido|Australia: país y casi un continente
+S|¿Cómo distingo Asia de África en el mapa?|África está al sur de Europa; tiene forma de triángulo hacia abajo.|Asia está al este de Europa y es mucho más grande.|Los separa el mar Rojo; el Sahara está en África y el Himalaya en Asia.|=Por su posición: África al sur de Europa y Asia al este.
+I|🏰 Europa: Pequeña y muy poblada.|🐼 Asia: La más grande; China e India.|🦁 África: Sahara, Nilo y sabanas.|🦘 Oceanía: Australia e islas del Pacífico.
+0|V|Australia está en Oceanía.
+0|¿Qué desierto está en el norte de África?|el Sahara|el de Sonora|el de Atacama
+1|¿Qué montañas están en Europa?|los Alpes|los Andes|las Rocosas
+1|¿Qué dos países de Asia son los más poblados?|India y China|Japón y Corea|Rusia y Turquía
+1|F|Europa es el continente más grande del mundo.
+1|¿Qué río cruza Egipto?|el Nilo|el Danubio|el Rin
+2|¿En qué continente crece más rápido la Iglesia hoy?|África|Europa|Antártida
+2|¿En qué continente están Roma y el Vaticano?|Europa|Asia|África
+2|V|En Asia hubo muchos mártires cristianos, como los de Corea y Japón.
+2|¿Qué océano rodea las islas de Oceanía?|el Pacífico|el Atlántico|el Ártico
+K|{x}: ¿de qué continente es típico?|¿De qué continente es típico?|Asia: el oso panda; el tigre de Bengala|África: el león; la jirafa; el elefante africano|Oceanía: el canguro; el koala
+#5g15
+Z|El <b>patrimonio de la humanidad</b> son lugares tan valiosos que pertenecen a todos; los protege la <b>UNESCO</b>.|Puede ser <b>cultural</b> (Machu Picchu, la Gran Muralla, Chichén Itzá) o <b>natural</b> (selvas, arrecifes, reservas).|México tiene muchos sitios: Chichén Itzá, el centro de Puebla, Teotihuacan.|Se cuida conociéndolo y respetando sus normas.
+E|Cultural: lo hizo el ser humano|Natural: lo formó la naturaleza
+S|¿Por qué no debo llevarme una piedrita de una zona arqueológica?|Si cada visitante se lleva una, en pocos años no quedaría nada.|Ese lugar pertenece a todos, también a los niños del futuro.|Cuidarlo es una forma de respeto y de justicia.|=Porque es de todos y debe conservarse para quienes vendrán.
+I|🏔️ Machu Picchu: Ciudad inca en Perú.|🧱 Gran Muralla: En China.|🔺 Pirámides: De Guiza, en Egipto.|🦋 Mariposa monarca: Reserva natural en México.
+0|V|La Gran Muralla está en China.
+0|¿Qué hace la UNESCO con el patrimonio?|lo protege|lo vende|lo cierra
+1|¿En qué estado de México está Chichén Itzá?|Yucatán|Sonora|Jalisco
+1|¿Qué es el patrimonio natural?|lugares formados por la naturaleza|edificios antiguos de una ciudad|pinturas famosas de un museo
+1|F|El patrimonio de la humanidad pertenece a una sola persona.
+1|¿Qué civilización construyó Machu Picchu?|los incas|los mayas|los egipcios
+2|¿Qué reserva de México protege a una mariposa viajera?|la de la mariposa monarca|la de la mariposa azul|la del quetzal
+2|¿Qué templo del Vaticano es patrimonio de la humanidad?|la Basílica de San Pedro|Notre Dame|la Sagrada Familia
+2|V|Muchos conventos y catedrales son patrimonio de la humanidad por su arte y su historia.
+2|O|Ordena lo que hago para cuidar el patrimonio|Lo conozco|Lo respeto|Lo cuido|Lo doy a conocer
+P|¿En qué país está {x}?|¿Qué patrimonio está en {x}?|Machu Picchu = Perú|la Gran Muralla = China|la pirámide de Keops = Egipto|Chichén Itzá = México|el Taj Mahal = la India|el Coliseo = Italia
+#5g16
+Z|México está en <b>América del Norte</b>, entre el océano Pacífico y el golfo de México (Atlántico).|Es uno de los países más <b>poblados</b> y <b>megadiversos</b> del mundo.|Se relaciona con el mundo por el <b>comercio</b> (T-MEC), el turismo, la migración y la cultura.|Su cocina tradicional es patrimonio de la humanidad.
+E|Megadiverso: con muchísimas especies|T-MEC: México, Estados Unidos y Canadá
+S|¿Por qué se dice que México es un puente entre culturas?|Está entre América del Norte y América Latina.|Comercia con el norte y comparte lengua, fe e historia con el sur.|Tiene costas hacia Asia (Pacífico) y hacia Europa (Atlántico).|=Por su ubicación y porque une pueblos de distintas culturas.
+I|📍 Ubicación: América del Norte, entre dos océanos.|🦜 Megadiverso: Miles de especies.|🌮 Cultura: Su cocina es patrimonio mundial.|🤝 Comercio: T-MEC con Estados Unidos y Canadá.
+0|V|México tiene costas en el océano Pacífico.
+0|¿Qué países forman el T-MEC con México?|Estados Unidos y Canadá|España y Francia|Brasil y Chile
+1|¿Qué significa «megadiverso»?|que tiene muchísimas especies|que es muy grande|que tiene muchos volcanes
+1|¿Qué golfo está al este de México?|el golfo de México|el golfo Pérsico|el golfo de Guinea
+1|F|México es un país con muy pocos habitantes.
+1|¿Qué atrae a millones de turistas a México?|sus playas, su cultura y su historia|su clima polar|sus desiertos de hielo
+2|¿Por qué tener dos océanos ayuda al comercio?|hay puertos hacia Asia y hacia Europa|llueve más en todo el país|hay menos pesca en las costas
+2|¿Qué lengua se habla en México además de las indígenas?|el español|el portugués|el francés
+2|V|Amar a México incluye cuidar su naturaleza, su cultura y su fe.
+2|¿Cuántos habitantes tiene México, aproximadamente?|130 millones|13 millones|1 300 millones
+#5g6
+Z|En el mundo hay más de <b>8 000 millones</b> de personas.|<b>Asia</b> es el continente más poblado; India y China, los países con más habitantes.|La población se concentra en llanuras, costas y junto a los ríos.|Más de la mitad vive en <b>ciudades</b> (población urbana); el resto, en el campo (población rural).
+E|Urbana: ciudad · Rural: campo|Metrópolis: Tokio, Delhi, Ciudad de México
+S|¿Por qué vive poca gente en los desiertos y en los polos?|Para vivir se necesita agua, alimento y un clima soportable.|En el desierto falta agua; en los polos hace demasiado frío.|En llanuras y costas hay agua, tierra fértil y trabajo.|=Porque ahí faltan agua, alimentos y buen clima.
+I|🌏 Asia: El continente más poblado.|🏙️ Urbana: Más de la mitad vive en ciudades.|🌾 Rural: Vive en el campo.|❤️ Cada persona: Única y amada por Dios.
+0|V|Más de la mitad de la población mundial vive en ciudades.
+0|¿Cómo se llama la población que vive en el campo?|rural|urbana|flotante
+1|¿Dónde se concentra más la población?|en llanuras y costas|en los polos|en los desiertos
+1|¿Cuál es una de las ciudades más pobladas del mundo?|Tokio|Mérida|Lima
+1|F|En los polos vive la mayor parte de la humanidad.
+1|¿Por qué mucha gente se muda del campo a la ciudad?|busca trabajo y servicios|quiere sembrar más|busca más silencio
+2|¿Qué es la densidad de población?|los habitantes por kilómetro cuadrado|el tamaño total de un país|la edad promedio de la gente
+2|¿Qué problema puede traer una ciudad sobrepoblada?|falta de agua y vivienda|demasiado espacio libre|menos tránsito
+2|V|Cada una de los miles de millones de personas tiene la misma dignidad.
+2|¿Qué país superó a China como el más poblado?|India|Rusia|Japón
+K|{x}: ¿población rural o urbana?|¿Rural o urbana?|rural: una ranchería; un pueblo de 300 habitantes; un ejido agrícola|urbana: la Ciudad de México; Monterrey; Tokio; una ciudad de un millón de habitantes
+#5g14
+Z|Las <b>grandes ciudades</b> (Tokio, Delhi, São Paulo, Ciudad de México, Nueva York) son centros de trabajo, cultura y servicios.|Tienen <b>retos</b>: tránsito, contaminación, vivienda cara y pocas áreas verdes.|Hay <b>soluciones</b>: transporte público, parques, ciclovías y reciclaje.|Todos ayudamos respetando a los vecinos y cuidando los espacios comunes.
+E|Megaciudad: más de 10 millones de habitantes|Área verde: parque, jardín, camellón con árboles
+S|¿Por qué el transporte público ayuda a la ciudad?|Un autobús lleva a 40 personas; 40 autos ocupan toda una calle.|Con menos autos hay menos tránsito y menos humo.|La gente llega más rápido y el aire es más limpio.|=Porque mueve a más personas con menos autos y menos contaminación.
+I|🏙️ Megaciudad: Más de 10 millones de habitantes.|🚗 Reto: Tránsito y contaminación.|🚌 Solución: Transporte público y ciclovías.|🌳 Áreas verdes: Aire limpio y descanso.
+0|V|La Ciudad de México es una de las ciudades más grandes del mundo.
+0|¿Qué es un área verde?|un parque o jardín|un estacionamiento|un edificio alto
+1|¿Qué problema causa el exceso de autos?|tránsito y aire sucio|más áreas verdes|menos ruido
+1|¿En qué país está la ciudad de Tokio?|Japón|China|India
+1|F|En las grandes ciudades la vivienda suele ser muy barata.
+1|¿Qué ofrecen las grandes ciudades?|trabajo, cultura y servicios|silencio y campo|aire puro siempre
+2|¿Qué puedes hacer tú por tu ciudad?|cuidar los espacios públicos|tirar basura en la calle|rayar las paredes
+2|¿Qué ciudad grande está en Brasil?|São Paulo|Nueva York|Delhi
+2|V|Construimos bien la ciudad de la tierra cuando buscamos el bien de todos.
+2|¿Por qué los árboles mejoran la ciudad?|limpian el aire y dan sombra|hacen más ruido|aumentan el tránsito
+K|{x}: ¿reto o solución de la ciudad?|¿Reto o solución?|reto: el tránsito; el aire contaminado; la vivienda cara; la falta de parques|solución: el transporte público; las ciclovías; el reciclaje; los parques nuevos
+#5g7
+Z|<b>Migrar</b> es cambiar de lugar para vivir: por trabajo, estudio, violencia o desastres.|<b>Emigrante</b> es quien sale de su país; <b>inmigrante</b>, quien llega a otro.|Cada pueblo tiene su <b>cultura</b>: lengua, religión, vestido, comida y fiestas.|La Iglesia pide <b>acoger, proteger, promover e integrar</b> a los migrantes.
+E|La Sagrada Familia fue migrante en Egipto|Diversidad cultural: una riqueza
+S|Don Luis deja México para trabajar en Canadá. ¿Es emigrante o inmigrante?|Depende de quién lo mire.|Para México, sale del país: es emigrante.|Para Canadá, llega al país: es inmigrante.|=Es emigrante para México e inmigrante para Canadá.
+I|🧳 Emigrante: Sale de su país.|🏠 Inmigrante: Llega a otro país.|🌍 Cultura: Lengua, comida, fiestas y fe.|🤝 Acoger: Recibir con respeto y cariño.
+0|V|Un desastre natural puede obligar a una familia a migrar.
+0|¿Qué es migrar?|cambiar de lugar para vivir|ir de vacaciones|visitar a un vecino
+1|¿Qué forma parte de la cultura de un pueblo?|su lengua y sus fiestas|el tamaño de sus ríos|su clima
+1|¿A qué país huyó la Sagrada Familia?|a Egipto|a Roma|a Grecia
+1|F|Todos los migrantes dejan su tierra por gusto.
+1|¿Qué es un refugiado?|quien huye de la guerra o la persecución|quien viaja por turismo|quien visita a su familia
+2|¿Cómo se trata bien a un compañero que llega de otro país?|se le recibe y se le incluye|se le ignora|se le pone un apodo
+2|¿Por qué la diversidad cultural es una riqueza?|aprendemos unos de otros|todos pensamos igual|nadie se entiende
+2|V|En cada migrante, los cristianos estamos llamados a ver a Jesús.
+2|¿Qué envían muchos migrantes a su familia desde lejos?|dinero ganado con su trabajo|las casas donde ahora viven|los muebles de su trabajo
+K|{x}: para México, ¿es emigrante o inmigrante?|¿Emigrante o inmigrante?|emigrante: un mexicano que se va a vivir a Canadá; una familia mexicana que se muda a España; un joven de Oaxaca que se va a trabajar a Estados Unidos|inmigrante: un hondureño que llega a vivir a México; una japonesa que viene a trabajar a México; una familia venezolana que se establece en México
+#5g8
+Z|<b>Actividades primarias</b>: obtienen recursos de la naturaleza (agricultura, ganadería, pesca, minería).|<b>Secundarias</b>: transforman los recursos en productos (industria).|<b>Terciarias</b>: dan servicios (comercio, transporte, turismo, salud, educación).|La energía puede ser <b>no renovable</b> (petróleo, carbón, gas) o <b>renovable</b> (solar, eólica, hidráulica).
+E|Del campo a tu mesa: primaria, secundaria y terciaria|Todo trabajo honrado tiene dignidad
+S|¿Qué actividades económicas hay detrás de una tortilla?|El campesino siembra y cosecha el maíz: actividad primaria.|En la tortillería se transforma en masa y tortillas: actividad secundaria.|La tienda la vende y un repartidor la lleva: actividad terciaria.|=Las tres: primaria, secundaria y terciaria.
+I|🌽 Primarias: Tomar recursos de la naturaleza.|🏭 Secundarias: Transformarlos en productos.|🛒 Terciarias: Vender y dar servicios.|☀️ Energía: Mejor si es renovable.
+0|V|La pesca es una actividad primaria.
+0|¿Qué hace la industria?|transforma materias primas|siembra el campo|vende boletos
+1|¿Qué actividad es el turismo?|terciaria|primaria|secundaria
+1|¿Qué es una materia prima?|un recurso que se va a transformar|un producto terminado|una tienda
+1|F|La minería es una actividad terciaria.
+1|¿Qué energía viene del viento?|la eólica|la solar|la geotérmica
+2|¿Qué actividad realiza una maestra?|terciaria|primaria|secundaria
+2|¿Por qué convienen más las energías renovables?|no se agotan y contaminan menos|son más escasas|vienen del petróleo
+2|V|Con su trabajo honrado, cada persona colabora en la obra de Dios.
+2|O|Ordena el camino de un pantalón de mezclilla|Se cultiva el algodón|Se fabrica la tela|Se cose el pantalón|Se vende en la tienda
+K|{x}: ¿actividad primaria, secundaria o terciaria?|¿Primaria, secundaria o terciaria?|primaria: la pesca; la ganadería; la minería; la agricultura|secundaria: una fábrica de zapatos; una refinería; una empacadora de alimentos|terciaria: un hotel; una tienda; un banco; el transporte de pasajeros
+#5g9
+Z|Los países <b>comercian</b>: exportan lo que producen e importan lo que les falta.|La mayor parte del comercio internacional viaja por <b>barco</b>.|Hay países con mucha riqueza y otros con mucha pobreza: <b>desigualdad</b>.|La <b>calidad de vida</b> se mide con el ingreso, la educación, la salud y la esperanza de vida.
+E|Exportar: vender a otro país|Importar: comprar a otro país
+S|México vende aguacate a Japón y le compra aparatos electrónicos. ¿Qué exporta y qué importa?|Exportar es vender a otro país: México vende aguacate.|Importar es comprar a otro país: México compra electrónicos.|Los dos países ganan lo que no producen.|=Exporta aguacate e importa aparatos electrónicos.
+I|🚢 Barco: Lleva la mayor parte del comercio.|📦 Exportar: Vender a otros países.|🛬 Importar: Comprar a otros países.|⚖️ Desigualdad: Unos con mucho y otros con poco.
+0|V|Exportar es vender productos a otros países.
+0|¿Qué es importar?|comprar a otro país|vender a otro país|fabricar en casa
+1|¿Qué transporte lleva más mercancías entre continentes?|el barco|la bicicleta|el camión
+1|¿Qué importa México?|maquinaria y tecnología|aguacate y jitomate|plata de sus minas
+1|F|Todos los países del mundo tienen la misma riqueza.
+1|¿Qué es la esperanza de vida?|los años que se espera vivir|el dinero que se gana|los días de escuela
+2|¿Por qué el dinero no basta para medir cómo vive la gente?|también cuentan la salud y la educación|porque nadie lo cuenta|porque el dinero no existe
+2|¿Qué es el comercio justo?|pagar un precio justo al productor|comprar lo más barato|no pagar impuestos
+2|V|Los bienes de la tierra fueron creados por Dios para todos.
+2|¿Qué deben hacer los países ricos, según la Iglesia?|ayudar a los países pobres|cerrar sus fronteras|guardar todo para sí
+#5g10
+Z|<b>Problemas ambientales</b>: contaminación del aire, del agua y del suelo; deforestación; basura y cambio climático.|Dañan la salud y la calidad de vida.|Los <b>desastres</b> pueden venir de riesgos naturales (sismos, huracanes, erupciones) o humanos (incendios, derrames).|Se previenen con <b>protección civil</b>: plan familiar, mochila de emergencia y simulacros.
+E|Reducir, reutilizar y reciclar|«No corro, no grito, no empujo»
+S|¿Qué debe llevar una mochila de emergencia?|Lo necesario para sobrevivir unos días: agua y comida enlatada.|Lo necesario para cuidarse: botiquín, linterna, radio y pilas.|Lo necesario para identificarse: copias de documentos.|=Agua, alimentos, botiquín, linterna, radio y documentos.
+I|🏭 Aire: Humo de autos y fábricas.|🌊 Agua: Basura y drenaje sin tratar.|🌳 Deforestación: Tala sin reponer árboles.|🎒 Prevención: Plan, mochila y simulacros.
+0|V|La deforestación es la pérdida de bosques.
+0|¿Qué se practica en un simulacro?|qué hacer en una emergencia|una obra de teatro|un deporte nuevo
+1|¿Qué gas de los autos calienta el planeta?|el dióxido de carbono|el oxígeno|el vapor de agua
+1|¿Qué es el cambio climático?|el aumento de la temperatura del planeta|el cambio de una estación a otra|la lluvia fuerte del verano
+1|F|La contaminación no afecta la salud de las personas.
+1|¿Quién avisa a la población ante un huracán?|protección civil|los turistas|los pescadores
+2|¿Qué acción ayuda a frenar el cambio climático?|usar menos el auto|quemar basura|talar árboles
+2|¿Por qué se siembran árboles después de talar?|para recuperar el bosque|para tener más sombra en casa|para vender las hojas
+2|V|Cuidar la creación es un deber con Dios y con quienes vivirán después.
+2|O|Ordena cómo se prepara una familia|Identifica los riesgos|Hace su plan familiar|Prepara la mochila|Participa en simulacros
+K|{x}: ¿riesgo natural o causado por el ser humano?|¿Natural o humano?|natural: un sismo; un huracán; una erupción volcánica; una helada|humano: un derrame de petróleo; un incendio provocado; una fuga de gas; un choque de trenes

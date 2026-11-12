@@ -1,0 +1,269 @@
+// Cívica y Valores 5.º — profundización y banco ampliado
+#5v1
+Z|En la pubertad cambian el cuerpo, las emociones y la manera de vernos.|Las imágenes de la televisión y las redes muchas veces están <b>editadas</b>: no son reales.|Mi <b>valor</b> no depende de mi apariencia: soy hijo de Dios, único e irrepetible.|Me acepto como Dios me hizo, hombre o mujer, y cuido mi imagen con sencillez y <b>pudor</b>.
+E|«Te alabo porque me hiciste maravilloso» (Sal 139, 14)|Sencillez: no buscar llamar la atención
+S|¿Qué hago cuando me comparo con alguien y me siento menos?|Recuerdo que cada persona es distinta y tiene sus propios dones.|Pienso en tres cualidades mías y doy gracias a Dios por ellas.|Dejo de mirar lo que me hace sentir mal y platico con mis papás.|=Agradezco lo que soy y no me mido con los demás.
+I|🌱 Cambios: Cuerpo, emociones e intereses.|📱 Redes: Muchas fotos están editadas.|💎 Mi valor: Soy hijo de Dios.|🙂 Sencillez: Cuido mi imagen con pudor.
+0|V|Cada persona es única e irrepetible.
+0|¿Qué cambia en la pubertad?|el cuerpo y las emociones|el nombre y los apellidos|la familia y la casa
+1|¿De qué depende mi valor como persona?|de ser hijo de Dios|de mi ropa de marca|de mis seguidores
+1|¿Por qué no son reales muchas fotos de las redes?|están editadas con filtros|son de otros países|son muy antiguas
+1|F|Para valer más hay que parecerse a los famosos.
+1|¿Qué es cuidar mi imagen con sencillez?|vestir limpio sin llamar la atención|usar siempre lo más caro|copiar a los artistas
+2|¿Qué hago si un compañero se siente mal por su aspecto?|le recuerdo lo que vale|me río con los demás|le pongo un apodo
+2|¿Cómo quiere Dios que mire mi cuerpo?|con gratitud y respeto|con vergüenza y enojo|con vanidad y orgullo
+2|V|Compararme todo el tiempo con otros me quita la paz.
+2|¿Con quién platico si algo de mi cuerpo me preocupa?|con mamá o papá|con un desconocido|con nadie
+K|{x}: ¿me ayuda a aceptarme o me hace daño?|¿Me ayuda o me daña?|me ayuda: agradecer a Dios cómo me hizo; cuidar mi salud; valorar mis cualidades; vestirme con sencillez|me daña: compararme con fotos retocadas; burlarme de mi cuerpo; creer todo lo que veo en redes; buscar llamar la atención
+#5v2
+Z|Comer de más o dejar de comer por presión de la imagen daña gravemente la <b>salud</b>.|Son problemas serios: hay que <b>pedir ayuda</b> a los papás y al médico.|Las dudas sobre salud y crecimiento se platican con papá, mamá, el médico o un adulto de confianza.|Somos unidad de <b>cuerpo y alma</b>: cuidar los dos es amar a Dios.
+E|Los retos peligrosos de internet se rechazan|Comer en familia: salud y convivencia
+S|Un compañero propone un reto de internet que pone en riesgo la salud. ¿Qué hago?|Pienso: ¿esto cuida mi cuerpo o lo daña?|Digo que no, aunque los demás insistan.|Aviso a mis papás o a mi maestra para que nadie salga lastimado.|=No participo y aviso a un adulto de confianza.
+I|🍽️ Comer bien: Variado y a sus horas.|🩺 Pedir ayuda: A papás y médico.|🚫 Retos peligrosos: Se rechazan.|🫀 Cuerpo y alma: Cuidar los dos.
+0|V|Si algo de mi salud me preocupa, lo platico con mis papás.
+0|¿Quién puede orientarme sobre mi alimentación?|el médico|un video viral|un desconocido
+1|¿Qué hago ante un reto de internet que daña la salud?|no participo y aviso|lo intento una vez|lo comparto
+1|¿Por qué no pregunto mis dudas de salud a desconocidos en internet?|pueden engañarme o dañarme|saben más que mis papás|siempre dicen la verdad
+1|F|Dejar de comer es una buena manera de cuidar el cuerpo.
+1|¿Qué ayuda a comer sano y en paz?|comer en familia|comer a escondidas|comer frente al celular
+2|¿Qué significa que somos «unidad de cuerpo y alma»?|que debo cuidar los dos|que el cuerpo no importa|que el alma no existe
+2|¿Qué hago si noto que una amiga casi no come y está triste?|aviso a un adulto de confianza|le digo que así está bien|no le digo a nadie
+2|V|Pedir ayuda cuando algo anda mal es un acto de valentía.
+2|¿A quién puedo acudir además de mis papás y el médico?|a mi maestra o a un sacerdote|a un extraño amable|a nadie más
+#5v3
+Z|Las <b>emociones</b> (alegría, tristeza, enojo, miedo, frustración, celos) son parte de la vida.|<b>Reconocerlas</b> y ponerles nombre es el primer paso para manejarlas.|Las expreso sin lastimar: hablo con calma, pido ayuda, hago ejercicio, rezo.|Las emociones no mandan: <b>yo decido</b> cómo actuar.
+E|Respirar hondo y contar hasta diez|«Soy manso y humilde de corazón» (Mt 11, 29)
+S|Mi hermano rompió mi dibujo y siento mucho coraje. ¿Qué hago?|Reconozco: «estoy enojado».|Respiro hondo y me alejo un momento.|Cuando estoy tranquilo, le digo cómo me sentí y buscamos una solución.|=Reconozco mi enojo, me calmo y hablo sin lastimar.
+I|🔎 Reconozco: Le pongo nombre a lo que siento.|🌬️ Respiro: Me calmo antes de actuar.|🗣️ Hablo: Digo lo que siento sin herir.|✅ Decido: Elijo hacer el bien.
+0|V|Sentir enojo no es malo; lo malo es lastimar a otros.
+0|¿Qué emoción siento cuando pierdo algo querido?|tristeza|alegría|sorpresa
+1|¿Cuál es el primer paso para manejar una emoción?|reconocerla|esconderla|gritarla
+1|¿Qué me ayuda a calmarme?|respirar hondo|azotar la puerta|decir groserías
+1|F|Cuando me enojo, tengo derecho a pegar.
+1|¿Qué son los celos?|miedo a perder el cariño de alguien|una alegría muy grande y repentina|ganas de dormir todo el día
+2|¿Quién decide cómo actúo cuando estoy enojado?|yo mismo|mi enojo|mis amigos
+2|¿Qué hago si la tristeza me dura muchos días?|lo platico con mis papás|me encierro en mi cuarto|finjo que no pasa nada
+2|V|Jesús también lloró y se alegró: conoce lo que sentimos.
+2|¿Cómo expreso mi enojo sin lastimar?|diciendo con calma lo que siento|gritando más fuerte|rompiendo algo
+P|¿Qué emoción siento cuando {x}?||me regalan algo que deseaba = alegría|se muere mi mascota = tristeza|me rompen un juguete a propósito = enojo|oigo un ruido fuerte en la oscuridad = miedo|algo no me sale aunque lo intento = frustración
+#5v4
+Z|La <b>libertad</b> es la capacidad de elegir el bien.|Ser libre implica poner <b>prioridades</b>: primero lo importante (Dios, familia, deberes) y después lo que me gusta.|Mi libertad termina donde empiezan los <b>derechos</b> de los demás.|Cada decisión tiene consecuencias: ser libre es también ser <b>responsable</b>.
+E|«La verdad los hará libres» (Jn 8, 32)|Primero la tarea, después el juego
+S|¿Soy más libre si hago todo lo que se me antoja?|Si solo sigo mis antojos, ellos mandan y no yo.|Quien no puede dejar el videojuego ya no es libre: es esclavo de él.|Soy libre cuando elijo lo bueno aunque me cueste.|=No: soy más libre cuando elijo el bien y no me dominan mis caprichos.
+I|🕊️ Libertad: Poder elegir el bien.|🔢 Prioridades: Primero lo importante.|🤝 Límite: Los derechos de los demás.|🎯 Responsabilidad: Respondo por lo que hago.
+0|V|Toda decisión tiene consecuencias.
+0|¿Qué es ser responsable?|responder por mis actos|culpar a los demás|hacer lo que quiera
+1|¿Qué va antes: la diversión o los deberes?|los deberes|la diversión|ninguno
+1|¿Qué pasa cuando miento para librarme de un castigo?|pierdo la confianza de otros|me vuelvo más libre|nadie sale dañado
+1|F|Ser libre es hacer lo que quiero aunque dañe a otros.
+1|¿Qué esclaviza a la persona, según Jesús?|el pecado|el estudio|el trabajo
+2|¿Quién es más libre?|quien sabe decir «no» a lo malo|quien nunca obedece|quien hace berrinches
+2|¿Por qué las reglas de casa ayudan a mi libertad?|me enseñan a elegir bien|me quitan todo gusto|sirven para castigar
+2|V|Elegir el bien, aunque cueste, me hace crecer como persona.
+2|¿Qué hago si me equivoco al decidir?|lo reconozco y lo reparo|lo escondo|culpo a otro
+K|{x}: ¿uso bien mi libertad?|¿Uso bien mi libertad?|sí: hacer la tarea antes de jugar; decir la verdad; ayudar en casa sin que me lo pidan; respetar el turno|no: tomar lo que no es mío; mentir para salir del problema; molestar al que estudia; desobedecer por capricho
+#5v14
+Z|El <b>abuso</b> es todo trato que daña: golpes, insultos constantes, tocamientos indebidos o amenazas.|El <b>acoso</b> escolar y el ciberacoso son un daño que se repite.|<b>Nunca</b> es culpa de quien lo sufre.|Qué hacer: digo NO, me alejo y lo cuento a mis papás o a un adulto de confianza; si no me creen, busco a otro.
+E|Emergencias: 911|Los secretos que dan miedo se cuentan
+S|¿Cómo distingo un secreto bueno de uno que debo contar?|Un secreto bueno da alegría y dura poco, como una fiesta sorpresa.|Un secreto malo da miedo, vergüenza o confusión.|Si alguien me pide callar algo así, no debo obedecer.|=El secreto que me hace sentir mal siempre se cuenta a un adulto de confianza.
+I|🛡️ Mi cuerpo: Nadie puede tocarlo sin respeto.|✋ Digo NO: Con voz firme.|🏃 Me alejo: Busco un lugar seguro.|🗣️ Lo cuento: A un adulto de confianza.
+0|V|Nadie tiene derecho a lastimarme ni a asustarme.
+0|¿A qué número llamo en una emergencia?|al 911|al 123|al 500
+1|¿Qué es el ciberacoso?|molestar a alguien por internet|jugar videojuegos en línea|mandar tareas por correo
+1|¿Qué hago si un secreto me da miedo?|lo cuento a mis papás|lo guardo siempre|lo olvido
+1|F|Si alguien me hace daño, es por mi culpa.
+1|¿Quién es un adulto de confianza?|alguien que me cuida y me respeta|cualquier persona mayor|quien me da regalos
+2|¿Qué hago si un desconocido en línea me pide fotos?|no las envío y aviso|envío solo una|le pido las suyas
+2|¿Qué hago si veo que acosan a un compañero?|aviso a un maestro|grabo con el celular|me río también
+2|V|Jesús defiende a los pequeños y quiere que estén seguros.
+2|¿Por qué insisto si el primer adulto no me cree?|porque tengo derecho a ser protegido|porque quiero castigar|porque es un juego
+K|{x}: ¿secreto bueno o secreto que debo contar?|¿Secreto bueno o que debo contar?|secreto bueno: una fiesta sorpresa; un regalo de cumpleaños; lo que pedí a los Reyes|debo contar: alguien me pide fotos; un adulto me pide callar algo que me da miedo; me amenazan para que no hable; alguien me toca y me hace sentir mal
+#5v12
+Z|La <b>familia</b> es la primera escuela: ahí aprendemos a amar, perdonar, compartir y rezar.|Dios la pensó con un papá y una mamá unidos en <b>matrimonio</b>, y sus hijos.|Mi aporte: obedecer, ayudar, cuidar a hermanos y abuelos, dialogar y agradecer.|La familia que reza unida es <b>iglesia doméstica</b>.
+E|Cuarto mandamiento: honrar a los padres|Pedir perdón y perdonar
+S|¿Cómo ayudo a que haya paz en mi casa?|Obedezco a la primera y sin malas caras.|Ayudo en las tareas del hogar sin que me lo pidan.|Pido perdón cuando fallo y perdono a mis hermanos.|=Obedeciendo, ayudando y perdonando.
+I|❤️ Amar: Se aprende en casa.|🙏 Rezar juntos: Une a la familia.|🧹 Ayudar: Cada quien pone su parte.|🤝 Perdonar: Sana las heridas.
+0|V|En la familia aprendemos a perdonar.
+0|¿Quiénes son los primeros maestros de los hijos?|los papás|los vecinos|los artistas
+1|¿Cómo cuido a mis abuelos?|los escucho y los acompaño|los ignoro cuando hablan|les grito si no me oyen
+1|¿Qué es dialogar en familia?|hablar y escuchar con respeto|gritar más fuerte|no decir nada
+1|F|Los hijos no tienen nada que aportar en su casa.
+1|¿Qué fortalece más a una familia?|rezar y convivir juntos|comprar muchas cosas|ver cada quien su pantalla
+2|¿Por qué se llama a la familia «iglesia doméstica»?|porque en casa se vive la fe|porque tiene campanas|porque vive en un templo
+2|¿Qué hago cuando mis papás me corrigen?|escucho y trato de mejorar|me enojo y respondo|finjo no oír
+2|V|Agradecer a mis papás lo que hacen por mí es parte de honrarlos.
+2|¿Cuál es el modelo de toda familia cristiana?|la Sagrada Familia|una familia de la tele|una familia de reyes
+K|{x}: ¿fortalece o debilita a la familia?|¿Fortalece o debilita?|fortalece: rezar juntos; comer en familia; pedir perdón; ayudar en casa|debilita: gritar y pelear; mentir a mis papás; no hablar con nadie; pasar todo el día en el celular
+#5v13
+Z|Dios creó al ser humano <b>hombre y mujer</b>, a su imagen.|Los dos tienen <b>igual dignidad</b>; son distintos y se complementan.|Ser niño o niña es un regalo que se recibe con gratitud.|Nadie debe ser maltratado ni menospreciado: rechazamos la violencia, las burlas y los abusos.
+E|María: la criatura más grande|Doctoras de la Iglesia: santa Teresa y santa Catalina
+S|¿Qué significa que hombre y mujer son «complementarios»?|Los dos son personas con la misma dignidad.|Cada uno aporta dones propios que el otro necesita.|Juntos forman la familia y construyen la sociedad.|=Que son iguales en dignidad y se enriquecen con sus diferencias.
+I|💎 Dignidad: La misma para los dos.|🎁 Regalo: Ser niño o niña es don de Dios.|🤝 Respeto: En casa, en la escuela y en la calle.|🚫 Violencia: Nunca se justifica.
+0|V|Las niñas y los niños tienen el mismo derecho a estudiar.
+0|¿Quién creó al hombre y a la mujer?|Dios|los reyes|la escuela
+1|¿Qué significa «igual dignidad»?|que los dos valen lo mismo|que son idénticos en todo|que uno manda siempre
+1|¿Cómo trato a mis compañeras y compañeros?|con el mismo respeto|según me convenga|con indiferencia
+1|F|Burlarse de alguien por ser niño o niña es una broma sin importancia.
+1|¿A quién honra la Iglesia como la criatura más grande?|a la Virgen María|a un emperador|a un filósofo
+2|¿Qué respondo si dicen que una tarea de casa es «solo de niñas»?|que todos colaboramos en casa|que es verdad|que no es asunto mío
+2|¿Qué hago si veo que maltratan a alguien?|aviso a un adulto de confianza|me quedo callado|lo grabo y lo comparto
+2|V|Hombre y mujer se necesitan y se complementan.
+2|¿Qué fue santa Teresa de Ávila, además de santa?|doctora de la Iglesia|reina de España|soldado
+#5v5
+Z|La <b>justicia</b> es dar a cada quien lo que le corresponde.|Actos justos: respetar, pagar lo justo, no hacer trampa y defender al débil.|<b>Comercio justo</b>: comprar al productor y pagarle un precio justo.|<b>Consumo ético</b>: preferir lo que no daña a las personas ni al ambiente y evitar el desperdicio.
+E|Regatear de más a quien gana poco es injusto|Los bienes de la tierra son para todos
+S|Una artesana tardó tres días en bordar una servilleta. ¿Es justo pedirle que la venda en casi nada?|Su trabajo tiene valor: tiempo, material y habilidad.|Si le pago muy poco, no le alcanza para vivir.|Pagar lo justo reconoce su dignidad.|=No: lo justo es pagar un precio que reconozca su trabajo.
+I|⚖️ Justicia: A cada quien lo suyo.|🧺 Productor: Comprarle directamente.|💵 Precio justo: Que alcance para vivir.|🌍 Consumo ético: Sin dañar a nadie.
+0|V|Pagar lo justo por un trabajo es un acto de justicia.
+0|¿Qué es hacer trampa en un juego?|una injusticia|una habilidad|una broma
+1|¿A quién beneficia el comercio justo?|al productor|al que revende|a nadie
+1|¿Qué es el desperdicio?|tirar lo que aún sirve|ahorrar comida|compartir lo que sobra
+1|F|Es justo pagar muy poco a quien trabajó mucho.
+1|¿Qué es defender al débil?|un acto de justicia|una imprudencia|una pérdida de tiempo
+2|¿Qué reviso antes de comprar algo?|si lo necesito de verdad|si lo tienen mis amigos|si es lo más caro
+2|¿Qué enseña la Iglesia sobre el salario?|que debe ser justo|que no importa|que sea el más bajo
+2|V|Devolver el cambio que me dieron de más es ser justo.
+2|¿Por qué evitar el desperdicio de comida es justicia?|porque a otros les hace falta|porque ocupa espacio|porque huele mal
+K|{x}: ¿acto justo o injusto?|¿Justo o injusto?|justo: pagar el precio acordado; devolver el cambio de más; respetar la fila; reconocer el trabajo de otro|injusto: copiar en el examen; pagar menos de lo debido; quedarme con lo ajeno; culpar a un inocente
+#5v6
+Z|Somos <b>diferentes</b> en origen, lengua, aspecto, capacidades y gustos, pero <b>iguales en dignidad</b>.|Un <b>estereotipo</b> es una idea fija sobre un grupo; un <b>prejuicio</b> es juzgar sin conocer.|Los dos llevan a la <b>discriminación</b>: tratar mal a alguien por ser distinto.|México tiene 68 lenguas indígenas y muchas tradiciones: una riqueza de todos.
+E|Todo ser humano es imagen de Dios|Conocer antes de juzgar
+S|Llega un niño nuevo que habla distinto y algunos se burlan. ¿Qué es lo justo?|Burlarse es discriminar: lo lastima y es injusto.|Él tiene la misma dignidad que todos.|Lo correcto es recibirlo, conocerlo y defenderlo.|=Recibirlo con respeto y no permitir las burlas.
+I|🌎 Origen: Venimos de pueblos distintos.|🗣️ Lenguas: 68 lenguas indígenas en México.|♿ Capacidades: Cada quien aporta lo suyo.|💎 Dignidad: La misma para todos.
+0|V|México tiene muchas lenguas indígenas.
+0|¿Qué es discriminar?|tratar mal a alguien por ser distinto|elegir un juego para el recreo|contar a las personas de un lugar
+1|¿Qué es un prejuicio?|juzgar a alguien sin conocerlo|conocer bien a alguien|decir la verdad
+1|¿Cómo se vence un prejuicio?|conociendo a la persona|alejándose de ella|repitiendo rumores
+1|F|Las personas con discapacidad valen menos que las demás.
+1|¿Por qué nadie es menos que otro?|todos somos imagen de Dios|todos pensamos igual|todos tenemos lo mismo
+2|¿Qué hago si se burlan de alguien por su forma de hablar?|lo defiendo y lo incluyo|me río con ellos|me alejo en silencio
+2|¿Cómo incluyo a un compañero que usa silla de ruedas?|busco juegos donde participe|juego lejos de él|le digo que solo mire
+2|V|Conocer otras culturas y lenguas nos enriquece a todos.
+2|¿Qué bebida tradicional se prepara con cacao y maíz?|el pozol|el refresco|la limonada
+K|{x}: ¿respeto o discriminación?|¿Respeto o discriminación?|respeto: aprender palabras de otra lengua; invitar a jugar al niño nuevo; ayudar a un compañero con discapacidad; valorar las tradiciones de otros|discriminación: burlarse del acento de alguien; excluir a alguien por su color de piel; poner apodos por la apariencia; no dejar jugar a alguien por ser pobre
+#5v17
+Z|La <b>solidaridad</b> es sentir como propio el problema del otro y actuar para ayudar.|Se vive visitando enfermos, ayudando en desastres y compartiendo con quien tiene menos.|El <b>voluntariado</b> es ayudar sin recibir pago: Cruz Roja, bancos de alimentos, Cáritas, grupos parroquiales.|Jesús nos enseña a hacernos <b>prójimos</b> de quien sufre.
+E|Parábola del buen samaritano (Lc 10)|Cáritas: la caridad organizada de la Iglesia
+S|Hubo una inundación en otro estado. ¿Cómo puede ayudar un niño?|Me informo con mi familia de qué hace falta.|Dono algo mío en buen estado: ropa, alimentos o agua.|Rezo por los afectados y animo a otros a ayudar.|=Donando, rezando y animando a otros a ayudar.
+I|🤝 Solidaridad: El problema del otro me importa.|🏥 Cruz Roja: Auxilio en emergencias.|🍞 Banco de alimentos: Comida para quien no tiene.|👵 Asilos: Compañía para los abuelos.
+0|V|Compartir con quien tiene menos es solidaridad.
+0|¿Qué recibe a cambio un voluntario?|ningún pago|un sueldo|un premio
+1|¿Qué hace un banco de alimentos?|reparte comida a quien la necesita|presta dinero|vende despensas caras
+1|¿Qué llevo cuando visito a un enfermo?|compañía y alegría|ruido y prisa|mis problemas
+1|F|La solidaridad consiste solo en sentir lástima.
+1|¿Quién ayudó al herido en la parábola?|el samaritano|el sacerdote|el levita
+2|¿Qué significa «hacerme prójimo»?|acercarme a quien me necesita|vivir cerca de alguien|saludar de lejos
+2|¿Cómo se ayuda bien en un desastre?|donando lo que sí hace falta|enviando cosas rotas|yendo a mirar
+2|V|Lo que hacemos por los más necesitados lo hacemos por Jesús.
+2|¿Qué obra de misericordia es visitar un asilo?|consolar y acompañar|corregir al que yerra|enterrar a los muertos
+P|¿Qué hace {x}?||la Cruz Roja = atiende emergencias y desastres|un banco de alimentos = reparte comida a quien la necesita|Cáritas = organiza la caridad de la Iglesia
+#5v10
+Z|Un <b>conflicto</b> es un desacuerdo entre personas; es normal, pero debe resolverse sin violencia.|Pasos: <b>escuchar</b>, expresar lo que siento, buscar opciones y llegar a un <b>acuerdo</b>.|Un <b>mediador</b> ayuda a que las partes dialoguen.|Si una autoridad viola un derecho, se puede presentar una queja ante la Comisión de Derechos Humanos.
+E|Negociar: cada quien cede un poco|«Dichosos los que trabajan por la paz» (Mt 5, 9)
+S|Dos amigos quieren usar el mismo balón en el recreo. ¿Cómo lo resuelven?|Cada uno escucha lo que quiere el otro.|Buscan opciones: turnarse, jugar juntos o pedir otro balón.|Eligen la que sea justa para los dos.|=Dialogan y llegan a un acuerdo justo, como turnarse o jugar juntos.
+I|👂 Escuchar: Sin interrumpir.|🗣️ Expresar: Decir lo que siento sin ofender.|💡 Opciones: Buscar varias soluciones.|🤝 Acuerdo: Justo para los dos.
+0|V|Tener desacuerdos es normal entre las personas.
+0|¿Cuál es el primer paso para resolver un conflicto?|escuchar al otro|gritar más fuerte|irme enojado
+1|¿Qué es un acuerdo?|una solución que aceptan los dos|una orden de uno solo|un castigo
+1|¿Cuándo se necesita un mediador?|cuando no logran dialogar solos|cuando ya son amigos|cuando no hay problema
+1|F|La violencia es una buena forma de resolver un conflicto.
+1|¿Qué defiende la Comisión de Derechos Humanos?|los derechos de las personas|los precios justos|los equipos de futbol
+2|O|Ordena los pasos para resolver un conflicto|Escuchar|Expresar lo que siento|Buscar opciones|Llegar a un acuerdo
+2|¿Qué hago si en una discusión yo tenía la culpa?|lo reconozco y pido perdón|insisto en ganar|culpo al otro
+2|V|Quien trabaja por la paz se parece a Jesús.
+2|¿Por qué no sirve «ganar» una pelea a gritos?|el problema sigue y la amistad se daña|el otro aprende a portarse mejor|todos quedan contentos y en paz
+#5v7
+Z|Los niños tienen <b>derechos</b>: a la vida, a la identidad, a la familia, a la salud, a la educación, al juego y a ser protegidos.|También tienen derecho a ser <b>escuchados</b>.|La <b>Constitución</b> es la ley más importante de México: establece los derechos, la forma de gobierno y las obligaciones.|Ninguna autoridad está por encima de ella.
+E|Derecho a la identidad: nombre y nacionalidad|La vida: el primer derecho
+S|¿Por qué la vida es el primer derecho?|Para estudiar, jugar o tener familia, primero hay que estar vivo.|Sin la vida, ningún otro derecho se puede ejercer.|Por eso debe protegerse desde la concepción hasta la muerte natural.|=Porque es el fundamento de todos los demás derechos.
+I|❤️ Vida: El primer derecho.|🪪 Identidad: Nombre y nacionalidad.|🏫 Educación: Ir a la escuela.|📜 Constitución: La ley suprema.
+0|V|Los niños tienen derecho a jugar y a descansar.
+0|¿Qué documento prueba mi nombre y mi nacionalidad?|el acta de nacimiento|la boleta|la credencial escolar
+1|¿Qué establece la Constitución?|los derechos y la forma de gobierno|los precios del mercado|el horario escolar
+1|¿Quién debe proteger los derechos de los niños?|la familia y el Estado|solo los niños|nadie
+1|F|Algunas autoridades pueden estar por encima de la Constitución.
+1|¿Qué derecho se cumple cuando me llevan al médico?|el derecho a la salud|el derecho al juego|el derecho al voto
+2|¿Qué derecho se viola cuando un niño trabaja en vez de estudiar?|el derecho a la educación|el derecho al nombre|el derecho a opinar
+2|¿Qué acompaña siempre a un derecho?|un deber|un premio|un permiso
+2|V|La vida humana debe protegerse desde la concepción.
+2|¿Cómo ejerzo bien mi derecho a ser escuchado?|opinando con respeto|gritando a todos|callando siempre
+K|{x}: ¿derecho o deber de los niños?|¿Derecho o deber?|derecho: tener un nombre; ir a la escuela; recibir atención médica; jugar y descansar; ser protegido|deber: hacer la tarea; respetar a los demás; cuidar la escuela; obedecer a mis papás; decir la verdad
+#5v16
+Z|Hay normas <b>sociales</b> (cortesía), <b>morales</b> (conciencia), <b>religiosas</b> y <b>jurídicas</b> (las leyes del Estado, obligatorias).|En un <b>Estado de derecho</b> todos, también las autoridades, cumplen la ley.|Las leyes justas protegen la dignidad de la persona y el <b>bien común</b>.|La <b>corrupción</b>, como el soborno, daña a todos.
+E|Soborno: pagar para no cumplir la ley|La ley humana debe respetar la ley de Dios
+S|Un automovilista ofrece dinero al agente para que no lo multe. ¿Qué está mal?|Se pasó el alto: rompió una ley que protege a todos.|Ofrecer dinero es un soborno: corrupción.|Si el agente lo acepta, también falta a la ley.|=Hay corrupción: los dos deben cumplir la ley.
+I|🙂 Sociales: Saludar y dar las gracias.|💭 Morales: Lo que dicta la conciencia.|⛪ Religiosas: Los mandamientos.|⚖️ Jurídicas: Las leyes del Estado.
+0|V|Las leyes del Estado son obligatorias para todos.
+0|¿Qué es una ley?|una norma obligatoria del Estado|un consejo de amigos|una costumbre familiar
+1|¿Qué es el bien común?|lo que beneficia a todos|lo que conviene a uno|lo que manda el más fuerte
+1|¿Qué es la corrupción?|usar el poder para beneficio propio|cumplir bien con lo que pide la ley|ayudar a un vecino que lo necesita
+1|F|En un Estado de derecho, los gobernantes no tienen que obedecer la ley.
+1|¿Para qué sirven las leyes de tránsito?|para proteger la vida de todos|para cobrar multas|para molestar
+2|¿Qué hago si una regla del juego no me conviene?|la respeto igual|la cambio a escondidas|hago trampa
+2|¿Qué leyes obedecemos los cristianos?|las leyes justas|solo las que nos gustan|ninguna
+2|V|Dar «mordida» para saltarse la ley es corrupción.
+2|¿Qué pasaría si cada quien obedeciera solo las leyes que le gustan?|habría desorden e injusticia|todos serían felices|no cambiaría nada
+K|{x}: ¿qué tipo de norma es?|¿Qué tipo de norma es?|social: saludar al llegar; dar las gracias; ceder el asiento|moral: no mentir aunque nadie me vea; devolver lo que encontré|religiosa: ir a Misa el domingo; rezar antes de comer|jurídica: respetar el semáforo; pagar impuestos; usar el cinturón de seguridad
+#5v8
+Z|En la <b>democracia</b>, el pueblo elige a sus gobernantes con el voto.|El voto es <b>libre, secreto y universal</b>.|Las autoridades electas deben respetar la ley y <b>rendir cuentas</b>.|Votan los ciudadanos (desde los 18 años); los niños participan en la escuela y en la comunidad.
+E|Rendir cuentas: explicar lo que se hizo|Votar en conciencia: buscar el bien común
+S|En mi salón elegiremos jefe de grupo. ¿Cómo voto bien?|Escucho las propuestas de cada candidato.|Pienso quién servirá mejor a todos, no solo a sus amigos.|Voto en secreto y respeto el resultado.|=Informándome, pensando en el bien de todos y respetando el resultado.
+I|🗳️ Voto: Libre, secreto y universal.|📣 Campaña: Los candidatos proponen.|🔢 Conteo: Gana quien tiene más votos.|📋 Rendir cuentas: El elegido informa.
+0|V|En una democracia se respeta el resultado de la votación.
+0|¿Quién elige a los gobernantes en una democracia?|el pueblo|el ejército|un rey
+1|¿Qué hacen los candidatos en la campaña?|presentan sus propuestas|cuentan los votos|toman el cargo
+1|¿Qué es rendir cuentas?|informar lo que se hizo|contar dinero|ganar otra vez
+1|F|En México pueden votar los niños de diez años.
+1|¿Cómo participan los niños en la democracia?|opinando y votando en su escuela|eligiendo al presidente|haciendo leyes
+2|¿Qué hago si gana el candidato por el que no voté?|respeto el resultado|rompo las boletas|dejo de participar
+2|¿Qué busca un católico al votar?|el bien común, la vida y la familia|un regalo del candidato|lo que digan sus amigos
+2|V|Vender el voto es traicionar la propia conciencia.
+2|¿Por qué importa informarse antes de votar?|para elegir con responsabilidad|para votar más rápido|para ganar un premio
+P|¿Qué significa que el voto es {x}?|¿Qué característica del voto significa {x}?|libre = que nadie me obliga|secreto = que nadie sabe por quién voté|universal = que votan todos los ciudadanos
+#5v9
+Z|Los <b>impuestos</b> son el dinero que los ciudadanos aportan al gobierno.|Con ellos se pagan los <b>servicios públicos</b>: escuelas, hospitales, calles, alumbrado, seguridad y pensiones.|Deberes ciudadanos: pagar impuestos, cuidar lo público, respetar las leyes y participar.|Las autoridades deben usar ese dinero con <b>honestidad</b>.
+E|«Den al César lo que es del César» (Mt 22, 21)|Lo público es de todos
+S|¿Quién paga los juegos del parque de mi colonia?|El gobierno los compra e instala.|El dinero del gobierno viene de los impuestos.|Los impuestos los pagan todas las familias.|=Todos, con nuestros impuestos: por eso se cuidan.
+I|🪙 Impuestos: El aporte de todos.|🏫 Escuelas: Se pagan con impuestos.|💡 Alumbrado: Un servicio público.|🔍 Vigilar: Que el dinero se use bien.
+0|V|Las escuelas públicas se pagan con los impuestos.
+0|¿Quién paga los impuestos?|los ciudadanos|los turistas|los niños
+1|¿Cuál es un servicio público?|la recolección de basura|una tienda de ropa|un restaurante
+1|¿Qué deben hacer las autoridades con los impuestos?|usarlos bien y con honestidad|guardarlos para sí|repartirlos a sus amigos
+1|F|Rayar una banca del parque no afecta a nadie.
+1|¿Qué reciben los adultos mayores gracias a los impuestos?|pensiones|juguetes|boletos de cine
+2|¿Por qué cuidar lo público es un deber?|porque es de todos y lo pagamos todos|porque hay cámaras|porque lo dice un letrero
+2|¿Qué enseñó Jesús sobre los impuestos?|que hay que cumplir con ese deber|que no hay que pagarlos|que son un pecado
+2|V|Un ciudadano responsable vigila cómo se gasta el dinero de todos.
+2|¿Qué pasaría si nadie pagara impuestos?|no habría servicios públicos|todos serían más ricos|habría más escuelas
+K|{x}: ¿servicio público o negocio privado?|¿Público o privado?|servicio público: el alumbrado de la calle; la escuela pública; el centro de salud; la recolección de basura|negocio privado: la tienda de la esquina; una pizzería; un cine; una zapatería
+#5v11
+Z|Los niños también pueden <b>participar</b>: comité de salud, campañas de reciclaje, reforestación, mesa directiva, grupos parroquiales.|Participar es <b>proponer y actuar</b> para mejorar algo de todos.|Un <b>plan de acción</b> tiene: problema, causa, propuesta, responsables, fechas y evaluación.|Las pequeñas acciones diarias cambian el mundo.
+E|Laudato si': cuidar la casa común|Evaluar: revisar si funcionó
+S|El patio de la escuela siempre está sucio. ¿Cómo hacemos un plan?|Problema y causa: hay basura porque faltan botes y cuidado.|Propuesta: poner botes para separar y hacer brigadas de limpieza.|Responsables y fechas: cada grupo, un día de la semana; al mes, evaluamos.|=Definimos el problema, la causa, la propuesta, los responsables y cuándo evaluar.
+I|🔎 Problema: ¿Qué pasa y por qué?|💡 Propuesta: ¿Qué podemos hacer?|👥 Responsables: ¿Quién y cuándo?|✅ Evaluación: ¿Funcionó?
+0|V|Una campaña de limpieza es una forma de participar.
+0|¿Qué es participar?|proponer y actuar para mejorar|esperar a que otros lo hagan|quejarse de todo
+1|¿Qué se hace en una reforestación?|se plantan árboles|se cortan árboles|se pintan bardas
+1|¿Para qué sirve evaluar un plan?|para saber si funcionó|para buscar culpables|para terminar antes
+1|F|Solo los adultos pueden mejorar su comunidad.
+1|¿Quiénes son los «responsables» en un plan?|quienes harán cada tarea|quienes no ayudan|los que miran
+2|O|Ordena los pasos de un plan de acción|Identificar el problema|Buscar la causa|Hacer la propuesta|Actuar|Evaluar
+2|¿Qué hago si mi propuesta no gana la votación?|apoyo la que eligió el grupo|dejo de ayudar al grupo|impongo la mía a la fuerza
+2|V|Cuidar la casa común empieza por acciones pequeñas de cada día.
+2|¿Por qué conviene buscar la causa del problema?|para resolverlo de raíz|para tardar más|para culpar a alguien
+#5v15
+Z|Problemas cercanos: basura, desperdicio de agua, contaminación del aire, tala y maltrato animal.|Acciones: <b>separar residuos</b>, ahorrar agua y luz, plantar árboles y consumir con responsabilidad.|Los <b>animales</b> merecen buen trato: son criaturas de Dios.|La naturaleza es un <b>regalo</b> que debemos cuidar para quienes vendrán.
+E|San Francisco de Asís: patrono de la ecología|Orgánico e inorgánico: dos botes
+S|¿Cómo separo la basura de mi casa?|Orgánicos: cáscaras, restos de comida y hojas.|Inorgánicos reciclables: papel, cartón, vidrio, latas y plástico limpio.|Lo que no se recicla va aparte: papel sanitario y envolturas sucias.|=En orgánicos, reciclables y no reciclables.
+I|🗑️ Separar: Orgánico e inorgánico.|🚰 Ahorrar: Agua y luz.|🌳 Plantar: Árboles que limpian el aire.|🐶 Animales: Se tratan con cariño.
+0|V|Los animales merecen buen trato.
+0|¿En qué bote van las cáscaras de fruta?|en el de orgánicos|en el de vidrio|en el de papel
+1|¿Qué hago mientras me cepillo los dientes?|cierro la llave|dejo correr el agua|lleno la tina
+1|¿Qué necesita una mascota?|alimento, agua y cariño|solo un collar|estar amarrada
+1|F|La naturaleza es solo para los que vivimos hoy.
+1|¿Qué material se puede reciclar?|el cartón|las cáscaras|la ceniza
+2|¿Por qué san Francisco llamaba «hermanos» a los animales?|porque también son criaturas de Dios|porque hablaban con él|porque vivían en su casa
+2|¿Qué hago con un foco prendido en un cuarto vacío?|lo apago|lo dejo así|prendo otro
+2|V|Maltratar a un animal va contra el respeto que debemos a la creación.
+2|¿Qué beneficio dan los árboles a la ciudad?|limpian el aire y dan sombra|hacen más basura|tapan el sol para siempre
+K|{x}: ¿cuida o daña la naturaleza?|¿Cuida o daña?|cuida: separar los residuos; cerrar la llave; plantar un árbol; dar agua y comida a mi mascota|daña: tirar basura al río; dejar las luces encendidas; maltratar a un animal; quemar basura
