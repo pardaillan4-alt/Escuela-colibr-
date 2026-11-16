@@ -1,0 +1,378 @@
+// Religión 4.º — profundización y banco ampliado
+#4r1
+Z|La <b>Biblia</b> es la Palabra de Dios escrita; tiene 73 libros.|El <b>Antiguo Testamento</b> (46 libros) narra la historia antes de Jesús; el <b>Nuevo Testamento</b> (27 libros), la vida de Jesús y de la Iglesia.|Dios es su autor: la escribieron hombres <b>inspirados</b> por el Espíritu Santo.|Se cita con libro, capítulo y versículo; la Iglesia nos ayuda a interpretarla.
+E|Jn 3, 16: Juan, capítulo 3, versículo 16|«Tu palabra es lámpara para mis pasos» (Sal 119, 105)
+S|¿Cómo busco «Lc 15, 4» en mi Biblia?|«Lc» es el Evangelio de san Lucas: está en el Nuevo Testamento.|El primer número es el capítulo: 15.|El segundo es el versículo: 4.|=Evangelio de san Lucas, capítulo 15, versículo 4.
+I|📖 Biblia: 73 libros inspirados por Dios.|📜 Antiguo Testamento: 46 libros.|✝️ Nuevo Testamento: 27 libros.|⛪ Iglesia: Nos ayuda a entenderla.
+0|V|La Biblia es la Palabra de Dios.
+0|¿En qué parte de la Biblia están los Evangelios?|en el Nuevo Testamento|en el Antiguo Testamento|en los Salmos
+1|¿Qué significa que la Biblia está «inspirada»?|que Dios guio a quienes la escribieron|que es un libro de cuentos|que la escribió un solo hombre
+1|¿Cuántos Evangelios hay?|cuatro|doce|siete
+1|F|El Antiguo Testamento narra la vida de la Iglesia después de Jesús.
+1|¿Quién nos ayuda a interpretar bien la Biblia?|la Iglesia|cada quien, como quiera|los adivinos
+2|En «Mt 5, 9», ¿qué indica el 5?|el capítulo|el versículo|la página
+2|¿Cuál es el primer libro de la Biblia?|el Génesis|el Apocalipsis|el Evangelio de Mateo
+2|V|Leer el Evangelio cada día nos ayuda a conocer a Jesús.
+2|¿En qué momento de la Misa escuchamos la Biblia?|en la liturgia de la Palabra|en la colecta de las ofrendas|en la despedida y bendición
+K|{x}: ¿Antiguo o Nuevo Testamento?|¿Antiguo o Nuevo Testamento?|Antiguo Testamento: el Génesis; el Éxodo; los Salmos; el libro de Isaías; el libro de Rut|Nuevo Testamento: el Evangelio de san Mateo; los Hechos de los Apóstoles; las cartas de san Pablo; el Apocalipsis
+#4r2
+Z|Dios <b>creó</b> todo de la nada, por amor.|Al ser humano lo hizo a su <b>imagen</b>, hombre y mujer, con alma inmortal, y vivía en amistad con Él.|Adán y Eva <b>desobedecieron</b> por soberbia: perdieron la gracia y entraron el pecado, el dolor y la muerte.|Ese <b>pecado original</b> lo heredamos todos; lo borra el Bautismo. Dios prometió un Salvador.
+E|Imagen de Dios: puedo conocer y amar|Gn 3, 15: la primera promesa de un Salvador
+S|¿Por qué necesitamos ser bautizados?|Adán y Eva perdieron la gracia para ellos y para sus descendientes.|Todos nacemos con el pecado original, sin la gracia.|El Bautismo lo borra y nos hace hijos de Dios.|=Porque el Bautismo borra el pecado original y nos da la gracia.
+I|🌍 Creación: Todo de la nada, por amor.|👫 Imagen de Dios: Hombre y mujer.|🍎 Caída: Desobediencia por soberbia.|🌟 Promesa: Dios enviará un Salvador.
+0|V|Dios creó al ser humano a su imagen.
+0|¿Quiénes fueron los primeros padres?|Adán y Eva|Abraham y Sara|José y María
+1|¿Qué perdieron Adán y Eva al pecar?|la gracia y la amistad con Dios|el nombre que Dios les dio|la memoria de lo que pasó
+1|¿Quién tentó a Adán y Eva?|el demonio|un ángel bueno|un profeta
+1|F|Dios abandonó al hombre después del pecado.
+1|¿Por qué creó Dios todas las cosas?|por amor|por obligación|por aburrimiento
+2|¿Cómo se llama el pecado que heredamos de Adán y Eva?|pecado original|pecado venial|pecado capital
+2|¿Quién es el Salvador prometido?|Jesucristo|Moisés|David
+2|V|María es la nueva Eva: con su «sí» colaboró en la salvación.
+2|O|Ordena la historia|Amistad con Dios|Tentación|Desobediencia|Promesa de un Salvador
+#4r3
+Z|La maldad creció en el mundo, pero <b>Noé</b> era justo.|Dios le pidió construir el <b>arca</b>, y así salvó a su familia y a los animales del diluvio.|Después, Dios hizo una <b>alianza</b> con Noé y con toda la creación: el <b>arcoíris</b> es su signo.|Una alianza es un pacto de amor entre Dios y las personas.
+E|El arca: figura de la Iglesia|El agua del diluvio: figura del Bautismo
+S|¿Por qué el arca de Noé es figura de la Iglesia?|En el arca se salvaron del agua Noé y su familia.|En la Iglesia, Dios nos reúne y nos salva.|El agua que destruyó el mal anuncia el agua del Bautismo, que borra el pecado.|=Porque en ella Dios salva a su familia, como en el arca.
+I|🚢 Arca: Dios salva a Noé y a su familia.|🌧️ Diluvio: El agua limpia la maldad.|🌈 Arcoíris: Signo de la alianza.|🤝 Alianza: Pacto de amor con Dios.
+0|V|Noé obedeció a Dios y construyó el arca.
+0|¿Qué envió Dios para limpiar la maldad?|el diluvio|un terremoto|un incendio
+1|¿Qué ave regresó al arca con una rama de olivo?|la paloma|el cuervo|el águila
+1|¿Cómo era Noé?|justo y obediente|malvado|perezoso
+1|F|Dios prometió enviar otro diluvio cada cien años.
+1|¿A quiénes salvó Dios en el arca?|a Noé, su familia y los animales|solamente a Noé, sin su familia|a todo el pueblo de la ciudad
+2|¿Qué nos enseña Noé cuando otros se burlan de nuestra fe?|a ser fieles a Dios|a escondernos|a burlarnos también
+2|¿Qué recuerdo al ver un arcoíris?|que Dios cumple sus promesas|que va a llover más|que es un adorno
+2|V|En el Bautismo, el agua es signo de vida nueva.
+2|¿Con quién hizo Dios la alianza después del diluvio?|con Noé y toda la creación|solo con los animales|con el faraón
+#4r4
+Z|Dios llamó a <b>Abram</b>: «Sal de tu tierra y ve a la tierra que yo te mostraré».|Él <b>creyó y obedeció</b>; Dios le prometió una gran descendencia y le cambió el nombre a Abraham.|En su vejez, él y Sara tuvieron a <b>Isaac</b>.|Dios probó su fe, pero detuvo su mano: no quiere sacrificios humanos. Abraham es <b>padre de la fe</b>.
+E|Abraham: «padre de multitudes»|Isaac con la leña: figura de Jesús con la cruz
+S|¿Por qué llamamos a Abraham «padre de la fe»?|Dios le pidió dejar su tierra sin decirle a dónde iría.|Él no lo veía todo claro, pero confió y obedeció.|Creyó en la promesa de un hijo, aunque era anciano.|=Porque confió en Dios y le obedeció aun sin entenderlo todo.
+I|🗺️ Llamado: «Sal de tu tierra».|⭐ Promesa: Descendencia como las estrellas.|👶 Isaac: El hijo de la promesa.|🐏 Prueba: Dios provee el carnero.
+0|V|Abraham obedeció el llamado de Dios.
+0|¿Cómo se llamaba la esposa de Abraham?|Sara|Rebeca|Raquel
+1|¿Qué prometió Dios a Abraham?|una gran descendencia|un palacio|una corona
+1|¿Con qué comparó Dios la descendencia de Abraham?|con las estrellas del cielo|con los ríos|con las montañas
+1|F|Abraham tuvo a Isaac cuando era muy joven.
+1|¿Qué significa el nombre «Abraham»?|padre de multitudes|pastor de ovejas|el que ríe
+2|¿Qué es tener fe?|confiar en Dios y creer en su palabra|creer solo en lo que puedo ver|tener buena suerte en la vida
+2|¿A quién entregó Dios Padre para salvarnos?|a su Hijo Jesús|a Isaac|a Moisés
+2|V|Como Abraham, puedo confiar en Dios aunque no lo entienda todo.
+2|¿Quién cargó la cruz como Isaac cargó la leña?|Jesús|Pedro|Juan
+#4r5
+Z|<b>Jacob</b> fue hijo de Isaac y Rebeca.|Soñó una <b>escalera</b> que unía el cielo y la tierra, con ángeles que subían y bajaban.|Dios le cambió el nombre a <b>Israel</b>.|Sus doce hijos dieron origen a las <b>doce tribus</b> de Israel; de la tribu de Judá nacerían David y Jesús.
+E|Abraham → Isaac → Jacob → doce tribus|Jesús une el cielo y la tierra
+S|¿Cómo llega la promesa de Abraham hasta Jesús?|Abraham tuvo a Isaac, y este a Jacob.|Jacob tuvo doce hijos; uno fue Judá.|De la tribu de Judá nació el rey David y, siglos después, Jesús.|=De padres a hijos: Abraham, Isaac, Jacob, Judá, David… hasta Jesús.
+I|🪜 Escalera: Une el cielo y la tierra.|✨ Israel: El nuevo nombre de Jacob.|👪 Doce hijos: Las doce tribus.|🦁 Judá: La tribu de David y de Jesús.
+0|V|Los doce hijos de Jacob dieron origen a las doce tribus.
+0|¿Quién fue el padre de Jacob?|Isaac|Abraham|Noé
+1|¿Qué vio Jacob subir y bajar por la escalera?|ángeles|pastores|soldados
+1|¿Cómo se llamaba el hermano de Jacob?|Esaú|Caín|Aarón
+1|F|El pueblo de Israel tomó su nombre de Moisés.
+1|¿Cuál de los hijos de Jacob fue vendido por sus hermanos?|José|Judá|Benjamín
+2|¿Quién une de verdad el cielo y la tierra?|Jesús|Jacob|un ángel
+2|¿Qué hizo Jacob con su hermano después de muchos años?|se reconcilió con él|lo olvidó|lo castigó
+2|V|De la tribu de Judá nació Jesús.
+2|O|Ordena de padre a hijo|Abraham|Isaac|Jacob|José
+P|¿Quién fue el padre de {x}?|¿Quién fue hijo de {x}?|Isaac = Abraham|Jacob = Isaac|José = Jacob
+#4r6
+Z|Los hermanos de <b>José</b> lo vendieron por <b>envidia</b>.|En Egipto fue esclavo y preso injustamente, pero Dios estaba con él.|Interpretó los sueños del faraón y llegó a ser <b>gobernador</b>.|Cuando sus hermanos fueron a pedir trigo, José los <b>perdonó</b>: Dios convirtió el mal en bien.
+E|La túnica de colores|«Dios lo convirtió en bien» (Gn 50, 20)
+S|¿Cómo sacó Dios un bien del mal que le hicieron a José?|Sus hermanos lo vendieron y fue llevado a Egipto.|Ahí llegó a gobernar y guardó trigo para los años de hambre.|Gracias a eso salvó a su familia y a muchos más.|=Lo llevó a Egipto, donde pudo salvar del hambre a su familia.
+I|🧥 Envidia: Sus hermanos lo venden.|⛓️ Egipto: Esclavo y preso, pero fiel.|🌾 Gobernador: Guarda trigo para el hambre.|🤗 Perdón: Abraza a sus hermanos.
+0|V|José fue vendido por sus hermanos.
+0|¿Qué regalo de su padre causó envidia?|una túnica|una espada|un caballo
+1|¿De quién interpretó los sueños José?|del faraón|de Moisés|de David
+1|¿Qué guardó José para los años de hambre?|trigo|oro|vino
+1|F|José se vengó de sus hermanos cuando los volvió a ver.
+1|¿Qué cargo recibió José en Egipto?|gobernador|sacerdote|soldado
+2|¿Qué hago cuando siento envidia de alguien?|me alegro de sus dones y doy gracias|hablo mal de él con mis amigos|le quito o le escondo sus cosas
+2|¿En qué se parece José a Jesús?|fue vendido y perdonó|fue rey de Egipto|fue pastor
+2|V|Perdonar a quien nos hizo daño nos hace parecidos a Dios.
+2|O|Ordena la historia de José|Lo venden sus hermanos|Es esclavo en Egipto|Interpreta los sueños del faraón|Perdona a sus hermanos
+#4r7
+Z|Israel era esclavo en Egipto. Dios llamó a <b>Moisés</b> desde una zarza que ardía sin consumirse.|En la noche de la <b>Pascua</b>, la sangre del cordero en las puertas salvó a los israelitas.|Dios abrió el <b>mar Rojo</b> y los liberó.|Pascua significa «paso»: de la esclavitud a la libertad.
+E|«Yo soy el que soy» (Ex 3, 14)|Jesús: el Cordero de Dios
+S|¿Por qué decimos que Jesús es nuestra Pascua?|En Egipto, la sangre del cordero salvó a los israelitas de la muerte.|Jesús es el Cordero de Dios: su sangre nos libra del pecado.|Con su muerte y resurrección pasamos de la muerte a la vida.|=Porque con su sangre nos libera, como el cordero de la primera Pascua.
+I|🔥 Zarza: Dios llama a Moisés.|🐑 Cordero: Su sangre salva.|🌊 Mar Rojo: Dios abre el camino.|✝️ Jesús: Nuestra Pascua.
+0|V|Los israelitas eran esclavos en Egipto.
+0|¿A quién llamó Dios para liberar a su pueblo?|a Moisés|a Noé|a Salomón
+1|¿Qué significa la palabra «Pascua»?|paso|pan|pueblo
+1|¿Quién no quería dejar salir a los israelitas?|el faraón|Josué|Samuel
+1|F|La zarza que vio Moisés se quemó hasta volverse ceniza.
+1|¿Quién acompañó a Moisés ante el faraón?|su hermano Aarón|su hijo Isaac|el rey David
+2|¿Qué sacramento es nuestro «paso por el mar»?|el Bautismo|la Confirmación|el Matrimonio
+2|¿Qué fiesta celebra la Resurrección de Jesús?|la Pascua|la Navidad|Pentecostés
+2|V|Dios escucha el clamor de su pueblo y lo libera.
+2|O|Ordena el Éxodo|Dios llama a Moisés|La noche de Pascua|El paso del mar Rojo|La llegada al Sinaí
+P|¿De qué es figura {x}?||el cordero pascual = Jesús, Cordero de Dios|el paso del mar Rojo = el Bautismo|el maná del desierto = la Eucaristía|el arca de Noé = la Iglesia
+#4r8
+Z|En el monte <b>Sinaí</b>, Dios hizo alianza con su pueblo y dio a Moisés los <b>Diez Mandamientos</b>.|Los tres primeros tratan del <b>amor a Dios</b>; los otros siete, del <b>amor al prójimo</b>.|Jesús los resumió en dos: amar a Dios sobre todas las cosas y al prójimo como a uno mismo.|Los mandamientos son camino de libertad.
+E|Las tablas de la Ley|El becerro de oro: un ídolo
+S|¿En cuál tabla está «no robarás» y por qué?|La primera tabla reúne los mandamientos sobre Dios: del 1 al 3.|La segunda, los que tratan del prójimo: del 4 al 10.|«No robarás» protege los bienes del prójimo.|=En la segunda tabla, porque trata del amor al prójimo.
+I|⛰️ Sinaí: Dios da la Ley.|❤️ Del 1 al 3: Amor a Dios.|🤝 Del 4 al 10: Amor al prójimo.|🕊️ Libertad: Los mandamientos nos cuidan.
+0|V|Dios dio los mandamientos a Moisés.
+0|¿En qué estaban escritos los mandamientos?|en tablas de piedra|en un pergamino|en un libro
+1|¿De qué tratan los mandamientos 4 al 10?|del amor al prójimo|del amor a Dios|de las fiestas
+1|¿Qué pide el cuarto mandamiento?|honrar al padre y a la madre|no robar|santificar las fiestas
+1|F|Los mandamientos son reglas para quitarnos la libertad.
+1|¿Qué es un ídolo?|algo que se pone en el lugar de Dios|un profeta que habla de parte de Dios|uno de los Diez Mandamientos
+2|¿Qué puede ser hoy un «becerro de oro»?|el dinero, si lo pongo antes que Dios|ir a Misa todos los domingos|rezar en familia por la noche
+2|¿Qué mandamiento cumplo al decir la verdad?|el octavo|el tercero|el quinto
+2|V|Jesús resumió toda la Ley en el amor a Dios y al prójimo.
+2|¿Qué mandamiento cumplo al ir a Misa el domingo?|el tercero|el séptimo|el décimo
+K|{x}: ¿amor a Dios o amor al prójimo?|¿Amor a Dios o al prójimo?|amor a Dios: amar a Dios sobre todas las cosas; no tomar su nombre en vano; santificar las fiestas|amor al prójimo: honrar a los padres; no matar; no robar; no mentir; no codiciar los bienes ajenos
+P|¿Qué dice el {x} mandamiento?|¿Qué mandamiento dice «{x}»?|primer = amarás a Dios sobre todas las cosas|cuarto = honrarás a tu padre y a tu madre|quinto = no matarás|séptimo = no robarás|octavo = no dirás falso testimonio ni mentirás
+#4r9
+Z|Israel caminó <b>cuarenta años</b> por el desierto.|Dios lo alimentó con el <b>maná</b> y le dio agua de la roca; una nube y una columna de fuego lo guiaban.|<b>Josué</b> guio al pueblo a la <b>Tierra Prometida</b>; las murallas de Jericó cayeron por la fe.|El maná anuncia la Eucaristía, el pan del cielo.
+E|«Yo soy el pan vivo bajado del cielo» (Jn 6, 51)|La Tierra Prometida: figura del cielo
+S|¿En qué se parece el maná a la Eucaristía?|El maná era un pan que Dios daba cada día en el desierto.|Sostenía al pueblo en su camino a la Tierra Prometida.|La Eucaristía es Jesús mismo, que nos alimenta en el camino al cielo.|=Los dos son pan del cielo que sostiene al pueblo en su camino.
+I|🏜️ Desierto: Cuarenta años de camino.|🍞 Maná: Pan del cielo cada día.|🔥 Columna de fuego: Dios guía a su pueblo.|🎺 Jericó: Caen las murallas.
+0|V|Josué guio al pueblo a la Tierra Prometida.
+0|¿De dónde hizo brotar agua Dios en el desierto?|de una roca|de un pozo|de una nube
+1|¿Qué guiaba al pueblo de noche?|una columna de fuego|una estrella|la luna
+1|¿Cómo cayeron las murallas de Jericó?|por la fe y la obediencia|con cañones|por un terremoto
+1|F|El pueblo de Israel nunca se quejó en el desierto.
+1|¿Cada cuándo recogían el maná?|cada día|cada mes|una vez al año
+2|¿Qué alimento nos da Jesús para el camino al cielo?|la Eucaristía|el maná|el trigo de Egipto
+2|¿Qué aprendo del pueblo que se quejaba?|a agradecer lo que tengo|a pedir siempre más cosas|a murmurar de los demás
+2|V|Dios cuida a su pueblo aunque el camino sea difícil.
+2|¿De qué es figura la Tierra Prometida?|del cielo|de Egipto|del desierto
+#4r10
+Z|En la Tierra Prometida, cuando el pueblo se alejaba de Dios, sufría; al arrepentirse, Dios enviaba <b>jueces</b> que lo liberaban.|Jueces famosos: <b>Débora</b>, <b>Gedeón</b> y <b>Sansón</b>.|<b>Rut</b>, una extranjera, fue fiel a su suegra Noemí.|Fue bisabuela del rey David y antepasada de Jesús.
+E|«Tu pueblo será mi pueblo y tu Dios será mi Dios»|Dios premia la fidelidad
+S|¿Qué nos enseña la historia de Rut?|Rut pudo regresar con su familia, pero no dejó sola a Noemí.|Eligió acompañarla y adorar al Dios de Israel.|Dios la bendijo: fue bisabuela de David.|=Que la fidelidad y el cariño a la familia agradan a Dios.
+I|⚖️ Jueces: Liberan al pueblo arrepentido.|👩 Débora: Jueza y profetisa.|💪 Sansón: De gran fuerza.|🌾 Rut: Fiel a Noemí.
+0|V|Dios enviaba jueces para liberar a su pueblo.
+0|¿Quién fue la suegra de Rut?|Noemí|Débora|Sara
+1|¿Qué pasaba cuando el pueblo se alejaba de Dios?|sufría|era más feliz|ganaba todas las batallas
+1|¿Qué juez venció con solo trescientos hombres?|Gedeón|Sansón|Samuel
+1|F|Rut abandonó a su suegra y regresó a su país.
+1|¿De dónde venía la fuerza de Sansón?|de Dios|de su espada|de su caballo
+2|¿Qué hago para parecerme a Rut?|acompaño y cuido a mi familia|dejo solos a mis abuelos|pienso solo en mí
+2|¿Qué hacía el pueblo para volver a Dios?|se arrepentía|se escondía|cambiaba de dios
+2|V|Dios acoge también a los extranjeros que lo buscan, como Rut.
+2|¿De qué rey fue bisabuela Rut?|de David|de Saúl|de Herodes
+P|¿Quién fue {x}?||Débora = una mujer juez de Israel|Gedeón = un juez que venció con pocos soldados|Sansón = un juez de gran fuerza|Rut = una extranjera fiel a su suegra
+#4r11
+Z|El niño <b>Samuel</b> escuchó la voz de Dios y respondió: «Habla, Señor, que tu siervo escucha».|Fue profeta y ungió a los primeros reyes.|<b>David</b>, pastor de Belén, venció al gigante Goliat con una honda y su confianza en Dios.|Fue rey y escribió salmos; pecó, pero se <b>arrepintió</b> de corazón. Dios le prometió un reino eterno.
+E|Salmo 23: «El Señor es mi pastor»|Jesús, «Hijo de David», nació en Belén
+S|¿Por qué David, siendo un muchacho, pudo vencer a Goliat?|Goliat confiaba en su fuerza y en sus armas.|David confiaba en Dios, que lo había cuidado de leones y osos.|Con una honda y una piedra derribó al gigante.|=Porque puso su confianza en Dios y no en su propia fuerza.
+I|👂 Samuel: «Habla, Señor».|🐑 David: Pastor de Belén.|🪨 Goliat: Vencido con una honda.|🎵 Salmos: Oraciones de David.
+0|V|David fue pastor antes de ser rey.
+0|¿Quién ungió rey a David?|Samuel|Moisés|Salomón
+1|¿Qué instrumento tocaba David?|el arpa|la trompeta|el tambor
+1|¿Quién fue el primer rey de Israel?|Saúl|David|Salomón
+1|F|David nunca se equivocó en toda su vida.
+1|¿Qué hizo David después de pecar?|se arrepintió y pidió perdón|lo ocultó para siempre|culpó a otros
+2|¿Por qué llamamos a Jesús «Hijo de David»?|porque desciende de la familia de David|porque fue su hijo directo|porque vivió en su palacio
+2|¿Cuál es el salmo del buen pastor?|el 23|el 51|el 150
+2|V|Como Samuel, puedo decirle a Dios: «Habla, Señor, que tu siervo escucha».
+2|¿Qué hago ante algo que me da miedo?|me preparo y confío en Dios|huyo sin intentarlo|me burlo de otros
+P|¿Quién fue {x}?||Samuel = el profeta que ungió a los reyes|David = el pastor que venció a Goliat|Goliat = un gigante filisteo|Saúl = el primer rey de Israel
+#4r12
+Z|<b>Salomón</b>, hijo de David, pidió a Dios un <b>corazón sabio</b> para gobernar con justicia.|Construyó el <b>Templo de Jerusalén</b>, donde se guardaba el Arca de la Alianza.|El Templo era la casa de Dios en medio de su pueblo.|Jesús es el verdadero Templo, y nosotros somos templos del Espíritu Santo.
+E|Sagrario: Jesús presente en cada iglesia|Genuflexión: doblar la rodilla ante el Sagrario
+S|Dios dijo a Salomón: «Pídeme lo que quieras». ¿Por qué agradó a Dios su respuesta?|Pudo pedir riquezas, fama o una vida larga.|Pidió sabiduría para distinguir el bien del mal y servir a su pueblo.|Pensó en los demás antes que en sí mismo.|=Porque pidió sabiduría para servir, y no cosas para sí.
+I|👑 Salomón: Hijo de David.|📜 Sabiduría: Distinguir el bien del mal.|🏛️ Templo: Casa de Dios en Jerusalén.|🕯️ Sagrario: Jesús está con nosotros.
+0|V|Salomón fue hijo del rey David.
+0|¿En qué ciudad se construyó el Templo?|en Jerusalén|en Belén|en Nazaret
+1|¿Para qué quería Salomón la sabiduría?|para gobernar con justicia|para hacerse rico|para ganar guerras
+1|¿Qué había en las tablas que guardaba el Arca?|los Diez Mandamientos|los salmos|los Evangelios
+1|F|Salomón pidió a Dios muchas riquezas.
+1|¿Qué era el Templo para el pueblo?|la casa de Dios|un mercado|un palacio del rey
+2|¿Quién es el verdadero Templo?|Jesús|Salomón|el Arca
+2|¿Cómo me comporto en la iglesia?|con silencio y respeto|corriendo y jugando|platicando en voz alta
+2|V|Por el Bautismo, somos templos del Espíritu Santo.
+2|¿Qué puedo pedir a Dios, como Salomón?|sabiduría para hacer el bien|ser el más rico de todos|ganar siempre en los juegos
+#4r13
+Z|Los <b>profetas</b> hablaban en nombre de Dios.|Llamaban al pueblo a la <b>conversión</b>, defendían a los pobres y anunciaban al <b>Mesías</b>.|Isaías anunció: «La virgen concebirá y dará a luz un hijo: Emmanuel»; Miqueas, que nacería en Belén.|Elías defendió la fe en el único Dios y fue llevado al cielo en un carro de fuego.
+E|Emmanuel: «Dios con nosotros»|Isaías 53: el Siervo que sufre por su pueblo
+S|¿Cómo sabemos que Jesús es el Mesías anunciado por los profetas?|Isaías dijo que nacería de una virgen: Jesús nació de la Virgen María.|Miqueas dijo que nacería en Belén: ahí nació Jesús.|Isaías habló de un Siervo que sufriría por todos: Jesús murió en la cruz.|=Porque en Él se cumple lo que anunciaron los profetas.
+I|📣 Profeta: Habla en nombre de Dios.|🔥 Elías: Defendió la fe en el único Dios.|📜 Isaías: Anunció al Emmanuel.|⭐ Mesías: El Salvador esperado.
+0|V|Los profetas hablaban en nombre de Dios.
+0|¿Qué anunciaban los profetas?|al Mesías|el fin de la lluvia|una guerra
+1|¿A qué llamaban los profetas al pueblo?|a la conversión|a la riqueza|al descanso
+1|¿A quiénes defendían los profetas?|a los pobres|a los reyes injustos|a los ídolos
+1|F|Los profetas adivinaban la suerte con las estrellas.
+1|¿Contra qué falso dios luchó Elías?|Baal|Júpiter|Tláloc
+2|¿En quién se cumplen los anuncios de los profetas?|en Jesús|en Salomón|en Moisés
+2|¿Qué hace hoy un cristiano «profeta»?|defiende la verdad y al débil|adivina el futuro|se esconde
+2|V|Por el Bautismo, también nosotros estamos llamados a anunciar a Dios.
+2|¿Quién es el último profeta, que señaló a Jesús?|san Juan Bautista|san Pablo|san Lucas
+P|¿Qué se recuerda del profeta {x}?||Elías = subió al cielo en un carro de fuego|Isaías = anunció que una virgen daría a luz|Miqueas = anunció que el Mesías nacería en Belén|Daniel = fue salvado de los leones|Jonás = pasó tres días en el vientre de un pez
+#4r14
+Z|Por su infidelidad, Israel fue llevado al <b>exilio</b> en Babilonia.|Allí, <b>Daniel</b> siguió rezando aunque estaba prohibido, y Dios lo salvó de los leones.|<b>Jonás</b> huyó de Dios, pasó tres días en el vientre de un gran pez y luego predicó en Nínive, que se convirtió.|El pueblo regresó, reconstruyó el Templo y siguió esperando al Mesías.
+E|El «signo de Jonás»: la Resurrección al tercer día|Dios quiere que todos se conviertan
+S|¿Qué nos enseña Daniel en el foso de los leones?|Una ley prohibía rezar a Dios.|Daniel siguió rezando tres veces al día, sin esconderse.|Lo echaron a los leones, y Dios lo protegió.|=A ser fieles a Dios aunque cueste, confiando en Él.
+I|⛓️ Exilio: Israel en Babilonia.|🦁 Daniel: Fiel en la oración.|🐋 Jonás: Tres días en el pez.|🏛️ Regreso: Se reconstruye el Templo.
+0|V|Daniel rezaba aunque estaba prohibido.
+0|¿A dónde quería Dios que fuera Jonás?|a Nínive|a Belén|a Egipto
+1|¿Por qué fue llevado Israel al exilio?|por su infidelidad a Dios|por una sequía|por un viaje de comercio
+1|¿Qué hicieron los habitantes de Nínive al oír a Jonás?|se convirtieron|se burlaron|huyeron
+1|F|Jonás obedeció a Dios desde el primer momento.
+1|¿Qué reconstruyó el pueblo al volver del exilio?|el Templo|el arca|la torre de Babel
+2|¿Qué anuncian los tres días de Jonás en el pez?|los tres días de Jesús en el sepulcro|los tres Reyes Magos de Oriente|las tres caídas en el Vía crucis
+2|¿Qué hago si me da pena rezar delante de otros?|rezo con sencillez, como Daniel|dejo de rezar|me burlo de quien reza
+2|V|Dios se alegra cuando un pecador se convierte.
+2|O|Ordena la historia de Jonás|Huye de Dios|Lo traga un gran pez|Predica en Nínive|La ciudad se convierte
+#4r15
+Z|Los <b>sacramentos</b> son signos visibles, instituidos por Cristo, que nos dan la gracia.|Son siete.|De <b>iniciación</b>: Bautismo, Confirmación y Eucaristía. De <b>curación</b>: Penitencia y Unción de los enfermos.|Al <b>servicio de la comunión</b>: Orden sacerdotal y Matrimonio.
+E|Signo: lo que se ve · Gracia: lo que Dios da|Del costado de Cristo brotaron sangre y agua
+S|¿Qué tiene todo sacramento?|Un signo que se ve y se oye: agua, pan, aceite, palabras.|Fue instituido por Jesucristo.|Nos da la gracia de Dios, que no se ve.|=Un signo visible, instituido por Cristo, que da la gracia.
+I|💧 Iniciación: Bautismo, Confirmación y Eucaristía.|🩹 Curación: Penitencia y Unción.|🤝 Servicio: Orden y Matrimonio.|✨ Gracia: La vida de Dios en nosotros.
+0|V|Los sacramentos nos dan la gracia de Dios.
+0|¿Quién instituyó los sacramentos?|Jesucristo|los apóstoles|el Papa
+1|¿Cuál es el primer sacramento que recibimos?|el Bautismo|la Eucaristía|el Matrimonio
+1|¿Qué sacramento perdona los pecados cometidos después del Bautismo?|la Penitencia|la Confirmación|el Orden
+1|F|Los sacramentos son solo ceremonias bonitas, sin efecto.
+1|¿En qué sacramento recibimos el Cuerpo de Cristo?|en la Eucaristía|en la Unción|en el Bautismo
+2|¿Por qué se llaman «de iniciación» tres sacramentos?|porque nos hacen cristianos|porque son los más cortos|porque se reciben de noche
+2|¿Qué sacramentos puedo recibir muchas veces?|la Eucaristía y la Penitencia|el Bautismo y la Confirmación|ninguno
+2|V|En cada sacramento actúa Cristo mismo.
+2|¿Qué sacramento une a un hombre y a una mujer para siempre?|el Matrimonio|el Orden|la Confirmación
+K|{x}: ¿sacramento de iniciación, de curación o de servicio?|¿Iniciación, curación o servicio?|iniciación: el Bautismo; la Confirmación; la Eucaristía|curación: la Penitencia; la Unción de los enfermos|servicio: el Orden sacerdotal; el Matrimonio
+P|¿Cuál es el signo de {x}?||el Bautismo = el agua|la Confirmación = el santo crisma|la Eucaristía = el pan y el vino|la Unción de los enfermos = el óleo de los enfermos
+#4r16
+Z|El <b>Bautismo</b> borra el pecado original y nos hace hijos de Dios y miembros de la Iglesia.|Su signo es el <b>agua</b>, con las palabras: «Yo te bautizo en el nombre del Padre, y del Hijo, y del Espíritu Santo».|La <b>Confirmación</b> nos da la fuerza del Espíritu Santo, con sus siete dones, para ser testigos.|La da el obispo con la unción del <b>santo crisma</b>.
+E|Vela, vestidura blanca y padrinos|Dones: sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios
+S|¿Qué recibí el día de mi Bautismo?|Se borró el pecado original.|Dios me hizo su hijo y templo del Espíritu Santo.|Entré a formar parte de la Iglesia.|=La gracia de ser hijo de Dios y miembro de la Iglesia.
+I|💧 Agua: Signo del Bautismo.|🕯️ Vela: La luz de Cristo.|🕊️ Espíritu Santo: Sus siete dones.|💪 Testigos: Sin miedo ni vergüenza.
+0|V|El Bautismo se recibe una sola vez.
+0|¿Con qué se bautiza?|con agua|con aceite|con vino
+1|¿En nombre de quién se bautiza?|del Padre, del Hijo y del Espíritu Santo|de san Pedro y de los doce apóstoles|de la Virgen María y de san José
+1|¿Qué simboliza la vestidura blanca?|la vida nueva en Cristo|la nieve del invierno|la riqueza de la familia
+1|F|La Confirmación nos da la fuerza para ser reyes.
+1|¿Qué hacen los padrinos?|ayudan a crecer en la fe|dan regalos caros|eligen el nombre
+2|¿Para qué nos da el Espíritu Santo sus dones?|para vivir y anunciar la fe|para ser famosos|para no estudiar
+2|¿Qué don nos ayuda a ser valientes en la fe?|la fortaleza|la ciencia|el consejo
+2|V|La Confirmación es como nuestro Pentecostés personal.
+2|¿Cómo celebro el aniversario de mi Bautismo?|doy gracias a Dios|lo olvido|me pongo triste
+K|{x}: ¿es un don del Espíritu Santo?|¿Don del Espíritu Santo o no?|sí es un don: la sabiduría; el entendimiento; el consejo; la fortaleza; la ciencia; la piedad; el temor de Dios|no es un don: la riqueza; la fama; la suerte; la fuerza física
+#4r17
+Z|La <b>Eucaristía</b> hace presente el sacrificio de Jesús en la cruz y es el banquete en que lo recibimos.|En la <b>consagración</b>, el pan y el vino se convierten en el Cuerpo y la Sangre de Cristo.|Jesús está <b>realmente presente</b>.|Para comulgar bien: estar en gracia de Dios, guardar una hora de ayuno y acercarse con fe y respeto.
+E|«Esto es mi Cuerpo… Esta es mi Sangre»|Fuente y cumbre de la vida cristiana
+S|¿Qué pasa en la consagración?|El sacerdote repite las palabras de Jesús en la Última Cena.|Por el poder del Espíritu Santo, el pan y el vino cambian.|Siguen pareciendo pan y vino, pero ya son Jesús.|=El pan y el vino se convierten en el Cuerpo y la Sangre de Cristo.
+I|✝️ Sacrificio: El de Jesús en la cruz.|🍞 Banquete: Recibimos a Jesús.|🙏 Presencia real: Jesús está ahí.|⏰ Ayuno: Una hora antes de comulgar.
+0|V|En la Misa recibimos a Jesús en la Comunión.
+0|¿Cuándo instituyó Jesús la Eucaristía?|en la Última Cena|en Navidad|en su Bautismo
+1|¿Qué necesito para comulgar bien?|estar en gracia de Dios|haber desayunado|llegar tarde
+1|¿En qué se convierte el vino en la consagración?|en la Sangre de Cristo|en agua bendita|en óleo santo
+1|F|Después de la consagración, la hostia es solo un símbolo de Jesús.
+1|¿Qué día debemos ir a Misa?|el domingo|solo en Navidad|cuando sobre tiempo
+2|¿Qué hago después de comulgar?|doy gracias a Jesús en silencio|salgo de la iglesia|platico con mi vecino
+2|¿Qué hago si tengo un pecado grave y quiero comulgar?|me confieso antes|comulgo de todos modos|no vuelvo a Misa
+2|V|Jesús permanece en el Sagrario y podemos visitarlo.
+2|O|Ordena cómo me preparo para comulgar|Me confieso si lo necesito|Guardo una hora de ayuno|Comulgo con fe|Doy gracias
+#4r18
+Z|En la <b>Penitencia</b> (Confesión), Jesús nos perdona por medio del sacerdote.|Pasos: examen de conciencia, arrepentimiento, propósito de enmienda, decir los pecados y cumplir la penitencia.|El sacerdote nunca puede revelar lo que oye: es el <b>secreto de confesión</b>.|La <b>Unción de los enfermos</b> da fuerza y paz a los enfermos graves y a los ancianos.
+E|«A quienes perdonen los pecados, les quedan perdonados» (Jn 20, 23)|El padre del hijo pródigo: así nos recibe Dios
+S|¿Cómo hago mi examen de conciencia?|Pido luz al Espíritu Santo.|Repaso los mandamientos: ¿cómo he amado a Dios, a mi familia y a los demás?|Reconozco mis pecados con sinceridad y me arrepiento.|=Con oración, repasando los mandamientos y reconociendo mis pecados.
+I|🔍 Examen: Reviso mi conciencia.|💔 Arrepentimiento: Me duele haber ofendido a Dios.|🗣️ Confesión: Digo mis pecados al sacerdote.|🫒 Unción: Fuerza para los enfermos.
+0|V|En la Confesión, Dios perdona nuestros pecados.
+0|¿A quién decimos los pecados en la Confesión?|al sacerdote|a un amigo|a nadie
+1|¿Qué es el propósito de enmienda?|la decisión de no volver a pecar|la lista de mis pecados|el saludo al sacerdote
+1|¿Con qué unge el sacerdote al enfermo?|con óleo bendecido|con agua|con ceniza
+1|F|En la Confesión puedo callar a propósito un pecado grave.
+1|¿Qué hago después de confesarme?|cumplo la penitencia|olvido todo|vuelvo a pecar
+2|¿Por qué puedo confesarme con confianza?|el sacerdote guarda el secreto y Dios me ama|porque nadie escucha lo que digo|porque los pecados no importan
+2|¿Qué parábola muestra cómo perdona Dios?|la del hijo pródigo|la del sembrador|la de los talentos
+2|V|La Unción de los enfermos da paz y fortaleza a quien la recibe.
+2|O|Ordena los pasos de la Confesión|Examen de conciencia|Arrepentimiento|Decir los pecados|Cumplir la penitencia
+#4r19
+Z|El <b>Orden sacerdotal</b> consagra a obispos, presbíteros (sacerdotes) y diáconos para servir a la Iglesia.|Enseñan, santifican y guían; el sacerdote actúa en la persona de Cristo.|El <b>Matrimonio</b> es la alianza para toda la vida entre un hombre y una mujer, abierta a los hijos.|Es uno e <b>indisoluble</b>: no se puede romper.
+E|«La mies es mucha y los obreros, pocos» (Mt 9, 37)|La familia: iglesia doméstica
+S|¿Por qué rezamos por las vocaciones?|La Iglesia necesita sacerdotes para celebrar la Misa y perdonar los pecados.|Necesita también familias santas y personas consagradas.|Jesús mismo pidió rogar al dueño de la mies que envíe obreros.|=Porque Jesús lo pidió y la Iglesia necesita sacerdotes y familias santas.
+I|✝️ Orden: Obispos, sacerdotes y diáconos.|💍 Matrimonio: Un hombre y una mujer, para siempre.|👶 Hijos: Un don de Dios.|🙏 Vocaciones: Rezamos por ellas.
+0|V|Los sacerdotes sirven a la Iglesia.
+0|¿Quién celebra la Misa?|el sacerdote|el monaguillo|el sacristán
+1|¿Qué significa que el Matrimonio es «uno»?|un solo hombre con una sola mujer|que se celebra una sola fiesta|que se tiene un solo hijo
+1|¿Quién es el sucesor de los apóstoles en una diócesis?|el obispo|el diácono|el catequista
+1|F|El Matrimonio cristiano se puede romper cuando uno quiera.
+1|¿A qué está abierto el Matrimonio?|a los hijos|a la riqueza|a los viajes
+2|¿Qué es una vocación?|el llamado de Dios a cada persona|un trabajo bien pagado|una afición
+2|¿Cómo ayudo a mi párroco?|rezo por él y colaboro en la parroquia|lo critico delante de los demás|no hago nada: no es asunto mío
+2|V|En las bodas de Caná, Jesús bendijo a los esposos con su presencia.
+2|¿En persona de quién actúa el sacerdote en la Misa?|de Cristo|del obispo|del pueblo
+P|¿Cuál es la misión de {x}?||el obispo = guiar una diócesis|el sacerdote = celebrar la Misa y perdonar los pecados|el diácono = servir en el altar y en la caridad|los esposos = amarse y educar a sus hijos
+#4r20
+Z|<b>Primer mandamiento</b>: amar a Dios sobre todas las cosas: adorarlo, rezarle y confiar en Él.|Van contra él la idolatría, la superstición, la magia y los horóscopos.|<b>Segundo</b>: no tomar el nombre de Dios en vano: respetarlo y no jurar en falso.|<b>Tercero</b>: santificar las fiestas: Misa los domingos, descanso y familia.
+E|«Santificado sea tu Nombre»|Domingo: día del Señor
+S|Un amigo trae una pulsera «de la suerte» para el examen. ¿Qué le digo?|Un objeto no tiene poder para ayudarnos.|Confiar en amuletos es superstición: va contra el primer mandamiento.|Lo que ayuda es estudiar y confiar en Dios.|=Que la suerte no existe: mejor estudiar y confiar en Dios.
+I|❤️ Primero: Amar a Dios sobre todo.|🙊 Segundo: Respetar su santo nombre.|⛪ Tercero: Santificar el domingo.|🚫 Superstición: No a amuletos ni horóscopos.
+0|V|El domingo es el día del Señor.
+0|¿A quién adoramos?|solo a Dios|a los santos|a los ángeles
+1|¿Qué manda el segundo mandamiento?|respetar el nombre de Dios|ir a Misa los domingos|no robar lo que es de otro
+1|¿Qué es jurar en falso?|poner a Dios por testigo de una mentira|rezar sin poner mucha atención|decir un chiste en la iglesia
+1|F|Usar amuletos de la suerte agrada a Dios.
+1|¿Cómo santifico el domingo?|voy a Misa y convivo en familia|trabajo todo el día|duermo todo el día
+2|¿Por qué no creemos en horóscopos?|nuestra vida está en manos de Dios|porque siempre aciertan en todo|porque cuestan mucho dinero
+2|¿Qué hacemos con los santos?|los veneramos y pedimos su intercesión|los adoramos como a Dios|los ignoramos
+2|V|Rezar cada día es una forma de cumplir el primer mandamiento.
+2|¿Qué hago si oigo que usan el nombre de Dios con enojo?|no lo imito y lo digo con respeto|me río de lo que dijeron|lo repito para que me acepten
+K|{x}: ¿a favor o en contra del primer mandamiento?|¿A favor o en contra?|a favor: rezar cada día; adorar solo a Dios; confiar en Dios en las dificultades|en contra: creer en horóscopos; usar amuletos de la suerte; acudir a la magia; poner el dinero antes que Dios
+#4r21
+Z|<b>Cuarto</b>: honrar al padre y a la madre: amarlos, obedecerlos y ayudarlos.|<b>Quinto</b>: no matar: respetar la vida desde la concepción, no pelear y cuidar la salud.|<b>Sexto</b>: vivir la pureza y el pudor.|<b>Séptimo</b>: no robar: respetar lo ajeno, devolver lo prestado y trabajar con honradez.
+E|«Dichosos los limpios de corazón» (Mt 5, 8)|Devolver lo que encuentro
+S|En el recreo, un compañero me empuja y me dan ganas de pegarle. ¿Qué mandamiento me guía?|El quinto mandamiento pide respetar la vida y no hacer daño.|Pegar o insultar va contra él.|Puedo alejarme, calmarme y avisar a la maestra.|=El quinto: no devuelvo el golpe y busco una solución en paz.
+I|👪 Cuarto: Honrar a los padres.|❤️ Quinto: Respetar la vida.|🤍 Sexto: Vivir la pureza.|👛 Séptimo: No robar.
+0|V|El séptimo mandamiento pide respetar lo ajeno.
+0|¿Qué mandamiento pide obedecer a los papás?|el cuarto|el quinto|el séptimo
+1|¿Qué va contra el quinto mandamiento?|pelear e insultar|compartir|estudiar
+1|¿Qué hago con algo que me prestaron?|lo cuido y lo devuelvo|me lo quedo|lo regalo
+1|F|Copiar en un examen no tiene nada que ver con la honradez.
+1|¿Qué es el pudor?|cuidar con respeto mi cuerpo y mi mirada|tener miedo de todas las personas|ser tímido y no hablar con nadie
+2|¿Cómo cuido la vida que Dios me dio?|con buenos hábitos y sin ponerme en peligro|haciendo retos peligrosos de internet|durmiendo poco y comiendo mal
+2|¿Qué hago si rompí algo ajeno?|lo digo y reparo el daño|lo escondo|culpo a otro
+2|V|Respetar a los maestros también es parte del cuarto mandamiento.
+2|¿Desde cuándo se respeta la vida humana?|desde la concepción|desde el nacimiento|desde los siete años
+K|{x}: ¿qué mandamiento lo pide?|¿Cuarto, quinto o séptimo?|cuarto: obedecer a mis papás; cuidar a mis abuelos; respetar a mis maestros|quinto: no pelear; cuidar mi salud; respetar toda vida humana|séptimo: devolver lo prestado; no tomar lo ajeno; cuidar las cosas de los demás
+#4r22
+Z|<b>Octavo</b>: no mentir: decir la verdad, no calumniar ni andar con chismes.|<b>Noveno</b>: cuidar los pensamientos y la mirada para tener un corazón limpio.|<b>Décimo</b>: no codiciar los bienes ajenos: no envidiar y vivir con desprendimiento.|Los tres cuidan el <b>corazón</b>, de donde nacen las buenas y las malas acciones.
+E|Calumnia: mentira que daña la fama de otro|«Donde está tu tesoro, allí estará tu corazón» (Mt 6, 21)
+S|Me cuentan un chisme de una compañera. ¿Qué hago?|No sé si es verdad, y aunque lo fuera, puede dañarla.|Repetirlo va contra el octavo mandamiento.|Corto el chisme y hablo bien de ella.|=No lo repito y defiendo su buena fama.
+I|🗣️ Octavo: Decir la verdad.|👀 Noveno: Cuidar la mirada y el corazón.|🎁 Décimo: No envidiar.|💎 Tesoro: Poner el corazón en Dios.
+0|V|El octavo mandamiento pide decir la verdad.
+0|¿Qué es mentir?|decir lo que no es verdad para engañar|guardar una sorpresa de cumpleaños|callar por respeto a los demás
+1|¿Qué es la envidia?|tristeza por el bien de otro|alegría por el bien de otro|ganas de ayudar
+1|¿Qué daña un chisme?|la fama de una persona|la ropa de una persona|la tarea de una persona
+1|F|Una «mentira piadosa» nunca hace daño a nadie.
+1|¿Qué mandamiento pide no codiciar lo ajeno?|el décimo|el octavo|el cuarto
+2|¿Cómo venzo la envidia?|agradezco lo que tengo y me alegro por el otro|hablo mal de quien tiene más que yo|le escondo o le quito sus cosas
+2|¿Qué hago si dije una mentira?|digo la verdad y pido perdón|digo otra para taparla|espero a que se olvide
+2|V|Cuidar lo que veo en pantallas ayuda a tener un corazón limpio.
+2|¿Qué es el desprendimiento?|no apegarme a las cosas|quererlo todo|guardar mucho
+P|¿Qué mandamiento se rompe al {x}?||consultar el horóscopo = el primero|jurar en falso = el segundo|faltar a Misa el domingo por flojera = el tercero|desobedecer a los papás = el cuarto|pegarle a un compañero = el quinto|robar un lápiz = el séptimo|decir mentiras = el octavo|envidiar las cosas de otro = el décimo
+#4r23
+Z|Las <b>obras de misericordia</b> son acciones de amor al prójimo que necesita ayuda.|<b>Corporales</b>: dar de comer, dar de beber, vestir, dar posada, visitar a enfermos y presos, y enterrar a los muertos.|<b>Espirituales</b>: enseñar, aconsejar, corregir, perdonar, consolar, tener paciencia y rezar por vivos y difuntos.|Son catorce: siete y siete.
+E|«Tuve hambre y me dieron de comer» (Mt 25, 35)|Al final nos examinarán en el amor
+S|Mi vecina anciana está enferma y sola. ¿Qué obras de misericordia puedo hacer?|Visitarla: visitar a los enfermos (corporal).|Llevarle algo de comer: dar de comer al hambriento (corporal).|Platicar con ella y rezar por su salud: consolar y rezar (espirituales).|=Visitarla, llevarle comida, consolarla y rezar por ella.
+I|🍞 Corporales: Atienden el cuerpo.|🕊️ Espirituales: Atienden el alma.|🔢 Catorce: Siete y siete.|❤️ Juicio final: Nos examinarán en el amor.
+0|V|Dar de comer al hambriento es una obra de misericordia.
+0|¿Cuántas obras de misericordia corporales hay?|siete|tres|diez
+1|¿Qué obra hago al explicar la tarea a un compañero?|enseñar al que no sabe|vestir al desnudo|dar posada
+1|¿Qué obra hago al regalar la ropa que ya no me queda?|vestir al desnudo|dar buen consejo|consolar al triste
+1|F|Las obras de misericordia son solo para los adultos.
+1|¿Qué obra hago al rezar por un abuelo que murió?|rezar por los difuntos|visitar a los presos|dar de beber
+2|¿A quién servimos al ayudar a un necesitado?|a Jesús|a nadie|a nosotros mismos
+2|¿Qué obra es «tener paciencia con el que me molesta»?|sufrir con paciencia los defectos ajenos|dar posada al peregrino que llega|enterrar a los muertos con respeto
+2|V|Perdonar a quien me ofendió es una obra de misericordia espiritual.
+2|¿Qué obra hago al acompañar a un amigo que está triste?|consolar al triste|corregir al que se equivoca|vestir al desnudo
+K|{x}: ¿obra de misericordia corporal o espiritual?|¿Corporal o espiritual?|corporal: dar de comer al hambriento; dar de beber al sediento; vestir al desnudo; visitar a los enfermos; dar posada al peregrino|espiritual: enseñar al que no sabe; perdonar las ofensas; consolar al triste; dar buen consejo; rezar por vivos y difuntos
+#4r24
+Z|Los <b>Salmos</b> son 150 oraciones inspiradas por Dios.|Hay salmos de <b>alabanza</b>, de <b>súplica</b>, de <b>perdón</b> y de <b>acción de gracias</b>.|Jesús los rezaba, y la Iglesia los reza cada día.|En la Misa cantamos o rezamos un salmo después de la primera lectura.
+E|Salmo 23: «El Señor es mi pastor, nada me falta»|Salmo 51: «Ten piedad de mí, oh Dios»
+S|Estoy muy contento porque pasé el año. ¿Qué tipo de salmo rezo?|Quiero darle gracias a Dios por algo bueno.|Los salmos de acción de gracias y de alabanza expresan eso.|Puedo rezar el Salmo 100: «Aclama al Señor, tierra entera».|=Un salmo de acción de gracias o de alabanza, como el 100.
+I|🎺 Alabanza: «Alaben al Señor».|🙏 Súplica: «Escúchame, Señor».|💧 Perdón: «Ten piedad de mí».|🎉 Acción de gracias: «Den gracias al Señor».
+0|V|Los Salmos son oraciones de la Biblia.
+0|¿Quién escribió muchos salmos?|el rey David|san Pablo|Moisés
+1|¿Qué salmo rezo para pedir perdón?|el 51|el 23|el 150
+1|¿En qué parte de la Biblia están los Salmos?|en el Antiguo Testamento|en el Nuevo Testamento|en los Evangelios
+1|F|Los Salmos solo sirven para rezar cuando estamos tristes.
+1|¿Cuándo escuchamos un salmo en la Misa?|después de la primera lectura|al final de la Misa|en la colecta
+2|¿Qué salmo rezo cuando tengo miedo?|el 23: «El Señor es mi pastor»|el 51: «Ten piedad de mí»|ninguno
+2|¿Qué expresa un salmo de súplica?|una petición de ayuda a Dios|una alabanza|un agradecimiento
+2|V|Jesús rezó con los salmos, incluso en la cruz.
+2|¿Cómo puedo rezar con un salmo?|lo leo despacio y hago mías sus palabras|lo leo corriendo para acabar pronto|lo repito sin pensar en lo que dice
+P|¿Qué salmo dice «{x}»?||El Señor es mi pastor = el Salmo 23|Ten piedad de mí = el Salmo 51|Aclama al Señor, tierra entera = el Salmo 100|Todo ser que respira alabe al Señor = el Salmo 150
