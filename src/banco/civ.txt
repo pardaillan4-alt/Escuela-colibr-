@@ -1,0 +1,200 @@
+// Cívica y Valores 1.º — banco ampliado (preguntas y tablas)
+#v1
+0|¿Cuántas personas hay iguales a mí en el mundo?|ninguna: soy único|muchas|dos o tres
+0|¿Qué merecen todas las personas?|respeto|burlas|gritos
+0|F|Solo los que corren rápido son valiosos.
+1|¿Qué es un talento?|algo que sé hacer bien|algo que me da miedo|algo que perdí
+1|¿Qué hago si algo todavía no me sale?|practico y pido ayuda|me rindo|rompo mi cuaderno
+1|¿Qué dice Dios en la Biblia?|«Te he llamado por tu nombre»|«No te conozco»|«Eres igual a todos»
+1|F|Si a alguien le gustan cosas distintas, vale menos.
+2|A Leo le gusta cantar y a Mía dibujar. ¿Quién vale más?|los dos valen lo mismo|Leo, porque canta|Mía, porque dibuja
+2|¿Por qué no me burlo de quien es diferente?|porque todos merecemos respeto|porque me pueden regañar|porque nadie me está viendo
+2|¿Cómo uso mis talentos?|para ayudar a los demás|para presumir|para burlarme
+2|V|Puedo aprender cosas nuevas aunque al principio me cuesten.
+K|{x}: ¿trata bien o trata mal a los demás?|¿Trata bien o trata mal?|trata bien: escuchar con atención; invitar a jugar; decir «por favor»; ayudar al que se cayó|trata mal: poner apodos; burlarse; empujar en la fila; no dejar jugar
+#v2
+0|¿Cuál es una emoción?|la tristeza|la mochila|el lunes
+0|F|Cuando me enojo, está bien pegar.
+1|¿Qué siento si se pierde mi juguete favorito?|tristeza|alegría|sorpresa
+1|¿Qué hago si veo a un amigo llorando?|le pregunto si está bien|me río de él|me voy corriendo
+1|¿Hasta qué número cuento para calmarme?|hasta 10|hasta 1|hasta un millón
+1|V|Decir lo que siento me ayuda a sentirme mejor.
+2|Me abren la puerta y gritan «¡Feliz cumpleaños!». ¿Qué siento?|sorpresa y alegría|miedo y enojo|tristeza y sueño
+2|¿Cómo respiro para calmarme?|como si oliera una flor y soplara una vela|muy rápido y sin parar ni un momento|aguantando el aire todo lo que pueda
+2|¿A quién puedo contarle cómo me siento en la oración?|a Jesús|a mi almohada|a nadie
+2|¿Con qué le pongo nombre a lo que siento?|con palabras|con golpes|con gritos
+P|¿Qué puedo sentir si {x}?||gané un juego con mi equipo = alegría|se murió mi pececito = tristeza|me quitan mi lugar a empujones = enojo|oigo un ruido raro en lo oscuro = miedo|encuentro un regalo escondido = sorpresa
+#v3
+0|¿Qué digo cuando alguien me ayuda?|gracias|nada|adiós
+0|¿Qué digo cuando me equivoco y lastimo a alguien?|perdón|gracias|hola
+0|F|Tomar lo que no es mío es ser honesto.
+1|¿Qué valor es tratar bien a los demás y cuidar sus cosas?|el respeto|la gratitud|la fortaleza
+1|¿Qué valor muestro al dar las gracias?|la gratitud|la justicia|la prudencia
+1|¿Cómo se llaman los valores que vive un cristiano?|virtudes|costumbres|tareas
+1|V|Los valores nos ayudan a vivir bien con los demás.
+2|¿Qué virtud es ser valiente para hacer el bien?|la fortaleza|la templanza|la prudencia
+2|¿Qué virtud es dar a cada uno lo suyo?|la justicia|la fortaleza|la templanza
+2|Encontré un lápiz que no es mío y busco al dueño. ¿Qué valor es?|honestidad|gratitud|templanza
+2|¿Cuántas son las virtudes más importantes que aprendimos?|cuatro|dos|diez
+P|¿Qué valor muestro cuando {x}?||digo la verdad aunque me cueste = honestidad|hago mi tarea a tiempo = responsabilidad|comparto mi lunch con quien no trae = solidaridad|escucho sin interrumpir = respeto|doy las gracias por la comida = gratitud
+#v9
+0|¿Qué aprendemos en la familia?|a amar y a compartir|a pelear|a mentir
+0|F|En casa solo ayudan los adultos.
+1|¿Quiénes forman la Sagrada Familia?|Jesús, María y José|Pedro, Juan y Pablo|Adán, Eva y Noé
+1|¿Cómo demuestro amor a mi familia?|ayudando y obedeciendo|gritando|escondiéndome
+1|¿Qué hago con mis juguetes después de jugar?|los recojo|los dejo tirados|los escondo bajo la cama
+1|V|En la familia aprendemos a rezar.
+2|Mi hermanito llora porque no alcanza su vaso. ¿Qué hago?|se lo paso con cariño|me burlo de él|lo ignoro
+2|¿Quiénes acompañan también a la familia?|los abuelos, tíos y primos|solo los vecinos|solo los maestros
+2|¿Con qué empieza una familia, según el plan de Dios?|con el matrimonio de un papá y una mamá|con una fiesta de cumpleaños muy grande|con una casa nueva y llena de cosas
+2|¿Cuál es una obra de amor en casa?|cuidar a mi hermano pequeño|quitarle sus cosas|no hablarle a nadie
+K|{x}: ¿une o desune a la familia?|¿Une o desune a la familia?|une: comer juntos; rezar juntos; pedir perdón; ayudar en la cocina|desune: gritar; decir mentiras; no escuchar; pelear por todo
+#v10
+0|¿Cómo es un buen amigo?|me escucha y me ayuda|me quita mis cosas|se burla de mí
+0|V|Jesús es mi mejor amigo.
+1|¿Qué hago si mi amigo se cae?|lo ayudo a levantarse|me río|sigo jugando
+1|¿Qué hago si mi amigo me invita a hacer algo malo?|le digo que no|lo hago para quedar bien|se lo oculto a todos
+1|¿Quién debe quedarse fuera del juego?|nadie|el más lento|el nuevo
+1|F|Un buen amigo me dice mentiras.
+2|Dos amigos queremos jugar cosas distintas. ¿Qué hacemos?|nos ponemos de acuerdo o nos turnamos|dejamos de ser amigos para siempre|gana el que grite más fuerte
+2|¿Cómo se hace un nuevo amigo?|saludando e invitando a jugar|esperando sin hablar|presumiendo mis cosas
+2|¿Qué hago si lastimé a mi amigo?|le pido perdón|hago como si nada|le echo la culpa
+2|¿Qué demostró Jesús al dar la vida por nosotros?|que es el mejor amigo|que estaba enojado|que no nos conocía
+K|{x}: ¿lo hace un buen amigo?|¿Lo hace un buen amigo?|sí: compartir su juego; decirme la verdad; alegrarse cuando gano; esperarme si voy lento|no: romper mis cosas a propósito; dejarme solo en el recreo; animarme a mentir; burlarse de mi dibujo
+#v11
+0|¿Qué es ser honesto?|decir la verdad|decir mentiras|esconder las cosas
+0|F|Está bien tomar lo que no es mío si nadie me ve.
+1|¿Qué pasa cuando digo muchas mentiras?|ya no confían en mí|me creen más|me dan premios
+1|¿Qué hago con lo que prometo?|lo cumplo|lo olvido|lo cambio cuando quiero
+1|No hice la tarea. ¿Qué le digo a la maestra?|la verdad|que me la robaron|que se la comió el perro
+1|V|Decir la verdad a veces cuesta, pero es lo correcto.
+2|Vi que un niño tomó el dinero de otro. ¿Qué hago?|se lo cuento a la maestra|me quedo callado|le pido la mitad
+2|¿Quién dijo «La verdad los hará libres»?|Jesús|Moisés|san José
+2|Gané un juego haciendo trampa. ¿Fui honesto?|no, porque engañé|sí, porque gané|sí, porque nadie lo vio
+2|¿Qué siento cuando digo la verdad?|paz en mi corazón|miedo para siempre|enojo con todos
+K|{x}: ¿es honesto o no es honesto?|¿Honesto o no?|es honesto: devolver lo que encontré; decir que yo lo rompí; hacer mi propio examen; cumplir lo que prometí|no es honesto: copiar en el examen; culpar a mi hermano; quedarme con el cambio; inventar un pretexto
+#v12
+0|¿Qué palabra digo cuando me equivoco?|perdón|gracias|adiós
+0|F|Pedir perdón es de cobardes.
+1|¿Qué hago después de pedir perdón?|trato de reparar el daño|vuelvo a hacer lo mismo|me escondo
+1|¿Qué es perdonar?|dejar el enojo y volver a ser amigos|guardar rencor mucho tiempo|vengarme cuando no me vean
+1|¿Quién nos perdona siempre?|Dios|nadie|solo mis amigos
+1|V|Reconocer mi error es el primer paso para pedir perdón.
+2|Tiré la torre de bloques de mi hermana. ¿Cómo reparo?|le pido perdón y la ayudo a armarla|me voy a otro cuarto a jugar solo|le digo que la tiró el gato
+2|O|Ordena los pasos para pedir perdón|reconozco mi error|pido perdón|reparo el daño|trato de cambiar
+2|¿En qué oración decimos «perdona nuestras ofensas»?|en el Padre nuestro|en el Ave María|en el Gloria
+2|Mi amigo me pidió perdón, pero sigo enojado. ¿Qué hago?|le pido ayuda a Jesús para perdonar|le dejo de hablar para siempre|le hago lo mismo que él me hizo
+K|{x}: ¿ayuda a hacer las paces?|¿Ayuda a hacer las paces?|sí: decir «perdóname»; dar la mano; escuchar al otro; devolver lo que quité|no: gritar más fuerte; poner apodos; dejar de hablarle; acusarlo de todo
+#v4
+0|¿Qué es un conflicto?|un desacuerdo entre personas|una fiesta de cumpleaños|un juego de mesa nuevo
+0|¿Qué hago primero cuando hay un problema?|me calmo|grito|empujo
+0|F|Los problemas se arreglan a gritos.
+1|Dos niños quieren el mismo columpio. ¿Qué hacen?|se turnan|se pelean|lo rompen
+1|¿Cómo digo lo que siento en un conflicto?|con palabras y sin interrumpir|con golpes y empujones|con burlas y apodos
+1|¿Qué hacemos al final de un conflicto?|pedir perdón y perdonar|dejar de hablarnos|vengarnos
+1|V|Compartir ayuda a resolver conflictos.
+2|Mi primo y yo queremos la misma pelota. ¿Qué solución es justa?|jugar juntos con ella|que me la quede yo|esconderla
+2|¿Qué significa turnarse?|primero uno y luego el otro|todos al mismo tiempo|solo el más fuerte
+2|¿Qué pasa si los dos gritamos al mismo tiempo?|nadie escucha a nadie|el problema se arregla|nos ponemos contentos
+2|¿Quién le preguntó a Jesús cuántas veces debía perdonar?|san Pedro|san Juan|san José
+K|{x}: ¿arregla el problema o lo hace más grande?|¿Arregla el problema o lo agranda?|arregla: hablar con calma; escuchar al otro; turnarse; pedir perdón|lo hace más grande: empujar; gritar; quitar las cosas; decir groserías
+#v5
+0|¿Cuál es un derecho de los niños?|tener un nombre y una familia|tener todos los juguetes|no ir nunca al doctor
+0|¿A dónde me llevan si me enfermo?|al doctor|al cine|al parque
+0|F|Los niños no tienen derechos.
+1|Si tengo derecho a jugar, ¿qué me toca?|cuidar mis juguetes|romperlos|quitárselos a otros
+1|¿Qué derecho se cumple cuando voy a la escuela?|el derecho a la educación|el derecho a jugar|el derecho al descanso
+1|¿Qué derecho se cumple cuando me vacunan?|el derecho a la salud|el derecho al nombre|el derecho al juego
+1|V|Los adultos deben cuidar que se cumplan mis derechos.
+2|¿Qué es una responsabilidad?|algo que me toca cumplir|algo que me regalan|algo que se compra
+2|¿Qué derecho tengo cuando quiero decir lo que pienso?|a ser escuchado|a mandar a todos|a gritar en clase
+2|¿Quiénes querían alejar a los niños de Jesús?|los apóstoles|los pastores|los Reyes Magos
+2|¿Desde cuándo es valiosa la vida de una persona?|desde que está en el vientre de su mamá|desde que entra a la escuela primaria|desde que aprende a hablar y caminar
+K|{x}: ¿es un derecho o una responsabilidad?|¿Derecho o responsabilidad?|derecho: ir a la escuela; recibir atención médica; jugar y descansar; tener un nombre|responsabilidad: hacer la tarea; cuidar mis útiles; respetar a mis compañeros; recoger mi cuarto
+#v6
+0|¿Qué hago antes de comer, según la regla de casa?|me lavo las manos|corro por la sala|prendo la tele
+0|¿Qué hago mientras llega mi turno?|espero con paciencia|me meto en la fila|empujo
+0|F|Los juegos no tienen reglas.
+1|¿Qué es un acuerdo?|una regla que decidimos juntos|una orden de un solo niño|un castigo
+1|¿Qué pasa si todos cumplen las reglas del juego?|el juego es justo y divertido|nadie quiere jugar|siempre gana el mismo
+1|¿Qué hago con el material del salón?|lo cuido|lo rompo|me lo llevo a casa
+1|F|Hacer trampa es cumplir las reglas.
+2|¿Para qué hay semáforos en la calle?|para que todos crucemos seguros|para adornar las esquinas|para que los coches corran
+2|En mi familia acordamos recoger la mesa entre todos. ¿Qué es eso?|un acuerdo|un regaño|un juego
+2|¿Qué pasaría en el salón si nadie siguiera las reglas?|habría desorden y no aprenderíamos|todo saldría mucho mejor|habría más silencio
+2|¿Quién nos dio los Diez Mandamientos?|Dios|los maestros|los reyes
+K|{x}: ¿regla de la casa, del salón o de la calle?|¿Dónde se cumple esta regla?|casa: tender mi cama; lavarme las manos antes de comer; recoger mis juguetes|salón: levantar la mano para hablar; guardar el material; formarme en la fila|calle: cruzar por la esquina; respetar el semáforo; caminar por la banqueta
+#v13
+0|¿Qué es compartir?|dar de lo mío a quien lo necesita|guardar todo para mí|quitarle a otro lo suyo
+0|F|Solo se pueden compartir los juguetes.
+1|¿Cuántos peces compartió el niño del Evangelio?|dos|cinco|doce
+1|¿Qué hago si un compañero no entiende la tarea?|se la explico|me burlo|le escondo el cuaderno
+1|¿Qué hizo Jesús con los panes y los peces?|alimentó a miles de personas|los guardó en una canasta|los tiró al mar
+1|V|Acompañar a un abuelito es una forma de ayudar.
+2|Tengo dos galletas y mi amigo ninguna. ¿Qué hago?|le doy una|me como las dos rápido|las escondo
+2|¿Qué puedo compartir aunque no tenga dinero?|mi tiempo y mi ayuda|nada|solo mis sobras
+2|¿Qué nos enseña el niño de los panes y los peces?|que lo poco, compartido, alcanza|que es mejor no dar nada|que solo los ricos comparten
+2|¿A quién ayudo cuando ayudo al que lo necesita?|a Jesús mismo|a nadie|solo a mí
+K|{x}: ¿es compartir o es ser egoísta?|¿Compartir o ser egoísta?|compartir: prestar mis colores; invitar de mi fruta; dejar que otro use el columpio; regalar un juguete que ya no uso|ser egoísta: esconder los dulces; no prestar nada; querer siempre el primer lugar; acaparar la pelota
+#v16
+0|¿Cómo saludo a mis abuelos?|con cariño y respeto|con gritos|sin mirarlos
+0|F|A los maestros no hay que escucharlos.
+1|¿Qué dice el cuarto mandamiento?|«Honra a tu padre y a tu madre»|«No robarás lo que es de otro»|«No dirás mentiras a nadie»
+1|¿Qué puedo preguntarle a una persona mayor?|cómo era su vida de niño|por qué es tan vieja|cuándo se va
+1|¿Qué hago cuando un adulto me habla?|lo escucho con atención|le doy la espalda|sigo jugando
+1|V|Ayudar a un anciano a cargar su bolsa es respeto.
+2|¿Qué día es la fiesta de san Joaquín y santa Ana?|el 26 de julio|el 25 de diciembre|el 12 de diciembre
+2|Mi abuela camina despacio. ¿Qué hago?|voy a su paso y la acompaño|la dejo atrás|la apuro con gritos
+2|¿A quiénes más respetamos, además de papá y mamá?|a abuelos, maestros y ancianos|solo a los niños grandes|a nadie más
+2|¿Qué obedezco de lo que me piden los mayores?|lo que es bueno|todo, aunque sea malo|nada
+K|{x}: ¿es respeto o falta de respeto?|¿Respeto o falta de respeto?|respeto: ceder el paso; decir «buenos días»; escuchar sus historias; ayudar a cargar|falta de respeto: interrumpir a gritos; remedar cómo hablan; no contestar el saludo; reírme de sus canas
+#v14
+0|¿Quién nos regaló la naturaleza?|Dios|una tienda|nadie
+0|F|Tirar basura en el río cuida la naturaleza.
+1|¿Qué es reutilizar?|volver a usar algo|tirarlo a la basura|comprar otro igual
+1|¿Qué es reciclar?|transformar algo usado en algo nuevo|esconder la basura en un rincón|usar más bolsas de plástico
+1|¿Qué cuidamos en la naturaleza?|las plantas, los animales, el agua y el aire|solo los juguetes de mi cuarto|solo las casas y los coches
+1|V|San Francisco llamaba «hermana» al agua.
+2|Hago una maceta con una botella vieja. ¿Qué R practico?|reutilizar|reducir|ninguna
+2|¿Cómo se llama el canto de san Francisco a la creación?|el Cántico de las criaturas|el Himno Nacional|las mañanitas
+2|¿Para qué apago la luz al salir de un cuarto?|para no desperdiciar energía|para asustar a mi hermano|para que haga más frío
+2|¿Cómo llamaba san Francisco a la tierra?|madre tierra|hermano lobo|señora luna
+K|{x}: ¿cuida o daña la naturaleza?|¿Cuida o daña la naturaleza?|cuida: regar las plantas; separar la basura; caminar en vez de usar el coche; cerrar la llave|daña: arrancar las flores; maltratar a los animales; quemar basura; tirar pilas al río
+#v7
+0|¿Qué hago si un desconocido me ofrece un regalo?|digo que no y me alejo|lo acepto|me voy con él
+0|¿A quién le cuento lo que me pasa?|a mis papás o a un adulto de confianza|a nadie, me lo guardo para mí|a un desconocido de la calle
+0|F|Puedo irme con alguien sin permiso de mis papás.
+1|¿Qué datos debo saberme de memoria?|mi nombre completo y mi dirección|el nombre de mis juguetes|mis caricaturas favoritas
+1|¿Para qué sirve el 911?|para pedir ayuda en una emergencia|para pedir una pizza|para hacer bromas
+1|¿Quién me cuida siempre, además de mis papás?|mi ángel de la guarda|mi juguete favorito|un desconocido amable
+1|¿Cuál de estas es una emergencia?|un incendio|se acabó la leche|perdí mi lápiz
+1|F|Llamar al 911 para jugar es una buena idea.
+2|Un señor que no conozco dice: «Tu mamá me mandó por ti». ¿Qué hago?|no voy y busco a un adulto de confianza|me voy con él para no hacer esperar|le doy mi dirección y mi teléfono
+2|¿Quién nos defiende del mal, según la fe?|san Miguel Arcángel|san Nicolás|san Valentín
+2|Si alguien me toca de una forma que me incomoda, ¿de quién es la culpa?|nunca es mía|siempre es mía|de los dos por igual
+2|Me perdí en el parque. ¿Qué hago?|pido ayuda a una mamá con niños|camino solo hasta mi casa|me escondo entre los árboles
+K|{x}: ¿es seguro o es peligroso?|¿Seguro o peligroso?|seguro: avisar a dónde voy; ir de la mano al cruzar; saberme el teléfono de casa; pedir ayuda a mi maestra|peligroso: subirme al coche de un extraño; abrir la puerta a desconocidos; irme solo sin avisar; aceptar dulces de un extraño
+#v15
+0|¿Cómo cuido mi cuerpo?|con higiene, comida sana y descanso|con muchos dulces y refrescos|sin dormir y sin bañarme
+0|F|Alguien tiene derecho a lastimar mi cuerpo.
+1|¿Qué partes de mi cuerpo son privadas?|las que cubre mi ropa interior|las manos y los dedos|la cabeza y las orejas
+1|¿Qué digo si alguien quiere tocarme de un modo que no me gusta?|¡NO!|bueno|no sé
+1|V|Mi cuerpo es muy valioso.
+2|O|Ordena lo que hago si alguien me hace sentir incómodo|digo NO|me alejo|lo cuento a un adulto de confianza
+2|Alguien me dice: «Es nuestro secreto, no le digas a tu mamá». ¿Qué hago?|se lo cuento a mi mamá|guardo el secreto|me escondo
+2|¿Qué secreto sí es bueno?|una fiesta sorpresa para la abuela|uno que me hace sentir mal|uno que me da miedo
+2|Conté lo que me pasó y no me creyeron. ¿Qué hago?|se lo cuento a otro adulto de confianza|ya no le digo nada a nadie|pienso que todo fue mi culpa
+K|{x}: ¿sorpresa buena o secreto que debo contar?|¿Sorpresa buena o secreto que debo contar?|sorpresa buena: el regalo para papá; el pastel sorpresa de mi hermana; la fiesta de la abuela|secreto que debo contar: un secreto que me da miedo; un secreto que me hace sentir mal; un secreto sobre tocar mi cuerpo; un secreto que debo ocultar a mis papás
+#v8
+0|¿Cuántos símbolos patrios tiene México?|tres|uno|diez
+0|¿Qué color está en medio de la bandera?|el blanco|el verde|el rojo
+0|F|El Himno Nacional se canta acostado.
+1|¿Qué devora el águila del escudo?|una serpiente|un pez|un ratón
+1|¿En qué franja de la bandera está el escudo?|en la blanca|en la verde|en la roja
+1|¿Con qué mano saludamos a la bandera?|con la derecha|con la izquierda|con las dos
+1|V|Los símbolos patrios nos unen como mexicanos.
+2|¿Quién escribió la letra del Himno Nacional?|Francisco González Bocanegra|Jaime Nunó Roca|Miguel Hidalgo y Costilla
+2|¿Quién compuso la música del Himno Nacional?|Jaime Nunó|Benito Juárez|Francisco González Bocanegra
+2|¿Qué ciudad fundaron los mexicas donde vieron el águila?|México-Tenochtitlan|Guadalajara|Monterrey
+2|¿Qué día honramos especialmente a la bandera?|el 24 de febrero|el 16 de septiembre|el 20 de noviembre
+K|{x}: ¿respeto o falta de respeto a los símbolos patrios?|¿Respeto o falta de respeto?|respeto: cantar el himno de pie; saludar a la bandera; guardar silencio en los honores; quitarme la gorra|falta de respeto: platicar en los honores; reírme durante el himno; jugar con la bandera; darle la espalda
