@@ -1,0 +1,174 @@
+// Sacramentos (Confesión, Primera Comunión y Confirmación) — profundización y banco ampliado
+#sc1
+Z|La <b>gracia santificante</b> es la vida de Dios en mi alma: la recibí en el Bautismo.|El <b>pecado</b> es decirle «no» a Dios.|El <b>pecado mortal</b> rompe la amistad con Dios; necesita materia grave, pleno conocimiento y pleno consentimiento.|El <b>pecado venial</b> no la rompe, pero la enfría. Dios siempre está dispuesto a perdonar.
+E|Gracia: ser hijo y amigo de Dios|Tres condiciones: grave, lo sé y lo quiero
+S|Sin querer, olvidé rezar anoche porque me quedé dormido. ¿Es pecado mortal?|Reviso las tres condiciones: materia grave, saberlo y quererlo.|No lo hice queriendo: me venció el sueño.|Falta el consentimiento, y tampoco es materia grave.|=No: no hubo voluntad de ofender a Dios.
+I|✨ Gracia: La vida de Dios en mí.|🚫 Pecado: Decirle «no» a Dios.|💔 Mortal: Rompe la amistad con Dios.|🤍 Perdón: Dios nunca se cansa de perdonar.
+0|V|La gracia nos hace hijos y amigos de Dios.
+1|¿Qué nos quita el pecado mortal?|la gracia santificante|el Bautismo recibido|el nombre de pila
+2|¿Para qué vino Jesús al mundo?|para salvarnos del pecado|para ser rey de un país|para hacerse famoso
+2|F|Quien comete un pecado mortal ya no puede ser perdonado nunca.
+K|{x}: ¿fortalece o daña mi amistad con Dios?|¿Fortalece o daña?|fortalece: rezar cada día; ir a Misa el domingo; ayudar en casa; pedir perdón|daña: mentir; desobedecer a propósito; pelear con mis hermanos; tomar lo ajeno
+#sc2
+Z|El <b>examen de conciencia</b> es repasar mi vida delante de Dios antes de confesarme.|Pido luz al <b>Espíritu Santo</b> y me guío con los <b>Diez Mandamientos</b>.|Me pregunto cómo he amado a Dios, a los demás y a mí mismo.|Se hace con calma y confianza, para conocerme y cambiar.
+E|¿Recé? ¿Obedecí? ¿Dije la verdad?|Si olvido un pecado sin querer, Dios lo perdona
+S|¿Cómo hago mi examen de conciencia antes de confesarme?|Busco un lugar tranquilo y pido luz al Espíritu Santo.|Repaso los mandamientos, uno por uno, y pienso en mis faltas.|Me arrepiento y, si quiero, las anoto para no olvidarlas.|=En silencio, con ayuda del Espíritu Santo y los Diez Mandamientos.
+I|🕊️ Espíritu Santo: Le pido su luz.|📜 Mandamientos: Mi guía para revisar.|🔦 Sinceridad: Reconozco mis faltas.|🙂 Confianza: Dios quiere perdonarme.
+0|F|El examen de conciencia se hace después de confesarse.
+0|¿Para qué sirve el examen de conciencia?|para reconocer mis pecados|para presumir mis logros|para juzgar a los demás
+1|¿Dónde conviene hacer el examen de conciencia?|en un lugar tranquilo y en silencio|frente a la televisión encendida|en medio del recreo, jugando
+2|¿Qué hago si recuerdo después un pecado que olvidé sin querer?|lo digo en mi siguiente confesión|me angustio y dejo de rezar|no me confieso nunca más
+2|¿De quién son los pecados que reviso en el examen?|los míos|los de mis hermanos|los de mis amigos
+P|En el examen de conciencia, «{x}» corresponde al…||¿Recé cada día? = primer mandamiento|¿Usé mal el nombre de Dios? = segundo mandamiento|¿Pegué o insulté? = quinto mandamiento|¿Fui puro en lo que vi o dije? = sexto mandamiento|¿Tomé algo ajeno? = séptimo mandamiento|¿Tuve envidia de lo de otros? = décimo mandamiento
+#sc3
+Z|<b>Arrepentirse</b> es sentir dolor por haber ofendido a Dios, que es tan bueno.|La <b>contrición</b> nace del amor a Dios; la <b>atrición</b>, del temor al castigo: las dos sirven para confesarse.|El <b>propósito de enmienda</b> es decidir no volver a pecar y evitar las ocasiones.|Un buen propósito es concreto.
+E|«Dios mío, me arrepiento de todo corazón…»|Propósito concreto: «Voy a obedecer a la primera»
+S|Casi siempre me confieso de no obedecer cuando me piden apagar la tableta. ¿Cómo hago un buen propósito?|Pienso cuándo ocurre: cuando estoy a la mitad de un juego.|Escojo algo concreto: poner una alarma y apagar a la primera.|Pido ayuda a Jesús y a la Virgen para cumplirlo.|=Un propósito concreto sobre la ocasión en que más caigo.
+I|💧 Dolor: Me duele haber ofendido a Dios.|❤️ Contrición: Nace del amor.|🎯 Propósito: Decido cambiar.|🙏 Ayuda: La pido a Dios.
+0|F|Basta con sentir pena: no hace falta proponerse cambiar.
+0|¿A quién ofende el pecado, ante todo?|a Dios|a nadie|solo a mí
+1|¿Qué es la atrición?|arrepentirse por temor al castigo|no arrepentirse de nada|alegrarse del pecado
+1|¿Qué es una «ocasión de pecado»?|lo que me lleva a pecar|un día de fiesta|una oración
+2|¿Cuál es un propósito concreto?|rezar cada noche antes de dormir|ser mejor en todo, algún día|portarme bien de ahora en adelante
+2|¿Qué hago si vuelvo a caer en lo mismo?|me levanto y me confieso otra vez|dejo de confesarme|pienso que Dios ya no me perdona
+#sc4
+Z|Los <b>cinco pasos</b> de la Confesión: examen de conciencia, dolor de los pecados, propósito de enmienda, decir los pecados al sacerdote y cumplir la penitencia.|Digo mis pecados con sencillez y sin esconder ninguno grave.|El sacerdote me da la <b>absolución</b> en nombre de Jesús.|El <b>sigilo sacramental</b> le prohíbe revelar lo que escucha.
+E|«Ave María Purísima» — «Sin pecado concebida»|«Yo te absuelvo de tus pecados…»
+S|¿Qué digo al empezar mi confesión?|Saludo: «Ave María Purísima».|Hago la señal de la cruz y digo cuánto tiempo hace que no me confieso.|Después digo mis pecados con sencillez.|=El saludo, la señal de la cruz, cuándo fue mi última confesión y mis pecados.
+I|🔍 Examen: Reviso mi conciencia.|💧 Dolor y propósito: Me arrepiento y decido cambiar.|🗣️ Decir los pecados: Con sencillez.|✅ Penitencia: La cumplo pronto.
+0|V|En la Confesión, el sacerdote perdona en nombre de Jesús.
+0|¿Qué hago primero al entrar al confesionario?|saludo y hago la señal de la cruz|rezo la penitencia que me toca|me despido y doy las gracias
+1|¿Cómo digo mis pecados?|con sencillez y sinceridad|con muchos pretextos|culpando a los demás
+1|¿Qué respondo al recibir la absolución?|Amén|Gracias, adiós|Sin pecado concebida
+2|¿Por qué puedo confiar mis pecados al sacerdote?|porque nunca puede revelarlos|porque los olvida de inmediato|porque no los escucha
+2|¿Qué oración rezo en la confesión para expresar mi arrepentimiento?|el acto de contrición|el Gloria|el Credo
+P|¿Qué paso de la Confesión es «{x}»?||revisar mi vida con los mandamientos = el examen de conciencia|sentir pena por haber ofendido a Dios = el dolor de los pecados|decidir no volver a pecar = el propósito de enmienda|contar mis faltas al sacerdote = decir los pecados|rezar lo que el sacerdote me pidió = cumplir la penitencia
+#sc5
+Z|La <b>penitencia</b> es una oración o una obra buena que el sacerdote me pide: no es un castigo, es reparar y agradecer.|Se cumple lo antes posible.|<b>Reparar</b>: devuelvo lo que tomé y digo la verdad si dañé a alguien.|Después de confesarme, mi alma queda limpia y llena de gracia: ¡hay <b>fiesta en el cielo</b>!
+E|Zaqueo devolvió lo que había quitado|Confesarme seguido: por ejemplo, cada mes
+S|Dije una mentira que hizo que castigaran a mi hermano. Ya me confesé. ¿Qué me falta?|Dios ya me perdonó en la Confesión.|Pero mi hermano sigue castigado por mi culpa.|Debo decir la verdad a mis papás y pedirle perdón a él.|=Reparar el daño: decir la verdad y pedir perdón a mi hermano.
+I|🙏 Penitencia: Oración u obra buena.|🤝 Reparar: Arreglo el daño que hice.|🎉 Alegría: Hay fiesta en el cielo.|📅 Constancia: Me confieso seguido.
+0|F|La penitencia es un castigo que pone el sacerdote.
+0|¿Qué siento después de una buena confesión?|paz y alegría|miedo y enojo|sueño y hambre
+1|¿Qué hago si tomé algo que no era mío?|lo devuelvo|lo escondo mejor|lo regalo
+1|¿Quién me indica la penitencia?|el sacerdote que me confiesa|mis papás al llegar a casa|mis amigos de la catequesis
+2|¿Por qué conviene confesarse con frecuencia?|para crecer en gracia y vencer mis faltas|porque es obligatorio hacerlo cada día|para que los demás me vean en la fila
+2|¿Qué parábola muestra al Padre que perdona con alegría?|la del hijo pródigo|la del sembrador|la de la red
+2|V|Reparar el daño es parte de un arrepentimiento verdadero.
+#sc6
+Z|En la <b>Última Cena</b>, Jesús instituyó la Eucaristía: «Esto es mi Cuerpo… Esta es mi Sangre».|En la Misa, por las palabras del sacerdote y el poder del Espíritu Santo, el pan y el vino se convierten en el <b>Cuerpo y la Sangre</b> de Jesús.|Ese cambio se llama <b>transubstanciación</b>.|Jesús queda presente en el <b>Sagrario</b>.
+E|«Hagan esto en memoria mía»|La lámpara encendida: Jesús está ahí
+S|Si la Hostia consagrada se ve igual que antes, ¿cómo sé que es Jesús?|Mis ojos ven pan, porque su aspecto no cambia.|Pero Jesús dijo: «Esto es mi Cuerpo», y Él no miente.|Creo en su palabra: eso es la fe.|=Por la fe en la palabra de Jesús, que no puede engañarnos.
+I|🍞 Última Cena: Jesús instituye la Eucaristía.|✨ Consagración: El pan y el vino se convierten en Jesús.|⛪ Sagrario: Jesús se queda con nosotros.|🕯️ Lámpara: Señala su presencia.
+0|F|Después de la consagración, la Hostia es solo un símbolo de Jesús.
+0|¿Qué día recordamos la Última Cena?|el Jueves Santo|el Domingo de Ramos|el Viernes Santo
+1|¿En qué se convierte el vino en la consagración?|en la Sangre de Jesús|en agua bendita|en el santo crisma
+1|¿Qué mandó Jesús a los apóstoles en la Última Cena?|«Hagan esto en memoria mía»|«Vayan a pescar al lago»|«Guarden silencio»
+2|¿Con qué creemos que la Hostia es Jesús?|con la fe|con la vista|con el gusto
+2|¿Qué nació junto con la Eucaristía en la Última Cena?|el sacerdocio|el Bautismo|el Rosario
+#sc7
+Z|La Misa tiene dos grandes partes: la <b>Liturgia de la Palabra</b> y la <b>Liturgia eucarística</b>.|En la primera escuchamos las lecturas, el salmo, el Evangelio y la homilía, y rezamos el Credo.|En la segunda: ofertorio, consagración, Padre nuestro, saludo de paz y Comunión.|Al final, el sacerdote nos bendice y nos envía.
+E|El Evangelio se escucha de pie|«Pueden ir en paz»: empieza nuestra misión
+S|Estamos de pie escuchando el Evangelio. ¿En qué parte de la Misa vamos y qué sigue?|El Evangelio pertenece a la Liturgia de la Palabra.|Después vienen la homilía, el Credo y la oración de los fieles.|Luego empieza la Liturgia eucarística, con el ofertorio.|=En la Liturgia de la Palabra; siguen la homilía y el Credo.
+I|📖 Palabra: Lecturas, Evangelio y homilía.|🍞 Eucaristía: Ofertorio, consagración y Comunión.|🙏 Padre nuestro: La oración que Jesús enseñó.|🌍 Envío: Llevar a Jesús a los demás.
+0|F|La homilía va antes del Evangelio.
+0|¿Qué se presenta en el ofertorio?|el pan y el vino|las lecturas|la bendición final
+1|¿Qué rezamos antes de darnos la paz?|el Padre nuestro|el Gloria|el Credo
+1|¿Con qué canto alabamos a Dios al inicio de la Misa?|con el Gloria|con el Santo|con el Cordero de Dios
+2|¿A qué nos envía el sacerdote al final de la Misa?|a vivir y anunciar lo que celebramos|a descansar todo el día|a olvidar lo que escuchamos
+2|¿Quién preside la Misa en nombre de Cristo?|el sacerdote|el monaguillo|el coro
+K|{x}: ¿Liturgia de la Palabra o Liturgia eucarística?|¿De la Palabra o eucarística?|Liturgia de la Palabra: las lecturas; el salmo; el Evangelio; la homilía; el Credo|Liturgia eucarística: el ofertorio; el Santo; la consagración; el Padre nuestro; la Comunión
+#sc8
+Z|Para comulgar hay que estar en <b>gracia de Dios</b>: sin pecado mortal.|Si tengo un pecado grave, primero me <b>confieso</b>.|El <b>ayuno eucarístico</b> es no comer ni beber nada una hora antes de comulgar; el agua y las medicinas sí se permiten.|Llego a tiempo, con respeto, sabiendo a quién voy a recibir.
+E|«Señor, no soy digno de que entres en mi casa…»|Agua y medicinas: no rompen el ayuno
+S|La Misa es a las 12:00 y la Comunión será hacia las 12:40. ¿Hasta qué hora puedo desayunar?|El ayuno es de una hora antes de comulgar, no antes de la Misa.|Una hora antes de las 12:40 son las 11:40.|Después de esa hora solo puedo tomar agua.|=Hasta las 11:40.
+I|🤍 En gracia: Sin pecado mortal.|⏰ Ayuno: Una hora antes de comulgar.|💧 Agua: Sí se puede tomar.|👔 Respeto: Llego a tiempo y bien dispuesto.
+0|F|Para comulgar da igual estar o no en gracia de Dios.
+0|¿Qué recibo en la Comunión?|a Jesús mismo|un pan bendito|un recuerdo de la Misa
+1|¿Hasta qué momento se cuenta la hora de ayuno?|hasta el momento de comulgar|hasta que empieza la Misa|hasta que llego a la iglesia
+1|¿Cómo me visto para ir a Misa?|con respeto y limpieza|como para ir a la playa|con lo primero que encuentre
+2|¿Qué pecados se perdonan también al comulgar con amor?|los pecados veniales|los pecados mortales|ningún tipo de pecado
+2|¿Qué hago si dudo de haber cometido un pecado grave?|pregunto al sacerdote y me confieso|comulgo sin pensar más en ello|dejo de ir a Misa por un tiempo
+2|V|Prepararme para comulgar es una muestra de amor a Jesús.
+K|{x}: ¿rompe el ayuno eucarístico?|¿Rompe el ayuno?|sí lo rompe: un dulce; un vaso de leche; un chicle; unas galletas|no lo rompe: el agua simple; una medicina
+#sc9
+Z|Me acerco a comulgar con las manos juntas y en silencio.|El ministro dice: «El Cuerpo de Cristo», y respondo <b>«Amén»</b>: sí, creo.|Puedo comulgar en la <b>boca</b> o en la <b>mano</b>; consumo la Hostia ahí mismo.|Al volver a mi lugar hago la <b>acción de gracias</b>: platico con Jesús, que está en mí.
+E|Mano izquierda sobre la derecha, como un trono|Doy gracias, le digo que lo amo y le pido por mi familia
+S|¿Qué le digo a Jesús después de comulgar?|Le doy gracias por venir a mi corazón.|Le digo que lo amo y le pido perdón por mis faltas.|Le pido por mi familia, mis amigos y quienes sufren.|=Gracias, te amo, perdóname y te pido por los demás.
+I|🙏 Manos juntas: Voy con recogimiento.|🗣️ «Amén»: Sí, creo.|🤲 Mano o boca: Con respeto.|💛 Acción de gracias: Hablo con Jesús.
+0|F|La Hostia que recibo al comulgar es un pan cualquiera.
+0|¿Quién me da la Comunión?|el sacerdote o un ministro|mi padrino de Bautismo|el niño que va adelante
+1|¿Qué gesto hago antes de recibir la Comunión?|una reverencia|un saludo con la mano|un aplauso
+1|Si comulgo en la mano, ¿con cuál llevo la Hostia a la boca?|con la derecha|con la izquierda|con las dos a la vez
+2|¿Por qué los minutos después de comulgar son tan valiosos?|porque Jesús está dentro de mí|porque ya casi termina la Misa|porque puedo platicar un rato
+2|¿Por quién puedo pedir a Jesús después de comulgar?|por mi familia y por quien sufre|solo por mis juguetes nuevos|por nadie: no se debe pedir
+2|F|Después de comulgar ya no hace falta rezar ni dar gracias.
+K|{x}: ¿correcto o incorrecto al comulgar?|¿Correcto o incorrecto?|correcto: caminar con las manos juntas; responder «Amén»; consumir la Hostia ahí mismo; dar gracias en silencio|incorrecto: llevarme la Hostia a mi lugar; platicar en la fila; mascar chicle; salir corriendo de la iglesia
+#sc10
+Z|La Primera Comunión no es la última: vamos a <b>Misa cada domingo</b> y fiesta de guardar.|La Iglesia pide comulgar al menos una vez al año, por Pascua; lo ideal es hacerlo cada domingo, en gracia.|Cuando no puedo comulgar, hago una <b>comunión espiritual</b>.|También puedo <b>visitar</b> a Jesús en el Sagrario y servir en mi parroquia.
+E|«Jesús mío, ven espiritualmente a mi corazón»|San Tarsicio: patrono de los monaguillos
+S|Estoy enfermo y no puedo ir a Misa el domingo. ¿Qué hago?|Estar enfermo es un motivo serio: no es pecado faltar.|Puedo seguir la Misa por televisión o leer el Evangelio del día.|Hago una comunión espiritual: le pido a Jesús que venga a mi corazón.|=Rezo, sigo la Misa como pueda y hago una comunión espiritual.
+I|⛪ Domingo: Misa cada semana.|💛 Comunión espiritual: Deseo recibir a Jesús.|🕯️ Visita: Jesús me espera en el Sagrario.|🔔 Servir: Monaguillo, coro o catequesis.
+0|F|Después de la Primera Comunión ya no hace falta volver a comulgar.
+0|¿Qué hacemos los católicos en una fiesta de guardar?|vamos a Misa, como el domingo|guardamos todos los juguetes|nos quedamos sin rezar
+1|¿Cuál es lo ideal después de la Primera Comunión?|comulgar cada domingo, en gracia|comulgar una sola vez|no volver a Misa
+1|¿Qué hago en una comunión espiritual?|le pido a Jesús que venga a mi corazón|recibo la Hostia de manos del ministro|le digo mis pecados al sacerdote
+2|¿Cuál es una manera de servir en mi parroquia?|ayudar en el altar como monaguillo|sentarme siempre en la última banca|llegar cuando la Misa ya terminó
+2|¿Qué hizo san Tarsicio?|dio la vida por proteger la Eucaristía|escribió uno de los cuatro Evangelios|fundó una orden de monjes misioneros
+#sc11
+Z|La <b>Confirmación</b> perfecciona la gracia del Bautismo.|Nos da el <b>Espíritu Santo</b> con más fuerza, como a los apóstoles en Pentecostés.|Nos hace <b>testigos</b> de Cristo, con palabras y obras.|Imprime un <b>carácter</b> o sello que no se borra: se recibe una sola vez.
+E|Iniciación cristiana: Bautismo, Confirmación y Eucaristía|Pentecostés: de miedosos a valientes
+S|¿Qué cambió en los apóstoles en Pentecostés?|Antes estaban encerrados por miedo.|El Espíritu Santo bajó sobre ellos como lenguas de fuego.|Salieron a predicar con valentía y muchos se bautizaron.|=Pasaron del miedo a la valentía para anunciar a Jesús.
+I|🔥 Espíritu Santo: Viene con más fuerza.|💪 Testigos: Con palabras y obras.|🔏 Sello: No se borra jamás.|🕊️ Pentecostés: El origen de este sacramento.
+0|F|La Confirmación es el primer sacramento que recibimos.
+0|¿Dónde estaban los apóstoles antes de Pentecostés?|encerrados, por miedo|predicando en la plaza|pescando en el lago
+1|¿Cómo bajó el Espíritu Santo en Pentecostés?|como lenguas de fuego|como una paloma de piedra|como una nube de lluvia
+1|¿Quién habló a la gente el día de Pentecostés?|san Pedro|san Pablo|san José
+2|¿Qué es ser testigo de Cristo?|vivir y anunciar la fe sin vergüenza|esconder que soy católico|discutir con todos
+2|¿Qué otros sacramentos imprimen un sello que no se borra?|el Bautismo y el Orden|la Eucaristía y la Penitencia|el Matrimonio y la Unción
+#sc12
+Z|El Espíritu Santo nos da <b>siete dones</b>: sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios.|Son regalos para seguir a Jesús y vivir como hijos de Dios.|El <b>temor de Dios</b> no es miedo: es respeto amoroso, no querer ofenderlo.|Los dones crecen cuando rezamos y los usamos.
+E|«Ven, Espíritu Santo, llena los corazones de tus fieles»|Fortaleza: ser valiente para hacer el bien
+S|Se burlan de un compañero y me da miedo defenderlo. ¿Qué don necesito y cómo lo pido?|Necesito valentía para hacer el bien aunque cueste.|Ese don es la fortaleza.|Rezo: «Ven, Espíritu Santo, dame fortaleza», y actúo.|=El don de fortaleza, pidiéndolo en la oración.
+I|🧠 Para conocer: Sabiduría, entendimiento y ciencia.|🧭 Para decidir: Consejo.|💪 Para ser valiente: Fortaleza.|🙏 Para amar a Dios: Piedad y temor de Dios.
+0|V|Los dones del Espíritu Santo son regalos de Dios.
+0|¿Quién nos da los siete dones?|el Espíritu Santo|los padrinos|el obispo
+1|¿Cómo crecen los dones?|rezando y usándolos|guardándolos|olvidándolos
+2|¿Qué don me ayuda a gustar las cosas de Dios?|la sabiduría|la ciencia|el consejo
+2|¿En qué sacramento recibimos con plenitud los dones?|en la Confirmación|en la Unción|en el Matrimonio
+#sc13
+Z|Quien vive con el Espíritu Santo se nota en su manera de ser: da <b>frutos</b>.|La Iglesia enseña <b>doce frutos</b>: caridad, gozo, paz, paciencia, longanimidad, bondad, benignidad, mansedumbre, fidelidad, modestia, continencia y castidad.|Los <b>dones</b> son los regalos que recibimos; los <b>frutos</b>, lo que se ve cuando los usamos.|San Pablo habla de ellos en la carta a los Gálatas.
+E|«Por sus frutos los conocerán» (Mt 7, 16)|Paz: tranquilidad del corazón
+S|¿Cómo sé si estoy dejando actuar al Espíritu Santo en mí?|Miro mis frutos: ¿soy paciente, amable, alegre?|Si en mi casa hay más paz gracias a mí, voy por buen camino.|Si me falta alguno, se lo pido al Espíritu Santo.|=Por mis frutos: amor, alegría, paz, paciencia…
+I|🌳 Árbol bueno: Da frutos buenos.|❤️ Caridad: El amor.|😊 Gozo y paz: Alegría y tranquilidad.|🕊️ Mansedumbre: Sin violencia.
+0|F|Los dones y los frutos del Espíritu Santo son lo mismo.
+0|¿Cuál es un fruto del Espíritu Santo?|la paz|la envidia|la pereza
+1|¿Qué fruto muestro al esperar mi turno sin enojarme?|la paciencia|la modestia|la fidelidad
+1|¿Qué frutos muestro al ser bueno y amable con todos?|la bondad y la benignidad|la modestia y la continencia|la fidelidad y la paciencia
+2|¿Qué dijo Jesús sobre los frutos?|«Por sus frutos los conocerán»|«Los frutos no importan»|«Coman solo frutos»
+2|¿Qué fruto muestro al estar contento aunque algo me salga mal?|el gozo|la mansedumbre|la modestia
+K|{x}: ¿don o fruto del Espíritu Santo?|¿Don o fruto?|don: la sabiduría; el consejo; la fortaleza; la piedad; la ciencia|fruto: la paz; la paciencia; el gozo; la mansedumbre; la bondad
+#sc14
+Z|Normalmente confirma el <b>obispo</b>, sucesor de los apóstoles.|Primero renovamos las <b>promesas del Bautismo</b>; luego, el obispo extiende las manos e invoca al Espíritu Santo.|Unge la frente con el <b>santo crisma</b> y dice: «Recibe por esta señal el don del Espíritu Santo».|Respondo «Amén». «Cristo» significa «ungido».
+E|Santo crisma: aceite perfumado, consagrado el Jueves Santo|«La paz sea contigo» — «Y con tu espíritu»
+S|¿Por qué en la Confirmación renuevo las promesas del Bautismo?|Cuando me bautizaron, mis papás y padrinos respondieron por mí.|Ahora ya puedo decir yo mismo: «Sí, creo» y «Sí, renuncio».|Así hago mía la fe que recibí de pequeño.|=Para confirmar por mí mismo la fe de mi Bautismo.
+I|🙌 Imposición de manos: Se invoca al Espíritu Santo.|🏺 Crisma: Unción en la frente.|✝️ Señal de la cruz: Con el crisma.|🕊️ Paz: «La paz sea contigo».
+0|V|El obispo es sucesor de los apóstoles.
+0|¿En qué parte del cuerpo se hace la unción de la Confirmación?|en la frente|en las manos|en los pies
+1|¿Qué es el santo crisma?|un aceite perfumado y consagrado|el agua bendita de la pila|un incienso de olor muy fuerte
+1|¿Qué señal traza el obispo con el crisma?|la cruz|un círculo|una estrella
+2|¿Qué tiene que ver el crisma con el nombre «cristiano»?|somos ungidos, como Cristo, el Ungido|los dos nombres vienen de «cristal»|no tienen nada que ver entre sí
+2|¿A quiénes se ungía con aceite en tiempos antiguos?|a los reyes y a los profetas|a los pescadores del lago|a los pastores de ovejas
+#sc15
+Z|El <b>padrino</b> o la <b>madrina</b> acompaña al confirmado en la fe toda la vida.|Debe ser católico, confirmado, haber hecho la Primera Comunión, vivir su fe y tener al menos 16 años.|Para confirmarme debo estar bautizado, prepararme en la catequesis y estar en <b>gracia de Dios</b>.|El confirmado defiende la verdad con amor y lleva a otros a Dios.
+E|Conviene que sea el padrino de Bautismo|Santos jóvenes: Carlo Acutis, José Sánchez del Río
+S|Mi prima de 14 años va a Misa y ya está confirmada. ¿Puede ser mi madrina?|Reviso los requisitos: católica, confirmada, con Primera Comunión y vida de fe.|Todo eso lo cumple.|Pero la Iglesia pide que el padrino tenga al menos 16 años.|=Por regla general, todavía no: le faltan dos años.
+I|🤝 Padrino: Me acompaña en la fe.|✅ Requisitos: Católico, confirmado y practicante.|🤍 En gracia: Me confieso antes.|🛡️ Testigo: Defiendo la verdad con amor.
+0|F|El padrino solo sirve para dar regalos el día de la fiesta.
+0|¿Qué debo haber recibido primero para poder confirmarme?|el Bautismo|el Matrimonio|la Unción
+1|¿Dónde me preparo para la Confirmación?|en la catequesis|en el recreo|en el cine
+1|¿Quién conviene que sea mi padrino de Confirmación?|uno de mis padrinos de Bautismo|el amigo que da más regalos|el vecino que casi no me conoce
+2|¿Qué santo joven usó internet para evangelizar?|san Carlo Acutis|san Tarsicio|san Juan Nepomuceno
+2|¿Qué santo mexicano dio la vida por Cristo siendo adolescente?|san José Sánchez del Río|san Juan Diego|san Felipe de Jesús
+2|V|Después de confirmarme, puedo ayudar en mi parroquia y dar buen ejemplo.
+K|{x}: ¿puede ser padrino o madrina de Confirmación?|¿Puede ser padrino?|sí puede: mi tía confirmada, que va a Misa; mi primo de 20 años, ya confirmado; mi abuela, confirmada y de mucha fe|no puede: mi mamá; mi amigo de 12 años; mi tío, que no está bautizado; mi vecino, que no es católico
