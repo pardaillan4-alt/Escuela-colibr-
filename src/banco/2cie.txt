@@ -1,0 +1,267 @@
+// Ciencias Naturales 2.º — banco ampliado (preguntas y tablas)
+#2c12
+0|¿Qué cambia en mi cuerpo cuando crezco?|mi estatura y mi peso|mis huellas digitales|mi fecha de nacimiento
+0|V|Cuando nací no sabía caminar ni hablar.
+1|¿Cómo se llaman los dientes que salen después de los de leche?|permanentes|temporales|de repuesto
+1|¿De quiénes heredo mis rasgos?|de mi papá y mi mamá|de mis maestros|de mis vecinos
+1|¿Qué aprende primero un bebé?|a gatear|a leer|a andar en bici
+2|Tengo el cabello rizado como mi papá. ¿Qué es eso?|un rasgo heredado|una enfermedad|una casualidad
+2|¿Cómo sé cuánto he crecido?|midiendo mi estatura cada cierto tiempo|contando todos mis juguetes|viendo la hora en el reloj
+2|¿Qué necesito para crecer sano?|comer bien, dormir y moverme|comer solo dulces|no dormir nunca
+2|Completa: «Jesús crecía en sabiduría, en estatura y en…»|gracia|fuerza|riqueza
+K|{x}: ¿cambia o no cambia cuando crezco?|¿Cambia o no cambia?|cambia: mi estatura; mi peso; la talla de mis zapatos; mis dientes|no cambia: mi fecha de nacimiento; mis huellas digitales; mi lugar de nacimiento
+#2c1
+0|¿Cómo se llama el conjunto de todos los huesos?|el esqueleto|el cerebro|el estómago
+0|F|Los músculos son duros como piedras y no se mueven.
+1|¿Qué hace un músculo para doblar el brazo?|se encoge y jala el hueso|se rompe en dos|se queda dormido
+1|¿Qué mineral hace fuertes los huesos?|el calcio|el azúcar|la sal
+1|¿Cómo me siento para cuidar mi espalda?|derecho|encorvado|de lado
+1|¿Dónde está el fémur?|en la pierna|en la cabeza|en la mano
+2|¿Por qué la tortilla de maíz ayuda a mis huesos?|porque tiene calcio|porque es redonda|porque es caliente
+2|¿Cómo cargo mi mochila para cuidar la espalda?|con los dos tirantes|en un solo hombro|arrastrándola
+2|¿Qué pasaría si no tuviéramos huesos?|no podríamos estar de pie|correríamos más rápido|seríamos más altos
+2|¿Qué hueso es el más largo del cuerpo?|el fémur|el cráneo|una costilla
+K|{x}: ¿fortalece o debilita mis huesos y músculos?|¿Fortalece o debilita?|fortalece: tomar leche; hacer ejercicio; dormir bien; comer queso|debilita: no moverme en todo el día; tomar solo refresco; sentarme encorvado; desvelarme
+#2c2
+0|¿Con qué masticamos la comida?|con los dientes|con la nariz|con los pulmones
+0|F|El aire que respiramos llega al estómago.
+1|¿Por dónde baja la comida de la boca al estómago?|por el esófago|por la tráquea|por la nariz
+1|¿Por dónde baja el aire a los pulmones?|por la tráquea|por el esófago|por el intestino
+1|¿Qué hace el estómago con la comida?|la deshace|la guarda para siempre|la convierte en aire
+1|¿Como qué se inflan los pulmones?|como globos|como piedras|como hojas
+2|¿Dónde toma el cuerpo lo que le sirve de la comida?|en los intestinos|en la boca|en la nariz
+2|¿Por qué no debo correr con comida en la boca?|porque me puedo atragantar|porque se enfría|porque me canso
+2|¿Qué sacamos del cuerpo al respirar?|el aire usado|el oxígeno|la comida
+2|¿Por qué es mejor respirar por la nariz?|porque limpia y entibia el aire|porque hace más ruido|porque así entra menos aire
+K|{x}: ¿aparato digestivo o respiratorio?|¿Digestivo o respiratorio?|digestivo: los dientes; el esófago; el estómago; los intestinos|respiratorio: la nariz; la tráquea; los pulmones
+#2c13
+0|¿Qué órgano es el de la vista?|los ojos|los oídos|la lengua
+0|F|Es bueno meterme objetos en los oídos.
+1|¿Qué órgano es el del gusto?|la lengua|la piel|la nariz
+1|¿Cómo cuido mis oídos?|con el volumen bajo|con audífonos al máximo|gritando muy fuerte
+1|¿Qué sentido uso para saber si la sopa está caliente?|el tacto|el oído|el olfato
+2|¿Qué significa «Effetá»?|¡Ábrete!|¡Levántate!|¡Camina!
+2|¿A quién curó Jesús diciendo «Effetá»?|a un sordo|a un ciego|a un paralítico
+2|Huelo humo en la cocina. ¿Qué sentido me avisó?|el olfato|el gusto|el tacto
+2|¿Qué hace el cerebro con los mensajes de los sentidos?|los entiende y decide qué hacer|los borra enseguida|los manda a los pies
+K|{x}: ¿cuida o daña mis sentidos?|¿Cuida o daña mis sentidos?|cuida: usar lentes de sol; bajar el volumen; lavarme las manos antes de tocarme los ojos; leer con buena luz|daña: mirar el sol directamente; gritar al oído de alguien; oler sustancias tóxicas; ver la pantalla a oscuras
+#2c15
+0|¿A qué grupo pertenece la manzana?|verduras y frutas|cereales|leguminosas
+0|F|Con comer solo pan ya tengo todos los grupos.
+1|¿A qué grupo pertenece el arroz?|cereales y tubérculos|verduras y frutas|origen animal
+1|¿Qué nos dan las verduras y frutas?|vitaminas|sueño|caries
+1|¿Para qué sirven las leguminosas y los alimentos de origen animal?|para crecer|para tener frío|para dormir más
+2|¿Qué comida combina los tres grupos?|tacos de frijol con nopales y una fruta|pan con arroz y una tortilla de harina|pollo con huevo y un trozo de queso
+2|Mi plato tiene pollo y arroz. ¿Qué le falta?|una verdura o fruta|más pollo|un refresco
+2|¿Cuál es una leguminosa?|la lenteja|la zanahoria|la avena
+2|¿Qué hacemos antes de comer en familia?|bendecimos la mesa|prendemos la tele|nos paramos de la mesa
+K|{x}: ¿a qué grupo pertenece?|¿A qué grupo de alimentos pertenece?|verduras y frutas: la zanahoria; el nopal; la guayaba; el brócoli|cereales y tubérculos: la tortilla; la avena; el camote; el pan|leguminosas y origen animal: el garbanzo; el queso; el pescado; las habas
+#2c14
+0|¿Qué tomo cuando tengo sed?|agua natural|refresco|café
+0|F|Los jugos de caja no tienen azúcar.
+1|¿Qué bebida puedo tomar con moderación?|leche sin azúcar|refresco de cola|bebida energética
+1|¿Cuándo necesito tomar más agua?|cuando hago ejercicio y sudo|cuando duermo|cuando veo la tele
+1|¿Qué pasa si no tomo suficiente agua?|me siento cansado y con dolor de cabeza|corro mucho más rápido que antes|crezco más en pocos días
+2|¿Qué dijo Jesús en la cruz?|«Tengo sed»|«Tengo hambre»|«Tengo sueño»
+2|¿Qué obra de misericordia es dar agua a quien la necesita?|dar de beber al sediento|visitar a los enfermos|enseñar al que no sabe
+2|¿Por qué los refrescos no son buenos para quitar la sed?|porque tienen mucha azúcar|porque están muy fríos|porque son de colores
+2|¿Qué llevo a la escuela para hidratarme?|una botella con agua natural|un refresco grande|un jugo de caja
+K|{x}: ¿siempre, con moderación o mejor evitar?|La Jarra del Buen Beber|siempre: el agua natural; el agua hervida|con moderación: la leche sin azúcar; el agua de fruta con poca azúcar|mejor evitar: el refresco; el jugo de caja; la bebida energética
+#2c3
+0|¿Qué son los microbios?|seres tan pequeños que no los vemos|insectos grandes que pican la piel|gotas de lluvia que caen del cielo
+0|¿Qué hago antes de comer una fruta?|la lavo|la huelo|la escondo
+0|F|Las golosinas se comen en lugar de la comida.
+1|¿Qué enfermedad pueden causar algunos microbios?|la gripa|un raspón|un moretón
+1|¿Dónde dice qué vacunas me han puesto?|en mi cartilla de vacunación|en mi boleta de calificaciones|en mi cuaderno de tareas
+1|¿Qué hago después de estornudar en mis manos?|me las lavo|saludo a todos|me tallo los ojos
+1|V|Lavar frutas y verduras nos protege de enfermedades.
+2|¿Qué es la templanza?|la virtud de no exagerar|comer todo lo que quiera|no comer nunca
+2|Tengo diarrea. ¿Qué me conviene?|tomar líquidos y avisar a mis papás|comer muchos dulces y frituras|no decirle nada a nadie
+2|¿Para qué apago la pantalla a tiempo?|para descansar y cuidar mi salud|para que no se gaste la tele|para que crezcan mis ojos
+2|¿Qué alimento debo comer con moderación?|las golosinas|las verduras|las frutas
+#2c4
+0|¿Qué hacen todos los seres vivos al final de su ciclo?|mueren|se vuelven piedra|vuelven a ser bebés
+0|¿Con qué empieza el ciclo de vida?|con nacer|con morir|con reproducirse
+0|F|Las plantas no tienen ciclo de vida.
+1|¿Qué hace un ser vivo después de nacer?|crece|desaparece|se vuelve piedra
+1|¿Qué sale del huevo de una mariposa?|una oruga|una mariposa pequeñita|un capullo
+1|¿Qué significa «reproducirse»?|tener crías o dar semillas|cambiar de color|dormir mucho
+1|¿Dónde se encierra la oruga para transformarse?|en la crisálida|en un nido|en una cueva
+2|¿Qué animal NO tiene metamorfosis?|el perro|la mariposa|la rana
+2|¿Dónde vive el renacuajo?|en el agua|en los árboles|bajo la tierra seca
+2|¿Por qué la mariposa es signo de la Resurrección?|porque sale transformada de la crisálida|porque tiene alas de muchos colores|porque vuela más alto que las aves
+2|O|Ordena el ciclo de la gallina|huevo|pollito|gallina
+P|¿En qué se convierte {x}?|¿Qué era antes de convertirse {x}?|la oruga = en mariposa|el renacuajo = en rana|el pollito = en gallina|la semilla = en planta|el becerro = en vaca
+#2c19
+0|¿Qué parte de la planta sostiene las hojas?|el tallo|la raíz|la flor
+0|F|El fruto no tiene semillas.
+1|¿Qué parte protege las semillas?|el fruto|la raíz|la hoja
+1|¿Qué sale primero cuando germina un frijol?|la raíz|la flor|el fruto
+1|¿Qué necesita un frijol para germinar en un algodón?|humedad|hielo|sal
+2|¿Qué semilla da mucho fruto en la parábola del sembrador?|la que cae en tierra buena|la que cae en el camino|la que cae entre espinas
+2|¿Por dónde sube el agua de la raíz a las hojas?|por el tallo|por la flor|por el fruto
+2|¿Con qué fabrican su alimento las hojas?|con la luz del sol|con la luz de la luna|con el viento
+2|Una planta está en un cuarto oscuro. ¿Qué le pasará?|se pondrá pálida y débil|crecerá más verde|dará más flores
+K|{x}: ¿lo necesita una planta para vivir?|¿Lo necesita una planta para vivir?|sí: el agua; la luz; el aire; los nutrientes del suelo|no: el refresco; la oscuridad total; el humo; la sal
+#2c20
+0|¿De dónde nace una tortuga?|de un huevo|del vientre de su mamá|de una semilla
+0|V|El ser humano es vivíparo.
+1|¿Qué significa vivíparo?|que se forma dentro de su mamá y nace vivo|que nace de un huevo con cascarón|que vive siempre dentro del agua
+1|¿Con qué alimenta la vaca a su becerro?|con leche|con pasto molido|con agua de río
+1|¿Qué animal es ovíparo?|el pez|el caballo|el gato
+2|La ballena vive en el mar. ¿Cómo nacen sus crías?|del vientre de su mamá|de huevos en la arena|de las algas
+2|¿Qué animales nacen de huevo?|las aves, los peces y los insectos|los perros y los gatos|las vacas y los caballos
+2|¿Por qué las crías necesitan cuidados?|porque nacen pequeñas e indefensas|porque son muy fuertes|porque ya saben cazar
+2|El murciélago vuela, pero toma leche de su mamá. ¿Cómo nace?|del vientre de su mamá|de un huevo|de un capullo
+K|{x}: ¿ovíparo o vivíparo?|¿Ovíparo o vivíparo?|ovíparo: la paloma; el pingüino; la rana; la hormiga; el cocodrilo|vivíparo: el caballo; el conejo; el delfín; el gato; el elefante
+#2c18
+0|¿Dónde viven los animales terrestres?|en la tierra|en el agua|en las nubes
+0|F|El delfín es un animal terrestre.
+1|¿Para qué le sirven las aletas al pez?|para nadar|para caminar|para volar
+1|¿Qué planta vive en el agua?|el alga|el nopal|el pino
+1|¿Qué guarda el nopal para vivir en el desierto?|agua|arena|semillas
+2|¿Por qué un pez no puede vivir fuera del agua?|porque respira con branquias|porque le da frío|porque no tiene patas
+2|¿Qué es un anfibio?|un animal que vive en el agua y en la tierra|un animal que solo sabe volar|una planta que crece en el desierto
+2|¿Con qué respira el delfín?|con pulmones: sale a tomar aire|con branquias, como los peces|con la piel, como las lombrices
+2|¿Por qué hay que cuidar al ajolote?|porque está en peligro de desaparecer|porque muerde muy fuerte|porque es demasiado grande
+K|{x}: ¿acuático o terrestre?|¿Acuático o terrestre?|acuático: el tiburón; el pulpo; la medusa; el caballito de mar|terrestre: el venado; el conejo; la lagartija; el coyote
+#2c5
+0|¿Qué encuentra un ser vivo en su hábitat?|agua, alimento y refugio|juguetes y dulces|televisión
+0|F|Todos los animales pueden vivir en cualquier lugar.
+1|¿Qué animal vive en la selva?|el jaguar|el oso polar|la ballena
+1|¿Qué animal vive en el desierto?|el coyote|el tucán|el delfín
+1|¿Qué animal vive en el mar?|la tortuga marina|la ardilla|el venado
+1|¿Para qué tiene pelo grueso el oso polar?|para aguantar el frío|para nadar más rápido|para verse más grande
+2|¿Qué significa estar «adaptado»?|estar preparado para vivir en su hábitat|estar enfermo y sin fuerzas|estar perdido lejos de casa
+2|¿Por qué no debo sacar a un animal de su hábitat?|porque ahí tiene lo que necesita para vivir|porque se aburre mucho en mi casa|porque trae mala suerte
+2|¿Qué hábitat tiene pinos, venados y ardillas?|el bosque|el desierto|el mar
+2|¿Qué dice el Génesis de los animales?|que Dios creó a cada uno según su especie|que aparecieron solos un día|que nadie sabe de dónde vienen
+P|¿Cuál es el hábitat de {x}?||el tucán = la selva|la víbora de cascabel = el desierto|la ardilla = el bosque|el delfín = el mar|el mono = la selva|el cactus = el desierto
+#2c6
+0|¿Con qué empieza una cadena alimentaria?|con una planta|con un carnívoro|con una piedra
+0|F|Los carnívoros comen solo plantas.
+1|¿Qué come el conejo?|pasto y plantas|coyotes|piedras
+1|¿Quién se come al conejo en la cadena?|el coyote|el pasto|la vaca
+1|¿Qué animal es herbívoro?|la vaca|el león|el tiburón
+1|¿Qué pasa si desaparece un ser vivo de la cadena?|los demás sufren|no pasa nada|todos comen más
+2|¿Por qué las arañas son útiles en el jardín?|porque comen insectos|porque comen flores|porque dan miedo
+2|O|Ordena esta cadena alimentaria|maíz|ratón|serpiente|águila
+2|¿Qué necesitan las plantas para fabricar su alimento?|la luz del sol|carne|otros animales
+2|¿Qué es un omnívoro?|el que come plantas y animales|el que no come nada|el que solo come hojas
+K|{x}: ¿planta, herbívoro o carnívoro?|¿Qué lugar ocupa en la cadena?|planta: el pasto; el maíz; el trébol|herbívoro: el conejo; el chapulín; el venado|carnívoro: el coyote; el águila; el puma
+#2c7
+0|¿En qué estado está el agua de la llave?|líquido|sólido|gaseoso
+0|F|Con el frío, el agua se evapora.
+1|¿Qué le pasa al agua en el congelador?|se congela|se evapora|se derrite
+1|¿De qué están hechas las nubes?|de gotitas de agua|de algodón|de humo
+1|¿Qué calienta el agua del mar para que se evapore?|el sol|la luna|el viento
+1|¿A dónde vuelve el agua de los ríos?|al mar|a las nubes directamente|al sol
+2|Tiendo la ropa mojada al sol y se seca. ¿Qué le pasó al agua?|se evaporó|se congeló|se derritió
+2|De una olla con agua hirviendo sale «humo» blanco. ¿Qué es?|vapor de agua|humo de leña|polvo
+2|¿Qué estado del agua tiene forma propia?|el sólido|el líquido|el gaseoso
+2|¿Qué cae de las nubes cuando hace mucho frío?|nieve o granizo|vapor|arena
+P|¿Cómo se llama cuando {x}?||el agua líquida se vuelve vapor = evaporación|el vapor forma gotitas en las nubes = condensación|el agua cae de las nubes = lluvia|el agua se vuelve hielo = congelación
+#2c21
+0|¿Con qué se mide la temperatura?|con el termómetro|con la regla|con la báscula
+0|F|El hielo está más caliente que la sopa.
+1|¿En qué se mide la temperatura?|en grados|en metros|en kilos
+1|¿Qué hago si creo que tengo fiebre?|aviso a mis papás|me pongo a correr|tomo cualquier medicina
+1|¿Qué está más caliente?|el agua hirviendo|el agua de la llave|el hielo
+2|El termómetro marca 39 °C en mi cuerpo. ¿Qué tengo?|fiebre|frío normal|temperatura sana
+2|¿Qué le pasa al agua a 0 °C?|se congela|hierve|se evapora
+2|¿Qué significa «°C»?|grados Celsius|grados de calor|centímetros
+2|¿Cómo quiere Jesús que sea nuestro corazón?|ardiente de amor|tibio|frío
+K|{x}: ¿caliente o frío?|¿Caliente o frío?|caliente: la sopa recién servida; el sol del mediodía; la plancha encendida; el comal en la lumbre|frío: la nieve; el helado; el agua del refrigerador; un cubo de hielo
+#2c22
+0|¿Qué hacemos al juntar agua y arena?|una mezcla|un imán|una sombra
+0|F|El papel quemado puede volver a ser papel.
+1|¿Qué se disuelve en el agua?|la sal|la arena|las piedras
+1|¿Qué cambio NO se puede regresar?|hornear un pastel|derretir un hielo|congelar agua
+1|¿Qué pasa si revuelvo agua con aceite?|se separan|se disuelven|se vuelven hielo
+2|¿Cómo separo la arena del agua?|con un colador o filtro|con un imán|con una regla
+2|¿Con qué comparó Jesús el Reino de Dios?|con la levadura en la masa|con el aceite en el agua|con la arena del mar
+2|El chocolate se derrite con el calor y se endurece al enfriarse. ¿Es un cambio que regresa?|sí, se puede regresar|no, nunca regresa|solo si se le pone agua
+2|¿Qué pasa con el azúcar cuando la disuelvo en agua?|sigue ahí aunque no se vea|desaparece para siempre|se vuelve arena
+K|{x}: ¿cambio que regresa o que no regresa?|¿Regresa o no regresa?|regresa: derretir mantequilla; congelar jugo; mojar una toalla|no regresa: quemar un papel; freír un huevo; hornear pan; un fruto que se pudre
+#2c8
+0|¿Qué da luz propia?|el sol|la luna|un espejo
+0|F|La madera deja pasar la luz.
+1|¿Cuándo se forma una sombra?|cuando un objeto tapa la luz|cuando no hay ningún objeto|cuando todo está oscuro
+1|¿Cómo son las sombras en la mañana y en la tarde?|largas|cortas|redondas
+1|¿Qué hace la luna con la luz del sol?|la refleja|la apaga|la fabrica
+1|¿Qué es un material translúcido?|el que deja pasar un poco de luz|el que no deja pasar nada|el que brilla solo
+2|¿Qué material es translúcido?|el papel de china|el vidrio|la madera
+2|¿De qué lado se forma mi sombra?|del lado contrario a la luz|del mismo lado de la luz|arriba de mi cabeza
+2|¿Por qué no hay sombras en un cuarto totalmente oscuro?|porque no hay luz|porque hay demasiada luz|porque no hay aire
+2|¿De dónde se enciende la vela del Bautismo?|del cirio pascual|de una fogata|de un foco
+K|{x}: ¿transparente, translúcido u opaco?|¿Deja pasar la luz?|transparente: el agua limpia; el vidrio de los lentes; el plástico de una botella de agua|translúcido: el papel encerado; el papel de calca; una cortina delgada|opaco: el cartón; la pared; una tabla de madera
+#2c9
+0|¿Cuál es un sonido fuerte?|un trueno|un susurro|una hoja que cae
+0|F|Los ruidos muy fuertes cuidan mis oídos.
+1|¿Qué vibra en la garganta cuando hablo?|las cuerdas vocales|los pulmones|los dientes
+1|¿Cuál es un sonido agudo?|un silbato|un tambor grande|un trueno
+1|¿Cuál es un sonido grave?|una campana grande|un pajarito|un silbato
+1|¿Qué vibra en un tambor?|la piel o parche|las baquetas|las patas
+2|Pongo la mano en mi garganta y canto. ¿Qué siento?|una vibración|frío|nada
+2|¿Dónde escucho eco?|en una cueva o entre montañas|dentro de una almohada|en una alberca llena
+2|¿Qué hago si un ruido es muy fuerte?|me alejo o me tapo los oídos|me acerco más para oírlo bien|subo el volumen de la música
+2|¿En qué momento de la Misa nos habla Dios al corazón?|en el silencio|en el ruido|en los aplausos
+K|{x}: ¿sonido fuerte o suave?|¿Fuerte o suave?|fuerte: un cohete; una sirena de ambulancia; un claxon; un grito|suave: el tictac de un reloj; el ronroneo de un gato; la lluvia ligera; pasos sobre el pasto
+#2c10
+0|¿Qué hago para mover un carrito del súper?|lo empujo|lo miro|lo huelo
+0|F|Los imanes atraen la madera.
+1|¿Qué material atraen los imanes?|el hierro|el plástico|el papel
+1|¿Qué puede hacer una fuerza con la plastilina?|cambiarle la forma|volverla metal|hacerla invisible
+1|¿Qué hago para detener una pelota que rueda?|le aplico una fuerza|le hablo|la miro fijo
+1|¿Qué pasa con dos imanes?|se atraen o se rechazan|siempre se rompen|se derriten
+2|¿Qué objeto NO atrae un imán?|una regla de plástico|un clavo de hierro|un clip de metal
+2|Para subir una cubeta con una cuerda, ¿qué hago?|jalo la cuerda|empujo la cubeta|suelto la cuerda
+2|¿Qué necesito para mover algo muy pesado?|más fuerza o ayuda|menos fuerza|esperar a que se mueva solo
+2|¿Cómo se llaman los dos extremos de un imán?|polos|puntas mágicas|lados fríos
+K|{x}: ¿empujar o jalar?|¿Empujar o jalar?|empujar: cerrar un cajón; patear un balón; apretar un botón; columpiar a un amigo|jalar: arrastrar un trineo con cuerda; sacar agua de un pozo; jugar a la cuerda; subir el cierre de la chamarra
+#2c16
+0|¿Qué son las estrellas?|soles muy lejanos|focos del cielo|pedazos de luna
+0|F|La Tierra está quieta y no gira.
+1|¿Cuánto tarda la Tierra en girar sobre sí misma?|24 horas|365 días|un mes
+1|¿Con qué se guiaban antes los viajeros de noche?|con las estrellas|con el celular|con las nubes
+1|¿Qué es la rotación?|el giro de la Tierra sobre sí misma|la vuelta alrededor del Sol|el cambio de la Luna
+2|¿Qué movimiento de la Tierra dura un año?|la traslación|la rotación|ninguno
+2|¿Por qué vemos las estrellas tan pequeñas?|porque están muy lejos|porque son muy chicas|porque casi no brillan
+2|¿Cuál es la estrella más cercana a la Tierra?|el Sol|la Luna|la estrella polar
+2|¿Qué es una constelación?|un grupo de estrellas que forma una figura|una nube grande que trae mucha lluvia|un planeta rodeado de anillos de hielo
+K|{x}: ¿rotación o traslación?|¿Rotación o traslación?|rotación: causa el día y la noche; dura 24 horas; es el giro sobre sí misma|traslación: dura 365 días; es la vuelta alrededor del Sol; marca el paso de un año
+#2c17
+0|¿Qué es una montaña?|una elevación muy alta del terreno|un terreno plano y extenso|un río grande y caudaloso
+0|F|Los lagos tienen agua salada.
+1|¿Qué es un lago?|agua dulce rodeada de tierra|agua salada sin orillas|un río muy largo
+1|¿Qué es una isla?|tierra rodeada de agua|agua rodeada de tierra|una montaña con nieve
+1|¿Dónde hay agua salada?|en los mares y océanos|en los ríos|en los lagos
+2|¿En qué se diferencia un río de un lago?|el agua del río corre|el río es salado|el lago está en el cielo
+2|¿Qué agua podemos beber, ya limpia?|la dulce de ríos y lagos|la salada del mar|ninguna
+2|¿Qué sale de un volcán en erupción?|lava, ceniza y gases|agua dulce|nieve
+2|Completa: «Montes y colinas, bendigan al…»|Señor|mar|cielo
+K|{x}: ¿forma del terreno, agua dulce o agua salada?|¿Terreno, agua dulce o agua salada?|forma del terreno: la montaña; el valle; la llanura; el volcán|agua dulce: el río; el lago; el arroyo|agua salada: el mar; el océano
+#2c11
+0|¿De dónde vienen los recursos naturales?|de la naturaleza|de las fábricas|de las tiendas
+0|¿Cuál es un recurso natural?|el suelo|el plástico|el vidrio
+0|F|Los recursos naturales nunca se acaban.
+1|¿Qué recurso usamos para sembrar?|el suelo|el petróleo|el oro
+1|¿Qué recurso respiramos?|el aire|el agua|la madera
+1|¿Qué recurso se renueva si lo cuidamos?|las plantas|el petróleo|los minerales
+1|¿De dónde sacamos los minerales?|de las minas|de los árboles|de los ríos
+2|¿Qué hago para no desperdiciar papel?|uso las dos caras de la hoja|arranco las hojas|tiro las rayadas
+2|¿Por qué debemos cuidar el petróleo?|porque tarda millones de años en formarse|porque tiene un olor muy desagradable|porque es de color negro y mancha
+2|¿Qué significa ser «administrador» de la creación?|cuidarla porque es de Dios|usarla sin límite|venderla toda
+2|¿Qué pasa si cortamos árboles sin plantar otros?|se acaban los bosques|crecen más rápido|llueve más
+K|{x}: ¿recurso natural o cosa fabricada?|¿Recurso natural o cosa fabricada?|recurso natural: el agua de un río; la madera de un árbol; el carbón; la sal del mar|cosa fabricada: una botella; un cuaderno; una silla; una moneda
+#2c23
+0|¿Qué es reducir?|usar menos|usar más|tirar todo
+0|F|Una botella de plástico es basura orgánica.
+1|¿Qué es reciclar?|separar para que se haga algo nuevo|quemar la basura en el patio|enterrar todo junto
+1|Uso un frasco vacío como portalápices. ¿Qué R es?|reutilizar|reducir|reciclar
+1|¿Qué basura es inorgánica?|una lata|una cáscara de naranja|unas hojas secas
+2|¿Qué puedo hacer con la basura orgánica?|composta para las plantas|quemarla|tirarla al río
+2|¿Cuál de las 3R evita que se haga basura desde el principio?|reducir|reciclar|reutilizar
+2|¿En qué documento nos pidió el papa Francisco cuidar la casa común?|en Laudato si'|en el Credo|en el Padre Nuestro
+2|¿En cuántos botes separo la basura, por lo menos?|en dos: orgánica e inorgánica|en uno solo, toda revuelta|en diez de distintos colores
+K|{x}: ¿reducir, reutilizar o reciclar?|¿Cuál de las 3R es?|reducir: llevar mi bolsa de tela; apagar la luz que no uso; comprar solo lo que necesito|reutilizar: hacer una maceta con una lata; usar una caja como juguetero; escribir en el reverso de una hoja|reciclar: llevar el papel al centro de acopio; separar las botellas de plástico; juntar latas de aluminio
