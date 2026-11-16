@@ -1,0 +1,235 @@
+// Historia y Geografía 1.º — banco ampliado (preguntas y tablas)
+#h1
+0|¿Quién es el papá de mi papá?|mi abuelo|mi tío|mi primo
+0|F|En la familia solo trabaja la mamá.
+1|¿Quién es la hermana de mi mamá?|mi tía|mi abuela|mi prima
+1|¿Quién es la hija de mis papás?|mi hermana|mi tía|mi abuela
+1|¿Cuál es una forma de ayudar en casa?|recoger mis juguetes|esconder mi ropa sucia|dejar mi plato en el piso
+1|V|Dios ama y cuida a cada familia.
+2|Soy el hijo de la hija de mi abuela. ¿Qué soy de mi abuela?|su nieto|su sobrino|su hermano
+2|¿Quién cuidó a Jesús como papá en la tierra?|san José|san Pedro|san Juan
+2|¿Qué soy yo de mis tíos?|su sobrino o sobrina|su nieto o nieta|su primo o prima
+2|¿A qué gran familia pertenecemos todos los bautizados?|a la familia de Dios|a la familia del vecino|a ninguna familia
+K|{x}: ¿ayuda o no ayuda a la familia?|¿Ayuda o no ayuda en casa?|ayuda: tender mi cama; poner la mesa; cuidar a mi hermanito; dar las gracias|no ayuda: dejar tirada mi ropa; pelear por el control; contestar con gritos; esconderme a la hora de limpiar
+#h2
+0|¿Cómo se llama el día que estamos viviendo?|hoy|ayer|mañana
+0|F|Mañana es un día que ya pasó.
+1|Si hoy es jueves, ¿qué día fue ayer?|miércoles|viernes|sábado
+1|¿Qué es el presente?|lo que pasa ahora|lo que ya pasó|lo que va a pasar
+1|Si hoy es domingo, ¿qué día será mañana?|lunes|sábado|martes
+1|V|Cuando nací, yo era un bebé.
+2|Si ayer fue lunes, ¿qué día es hoy?|martes|domingo|miércoles
+2|¿Qué hice primero en mi vida?|aprender a caminar|entrar a la primaria|aprender a leer
+2|«Voy a cumplir 8 años». ¿Es pasado, presente o futuro?|futuro|pasado|presente
+2|¿Qué color usa la Iglesia en Adviento y Cuaresma?|morado|verde|blanco
+K|«{x}»: ¿pasado, presente o futuro?|¿Pasado, presente o futuro?|pasado: Ayer fui al parque; El año pasado estuve en kínder; Cuando era bebé gateaba|presente: Hoy estoy en primaria; Ahora estoy estudiando; En este momento leo|futuro: Mañana iré a Misa; El año que viene estaré en segundo; Cuando sea grande trabajaré
+#h3
+0|¿Con qué jugaban mis abuelos?|con trompo y canicas|con tabletas|con videojuegos
+0|¿Con qué se cocinaba antes?|con leña, en un fogón|con horno de microondas|con estufa eléctrica
+0|F|Antes todos tenían teléfono celular.
+1|¿Cómo se lavaba la ropa antes?|a mano|con lavadora|con secadora
+1|¿Qué escribían antes para comunicarse de lejos?|cartas|mensajes de celular|correos electrónicos
+1|¿Quiénes saben muchas historias de antes?|las personas mayores|los bebés|las mascotas
+1|V|Algunos juegos de antes todavía nos divierten.
+2|¿Qué puedo preguntar a mis abuelos?|cómo era su escuela|cuál es mi tarea de hoy|qué habrá mañana en la tele
+2|¿Qué es un quinqué?|una lámpara antigua|un juguete de madera|un pan de fiesta
+2|¿Qué día celebramos a san Joaquín y santa Ana?|el 26 de julio|el 12 de diciembre|el 6 de enero
+2|¿Quiénes nos enseñan primero a rezar en muchas familias?|los abuelos y los papás|los vecinos nuevos|los personajes de la tele
+P|Antes se usaba {x}. ¿Qué usamos hoy en su lugar?|Hoy usamos {x}. ¿Qué se usaba antes?|el fogón de leña = la estufa|la carta = el celular|el quinqué = el foco|la carreta = el coche|el lavadero = la lavadora
+#h13
+0|¿Cuál es el primer mes del año?|enero|marzo|diciembre
+0|F|El año tiene 10 meses.
+1|¿Qué día va después del sábado?|el domingo|el viernes|el lunes
+1|¿Cuál es el último mes del año?|diciembre|noviembre|enero
+1|¿Para qué sirve el calendario?|para recordar las fechas|para medir la estatura|para saber la temperatura
+2|¿Cuántos días de clases hay de lunes a viernes?|cinco|siete|tres
+2|¿Cuántas estaciones tiene el año?|cuatro|siete|doce
+2|¿En qué mes celebramos la Independencia de México?|en septiembre|en febrero|en mayo
+2|O|Ordena los meses|enero|febrero|marzo|abril
+P|¿Qué día va después del {x}?|¿Qué día va antes del {x}?|lunes = martes|martes = miércoles|miércoles = jueves|jueves = viernes|viernes = sábado
+P|¿Qué mes va después de {x}?|¿Qué mes va antes de {x}?|febrero = marzo|marzo = abril|abril = mayo|mayo = junio|junio = julio|agosto = septiembre|octubre = noviembre|noviembre = diciembre
+#h14
+0|¿Cuál es un juguete de ahora?|la tableta|el balero|el trompo
+0|F|A los abuelos no les gustaba jugar.
+1|¿Qué juguete se lanza y se atrapa en un palito?|el balero|el yoyo|la canica
+1|¿Cómo se juega «el avión»?|brincando sobre cuadros pintados|con un control remoto|con cartas y frijolitos
+1|¿Para qué nos sirve jugar juntos?|para convivir|para pelear|para aburrirnos
+2|¿Qué necesitan los videojuegos y no el trompo?|electricidad|un cordón|un patio
+2|¿Con qué se marcan las cartas en la lotería?|con frijolitos o fichas|con canicas grandes|con trompos
+2|¿Para qué jugaba san Juan Bosco con los niños?|para acercarlos a Jesús|para ganarles siempre|para no trabajar
+2|V|Dios quiere que los niños jueguen y estén alegres.
+K|{x}: ¿juego de antes o de ahora?|¿De antes o de ahora?|de antes: la matatena; el balero; las canicas; el yoyo|de ahora: el videojuego; la tableta; el dron de juguete; el carro de control remoto
+#h15
+0|¿En qué fiesta soplamos las velitas del pastel?|en el cumpleaños|en el bautizo|en la boda
+0|F|Las fiestas de la familia se celebran a solas.
+1|¿En qué fiesta recibimos a Jesús por primera vez?|en la primera comunión|en el cumpleaños|en el aniversario
+1|¿Qué se usa en el bautizo?|agua|pastel|anillos
+1|¿Qué se entregan los novios en la boda?|anillos|juguetes|globos
+1|V|Puedo conocer la vida del santo de mi nombre.
+2|¿Qué es un aniversario?|recordar una fecha cada año|una fiesta sin motivo|un regalo sorpresa
+2|Me llamo Francisco. ¿Qué día es mi santo?|el día de san Francisco|el día de mi cumpleaños|el primer día del año
+2|¿Cómo ayudo a preparar una fiesta familiar?|poniendo la mesa y los adornos|escondiendo los platos|comiéndome el pastel antes
+2|¿Qué sacramento celebran los esposos en su boda?|el Matrimonio|el Bautismo|la Confirmación
+P|¿En qué fiesta vemos {x}?||pastel con velitas = en el cumpleaños|agua bendita y padrinos = en el bautizo|anillos y novios = en la boda|niños que reciben a Jesús por primera vez = en la primera comunión
+#h4
+0|¿Dónde está el piso?|abajo|arriba|en el cielo
+0|F|El sol está abajo de nosotros.
+1|Lo contrario de dentro es…|fuera|cerca|arriba
+1|Lo contrario de izquierda es…|derecha|abajo|detrás
+1|En la fila, ¿dónde está quien va antes que yo?|delante de mí|detrás de mí|arriba de mí
+1|V|Mis zapatos están dentro de la caja cuando los guardo.
+2|Luis está entre Ana y Pedro. ¿Quién está en medio?|Luis|Ana|Pedro
+2|La tienda está a dos casas; el zoológico, a una hora. ¿Cuál está cerca?|la tienda|el zoológico|los dos igual
+2|¿Dónde está el altar cuando estoy en Misa?|delante de mí|detrás de mí|encima de mí
+2|El gato salió de su casita. ¿Dónde está ahora?|fuera|dentro|debajo
+K|{x}: ¿arriba o abajo?|¿Arriba o abajo?|arriba: el techo; la lámpara del techo; un avión volando; la copa del árbol|abajo: el tapete; mis zapatos; el pasto; el sótano
+#h5
+0|¿Dónde aprendemos con la maestra?|en la escuela|en el mercado|en el parque
+0|¿Dónde jugamos al aire libre?|en el parque|en el centro de salud|en la panadería
+0|F|Una comunidad es una sola persona.
+1|¿Quién hace el pan?|el panadero|el bombero|el maestro
+1|¿Quién nos cura cuando estamos enfermos?|la doctora|la maestra|el campesino
+1|¿Desde dónde se ve un lugar en un croquis?|desde arriba|desde abajo|desde adentro
+1|V|Cada parroquia tiene su santo patrono.
+2|¿Para qué sirve un croquis?|para saber cómo llegar a un lugar|para medir cuánto tiempo pasa|para pesar la fruta del mercado
+2|¿Cuál de estos es una comunidad?|mi colonia|mi mochila|mi recámara
+2|¿Quién recoge la basura muy temprano?|el recolector de basura|el panadero|el cartero
+2|¿Qué recibimos en la parroquia cuando somos bebés?|el Bautismo|una medalla|un diploma
+P|¿Quién trabaja en {x}?|¿Dónde trabaja {x}?|la escuela = el maestro|el centro de salud = la doctora|la panadería = el panadero|la estación de bomberos = el bombero|la parroquia = el párroco|el campo = el campesino
+#h11
+0|¿Quién nos enseña en el salón?|la maestra o el maestro|el conserje|el panadero
+0|F|En la escuela cada quien aprende solo y sin ayuda.
+1|¿Quién dirige la escuela?|la directora o el director|el alumno más alto|el vecino
+1|¿Cómo cuido mi escuela?|tirando la basura en el bote|rayando las bancas|rompiendo las plantas
+1|V|Toda escuela tiene una historia.
+2|¿Qué me cuenta una foto antigua de mi escuela?|cómo era antes|cómo será mañana|qué hay de comer
+2|¿Cómo enseñaba Jesús?|con paciencia|con gritos|con prisa
+2|¿Quién puede contarme cómo era la escuela hace muchos años?|una persona mayor|un bebé|mi mascota
+2|¿Qué es «fundar» una escuela?|empezarla, crearla|pintarla|cerrarla
+K|{x}: ¿cuida o daña la escuela?|¿Cuida o daña la escuela?|cuida: borrar el pizarrón; regar las plantas del patio; guardar los libros en su lugar; levantar un papel del piso|daña: rayar las paredes; romper los libros; tirar comida en el patio; azotar las puertas
+#h12
+0|¿Quién vende en la tienda?|el comerciante|el albañil|el campesino
+0|F|Solo algunos trabajos son importantes.
+1|¿Quién celebra la Misa?|el sacerdote|el panadero|el albañil
+1|¿Qué hace el carpintero?|muebles de madera|pan dulce|zapatos
+1|¿A quién enseñó a trabajar san José?|a Jesús|a san Pedro|a Moisés
+2|¿Qué pasaría sin campesinos?|faltarían alimentos|habría más maíz|no pasaría nada
+2|¿Qué usa el albañil para construir?|ladrillos y cemento|harina y azúcar|vendas y jarabe
+2|¿Por qué damos las gracias a quienes trabajan?|porque su trabajo nos ayuda|porque nos lo ordenan|porque les tenemos miedo
+2|V|El trabajo bien hecho es una forma de amar.
+P|¿Quién {x}?||reparte las cartas = el cartero|arregla los dientes = el dentista|maneja el camión = el chofer|cose la ropa = la costurera|arregla los zapatos = el zapatero|corta el cabello = el peluquero
+#h16
+0|¿Quién hizo las calles y los puentes?|las personas|los animales|las nubes
+0|F|Un río es un elemento construido.
+1|¿Cuál es un elemento natural?|un árbol|una escuela|una carretera
+1|¿Cuál es un elemento construido?|un puente|una montaña|un lago
+1|V|En un paisaje puede haber cosas naturales y construidas.
+2|En mi dibujo hay un cerro, un río y una casa. ¿Cuántos elementos son naturales?|dos|uno|tres
+2|¿Qué necesitan las personas para construir una casa?|materiales y trabajo|solo lluvia|solo viento
+2|¿Qué pasa si tiramos basura en el paisaje?|se ensucia y se daña|se pone más bonito|no pasa nada
+2|¿Cuál de estos lo hizo una persona?|una barda|una nube|una cueva
+K|{x}: ¿natural o construido?|¿Natural o construido?|natural: el mar; el bosque; la cascada; el desierto|construido: la carretera; el faro; el estadio; la presa
+#h17
+0|¿Cuál es un lugar de todos?|la calle|mi cama|mi lonchera
+0|F|Rayar las bancas del parque es cuidarlo.
+1|¿Qué hago con las plantas del parque?|las cuido y no las arranco|las piso al correr|les quito las flores
+1|¿A quién le toca cuidar la comunidad?|a todos|solo al alcalde|solo a los policías
+1|¿Qué hago con la envoltura de mi dulce en la calle?|la guardo hasta hallar un bote|la tiro al piso|la aviento a la coladera
+1|¿Cómo uso los juegos del parque?|con cuidado y por turnos|a patadas|sin dejar jugar a otros
+2|¿Qué pasa si todos tiran basura en la calle?|se tapan las coladeras y hay más suciedad|las calles se limpian solas de noche|llueve menos durante todo el año
+2|Veo una fuga de agua en la calle. ¿Qué hago?|aviso a un adulto|juego con el agua|no digo nada
+2|¿Qué es separar los residuos?|poner cada tipo de basura en su bote|esconder la basura bajo la cama|quemar la basura en el patio
+2|V|Cuando cuido mi comunidad, cuido a mis vecinos.
+K|{x}: ¿cuida o daña la comunidad?|¿Cuida o daña la comunidad?|cuida: barrer la banqueta; plantar un árbol; recoger lo que ensucia mi perro; apagar la luz que no uso|daña: pintar las paredes ajenas; tirar chicles al piso; romper las lámparas; desperdiciar el agua
+#h6
+0|¿Cómo se llama nuestro país?|México|América|Jalisco
+0|F|México es un continente.
+1|¿Cuál de estos es un estado de México?|Oaxaca|Perú|Italia
+1|¿Qué paisaje tiene muchos árboles y lluvia?|la selva|el desierto|la playa
+1|¿Qué lengua indígena se habla en México?|el náhuatl|el francés|el chino
+1|V|En México hay playas, montañas y desiertos.
+2|¿Cuántos estados tiene México, sin contar la Ciudad de México?|31|32|12
+2|¿Qué palabra viene del náhuatl?|tomate|mesa|zapato
+2|¿Qué colores tiene la bandera de México?|verde, blanco y rojo|azul, blanco y rojo|verde, amarillo y azul
+2|¿En qué estado está la basílica de Zapopan?|en Jalisco|en Yucatán|en Chihuahua
+K|{x}: ¿es un estado de México o es otro país?|¿Estado de México u otro país?|estado de México: Jalisco; Puebla; Yucatán; Chihuahua; Nuevo León|otro país: Guatemala; España; Canadá; Brasil; Japón
+#h7
+0|¿Por dónde viaja el barco?|por el agua|por el aire|por la calle
+0|F|El tren vuela por el cielo.
+1|¿Qué transporte vuela?|el helicóptero|la canoa|el metro
+1|¿Qué uso siempre en el coche?|el cinturón de seguridad|el casco de bicicleta|los lentes de sol
+1|¿Qué transporte lleva a muchas personas a la vez?|el camión|la bicicleta|la patineta
+1|V|Al cruzar la calle miro a los dos lados.
+2|¿En qué viajo para cruzar el mar?|en barco o en avión|en bicicleta|en metro
+2|¿Qué transporte va por vías?|el tren|el coche|la lancha
+2|¿Qué significa la luz roja del semáforo?|alto|avanza|corre
+2|¿Qué tenía san Pedro para pescar?|una barca|un avión|un tren
+K|{x}: ¿viaja por tierra, por agua o por aire?|¿Por dónde viaja?|tierra: la motocicleta; el metro; el tractor; la carreta|agua: el velero; el submarino; la trajinera; la balsa|aire: el globo aerostático; la avioneta; el cohete
+#h8
+0|¿Qué tocó el cura Hidalgo para llamar al pueblo?|una campana|un tambor|una guitarra
+0|F|La bandera de México se honra con burlas y gritos.
+1|¿En qué pueblo tocó Hidalgo la campana?|en Dolores|en Acapulco|en Cancún
+1|¿Cuándo se da el Grito de Independencia?|la noche del 15 de septiembre|la noche del 24 de diciembre|la mañana del 6 de enero
+1|¿Quién nació el 21 de marzo?|Benito Juárez|Miguel Hidalgo|Emiliano Zapata
+1|V|Benito Juárez llegó a ser presidente de México.
+2|¿Qué fue Benito Juárez de niño?|pastor de ovejas|marinero|panadero
+2|¿Por qué lucharon en la Revolución?|por justicia y tierra para los campesinos|por tener más días de fiesta|por cambiar de bandera
+2|¿En qué año empezó la Independencia?|en 1810|en 1910|en 2010
+2|¿Quién fue un héroe de la Revolución?|Emiliano Zapata|Miguel Hidalgo|Benito Juárez
+#h9
+0|¿Qué se come en las posadas?|tamales y ponche|rosca de Reyes|pan de muerto
+0|¿Qué pan se pone en la ofrenda de noviembre?|pan de muerto|rosca de Reyes|pan de caja
+0|F|En el Día de Reyes se rompe la rosca con un palo.
+1|¿Qué ponemos en la ofrenda del Día de Muertos?|fotos, flores y velas|juguetes rotos|ropa sucia
+1|¿A quién visitaron los Reyes Magos?|al Niño Jesús|al rey David|a san Juan Diego
+1|¿Qué le cantamos a la Virgen el 12 de diciembre?|las mañanitas|el himno nacional|una canción de cuna
+1|¿Cuándo son las posadas?|del 16 al 24 de diciembre|del 1 al 2 de noviembre|del 5 al 6 de enero
+2|¿Qué le toca a quien le sale el muñequito de la rosca?|invitar los tamales el 2 de febrero|romper la piñata de siete picos|poner la ofrenda de noviembre
+2|¿Qué recuerdan los 7 picos de la piñata?|los pecados que vencemos con Dios|los días de la semana|los colores del arcoíris
+2|¿Qué es una tradición?|una costumbre que pasa de abuelos a nietos|un juguete nuevo de la tienda|una tarea difícil de la escuela
+2|¿Por qué rezamos por los difuntos?|porque creemos en la vida eterna|porque les tenemos miedo|porque así lo dice la tele
+P|¿Qué celebramos el {x}?|¿En qué fecha celebramos {x}?|1 y 2 de noviembre = el Día de Muertos|25 de diciembre = el nacimiento de Jesús|6 de enero = el Día de Reyes|2 de febrero = la Candelaria
+#h18
+0|¿Qué lengua hablamos casi todos en México?|el español|el inglés|el francés
+0|F|En México solo existe una lengua.
+1|¿De qué lengua viene la palabra «chile»?|del náhuatl|del inglés|del francés
+1|¿Cuál de estas es una lengua indígena?|el zapoteco|el italiano|el japonés
+1|V|La palabra «México» viene del náhuatl.
+2|¿A quién le habló la Virgen de Guadalupe en náhuatl?|a san Juan Diego|a san Felipe de Jesús|a fray Pedro de Gante
+2|¿Por qué es valioso que haya muchas lenguas?|porque cada una guarda historias y saberes|porque así nadie se entiende|porque sirven para burlarse
+2|¿Qué palabra NO viene del náhuatl?|ventana|cacahuate|tomate
+2|¿Qué lengua se habla en Yucatán, además del español?|el maya|el otomí|el tsotsil
+K|{x}: ¿es una lengua indígena de México o de otro país?|¿Lengua de México o de otro país?|indígena de México: el náhuatl; el mixteco; el otomí; el tsotsil|de otro país: el inglés; el francés; el alemán; el chino
+#h19
+0|¿Qué rompemos en las posadas?|la piñata|la rosca|el nacimiento
+0|F|La Navidad es el cumpleaños de san José.
+1|¿Cómo se llaman los cantos de Navidad?|villancicos|mañanitas|corridos
+1|¿Qué ponemos en casa para recordar que Jesús nació?|el nacimiento|la ofrenda|la rosca
+1|V|En las posadas cantamos y rezamos.
+2|¿Qué guio a los Reyes Magos hasta Jesús?|una estrella|un mapa|un pastor
+2|¿Cuántos días duran las posadas?|nueve|tres|doce
+2|¿Qué anunció el ángel a los pastores?|«Hoy les ha nacido un Salvador»|«Mañana lloverá mucho»|«Vayan a dormir temprano»
+2|¿Cuál es el mejor regalo de la Navidad?|Jesús, que nace por nosotros|el juguete más caro|las vacaciones largas
+K|{x}: ¿es de la Navidad o del Día de Muertos?|¿Navidad o Día de Muertos?|Navidad: la piñata de picos; los villancicos; la flor de nochebuena; el nacimiento|Día de Muertos: la flor de cempasúchil; el pan de muerto; la ofrenda con fotos; el papel picado
+#h20
+0|¿Qué ponemos en la ofrenda para recordar a los abuelos?|sus fotos|sus zapatos|sus llaves
+0|F|El Día de Muertos es para asustar a la gente.
+1|¿De qué color es la flor de cempasúchil?|anaranjada|azul|morada
+1|¿Dónde están los santos?|en el cielo, con Dios|en un museo|en un cuento
+1|V|Recordamos con cariño a quienes ya murieron.
+2|¿Por qué rezamos con esperanza por los difuntos?|porque Jesús resucitó|porque nos da miedo|porque es un juego
+2|¿Quiénes son los «fieles difuntos»?|los cristianos que ya murieron|los santos de los vitrales|los niños del catecismo
+2|¿Quiénes pueden llegar a ser santos?|todos los amigos de Dios|solo los sacerdotes|solo los reyes
+2|En noviembre, ¿qué fiesta va primero?|Todos los Santos|los Fieles Difuntos|la Navidad
+#h10
+0|¿Quiénes llegaron a México a enseñar la fe en Jesús?|los frailes misioneros|los piratas|los astronautas
+0|¿A quién se le apareció la Virgen de Guadalupe?|a san Juan Diego|a san Felipe de Jesús|a Tata Vasco
+0|F|En México no hay santos.
+1|¿Qué enseñaba fray Pedro de Gante a los niños?|a leer, cantar y pintar|a pelear con espadas|a navegar en barcos
+1|¿Qué quiere decir «Tata Vasco»?|papá Vasco|rey Vasco|niño Vasco
+1|¿Dónde nació san Felipe de Jesús?|en la Ciudad de México|en una isla de Japón|en un pueblo de España
+1|V|Los misioneros fundaron escuelas y hospitales.
+2|¿Qué oficios enseñó Tata Vasco a los purépechas?|trabajar el cobre, la madera y el barro|manejar trenes y camiones|construir barcos y aviones
+2|¿Qué día celebramos a san Felipe de Jesús?|el 5 de febrero|el 12 de diciembre|el 16 de septiembre
+2|¿De dónde era san José Sánchez del Río?|de Michoacán|de Tlaxcala|de Japón
+2|¿Qué aprendieron los misioneros para enseñar mejor?|las lenguas indígenas|a volar en globo|a nadar en el mar
