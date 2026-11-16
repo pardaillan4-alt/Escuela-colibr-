@@ -1,0 +1,353 @@
+// Ciencias Naturales 4.º — profundización y banco ampliado
+#4c1
+Z|El alimento recorre el <b>tubo digestivo</b>: boca, faringe, esófago, estómago, intestino delgado e intestino grueso.|En la <b>boca</b> se tritura y se mezcla con saliva; en el <b>estómago</b>, los jugos gástricos lo deshacen.|El <b>intestino delgado</b> absorbe los nutrientes; el <b>intestino grueso</b>, el agua.|El hígado (con la bilis) y el páncreas ayudan a la digestión.
+E|Masticar bien: la digestión empieza en la boca|Fibra: frutas, verduras y cereales integrales
+S|¿Qué le pasa a un bocado de tortilla desde que lo como?|En la boca lo trituro con los dientes y lo mezclo con saliva.|Baja por el esófago al estómago, donde los jugos gástricos lo deshacen.|En el intestino delgado sus nutrientes pasan a la sangre; lo que sobra sigue al intestino grueso.|=Se tritura, se deshace, se absorben sus nutrientes y se desecha lo que no sirve.
+I|🦷 Boca: Tritura y mezcla con saliva.|🫃 Estómago: Deshace con jugos gástricos.|🌀 Intestino delgado: Absorbe los nutrientes.|💧 Intestino grueso: Absorbe el agua.
+0|V|La digestión empieza en la boca.
+0|¿Qué tubo lleva el alimento de la boca al estómago?|el esófago|la tráquea|el intestino
+1|¿A dónde pasan los nutrientes que se absorben?|a la sangre|a los pulmones|a los huesos
+1|¿Por qué conviene masticar bien?|para facilitar la digestión|para comer más rápido|para no usar saliva
+1|F|El intestino grueso es el encargado de triturar los alimentos.
+1|¿Qué líquido de la boca ayuda a deshacer el alimento?|la saliva|la bilis|el sudor
+2|¿Qué hábito cuida el sistema digestivo?|comer a horarios regulares|comer muy rápido|acostarse al terminar de comer
+2|¿Por qué me lavo las manos antes de comer?|para no tragar microbios|para que la comida sepa mejor|para comer más
+2|V|Dar gracias por los alimentos nos recuerda que son un don de Dios.
+2|¿Qué ayuda a que el intestino funcione bien?|la fibra y el agua|los dulces|el refresco
+P|¿Qué hace {x} en la digestión?|¿Qué órgano {x}?|la boca = tritura el alimento|el estómago = deshace el alimento con jugos gástricos|el intestino delgado = absorbe los nutrientes|el intestino grueso = absorbe el agua|el hígado = produce la bilis
+#4c2
+Z|El <b>corazón</b> es un músculo que bombea la sangre a todo el cuerpo.|Las <b>arterias</b> llevan la sangre con oxígeno del corazón al cuerpo; las <b>venas</b> la regresan; los capilares son vasos finísimos.|La <b>sangre</b> lleva oxígeno, nutrientes y defensas, y recoge los desechos.|Tiene glóbulos rojos, glóbulos blancos y plaquetas.
+E|Pulso: los latidos que siento en la muñeca|El ejercicio fortalece el corazón
+S|¿Cómo llega el oxígeno a los músculos de mis piernas?|La sangre toma oxígeno en los pulmones.|El corazón la bombea por las arterias.|Por los capilares, el oxígeno pasa a los músculos; la sangre regresa por las venas.|=Viaja en la sangre: del corazón, por las arterias, hasta los capilares.
+I|❤️ Corazón: Bombea sin descanso.|🔴 Glóbulos rojos: Llevan el oxígeno.|⚪ Glóbulos blancos: Defienden al cuerpo.|🩹 Plaquetas: Cierran las heridas.
+0|V|El corazón es un músculo.
+0|¿Qué líquido recorre todo el cuerpo por los vasos sanguíneos?|la sangre|la saliva|la bilis
+1|¿Qué vasos sacan la sangre del corazón?|las arterias|las venas|los bronquios
+1|¿Qué transportan los glóbulos rojos?|oxígeno|defensas|saliva
+1|F|Las plaquetas sirven para llevar el oxígeno.
+1|¿Cómo son los capilares?|vasos muy delgados|huesos pequeños|músculos del brazo
+2|¿Qué siento cuando me tomo el pulso?|los latidos del corazón|el aire de los pulmones|el movimiento del estómago
+2|¿Qué fortalece al corazón?|hacer ejercicio|estar sentado todo el día|comer mucha sal
+2|V|Cuando me corto, las plaquetas ayudan a detener la sangre.
+2|¿Qué recoge la sangre de todo el cuerpo?|los desechos|los huesos|los dientes
+P|¿Qué hacen {x}?||los glóbulos rojos = llevan el oxígeno|los glóbulos blancos = defienden al cuerpo|las plaquetas = cierran las heridas|las arterias = sacan la sangre del corazón|las venas = regresan la sangre al corazón
+#4c3
+Z|La vida tiene <b>etapas</b>: bebé, niñez, pubertad, adolescencia, juventud, adultez y vejez.|En la <b>pubertad</b> (de los 9 a los 14 años, más o menos) el cuerpo crece más rápido y cambian la voz, la piel y las emociones.|Cada persona tiene su <b>ritmo</b>.|Hace falta más higiene, y las dudas se platican con <b>mamá y papá</b>.
+E|Baño diario y ropa limpia|Mi cuerpo es templo del Espíritu Santo
+S|Mi amigo creció mucho este año y yo no. ¿Me pasa algo malo?|Cada persona crece a su propio ritmo.|Unos empiezan a cambiar antes y otros después: las dos cosas son normales.|Si tengo dudas, las platico con mis papás o con el médico.|=No: cada quien crece a su tiempo.
+I|👶 Etapas: De bebé a adulto mayor.|📏 Pubertad: El cuerpo crece más rápido.|🚿 Higiene: Baño diario.|👪 Papás: Con ellos platico mis dudas.
+0|V|Cada persona crece a su propio ritmo.
+0|¿Cuál es la última etapa de la vida?|la vejez|la niñez|la pubertad
+1|¿Qué cambia en la pubertad?|el cuerpo y las emociones|el nombre de la persona|el lugar donde vive
+1|¿Por qué hace falta más higiene en la pubertad?|la piel suda y se engrasa más|se duerme mucho menos que antes|se come menos que en la niñez
+1|F|Burlarse de los cambios de un compañero es una broma inofensiva.
+1|¿Qué etapa va antes de la adultez?|la juventud|la vejez|la niñez
+2|¿Cómo quiere Dios que trate mi cuerpo?|con respeto y cuidado|con descuido|con vergüenza
+2|¿Qué hago si algo de mi crecimiento me preocupa?|lo platico con mis papás|lo busco a escondidas en internet|no se lo digo a nadie
+2|V|Cada etapa de la vida es un regalo de Dios.
+2|¿Cómo trato a los abuelos, que viven la vejez?|con cariño y paciencia|con burlas|con prisa
+#4c4
+Z|El <b>Plato del Bien Comer</b> tiene tres grupos: verduras y frutas (muchas), cereales (suficientes) y leguminosas y alimentos de origen animal (pocos).|En cada comida conviene <b>combinar</b> los tres grupos.|La <b>Jarra del Buen Beber</b> recomienda agua simple: de 6 a 8 vasos al día.|Las bebidas con azúcar, casi nunca.
+E|Cereales integrales: avena, tortilla de maíz|Leguminosas: frijol, lenteja, garbanzo, haba
+S|¿Cómo completo un lunch de «torta de frijoles»?|La torta ya tiene cereal (pan) y leguminosa (frijoles).|Falta el grupo de verduras y frutas.|Agrego jitomate y lechuga a la torta, o una fruta, y agua simple.|=Con verdura o fruta, y agua simple.
+I|🥦 Verduras y frutas: Muchas.|🌽 Cereales: Suficientes.|🫘 Leguminosas y origen animal: Pocos.|🚰 Agua simple: De 6 a 8 vasos al día.
+0|V|El agua simple es la bebida más recomendable.
+0|¿A qué grupo pertenece la tortilla?|a los cereales|a las frutas|a las leguminosas
+1|¿De qué grupo debo comer más?|verduras y frutas|origen animal|dulces
+1|¿Cuál es una leguminosa?|la lenteja|el arroz|la zanahoria
+1|F|Conviene tomar refresco en cada comida.
+1|¿Qué cereales son preferibles?|los integrales|los azucarados|los fritos
+2|¿Qué comida combina los tres grupos?|arroz, frijoles y ensalada|pan con pan dulce|carne con huevo
+2|¿Qué obra de misericordia vivo al compartir mi comida?|dar de comer al hambriento|visitar al preso|enterrar a los muertos
+2|V|Una comida completa incluye alimentos de los tres grupos.
+2|¿Qué bebo después de jugar futbol?|agua simple|una bebida con mucha azúcar|nada hasta la noche
+K|{x}: ¿a qué grupo del Plato del Bien Comer pertenece?|¿De qué grupo es?|verduras y frutas: el jitomate; la guayaba; la espinaca; el plátano|cereales: el maíz; el amaranto; la pasta; el pan integral|leguminosas y origen animal: el garbanzo; el haba; el queso; el atún
+#4c5
+Z|Los alimentos <b>frescos</b> casi no se han modificado: fruta, verdura, huevo.|Los <b>procesados</b> se preparan con pocos ingredientes: queso, tortilla, pan sencillo.|Los <b>ultraprocesados</b> (refrescos, frituras, galletas, embutidos) tienen mucha azúcar, sal, grasa y aditivos.|La <b>milpa</b> reúne maíz, frijol y calabaza, que crecen juntos y se ayudan.
+E|Del maíz: tortillas, tamales, atole|Los sellos negros advierten excesos
+S|¿Cómo sé si una botana es ultraprocesada?|Leo la etiqueta: ¿tiene muchos ingredientes con nombres raros?|Busco los sellos de advertencia: exceso de azúcares, sodio o grasas.|Si tiene varios sellos y muchos aditivos, lo es.|=Por su larga lista de ingredientes y sus sellos de advertencia.
+I|🍎 Fresco: Casi como sale del campo.|🧀 Procesado: Con pocos ingredientes.|🍟 Ultraprocesado: Mucha azúcar, sal y grasa.|🌽 Milpa: Maíz, frijol y calabaza.
+0|V|El huevo es un alimento fresco.
+0|¿Cuál es un alimento ultraprocesado?|las frituras de bolsa|la manzana|el frijol de olla
+1|¿Qué tienen en exceso los ultraprocesados?|azúcar, sal y grasa|vitaminas|fibra
+1|¿Qué cultivo de la milpa se enreda en la caña del maíz?|el frijol|la calabaza|el trigo
+1|F|Los sellos de advertencia indican que un producto es muy saludable.
+1|¿Qué alimento se hace con maíz?|el tamal|el queso|el yogur
+2|¿Qué refrigerio es mejor?|jícama con limón|galletas rellenas|papas fritas
+2|¿Por qué la milpa es un buen sistema de cultivo?|las plantas se ayudan entre sí|usa una sola planta|no necesita agua
+2|V|El trabajo del campesino merece gratitud y un pago justo.
+2|¿Qué reviso en la etiqueta de un producto?|los ingredientes y los sellos|el color del empaque|el personaje del dibujo
+K|{x}: ¿fresco, procesado o ultraprocesado?|¿Fresco, procesado o ultraprocesado?|fresco: la manzana; el huevo; la lechuga; el pescado fresco|procesado: el queso; la tortilla; el pan sencillo; el aceite|ultraprocesado: el refresco; las frituras; las galletas rellenas; las salchichas
+#4c6
+Z|Nuestros antepasados usaban <b>plantas medicinales</b>: manzanilla, hierbabuena, árnica y sábila.|Muchas <b>medicinas</b> modernas vienen de plantas.|Algunas plantas son <b>tóxicas</b>: se usan solo con un adulto que las conozca.|Si hay enfermedad, se va al <b>médico</b>; la magia y las «limpias» van contra la fe.
+E|Manzanilla: malestar de estómago|Sábila: quemaduras leves
+S|Mi abuela me ofrece un té de manzanilla para el dolor de panza. ¿Está bien tomarlo?|La manzanilla es una planta conocida y segura en té.|Me la da un adulto que la conoce.|Si el dolor sigue o es fuerte, hay que ir al médico.|=Sí, con un adulto; y si no mejoro, al médico.
+I|🌼 Manzanilla: Calma el estómago.|🌵 Sábila: Alivia quemaduras leves.|⚠️ Prudencia: Algunas plantas son tóxicas.|🩺 Médico: Si hay enfermedad.
+0|V|Algunas plantas pueden ser tóxicas.
+0|¿Qué planta se usa en té para el malestar de estómago?|la manzanilla|el nopal|el pino
+1|¿Con quién debo usar una planta medicinal?|con un adulto que la conozca|yo solo|con un amigo de mi edad
+1|¿De dónde vienen muchas medicinas modernas?|de las plantas|de las piedras|del plástico
+1|F|Cualquier planta del jardín se puede comer sin peligro.
+1|¿Qué planta se usa para los golpes?|el árnica|la sábila|la manzanilla
+2|¿Qué hago si tengo fiebre alta?|voy al médico con mis papás|me curo solo con un té|espero varios días
+2|¿Por qué un cristiano no acude a «limpias» ni a la magia?|porque confía solo en Dios|porque son muy caras|porque duran mucho
+2|V|La Iglesia fundó muchos de los primeros hospitales.
+2|¿Qué sacramento conforta a los enfermos graves?|la Unción de los enfermos|el Bautismo|el Orden sacerdotal
+P|¿Para qué se usa tradicionalmente {x}?||la manzanilla = el malestar de estómago|el árnica = los golpes|la sábila = las quemaduras leves
+#4c22
+Z|La <b>salud</b> es física, mental y espiritual.|Se cuida comiendo bien, haciendo ejercicio, durmiendo de 9 a 11 horas, conviviendo con la familia y rezando.|El alcohol, el tabaco, los vapeadores y las drogas <b>dañan</b> el cuerpo y la mente.|Si alguien me los ofrece, digo <b>NO</b> y aviso a mis papás.
+E|Dormir bien ayuda a crecer y a aprender|Somos cuerpo y alma
+S|¿Qué le falta a mi día si comí bien y jugué, pero me dormí a medianoche viendo videos?|Comer bien y moverme cuidan mi cuerpo.|Pero dormí muy poco: un niño necesita de 9 a 11 horas.|Y pasé demasiado tiempo frente a la pantalla.|=Descanso suficiente y menos pantallas.
+I|🥗 Comer bien: Variado y a sus horas.|🏃 Moverse: Jugar y hacer deporte.|😴 Dormir: De 9 a 11 horas.|🙏 Rezar: La salud del alma.
+0|V|Dormir bien es parte de una vida saludable.
+0|¿Qué digo si me ofrecen un cigarro?|no|sí|tal vez
+1|¿Qué daña el cuerpo y la mente?|las drogas|el deporte|el descanso
+1|¿Qué cuida mi salud espiritual?|rezar y recibir los sacramentos|ver más horas de televisión|comer más dulces y pasteles
+1|F|Los vapeadores «de sabor» no hacen daño.
+1|¿Cuántas horas debe dormir un niño de mi edad?|de 9 a 11|de 4 a 5|de 14 a 16
+2|¿Qué hago si alguien insiste en que pruebe algo dañino?|me alejo y aviso a mis papás|lo pruebo para que no se enoje|guardo el secreto
+2|¿Qué ayuda a mi salud mental?|convivir con mi familia|aislarme con el celular|desvelarme
+2|V|Cuidar mi cuerpo y mi alma es una forma de amar a Dios.
+2|¿Qué pasa si paso muchas horas frente a las pantallas?|descanso y juego menos|crezco más rápido|aprendo todo
+K|{x}: ¿cuida o daña mi salud?|¿Cuida o daña?|cuida: dormir de 9 a 11 horas; jugar al aire libre; comer frutas y verduras; convivir en familia|daña: el tabaco y los vapeadores; pasar horas frente a pantallas; desvelarme; tomar refresco a diario
+#4c7
+Z|Los seres <b>autótrofos</b> fabrican su propio alimento: plantas y algas.|Los <b>heterótrofos</b> se alimentan de otros seres: animales, hongos y nosotros.|En la <b>fotosíntesis</b>, la clorofila atrapa la luz; con agua y dióxido de carbono, la planta fabrica glucosa y libera oxígeno.|Del suelo toma agua y minerales.
+E|Clorofila: da el color verde|Los hongos no hacen fotosíntesis
+S|¿El champiñón es autótrofo o heterótrofo?|Me pregunto: ¿fabrica su alimento con la luz?|No: no tiene clorofila ni es verde.|Se alimenta de restos de otros seres vivos.|=Es heterótrofo.
+I|🌱 Autótrofos: Fabrican su alimento.|🐇 Heterótrofos: Comen a otros seres.|☀️ Fotosíntesis: Luz, agua y dióxido de carbono.|🍃 Clorofila: Atrapa la luz.
+0|V|Los animales son heterótrofos.
+0|¿Qué necesitan las plantas para la fotosíntesis?|luz, agua y aire|carne y leche|oscuridad
+1|¿Qué fabrica la planta en la fotosíntesis?|glucosa|sal|arena
+1|¿Por qué las algas son autótrofas?|fabrican su propio alimento|comen peces|viven en el agua
+1|F|Los hongos fabrican su alimento con la luz del Sol.
+1|¿Por dónde toma la planta el agua?|por la raíz|por la flor|por el fruto
+2|¿Qué pasaría con los animales si no hubiera plantas?|no tendrían alimento ni oxígeno|vivirían mejor que ahora|comerían piedras y arena
+2|¿Por qué una planta en la oscuridad se debilita?|no puede hacer la fotosíntesis|le sobra el agua de riego|tiene frío en las hojas
+2|V|Las plantas producen el oxígeno que respiramos.
+2|¿Qué gas toman las plantas del aire?|dióxido de carbono|oxígeno|vapor de agua
+K|{x}: ¿autótrofo o heterótrofo?|¿Autótrofo o heterótrofo?|autótrofo: el pasto; un alga; el nopal; un rosal; el maíz|heterótrofo: el león; un hongo; el ser humano; una vaca; una mariposa
+#4c8
+Z|En una <b>cadena alimentaria</b>, cada ser vivo es alimento del siguiente.|<b>Productores</b>: las plantas. <b>Consumidores</b>: primarios (herbívoros), secundarios y terciarios (carnívoros).|Los <b>descomponedores</b> (hongos y bacterias) regresan los nutrientes al suelo.|Según lo que comen, los animales son herbívoros, carnívoros u omnívoros.
+E|Pasto → conejo → zorro|Omnívoros: mapache, oso, ser humano
+S|En «maíz → ratón → serpiente → águila», ¿quién es el consumidor secundario?|El maíz es el productor: fabrica su alimento.|El ratón se come el maíz: consumidor primario.|La serpiente se come al ratón.|=La serpiente.
+I|🌿 Productores: Las plantas.|🐭 Consumidor primario: Come plantas.|🦅 Consumidor terciario: El cazador mayor.|🍄 Descomponedores: Devuelven nutrientes al suelo.
+0|V|Los herbívoros se alimentan de plantas.
+0|¿Con qué empieza toda cadena alimentaria?|con una planta|con un carnívoro|con un hongo
+1|¿Qué come un carnívoro?|otros animales|solo plantas|solo semillas
+1|¿Qué es el águila en «planta → ratón → serpiente → águila»?|consumidor terciario|productor|consumidor primario
+1|F|Los descomponedores fabrican su alimento con la luz.
+1|¿Cuál es un animal omnívoro?|el oso|la vaca|el tiburón
+2|¿Qué pasa si desaparecen los productores?|toda la cadena se queda sin alimento|aumentan mucho los carnívoros|no cambia nada en la cadena
+2|¿Por qué son importantes los descomponedores?|devuelven nutrientes al suelo|cazan a los herbívoros|producen oxígeno
+2|V|Si se rompe un eslabón, toda la cadena se afecta.
+2|O|Ordena la cadena alimentaria|pasto|chapulín|rana|garza
+K|{x}: ¿herbívoro, carnívoro u omnívoro?|¿Herbívoro, carnívoro u omnívoro?|herbívoro: la vaca; el conejo; el venado; el caballo|carnívoro: el jaguar; el águila; el tiburón; la serpiente|omnívoro: el mapache; el oso; el cerdo; el ser humano
+#4c9
+Z|México tiene muchos <b>ecosistemas</b>: bosque templado, desierto, selva húmeda, arrecife de coral y manglar.|En cada uno, los <b>factores físicos</b> (clima, suelo, agua, luz) se relacionan con los <b>biológicos</b> (plantas, animales, hongos).|México es un país <b>megadiverso</b>.|Cuidar los ecosistemas es cuidar nuestra casa.
+E|Bosque templado: pinos, encinos y venados|Selva húmeda: jaguar, tucán y monos
+S|¿Por qué no hay cactus en la selva húmeda?|El cactus está adaptado a guardar agua donde casi no llueve.|En la selva llueve mucho y hay poca luz a ras del suelo.|Ahí ganan las plantas de hojas grandes que aprovechan la humedad.|=Porque cada planta está adaptada al clima de su ecosistema.
+I|🌲 Bosque templado: Pinos, encinos y venados.|🌵 Desierto: Cactus y coyotes.|🐆 Selva húmeda: Jaguar y tucán.|🪸 Arrecife: Corales y peces de colores.
+0|V|En el desierto llueve muy poco.
+0|¿Qué árboles hay en el bosque templado?|pinos y encinos|palmeras|mangles
+1|¿Cuál es un factor biológico?|los animales|el clima|el suelo
+1|¿Qué ecosistema está bajo el mar?|el arrecife de coral|el bosque|el desierto
+1|F|En todos los ecosistemas de México viven los mismos animales.
+1|¿Qué significa que México es megadiverso?|que tiene muchísimas especies|que es muy grande|que tiene pocos ríos
+2|¿Qué factor físico cambia más entre el desierto y la selva?|la cantidad de lluvia|el número de montañas|el color del cielo
+2|¿Qué hago cuando visito un área natural?|no dejo basura ni me llevo plantas|corto flores de recuerdo|alimento a los animales
+2|V|La variedad de ecosistemas de México es un regalo y una responsabilidad.
+2|¿Por qué el jaguar no podría vivir en el desierto?|está adaptado a la selva|es demasiado pequeño|no sabe correr
+P|¿En qué ecosistema vive {x}?|¿Qué animal vive en {x}?|el jaguar = la selva húmeda|el venado = el bosque templado|el correcaminos = el desierto|el pez loro = el arrecife de coral|el cangrejo violinista = el manglar
+#4c10
+Z|Los ecosistemas se <b>dañan</b> con la tala, los incendios, la basura, los desechos tóxicos, la cacería ilegal y el crecimiento sin orden de las ciudades.|Se <b>cuidan</b> reforestando, cuidando el agua, separando residuos y consumiendo con responsabilidad.|Las <b>áreas naturales protegidas</b> conservan plantas y animales.|La Tierra es nuestra <b>casa común</b>.
+E|Agroecología: cultivar sin dañar la tierra|Laudato si': cuidar la casa común
+S|Talan el bosque de un cerro para sembrar. ¿Qué consecuencias hay?|Los animales pierden su casa y su alimento.|Sin raíces, la lluvia arrastra el suelo.|Hay menos agua en los manantiales y menos oxígeno.|=Se pierden animales, suelo y agua: se daña todo el ecosistema.
+I|🪓 Tala: Se pierden bosques y selvas.|🏭 Contaminación: Desechos en el agua y el aire.|🌳 Reforestar: Sembrar árboles nativos.|🛡️ Áreas protegidas: Refugio de la naturaleza.
+0|V|La cacería ilegal daña a los ecosistemas.
+0|¿Qué es reforestar?|plantar árboles|cortar árboles|quemar pastizales
+1|¿Qué pasa cuando se tiran desechos tóxicos a un río?|mueren peces y plantas|el agua se limpia|hay más pesca
+1|¿Qué es el consumo responsable?|comprar solo lo necesario|comprar lo más caro|comprar todos los días
+1|F|Los incendios forestales ayudan a los animales del bosque.
+1|¿Qué se cultiva con la agroecología?|alimentos, cuidando la tierra|solo flores de adorno|árboles de plástico
+2|¿Qué puedo hacer yo por los ecosistemas?|separar mis residuos y cuidar el agua|tirar basura en el campo|comprar animales silvestres
+2|¿Por qué dañar la naturaleza es faltar al amor al prójimo?|porque todos dependemos de ella|porque es de una sola persona|porque nadie la usa
+2|V|Las áreas naturales protegidas conservan especies en peligro.
+2|O|Ordena lo que ocurre al talar un cerro|Se cortan los árboles|La lluvia arrastra el suelo|Los animales se van|El manantial se seca
+K|{x}: ¿daña o ayuda a los ecosistemas?|¿Daña o ayuda?|daña: la tala sin control; los incendios provocados; tirar desechos al río; la cacería ilegal|ayuda: reforestar; separar los residuos; crear áreas protegidas; cuidar el agua
+#4c11
+Z|Los residuos <b>orgánicos</b> vienen de seres vivos y se descomponen: restos de comida, cáscaras, hojas.|Los <b>inorgánicos</b> no se descomponen fácilmente: plástico, vidrio, aluminio, papel.|Muchos inorgánicos se <b>reciclan</b> si se separan limpios.|Con los orgánicos se hace <b>composta</b>, un abono natural.
+E|Lata de aluminio: inorgánico reciclable|«Para que nada se pierda» (Jn 6, 12)
+S|¿Cómo hago composta en casa?|Junto cáscaras de fruta, restos de verdura y hojas secas.|Los mezclo con tierra en un recipiente con hoyitos.|Volteo y humedezco la mezcla cada semana, durante unos dos meses.|=Mezclando residuos orgánicos con tierra, volteando y humedeciendo.
+I|🍌 Orgánicos: Se descomponen.|🥫 Inorgánicos: Tardan mucho en deshacerse.|♻️ Reciclar: Vidrio, papel, aluminio y PET.|🌱 Composta: Abono para las plantas.
+0|V|Una botella de vidrio es un residuo inorgánico.
+0|¿En qué bote va una cáscara de naranja?|en el de orgánicos|en el de vidrio|en el de plástico
+1|¿Qué es la composta?|un abono natural|un tipo de plástico|una bebida
+1|¿Qué residuo se puede reciclar?|una lata de aluminio|un resto de sopa|una servilleta sucia
+1|F|Los residuos orgánicos tardan cientos de años en descomponerse.
+1|¿Cómo deben estar los envases para reciclarlos?|limpios y separados|sucios y revueltos|rotos y mojados
+2|¿Por qué conviene separar la basura?|para reciclar y contaminar menos|para llenar más botes|para tardar más
+2|¿Qué hago con las hojas secas del jardín?|las pongo en la composta|las tiro al drenaje|las quemo
+2|V|No desperdiciar la comida es una forma de agradecer a Dios.
+2|O|Ordena los pasos de la composta|Juntar cáscaras y hojas|Mezclar con tierra|Voltear y humedecer|Usar el abono
+K|{x}: ¿residuo orgánico o inorgánico?|¿Orgánico o inorgánico?|orgánico: la cáscara de plátano; las hojas secas; el cascarón de huevo; los restos de verdura|inorgánico: la lata de aluminio; la botella de vidrio; la bolsa de plástico; el envase de PET
+#4c12
+Z|La materia se presenta en tres <b>estados</b>: sólido, líquido y gas.|Los <b>sólidos</b> tienen forma propia; los <b>líquidos</b> toman la forma del recipiente; los <b>gases</b> se expanden y se pueden comprimir.|Los cambios de estado ocurren al calentar o enfriar: fusión, solidificación, evaporación, condensación y sublimación.|El hielo se funde a 0 °C y el agua hierve a 100 °C.
+E|Fusión: la paleta se derrite|Condensación: el espejo se empaña
+S|Saco un vaso de agua fría y por fuera se llena de gotitas. ¿Qué pasó?|En el aire hay vapor de agua, que es un gas.|Al tocar el vaso frío, el vapor se enfría.|Pasa de gas a líquido y forma gotitas.|=Condensación del vapor de agua del aire.
+I|🧱 Sólido: Forma y volumen propios.|🥛 Líquido: Toma la forma del recipiente.|💨 Gas: Se expande y se comprime.|🌡️ Cambios: Al calentar o enfriar.
+0|V|El aire es un gas.
+0|¿Qué estado tiene forma propia?|el sólido|el líquido|el gas
+1|¿Cómo se llama el paso de sólido a líquido?|fusión|condensación|evaporación
+1|¿Qué necesita el agua para evaporarse?|calor|frío|oscuridad
+1|F|Al congelar el agua ocurre una evaporación.
+1|¿Qué estado toma la forma del recipiente y no se comprime fácil?|el líquido|el sólido|el gas
+2|¿Por qué se seca un charco al sol?|el agua se evapora|el agua se congela|el agua se condensa
+2|¿Qué le pasa al chocolate en la mano caliente?|se funde|se evapora|se solidifica
+2|V|El agua puede estar en la naturaleza como hielo, agua líquida o vapor.
+2|¿Qué cambio ocurre cuando el vapor de la olla toca la tapa fría?|condensación|fusión|sublimación
+P|¿Qué cambio de estado ocurre cuando {x}?||se derrite un hielo = fusión|el agua se hace hielo = solidificación|se seca la ropa tendida = evaporación|se empaña un vaso frío = condensación
+K|{x}: ¿sólido, líquido o gas?|¿Sólido, líquido o gas?|sólido: una piedra; un clavo; el hielo|líquido: la leche; el aceite; el jugo|gas: el aire; el vapor de agua; el oxígeno
+#4c13
+Z|El <b>termómetro</b> mide la temperatura en <b>grados Celsius</b> (°C).|Hay termómetros clínicos, de cocina, industriales y ambientales.|La temperatura normal del cuerpo es de unos <b>36.5 °C</b>; más de 38 °C es fiebre.|Para usarlo bien: lo limpio, lo coloco, espero el tiempo indicado y leo el número.
+E|36.5 °C: normal|38.5 °C: fiebre
+S|El termómetro de mi hermana marca 39 °C. ¿Qué significa y qué hago?|La temperatura normal es de unos 36.5 °C.|39 °C es mucho más: tiene fiebre.|La fiebre indica que el cuerpo lucha contra una enfermedad.|=Tiene fiebre: aviso a mis papás para llevarla al médico.
+I|🤒 Clínico: Mide la temperatura del cuerpo.|🍳 De cocina: Para alimentos y hornos.|🌤️ Ambiental: Para el clima.|📝 Registrar: Anotar la medida y la hora.
+0|V|La temperatura normal del cuerpo es de unos 36.5 °C.
+0|¿Qué instrumento mide la temperatura?|el termómetro|la báscula|el reloj
+1|¿Qué termómetro mide la temperatura del día?|el ambiental|el clínico|el de cocina
+1|¿Qué hago antes de usar un termómetro clínico?|lo limpio|lo caliento|lo mojo con agua caliente
+1|F|Una persona con 39 °C tiene temperatura normal.
+1|¿Qué significa °C?|grados Celsius|centímetros|centilitros
+2|¿Qué indica la fiebre?|que el cuerpo combate una enfermedad|que la persona tiene frío|que hace falta dormir
+2|Un día está a 32 °C y otro a 12 °C. ¿Cuál es más caluroso?|el de 32 °C|el de 12 °C|son iguales
+2|V|Cuidar a un familiar enfermo es una obra de misericordia.
+2|O|Ordena cómo se usa el termómetro|Limpiar|Colocar|Esperar|Leer y anotar
+K|{x} en una persona: ¿temperatura normal o fiebre?|¿Normal o fiebre?|normal: 36.5 °C; 36.8 °C; 36.3 °C|fiebre: 38.5 °C; 39 °C; 40 °C
+#4c14
+Z|El calor pasa de lo más <b>caliente</b> a lo más <b>frío</b>.|<b>Conducción</b>: por contacto, como la cuchara en la olla.|<b>Convección</b>: por el movimiento de líquidos y gases, como el agua que hierve.|<b>Radiación</b>: sin contacto, como el calor del Sol. Los metales conducen el calor; la madera, el plástico y la lana lo aíslan.
+E|Mango de madera en el sartén: aislante|Suéter de lana: guarda el calor del cuerpo
+S|¿Por qué el mango de una cuchara de metal quema si la dejo en la sopa caliente?|La sopa calienta la parte de la cuchara que toca.|El metal es buen conductor: el calor avanza por toda la cuchara.|Así llega hasta el mango.|=Por conducción: el metal lleva el calor hasta el mango.
+I|🥄 Conducción: Por contacto.|♨️ Convección: Líquidos y gases en movimiento.|☀️ Radiación: Sin contacto.|🧶 Aislantes: Madera, plástico y lana.
+0|V|Los metales son buenos conductores del calor.
+0|¿Cómo se calienta una cuchara dentro de la sopa?|por conducción|por radiación|por evaporación
+1|¿Qué forma de transferencia no necesita contacto?|la radiación|la conducción|la convección
+1|¿Hacia dónde va el aire caliente?|hacia arriba|hacia abajo|se queda quieto
+1|F|La madera conduce el calor mejor que el metal.
+1|¿Qué material usarías para el mango de una olla?|plástico o madera|aluminio|cobre
+2|¿Por qué un suéter nos mantiene calientes?|aísla el calor del cuerpo|produce calor|absorbe el frío
+2|¿Cómo se calienta el agua de toda la olla?|por convección|por radiación|por fusión
+2|V|El calor siempre pasa del objeto más caliente al más frío.
+2|¿Por qué no se toca una plancha encendida?|el metal conduce el calor y quema|porque está mojada por dentro|porque pesa demasiado
+K|{x}: ¿conducción, convección o radiación?|¿Conducción, convección o radiación?|conducción: tocar una taza caliente; la plancha sobre la tela; el comal que calienta la tortilla|convección: el agua que sube y baja al hervir; el aire caliente de un globo aerostático; el aire tibio que sube en el cuarto|radiación: el calor del Sol en la cara; el calor de una fogata cercana; el calor de un foco encendido
+#4c15
+Z|Una <b>mezcla</b> une dos o más materiales.|En la <b>homogénea</b> no se distinguen sus partes (agua con azúcar); en la <b>heterogénea</b>, sí (ensalada).|La <b>concentración</b> indica cuánto hay de una sustancia en la mezcla.|Al cambiar la concentración cambian el color, el olor y el sabor.
+E|Más jamaica: agua más oscura y concentrada|Agua de mar: mezcla de agua y sales
+S|Mi agua de jamaica quedó muy fuerte. ¿Cómo la arreglo?|Está muy concentrada: tiene mucha jamaica para poca agua.|Si agrego agua, la misma jamaica se reparte en más líquido.|La concentración baja y el sabor se suaviza.|=Agregando agua para bajar la concentración.
+I|🥤 Homogénea: No se distinguen sus partes.|🥗 Heterogénea: Sí se distinguen.|🍋 Concentración: Cuánto hay de una sustancia.|🌊 Desalinizar: Quitar la sal al agua.
+0|V|En una ensalada se distinguen sus ingredientes.
+0|¿Qué tipo de mezcla es el agua con sal bien disuelta?|homogénea|heterogénea|ninguna
+1|¿Qué pasa si agrego más azúcar a mi limonada?|queda más concentrada|queda más diluida|no cambia
+1|¿Qué cambia al variar la concentración?|el color y el sabor|el nombre|el recipiente
+1|F|En el agua con aceite no se distinguen las dos sustancias.
+1|¿Qué queda al evaporar agua de mar?|la sal|el agua|la arena
+2|Dos vasos tienen la misma agua; uno con 1 cucharada de azúcar y otro con 3. ¿Cuál está más concentrado?|el de 3 cucharadas|el de 1 cucharada|los dos igual
+2|¿Cómo obtengo agua dulce del agua salada?|evaporándola y condensando el vapor|colándola con un trapo|dejándola reposar
+2|V|Al diluir una mezcla, su sabor se hace más suave.
+2|¿Qué es diluir?|agregar más agua a la mezcla|agregar más azúcar|quitarle agua
+K|{x}: ¿mezcla homogénea o heterogénea?|¿Homogénea o heterogénea?|homogénea: el agua con sal; el café con azúcar; el aire; el agua de limón colada|heterogénea: la sopa de verduras; el agua con arena; el cereal con leche; la ensalada de frutas
+#4c16
+Z|Los materiales tienen <b>propiedades</b>: dureza, elasticidad, flexibilidad, transparencia, conductividad e impermeabilidad.|La <b>dureza</b> es la resistencia a ser rayado; la <b>elasticidad</b>, estirarse y volver a su forma.|Un material <b>impermeable</b> no deja pasar el agua.|Cada objeto se fabrica con el material que conviene a su uso.
+E|Olla: metal · Ventana: vidrio|Impermeable: plástico
+S|¿Por qué las ventanas son de vidrio y no de madera?|Una ventana debe dejar pasar la luz.|El vidrio es transparente; la madera es opaca.|Además, el vidrio es impermeable y no deja pasar la lluvia.|=Porque el vidrio es transparente e impermeable.
+I|💎 Dureza: Resiste ser rayado.|🎈 Elasticidad: Se estira y regresa.|🪟 Transparencia: Deja pasar la luz.|☔ Impermeabilidad: No deja pasar el agua.
+0|V|Una liga es elástica.
+0|¿Qué material deja pasar la luz?|el vidrio|la madera|el cartón
+1|¿Qué significa que un material sea impermeable?|que no deja pasar el agua|que se rompe fácil|que es muy duro
+1|¿De qué material conviene hacer una olla?|de metal|de cartón|de tela
+1|F|El diamante es un material muy blando.
+1|¿Qué propiedad tiene un alambre que se dobla sin romperse?|flexibilidad|transparencia|dureza
+2|¿Por qué los cables son de cobre por dentro?|conduce bien la electricidad|es transparente como el vidrio|es elástico como una liga
+2|¿Qué material elijo para unas botas de lluvia?|hule|algodón|papel
+2|V|San José conocía bien las propiedades de la madera para su trabajo.
+2|¿Qué propiedad necesita una pelota que rebota?|elasticidad|impermeabilidad|transparencia
+P|¿Qué propiedad destaca en {x}?|¿Qué objeto destaca por {x}?|la liga = su elasticidad|el diamante = su dureza|el vidrio de la ventana = su transparencia|el impermeable = su impermeabilidad|el cable de cobre = su conductividad
+#4c17
+Z|Una <b>fuerza</b> puede poner algo en movimiento, detenerlo, cambiar su dirección o deformarlo.|Hay fuerzas de <b>contacto</b> (empujar, jalar) y <b>a distancia</b> (gravedad, magnetismo).|La <b>fricción</b> frena el movimiento entre dos superficies.|La <b>gravedad</b> atrae todos los objetos hacia la Tierra.
+E|Sin fricción resbalamos|El imán atrae sin tocar
+S|¿Por qué una pelota que rueda en el pasto termina por detenerse?|Nadie la empuja de nuevo.|El pasto roza con la pelota: hay fricción.|La fricción la frena poco a poco.|=Por la fricción con el pasto.
+I|⚽ Mover: Empujar o patear.|🧤 Detener: Atrapar o frenar.|🧲 A distancia: Imanes y gravedad.|🛑 Fricción: Frena el movimiento.
+0|V|Empujar es aplicar una fuerza.
+0|¿Qué fuerza hace caer los objetos?|la gravedad|la fricción|el magnetismo
+1|¿Qué hace una fuerza sobre la plastilina que aprieto?|la deforma|la enfría|la pinta
+1|¿Por qué los zapatos tienen suela rugosa?|para tener más fricción|para pesar más|para verse mejor
+1|F|Un imán necesita tocar el clavo para atraerlo.
+1|¿Qué hace el portero con el balón que le lanzan?|lo detiene|lo acelera|lo deforma para siempre
+2|¿Dónde hay menos fricción?|en el hielo|en la alfombra|en la tierra
+2|¿Qué fuerza cambia la dirección de una pelota?|el golpe de la raqueta|el color de la pelota|el tamaño de la cancha
+2|V|La fricción nos permite caminar sin resbalar.
+2|¿Por qué cuesta más empujar una caja sobre alfombra que sobre mosaico?|hay más fricción|pesa más|hay más gravedad
+K|{x}: ¿fuerza de contacto o a distancia?|¿De contacto o a distancia?|de contacto: empujar un carrito; patear un balón; jalar una cuerda; frenar con la mano|a distancia: la gravedad; la atracción de un imán; un globo frotado que atrae papelitos
+#4c18
+Z|Nos movemos gracias a los <b>huesos</b>, los <b>músculos</b> y las <b>articulaciones</b>.|Los animales vuelan, nadan, reptan, saltan o corren según su cuerpo.|<b>Motricidad gruesa</b>: movimientos grandes, como correr y saltar.|<b>Motricidad fina</b>: movimientos precisos, como escribir o tocar un instrumento.
+E|Articulaciones: rodilla, codo, hombro|Calentar antes de hacer ejercicio
+S|¿Qué partes del cuerpo trabajan cuando doblo el brazo?|Los huesos del brazo dan el soporte.|El músculo se contrae y jala al hueso.|El codo, que es una articulación, permite el doblez.|=Huesos, músculos y la articulación del codo.
+I|🦴 Huesos: Sostienen el cuerpo.|💪 Músculos: Jalan a los huesos.|🦵 Articulaciones: Permiten doblar.|✍️ Motricidad fina: Movimientos precisos.
+0|V|Los músculos mueven a los huesos.
+0|¿Cuál es una articulación?|la rodilla|el fémur|el corazón
+1|¿Cómo se desplaza un pez?|nadando|reptando|volando
+1|¿Qué tipo de motricidad es saltar la cuerda?|gruesa|fina|ninguna
+1|F|Abotonar una camisa es motricidad gruesa.
+1|¿Qué animal se desplaza saltando?|la rana|la lombriz|la tortuga
+2|¿Por qué conviene calentar antes del ejercicio?|para evitar lesiones|para cansarse antes|para sudar menos
+2|¿Qué fortalece huesos y músculos?|el ejercicio y la buena alimentación|estar sentado muchas horas|dormir muy poco cada noche
+2|V|Poder movernos es un regalo que agradecemos a Dios.
+2|¿Qué mejora al practicar dibujo y recortado?|la motricidad fina|la motricidad gruesa|la estatura
+K|{x}: ¿motricidad fina o gruesa?|¿Fina o gruesa?|fina: escribir; abotonar la camisa; tocar la guitarra; recortar con tijeras|gruesa: correr; saltar la cuerda; nadar; trepar
+P|¿Cómo se desplaza {x}?||la serpiente = reptando|el águila = volando|el delfín = nadando|el canguro = saltando
+#4c19
+Z|<b>Rotación</b>: la Tierra gira sobre su eje en 24 horas y produce el día y la noche.|<b>Traslación</b>: gira alrededor del Sol en 365 días y, con la inclinación de su eje, produce las estaciones.|El <b>Sol</b> es una estrella con luz propia; la <b>Luna</b> refleja la luz del Sol.|La Luna es el satélite natural de la Tierra.
+E|Año bisiesto: 366 días|Primavera, verano, otoño e invierno
+S|¿Por qué cuando en México es de día en China es de noche?|La Tierra gira sobre su eje: es la rotación.|El Sol solo ilumina la mitad que le da de frente.|México y China están en lados opuestos del planeta.|=Por la rotación: el Sol ilumina solo una mitad a la vez.
+I|🔄 Rotación: 24 horas; día y noche.|🌍 Traslación: 365 días; las estaciones.|☀️ Sol: Estrella con luz propia.|🌙 Luna: Refleja la luz del Sol.
+0|V|El Sol es una estrella.
+0|¿Cuántas horas tiene un día?|24|12|365
+1|¿Alrededor de qué gira la Tierra en la traslación?|del Sol|de la Luna|de Marte
+1|¿Qué es la Luna?|el satélite natural de la Tierra|una estrella pequeña|un planeta
+1|F|La Luna tiene luz propia.
+1|¿Cuántas estaciones tiene el año?|cuatro|dos|doce
+2|¿Qué pasaría si la Tierra no girara sobre su eje?|no habría día y noche como ahora|no habría mares ni océanos|no existiría la Luna
+2|¿Qué está más cerca de la Tierra?|la Luna|el Sol|las estrellas
+2|V|El orden de los astros nos habla de la sabiduría de Dios.
+2|¿Qué dura un año?|una vuelta de la Tierra al Sol|un giro de la Tierra sobre su eje|una vuelta de la Luna
+K|{x}: ¿rotación o traslación?|¿Rotación o traslación?|rotación: dura 24 horas; produce el día y la noche; es el giro sobre su eje|traslación: dura 365 días; produce las estaciones; es la vuelta alrededor del Sol
+#4c20
+Z|La Luna cambia de aspecto: son sus <b>fases</b>: luna nueva, cuarto creciente, luna llena y cuarto menguante.|El ciclo completo dura unos <b>29 días</b>.|<b>Eclipse solar</b>: la Luna se pone entre el Sol y la Tierra. <b>Eclipse lunar</b>: la Tierra se pone entre el Sol y la Luna.|Nunca se mira el Sol directamente.
+E|Luna nueva: no se ve|La Pascua se calcula con la luna llena de primavera
+S|¿Por qué vemos cambiar la forma de la Luna?|La Luna no tiene luz propia: el Sol ilumina siempre una mitad.|Al girar alrededor de la Tierra, vemos distinta parte de esa mitad iluminada.|Por eso pasa de nueva a creciente, llena y menguante.|=Porque vemos distintas partes de su mitad iluminada.
+I|🌑 Luna nueva: No se ve.|🌓 Cuarto creciente: Se ve la mitad.|🌕 Luna llena: Toda iluminada.|🌗 Cuarto menguante: Va disminuyendo.
+0|V|El ciclo de la Luna dura unos 29 días.
+0|¿En qué fase se ve la Luna completa?|luna llena|luna nueva|cuarto creciente
+1|¿Qué pasa en un eclipse solar?|la Luna tapa al Sol|la Tierra tapa al Sol|el Sol se apaga
+1|¿Qué fase sigue a la luna nueva?|cuarto creciente|luna llena|cuarto menguante
+1|F|Los eclipses son castigos y hay que tenerles miedo.
+1|¿Qué cubre a la Luna en un eclipse lunar?|la sombra de la Tierra|una nube muy grande|la luz del Sol
+2|¿Cómo se observa un eclipse solar sin dañar los ojos?|con lentes especiales certificados|con lentes de sol comunes|a simple vista
+2|¿Por qué la Luna no brilla en la fase de luna nueva?|su cara iluminada no da hacia la Tierra|se apaga durante varios días|se aleja muchísimo de la Tierra
+2|V|Los eclipses son parte del orden de la creación.
+2|O|Ordena las fases de la Luna|Luna nueva|Cuarto creciente|Luna llena|Cuarto menguante
+K|{x}: ¿eclipse solar o lunar?|¿Solar o lunar?|solar: la Luna tapa al Sol; se observa de día; necesita lentes especiales|lunar: la sombra de la Tierra cubre la Luna; se observa de noche; se puede mirar sin protección
+#4c21
+Z|Un <b>prototipo</b> es un primer modelo para probar una solución.|Pasos: conocer el <b>problema</b>, pensar ideas, elegir la mejor, <b>construir</b>, <b>probar</b> y mejorar.|Si no funciona, se revisa qué falló y se corrige.|La tecnología debe servir a las personas y cuidar la creación.
+E|Filtro de agua con arena y carbón|Comedero para aves con material reciclado
+S|Mi filtro casero deja pasar el agua todavía turbia. ¿Qué hago?|Reviso qué falló: quizá la capa de arena es muy delgada.|Pienso una mejora: más arena y una capa de algodón.|Lo construyo de nuevo y vuelvo a probar.|=Busco la falla, lo mejoro y lo pruebo otra vez.
+I|❓ Problema: ¿Qué quiero resolver?|💡 Ideas: Pensar varias soluciones.|🔨 Construir: Hacer el primer modelo.|🔁 Probar y mejorar: Hasta que funcione.
+0|V|Un prototipo es un primer modelo de una solución.
+0|¿Qué hago después de construir un prototipo?|lo pruebo|lo guardo|lo tiro
+1|¿Por qué se piensan varias ideas antes de construir?|para elegir la mejor|para tardar más|para gastar material
+1|¿Qué material sirve para un filtro casero?|arena y carbón|azúcar y sal|papel y tinta
+1|F|Si un prototipo falla a la primera, hay que abandonar el proyecto.
+1|¿Qué es «mejorar» un prototipo?|corregir lo que falló|pintarlo de otro color|hacerlo más grande
+2|¿Para qué debe servir la tecnología?|para ayudar a las personas|para dañar a otros|para presumir
+2|¿Qué problema resuelve un comedero para aves?|darles alimento seguro|atraparlas|ahuyentarlas
+2|V|La inteligencia es un don de Dios para servir a los demás.
+2|¿Qué conviene usar para construir un prototipo escolar?|materiales reciclados|materiales muy caros|objetos peligrosos
