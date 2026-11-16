@@ -1,0 +1,223 @@
+// Cívica y Valores 4.º — profundización y banco ampliado
+#4v1
+Z|La <b>autoestima</b> es reconocer mi valor: soy hijo de Dios, con talentos y límites.|Mi valor no depende de mis calificaciones, mi apariencia ni lo que tengo.|Me <b>acepto</b> como soy y me esfuerzo por <b>mejorar</b>.|Me respeto y respeto a los demás: cuido mi cuerpo, mi tiempo y mi mente.
+E|«Eres precioso a mis ojos y yo te amo» (Is 43, 4)|Equivocarse es parte de aprender
+S|Perdí el concurso de dibujo y pienso: «no sirvo para nada». ¿Es verdad?|Perder un concurso no cambia lo que valgo.|Tengo talentos, aunque esta vez no gané.|Puedo aprender de lo que falló y practicar más.|=No: mi valor no depende de ganar; puedo mejorar.
+I|💎 Valgo: Soy hijo de Dios.|🎁 Talentos: Tengo dones para compartir.|🌱 Mejorar: Aprendo de mis errores.|🙂 Me cuido: Cuerpo, mente y tiempo.
+0|V|Todas las personas tienen talentos.
+0|¿De quién soy hijo, además de mis papás?|de Dios|de la escuela|del gobierno
+1|¿De qué depende mi valor?|de que Dios me creó y me ama|de mis calificaciones|de mi ropa
+1|¿Qué hago con mis talentos?|los cultivo y los comparto|los escondo|presumo de ellos
+1|F|Quien se equivoca una vez ya no puede mejorar.
+1|¿Qué es aceptarme?|quererme como Dios me hizo|creerme perfecto|no cambiar nunca
+2|¿Qué hago si un compañero dice que no sirve para nada?|le recuerdo lo bueno que tiene|le doy la razón y me alejo|me burlo de él con otros
+2|¿Cómo van juntas la humildad y la autoestima?|reconozco mis dones y mis límites|me creo mejor que todos los demás|pienso que no valgo para nada
+2|V|Pedir ayuda cuando algo no me sale es una muestra de madurez.
+2|¿Qué me digo cuando algo me sale mal?|«puedo aprender y volver a intentarlo»|«nunca voy a poder hacerlo bien»|«la culpa siempre es de los demás»
+K|{x}: ¿me ayuda a valorarme o me hace daño?|¿Me ayuda o me daña?|me ayuda: reconocer mis talentos; aprender de mis errores; agradecer a Dios cómo soy; pedir ayuda cuando la necesito|me daña: decirme «no sirvo para nada»; compararme con todos; rendirme al primer error; burlarme de mí mismo
+#4v2
+Z|Las <b>emociones</b> (alegría, tristeza, enojo, miedo, sorpresa) son parte de la vida.|A veces son muy intensas; no son buenas ni malas, pero sí lo que hago con ellas.|<b>Autorregularme</b> es manejarlas para actuar bien.|Pasos: paro, respiro, nombro lo que siento, pienso opciones y elijo la mejor.
+E|Contar hasta diez antes de responder|Templanza: la virtud que modera
+S|Perdí en el juego y me dan ganas de aventar las fichas. ¿Qué hago?|Paro: no hago nada todavía.|Respiro hondo y le pongo nombre: «estoy frustrado».|Pienso opciones: pedir otra partida o descansar un rato.|=Me detengo, respiro, nombro mi emoción y elijo algo que no lastime.
+I|✋ Paro: No actúo de inmediato.|🌬️ Respiro: Hondo y despacio.|🏷️ Nombro: «Siento enojo».|✅ Elijo: La mejor opción.
+0|V|Todas las personas sienten emociones.
+0|¿Qué emoción siento cuando algo me asusta?|miedo|alegría|sorpresa
+1|¿Qué es autorregularme?|manejar mis emociones para actuar bien|esconder lo que siento|gritar para desahogarme
+1|¿Para qué sirve respirar hondo?|para calmarme|para enojarme más|para llorar
+1|F|Si estoy enojado, puedo romper las cosas de los demás.
+1|¿Qué hago después de calmarme?|hablo con calma de lo que pasó|guardo rencor varios días|busco la manera de vengarme
+2|¿Qué mostró Jesús al llorar por su amigo Lázaro?|que sentía como nosotros|que era débil|que no tenía fe
+2|¿A quién le cuento si una emoción me dura mucho?|a mis papás|a nadie|a un desconocido
+2|V|Poner nombre a lo que siento me ayuda a calmarme.
+2|O|Ordena los pasos para autorregularme|Paro|Respiro|Nombro lo que siento|Pienso opciones|Elijo la mejor
+P|¿Qué emoción siento cuando {x}?||gano un partido = alegría|pierdo un juguete querido = tristeza|me empujan a propósito = enojo|un perro me gruñe = miedo|me hacen una fiesta sin avisar = sorpresa
+#4v3
+Z|La <b>familia</b> es la primera escuela del amor: en ella recibimos cuidado, alimento, educación y fe.|Dios la pensó con un papá y una mamá unidos en <b>matrimonio</b>, y sus hijos.|A veces falta papá o mamá, y otros familiares ayudan con cariño.|Mis <b>deberes</b>: obedecer, ayudar en casa, respetar a mis hermanos y cuidar a mis abuelos.
+E|Cuarto mandamiento: honra a tu padre y a tu madre|La Sagrada Familia de Nazaret
+S|¿Cómo vivo el cuarto mandamiento en un día normal?|Obedezco a mis papás a la primera.|Ayudo sin que me lo pidan: pongo la mesa o tiendo mi cama.|Les hablo con respeto y les doy las gracias.|=Obedeciendo, ayudando y tratándolos con respeto y cariño.
+I|❤️ Amor: Se aprende en familia.|👂 Obedecer: A la primera y con alegría.|🧹 Ayudar: Todos colaboramos.|🙏 Rezar juntos: Une a la familia.
+0|V|En la familia recibimos cuidado y cariño.
+0|¿Quiénes formaban la Sagrada Familia?|Jesús, María y José|Pedro, Santiago y Juan|Abraham, Isaac y Jacob
+1|¿Qué hago cuando mis papás me piden algo justo?|obedezco|me escondo|discuto
+1|¿Cómo ayudo a mis abuelos?|los acompaño y los escucho|los dejo solos|les hablo con prisa
+1|F|Solo los papás tienen deberes en la familia.
+1|¿Qué fortalece el cariño entre hermanos?|compartir y perdonarse|pelear por todo|acusarse siempre
+2|¿Qué hago si en mi casa falta papá o mamá?|agradezco y obedezco a quien me cuida|me avergüenzo delante de mis amigos|dejo de obedecer a los adultos
+2|¿Por qué rezar juntos une a la familia?|pone a Dios en el centro|ocupa mucho tiempo|es una obligación aburrida
+2|V|Dar las gracias a mis papás es una forma de honrarlos.
+2|¿Cómo era Jesús con María y José?|obediente|rebelde|indiferente
+K|{x}: ¿deber mío o de mis papás?|¿Deber mío o de mis papás?|mío: obedecer; hacer mi tarea; recoger mis juguetes; ayudar en casa|de mis papás: darme alimento; llevarme al médico; educarme en la fe; protegerme
+#4v4
+Z|Los niños tienen <b>derechos</b>: a la vida, a la familia, a la salud, a la educación, al juego, a no ser discriminados y a vivir sin violencia.|También tienen derecho a ser <b>escuchados</b>.|Los protegen primero la <b>familia</b>; también la escuela, el DIF y las leyes.|Los derechos nacen de la <b>dignidad</b> que Dios dio a cada persona.
+E|La vida: el primer derecho|Cada derecho trae un deber
+S|Tengo derecho a la educación. ¿Qué deber me corresponde?|Mis papás y el Estado deben darme escuela.|A mí me toca aprovecharla: asistir, poner atención y estudiar.|Y respetar el derecho de mis compañeros a aprender.|=Estudiar con empeño y dejar aprender a los demás.
+I|❤️ Vida: El primer derecho.|🏫 Educación: Aprender en la escuela.|⚽ Juego: Descansar y divertirme.|🛡️ Protección: Vivir sin violencia.
+0|V|Los niños tienen derecho a jugar.
+0|¿Quién protege primero los derechos de un niño?|su familia|sus amigos|sus vecinos
+1|¿Qué derecho se cumple cuando me vacunan?|el derecho a la salud|el derecho al juego|el derecho a opinar
+1|¿De dónde nacen los derechos?|de la dignidad de la persona|de tener dinero|de sacar buenas notas
+1|F|Solo algunos niños tienen derecho a ir a la escuela.
+1|¿Qué derecho tengo cuando doy mi opinión con respeto?|a ser escuchado|a mandar|a no obedecer
+2|¿Qué deber acompaña a mi derecho al juego?|respetar las reglas y a los demás|ganar siempre, cueste lo que cueste|jugar todo el día sin estudiar
+2|¿Desde cuándo debe protegerse la vida humana?|desde la concepción|desde los siete años|desde que se va a la escuela
+2|V|Un niño que trabaja todo el día en vez de estudiar sufre una injusticia.
+2|¿A qué institución se puede acudir para proteger a un niño?|al DIF|al mercado|al cine
+P|¿Qué derecho se cumple cuando {x}?||voy a la escuela = el derecho a la educación|me llevan al médico = el derecho a la salud|juego en el recreo = el derecho al juego|tengo nombre y apellidos = el derecho a la identidad|vivo con mi familia = el derecho a la familia
+#4v5
+Z|Hay <b>abuso</b> cuando alguien me lastima, me insulta siempre, me toca de forma indebida o me amenaza.|<b>Nunca</b> es culpa del niño.|Qué hago: digo <b>NO</b>, me alejo y lo cuento a un adulto de confianza.|Si no me creen, busco a otro adulto. Emergencias: 911.
+E|Los secretos que dan miedo se cuentan|Me sé de memoria el teléfono de mis papás
+S|Un conocido me dice: «Esto es un secreto entre tú y yo; no le digas a tus papás». ¿Qué hago?|Un secreto que me esconde de mis papás es una señal de alerta.|Digo que no y me alejo.|Se lo cuento a mamá o papá en cuanto pueda.|=No guardo ese secreto: me alejo y lo cuento a mis papás.
+I|🛡️ Mi cuerpo: Merece respeto.|✋ NO: Lo digo fuerte y claro.|🏃 Me alejo: Voy a un lugar seguro.|🗣️ Lo cuento: A un adulto de confianza.
+0|V|Tengo derecho a que nadie me lastime.
+0|¿Qué digo si alguien quiere hacerme daño?|NO|sí|no sé
+1|¿Quién es un adulto de confianza?|quien me cuida y me respeta|cualquier adulto amable|quien me regala dulces
+1|¿Qué hago si alguien me amenaza para que no hable?|lo cuento de todos modos|me quedo callado|le obedezco
+1|F|Si un adulto me lastima, debo guardar el secreto.
+1|¿Qué teléfonos me conviene saber de memoria?|los de mis papás|los de mis juegos|los de la tienda
+2|¿Qué hago si el primer adulto no me cree?|busco a otro adulto de confianza|ya no digo nada|pienso que fue mi culpa
+2|¿Cómo ayudo a un amigo que me cuenta que alguien lo lastima?|lo acompaño a decírselo a un adulto|guardo el secreto para siempre|le digo que aguante y no diga nada
+2|V|Jesús ama a los niños y quiere que estén seguros.
+2|¿Cuál es un secreto bueno?|una fiesta sorpresa|algo que me da miedo|algo que me pide callar un extraño
+K|{x}: ¿trato bueno o señal de alerta?|¿Trato bueno o señal de alerta?|trato bueno: el abrazo de mamá; el saludo de mano del maestro; la revisión del médico con mis papás presentes|señal de alerta: alguien me pide guardar un secreto que me asusta; un desconocido me ofrece regalos; alguien me toca y me hace sentir mal; alguien me amenaza para que calle
+#4v6
+Z|Dios creó al ser humano <b>hombre y mujer</b> (Gn 1, 27).|Los dos tienen la <b>misma dignidad</b>; son distintos y complementarios.|Ser niño o niña es un <b>regalo</b> que recibimos de Dios.|Nadie debe ser despreciado, maltratado ni excluido: todos merecen <b>respeto</b>.
+E|María: la criatura más grande|Jesús trató con gran respeto a las mujeres
+S|En el recreo, unos niños no dejan jugar futbol a las niñas. ¿Es justo?|Niños y niñas tienen la misma dignidad.|Excluir a alguien por ser niño o niña es una falta de respeto.|Lo justo es que jueguen quienes quieran, con las mismas reglas.|=No es justo: todos merecen el mismo respeto y oportunidad.
+I|👫 Hombre y mujer: Así nos creó Dios.|💎 Dignidad: La misma para los dos.|🎁 Regalo: Ser niño o niña.|🤝 Respeto: En casa, escuela y calle.
+0|V|Niños y niñas merecen el mismo respeto.
+0|¿En qué libro de la Biblia se narra la creación del hombre y la mujer?|en el Génesis|en el Apocalipsis|en los Salmos
+1|¿Qué significa «complementarios»?|que se ayudan y se enriquecen|que son idénticos|que compiten
+1|¿Cómo trató Jesús a las mujeres?|con gran respeto|con indiferencia|con desprecio
+1|F|Los niños valen más que las niñas.
+1|¿Quiénes pueden estudiar y aprender matemáticas?|niños y niñas por igual|solo los niños|solo las niñas
+2|¿Qué hago si alguien se burla de una niña por ser niña?|la defiendo con respeto|me río también|no hago nada
+2|¿Cómo recibo el ser niño o ser niña?|con gratitud, como don de Dios|con quejas y con tristeza|con indiferencia y desgano
+2|V|Un hombre de verdad respeta y protege.
+2|¿Quiénes ayudan en las tareas de la casa?|todos los de la familia|solo las mujeres|solo los hombres
+#4v7
+Z|Algunas personas son más <b>vulnerables</b>: con discapacidad, indígenas, migrantes, ancianos, pobres y niños en la calle.|<b>Discriminar</b> es tratarlas mal o negarles algo por ser diferentes.|Podemos <b>respetar, ayudar, incluir y defender</b>.|Jesús dijo: «Lo que hicieron con uno de estos pequeños, conmigo lo hicieron» (Mt 25, 40).
+E|Rampas y banquetas libres|Santa Teresa de Calcuta: sirvió a los más pobres
+S|En mi salón hay una niña que usa silla de ruedas. ¿Cómo la incluyo?|Me acerco y platico con ella como con cualquiera.|Propongo juegos en los que pueda participar.|Cuido que el paso esté libre y la ayudo solo si lo necesita.|=La trato igual que a todos, adapto los juegos y dejo libre su camino.
+I|♿ Discapacidad: Rampas y paso libre.|🧳 Migrantes: Recibirlos con respeto.|👴 Ancianos: Paciencia y compañía.|🤝 Incluir: Nadie se queda fuera.
+0|V|Las rampas ayudan a las personas en silla de ruedas.
+0|¿Quién es un migrante?|quien deja su tierra para vivir en otra|quien nunca sale de su pueblo|quien visita un museo en su ciudad
+1|¿Qué hago si un anciano sube al camión y voy sentado?|le cedo mi asiento|miro hacia otro lado|finjo dormir
+1|¿Qué es incluir?|hacer que nadie se quede fuera|elegir solo a mis amigos|jugar siempre solo
+1|F|Las personas pobres tienen menos dignidad que las ricas.
+1|¿Dónde sirvió santa Teresa de Calcuta?|en la India|en Francia|en México
+2|¿Por qué no debo estacionar la bicicleta en una rampa?|estorba a quien la necesita|se puede rayar|está prohibido jugar
+2|¿A quién servimos cuando ayudamos a un necesitado?|a Jesús|a nadie|a nosotros mismos
+2|V|Hablar una lengua indígena es una riqueza, no un motivo de burla.
+2|¿Qué hago si excluyen del juego a un niño nuevo?|lo invito a jugar|me uno a los que lo excluyen|me voy
+K|{x}: ¿incluye o discrimina?|¿Incluye o discrimina?|incluye: invitar a jugar al niño nuevo; dejar libre la rampa; ceder el asiento a un anciano; ayudar a un compañero ciego a cruzar|discrimina: burlarse de un acento; estacionarse sobre la banqueta; no dejar jugar a alguien por ser pobre; poner apodos por una discapacidad
+#4v8
+Z|Un <b>conflicto</b> surge por falta de comunicación o por diferencias de intereses, valores u opiniones.|Se resuelve con <b>diálogo</b>: escuchar, expresar, proponer y acordar.|<b>Negociar</b> es que los dos cedan un poco.|En la <b>mediación</b>, un tercero ayuda a dialogar.
+E|«Dichosos los que trabajan por la paz» (Mt 5, 9)|Ganar-ganar: los dos quedan conformes
+S|Mi hermana y yo queremos ver programas distintos a la misma hora. ¿Cómo lo arreglamos?|Cada uno dice lo que quiere y escucha al otro.|Proponemos opciones: turnarnos por día o ver la mitad cada quien.|Elegimos la que nos parezca justa a los dos.|=Dialogando y negociando: cada uno cede un poco.
+I|👂 Escucho: Sin interrumpir.|🗣️ Expreso: Lo que siento y necesito.|💡 Propongo: Varias soluciones.|🤝 Acordamos: Algo justo para los dos.
+0|V|Escuchar al otro ayuda a resolver un conflicto.
+0|¿Qué es un conflicto?|un desacuerdo entre personas|una fiesta|un juego de mesa
+1|¿Qué hace un mediador?|ayuda a que las partes dialoguen|decide quién gana la discusión|castiga a los dos por pelear
+1|¿Qué puede causar un conflicto?|la falta de comunicación|el respeto mutuo|la buena educación
+1|F|Negociar significa que uno gana todo y el otro pierde todo.
+1|¿Cómo expreso lo que siento en un conflicto?|con calma y sin insultos|gritando para que me oigan|con empujones y golpes
+2|¿Qué hago si no logramos ponernos de acuerdo?|pedimos ayuda a un adulto|dejamos de hablarnos|peleamos
+2|¿Qué se necesita para pedir perdón?|humildad|orgullo|fuerza
+2|V|Quien trabaja por la paz se parece a Jesús.
+2|O|Ordena los pasos del diálogo|Escucho|Expreso|Propongo|Acordamos
+P|¿Qué forma de resolver un conflicto es {x}?||hablar y escucharse con respeto = el diálogo|ceder un poco cada uno = la negociación|pedir ayuda a un tercero = la mediación
+#4v9
+Z|Para <b>decidir bien</b>: conozco el problema, busco alternativas, pienso en las consecuencias, elijo, actúo y evalúo.|La <b>conciencia</b> es la voz interior que me ayuda a distinguir el bien del mal.|Se forma con la Palabra de Dios, la enseñanza de la Iglesia y el consejo de mis papás.|Una buena decisión busca el bien, aunque cueste.
+E|Salomón pidió sabiduría para distinguir el bien del mal|Antes de actuar: ¿qué consecuencias tendrá?
+S|Encuentro un billete tirado en el salón. ¿Cómo decido qué hacer?|Alternativas: quedármelo o entregarlo a la maestra.|Consecuencias: si me lo quedo, alguien pierde su dinero; si lo entrego, puede recuperarlo.|Mi conciencia me dice que no es mío.|=Lo entrego a la maestra: es lo justo.
+I|❓ Problema: ¿Qué debo decidir?|🔀 Alternativas: ¿Qué opciones tengo?|⚖️ Consecuencias: ¿Qué pasará con cada una?|💭 Conciencia: Me ayuda a elegir el bien.
+0|V|La conciencia me ayuda a distinguir el bien del mal.
+0|¿Qué pidió el rey Salomón a Dios?|sabiduría|riquezas|una larga vida
+1|¿Qué pienso antes de elegir?|las consecuencias|solo lo que me gusta|lo que hacen todos
+1|¿Quién me aconseja para decidir bien?|mis papás|un desconocido|la publicidad
+1|F|Una buena decisión es la que me da más gusto, aunque dañe a otros.
+1|¿Qué hago después de actuar?|evalúo cómo salió|me olvido|culpo a otro
+2|¿Qué hago si «todos lo hacen», pero está mal?|no lo hago|lo hago para encajar|lo hago a escondidas
+2|¿Cómo se forma la conciencia?|con la Palabra de Dios y buenos consejos|sola, sin ayuda|con lo que dicen las redes
+2|V|Decir la verdad aunque me cueste es una buena decisión.
+2|O|Ordena los pasos para decidir|Conozco el problema|Busco alternativas|Pienso consecuencias|Elijo|Actúo|Evalúo
+#4v10
+Z|La <b>cooperación</b> permite lograr metas que nadie alcanzaría solo.|En un equipo, cada uno aporta sus <b>talentos</b> y cumple su parte.|Valores del equipo: respeto, responsabilidad, escucha y ayuda mutua.|Se celebran los logros de todos y se aprende de las derrotas.
+E|La Iglesia es como un cuerpo (1 Cor 12)|Meta común: lo que todos queremos lograr
+S|Mi equipo debe hacer una maqueta y nadie se pone de acuerdo. ¿Qué hacemos?|Definimos la meta: qué maqueta haremos.|Repartimos tareas según lo que cada uno hace mejor.|Fijamos fechas y nos ayudamos si alguien se atora.|=Acordamos la meta, repartimos tareas y cumplimos cada quien su parte.
+I|🎯 Meta común: Lo que queremos lograr.|🎁 Talentos: Cada uno aporta lo suyo.|🧩 Tareas: Se reparten con justicia.|👏 Celebrar: Los logros son de todos.
+0|V|En un equipo todos son importantes.
+0|¿Qué es cooperar?|trabajar juntos por una meta|trabajar cada quien por su lado|competir con mi equipo
+1|¿Qué hago si un compañero de equipo se equivoca?|lo animo y lo ayudo|lo regaño|lo saco del equipo
+1|¿Qué es una meta común?|lo que todos queremos lograr|lo que quiero yo solo|lo que quiere el maestro
+1|F|En un buen equipo, uno solo hace todo el trabajo.
+1|¿Qué valor muestro al cumplir mi parte?|la responsabilidad|la pereza|la envidia
+2|¿Qué hago si mi equipo pierde?|felicito al ganador y aprendo|me enojo con todos|dejo de jugar
+2|¿Por qué san Pablo compara a la Iglesia con un cuerpo?|cada miembro es necesario|todos son iguales|unos sobran
+2|V|Alegrarme del éxito de un compañero es señal de generosidad.
+2|¿Cómo reparto las tareas en un equipo?|según lo que cada uno hace mejor|todo al que menos habla|al azar siempre
+K|{x}: ¿ayuda o estorba al equipo?|¿Ayuda o estorba?|ayuda: escuchar las ideas de todos; cumplir mi parte; animar al que se equivoca; felicitar al compañero|estorba: querer hacerlo todo yo; culpar a los demás; llegar siempre tarde; burlarme del que falla
+#4v11
+Z|<b>Participar</b> es tomar parte en las decisiones que afectan a todos.|En la escuela: mesa directiva, comisiones y asambleas.|En el país: votar, consultas populares y servicio comunitario.|Un <b>asunto de interés común</b> es el que afecta a todos: agua, alumbrado, seguridad.
+E|Faena: trabajo comunitario gratuito|Vigilar que el dinero público se use bien
+S|El bebedero de la escuela no sirve desde hace meses. ¿Cómo participamos para arreglarlo?|Es un asunto de interés común: afecta a todos.|Lo tratamos en asamblea y juntamos propuestas.|Nuestros representantes lo piden por escrito a la dirección.|=Lo discutimos, proponemos y lo pedimos por medio de nuestros representantes.
+I|🗳️ Votar: Elegir representantes.|📋 Asamblea: Decidir juntos.|🧹 Faena: Trabajo por la comunidad.|💡 Interés común: Lo que afecta a todos.
+0|V|Las asambleas sirven para decidir juntos.
+0|¿Cuál es un asunto de interés común?|el agua de la colonia|mi juguete favorito|mi tarea
+1|¿Qué hace un representante de grupo?|habla en nombre de sus compañeros|decide todo él solo, sin preguntar|manda y castiga a los demás
+1|¿Qué es una faena?|un trabajo comunitario gratuito|un impuesto que cobra el gobierno|una fiesta del santo patrono
+1|F|Participar es solo quejarse de lo que está mal.
+1|¿Cómo elijo a un representante?|escucho sus propuestas y voto|voto por mi amigo sin pensar|no voto
+2|¿Por qué los ciudadanos vigilan el dinero público?|porque es de todos|porque es de los gobernantes|porque sobra
+2|¿Qué buscan los católicos al participar en la vida pública?|el bien común|el poder|la fama
+2|V|Un niño puede participar proponiendo mejoras para su escuela.
+2|¿Qué hago si pierde la propuesta por la que voté?|respeto la decisión de la mayoría|dejo de participar en el grupo|hago trampa para que cambie
+P|¿Qué es {x}?||votar = elegir a un representante|una asamblea = una reunión para decidir juntos|una faena = un trabajo comunitario gratuito|un plebiscito = una consulta sobre una decisión del gobierno
+#4v12
+Z|En la <b>democracia</b>, el pueblo elige a sus gobernantes con el voto; en la <b>dictadura</b>, uno gobierna sin elecciones libres.|México es una <b>república</b> federal, representativa y democrática.|El poder se divide en tres: <b>Ejecutivo</b> (gobierna), <b>Legislativo</b> (hace las leyes) y <b>Judicial</b> (juzga).|Así ningún poder manda sobre todo.
+E|Presidente, gobernador y presidente municipal|«Den al César lo que es del César» (Mt 22, 21)
+S|¿Por qué el poder se divide en tres?|Si una sola persona hiciera las leyes, las aplicara y juzgara, podría abusar.|Con tres poderes, cada uno vigila a los otros.|Así se protegen los derechos de la gente.|=Para que nadie tenga todo el poder y se eviten los abusos.
+I|🗳️ Democracia: El pueblo elige.|🏛️ Ejecutivo: Gobierna.|📜 Legislativo: Hace las leyes.|⚖️ Judicial: Juzga.
+0|V|México es una república democrática.
+0|¿Con qué elige el pueblo a sus gobernantes?|con el voto|con una carrera|con una rifa
+1|¿Qué pasa en una dictadura?|no hay elecciones libres|el pueblo decide todo|hay tres poderes
+1|¿Quiénes forman el Poder Legislativo?|diputados y senadores|jueces y magistrados|policías y soldados
+1|F|En una democracia, una sola persona tiene todo el poder.
+1|¿Quiénes forman el Poder Judicial?|los jueces|los alcaldes|los maestros
+2|¿Qué leyes debemos obedecer los cristianos?|las leyes justas|ninguna|solo las fáciles
+2|¿Qué hago si una ley manda algo contra la ley de Dios?|obedezco primero a Dios|obedezco sin pensar|me escondo
+2|V|Respetar a las autoridades y rezar por ellas es parte de la vida cristiana.
+2|¿Qué significa «república representativa»?|que elegimos representantes|que gobierna un rey|que nadie gobierna
+P|¿Qué hace el Poder {x}?|¿Qué Poder {x}?|Ejecutivo = gobierna y aplica las leyes|Legislativo = hace las leyes|Judicial = juzga conforme a las leyes
+P|¿Quién gobierna {x}?||el país = el presidente de la República|un estado = el gobernador|un municipio = el presidente municipal
+#4v13
+Z|Las <b>reglas</b> protegen a todos y hacen posible convivir.|Un <b>acuerdo</b> es una decisión que todos aceptan.|Si no cumplo, hay <b>consecuencias</b>: perder un privilegio o reparar el daño.|<b>Reparar</b>: reconozco mi falta, pido perdón y arreglo lo que dañé.
+E|Consecuencia: no tendí mi cama, la tiendo antes de jugar|Penitencia: reparar después de la Confesión
+S|Jugando en la sala rompí un florero. ¿Qué hago?|Reconozco lo que hice: no lo escondo ni culpo a otro.|Pido perdón a mis papás.|Reparo: recojo con cuidado y ayudo a reponerlo.|=Reconozco, pido perdón y reparo el daño.
+I|📜 Regla: Protege a todos.|🤝 Acuerdo: Lo aceptamos juntos.|🔁 Consecuencia: Lo que sigue a mis actos.|🛠️ Reparar: Arreglar el daño.
+0|V|Los acuerdos se toman entre todos.
+0|¿Para qué sirven las reglas?|para convivir mejor|para molestar|para castigar
+1|¿Qué es una consecuencia?|lo que resulta de mis actos|un premio sorpresa|una regla nueva
+1|¿Qué hago si ensucio el salón?|lo limpio|lo dejo así|culpo a otro
+1|F|Si nadie me ve, no importa romper una regla.
+1|¿Qué va después de pedir perdón?|reparar el daño|olvidarlo todo|volver a hacerlo
+2|¿Por qué es justo aceptar una consecuencia?|porque soy responsable de mis actos|porque me obligan|porque no hay remedio
+2|¿Qué recibo en la Confesión?|el perdón de Dios|un regalo|un castigo
+2|V|Cumplir los acuerdos hace que los demás confíen en mí.
+2|O|Ordena cómo reparar una falta|Reconozco|Pido perdón|Reparo el daño
+#4v14
+Z|Hay <b>riesgos sociales</b>: pandillas, drogas, alcohol, violencia, desconocidos en internet y retos peligrosos.|Me <b>protegen</b> los buenos amigos, la comunicación con mis papás y los horarios.|Sé decir <b>NO</b> con firmeza.|Si algo me asusta, <b>aviso</b> de inmediato.
+E|«El que anda con sabios se hace sabio» (Prov 13, 20)|San Juan Bosco cuidaba a los jóvenes
+S|Unos muchachos mayores me invitan a su «banda» y dicen que así nadie me molestará. ¿Qué hago?|Pienso: ¿me llevan al bien o al peligro?|Una pandilla trae violencia y problemas.|Digo que no, me alejo y lo platico con mis papás.|=Digo NO, me alejo y aviso a mis papás.
+I|👫 Buenos amigos: Me animan al bien.|🗣️ Comunicación: Platico con mis papás.|✋ Decir NO: Con firmeza.|📣 Avisar: Si algo me asusta.
+0|V|Un buen amigo me anima a hacer el bien.
+0|¿A quién aviso si alguien me ofrece drogas?|a mis papás|a nadie|a otro niño
+1|¿Qué hago ante un reto peligroso de internet?|no lo hago y aviso|lo hago rápido|lo comparto
+1|¿Qué datos no doy a desconocidos en línea?|mi dirección y mi escuela|mi color favorito|mi equipo de futbol
+1|F|Ser valiente es aceptar cualquier reto.
+1|¿Qué me protege de los riesgos?|platicar con mis papás|guardar secretos|salir sin permiso
+2|¿Cómo reconozco una mala compañía?|me empuja a hacer lo que está mal|me invita a estudiar|me acompaña a Misa
+2|¿Qué hacía san Juan Bosco por los jóvenes?|los educaba y los alejaba del peligro|los dejaba solos en la calle|los castigaba con dureza
+2|V|Decir «no» a lo que hace daño es un acto de valentía.
+2|¿Qué hago si un amigo se mete en problemas?|aviso a un adulto para que lo ayuden|lo acompaño en lo malo|lo encubro
+K|{x}: ¿me protege o me pone en riesgo?|¿Me protege o me pone en riesgo?|me protege: tener buenos amigos; platicar con mis papás; saber decir «no»; respetar mis horarios|me pone en riesgo: chatear con desconocidos; hacer retos peligrosos; juntarme con una pandilla; guardar secretos que asustan
