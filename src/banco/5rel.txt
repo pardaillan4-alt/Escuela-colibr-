@@ -1,0 +1,416 @@
+// Religión 5.º — profundización y banco ampliado
+#5r1
+Z|<b>Evangelio</b> significa «buena noticia»: la salvación que nos trae Jesús.|Los cuatro Evangelios son de <b>Mateo, Marcos, Lucas y Juan</b>: narran la vida, las palabras, la muerte y la resurrección del Señor.|Mateo y Juan fueron apóstoles; Marcos fue discípulo de Pedro y Lucas, compañero de Pablo.|Son el <b>corazón</b> de toda la Sagrada Escritura.
+E|Símbolos: hombre, león, toro y águila|En Misa escuchamos el Evangelio de pie
+S|Quiero leer la parábola del hijo pródigo. ¿Cómo la encuentro en la Biblia con la cita «Lc 15, 11»?|«Lc» es la abreviatura del Evangelio de san Lucas.|El primer número es el capítulo: 15.|El segundo es el versículo donde empieza: 11.|=Busco el Evangelio de Lucas, capítulo 15, versículo 11.
+I|👤 Mateo: Apóstol; su símbolo es el hombre.|🦁 Marcos: Discípulo de Pedro; el león.|🐂 Lucas: Médico; el toro.|🦅 Juan: El discípulo amado; el águila.
+0|V|Los Evangelios narran la vida y las enseñanzas de Jesús.
+0|¿En qué parte de la Biblia están los Evangelios?|en el Nuevo Testamento|en el Antiguo Testamento|en los Salmos
+1|¿Qué evangelistas fueron apóstoles de Jesús?|Mateo y Juan|Marcos y Lucas|Lucas y Pablo
+1|¿Cuál es el Evangelio más corto?|el de Marcos|el de Juan|el de Mateo
+1|F|Los cuatro Evangelios fueron escritos por el mismo autor.
+1|¿De quién fue discípulo san Marcos?|de san Pedro|de san Pablo|de san Juan
+2|En la cita «Jn 3, 16», ¿qué indica el 3?|el capítulo|el versículo|la página
+2|¿Cómo escuchamos el Evangelio en la Misa?|de pie|sentados|de rodillas
+2|V|Leer un poco del Evangelio cada día ayuda a conocer y amar a Jesús.
+2|¿Con qué empieza el Evangelio de san Mateo?|con la genealogía de Jesús|con el Apocalipsis|con la creación
+P|¿Cuál es el símbolo del evangelista {x}?|¿A qué evangelista representa {x}?|Mateo = el hombre|Marcos = el león|Lucas = el toro|Juan = el águila
+#5r2
+Z|La <b>Encarnación</b>: el Hijo eterno de Dios se hizo hombre en el seno de la Virgen María, por obra del Espíritu Santo.|Jesús es <b>verdadero Dios y verdadero hombre</b>: una sola Persona divina con dos naturalezas.|Como hombre tuvo cuerpo y alma: sintió hambre, cansancio, alegría y tristeza.|Se hizo hombre para <b>salvarnos</b> y hacernos hijos de Dios.
+E|«Y el Verbo se hizo carne» (Jn 1, 14)|Emmanuel: Dios con nosotros
+S|En la barca, Jesús duerme y luego calma la tempestad. ¿Qué muestra cada hecho?|Dormir cansado es propio de un hombre: Jesús es verdadero hombre.|Mandar al viento y al mar solo puede hacerlo Dios: Jesús es verdadero Dios.|Es la misma Persona quien hace las dos cosas.|=Que Jesús es verdadero hombre y verdadero Dios.
+I|✨ Verdadero Dios: Hijo eterno del Padre.|👶 Verdadero hombre: Nació de María.|🕊️ Espíritu Santo: Por su obra se encarnó.|❤️ Para qué: Para salvarnos.
+0|V|Jesús nació de la Virgen María.
+0|¿Qué significa «Encarnación»?|que Dios se hizo hombre|que Jesús subió al cielo|que María fue al Templo
+1|¿Cuántas naturalezas tiene Jesús?|dos: divina y humana|una sola|tres
+1|¿Qué fiesta celebra el nacimiento de Jesús?|la Navidad|la Pascua|Pentecostés
+1|F|Al hacerse hombre, el Hijo de Dios dejó de ser Dios.
+1|¿Qué significa «Emmanuel»?|Dios con nosotros|Dios salva|Príncipe de la paz
+2|¿Qué celebramos el 25 de marzo?|la Anunciación|la Asunción|la Epifanía
+2|¿Por qué podemos acercarnos a Jesús con confianza?|porque se hizo uno de nosotros|porque vive muy lejos|porque no nos conoce
+2|V|Jesús es el Hijo de Dios desde siempre: no empezó a existir en Belén.
+2|¿Qué respondió María al ángel?|Hágase en mí según tu palabra|No puedo aceptar|Lo pensaré después
+K|{x}: ¿muestra que Jesús es Dios o que es hombre?|¿Dios u hombre?|Dios: perdonó los pecados; resucitó a Lázaro; calmó la tempestad; resucitó al tercer día|hombre: tuvo hambre; se cansó del camino; lloró por su amigo; durmió en la barca
+#5r3
+Z|Jesús vivió unos <b>treinta años</b> en Nazaret, con María y José: es su <b>vida oculta</b>.|Obedecía a sus padres, trabajaba como carpintero y rezaba.|«Crecía en <b>sabiduría, estatura y gracia</b>» (Lc 2, 52).|Así santificó la vida de cada día: la familia, el trabajo y el estudio.
+E|A los 12 años: «Debo estar en las cosas de mi Padre»|Ofrecer el día al despertar
+S|¿Cómo puedo imitar a Jesús de Nazaret en un día cualquiera?|Al despertar ofrezco mi día a Dios.|Obedezco a la primera y hago bien mi tarea y mis encargos.|Trato con cariño a mi familia y rezo antes de dormir.|=Haciendo bien y con amor lo de todos los días.
+I|🏠 Familia: Obedecía a María y José.|🪚 Trabajo: Aprendió el oficio de carpintero.|📖 Oración: Rezaba y conocía las Escrituras.|🌱 Crecer: En sabiduría, estatura y gracia.
+0|V|Jesús vivió en Nazaret con María y José.
+0|¿Quién enseñó a Jesús el oficio de carpintero?|san José|san Pedro|san Juan
+1|¿Cuántos años tenía Jesús cuando se quedó en el Templo?|doce|siete|treinta
+1|¿Qué hizo Jesús al volver del Templo a Nazaret?|obedeció a sus padres|se fue de casa|dejó de trabajar
+1|F|Jesús empezó a predicar cuando era un niño pequeño.
+1|¿Por qué se llama «vida oculta»?|porque casi nadie supo de ella|porque vivió escondido|porque fue triste
+2|¿Qué significa «santificar lo ordinario»?|hacer con amor lo de cada día|hacer solo cosas raras|rezar todo el día
+2|¿Con quiénes estaba Jesús en el Templo a los doce años?|con los maestros de la Ley|con los soldados|con los pastores
+2|V|Hacer bien la tarea y ofrecerla a Dios es una forma de oración.
+2|¿Cómo se llama a Jesús, María y José juntos?|la Sagrada Familia|los Reyes Magos|los doce apóstoles
+K|{x}: ¿imita a Jesús de Nazaret?|¿Imita a Jesús de Nazaret?|sí: hacer bien la tarea; obedecer a la primera; ayudar en casa con alegría; rezar al despertar|no: hacer las cosas de mala gana; quejarme de todo; dejar los encargos a medias
+#5r4
+Z|Jesús fue bautizado por Juan en el río <b>Jordán</b>.|El Espíritu Santo bajó como paloma y el Padre dijo: «Este es mi Hijo amado»: se manifestó la <b>Trinidad</b>.|Después ayunó <b>cuarenta días</b> en el desierto, donde el demonio lo tentó tres veces.|Jesús venció con la <b>Palabra de Dios</b>.
+E|Cuaresma: cuarenta días|«No solo de pan vive el hombre»
+S|¿Cómo venzo una tentación, por ejemplo la de mentir para no ser regañado?|Reconozco que es una tentación: algo malo que parece conveniente.|Rezo: «Señor, ayúdame» y recuerdo que Dios ama la verdad.|Digo la verdad aunque me cueste y me alejo de lo que me hace caer.|=Con oración, recordando la Palabra de Dios y eligiendo el bien.
+I|💧 Jordán: Juan bautiza a Jesús.|🕊️ Trinidad: Padre, Hijo y Espíritu Santo.|🏜️ Desierto: Cuarenta días de ayuno.|📖 Victoria: Jesús vence con la Palabra.
+0|V|Jesús fue bautizado en el río Jordán.
+0|¿En qué forma bajó el Espíritu Santo sobre Jesús?|como paloma|como fuego|como viento
+1|¿Qué dijo el Padre en el bautismo de Jesús?|Este es mi Hijo amado|Yo soy el que soy|Hágase la luz
+1|¿Quién tentó a Jesús en el desierto?|el demonio|un fariseo|Poncio Pilato
+1|F|Jesús cayó en una de las tentaciones del desierto.
+1|¿Cuántas veces fue tentado Jesús?|tres|una|siete
+2|¿Qué es una tentación?|una invitación a hacer el mal|un pecado ya cometido|un castigo de Dios
+2|¿Es pecado sentir una tentación?|no: pecado es consentirla|sí, siempre|solo en Cuaresma
+2|V|La oración y el ayuno nos hacen fuertes ante la tentación.
+2|¿Qué hizo Jesús después del desierto?|empezó a predicar|regresó a Nazaret a esconderse|se quedó en el Jordán
+P|¿Qué respondió Jesús cuando el demonio le propuso {x}?||convertir las piedras en pan = No solo de pan vive el hombre|tirarse desde el Templo = No tentarás al Señor tu Dios|adorarlo a cambio de los reinos = Al Señor tu Dios adorarás
+#5r5
+Z|Jesús anunció: «El <b>Reino de Dios</b> está cerca: conviértanse y crean en el Evangelio».|El Reino es Dios reinando en los corazones con su amor, su verdad y su paz.|En el Sermón del monte enseñó las ocho <b>Bienaventuranzas</b> (Mt 5, 3-10).|Son el retrato de Jesús y el camino de la verdadera <b>felicidad</b>.
+E|«Dichosos los limpios de corazón, porque verán a Dios»|Convertirse: cambiar el corazón
+S|¿Por qué dice Jesús que son felices los pobres de espíritu?|Pobre de espíritu es quien sabe que todo lo recibe de Dios.|No pone su corazón en las cosas, sino en Dios.|Por eso es libre y Dios puede reinar en él.|=Porque confían en Dios y de ellos es el Reino de los cielos.
+I|👑 Reino: Dios reina en los corazones.|⛰️ Sermón del monte: Ahí enseñó las Bienaventuranzas.|😊 Dichosos: Felices según Dios.|🔄 Conversión: Cambiar para seguir a Jesús.
+0|V|Jesús enseñó las Bienaventuranzas.
+0|¿Qué significa «bienaventurado»?|dichoso, feliz|rico, poderoso|fuerte, valiente
+1|¿Qué pidió Jesús al anunciar el Reino?|convertirse y creer|pagar impuestos|ir a Roma
+1|¿Qué es convertirse?|cambiar el corazón hacia Dios|cambiar de casa|aprender otro idioma
+1|F|Según Jesús, la felicidad está en tener muchas cosas.
+1|¿En qué Evangelio están las ocho Bienaventuranzas?|en san Mateo|en san Marcos|en san Juan
+2|¿Quién vivió perfectamente las Bienaventuranzas?|Jesús|Herodes|Pilato
+2|¿Quién es «limpio de corazón»?|el que ama a Dios con sinceridad|el que se baña mucho|el que nunca juega
+2|V|Quien perdona y ayuda vive la bienaventuranza de los misericordiosos.
+2|¿Dónde reina Dios cuando hago su voluntad?|en mi corazón|en un palacio|en un país lejano
+P|¿Qué promete Jesús a {x}?||los pobres de espíritu = de ellos es el Reino de los cielos|los que lloran = serán consolados|los mansos = heredarán la tierra|los que tienen hambre de justicia = serán saciados|los misericordiosos = alcanzarán misericordia|los limpios de corazón = verán a Dios|los que trabajan por la paz = serán llamados hijos de Dios
+#5r6
+Z|Los <b>milagros</b> de Jesús son signos de que el Reino de Dios ha llegado y de que Él es el <b>Hijo de Dios</b>.|Sanó enfermos, calmó la tempestad, multiplicó los panes y resucitó muertos.|No eran espectáculos: eran signos de amor que piden <b>fe</b>.|El mayor milagro de cada día es la <b>Eucaristía</b>.
+E|«Tu fe te ha salvado»|Caná: el primer milagro
+S|En Caná se acabó el vino. ¿Qué enseña este milagro?|María notó la necesidad y se lo dijo a Jesús.|Pidió a los sirvientes: «Hagan lo que Él les diga».|Jesús convirtió el agua en vino y sus discípulos creyeron en Él.|=Que María intercede por nosotros y que Jesús escucha y actúa.
+I|🍷 Caná: El agua convertida en vino.|🍞 Panes y peces: Comieron miles.|🌊 Tempestad: El viento y el mar le obedecen.|🙏 Fe: Lo que Jesús pide.
+0|V|Los milagros muestran que Jesús es el Hijo de Dios.
+0|¿En qué convirtió Jesús el agua en Caná?|en vino|en leche|en aceite
+1|¿Con qué alimentó Jesús a la multitud?|con cinco panes y dos peces|con mil panes|con frutas del campo
+1|¿Quién dijo en Caná «Hagan lo que Él les diga»?|la Virgen María|san Pedro|san Juan Bautista
+1|F|Jesús hacía milagros para divertir a la gente.
+1|¿A qué amigo resucitó Jesús en Betania?|a Lázaro|a Zaqueo|a Nicodemo
+2|¿Cuál es el milagro que ocurre en cada Misa?|el pan y el vino se convierten en Jesús|llueve maná del cielo sobre el altar|se multiplican los panes y los peces
+2|¿Qué hago cuando pido algo a Dios y no sucede como quiero?|confío en su voluntad|dejo de rezar|me enojo con Él
+2|V|La Iglesia estudia con cuidado los milagros antes de reconocerlos.
+2|¿Qué dijeron los discípulos al calmarse la tempestad?|¿Quién es este, que hasta el viento le obedece?|Vámonos pronto a la orilla, que ya es de noche|No ha pasado nada: sigamos durmiendo todos
+P|¿Qué milagro hizo Jesús en {x}?||las bodas de Caná = convirtió el agua en vino|el lago de Galilea = calmó la tempestad|Betania = resucitó a Lázaro|un lugar despoblado = multiplicó los panes|Jericó = dio la vista a un ciego
+#5r7
+Z|Jesús preguntó: «¿Quién dicen ustedes que soy yo?». Pedro respondió: «Tú eres el <b>Mesías</b>, el Hijo de Dios vivo».|Jesús le dijo: «Tú eres <b>Pedro</b>, y sobre esta piedra edificaré mi Iglesia», y le dio las <b>llaves</b> del Reino.|En la <b>Transfiguración</b>, Jesús mostró su gloria a Pedro, Santiago y Juan.|El <b>Papa</b> es el sucesor de Pedro.
+E|«Este es mi Hijo amado: escúchenlo»|Pedro significa «piedra»
+S|¿Por qué Jesús se transfiguró antes de su Pasión?|Jesús había anunciado que iba a sufrir y morir.|Los apóstoles iban a tener miedo al verlo en la cruz.|Les mostró su gloria para fortalecer su fe.|=Para que recordaran, en la hora de la cruz, que Él es el Hijo de Dios.
+I|🪨 Pedro: La roca de la Iglesia.|🔑 Llaves: Autoridad para guiar a la Iglesia.|⛰️ Tabor: El monte de la Transfiguración.|⛪ Papa: Sucesor de Pedro.
+0|V|Pedro reconoció que Jesús es el Mesías.
+0|¿Qué significa el nombre «Pedro»?|piedra|pescador|pastor
+1|¿Cómo se llamaba Pedro antes de que Jesús le cambiara el nombre?|Simón|Saulo|Andrés
+1|¿Qué apóstoles vieron la Transfiguración?|Pedro, Santiago y Juan|Mateo, Tomás y Felipe|Judas, Andrés y Bartolomé
+1|F|En la Transfiguración, Jesús se apareció junto a Abraham y David.
+1|¿Qué dijo la voz del Padre en el monte?|Este es mi Hijo amado: escúchenlo|Vayan todos a Jerusalén|No tengan miedo de la nube
+2|¿Qué representan las llaves que Jesús dio a Pedro?|la autoridad en la Iglesia|las puertas de su casa|un tesoro escondido
+2|¿Qué hago por el Papa?|rezo por él|nada: está lejos|lo critico
+2|V|Jesús prometió que el mal no vencerá a su Iglesia.
+2|¿Qué oficio tenía Pedro antes de seguir a Jesús?|pescador|carpintero|cobrador de impuestos
+P|¿Qué pasó en {x}?||Cesarea de Filipo = Pedro confesó que Jesús es el Mesías|el monte Tabor = Jesús se transfiguró|el lago de Galilea = Jesús llamó a Pedro
+#5r8
+Z|El <b>Jueves Santo</b>, Jesús celebró la Última Cena con sus apóstoles.|Les <b>lavó los pies</b> y les dio el mandamiento nuevo: «Ámense como yo los he amado».|Tomó el pan y el vino: «Esto es mi Cuerpo… Esta es mi Sangre»: instituyó la <b>Eucaristía</b>.|Al decir «Hagan esto en memoria mía», instituyó el <b>sacerdocio</b>.
+E|Lavar los pies: servir con humildad|Cada Misa hace presente la Última Cena
+S|¿Qué tiene que ver la Misa del domingo con la Última Cena?|En la Última Cena, Jesús dio su Cuerpo y su Sangre a los apóstoles.|Les mandó: «Hagan esto en memoria mía».|El sacerdote repite en la Misa las palabras de Jesús.|=En cada Misa se hace presente lo que Jesús hizo en la Última Cena.
+I|🦶 Lavatorio: Jesús sirve a sus amigos.|❤️ Mandamiento nuevo: Amar como Él ama.|🍞 Eucaristía: Su Cuerpo y su Sangre.|⛪ Sacerdocio: «Hagan esto en memoria mía».
+0|V|En la Última Cena, Jesús instituyó la Eucaristía.
+0|¿Con quiénes celebró Jesús la Última Cena?|con sus apóstoles|con los fariseos|con los romanos
+1|¿Qué dijo Jesús al tomar el pan?|Esto es mi Cuerpo|Este es mi amigo|Este es el maná
+1|¿Qué fiesta judía celebraba Jesús esa noche?|la Pascua|Pentecostés|las Tiendas
+1|F|Jesús pidió que nadie repitiera lo que hizo en la Última Cena.
+1|¿Qué enseñó Jesús al lavar los pies?|a servir con humildad|a bañarse a diario|a mandar a otros
+2|¿Cómo se ama «como Jesús»?|dando la vida por los demás|solo a quien me cae bien|esperando algo a cambio
+2|O|Ordena lo que pasó el Jueves Santo|Lavatorio de los pies|Institución de la Eucaristía|Oración en el huerto|Arresto de Jesús
+2|V|Sin sacerdotes no habría Eucaristía.
+2|¿Qué puedo hacer el Jueves Santo?|acompañar a Jesús en la Misa y la adoración|irme de paseo todo el día sin acordarme|olvidarme de la fecha y de su significado
+#5r9
+Z|Jesús oró en <b>Getsemaní</b>: «No se haga mi voluntad, sino la tuya».|Fue traicionado, negado, juzgado por Pilato, azotado y coronado de espinas.|Cargó la cruz hasta el <b>Calvario</b>, donde murió el <b>Viernes Santo</b>.|Entregó su vida <b>por amor</b>, para salvarnos del pecado.
+E|«Padre, perdónalos»|«Ahí tienes a tu madre»
+S|¿Por qué llamamos «santo» al viernes en que murió Jesús?|Ese día Jesús sufrió y murió en la cruz.|No murió a la fuerza: entregó su vida libremente por amor.|Con su muerte venció al pecado y nos abrió el cielo.|=Porque ese día Jesús nos salvó con su sacrificio de amor.
+I|🌿 Getsemaní: Oración y obediencia al Padre.|👑 Espinas: Burlas y dolor por nosotros.|✝️ Cruz: La prueba más grande de amor.|🤍 María: Nos fue dada por Madre.
+0|V|Jesús murió en la cruz un Viernes Santo.
+0|¿Dónde oró Jesús antes de ser arrestado?|en el huerto de Getsemaní|en el Templo|en el desierto
+1|¿Cuántas veces negó Pedro a Jesús?|tres|una|siete
+1|¿Qué le pusieron a Jesús en la cabeza?|una corona de espinas|una corona de oro|un velo blanco
+1|F|Jesús murió en la cruz porque no pudo escapar.
+1|¿Cómo se llama el monte donde fue crucificado?|el Calvario|el Tabor|el Sinaí
+2|¿Qué muestra «No se haga mi voluntad, sino la tuya»?|su obediencia al Padre|su miedo a los soldados|su enojo con los apóstoles
+2|¿Qué hizo Pedro después de negar a Jesús?|lloró arrepentido|huyó para siempre|se burló de Él
+2|V|En el Vía crucis acompañamos a Jesús en su camino a la cruz.
+2|¿Qué puedo ofrecer a Jesús el Viernes Santo?|un sacrificio y mi oración|una fiesta con mis amigos|mis quejas y mi mal humor
+P|En la Pasión, ¿quién {x}?||negó tres veces a Jesús = Pedro|ayudó a cargar la cruz = Simón de Cirene|sepultó a Jesús en un sepulcro nuevo = José de Arimatea|pidió a Jesús entrar en su Reino = el buen ladrón|estuvo junto a la cruz con María = el apóstol Juan
+#5r10
+Z|Al <b>tercer día</b>, Jesús resucitó con su cuerpo glorioso: el sepulcro estaba vacío.|Se apareció a María Magdalena, a los discípulos de Emaús, a los apóstoles y a muchos más.|La <b>Resurrección</b> es el fundamento de nuestra fe.|Es la promesa de que también nosotros resucitaremos.
+E|«No está aquí, ha resucitado» (Lc 24, 6)|Domingo: el día del Señor
+S|¿Por qué el domingo es el día más importante de la semana?|Jesús resucitó «el primer día de la semana»: el domingo.|Los cristianos empezaron a reunirse ese día para la Eucaristía.|Cada domingo es como una pequeña Pascua.|=Porque es el día en que Jesús resucitó.
+I|🌅 Tercer día: Jesús vive.|🪨 Sepulcro vacío: La piedra fue removida.|🍞 Emaús: Lo reconocieron al partir el pan.|🕯️ Cirio pascual: Luz de Cristo resucitado.
+0|V|La Resurrección es el fundamento de nuestra fe.
+0|¿Qué día de la semana resucitó Jesús?|el domingo|el viernes|el miércoles
+1|¿Cómo encontraron las mujeres el sepulcro?|vacío|cerrado|lleno de soldados
+1|¿Cómo reconocieron a Jesús los discípulos de Emaús?|al partir el pan|por su ropa|por su voz fuerte
+1|F|Jesús resucitó solo en el recuerdo de sus amigos.
+1|¿Qué fiesta celebra la Resurrección?|la Pascua|la Navidad|la Epifanía
+2|¿Qué promete la Resurrección de Jesús?|que también resucitaremos|que nunca sufriremos|que seremos ricos
+2|¿Cómo cambiaron los apóstoles al ver a Jesús resucitado?|pasaron del miedo a la alegría|se quedaron tristes|dejaron de creer
+2|V|El cirio pascual representa a Cristo resucitado, luz del mundo.
+2|¿Cuánto dura el tiempo de Pascua?|cincuenta días|cuarenta días|una semana
+P|¿Cómo reconoció a Jesús resucitado {x}?||María Magdalena = cuando la llamó por su nombre|la pareja de Emaús = cuando partió el pan|el apóstol Tomás = cuando vio sus llagas
+#5r11
+Z|A los <b>cuarenta días</b> de resucitar, Jesús subió al cielo: la <b>Ascensión</b>.|Antes envió a los apóstoles: «Vayan y hagan discípulos a todos los pueblos».|A los <b>cincuenta días</b>, en <b>Pentecostés</b>, el Espíritu Santo bajó sobre María y los apóstoles.|Pedro predicó, se bautizaron unas tres mil personas y nació la Iglesia.
+E|«Yo estoy con ustedes todos los días» (Mt 28, 20)|Bautizar en el nombre del Padre, del Hijo y del Espíritu Santo
+S|Si Jesús subió al cielo, ¿cómo sigue con nosotros?|Prometió: «Yo estoy con ustedes todos los días».|Está presente en la Eucaristía y en su Palabra.|Está donde dos o tres se reúnen en su nombre y nos envió su Espíritu.|=En la Eucaristía, en su Palabra, en la Iglesia y por su Espíritu.
+I|☁️ Ascensión: Jesús sube al cielo.|🌍 Misión: «Vayan a todos los pueblos».|🔥 Pentecostés: Viene el Espíritu Santo.|⛪ Iglesia: Nace ese día.
+0|V|Jesús subió al cielo a los cuarenta días de resucitar.
+0|¿Quién bajó sobre los apóstoles en Pentecostés?|el Espíritu Santo|el arcángel Gabriel|Moisés
+1|¿Qué mandó Jesús antes de subir al cielo?|ir a todos los pueblos|quedarse en casa|regresar a pescar
+1|¿Dónde está Jesús ahora, según el Credo?|a la derecha del Padre|en el sepulcro|en Nazaret
+1|F|En Pentecostés los apóstoles se escondieron con más miedo.
+1|¿Quién estaba con los apóstoles esperando al Espíritu?|la Virgen María|Poncio Pilato|Herodes
+2|¿Cómo cumplo hoy el mandato misionero?|dando buen ejemplo e invitando|quedándome callado|guardando la fe para mí
+2|¿Qué efecto tuvo el Espíritu Santo en los apóstoles?|valentía para predicar|deseo de esconderse|olvido de Jesús
+2|V|La Iglesia es misionera: existe para anunciar a Jesús.
+2|¿Cuántos días después de la Pascua es Pentecostés?|cincuenta|cuarenta|siete
+K|{x}: ¿Ascensión o Pentecostés?|¿Ascensión o Pentecostés?|Ascensión: a los 40 días de la Pascua; Jesús sube al cielo; Jesús envía a sus apóstoles|Pentecostés: a los 50 días de la Pascua; baja el Espíritu Santo; lenguas de fuego; se bautizan tres mil
+#5r12
+Z|El libro de los <b>Hechos de los Apóstoles</b> narra la vida de la primera Iglesia.|Los primeros cristianos perseveraban en la <b>enseñanza</b> de los apóstoles, la <b>comunión</b>, la <b>fracción del pan</b> y las <b>oraciones</b>.|Compartían sus bienes para que nadie pasara necesidad.|<b>San Esteban</b>, diácono, fue el primer mártir: murió perdonando.
+E|Hch 2, 42: los cuatro pilares|Diácono: servidor
+S|¿Qué tiene mi parroquia de la primera comunidad?|Enseñanza de los apóstoles: la catequesis y la homilía.|Fracción del pan: la Misa. Oraciones: el rosario y la adoración.|Comunión: la caridad con los pobres y la ayuda entre familias.|=Los mismos cuatro pilares: enseñanza, Eucaristía, oración y caridad.
+I|📖 Enseñanza: De los apóstoles.|🤝 Comunión: Compartían lo que tenían.|🍞 Fracción del pan: La Eucaristía.|🙏 Oración: Unidos y constantes.
+0|V|San Esteban murió perdonando a quienes lo apedreaban.
+0|¿Quién escribió los Hechos de los Apóstoles?|san Lucas|san Mateo|san Pedro
+1|¿Qué significa «diácono»?|servidor|maestro|jefe
+1|¿Para qué compartían sus bienes los primeros cristianos?|para que nadie pasara necesidad|para hacerse famosos|para comprar tierras
+1|F|Los primeros cristianos se reunían solo una vez al año.
+1|¿Quién presenció la muerte de Esteban y después se convirtió?|Saulo|Pilato|Herodes
+2|¿A quién imitó Esteban al perdonar?|a Jesús en la cruz|a los fariseos|al rey David
+2|¿Cómo se nota hoy que alguien es cristiano?|por su amor a los demás|por su ropa|por su apellido
+2|V|En mi parroquia puedo servir como monaguillo, en el coro o ayudando a los pobres.
+2|¿Qué decía la gente de los primeros cristianos?|Miren cómo se aman|Miren qué ricos son|Miren cuántos son
+#5r13
+Z|<b>Saulo</b> perseguía a los cristianos; en el camino a <b>Damasco</b>, Jesús resucitado se le apareció.|Se convirtió, fue bautizado y se le conoce como <b>san Pablo</b>, el apóstol de los gentiles.|Hizo tres grandes viajes misioneros, fundó comunidades y les escribió <b>cartas</b>.|Murió mártir en Roma; lo celebramos con san Pedro el 29 de junio.
+E|«Saulo, Saulo, ¿por qué me persigues?»|«Ya no vivo yo: es Cristo quien vive en mí»
+S|Jesús dijo a Saulo: «¿Por qué me persigues?». ¿Por qué dijo «me», si Saulo perseguía a los cristianos?|Los cristianos forman el Cuerpo de Cristo: la Iglesia.|Lo que se hace a un miembro, se le hace a Cristo.|Por eso perseguir a los cristianos era perseguir a Jesús.|=Porque Jesús está unido a su Iglesia: lo que hacemos a otros, a Él se lo hacemos.
+I|⚡ Damasco: Jesús lo llama.|💧 Bautismo: Saulo empieza una vida nueva.|⛵ Viajes: Tres grandes misiones.|✉️ Cartas: A romanos, corintios, gálatas…
+0|V|San Pablo escribió cartas a las comunidades cristianas.
+0|¿Cómo se llamaba san Pablo antes de su conversión?|Saulo|Simón|Leví
+1|¿Quién se apareció a Saulo en el camino a Damasco?|Jesús resucitado|el arcángel Miguel|san Esteban
+1|¿Cuántos grandes viajes misioneros hizo san Pablo?|tres|uno|doce
+1|F|San Pablo fue uno de los doce apóstoles que vivieron con Jesús.
+1|¿En qué parte de la Misa se leen las cartas de san Pablo?|en la segunda lectura|en el Evangelio|en el ofertorio
+2|¿Qué enseña la conversión de Pablo?|que Dios puede cambiar cualquier corazón|que no hay perdón para todos|que solo cambian los buenos
+2|¿Qué significa «gentiles»?|los que no eran judíos|los que eran amables|los soldados romanos
+2|V|Lo que hacemos a los demás, se lo hacemos a Jesús.
+2|¿Qué carta de san Pablo contiene el «himno a la caridad»?|la primera a los corintios|la carta a Filemón|la carta a Tito
+K|{x}: ¿antes o después de la conversión de Pablo?|¿Antes o después de su conversión?|antes: perseguía a los cristianos; aprobó la muerte de Esteban; iba a Damasco a arrestar creyentes|después: predicó a los gentiles; escribió cartas a las comunidades; hizo tres viajes misioneros; murió mártir en Roma
+#5r14
+Z|La Iglesia es el <b>Pueblo de Dios</b>, el <b>Cuerpo de Cristo</b> (Él es la cabeza) y el <b>Templo del Espíritu Santo</b>.|Tiene cuatro notas: <b>una, santa, católica y apostólica</b>.|Todos los bautizados somos Iglesia.|Cristo fundó una sola Iglesia; rezamos por la unidad de todos los cristianos.
+E|«Católica» significa universal|Yo soy miembro del Cuerpo de Cristo
+S|¿Por qué se dice que la Iglesia es un «cuerpo»?|En un cuerpo hay muchos miembros distintos: manos, ojos, pies.|Todos se necesitan y obedecen a la cabeza.|En la Iglesia, Cristo es la cabeza y cada bautizado tiene su misión.|=Porque somos muchos miembros unidos a Cristo, que es la cabeza.
+I|👥 Pueblo de Dios: Reunido por el Bautismo.|✝️ Cuerpo de Cristo: Él es la cabeza.|🕊️ Templo del Espíritu: Él le da vida.|🌍 Católica: Para todos los pueblos.
+0|V|Por el Bautismo formo parte de la Iglesia.
+0|¿Quién fundó la Iglesia?|Jesucristo|san Pablo|un emperador
+1|¿Quién es el alma que da vida a la Iglesia?|el Espíritu Santo|el coro|el obispo
+1|¿Qué pasa en un cuerpo cuando un miembro sufre?|todos sufren con él|a nadie le importa|los demás descansan
+1|F|La Iglesia es solamente el edificio del templo.
+1|¿Cuántas notas tiene la Iglesia?|cuatro|siete|diez
+2|¿Cuál es mi misión como miembro de la Iglesia?|vivir la fe y ayudar a otros|solo ir a mirar|ninguna hasta ser adulto
+2|¿Por qué rezamos por la unidad de los cristianos?|porque Jesús quiere una sola Iglesia|porque es una costumbre|porque somos pocos
+2|V|En cualquier país del mundo, la Misa católica es la misma.
+2|¿Qué decimos de la Iglesia en el Credo?|que es una, santa, católica y apostólica|que es grande, antigua, rica y famosa|que es fuerte, sabia, alegre y poderosa
+P|¿Qué significa que la Iglesia es {x}?||una = que tiene una sola fe|santa = que Cristo la santifica|católica = que es universal
+#5r15
+Z|La <b>jerarquía</b>: el Papa (sucesor de Pedro), los obispos (sucesores de los apóstoles), los presbíteros y los diáconos.|Su misión es <b>enseñar, santificar y guiar</b> al Pueblo de Dios.|Los <b>laicos</b> santifican el mundo desde la familia, el trabajo y la sociedad.|Los <b>consagrados</b> se entregan a Dios con votos de pobreza, castidad y obediencia.
+E|Diócesis: la porción de la Iglesia que guía un obispo|Vocación: la llamada de Dios
+S|¿Qué es una vocación y cómo se descubre?|Vocación significa «llamada»: lo que Dios quiere de cada uno.|Puede ser al matrimonio, al sacerdocio o a la vida consagrada.|Se descubre rezando, escuchando y pidiendo consejo.|=Es la llamada de Dios; se descubre con oración y buen consejo.
+I|⛪ Papa: Pastor de toda la Iglesia.|🧔 Obispos: Sucesores de los apóstoles.|👪 Laicos: Santifican el mundo.|🙏 Consagrados: Pobreza, castidad y obediencia.
+0|V|El Papa es el sucesor de san Pedro.
+0|¿Quién guía una diócesis?|el obispo|el diácono|el sacristán
+1|¿Cuál es la misión de la jerarquía?|enseñar, santificar y guiar|mandar y cobrar|construir edificios
+1|¿Quiénes son los presbíteros?|los sacerdotes|los monaguillos|los catequistas
+1|F|Solo los sacerdotes y las religiosas están llamados a ser santos.
+1|¿Qué significa «vocación»?|llamada|trabajo|premio
+2|¿Dónde se santifican los laicos?|en la familia y el trabajo|solo en el convento|únicamente en el templo
+2|¿Qué voto ayuda a vivir sin apegarse a las cosas?|la pobreza|la obediencia|la castidad
+2|V|Rezar por las vocaciones es tarea de toda la Iglesia.
+2|¿A qué llama Dios a todos, sin excepción?|a la santidad|al sacerdocio|al convento
+P|¿Quién es {x}?||el Papa = el sucesor de san Pedro|un obispo = un sucesor de los apóstoles|un presbítero = un sacerdote que ayuda al obispo|un laico = un bautizado que santifica el mundo|una religiosa = una mujer consagrada con votos
+#5r16
+Z|La Iglesia enseña cuatro verdades sobre María: es <b>Madre de Dios</b>, <b>siempre Virgen</b>, <b>Inmaculada</b> (sin pecado original) y fue llevada al cielo en cuerpo y alma (<b>Asunción</b>).|Jesús nos la dio por Madre desde la cruz: es <b>Madre de la Iglesia</b>.|A María no la adoramos: la <b>veneramos</b> y le pedimos que interceda por nosotros.|Ella siempre nos lleva a Jesús.
+E|8 de diciembre: Inmaculada Concepción|15 de agosto: Asunción
+S|¿Por qué llamamos a María «Madre de Dios»?|María es la madre de Jesús.|Jesús es Dios hecho hombre: una sola Persona divina.|Por eso la madre de Jesús es Madre de Dios.|=Porque su Hijo, Jesús, es verdadero Dios.
+I|👑 Madre de Dios: Proclamado en Éfeso (431).|🤍 Siempre Virgen: Antes, durante y después del parto.|✨ Inmaculada: Sin pecado desde su concepción.|☁️ Asunción: En el cielo en cuerpo y alma.
+0|V|Jesús nos dio a María como Madre.
+0|¿Qué fiesta de la Virgen celebramos el 12 de diciembre?|la Virgen de Guadalupe|la Asunción|la Inmaculada
+1|¿Qué significa «Inmaculada»?|sin mancha de pecado|muy joven|muy callada
+1|¿Qué significa «interceder»?|pedir a Dios por otros|dar órdenes|olvidar a alguien
+1|F|Los católicos adoramos a la Virgen María.
+1|¿Cómo fue llevada María al cielo?|en cuerpo y alma|solo en alma|en un sueño
+2|¿Cuál es la diferencia entre adorar y venerar?|adorar es solo para Dios|son lo mismo|venerar es para Dios
+2|¿A quién nos lleva siempre la Virgen?|a su Hijo Jesús|a ella misma|a los ángeles
+2|V|La Virgen de Guadalupe y la Virgen de Zapopan son la misma María con distintos títulos.
+2|¿Qué mes se dedica especialmente a la Virgen María?|mayo|febrero|septiembre
+P|¿Qué celebramos el {x}?||1 de enero = a Santa María, Madre de Dios|8 de diciembre = la Inmaculada Concepción|15 de agosto = la Asunción|12 de diciembre = a la Virgen de Guadalupe
+#5r17
+Z|Durante casi tres siglos, el Imperio romano <b>persiguió</b> a los cristianos.|Muchos fueron <b>mártires</b>: santa Inés, san Lorenzo, san Sebastián, santas Perpetua y Felicidad.|En el año <b>313</b>, Constantino dio libertad a la Iglesia.|Los concilios de <b>Nicea</b> (325) y Constantinopla (381) formularon el Credo que rezamos en Misa.
+E|Mártir significa «testigo»|Padres de la Iglesia: Agustín, Ambrosio, Jerónimo
+S|¿Cómo puedo ser «testigo» de Jesús sin ser mártir?|Mártir significa testigo: alguien que muestra a Jesús con su vida.|Lo hago cuando bendigo los alimentos aunque me vean.|Y cuando digo la verdad o defiendo a alguien aunque se burlen.|=Viviendo mi fe sin esconderla, con valentía y alegría.
+I|🏛️ Persecución: Casi tres siglos.|🌹 Mártires: Testigos hasta la muerte.|📜 313: Libertad para los cristianos.|🙏 Credo: De Nicea y Constantinopla.
+0|V|Los mártires dieron su vida por Cristo.
+0|¿Qué imperio persiguió a los primeros cristianos?|el romano|el azteca|el chino
+1|¿Qué rezamos en Misa gracias a los concilios de Nicea y Constantinopla?|el Credo|el Gloria|el Santo
+1|¿Quiénes son los Padres de la Iglesia?|santos sabios que explicaron la fe|los papás de los santos|los primeros emperadores
+1|F|Las persecuciones acabaron con la Iglesia.
+1|¿Por qué perseguían a los cristianos?|porque no adoraban a los dioses romanos|porque no querían trabajar en el campo|porque tenían demasiadas riquezas
+2|¿Qué decía Tertuliano de la sangre de los mártires?|que es semilla de cristianos|que es inútil|que asusta a todos
+2|¿Qué hago si se burlan de mi fe?|sigo viviéndola con alegría|la escondo|me burlo también
+2|V|Hoy también hay cristianos perseguidos por su fe en algunos países.
+2|¿Qué santo tradujo la Biblia al latín?|san Jerónimo|san Lorenzo|san Sebastián
+P|¿Qué pasó en el año {x}?||313 = Constantino dio libertad a los cristianos|325 = se reunió el Concilio de Nicea|381 = se completó el Credo en Constantinopla
+#5r18
+Z|La <b>gracia santificante</b> es la vida de Dios en nuestra alma: nos hace hijos y amigos suyos.|Se recibe en el <b>Bautismo</b> y crece con los sacramentos, la oración y las buenas obras.|La <b>gracia actual</b> es la ayuda que Dios da en cada momento para hacer el bien.|La gracia santificante se pierde con el pecado mortal y se recupera en la <b>Confesión</b>.
+E|María: «llena de gracia»|La gracia es un regalo: no se compra ni se merece
+S|¿Por qué se dice que la gracia es un «regalo»?|Nadie puede ganar por sí mismo la amistad de Dios.|Dios la da gratis, por amor, por los méritos de Jesús.|A nosotros nos toca recibirla y cuidarla.|=Porque Dios la da gratuitamente, por puro amor.
+I|✨ Santificante: La vida de Dios en el alma.|🙌 Actual: Ayuda para cada momento.|💧 Bautismo: Ahí la recibimos.|🕊️ Confesión: Ahí se recupera.
+0|V|La gracia nos hace hijos de Dios.
+0|¿Con qué sacramento se recupera la gracia perdida?|la Confesión|el Matrimonio|la Confirmación
+1|¿Qué hace crecer la gracia?|los sacramentos y la oración|las riquezas y los premios|la fama y los aplausos
+1|¿Cómo saludó el ángel a María?|llena de gracia|reina de Israel|hija de David
+1|F|La gracia se puede comprar con dinero.
+1|¿Qué sacramento alimenta la vida de la gracia?|la Eucaristía|la Unción|el Orden
+2|¿Qué es una gracia actual?|una ayuda de Dios en un momento|un premio por ganar|un recuerdo bonito
+2|¿Qué hago para vivir siempre en gracia?|rezo, me confieso y comulgo|espero a ser grande|no hago nada
+2|V|Vivir en gracia es vivir en amistad con Dios.
+2|¿Quién nos ganó la gracia con su muerte y resurrección?|Jesucristo|Moisés|san Pedro
+K|{x}: ¿hace crecer la gracia o la pone en peligro?|¿La hace crecer o la pone en peligro?|la hace crecer: comulgar con devoción; confesarme; rezar cada día; hacer obras de caridad|la pone en peligro: dejar de rezar; faltar a Misa por flojera; mentir y robar; buscar ocasiones de pecado
+#5r19
+Z|Las <b>virtudes teologales</b> vienen de Dios y nos unen a Él.|<b>Fe</b>: creer en Dios y en lo que nos ha revelado.|<b>Esperanza</b>: confiar en sus promesas y desear el cielo.|<b>Caridad</b>: amar a Dios sobre todas las cosas y al prójimo por amor a Él; es la mayor.
+E|«Creo en ti, espero en ti, te amo»|El ancla: símbolo de la esperanza
+S|Mi abuelita está enferma y toda la familia está preocupada. ¿Cómo vivo las tres virtudes?|Fe: creo que Dios está con nosotros y nos ama.|Esperanza: confío en que Él sacará un bien y nos espera en el cielo.|Caridad: la visito, la cuido y rezo por ella.|=Creyendo, confiando y amando con obras.
+I|✝️ Fe: Creer en Dios.|⚓ Esperanza: Confiar en sus promesas.|❤️ Caridad: Amar a Dios y al prójimo.|👑 La mayor: La caridad.
+0|V|La fe es creer en Dios y en lo que Él revela.
+0|¿Cuántas son las virtudes teologales?|tres|cuatro|siete
+1|¿Qué virtud nos hace desear el cielo?|la esperanza|la justicia|la prudencia
+1|¿Cuándo recibimos las virtudes teologales?|en el Bautismo|al nacer|al cumplir 18 años
+1|F|La caridad consiste solo en dar dinero.
+1|¿Qué virtud vivo al rezar el Credo de corazón?|la fe|la templanza|la fortaleza
+2|¿Qué dice san Pablo de la caridad?|que es la mayor de las tres|que es la menos importante|que ya no hace falta
+2|¿Qué hago para que mi fe crezca?|rezo y conozco mejor a Jesús|espero sin hacer nada|dejo de ir a Misa
+2|V|Quien tiene esperanza no se desanima aunque las cosas salgan mal.
+2|¿A quién amamos con la virtud de la caridad?|a Dios y al prójimo|solo a los amigos|solo a nosotros mismos
+K|{x}: ¿fe, esperanza o caridad?|¿Fe, esperanza o caridad?|fe: creer lo que Dios ha revelado; rezar el Credo de corazón; confiar en la palabra de Jesús|esperanza: confiar en las promesas de Dios; desear el cielo; no desanimarme en las dificultades|caridad: amar a Dios sobre todas las cosas; ayudar al prójimo por amor a Dios; perdonar a quien me ofendió
+#5r20
+Z|Las <b>virtudes cardinales</b> son cuatro: prudencia, justicia, fortaleza y templanza.|<b>Prudencia</b>: pensar bien antes de actuar. <b>Justicia</b>: dar a cada uno lo suyo.|<b>Fortaleza</b>: firmeza en las dificultades. <b>Templanza</b>: moderar los gustos.|Se adquieren <b>repitiendo actos buenos</b>, con la ayuda de la gracia.
+E|Cardinal viene de «bisagra»: sobre ellas gira la vida buena|Hábito: lo que hago muchas veces
+S|Quiero ser más ordenado. ¿Cómo se forma una virtud?|Decido algo concreto: tender mi cama cada mañana.|Lo repito todos los días, aunque no tenga ganas.|Con el tiempo se vuelve hábito y ya no me cuesta.|=Repitiendo un acto bueno hasta que se vuelve hábito.
+I|🧠 Prudencia: Pienso antes de actuar.|⚖️ Justicia: A cada quien lo suyo.|💪 Fortaleza: No me rindo.|🧘 Templanza: Disfruto con medida.
+0|V|Las virtudes cardinales son cuatro.
+0|¿Qué virtud me ayuda a no rendirme?|la fortaleza|la templanza|la prudencia
+1|¿Qué virtud practico cuando pido consejo antes de decidir?|la prudencia|la justicia|la fortaleza
+1|¿Qué es un hábito?|algo que hago con frecuencia|algo que hago una vez|algo que nunca hago
+1|F|Las virtudes se consiguen sin ningún esfuerzo.
+1|¿Qué virtud practico al devolver lo que me prestaron?|la justicia|la templanza|la fortaleza
+2|¿Qué virtud necesito para dejar el videojuego a tiempo?|la templanza|la justicia|la prudencia
+2|¿Qué virtud mostró santo Tomás Moro al no traicionar su conciencia?|la fortaleza|la templanza|la pereza
+2|V|Con la ayuda de Dios y mi esfuerzo puedo crecer en virtudes.
+2|¿Por qué se llaman «cardinales»?|porque sobre ellas gira la vida buena|porque son de los cardenales|porque son de color rojo
+K|{x}: ¿qué virtud cardinal es?|¿Qué virtud cardinal es?|prudencia: pensar antes de hablar; pedir consejo antes de decidir|justicia: devolver lo prestado; respetar el turno de cada quien|fortaleza: terminar la tarea aunque cueste; decir la verdad aunque me dé miedo|templanza: comer solo lo necesario; apagar la pantalla a tiempo
+#5r21
+Z|El <b>pecado</b> es una ofensa a Dios: decir «no» a su amor.|<b>Mortal</b>: materia grave, pleno conocimiento y libre consentimiento; rompe la amistad con Dios.|<b>Venial</b>: falta leve que debilita esa amistad.|La <b>conciencia</b> es la voz interior que nos dice qué es bueno y qué es malo: hay que formarla y seguirla.
+E|Examen de conciencia: repasar mi día|Siete pecados capitales, siete virtudes
+S|¿Cómo hago mi examen de conciencia por la noche?|Doy gracias a Dios por lo bueno del día.|Repaso: ¿cómo traté a Dios, a mi familia, a mis amigos?|Pido perdón por mis faltas y propongo mejorar mañana.|=Agradezco, reviso mi día, pido perdón y hago un propósito.
+I|⚫ Mortal: Rompe la amistad con Dios.|⚪ Venial: La debilita.|💭 Conciencia: La voz que distingue el bien.|🕊️ Perdón: Dios siempre lo ofrece.
+0|V|El pecado es una ofensa a Dios.
+0|¿Qué pecado rompe la amistad con Dios?|el mortal|el venial|ninguno
+1|¿Con qué se forma la conciencia?|con la Palabra de Dios y la Iglesia|con lo que dicen los anuncios|con lo que hacen todos
+1|¿Cuántas condiciones tiene el pecado mortal?|tres|una|siete
+1|F|Si todos lo hacen, entonces no es pecado.
+1|¿Qué hago cada noche para conocerme mejor?|mi examen de conciencia|ver televisión|nada especial
+2|¿Qué debo hacer si cometí un pecado grave?|confesarme pronto|esconderlo siempre|dejar de rezar
+2|¿Por qué Dios nunca se cansa de perdonar?|porque es Padre misericordioso|porque no le importa|porque olvida todo
+2|V|Una conciencia bien formada ayuda a elegir el bien aunque nadie me vea.
+2|¿Qué es la envidia?|tristeza por el bien de otro|ganas de comer|flojera para trabajar
+P|¿Qué virtud vence a {x}?|¿Qué pecado capital se vence con {x}?|la avaricia = la generosidad|la ira = la paciencia|la gula = la templanza|la envidia = la caridad|la pereza = la diligencia|la lujuria = la castidad
+#5r22
+Z|Los <b>mandamientos de la Iglesia</b> son cinco: lo mínimo para crecer en la vida cristiana.|1. Oír <b>Misa</b> entera los domingos y fiestas de precepto. 2. <b>Confesarse</b> al menos una vez al año.|3. <b>Comulgar</b> por Pascua. 4. <b>Ayunar</b> y abstenerse de carne cuando lo manda la Iglesia.|5. <b>Ayudar</b> a la Iglesia en sus necesidades.
+E|Abstinencia: no comer carne|Ayuno: Miércoles de Ceniza y Viernes Santo
+S|¿Por qué la Iglesia nos pide ir a Misa cada domingo?|El domingo es el día en que Jesús resucitó.|En la Misa escuchamos su Palabra y recibimos su Cuerpo.|Sin ese alimento, la fe se debilita.|=Porque es el día del Señor y necesitamos la Eucaristía para vivir como cristianos.
+I|⛪ Misa: Domingos y fiestas de precepto.|🕊️ Confesión: Al menos una vez al año.|🍞 Comunión: Por Pascua.|🐟 Abstinencia: Viernes de Cuaresma sin carne.
+0|V|Ayudar a la Iglesia en sus necesidades es uno de sus mandamientos.
+0|¿Qué día de la semana debemos ir a Misa?|el domingo|el lunes|el jueves
+1|¿Qué días no se come carne en Cuaresma?|los viernes|los lunes|los martes
+1|¿Cómo ayudo a la Iglesia en sus necesidades?|con mi limosna y mi servicio|criticando lo que no me gusta|sin hacer nada por ella
+1|F|Los mandamientos de la Iglesia son diez.
+1|¿Qué tiempo litúrgico empieza el Miércoles de Ceniza?|la Cuaresma|el Adviento|la Pascua
+2|¿Por qué la Iglesia nos da estos mandamientos?|como madre que nos cuida|para castigarnos|para complicarnos
+2|¿Qué hago si un domingo estoy enfermo y no puedo ir a Misa?|rezo en casa y no hay pecado|me confieso de inmediato|finjo estar sano
+2|V|Ir a Misa el domingo es encontrarnos con Jesús y con nuestra comunidad.
+2|¿Qué es el ayuno?|comer menos por amor a Dios|no beber agua|no hablar en todo el día
+P|¿Qué pide el {x} mandamiento de la Iglesia?||primer = oír Misa los domingos y fiestas|segundo = confesarse al menos una vez al año|tercer = comulgar por Pascua|cuarto = ayunar cuando lo manda la Iglesia|quinto = ayudar a la Iglesia en sus necesidades
+#5r23
+Z|<b>Orar</b> es elevar el alma a Dios: un diálogo de amor con nuestro Padre.|Se ora con palabras (<b>vocal</b>), con el pensamiento (<b>meditación</b>) o en silencio amoroso (<b>contemplación</b>).|Formas: adoración, petición, intercesión, acción de gracias y alabanza.|Hay que orar <b>siempre</b>, aunque no se tengan ganas.
+E|«Orar es tratar de amistad con quien sabemos nos ama»|Jaculatoria: una oración muy breve
+S|Quiero hacer diez minutos de oración. ¿Cómo empiezo?|Busco un lugar tranquilo y hago la señal de la cruz.|Leo unas líneas del Evangelio y pienso qué me dice Jesús.|Le hablo con mis palabras: adoro, agradezco, pido perdón y pido ayuda.|=Me pongo en su presencia, escucho su Palabra y le hablo con confianza.
+I|🗣️ Vocal: Con palabras.|💭 Meditación: Pensar en Dios y su Palabra.|🤍 Contemplación: Mirarlo con amor.|⏰ Siempre: En todo momento.
+0|V|Podemos orar en cualquier lugar.
+0|¿Con quién hablamos al orar?|con Dios|con nosotros mismos|con nadie
+1|¿Qué es la oración vocal?|la que se hace con palabras|la que se hace dormido|la que no se oye
+1|¿Qué es una jaculatoria?|una oración muy breve|un canto largo|una lectura
+1|F|Solo se puede orar dentro de un templo.
+1|¿Qué es meditar?|pensar con el corazón en la Palabra|repetir palabras sin pensar en ellas|dormir un rato durante la oración
+2|¿Qué hago cuando me distraigo al rezar?|vuelvo con calma a Dios|dejo de rezar|me enojo conmigo
+2|¿Por qué orar aunque no tenga ganas?|porque el amor es fiel|porque me obligan|porque es un castigo
+2|V|Jesús se retiraba a orar a solas con su Padre.
+2|¿Cuál es una jaculatoria?|Jesús, en ti confío|el Credo completo|la homilía
+P|¿Qué forma de oración es «{x}»?||Gracias, Señor, por mi familia = acción de gracias|Señor, cura a mi abuelita = intercesión|Señor, ayúdame en mi examen = petición|¡Qué grande eres, Señor! = alabanza
+#5r24
+Z|El <b>Padrenuestro</b> es la oración que Jesús nos enseñó: resume todo el Evangelio.|Tiene <b>siete peticiones</b>; las tres primeras miran a Dios.|«Santificado sea tu Nombre»: que todos lo honren. «Venga tu Reino»: que reine en los corazones. «Hágase tu voluntad».|Decimos «Padre <b>nuestro</b>» porque todos somos hermanos.
+E|Mt 6, 9-13|Getsemaní: «Hágase tu voluntad»
+S|¿Por qué empezamos diciendo «Padre»?|Jesús nos reveló que Dios es Padre que nos ama.|Por el Bautismo somos hijos suyos.|Por eso le hablamos con confianza, no con miedo.|=Porque somos hijos de Dios y le hablamos con confianza.
+I|👪 Padre: Somos sus hijos.|✨ Nombre: Que sea honrado.|👑 Reino: Que Dios reine.|🙏 Voluntad: Que se cumpla la suya.
+0|V|El Padrenuestro tiene siete peticiones.
+0|¿Quién nos enseñó el Padrenuestro?|Jesús|Moisés|san Pablo
+1|¿Hacia quién miran las tres primeras peticiones?|hacia Dios|hacia nosotros|hacia los santos
+1|¿En qué momento de la Misa rezamos el Padrenuestro?|antes de la Comunión|al entrar|después de salir
+1|F|Decimos «Padre mío» porque Dios es solo mío.
+1|¿Cómo santifico el Nombre de Dios?|usándolo con respeto|diciéndolo sin pensar|usándolo en bromas
+2|¿Dónde vivió Jesús el «hágase tu voluntad»?|en Getsemaní|en Caná|en el Tabor
+2|¿Qué pido con «venga tu Reino»?|que Dios reine en mi vida|que haya un nuevo rey|que termine el mundo
+2|V|Rezar despacio el Padrenuestro ayuda a pensar lo que decimos.
+2|¿Qué me cuesta a veces de «hágase tu voluntad»?|aceptar lo que no entiendo|decir las palabras|recordar la oración
+P|¿Qué pedimos al decir «{x}»?||Santificado sea tu Nombre = que todos honren a Dios|Venga a nosotros tu Reino = que Dios reine en los corazones|Hágase tu voluntad = cumplir lo que Dios quiere
+#5r25
+Z|Las cuatro últimas peticiones miran nuestras necesidades.|«Danos hoy nuestro <b>pan</b>»: lo necesario para vivir y el Pan de la Eucaristía.|«<b>Perdona</b> nuestras ofensas, como también nosotros perdonamos».|«No nos dejes caer en la <b>tentación</b>» y «líbranos del <b>mal</b>». <b>Amén</b>: así sea.
+E|«Setenta veces siete» (Mt 18, 22)|Amén: así sea
+S|¿Por qué decimos «como también nosotros perdonamos»?|Pedimos a Dios que nos perdone.|Jesús puso una condición: perdonar a quien nos ofende.|Un corazón que guarda rencor no puede recibir el perdón.|=Porque Dios nos perdona si nosotros perdonamos.
+I|🍞 Pan: El de la mesa y el de la Eucaristía.|🤝 Perdón: Lo pido y lo doy.|🛡️ Tentación: Pido fuerza para no caer.|✅ Amén: Así sea.
+0|V|«Amén» significa «así sea».
+0|¿Qué pedimos con «danos hoy nuestro pan»?|lo necesario para vivir|muchos juguetes|ser los más ricos
+1|¿Qué debo hacer para que Dios me perdone?|perdonar a los demás|guardar rencor|olvidar la oración
+1|¿Por qué decimos «danos» y no «dame»?|porque pedimos para todos|porque suena mejor|porque así se acostumbra
+1|F|Jesús enseñó a perdonar solamente siete veces.
+1|¿Qué pido con «no nos dejes caer en la tentación»?|fuerza para no pecar|no tener tareas|no enfermarme
+2|¿Qué otro «pan» pedimos, además de la comida?|la Eucaristía|las golosinas|el dinero
+2|¿Qué hago si me cuesta perdonar a alguien?|rezo por esa persona|le dejo de hablar|planeo desquitarme
+2|V|Perdonar no significa decir que lo malo estuvo bien.
+2|¿De qué nos libra Dios cuando decimos «líbranos del mal»?|del maligno y de todo mal|de la escuela|del trabajo
+P|¿Qué pedimos al decir «{x}»?||Danos hoy nuestro pan = lo necesario y la Eucaristía|Perdona nuestras ofensas = el perdón de Dios|No nos dejes caer en la tentación = fuerza para no pecar|Líbranos del mal = protección contra el maligno
+#5r26
+Z|El <b>Rosario</b> recorre la vida de Jesús de la mano de María.|Tiene cinco <b>misterios</b>; en cada uno se reza un Padrenuestro, diez Avemarías y un Gloria.|Los misterios son <b>gozosos, luminosos, dolorosos y gloriosos</b>.|Mientras se reza, se <b>contempla</b> cada misterio.
+E|Lunes y sábado: gozosos · Jueves: luminosos|Martes y viernes: dolorosos · Miércoles y domingo: gloriosos
+S|Hoy es jueves. ¿Qué misterios rezo y qué contemplo en el primero?|Los jueves se rezan los misterios luminosos.|Recorren la vida pública de Jesús.|El primero es el Bautismo de Jesús en el Jordán.|=Los luminosos; el primero es el Bautismo de Jesús.
+I|😊 Gozosos: La infancia de Jesús.|💡 Luminosos: Su vida pública.|✝️ Dolorosos: Su Pasión y muerte.|👑 Gloriosos: Su Resurrección y gloria.
+0|V|En cada misterio del Rosario se rezan diez Avemarías.
+0|¿Con qué objeto contamos las oraciones del Rosario?|con el rosario de cuentas|con un reloj de pared|con un libro de cantos
+1|¿Qué misterios contemplan la Pasión de Jesús?|los dolorosos|los gozosos|los gloriosos
+1|¿Qué oración se reza al final de cada decena?|el Gloria|el Credo|la Salve
+1|F|El Rosario es solo repetir palabras sin pensar.
+1|¿Qué misterios se rezan el lunes?|los gozosos|los dolorosos|los luminosos
+2|¿Cuál es el último misterio glorioso?|la coronación de María|la Ascensión|Pentecostés
+2|¿Qué pidió la Virgen en Fátima?|rezar el Rosario por la paz|construir un castillo|viajar a Roma
+2|V|Rezar el Rosario en familia une a todos alrededor de María.
+2|¿Cuál es el quinto misterio luminoso?|la institución de la Eucaristía|el Bautismo de Jesús en el Jordán|la Presentación en el Templo
+K|{x}: ¿qué misterio del Rosario es?|¿Gozoso, luminoso, doloroso o glorioso?|gozoso: la Anunciación; la Visitación; el Nacimiento de Jesús|luminoso: el Bautismo de Jesús; las bodas de Caná; la Transfiguración|doloroso: la oración en el huerto; la coronación de espinas; la crucifixión|glorioso: la Resurrección; la Ascensión; la venida del Espíritu Santo
+P|¿Qué misterios se rezan el {x}?||lunes = los gozosos|martes = los dolorosos|miércoles = los gloriosos|jueves = los luminosos

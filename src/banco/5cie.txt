@@ -67,7 +67,7 @@ P|¿Qué hacen {x}?||las arterias = llevan la sangre del corazón al cuerpo|las 
 Z|El tabaco, el alcohol, los vapeadores, los inhalantes y las drogas alteran el cuerpo y la mente y crean <b>dependencia</b>.|Dañan los pulmones, el cerebro, el hígado y las relaciones con la familia y los amigos.|<b>Factores de protección</b>: familia unida, buenos amigos, deporte, fe y metas claras.|Saber decir <b>NO</b> y pedir ayuda a tiempo protege tu libertad.
 E|Línea de la Vida: 800 911 2000|«No me dejaré dominar por nada» (1 Cor 6, 12)
 S|¿Por qué una adicción quita la libertad?|Al principio la persona cree que «solo prueba».|El cuerpo y la mente se acostumbran y piden más.|Llega un momento en que ya no puede dejarlo aunque quiera.|=Porque la persona deja de decidir: la sustancia decide por ella.
-I|🚬 Tabaco y vapeadores: Dañan los pulmones.|🍺 Alcohol: Daña el hígado y el cerebro.|👨‍👩‍👧 Protección: Familia, amigos, deporte y fe.|✋ Decir NO: Con firmeza y sin miedo.
+I|🚬 Tabaco y vapeadores: Dañan los pulmones.|🍺 Alcohol: Daña el hígado y el cerebro.|👪 Protección: Familia, amigos, deporte y fe.|✋ Decir NO: Con firmeza y sin miedo.
 0|V|El alcohol daña el hígado y el cerebro.
 0|¿Qué es la dependencia?|no poder dejar una sustancia|tener muchos amigos|estudiar mucho
 1|¿Qué órgano daña especialmente el alcohol?|el hígado|el oído|la piel
@@ -99,7 +99,7 @@ K|{x}: ¿microorganismo útil o dañino?|¿Útil o dañino?|útil: la levadura d
 Z|Entre los 9 y los 14 años empieza la <b>pubertad</b>: el cuerpo crece y madura poco a poco.|También cambian las emociones; cada persona tiene su <b>ritmo</b> y eso es normal.|Me cuido con higiene diaria, buena alimentación, descanso y ejercicio.|Mis dudas las platico con <b>mamá y papá</b> y, si hace falta, con el médico.
 E|El cuerpo es templo del Espíritu Santo|Pudor: cuidar con respeto mi intimidad
 S|¿Qué hago si me siento raro por los cambios de mi cuerpo?|Recuerdo que todos pasan por esta etapa, cada quien a su tiempo.|No me comparo ni me burlo de nadie.|Platico lo que siento con mamá o papá.|=Lo vivo con calma y lo platico con mis papás.
-I|🌱 Pubertad: El cuerpo empieza a madurar.|⏳ Ritmo: Cada quien cambia a su tiempo.|🚿 Higiene: Baño diario y ropa limpia.|👨‍👩‍👧 Confianza: Mis dudas, con mis papás.
+I|🌱 Pubertad: El cuerpo empieza a madurar.|⏳ Ritmo: Cada quien cambia a su tiempo.|🚿 Higiene: Baño diario y ropa limpia.|👪 Confianza: Mis dudas, con mis papás.
 0|V|En la pubertad el cuerpo crece y madura.
 0|¿Qué etapa sigue a la niñez?|la pubertad y la adolescencia|la vejez y la jubilación|la infancia y la lactancia
 1|¿Qué cambia en la pubertad, además del cuerpo?|las emociones|el color de los ojos|el nombre

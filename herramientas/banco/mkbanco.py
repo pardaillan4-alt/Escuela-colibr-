@@ -83,6 +83,8 @@ def compila(path):
                 ic, rest = m.group(1), m.group(2)
                 if re.match(r'^[A-Za-zÁÉÍÓÚáéíóúñÑ¿¡«]', ic) and tag != 'If':
                     errs.append(f'{where}: el ítem debe empezar con un emoji: «{it}»'); continue
+                if '\u200d' in ic or re.search('[\U0001F1E6-\U0001F1FF]', ic):
+                    errs.append(f'{where}: icono compuesto o bandera (usar un emoji simple): «{it[:30]}»'); continue
                 if ': ' in rest:
                     h, p = rest.split(': ', 1); items.append([ic, h.strip(), p.strip()])
                 else:

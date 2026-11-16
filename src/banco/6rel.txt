@@ -96,7 +96,7 @@ I|🩸 Mártires: Dieron la vida antes que negar a Cristo.|📜 Credo: Formulado
 Z|El <b>Concilio de Trento</b> renovó la Iglesia; santos como Ignacio, Teresa y Francisco Javier impulsaron la reforma y las misiones.|El <b>Concilio Vaticano II</b> (1962-1965) renovó la liturgia, el diálogo con el mundo y recordó que todos estamos llamados a la santidad.|En México, la fe echó raíces con Guadalupe, los mártires y muchos santos.
 E|Vaticano II: 1962-1965|San Francisco Javier: patrono de las misiones
 S|¿Qué concilio renovó la Iglesia en el siglo XX?|El papa san Juan XXIII quiso «abrir las ventanas» de la Iglesia.|Convocó a todos los obispos del mundo en Roma, de 1962 a 1965.|Lo concluyó san Pablo VI.|=El Concilio Vaticano II.
-I|⛪ Trento: Reforma católica y formación de sacerdotes.|🌏 Misiones: San Francisco Javier llevó el Evangelio a Asia.|🕊️ Vaticano II: Renovación y llamada universal a la santidad.|🇲🇽 México: Guadalupe, mártires y santos.
+I|⛪ Trento: Reforma católica y formación de sacerdotes.|🌏 Misiones: San Francisco Javier llevó el Evangelio a Asia.|🕊️ Vaticano II: Renovación y llamada universal a la santidad.|🌵 México: Guadalupe, mártires y santos.
 0|V|San Francisco Javier fue un gran misionero.
 0|F|El Concilio Vaticano II se celebró en la Edad Media.
 1|¿Qué papa concluyó el Concilio Vaticano II?|san Pablo VI|san Pío X|san Pedro
@@ -142,7 +142,7 @@ I|🤝 Ecumenismo: Buscar la unidad de los cristianos.|🙏 Oración: Del 18 al 
 Z|La <b>Confirmación</b> perfecciona la gracia del Bautismo: nos une más a Cristo y a la Iglesia.|Nos da la fuerza del <b>Espíritu Santo</b> para ser testigos de Jesús con palabras y obras.|El obispo impone las manos y unge la frente con el <b>santo crisma</b>: «Recibe por esta señal el don del Espíritu Santo».
 E|Siete dones del Espíritu Santo|Crisma: aceite perfumado y consagrado
 S|¿Qué dice el obispo al ungir la frente?|El confirmando se acerca con su padrino o madrina.|El obispo le traza la cruz en la frente con el santo crisma.|Dice: «Recibe por esta señal el don del Espíritu Santo», y se responde: «Amén».|=«Recibe por esta señal el don del Espíritu Santo».
-I|🕊️ Espíritu Santo: Nos da su fuerza y sus siete dones.|🫒 Crisma: Aceite consagrado con que se unge la frente.|🧑‍🤝‍🧑 Padrino: Acompaña y da buen ejemplo.|📣 Testigos: Anunciamos a Jesús con la vida.
+I|🕊️ Espíritu Santo: Nos da su fuerza y sus siete dones.|🫒 Crisma: Aceite consagrado con que se unge la frente.|🤝 Padrino: Acompaña y da buen ejemplo.|📣 Testigos: Anunciamos a Jesús con la vida.
 0|V|El obispo es quien ordinariamente confirma.
 0|F|La Confirmación se puede recibir muchas veces.
 1|¿Qué sacramento perfecciona la Confirmación?|el Bautismo|el Matrimonio|la Penitencia
