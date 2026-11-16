@@ -1,0 +1,300 @@
+// Religión Católica 1.º — banco ampliado (preguntas y tablas)
+#r1
+0|¿Qué había al principio, antes de la creación?|nada|muchas casas|un gran bosque
+0|F|Dios creó el mundo sin amor.
+1|¿Qué hacemos con todo lo que Dios nos regaló?|lo cuidamos y damos gracias|lo rompemos|lo desperdiciamos
+1|¿A imagen de quién fuimos creados?|a imagen de Dios|a imagen de los ángeles|a imagen de los animales
+1|¿Qué creó Dios al final?|al hombre y a la mujer|el sol y la luna|las plantas
+1|V|Dios vio que todo lo que hizo era muy bueno.
+2|¿En qué libro de la Biblia se cuenta la creación?|en el Génesis|en los Salmos|en el Evangelio de san Juan
+2|¿Para qué creó Dios al hombre y a la mujer?|para ser sus amigos y cuidar la creación|para trabajar sin descanso|para vivir siempre solos
+2|¿Qué creó Dios el mismo día que los peces?|las aves|las plantas|las estrellas
+2|¿Por qué descansamos y vamos a Misa el domingo?|porque es el día del Señor|porque no hay tiendas abiertas|porque lo dice el calendario
+P|¿Qué creó Dios el {x}?|¿Qué día creó Dios {x}?|primer día = la luz|segundo día = el cielo y las aguas|tercer día = la tierra y las plantas|cuarto día = el sol, la luna y las estrellas|quinto día = los peces y las aves|sexto día = los animales y el ser humano
+#r2
+0|¿Quién nos conoce por nuestro nombre?|Dios|nadie|solo la maestra
+0|¿Cuándo está Dios conmigo?|siempre|solo en la iglesia|solo de día
+0|¿Qué le puedo decir a Dios?|gracias|nada|adiós para siempre
+1|¿Qué hago cuando tengo miedo?|rezo y confío en Dios|me escondo solo|grito sin parar
+1|¿Qué podemos pedirle a Dios?|ayuda y perdón|que castigue a otros|cosas malas
+1|¿Cómo es Dios con sus hijos?|bueno y cariñoso|enojón|distraído
+1|F|Dios solo nos cuida cuando nos portamos bien.
+2|¿Qué somos todos los bautizados para Dios?|sus hijos|sus vecinos|sus sirvientes
+2|Si Dios es Padre de todos, ¿qué somos entre nosotros?|hermanos|extraños|enemigos
+2|¿Qué le digo a Dios cuando hice algo mal?|perdóname|no fui yo|no me importa
+2|¿Quién nos ama más que nadie?|Dios, nuestro Padre|un personaje de la tele|el niño más popular
+K|«{x}»: ¿es dar gracias, pedir ayuda o pedir perdón?|¿Qué le digo a Dios?|dar gracias: Gracias por mi familia; Gracias por este día; Gracias por la comida|pedir ayuda: Ayúdame en mi examen; Cuida a mi abuelita; Dame fuerzas para obedecer|pedir perdón: Perdón por pelear; Perdóname por mentir; Perdón por desobedecer
+#r11
+0|¿Cuál es un regalo de Dios?|el agua|la basura|el ruido
+0|V|Las personas también somos un regalo de Dios.
+1|¿Cómo cuido a los animales?|les doy agua y no los maltrato|los asusto con gritos|les aviento piedras
+1|¿Qué hago con la basura?|la tiro en el bote|la dejo en el parque|la echo al río
+2|¿Cómo llamaba san Francisco al agua?|hermana agua|señora lluvia|prima nube
+2|¿Qué puedo sembrar para cuidar la creación?|un árbol|una piedra|una lata
+2|¿Por qué apago la luz que no uso?|para cuidar lo que Dios nos dio|porque me da miedo la luz|porque así juego mejor
+K|{x}: ¿lo creó Dios o lo hicieron las personas?|¿Lo creó Dios o lo hicieron las personas?|lo creó Dios: el sol; el mar; los pájaros; las montañas|lo hicieron las personas: la bicicleta; el reloj; la casa; el puente
+#r12
+0|¿Qué me hicieron cuando era bebé para ser hijo de Dios?|me bautizaron|me disfrazaron|me pesaron
+0|F|En el Bautismo no se usa agua.
+1|¿De qué color es la ropa del Bautismo?|blanca|negra|roja
+1|¿Qué prometieron mis papás y padrinos?|educarme en la fe|comprarme juguetes|llevarme de viaje
+1|¿Quién bautizó a Jesús?|san Juan Bautista|san Pedro|san José
+2|¿En qué río fue bautizado Jesús?|en el Jordán|en el Nilo|en el Bravo
+2|¿A qué familia entré por el Bautismo?|a la Iglesia|a un equipo|a una escuela
+2|¿En nombre de quién nos bautizan?|del Padre, del Hijo y del Espíritu Santo|de los papás y los padrinos|de los santos y los ángeles
+P|¿Qué significa {x} en el Bautismo?||el agua = la vida nueva de hijo de Dios|la ropa blanca = el alma limpia|el aceite = la fuerza del Espíritu Santo|la vela encendida = la luz de Jesús
+#r3
+0|¿Con qué empezamos nuestras oraciones?|con la Señal de la Cruz|con un aplauso|con un salto
+0|F|La Señal de la Cruz se hace con el pie.
+1|¿Qué parte toco primero al hacer la Señal de la Cruz?|la frente|el hombro|la rodilla
+1|¿Qué oración rezo antes de dormir?|el Ángel de mi guarda|el Himno Nacional|las mañanitas
+1|¿A quién alabamos con el Gloria?|a la Santísima Trinidad|a los Reyes Magos|a los pastores
+1|V|Me puedo persignar al salir de casa.
+2|¿Cuántas crucecitas hago al persignarme?|tres|una|diez
+2|¿Dónde hago las tres crucecitas?|en la frente, la boca y el pecho|en las manos y los pies|en los ojos y las orejas
+2|¿Quiénes son las tres Personas de la Trinidad?|Padre, Hijo y Espíritu Santo|Jesús, María y José|Pedro, Santiago y Juan
+2|Después de la frente y el pecho, ¿qué hombro toco primero?|el izquierdo|el derecho|ninguno
+#r4
+0|¿A quién le rezamos el Padre Nuestro?|a Dios, nuestro Padre|a san José|a los ángeles
+0|F|El Padre Nuestro lo inventó un rey.
+1|¿Qué le pidieron los amigos de Jesús?|«Señor, enséñanos a orar»|«Señor, danos dinero»|«Señor, vámonos de aquí»
+1|Completa: «Santificado sea tu…»|nombre|reino|pan
+1|Completa: «Venga a nosotros tu…»|reino|cielo|perdón
+1|Completa: «No nos dejes caer en la…»|tentación|oscuridad|tristeza
+2|Completa: «Hágase tu voluntad en la tierra como en el…»|cielo|mar|templo
+2|¿De qué pedimos a Dios que nos libre?|del mal|de la tarea|de la lluvia
+2|¿Qué debo hacer yo si pido perdón a Dios?|perdonar a los demás|enojarme más|olvidarme de rezar
+2|¿Qué significa pedir «el pan de cada día»?|lo que necesitamos para vivir|un pastel de fiesta|muchos juguetes
+#r13
+0|¿Qué le digo a Dios antes de comer?|gracias por los alimentos|que no me gusta la sopa|nada, empiezo a comer
+0|F|Solo se puede rezar en la iglesia.
+1|¿Cuál es una jaculatoria?|«Jesús, en ti confío»|el Credo completo|todo el Rosario
+1|¿Quién está en medio cuando la familia reza unida?|Jesús|nadie|un vecino
+1|¿Qué hizo el leproso que regresó?|dio gracias a Jesús|pidió dinero|se escondió
+2|¿Qué enfermedad tenían los diez hombres que curó Jesús?|lepra|gripa|sarampión
+2|¿Cuántos leprosos NO regresaron a dar gracias?|nueve|uno|diez
+2|¿Cuál es una buena oración al despertar?|«Gracias, Dios, por este nuevo día»|«Que nadie me moleste hoy»|«Ojalá no haya clases»
+#r15
+0|¿Dónde puso Dios a Adán y Eva?|en un jardín precioso|en un desierto|en una ciudad
+0|V|Dios creó a Adán y Eva con amor.
+1|¿De cuántos árboles no podían comer?|de uno solo|de ninguno|de todos
+1|¿Qué perdieron al desobedecer?|la amistad con Dios|sus nombres|su ropa de fiesta
+1|¿Dejó Dios de amarlos cuando desobedecieron?|no, los siguió amando|sí, para siempre|solo un poco
+2|¿Qué hizo la serpiente?|los engañó con mentiras|les dijo la verdad|los ayudó a obedecer
+2|¿Qué hago yo cuando desobedezco?|pido perdón y trato de mejorar|me escondo como si nada|culpo a mi hermano
+2|O|Ordena la historia|Dios crea a Adán y Eva|la serpiente los engaña|desobedecen|Dios promete un Salvador
+#r16
+0|¿Qué era el arca?|un barco muy grande|una casa en un árbol|una cueva
+0|F|Noé metió al arca un solo animal.
+1|¿A quiénes metió Noé en el arca?|a su familia y a los animales|solo a sus amigos|solo a los peces
+1|¿Cuántos animales de cada clase entraron?|una pareja|diez|cien
+1|¿Qué ave trajo la rama de olivo?|una paloma|un águila|un perico
+2|¿Para qué envió Noé a la paloma?|para saber si la tierra ya estaba seca|para que buscara algo de comida|para que le avisara al rey
+2|¿Qué me enseña Noé?|a obedecer a Dios aunque otros se burlen|a construir barcos de madera|a tenerle miedo a la lluvia
+2|¿Cuándo sale el arcoíris?|cuando hay sol después de la lluvia|cuando es de noche|cuando hace mucho frío
+#r17
+0|¿Qué hizo Abraham cuando Dios lo llamó?|obedeció|se escondió|se rio
+0|F|Abraham no le creyó a Dios.
+1|¿Qué le prometió Dios a Abraham?|muchos descendientes|un castillo|un barco
+1|¿Cómo eran Abraham y Sara cuando nació Isaac?|ya viejitos|muy jóvenes|unos niños
+1|¿A dónde le pidió Dios ir?|al país que Él le mostraría|a la luna|a su misma casa
+2|¿Por qué Abraham es «padre en la fe»?|porque confió en Dios sin entender todo|porque tuvo muchísimas ovejas|porque era el hombre más fuerte
+2|¿Qué es tener fe?|confiar en Dios|saberlo todo|no tener miedo nunca
+2|¿Cumplió Dios su promesa a Abraham?|sí, le dio a su hijo Isaac|no, se le olvidó|solo la mitad
+2|V|Dios siempre cumple lo que promete.
+#r18
+0|¿Quiénes vendieron a José?|sus hermanos|sus amigos|sus vecinos
+0|F|José se vengó de sus hermanos.
+1|¿Qué llegó a ser José en Egipto?|un gobernante|un pescador|un pastor
+1|¿A qué fueron los hermanos a Egipto?|a pedir comida, porque había hambre|a pasear por las pirámides|a vender todas sus ovejas
+1|¿Quién ayudó a José en Egipto?|Dios|el faraón malo|nadie
+2|¿Qué es la envidia?|sentir tristeza por lo bueno de otro|estar contento por otro|tener mucho sueño
+2|¿Qué nos enseña José?|a perdonar|a vengarnos|a mentir
+2|¿Qué puede hacer Dios con algo malo que nos pasa?|sacar un bien|olvidarlo|empeorarlo
+2|O|Ordena la historia de José|recibe la túnica|sus hermanos lo venden|gobierna en Egipto|perdona a sus hermanos
+#r19
+0|¿Dónde era esclavo el pueblo de Dios?|en Egipto|en Belén|en Roma
+0|F|El pueblo cruzó el mar nadando.
+1|¿Quién abrió el Mar Rojo?|Dios|el faraón|un pescador
+1|¿Cuántos mandamientos dio Dios a Moisés?|diez|tres|cien
+1|¿Cómo pasó el pueblo por el mar?|por en medio, en seco|en barcos|por un puente
+2|¿Qué es ser esclavo?|trabajar a la fuerza y sin libertad|ser el rey de un país|estar siempre de vacaciones
+2|¿De qué nos libera Jesús?|del pecado|de la escuela|de la lluvia
+2|¿De dónde venía el maná?|del cielo: Dios lo enviaba|de una tienda|de los árboles
+2|¿Para qué nos dio Dios los mandamientos?|para vivir bien y ser felices|para asustarnos mucho|para tenernos aburridos
+#r20
+0|¿Cómo era David?|un pastor jovencito|un gigante|un rey viejo
+0|F|David venció a Goliat con una espada grande.
+1|¿De quién se burlaba Goliat?|del pueblo de Dios|de los animales|de sus amigos
+1|¿En nombre de quién fue David a pelear?|en el nombre del Señor|en nombre del gigante|en su propio nombre
+1|¿Qué escribió David?|salmos|cuentos de miedo|recetas
+2|¿Por qué David no tuvo miedo?|porque confiaba en Dios|porque era más alto|porque tenía un caballo
+2|¿Qué salmo dice «El Señor es mi pastor»?|el 23|el 1|el 100
+2|¿Qué animales cuidaba David?|ovejas|caballos|camellos
+2|¿Qué me enseña David?|que con Dios puedo vencer lo difícil|que hay que pelear con todos|que los pequeños no valen
+#r21
+0|¿En qué huyó Jonás?|en un barco|en un caballo|en un globo
+0|V|Jonás obedeció después de estar en el pez.
+1|¿Qué pasó cuando Jonás huía en el barco?|vino una gran tormenta|salió el arcoíris|llegó a la playa
+1|¿Qué hizo la gente de Nínive?|se arrepintió|se burló|se fue de la ciudad
+1|¿Dónde dejó el pez a Jonás?|en la playa|en el fondo del mar|en una isla de hielo
+2|¿Qué mensaje llevó Jonás a Nínive?|que se convirtieran|que hicieran fiesta|que construyeran un arca
+2|¿Qué significa que Dios es misericordioso?|que perdona y da otra oportunidad|que siempre castiga|que se olvida de nosotros
+2|¿Con qué comparó Jesús los tres días de Jonás?|con su Resurrección|con la Navidad|con el Bautismo
+2|O|Ordena la historia de Jonás|Dios lo envía|Jonás huye|el pez lo traga|obedece y va a Nínive
+#r22
+0|¿Qué hacía Daniel todos los días?|rezaba a Dios|cazaba leones|peleaba
+0|V|Los leones no le hicieron daño a Daniel.
+1|¿Qué prohibió el rey?|rezar a Dios|comer pan|jugar
+1|¿Cómo salió Daniel del foso?|sano|herido|dormido
+1|¿Por qué echaron a Daniel al foso?|porque siguió rezando|porque robó|porque mintió
+2|¿Qué es ser fiel a Dios?|seguir amándolo aunque sea difícil|rezar solo si me ven|olvidarlo en vacaciones
+2|¿Qué puedo hacer yo tres veces al día, como Daniel?|rezar: mañana, tarde y noche|pelear con mi hermano|comer muchos dulces
+2|¿Qué me enseña Daniel?|a rezar siempre, aunque cueste|a tener leones en casa|a desobedecer a todos
+2|V|Dios cuida a quienes confían en Él.
+#r5
+0|¿Qué respondió María al ángel?|que sí|que no|que después
+0|F|María no quiso ser la mamá de Jesús.
+1|¿Quién eligió a María para ser la mamá de Jesús?|Dios|el rey|sus vecinos
+1|¿De quién más es Madre María?|de todos nosotros|solo de los ángeles|de nadie más
+1|¿Dónde apareció la imagen de la Virgen de Guadalupe?|en la tilma de Juan Diego|en la pared de una casa|en las hojas de un libro
+1|Completa: «Santa María, Madre de…»|Dios|los ángeles|los pastores
+2|¿En qué año se apareció la Virgen de Guadalupe?|en 1531|en 1810|en 1910
+2|¿Qué pidió la Virgen a Juan Diego?|que le construyeran un templo|que le llevaran oro y joyas|que se fuera lejos de ahí
+2|¿Cuándo nos dio Jesús a María como Madre?|desde la cruz|en la Navidad|en el Templo
+2|¿A dónde nos lleva siempre María?|a Jesús|a un palacio|a ninguna parte
+#r6
+0|¿Quiénes son los papás de Jesús en la tierra?|María y José|Adán y Eva|Abraham y Sara
+0|F|Jesús nació en un palacio.
+1|¿Cómo se llama el tiempo antes de la Navidad?|Adviento|Cuaresma|Pascua
+1|¿Por qué Jesús nació en un pesebre?|porque no había lugar en la posada|porque así lo pidió el rey|porque hacía mucho calor
+1|¿Quién avisó a los pastores?|unos ángeles|un soldado|una estrella
+1|¿Cuántas semanas dura el Adviento?|cuatro|dos|diez
+2|¿Qué encendemos cada domingo de Adviento?|una vela de la corona|una fogata|un foco de colores
+2|¿Qué es un pesebre?|donde comen los animales|una cama de rey|un barco
+2|¿De dónde venían los Magos?|de Oriente|de México|de Egipto
+2|¿Por qué Dios se hizo niño?|por amor a nosotros|por curiosidad|por un error
+#r23
+0|¿Cuántos regalos le llevaron los Magos a Jesús?|tres|uno|siete
+0|F|Los Magos se quedaron en su casa.
+1|¿Hasta qué pueblo siguieron la estrella?|hasta Belén|hasta Roma|hasta Egipto
+1|¿Qué significa el incienso?|que Jesús es Dios|que Jesús es rico|que Jesús es pastor
+1|¿Qué comemos en México el Día de Reyes?|la rosca|el pan de muerto|los buñuelos
+2|¿Qué significa «Epifanía»?|que Jesús se manifiesta a todos los pueblos|que Jesús se esconde de la gente|que termina el año de la Iglesia
+2|¿Qué puedo regalarle yo a Jesús?|mi corazón y mis obras buenas|oro, joyas y monedas|nada: no quiere regalos
+2|¿Qué regalo de los Magos muestra que Jesús es Rey?|el oro|la mirra|el incienso
+#r24
+0|¿Qué hacía Jesús de niño?|jugaba, aprendía y rezaba|mandaba a todos|no hacía nada
+0|F|Jesús nunca fue niño.
+1|¿En qué trabajaba san José?|en la carpintería|en la panadería|en la pesca
+1|¿Cuántos años tenía Jesús cuando se quedó en el Templo?|doce|cinco|veinte
+1|¿En qué ciudad estaba el Templo?|en Jerusalén|en Nazaret|en Belén
+2|¿Quiénes buscaron a Jesús con angustia?|María y José|los pastores|los Magos
+2|¿De quién es la casa, según Jesús?|de su Padre Dios|de los maestros|del rey
+2|¿Cómo puedo parecerme a Jesús niño?|ayudando y obedeciendo en casa|escondiéndome de mis papás|dejando de estudiar
+2|V|Jesús aprendía y crecía como yo.
+#r7
+0|¿Qué enseñaba Jesús?|que Dios nos ama|que hay que pelear|que no hay que rezar
+0|F|Jesús no tenía amigos.
+1|¿Quién era uno de los apóstoles?|Pedro|Noé|Moisés
+1|¿Cuántas ovejas tenía el pastor de la parábola?|cien|diez|mil
+1|¿Qué calmó Jesús en el mar?|una tormenta|un incendio|una pelea
+1|¿Cuántos peces usó Jesús para dar de comer a la gente?|dos|cinco|doce
+2|¿Qué es un milagro?|algo maravilloso que solo Dios puede hacer|un truco de magia con cartas|un cuento inventado para dormir
+2|¿A quién se parece el pastor que busca a su oveja?|a Dios, que nos busca|a un cazador|a un rey enojado
+2|¿Cómo quiere Jesús que nos amemos?|como Él nos ha amado|solo un poquito|solo a los amigos
+2|¿Cuántas ovejas dejó el pastor para buscar a la perdida?|noventa y nueve|una|cincuenta
+#r25
+0|¿Quiénes iban con Jesús en la barca?|los apóstoles|los pastores|los Magos
+0|F|La tormenta siguió toda la noche.
+1|¿Qué gritaron los apóstoles?|«¡Maestro, nos hundimos!»|«¡Qué bonito día!»|«¡Vamos a nadar!»
+1|¿A quiénes les habló Jesús para calmar la tormenta?|al viento y al mar|a los peces|a las nubes
+1|¿Cómo quedó el mar después?|en calma|con más olas|congelado
+2|¿Quién está conmigo cuando tengo miedo?|Jesús|nadie|solo mi juguete
+2|¿Qué les faltaba a los apóstoles en la tormenta?|fe|remos|comida
+2|¿Qué hago cuando tengo un problema grande?|rezo y confío en Jesús|me desespero|me enojo con todos
+2|¿Por qué el viento y el mar obedecen a Jesús?|porque es Dios|porque es marinero|porque gritó muy fuerte
+#r26
+0|¿Cómo era Zaqueo?|bajito|muy alto|un gigante
+0|F|Jesús no quiso hablar con Zaqueo.
+1|¿Qué le dijo Jesús a Zaqueo?|«Baja, hoy voy a tu casa»|«Quédate en el árbol»|«Vete de aquí»
+1|¿Qué había hecho mal Zaqueo?|había robado|había dormido mucho|había perdido su casa
+1|¿Cuánto dio Zaqueo a los pobres?|la mitad de sus bienes|una moneda|nada
+2|¿Cuánto devolvió Zaqueo de lo robado?|cuatro veces más|lo mismo|la mitad
+2|¿A quiénes vino a buscar Jesús?|a los que estaban perdidos|solo a los perfectos|solo a los ricos
+2|¿Qué cambió en Zaqueo al conocer a Jesús?|su corazón|su estatura|su nombre
+2|O|Ordena la historia de Zaqueo|sube al árbol|Jesús lo llama|lo recibe en su casa|cambia su vida
+#r27
+0|¿A qué ciudad entró Jesús el Domingo de Ramos?|a Jerusalén|a Belén|a Nazaret
+0|F|El Domingo de Ramos la gente recibió a Jesús con piedras.
+1|¿Qué recordamos el Viernes Santo?|que Jesús murió en la cruz|que Jesús nació|que llegaron los Magos
+1|¿Qué celebramos el Domingo de Pascua?|la Resurrección de Jesús|la Última Cena|la entrada a Jerusalén
+1|¿Qué llevamos a bendecir el Domingo de Ramos?|palmas|velas|roscas
+2|¿Qué día es de silencio y espera?|el Sábado Santo|el Jueves Santo|el Domingo de Ramos
+2|¿Qué nos recuerda la palma bendita en casa?|que Jesús es nuestro Rey|que ya es Navidad|que hay que regar las plantas
+2|¿Qué nos dejó Jesús en la Última Cena?|la Eucaristía|los Diez Mandamientos|el arca
+2|¿Con qué día empieza la Semana Santa?|con el Domingo de Ramos|con el Viernes Santo|con el Miércoles de Ceniza
+#r8
+0|¿Cuál es la fiesta más grande de los cristianos?|la Pascua|el Día de Reyes|el Día del Niño
+0|F|Jesús se quedó muerto para siempre.
+1|¿Qué hacemos en Cuaresma?|rezamos más y ayudamos a otros|comemos más dulces|dejamos de ir a Misa
+1|¿Qué nos ponen el Miércoles de Ceniza?|ceniza en la frente|agua en las manos|aceite en los pies
+1|¿Al cuánto tiempo resucitó Jesús?|al tercer día|al décimo día|un año después
+1|¿Qué usó Jesús en la Última Cena?|pan y vino|leche y miel|peces y panes
+2|¿Qué es resucitar?|volver a la vida|quedarse dormido|irse de viaje
+2|¿A quién venció Jesús al resucitar?|a la muerte|a un gigante|a un rey
+2|¿Cuál es un pequeño sacrificio de Cuaresma?|dejar un dulce por amor a Jesús|comer doble postre en la cena|dejar la tarea sin hacer
+2|¿De qué nos salvó Jesús en la cruz?|del pecado|del frío|de la escuela
+#r9
+0|¿Qué es el templo?|la casa de Dios|una tienda|un cine
+0|F|En el templo se puede correr y gritar.
+1|¿Con qué me persigno al entrar al templo?|con agua bendita|con jabón|con tierra
+1|¿Quién nos guía en la parroquia?|el sacerdote|el policía|el doctor
+1|¿Quiénes nos enseñan el catecismo?|los catequistas|los bomberos|los carteros
+1|V|Los domingos vamos a Misa.
+2|¿A quién hago una reverencia en el templo?|a Jesús, en el Sagrario|a las bancas|a la puerta
+2|¿Qué hago durante la Misa?|rezo, canto y escucho|juego con la tableta|platico con mi primo
+2|¿Por qué entramos con respeto al templo?|porque Jesús está ahí|porque hay cámaras|porque hace frío
+2|¿Dónde vive el Papa?|en Roma, en el Vaticano|en Jerusalén|en la Ciudad de México
+#r10
+0|¿Dónde están los santos?|en el cielo, con Dios|en un castillo|en la luna
+0|F|Los santos fueron personas que no amaban a nadie.
+1|¿Quién vio a la Virgen de Guadalupe?|san Juan Diego|san Francisco|san Juan Bosco
+1|¿Cuál es el nombre de un arcángel?|san Miguel|san José|san Pedro
+1|¿Qué son los santos para nosotros?|amigos que rezan por nosotros|personajes de cuento|reyes de un país
+1|¿Cuántos arcángeles conocemos por su nombre?|tres|uno|doce
+2|¿Qué hicieron los santos para llegar al cielo?|amaron mucho a Dios y a los demás|ganaron muchos premios|fueron muy ricos
+2|¿Qué arcángel nos defiende del mal?|san Miguel|san Rafael|san Gabriel
+2|¿Cómo puedo empezar a ser santo hoy?|amando y ayudando en casa|esperando a ser grande|quedándome sin hacer nada
+2|¿Qué arcángel acompañó a Tobías en su viaje?|san Rafael|san Miguel|san Gabriel
+#r28
+0|¿Cómo entro al templo?|en silencio|corriendo|gritando
+0|F|La lámpara del Sagrario está siempre apagada.
+1|¿Con qué me persigno al entrar?|con agua bendita|con arena|con perfume
+1|¿Qué NO hago en el templo?|correr y gritar|rezar|cantar
+1|¿Qué indica la lámpara encendida junto al Sagrario?|que Jesús está presente|que es de noche|que hay fiesta
+2|¿Qué es una genuflexión?|doblar una rodilla hasta el suelo|levantar las dos manos|dar un brinco
+2|¿Qué dijo Jesús de su casa?|«Mi casa será casa de oración»|«Mi casa es para jugar»|«Mi casa está cerrada»
+2|¿Qué hago si mi hermanito hace ruido en Misa?|lo ayudo a estar tranquilo|hago más ruido que él|me río con él
+2|¿Cómo se llama el sacerdote encargado de la parroquia?|párroco|obispo|monaguillo
+P|¿Para qué sirve {x} en el templo?|¿Qué lugar del templo sirve {x}?|el altar = para celebrar la Misa|el ambón = para leer la Palabra de Dios|el Sagrario = para guardar a Jesús Eucaristía|la pila bautismal = para bautizar|el confesionario = para confesarse
+#r29
+0|¿Qué celebramos el 6 de enero?|a los Reyes Magos|la Navidad|la Pascua
+0|F|La Navidad se celebra en verano.
+1|¿De qué color es el Tiempo Ordinario?|verde|morado|rojo
+1|¿De qué color son la Navidad y la Pascua?|blanco|morado|verde
+1|¿Qué celebramos el 1 de noviembre?|a Todos los Santos|a los Reyes Magos|la Asunción
+2|¿Qué fiesta celebra la venida del Espíritu Santo?|Pentecostés|la Epifanía|la Asunción
+2|¿Qué tiempos usan el color morado?|Adviento y Cuaresma|Navidad y Pascua|solo el Tiempo Ordinario
+2|¿Qué fiesta viene después de la Semana Santa?|la Pascua|la Navidad|el Adviento
+#r30
+0|¿Cuál es un acto de amor?|ayudar en casa|burlarme|pelear
+0|F|Ser amable es cosa de niños débiles.
+1|¿Cómo se hizo santa Teresita?|con cosas pequeñas hechas con amor|con grandes batallas|con muchos viajes
+1|¿Qué hago si alguien me pide perdón?|lo perdono|me vengo|le dejo de hablar
+1|¿Qué digo cuando pido algo?|por favor|dámelo ya|es mío
+2|No me gusta que me empujen. ¿Qué hago yo con los demás?|no los empujo|los empujo primero|los empujo si no me ven
+2|¿A quién quiero parecerme con mis buenas obras?|a Jesús|a un villano|a nadie
+2|¿Cuál es una cosa pequeña hecha con amor?|tender mi cama con una sonrisa|ganar un trofeo enorme|comprar un coche
+2|¿Quién enseñó la regla de oro?|Jesús|Moisés|san Pablo
+K|{x}: ¿se parece o no se parece a Jesús?|¿Se parece a Jesús?|se parece: compartir mi lunch; perdonar a mi hermano; consolar al que llora; ayudar sin que me lo pidan|no se parece: poner apodos; hacer berrinche; quitar juguetes; decir groserías
