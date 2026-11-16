@@ -1,0 +1,434 @@
+// Español 4.º — profundización y banco ampliado
+#4e1
+Z|Toda oración tiene <b>sujeto</b> (de quién se habla) y <b>predicado</b> (lo que se dice de él).|El <b>núcleo del sujeto</b> es un sustantivo o un pronombre; el <b>núcleo del predicado</b> es el verbo.|Los <b>modificadores</b> acompañan al núcleo: artículos, adjetivos y complementos.|Para hallar el sujeto pregunto al verbo: ¿quién?
+E|Los niños de mi parroquia CANTAN en el coro|Sujeto: «Los niños de mi parroquia»; núcleo: «niños»
+S|En «Las campanas de la torre suenan fuerte», ¿cuáles son los núcleos?|Busco el verbo: «suenan». Es el núcleo del predicado.|Pregunto: ¿quiénes suenan? «Las campanas de la torre»: ese es el sujeto.|La palabra principal del sujeto es «campanas».|=Núcleo del sujeto: campanas. Núcleo del predicado: suenan.
+I|👤 Sujeto: De quién se habla.|🎬 Predicado: Lo que se dice del sujeto.|⭐ Núcleos: Sustantivo y verbo.|🧩 Modificadores: Artículos, adjetivos y complementos.
+0|V|El sujeto es de quién se habla en la oración.
+0|¿Qué tipo de palabra es el núcleo del predicado?|un verbo|un adjetivo|un artículo
+1|¿Cuál es el sujeto de «Mi abuela teje una bufanda»?|Mi abuela|teje|una bufanda
+1|¿Cuál es el predicado de «Los pájaros vuelan alto»?|vuelan alto|Los pájaros|pájaros
+1|F|En «El gato duerme», el núcleo del sujeto es «duerme».
+1|¿Qué pregunto al verbo para hallar el sujeto?|¿quién?|¿cuándo?|¿dónde?
+2|¿Cuál es el núcleo del sujeto en «La casa de mi tío es grande»?|casa|tío|grande
+2|¿Qué le falta a «Corren por el patio»?|un sujeto escrito|un verbo|un predicado
+2|V|En «Jesús bendijo a los niños», el sujeto es «Jesús».
+2|¿Cuál es el núcleo del predicado en «Ana y Luis estudian juntos»?|estudian|Ana|juntos
+K|«{x}»: ¿sujeto o predicado?|¿Sujeto o predicado?|sujeto: Los perros del vecino; Mi abuelita; El coro de la parroquia; Las flores del jardín|predicado: ladran toda la noche; teje una bufanda; canta en la Misa; perfuman el patio
+#4e2
+Z|El verbo cambia según la <b>persona</b>: yo canto, tú cantas, él canta, nosotros cantamos, ustedes cantan, ellos cantan.|También cambia según el <b>tiempo</b>: presente (rezo), pretérito (recé), copretérito (rezaba) y futuro (rezaré).|El <b>infinitivo</b> es el nombre del verbo y termina en -ar, -er o -ir.|Conjugar es decir el verbo en sus personas y tiempos.
+E|cantar · comer · vivir|ayer canté · antes cantaba · hoy canto · mañana cantaré
+S|¿Cómo digo «comer» con «ellos» en futuro?|El futuro se forma con el infinitivo completo: «comer».|Para «ellos» agrego la terminación «-án».|Queda «comer» + «án».|=Ellos comerán.
+I|👥 Personas: Primera, segunda y tercera.|⏳ Pretérito: Ya pasó (canté).|📍 Presente: Pasa ahora (canto).|🔮 Futuro: Pasará (cantaré).
+0|V|«Cantar» es un infinitivo.
+0|¿En qué tiempo está «comí»?|pretérito|presente|futuro
+1|¿Qué persona es «tú»?|segunda|primera|tercera
+1|Presente de «vivir» con «yo»:|vivo|viví|viviré
+1|F|«Jugaremos» está en tiempo pasado.
+1|¿En qué tiempo está «saltaba»?|copretérito|futuro|presente
+2|Completa: «Ayer nosotros ___ al parque».|fuimos|iremos|vamos
+2|Futuro de «leer» con «tú»:|leerás|leíste|lees
+2|V|«Creo» está en primera persona del singular.
+2|¿Cuál está en tercera persona del plural?|ellos rezan|yo rezo|tú rezas
+K|«{x}»: ¿en qué tiempo está?|¿En qué tiempo está?|presente: canto; comes; vives; rezan|pretérito: canté; comiste; vivió; rezaron|copretérito: cantaba; comías; vivíamos; rezaban|futuro: cantaré; comerás; viviremos; rezarán
+#4e3
+Z|Las <b>preposiciones</b> unen palabras: a, ante, bajo, con, contra, de, desde, en, entre, hacia, hasta, para, por, según, sin, sobre, tras.|Las <b>conjunciones</b> unen palabras u oraciones: y, o, pero, porque, aunque, pues.|«Y» suma; «o» da a elegir; «pero» contrasta; «porque» explica la causa.|Ayudan a que el texto se entienda.
+E|Café con leche · Voy hacia la escuela|Quería jugar, pero primero hice la tarea
+S|Completa: «Llegué tarde ___ perdí el camión».|La segunda parte explica por qué llegué tarde.|Necesito una conjunción de causa.|La conjunción de causa es «porque».|=Llegué tarde porque perdí el camión.
+I|🔗 Preposiciones: A, con, de, en, para, por, sin…|➕ Y: Suma ideas.|↔️ Pero: Contrasta.|❓ Porque: Da la causa.
+0|V|«Pero» es una conjunción.
+0|¿Cuál es una preposición?|desde|pero|aunque
+1|Completa: «Pan ___ mantequilla».|con|pero|porque
+1|¿Qué conjunción da a elegir?|o|y|pues
+1|F|La palabra «y» es una preposición.
+1|Completa: «Salí ___ paraguas y me mojé».|sin|con|para
+2|Completa: «Estaba cansado, ___ terminó su tarea».|pero|porque|o
+2|¿Qué preposición indica dirección?|hacia|sin|con
+2|V|En «Voy a Misa con mi familia» hay dos preposiciones.
+2|Completa: «Iré ___ llueva».|aunque|porque|para
+K|«{x}»: ¿preposición o conjunción?|¿Preposición o conjunción?|preposición: con; de; hacia; sin; para; desde|conjunción: y; pero; porque; aunque; o; pues
+#4e4
+Z|La <b>tilde diacrítica</b> distingue palabras que se escriben igual, pero significan cosas distintas.|<b>él</b> (persona) / el (artículo); <b>tú</b> (persona) / tu (posesivo); <b>mí</b> (persona) / mi (posesivo).|<b>sí</b> (afirmación) / si (condición); <b>té</b> (bebida) / te (pronombre); <b>más</b> (cantidad) / mas (pero).|Qué, quién, cómo, cuándo y dónde llevan tilde al preguntar o exclamar.
+E|Tú y tu hermano · Él trae el pan|¿Dónde vives? · ¡Qué alegría!
+S|¿Cuál lleva tilde en «Tu sabes que tu perro ladra»?|El primer «tu» nombra a la persona que sabe: es pronombre.|El segundo «tu» indica de quién es el perro: es posesivo.|El pronombre lleva tilde; el posesivo, no.|=«Tú sabes que tu perro ladra».
+I|👤 Él, tú, mí: Con tilde, son personas.|📦 El, tu, mi: Sin tilde, acompañan a un sustantivo.|✅ Sí: Con tilde, afirma.|❓ Qué, cómo, dónde: Con tilde al preguntar.
+0|V|«Té», la bebida, lleva tilde.
+0|¿Cuál indica una afirmación?|sí|si|sin
+1|Completa: «___ es mi mejor amigo».|Él|El|Ell
+1|Completa: «Préstame ___ goma».|tu|tú|tù
+1|F|«Mi», en «mi casa», lleva tilde.
+1|¿Cuál está bien escrita?|¿Cómo te llamas?|¿Como te llamas?|¿Cómo té llamas?
+2|Completa: «Quiero ___ pastel».|más|mas|màs
+2|¿Cuál está bien escrita?|Si vienes, te diré que sí|Sí vienes, te diré que si|Si vienes, té diré que sí
+2|V|En «¡Qué bonito día!», «qué» lleva tilde.
+2|Completa: «A ___ me gusta ___ escuela».|mí / mi|mi / mí|mí / mí
+P|¿Qué palabra completa «{x}»?||Ayer ___ trajo las tortillas = él|Pásame ___ libro azul = el|Quiero que ___ me acompañes = tú|Préstame ___ lápiz = tu|El regalo es para ___ = mí|Voy con ___ mamá = mi|Dije que ___ quiero ir = sí|Avísame ___ vienes mañana = si
+#4e5
+Z|Los <b>homófonos</b> suenan igual, pero se escriben distinto y significan otra cosa.|tubo (cilindro) / tuvo (de tener); votar (elegir) / botar (tirar o rebotar); ola (del mar) / hola (saludo).|vaya (de ir) / valla (cerca); casa (hogar) / caza (de cazar).|Los <b>parónimos</b> se parecen, pero no son iguales: actitud / aptitud; absorber / absolver.
+E|Hola, mira esa ola|El sacerdote me absuelve
+S|¿«Vaya» o «valla» en «Ojalá que te ___ muy bien»?|«Valla» es una cerca.|«Vaya» viene del verbo «ir».|Aquí se desea que a alguien le «vaya» bien.|=Vaya.
+I|🌊 Ola: Del mar.|👋 Hola: Saludo.|🗳️ Votar: Elegir.|🗑️ Botar: Tirar o rebotar.
+0|V|«Tuvo» viene del verbo «tener».
+0|¿Cuál es un saludo?|hola|ola|olla
+1|Completa: «Voy a ___ la basura».|botar|votar|brotar
+1|¿Qué significa «valla»?|cerca o barda|del verbo ir|una fruta
+1|F|«Casa» y «caza» significan lo mismo.
+1|Completa: «Ayer Luis ___ fiebre».|tuvo|tubo|tuvó
+2|¿Qué es «aptitud»?|capacidad para hacer algo|manera de comportarse|un saludo
+2|Completa: «La esponja puede ___ el agua».|absorber|absolver|observar
+2|V|En la Confesión, el sacerdote absuelve los pecados.
+2|Completa: «Hay que ___ el agua antes de beberla».|hervir|servir|ervir
+P|¿Qué palabra completa «{x}»?||La ___ rompió en la playa = ola|Le dije ___ a mi vecina = hola|El domingo vamos a ___ por un candidato = votar|Voy a ___ la pelota contra el piso = botar|El agua sale por el ___ = tubo|Ayer mi hermano ___ fiebre = tuvo|Pintaron la ___ del jardín = valla|Ojalá que te ___ bien = vaya
+#4e6
+Z|Se escriben con <b>-ción</b> las palabras que vienen de otras terminadas en -do o -to: canto, canción; atento, atención.|Se escriben con <b>-sión</b> las que vienen de -so o -sor: confeso, confesión; televisor, televisión.|<b>-oso / -osa</b> forman adjetivos (bondadoso); <b>-mente</b>, adverbios (alegremente).|<b>-bilidad</b> va con b: amabilidad, responsabilidad.
+E|bendito → bendición|proceso → procesión
+S|¿«Expresión» va con c o con s?|Busco una palabra de su familia: «expreso».|«Expreso» termina en -so.|Las que vienen de -so se escriben con -sión.|=Con s: expresión.
+I|🎶 -ción: Canción, oración, bendición.|📺 -sión: Televisión, confesión, procesión.|🌟 -oso: Bondadoso, generosa.|🏃 -mente: Alegremente, rápidamente.
+0|V|«Canción» se escribe con c.
+0|¿Cuál está bien escrita?|televisión|televición|telebisión
+1|¿Cuál está bien escrita?|amabilidad|amavilidad|amabilidá
+1|¿De qué palabra viene «atención»?|de atento|de atenso|de atender
+1|F|«Bendición» se escribe con s.
+1|¿Qué adverbio sale de «rápido»?|rápidamente|rapidoso|rapidación
+2|¿Cuál está bien escrita?|Resurrección|Resurrecsión|Resureción
+2|¿Qué adjetivo sale de «bondad»?|bondadoso|bondadmente|bondación
+2|V|«Responsabilidad» se escribe con b.
+2|¿Cuál está bien escrita?|Ascensión|Ascención|Asención
+K|¿Con qué termina «{x}»?|¿Con -ción o con -sión?|-ción: can___ (de canto); aten___ (de atento); bendi___ (de bendito); inven___ (de invento)|-sión: confe___ (de confeso); televi___ (de televisor); proce___ (de proceso); expre___ (de expreso)
+#4e7
+Z|La <b>coma</b> separa los elementos de una lista: fe, esperanza y caridad.|También separa el <b>vocativo</b>, la palabra con que llamamos a alguien: «Señor, escúchanos».|El <b>punto y coma</b> separa ideas largas que se relacionan.|El <b>guion largo</b> (—) marca lo que dice cada personaje en un diálogo.
+E|Mamá, ¿me ayudas?|—¿Vienes? —Sí, ya voy.
+S|¿Dónde van las comas en «Luis trae la regla el lápiz y la goma»?|Hay una lista de tres cosas.|Pongo coma entre los elementos: «la regla, el lápiz».|Antes de la «y» final no va coma.|=«Luis, trae la regla, el lápiz y la goma».
+I|✏️ Coma: En listas.|🙋 Vocativo: «María, ven».|⏸️ Punto y coma: Entre ideas largas.|➖ Guion largo: En diálogos.
+0|V|La coma separa los elementos de una lista.
+0|¿Qué signo marca lo que dice un personaje?|el guion largo|la coma|el punto y coma
+1|¿Cuál tiene bien la coma?|Papá, ya llegué|Papá ya, llegué|Papá ya llegué,
+1|¿Qué es el vocativo?|la palabra con que llamo a alguien|el final de la oración|el nombre del autor
+1|F|En una lista simple se pone coma antes de la «y» final.
+1|¿Cuál está bien escrita?|Compré pan, queso y leche|Compré pan queso, y leche|Compré, pan queso y leche
+2|¿Qué cambia entre «Vamos a comer, niños» y «Vamos a comer niños»?|el sentido de la oración|el tiempo del verbo|el número de palabras
+2|¿Qué signo separa dos ideas largas relacionadas?|el punto y coma|el guion largo|la coma
+2|V|En «Señor, ten piedad», la coma separa el vocativo.
+2|¿Cuál está bien escrita?|—¿Quién es? —preguntó Ana.|¿Quién es?, preguntó: Ana|«¿Quién es» preguntó; Ana
+K|«{x}»: ¿la coma está bien o mal puesta?|¿Bien o mal puesta?|bien: María, ven a comer; Compré pan, leche y huevos; Señor, ten piedad; Niños, guarden silencio|mal: María ven, a comer; Compré, pan leche y huevos; Señor ten, piedad; Niños guarden, silencio
+#4e8
+Z|Los <b>textos informativos</b> dan datos verdaderos sobre un tema, de forma objetiva.|Se encuentran en enciclopedias, revistas, periódicos y libros.|La <b>monografía</b> estudia a fondo un solo tema.|Tiene <b>introducción</b>, <b>desarrollo</b> con subtemas, <b>conclusión</b> y, al final, las <b>fuentes</b>.
+E|Tema: «El ajolote»|Subtemas: cómo es, dónde vive, por qué está en peligro
+S|Haré una monografía sobre el maíz. ¿Cómo la organizo?|Introducción: digo qué es el maíz y por qué es importante.|Desarrollo: lo divido en subtemas, como su origen, su cultivo y sus usos.|Conclusión: resumo lo aprendido y anoto mis fuentes.|=Introducción, desarrollo con subtemas, conclusión y fuentes.
+I|📚 Fuentes: De dónde tomo los datos.|🚪 Introducción: Presenta el tema.|🧱 Desarrollo: Subtemas explicados.|🏁 Conclusión: Resume lo aprendido.
+0|V|Una monografía trata de un solo tema.
+0|¿Dónde encuentro textos informativos?|en una enciclopedia|en un libro de chistes|en un cancionero
+1|¿Qué parte presenta el tema?|la introducción|la conclusión|las fuentes
+1|¿Qué significa que un texto sea objetivo?|que da datos sin opinar|que cuenta fantasías|que es muy corto
+1|F|En una monografía no hace falta decir de dónde se tomó la información.
+1|¿Cómo se divide el desarrollo?|en subtemas|en estrofas|en actos
+2|¿Por qué conviene consultar varias fuentes?|para comparar y comprobar los datos|para copiar más texto|para tardar más
+2|¿Cuál es un buen subtema para «Los volcanes»?|cómo se forma un volcán|mi película favorita|una receta de cocina
+2|V|San Lucas investigó con cuidado antes de escribir su Evangelio.
+2|O|Ordena las partes de una monografía|Introducción|Desarrollo|Conclusión|Fuentes
+P|¿Qué va en {x} de una monografía?|En una monografía, ¿dónde va {x}?|la introducción = la presentación del tema|el desarrollo = la explicación de los subtemas|la conclusión = el resumen de lo aprendido|la lista de fuentes = el origen de la información
+#4e9
+Z|El <b>índice</b> indica en qué página está cada tema.|Los <b>títulos y subtítulos</b> dividen y ordenan la información.|Las <b>notas al pie</b> añaden un dato o una explicación.|Los <b>apoyos gráficos</b> (fotos con pie de imagen, tablas, gráficas, mapas y esquemas) ayudan a entender.
+E|Pie de imagen: el texto que explica una foto|Jn 3, 16: Juan, capítulo 3, versículo 16
+S|¿Cómo encuentro «Mt 5, 9» en la Biblia?|«Mt» es la abreviatura del Evangelio de Mateo: lo busco en el índice.|El primer número es el capítulo: 5.|El segundo es el versículo: 9.|=Evangelio de Mateo, capítulo 5, versículo 9.
+I|📑 Índice: Temas y páginas.|🔠 Subtítulos: Ordenan el texto.|🖼️ Pie de imagen: Explica la foto.|📊 Gráficas y tablas: Datos de un vistazo.
+0|V|Los subtítulos ayudan a ordenar la información.
+0|¿Dónde busco en qué página está un tema?|en el índice|en la portada|en la última hoja
+1|¿Qué apoyo gráfico muestra datos en barras?|la gráfica|el mapa|la foto
+1|¿Dónde aparece una nota al pie?|en la parte baja de la página|en la portada del libro|en el índice de temas
+1|F|Los apoyos gráficos solo sirven para adornar.
+1|¿Qué apoyo gráfico muestra dónde está un lugar?|el mapa|la tabla|la gráfica
+2|En «Lc 2, 7», ¿qué número es el capítulo?|el 2|el 7|el 27
+2|¿Para qué sirve una tabla?|para ordenar datos en filas y columnas|para contar un cuento de aventuras|para escribir un poema con rima
+2|V|La Biblia se divide en libros, capítulos y versículos.
+2|¿Qué reviso primero para saber de qué trata un libro?|el título y el índice|el precio|el número de hojas
+P|En la Biblia, ¿qué libro es «{x}»?||Mt = Mateo|Mc = Marcos|Lc = Lucas|Jn = Juan|Gn = Génesis|Sal = Salmos
+#4e10
+Z|<b>Resumir</b> es escribir en pocas palabras lo más importante de un texto.|Pasos: leo, subrayo las <b>ideas principales</b>, quito ejemplos y repeticiones, y escribo un texto breve.|<b>Parafrasear</b> es decir con mis propias palabras lo que dice el texto, sin cambiar su sentido.|En un resumen no van mis opiniones.
+E|Idea principal: de qué trata el párrafo|El Credo: resumen de la fe
+S|Texto: «Las abejas son insectos. Viven en colmenas. Por ejemplo, en mi casa hay una. Fabrican miel». ¿Cómo lo resumo?|Ideas principales: son insectos, viven en colmenas y fabrican miel.|Quito el ejemplo: «en mi casa hay una».|Uno las ideas en una oración.|=Las abejas son insectos que viven en colmenas y fabrican miel.
+I|👀 Leo: Todo el texto.|🖍️ Subrayo: Las ideas principales.|✂️ Quito: Ejemplos y repeticiones.|📝 Escribo: Breve y con mis palabras.
+0|V|Para resumir, primero hay que leer todo el texto.
+0|¿Qué subrayo para hacer un resumen?|las ideas principales|los ejemplos|los adornos
+1|¿Qué quito al resumir?|las repeticiones|el tema|las ideas principales
+1|¿Qué es parafrasear?|decirlo con mis propias palabras|copiarlo tal cual|cambiar lo que dice
+1|F|En un resumen debo escribir mi opinión sobre el tema.
+1|¿Cómo es un buen resumen?|breve y claro|largo y repetido|igual que el original
+2|¿Cuál es la paráfrasis de «El perro es fiel a su amo»?|El perro es leal con su dueño|El perro es fiel a su amo|El gato es fiel a su amo
+2|¿Por qué resumir ayuda a estudiar?|me quedo con lo importante|no tengo que leer|se alarga el texto
+2|V|Al parafrasear no debo cambiar el sentido del texto.
+2|¿Cuál es la idea principal de «Los colibríes son aves pequeñas que beben néctar; mi tía vio uno ayer»?|los colibríes beben néctar|mi tía vio uno ayer|ayer fue un buen día
+K|{x}: ¿va o no va en un resumen?|¿Va o no va?|sí va: la idea principal; los datos más importantes; las palabras clave|no va: los ejemplos; las repeticiones; mi opinión; los detalles pequeños
+#4e11
+Z|Los <b>instructivos</b> y las <b>recetas</b> explican cómo hacer algo.|Tienen título, materiales o ingredientes y un procedimiento numerado.|Los verbos van en <b>infinitivo</b> (batir, mezclar) o en <b>imperativo</b> (bate, mezcla).|Usan cantidades exactas y palabras de orden: primero, después, finalmente.
+E|2 tazas de harina · 1 pizca de sal|1. Lavar las manos. 2. Pelar la fruta.
+S|Cambia a imperativo: «Cortar la fruta en trozos».|«Cortar» está en infinitivo: es el nombre del verbo.|El imperativo es una orden para «tú».|«Cortar» se vuelve «corta».|=Corta la fruta en trozos.
+I|🧾 Ingredientes: Con cantidades exactas.|🔢 Procedimiento: Pasos numerados.|🍳 Infinitivo: Batir, mezclar.|👉 Imperativo: Bate, mezcla.
+0|V|Los pasos de una receta van en orden.
+0|¿Qué va antes del procedimiento?|los ingredientes|la despedida|la firma
+1|¿Cuál es una cantidad exacta?|dos tazas|un poco|bastante
+1|¿Qué palabra indica el último paso?|finalmente|primero|después
+1|F|En una receta da lo mismo el orden de los pasos.
+1|Imperativo de «batir» (tú):|bate|batir|batió
+2|Infinitivo de «hornea»:|hornear|horneo|horneando
+2|¿Por qué las recetas usan cantidades exactas?|para que el platillo salga bien|para que sea más largo|para confundir
+2|V|Bendecir los alimentos es dar gracias a Dios por ellos.
+2|O|Ordena los pasos del agua de limón|Lavar los limones|Exprimirlos|Mezclar con agua y azúcar|Servir
+K|«{x}»: ¿infinitivo o imperativo?|¿Infinitivo o imperativo?|infinitivo: batir; mezclar; hornear; agregar; servir|imperativo: bate; mezcla; hornea; agrega; sirve
+#4e12
+Z|Un <b>formulario</b> pide datos en casillas: nombre completo, fecha de nacimiento, domicilio y teléfono.|Se llena con pluma, <b>letra clara</b>, sin tachones y con <b>datos verdaderos</b>.|Antes de firmar, se revisa.|Los <b>datos personales</b> se protegen: solo se dan con permiso de los papás.
+E|Acta de nacimiento: mi nombre oficial|En internet no doy mi dirección ni mi escuela
+S|Un formulario pide «Fecha de nacimiento (DD/MM/AAAA)». ¿Cómo escribo 5 de marzo de 2016?|DD son dos cifras para el día: 05.|MM son dos cifras para el mes: marzo es 03.|AAAA son cuatro cifras para el año: 2016.|=05/03/2016.
+I|🖊️ Pluma: Letra clara, sin tachones.|✅ Verdad: Datos reales.|🔍 Revisar: Antes de firmar.|🔒 Proteger: Mis datos personales.
+0|V|Un formulario se llena con letra clara.
+0|¿Qué es el domicilio?|la dirección donde vivo|mi fecha de nacimiento|mi apodo
+1|¿Qué hago antes de firmar?|reviso lo que escribí|doblo la hoja|la guardo
+1|¿Con quién lleno un formulario?|con mis papás|con un desconocido|yo solo en internet
+1|F|En un formulario oficial puedo escribir mi apodo en lugar de mi nombre.
+1|¿Qué hago si me equivoco al llenarlo?|pido otra hoja o pregunto cómo corregir|rayo toda la hoja con la pluma|invento otro dato para taparlo
+2|¿Qué significa «DD/MM/AAAA»?|día, mes y año|domicilio y municipio|datos del menor
+2|¿Por qué no doy mis datos en un juego en línea?|pueden usarse para hacerme daño|se borran solos en un minuto|son aburridos para los demás
+2|V|Mi nombre completo, mi dirección y mi teléfono son datos personales.
+2|¿Qué documento pide la parroquia para la Primera Comunión?|la fe de bautismo|la boleta de la escuela|el recibo de luz
+K|{x}: ¿es un dato personal?|¿Dato personal o no?|dato personal: mi nombre completo; mi dirección; mi teléfono; el nombre de mi escuela; mi fecha de nacimiento|no lo es: mi color favorito; el clima de hoy; el nombre de un río; la capital de México
+#4e13
+Z|La <b>revista</b> tiene portada, índice, secciones y artículos con títulos llamativos e imágenes.|El <b>tríptico</b> es una hoja doblada en tres con información breve.|El <b>cartel</b> o convocatoria invita a un evento.|Un buen cartel dice: qué evento es, quién convoca, lugar, fecha y hora.
+E|Secciones: ciencia, cultura, deportes|Cartel: «Kermés parroquial, domingo 10 h»
+S|Haré el cartel del festival de primavera. ¿Qué datos no pueden faltar?|Qué es: festival de primavera. Quién invita: la escuela.|Dónde: en el patio. Cuándo: fecha y hora.|Agrego un título grande y una imagen que llame la atención.|=El evento, quién convoca, el lugar, la fecha y la hora.
+I|📕 Revista: Portada, índice y secciones.|📄 Tríptico: Una hoja en tres partes.|📣 Cartel: Invita a un evento.|📍 Datos: Lugar, fecha y hora.
+0|V|Un cartel invita a un evento.
+0|¿Qué tiene la portada de una revista?|el título y una imagen|las fuentes|el reglamento
+1|¿Cómo debe ser el título de un cartel?|grande y llamativo|pequeño y escondido|muy largo
+1|¿En cuántas partes se dobla un tríptico?|en tres|en dos|en cinco
+1|F|En un cartel no hace falta decir dónde será el evento.
+1|¿Cómo se agrupan los artículos de una revista?|en secciones|en estrofas|en capítulos de novela
+2|¿Qué le falta a un cartel que dice «Gran concurso de dibujo, sábado»?|el lugar y la hora|el título|el día
+2|¿Para qué usan carteles las parroquias?|para invitar a sus actividades|para vender revistas|para dar calificaciones
+2|V|La información de un tríptico debe ser breve y clara.
+2|¿Qué uso para invitar a la colonia a una jornada de limpieza?|un cartel|una monografía|una receta
+K|{x}: ¿revista, tríptico o cartel?|¿Revista, tríptico o cartel?|revista: tiene portada, índice y secciones; se publica cada semana o cada mes|tríptico: es una hoja doblada en tres; se reparte de mano en mano|cartel: se pega en la pared; invita a un evento con fecha y lugar
+#4e14
+Z|El <b>lenguaje literal</b> dice las cosas tal como son: «El agua hierve a 100 °C».|El <b>lenguaje figurado</b> usa imágenes para expresar algo más: «Es un sol» (es muy alegre y bueno).|Se usa en poemas, canciones, refranes y también al hablar todos los días.|Para entenderlo, pienso qué quiere decir, no lo que dicen las palabras una por una.
+E|«Me muero de hambre»: tengo mucha hambre|«Yo soy la luz del mundo» (Jn 8, 12)
+S|¿Qué quiere decir «Mi hermano tiene la cabeza en las nubes»?|Literalmente es imposible: su cabeza no está en el cielo.|Entonces es lenguaje figurado.|Las nubes están lejos del suelo: él está «lejos», distraído.|=Que mi hermano está distraído.
+I|📏 Literal: Tal como suena.|🎨 Figurado: Quiere decir algo más.|☀️ «Es un sol»: Es alegre y bueno.|💡 «Luz del mundo»: Jesús nos guía.
+0|V|«El perro ladra» es lenguaje literal.
+0|¿Cuál es lenguaje figurado?|Tiene un corazón de oro|Tiene un reloj de oro|Tiene dos hermanos
+1|¿Qué significa «estar en las nubes»?|estar distraído|viajar en avión|tener frío
+1|¿Qué significa «es pan comido»?|que es muy fácil|que ya se acabó el pan|que tiene hambre
+1|F|El lenguaje figurado se entiende palabra por palabra.
+1|¿Dónde se usa mucho el lenguaje figurado?|en los poemas|en las recetas|en los recibos
+2|¿Qué quiso decir Jesús con «Yo soy la luz del mundo»?|que Él nos guía hacia Dios|que brillaba como un foco|que vivía en el Sol
+2|¿Cuál es la versión literal de «Me muero de sueño»?|Tengo mucho sueño|Estoy muy enfermo|Ya me dormí
+2|V|«Llueve a cántaros» significa que llueve muchísimo.
+2|¿Qué significa «echar una mano»?|ayudar|saludar|aplaudir
+K|«{x}»: ¿sentido literal o figurado?|¿Literal o figurado?|literal: El agua hierve a 100 °C; Mi perro ladra; Hoy es lunes; El volcán hizo erupción|figurado: Es un sol; Se le partió el corazón; Me muero de hambre; Tiene la cabeza en las nubes
+P|¿Qué significa «{x}»?||Es un sol = es muy alegre y bueno|Me muero de hambre = tengo mucha hambre|Se le partió el corazón = se puso muy triste|Está hecho una fiera = está muy enojado|Es pan comido = es muy fácil
+#4e15
+Z|La <b>comparación</b> une dos cosas con «como»: blanca como la nieve.|La <b>metáfora</b> dice que una cosa es otra: tus ojos son luceros.|La <b>hipérbole</b> exagera: lloró un mar de lágrimas.|La <b>rima</b> es consonante si coinciden vocales y consonantes (amor / flor) y asonante si solo coinciden las vocales (casa / mañana).
+E|Anáfora: repetir una palabra al inicio de los versos|Aliteración: «Ronca el rubio Ramón»
+S|¿Qué figura es «Te lo he dicho un millón de veces»?|No hay «como»: no es comparación.|No dice que una cosa sea otra: no es metáfora.|Exagera la cantidad de veces.|=Es una hipérbole.
+I|≈ Comparación: Usa «como».|✨ Metáfora: Una cosa «es» otra.|🔊 Hipérbole: Exagera.|🎵 Rima: Sonidos iguales al final.
+0|V|La hipérbole es una exageración.
+0|¿Qué palabra aparece en la comparación?|como|pero|porque
+1|«Corre como el viento» es…|comparación|metáfora|hipérbole
+1|«La Luna es un farol» es…|metáfora|comparación|rima
+1|F|«Casa» y «mañana» tienen rima consonante.
+1|¿Qué palabras tienen rima consonante?|canción y corazón|casa y cama|árbol y cielo
+2|¿Qué es la aliteración?|repetir un mismo sonido|exagerar algo|comparar con «como»
+2|«María, estrella de la mañana» es…|metáfora|hipérbole|comparación
+2|V|En los Salmos hay muchas metáforas para hablar de Dios.
+2|¿Qué figura hay en «Verde que te quiero verde, verde viento, verdes ramas»?|repetición de palabras y sonidos|comparación con «como»|exageración de cantidad
+K|«{x}»: ¿qué figura literaria es?|¿Comparación, metáfora o hipérbole?|comparación: Blanca como la nieve; Corre como el viento; Brilla como una estrella|metáfora: Tus ojos son luceros; El Señor es mi pastor; La Luna es un farol|hipérbole: Lloró un mar de lágrimas; Te lo dije un millón de veces; Me muero de sueño
+#4e16
+Z|El <b>cuento</b> tiene inicio (personajes y lugar), desarrollo (el conflicto) y desenlace (cómo termina).|Se narra en <b>pretérito</b> (salió, encontró) y <b>copretérito</b> (vivía, era).|Las relaciones <b>temporales</b> ordenan los hechos: primero, mientras, después, al final.|Las relaciones <b>causales</b> explican por qué pasan: porque, por eso, así que.
+E|«Había una vez…»: copretérito|«Un día salió…»: pretérito
+S|Une con un conector: «El lobo sopló muy fuerte. La casa de paja se cayó».|El primer hecho es la causa; el segundo, la consecuencia.|Necesito un conector causal.|Puedo usar «por eso» o «así que».|=El lobo sopló muy fuerte; por eso la casa de paja se cayó.
+I|🚪 Inicio: Personajes y lugar.|⚡ Desarrollo: Aparece el conflicto.|🏁 Desenlace: Se resuelve.|🔗 Conectores: De tiempo y de causa.
+0|V|El desenlace es el final del cuento.
+0|¿Qué se presenta en el inicio de un cuento?|los personajes y el lugar|la moraleja de la historia|el final de la aventura
+1|¿Qué verbo está en pretérito?|encontró|encontraba|encontrará
+1|¿Qué verbo está en copretérito?|vivía|vivió|vivirá
+1|F|«Porque» es un conector de tiempo.
+1|¿Qué conector indica que dos cosas pasan a la vez?|mientras|al final|por eso
+2|Completa: «Tenía hambre, ___ entró a la cocina».|así que|mientras|primero
+2|¿Qué es el conflicto de un cuento?|el problema que enfrentan los personajes|el título que aparece en la portada|el nombre de quien escribió el cuento
+2|V|Las parábolas de Jesús son relatos breves con una enseñanza.
+2|O|Ordena las partes del cuento|Inicio|Desarrollo|Desenlace
+K|«{x}»: ¿conector temporal o causal?|¿Temporal o causal?|temporal: primero; después; mientras; al final; un día|causal: porque; por eso; así que; ya que
+#4e17
+Z|Los <b>personajes</b> se describen por sus rasgos físicos (alto, de ojos grandes) y por su forma de ser (astuto, amable, valiente).|El <b>protagonista</b> es el personaje principal; el <b>antagonista</b> se le opone; los <b>secundarios</b> acompañan.|El <b>escenario</b> es el lugar donde ocurre la historia.|Se describe con los sentidos: lo que se ve, se oye y se huele.
+E|Caperucita: protagonista · El lobo: antagonista|Escenario: un bosque oscuro y silencioso
+S|En el cuento de los tres cerditos, ¿quién es quién?|Los protagonistas son los tres cerditos: la historia trata de ellos.|El antagonista es el lobo: quiere comérselos.|El escenario es el campo donde construyen sus casas.|=Protagonistas: los cerditos. Antagonista: el lobo. Escenario: el campo.
+I|🦸 Protagonista: El personaje principal.|🐺 Antagonista: Se opone al protagonista.|👥 Secundarios: Acompañan la historia.|🌲 Escenario: Dónde ocurre.
+0|V|El escenario es el lugar donde ocurre la historia.
+0|¿Quién se opone al protagonista?|el antagonista|el narrador|el lector
+1|«De pelo rizado» describe…|un rasgo físico|la forma de ser|el escenario
+1|¿Con qué describo un escenario?|con los sentidos|con números|con fechas
+1|F|Los personajes secundarios son los más importantes de la historia.
+1|«Generoso» describe…|la forma de ser|un rasgo físico|el lugar
+2|¿Quién es el protagonista de la parábola del buen samaritano?|el samaritano|el posadero|el sacerdote
+2|¿Cuál describe mejor un escenario?|Un bosque húmedo que olía a pino|Era muy valiente y generoso|Tenía diez años y dos hermanos
+2|V|Un mismo personaje puede describirse por fuera y por dentro.
+2|¿Qué personaje del hijo pródigo representa a Dios?|el padre|el hijo mayor|el hijo menor
+K|«{x}» describe: ¿rasgo físico o forma de ser?|¿Rasgo físico o forma de ser?|rasgo físico: alto; de ojos grandes; flaco; de pelo rizado|forma de ser: valiente; astuto; amable; generoso
+#4e18
+Z|La <b>anécdota</b> es un relato breve de algo real, curioso o divertido que nos pasó.|Se cuenta en <b>orden cronológico</b>: qué pasó, cuándo y dónde, y cómo terminó.|Se narra en <b>primera persona</b> y en pretérito: «Ayer fui…».|Se le pone emoción y detalles, pero sin inventar.
+E|«¿A que no te imaginas lo que me pasó?»|«El día de mi primera comunión…»
+S|¿Cómo cuento la vez que se me cayó el pastel en mi cumpleaños?|Digo cuándo y dónde: «El año pasado, en mi fiesta…».|Cuento lo que pasó en orden: llevaba el pastel, tropecé y se cayó.|Termino con el final: todos rieron y comimos gelatina.|=En orden, en primera persona y con el final.
+I|✅ Real: Algo que sí pasó.|🕐 Orden: Como fue ocurriendo.|🙋 Primera persona: «Yo fui», «me pasó».|😄 Emoción: Con detalles, sin inventar.
+0|V|La anécdota cuenta algo que le pasó a quien la narra.
+0|¿Cuál está en primera persona?|Yo fui al mercado|Él fue al mercado|Ellos fueron al mercado
+1|¿Cómo es una anécdota?|breve|muy larga|inventada
+1|¿Qué verbo está en pretérito?|tropecé|tropiezo|tropezaré
+1|F|En una anécdota puedo inventar que volé por los aires.
+1|¿Qué cuento al final de una anécdota?|cómo terminó|el título|la fecha de hoy
+2|¿Cuál es un buen inicio de anécdota?|Una vez, en casa de mi abuela…|Había una vez un dragón…|Los ingredientes son…
+2|¿En qué se distingue una anécdota de un cuento?|la anécdota es real|la anécdota tiene rima|el cuento es más corto
+2|V|Escuchar las anécdotas de los abuelos es una forma de quererlos.
+2|O|Ordena cómo se cuenta una anécdota|Cuándo y dónde fue|Qué pasó|Cómo terminó
+#4e19
+Z|El <b>guion de teatro</b> tiene personajes, diálogos y <b>acotaciones</b> (indicaciones entre paréntesis).|La obra se divide en <b>actos</b> y <b>escenas</b>.|En la <b>puesta en escena</b> participan el director, los actores y quienes hacen la escenografía, el vestuario, la utilería, el sonido y la iluminación.|Cada tarea es necesaria.
+E|PEDRO. (En voz baja). No hagas ruido.|Pastorela: teatro mexicano de Navidad
+S|¿Qué necesitamos para representar una pastorela en el salón?|Un guion con los diálogos de pastores, ángeles y diablitos.|Un director y actores que ensayen.|Escenografía, vestuario y utilería: el portal, las túnicas, los bastones.|=Guion, director, actores, ensayos, escenografía, vestuario y utilería.
+I|📜 Guion: Diálogos y acotaciones.|🎬 Director: Guía a los actores.|👗 Vestuario: La ropa de los personajes.|🪑 Utilería: Los objetos de la escena.
+0|V|Los actores representan a los personajes.
+0|¿Qué hacen los actores antes de la función?|ensayan|duermen|se van
+1|¿Qué indican las acotaciones?|cómo actuar y moverse|el precio del boleto|el final del cuento
+1|¿Qué es la escenografía?|lo que adorna el escenario|la ropa de los actores|la música
+1|F|En una obra de teatro, un narrador cuenta todo y los personajes no hablan.
+1|¿En qué se divide un acto?|en escenas|en capítulos|en estrofas
+2|¿Qué hago si me toca un papel pequeño?|lo hago lo mejor posible|me niego a actuar|lo hago de mala gana
+2|¿Qué se celebra en una pastorela?|el nacimiento de Jesús|la Pascua|Pentecostés
+2|V|En el teatro, el trabajo de todos hace posible la función.
+2|O|Ordena cómo se prepara una obra|Leer el guion|Ensayar|Preparar escenografía y vestuario|Dar la función
+P|¿Qué es {x} en el teatro?|En el teatro, ¿cómo se llama {x}?|la escenografía = lo que adorna el escenario|el vestuario = la ropa de los personajes|la utilería = los objetos que usan los actores|la iluminación = las luces de la obra|el guion = el texto con diálogos y acotaciones
+#4e20
+Z|En la <b>biblioteca</b>, los libros se ordenan por temas y autores.|Se piden en <b>préstamo</b> con credencial y se devuelven limpios y a tiempo.|La <b>novela</b> es una narración larga, con capítulos, muchos personajes y aventuras.|Hay novelas de aventuras, misterio, ciencia ficción e históricas.
+E|Ficha: título, autor y tema|«Todo lo que es verdadero, noble, justo… eso piensen» (Flp 4, 8)
+S|¿Cómo encuentro en la biblioteca un libro sobre dinosaurios?|Pregunto al bibliotecario o busco en el catálogo por tema.|Anoto dónde está: sección de ciencias.|Lo busco en el estante, lo pido con mi credencial y lo cuido.|=Busco por tema en el catálogo, voy a su sección y lo pido en préstamo.
+I|📚 Biblioteca: Libros ordenados por tema.|🪪 Préstamo: Con credencial.|📖 Novela: Larga y con capítulos.|🔎 Géneros: Aventuras, misterio, ciencia ficción.
+0|V|Una novela es más larga que un cuento.
+0|¿Qué necesito para sacar un libro de la biblioteca?|una credencial|dinero|una firma del autor
+1|¿Cómo se ordenan los libros en una biblioteca?|por temas y autores|por tamaño|por color
+1|¿Cómo se comporta uno en la biblioteca?|en silencio y con respeto|corriendo entre los estantes|gritando para pedir un libro
+1|F|Un libro prestado se puede rayar y doblar.
+1|¿En qué se divide una novela?|en capítulos|en estrofas|en actos
+2|¿Qué lecturas conviene elegir?|las que me hacen mejor persona|las que tienen cosas feas|cualquiera, sin pensar
+2|¿Qué tipo de novela cuenta hechos del pasado?|la histórica|la de ciencia ficción|la de terror
+2|V|Leer buenos libros alimenta la mente y el corazón.
+2|¿Qué hago si un libro no es apropiado para mí?|lo dejo y elijo otro|lo leo a escondidas|lo presto a otro niño
+P|¿Qué tipo de novela trata de {x}?||viajes al futuro y robots = ciencia ficción|un detective que resuelve un caso = misterio|exploradores en la selva = aventuras|la vida en tiempos de los reyes = histórica
+#4e21
+Z|La <b>noticia</b> informa hechos: responde qué, quién, cuándo, dónde, cómo y por qué.|El <b>texto de opinión</b> dice lo que piensa el autor y lo apoya con <b>argumentos</b>.|Una buena opinión se basa en razones y datos, y respeta a los demás.|Antes de creer o compartir algo, verifico que sea <b>verdad</b>.
+E|Noticia: «Inauguraron una biblioteca»|Opinión: «Considero que… porque…»
+S|¿«El parque de la colonia es el más bonito de la ciudad» es noticia u opinión?|No cuenta un hecho que se pueda comprobar.|«El más bonito» es lo que alguien piensa.|Otra persona podría pensar distinto.|=Es una opinión.
+I|📰 Noticia: Hechos comprobables.|💭 Opinión: Lo que piensa el autor.|🧱 Argumentos: Razones y datos.|🔍 Verificar: Antes de compartir.
+0|V|Una opinión dice lo que alguien piensa.
+0|¿Qué informa una noticia?|hechos|deseos|cuentos
+1|¿Con qué se apoya una opinión?|con argumentos|con dibujos|con chistes
+1|¿Qué pregunta responde «en la plaza»?|¿dónde?|¿cuándo?|¿quién?
+1|F|Todas las noticias que circulan en redes son verdaderas.
+1|¿Cuál es una noticia?|Ayer llovió en la ciudad|La lluvia es horrible|Me encanta la lluvia
+2|¿Cuál es un buen argumento para tener más parques?|los niños necesitan dónde jugar|porque sí|porque me gusta el verde
+2|¿Qué mandamiento nos pide no mentir?|el octavo|el cuarto|el tercero
+2|V|Opinar con respeto es escuchar también a quien piensa distinto.
+2|¿Qué reviso para saber si una noticia es confiable?|quién la publica|cuántos colores tiene|qué tan larga es
+K|«{x}»: ¿noticia u opinión?|¿Noticia u opinión?|noticia: Inauguraron un hospital; Llovió toda la noche en la ciudad; El equipo ganó 3 a 1; Abrieron una biblioteca en la colonia|opinión: Es la mejor escuela del mundo; Considero que hay pocos parques; Ese equipo juega horrible; Creo que la biblioteca es muy bonita
+#4e22
+Z|La <b>entrevista</b> es una conversación para conocer a una persona o saber de un tema.|Se prepara: elijo al entrevistado y el tema, y escribo las <b>preguntas</b>.|Las preguntas <b>abiertas</b> (¿cómo?, ¿por qué?, ¿qué opina?) dan respuestas amplias.|Al escribirla: presentación, preguntas y respuestas, y un cierre agradeciendo.
+E|Abierta: «¿Cómo era su escuela?»|Cerrada: «¿Le gusta su trabajo?»
+S|Quiero entrevistar al panadero del barrio. ¿Qué preguntas preparo?|Pienso qué quiero saber: su oficio y su historia.|Escribo preguntas abiertas: ¿cómo aprendió a hacer pan?, ¿por qué eligió ese oficio?|Las ordeno de lo general a lo particular.|=Preguntas abiertas y ordenadas sobre su oficio y su vida.
+I|🎯 Tema: Qué quiero saber.|❓ Preguntas: Abiertas y ordenadas.|🎙️ Entrevista: Escucho con atención.|🙏 Cierre: Doy las gracias.
+0|V|En una entrevista una persona pregunta y otra responde.
+0|¿Qué hago al terminar una entrevista?|doy las gracias|me voy sin hablar|pido un regalo
+1|¿Cuál es una pregunta cerrada?|¿Tiene hijos?|¿Cómo fue su infancia?|¿Qué opina del barrio?
+1|¿Cómo escucho al entrevistado?|con atención y sin interrumpir|viendo el celular|platicando con otro
+1|F|Las preguntas de una entrevista se inventan en el momento, sin preparar nada.
+1|¿Qué pongo al inicio de la entrevista escrita?|la presentación del entrevistado|el agradecimiento final|las fuentes
+2|¿Por qué convienen las preguntas abiertas?|dan respuestas más completas|se contestan con un sí|son más cortas
+2|¿Qué le preguntaría a un sacerdote sobre su vocación?|¿Cómo supo que Dios lo llamaba?|¿Cuál es su color favorito?|¿Tiene coche?
+2|V|Pedir permiso antes de grabar es una muestra de respeto.
+2|O|Ordena cómo se hace una entrevista|Elegir el tema|Escribir las preguntas|Entrevistar|Escribir la entrevista
+K|«{x}»: ¿pregunta abierta o cerrada?|¿Abierta o cerrada?|abierta: ¿Qué recuerda de su niñez?; ¿Cómo era su escuela?; ¿Por qué eligió su oficio?|cerrada: ¿Le gusta su trabajo?; ¿Nació en este pueblo?; ¿Tiene hermanos?
+#4e23
+Z|<b>Escuchar</b> es poner atención para entender, no solo oír.|Escucha <b>comprensiva</b>: para aprender. <b>Apreciativa</b>: por gusto. <b>Empática</b>: para entender cómo se siente el otro.|Para escuchar bien: miro a los ojos, no interrumpo, pregunto y resumo lo que entendí.|En el <b>diálogo</b> se respetan los turnos.
+E|«Habla, Señor, que tu siervo escucha» (1 Sam 3, 10)|Resumir: «Entonces, lo que dices es…»
+S|Mi amiga me cuenta que se murió su perrito. ¿Cómo la escucho?|Dejo lo que estoy haciendo y la miro.|No la interrumpo ni cambio de tema.|Le digo que entiendo su tristeza y que la acompaño.|=Con escucha empática: atención, silencio y comprensión.
+I|🧠 Comprensiva: Para aprender.|🎵 Apreciativa: Por gusto.|❤️ Empática: Para entender al otro.|👀 Atención: Miro y no interrumpo.
+0|V|Escuchar es más que oír.
+0|¿Qué hago mientras otro habla?|pongo atención|interrumpo|me distraigo
+1|¿Qué escucha uso al oír un cuento por gusto?|la apreciativa|la comprensiva|la empática
+1|¿Para qué resumo lo que entendí?|para comprobar que entendí bien|para presumir|para terminar rápido
+1|F|En un diálogo, todos hablan al mismo tiempo.
+1|¿Qué muestro al mirar a quien me habla?|interés y respeto|aburrimiento|prisa
+2|¿Qué hago si no entendí algo?|pregunto con respeto|me quedo con la duda|me burlo
+2|¿Cómo escucho a Dios en la oración?|en silencio y con el corazón atento|hablando sin parar|pensando en otra cosa
+2|V|Respetar los turnos permite que todos sean escuchados.
+2|¿Qué niño de la Biblia respondió «Habla, Señor, que tu siervo escucha»?|Samuel|David|Moisés
+P|¿Qué escucha uso cuando {x}?||pongo atención en clase = la comprensiva|oigo mi canción favorita = la apreciativa|un amigo me cuenta su tristeza = la empática
+#4e24
+Z|La <b>publicidad</b> de alimentos quiere que compremos: usa personajes, regalos, colores y frases llamativas.|Muchos productos anunciados tienen exceso de azúcar, grasa o sal.|Los <b>sellos negros</b> de la etiqueta advierten esos excesos.|Con la <b>templanza</b> elijo lo que me nutre, no lo que más anuncian.
+E|Sello: «Exceso azúcares»|«Contiene edulcorantes: no recomendable en niños»
+S|Un cereal trae un juguete y tres sellos negros. ¿Lo elijo?|El juguete es un truco para que lo pida.|Los tres sellos advierten excesos que dañan mi salud.|Hay opciones mejores: avena o fruta.|=No: los sellos pesan más que el regalo; elijo algo más sano.
+I|🎁 Regalos: Para que lo pida.|🦸 Personajes: Llaman mi atención.|⬛ Sellos: Advierten excesos.|⚖️ Templanza: Elijo con medida.
+0|V|La publicidad quiere que compremos un producto.
+0|¿Qué advierten los sellos negros?|excesos de azúcar, grasa o sodio|que el producto es nuevo|que está en oferta
+1|¿Por qué algunos productos traen juguetes?|para que los niños los pidan|porque sobran juguetes|para educar
+1|¿Qué leo para saber qué contiene un producto?|la etiqueta|el anuncio|el nombre
+1|F|Si un alimento sale en televisión, seguro es saludable.
+1|¿Qué prefiero para la sed?|agua simple|refresco|bebida energética
+2|¿Qué pienso de un anuncio que promete felicidad por un dulce?|que exagera para vender|que dice la verdad|que debo comprarlo
+2|¿Qué producto es mejor elección?|el que no tiene sellos|el que tiene más sellos|el del personaje famoso
+2|V|La templanza nos ayuda a no dejarnos dominar por los antojos.
+2|¿Qué hago si quiero algo solo porque lo vi en un anuncio?|pienso si de verdad me hace bien|lo exijo a mis papás|hago berrinche
+K|{x}: ¿truco de la publicidad o dato confiable?|¿Truco o dato confiable?|truco: un personaje de caricatura; un juguete de regalo; una frase que promete felicidad; colores muy llamativos|dato confiable: los sellos de advertencia; la lista de ingredientes; la tabla nutrimental; la fecha de caducidad
+#4e25
+Z|La <b>carta formal</b> o <b>solicitud</b> se escribe a una autoridad para pedir o proponer algo.|Lleva lugar y fecha, destinatario, saludo, exposición del asunto, <b>petición</b>, despedida y firma.|Usa <b>lenguaje formal</b>: de «usted», con respeto, sin abreviaturas de chat ni emojis.|Sirve para buscar el bien de todos.
+E|«Estimada directora:»|«Atentamente, los alumnos de 4.º A»
+S|La escuela no tiene botes de basura suficientes. ¿Cómo lo pedimos por carta?|Dirigimos la carta a la directora, con saludo formal.|Explicamos el problema: hay basura en el patio porque faltan botes.|Pedimos con claridad: tres botes más. Agradecemos y firmamos.|=Saludo formal, explicación del problema, petición clara, despedida y firma.
+I|📅 Lugar y fecha: Al inicio.|🙋 Destinatario: La autoridad.|📌 Petición: Clara y respetuosa.|✍️ Firma: Quién solicita.
+0|V|Una solicitud se escribe con respeto.
+0|¿Cuál es una despedida formal?|Atentamente|Bye|Ahí nos vemos
+1|¿Qué es la petición?|lo que se solicita|el saludo|la fecha
+1|¿Cómo me dirijo a la autoridad?|de usted|con apodos|de tú y con bromas
+1|F|En una carta formal conviene escribir «xfa» y «grax».
+1|¿Qué va después del saludo?|la exposición del asunto|la firma|la despedida
+2|¿Cuál es una buena petición?|Le solicitamos atentamente tres botes de basura|Queremos botes de basura y los queremos ya|Ponga botes de basura o nos vamos a enojar
+2|¿Para qué sirve escribir a una autoridad?|para buscar una mejora para todos|para presumir la letra|para quejarse sin proponer
+2|V|Las cartas de san Pablo se leen en la Misa.
+2|O|Ordena las partes de una solicitud|Lugar y fecha|Destinatario y saludo|Asunto y petición|Despedida y firma
+K|«{x}»: ¿lenguaje formal o informal?|¿Formal o informal?|formal: Estimado señor presidente municipal; Le solicitamos atentamente; Agradecemos su atención; Quedamos en espera de su respuesta|informal: ¡Quiubo!; Porfa, échanos la mano; Bye, nos vemos; Oye, tú
+#4e26
+Z|En México se hablan <b>68 lenguas indígenas</b>, además del español.|Las más habladas son el náhuatl, el maya, el tseltal, el tsotsil, el mixteco y el zapoteco.|Muchas están en <b>peligro de desaparecer</b>: hay que valorarlas.|El español tiene <b>variantes</b>: en cada región se dicen las cosas de forma distinta.
+E|Del náhuatl: chocolate, tomate, aguacate|Guajolote o pavo · popote o pajilla
+S|¿Por qué decimos «chocolate» y «tomate»?|Son palabras que no existían en español antes de llegar a América.|Los mexicas llamaban a esas cosas «xocolatl» y «tomatl».|El español las adoptó y hoy se usan en todo el mundo.|=Porque vienen del náhuatl.
+I|🗣️ 68 lenguas: Una riqueza de México.|🌽 Náhuatl: Chocolate, tomate, aguacate.|⚠️ En peligro: Hay que cuidarlas.|🗺️ Variantes: Cada región habla distinto.
+0|V|En México se hablan muchas lenguas indígenas.
+0|¿De qué lengua viene la palabra «chocolate»?|del náhuatl|del inglés|del francés
+1|¿Qué lengua indígena se habla en Yucatán?|el maya|el tarahumara|el otomí
+1|¿Qué es una variante regional?|una forma de hablar propia de un lugar|un error que se comete al hablar|una lengua de un país extranjero
+1|F|Las lenguas indígenas valen menos que el español.
+1|¿Qué palabra viene del náhuatl?|aguacate|zapato|ventana
+2|¿Cómo trato a quien habla una lengua indígena?|con respeto e interés por aprender|con burlas|pidiéndole que no la hable
+2|¿Qué hicieron misioneros como fray Bernardino de Sahagún?|aprendieron náhuatl|prohibieron el náhuatl|olvidaron el español
+2|V|Decir «pavo» en vez de «guajolote» no es un error: es otra variante.
+2|¿Qué pasa cuando una lengua desaparece?|se pierde parte de la cultura|no cambia nada en el mundo|nace otra lengua igual a ella
+P|¿De qué otra manera se le dice a {x}?|En México, ¿qué palabra usamos para {x}?|el guajolote = el pavo|el popote = la pajilla|el elote = el choclo|el camión = el autobús|la alberca = la piscina
+K|{x}: ¿lengua indígena de México o lengua de otro país?|¿Indígena de México o de otro país?|indígena de México: el náhuatl; el maya; el mixteco; el zapoteco; el tsotsil|de otro país: el francés; el japonés; el alemán; el portugués
+#4e27
+Z|Para <b>exponer</b>: preparo un guion, uso apoyo visual y hablo claro.|La exposición tiene introducción, desarrollo y conclusión; al final respondo preguntas.|En la <b>asamblea</b> hay moderador y secretario; se pide la palabra, se dan argumentos y se vota.|Los acuerdos se escriben en un <b>acta</b>.
+E|Moderador: da los turnos|Acta: registro de los acuerdos
+S|En la asamblea del grupo queremos decidir a dónde ir de paseo. ¿Cómo lo hacemos?|El moderador da la palabra a quien levante la mano.|Cada quien propone un lugar y da sus razones.|Votamos y el secretario anota el acuerdo en el acta.|=Proponemos con razones, votamos y lo escribimos en el acta.
+I|🎙️ Moderador: Da los turnos.|📝 Secretario: Escribe el acta.|✋ Turnos: Se pide la palabra.|🗳️ Votación: Decide la mayoría.
+0|V|En la asamblea se respetan los turnos para hablar.
+0|¿Con qué empieza una exposición?|con la introducción|con las preguntas|con la conclusión
+1|¿Qué es un argumento?|una razón que apoya mi propuesta|un grito fuerte para que me oigan|una queja sin ninguna explicación
+1|¿Cómo se decide en una asamblea?|por votación|por sorteo|lo decide el más alto
+1|F|En una asamblea, gana quien interrumpe más.
+1|¿Qué uso para apoyar mi exposición?|un cartel o una maqueta|mi celular con juegos|nada
+2|¿Qué hago si no estoy de acuerdo con una propuesta?|pido la palabra y doy mis razones|grito desde mi lugar|me salgo
+2|¿Por qué se escribe un acta?|para recordar y cumplir los acuerdos|para llenar un cuaderno|para castigar
+2|V|En los concilios, los obispos dialogan guiados por el Espíritu Santo.
+2|O|Ordena una exposición|Introducción|Desarrollo|Conclusión|Preguntas
+P|¿Qué hace {x} en una asamblea?||el moderador = da los turnos para hablar|el secretario = escribe el acta|cada participante = pide la palabra y opina
