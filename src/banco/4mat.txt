@@ -1,0 +1,303 @@
+// Matemáticas 4.º — profundización (pizarrón, ejemplo resuelto, infografía) y preguntas de concepto
+#4m1
+Z|Después del 9 999 viene el <b>10 000</b>; con cinco cifras se llega hasta el 99 999, y luego viene el <b>100 000</b>.|Los lugares son: decenas de millar (DM), unidades de millar (UM), centenas (C), decenas (D) y unidades (U).|Las cifras se separan de <b>tres en tres</b> desde la derecha: 45 308.|Para leer, primero digo los miles y luego el resto.
+E|45 308: cuarenta y cinco mil trescientos ocho|60 040: sesenta mil cuarenta
+S|¿Cómo se escribe «setenta y dos mil quinientos seis»?|Los miles: setenta y dos mil son 72 000.|Lo demás: quinientos seis son 506.|Junto las dos partes: 72 000 + 506.|=72 506.
+I|🔟 10 000: Diez mil, el primer número de cinco cifras.|📍 Lugares: DM, UM, C, D y U.|✂️ Separar: De tres en tres desde la derecha.|🗣️ Leer: Primero los miles, luego el resto.
+0|F|El número 60 040 se lee «seis mil cuarenta».
+1|¿Cómo se escribe «ochenta mil quince»?|80 015|80 150|8 015
+1|¿Qué número va antes de 50 000?|49 999|49 000|50 001
+2|¿Cuántas decenas de millar tiene 73 204?|7|3|73
+2|¿Cómo se lee 99 009?|noventa y nueve mil nueve|noventa y nueve mil noventa|nueve mil novecientos nueve
+2|¿Qué número es mayor?|40 100|39 999|9 999
+#4m2
+Z|El <b>valor</b> de una cifra depende del lugar que ocupa.|En 37 452, el 3 vale 30 000; el 7, 7 000; el 4, 400; el 5, 50; y el 2, 2.|Cada lugar vale <b>diez veces</b> más que el de su derecha.|<b>Descomponer</b> es escribir el número como suma de los valores de sus cifras.
+E|37 452 = 30 000 + 7 000 + 400 + 50 + 2|3 DM + 7 UM + 4 C + 5 D + 2 U
+S|Descompón 58 306.|5 decenas de millar: 50 000. 8 unidades de millar: 8 000.|3 centenas: 300. 0 decenas: no se escribe.|6 unidades: 6.|=50 000 + 8 000 + 300 + 6.
+I|📍 Lugar: Da el valor a la cifra.|✖️ Diez veces: Cada lugar vale 10 veces más.|🧱 Descomponer: Sumar los valores.|0️⃣ El cero: Guarda el lugar vacío.
+0|V|En 24 600, el 4 vale 4 000.
+1|¿Cuánto vale el 9 en 91 200?|90 000|9 000|900
+1|¿Qué número es 60 000 + 500 + 4?|60 504|65 004|60 054
+2|¿En cuál número el 7 vale 700?|12 745|71 245|17 245
+2|¿Cuántas unidades de millar hay en 5 decenas de millar?|50|5|500
+2|¿Qué número tiene 3 DM, 4 C y 2 U?|30 402|34 002|30 420
+#4m3
+Z|Para <b>comparar</b> números con las mismas cifras, empiezo por la izquierda: gana la primera cifra mayor.|Signos: &gt; (mayor que), &lt; (menor que) e = (igual).|Para <b>redondear</b> miro la cifra de la derecha del lugar elegido.|Si es 5 o más, <b>subo</b>; si es menor que 5, me quedo.
+E|48 300 > 47 900|36 700 ≈ 37 000
+S|Ordena de menor a mayor: 45 210, 54 120 y 45 120.|Comparo las decenas de millar: 4, 5 y 4. El mayor es 54 120.|En 45 210 y 45 120, las unidades de millar son iguales (5).|Comparo las centenas: 2 y 1. El menor es 45 120.|=45 120, 45 210, 54 120.
+I|👈 Comparar: Empiezo por la izquierda.|🐊 Signos: Mayor que y menor que.|🎯 Redondear: Miro la cifra siguiente.|⬆️ 5 o más: Subo una unidad.
+0|F|Para redondear a los millares miro la cifra de las unidades.
+1|¿Qué signo va? 60 900 __ 60 090|>|<|=
+1|Redondea 28 300 a la unidad de millar.|28 000|29 000|30 000
+2|Redondea 45 500 a la unidad de millar.|46 000|45 000|50 000
+2|¿Cuál es el mayor?|70 010|69 999|7 999
+2|Redondea 83 000 a la decena de millar.|80 000|90 000|83 000
+#4m4
+Z|Los números <b>romanos</b> usan letras: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 y M = 1 000.|Si una letra menor va <b>después</b>, se suma (VI = 6); si va <b>antes</b>, se resta (IV = 4).|Un <b>siglo</b> son 100 años y se escribe con números romanos.|El año 1810 está en el siglo XIX; el 2026, en el XXI.
+E|IX = 9 · XL = 40 · XC = 90|Siglo XXI: del año 2001 al 2100
+S|¿En qué siglo fue el año 1531?|Tomo las cifras de los cientos: 15.|Como el año no termina en 00, sumo uno: 15 + 1 = 16.|Escribo 16 en romanos: XVI.|=En el siglo XVI.
+I|🔤 Letras: I, V, X, L, C, D y M.|➕ Después: Se suma (XI = 11).|➖ Antes: Se resta (IX = 9).|⏳ Siglo: Cien años.
+0|V|La letra L vale 50.
+1|¿Cuánto vale XC?|90|110|60
+1|¿Cómo se escribe 14 en romanos?|XIV|XVI|XIIII
+2|¿En qué siglo fue el año 1917?|XX|XIX|XVII
+2|¿Cuánto vale CXL?|140|160|104
+2|¿Cuántos años tiene un siglo?|100|10|1 000
+#4m5
+Z|Para <b>sumar</b>, alineo las cifras por columnas y empiezo por las unidades; si paso de 9, <b>llevo</b>.|Para <b>restar</b>, también empiezo por las unidades; si no alcanza, <b>pido prestado</b>.|Compruebo la resta sumando: diferencia + sustraendo = minuendo.|Para saber cuánto falta o cuánto sobra, resto.
+E|25 300 + 4 700 = 30 000|50 000 − 38 450 = 11 550
+S|¿Cuánto es 27 846 + 15 379?|Unidades: 6 + 9 = 15; escribo 5 y llevo 1. Decenas: 4 + 7 + 1 = 12; escribo 2 y llevo 1.|Centenas: 8 + 3 + 1 = 12; escribo 2 y llevo 1. Millares: 7 + 5 + 1 = 13; escribo 3 y llevo 1.|Decenas de millar: 2 + 1 + 1 = 4.|=43 225.
+I|📐 Alinear: Unidades bajo unidades.|➕ Llevar: Cuando paso de 9.|➖ Pedir prestado: Cuando no alcanza.|✔️ Comprobar: Con la operación contraria.
+0|V|En la suma se empieza por las unidades.
+1|35 000 + 15 000 =|50 000|40 000|45 000
+1|80 000 − 30 500 =|49 500|50 500|59 500
+2|¿Cómo compruebo que 7 000 − 2 400 = 4 600?|4 600 + 2 400 = 7 000|7 000 + 2 400 = 9 400|4 600 − 2 400 = 2 200
+2|Una biblioteca tenía 12 500 libros y recibió 3 750. ¿Cuántos tiene ahora?|16 250|15 250|16 750
+2|40 000 − 12 345 =|27 655|28 655|27 765
+#4m6
+Z|Multiplicar por <b>10</b> agrega un cero; por <b>100</b>, dos; por <b>1 000</b>, tres.|45 × 100 = 4 500.|Para multiplicar números que terminan en cero, multiplico las cifras y agrego <b>todos los ceros</b>.|30 × 40: 3 × 4 = 12 y dos ceros: 1 200.
+E|8 × 1 000 = 8 000|70 × 300 = 21 000
+S|¿Cuánto es 400 × 60?|Multiplico las cifras sin ceros: 4 × 6 = 24.|Cuento los ceros: dos de 400 y uno de 60; son tres.|Escribo 24 y agrego tres ceros.|=24 000.
+I|🔟 Por 10: Un cero más.|💯 Por 100: Dos ceros más.|🏔️ Por 1 000: Tres ceros más.|🧮 Con ceros: Multiplico y agrego los ceros.
+0|F|Multiplicar por 100 agrega un solo cero.
+1|36 × 1 000 =|36 000|3 600|360 000
+1|50 × 30 =|1 500|150|15 000
+2|¿Por cuánto multipliqué 27 para obtener 2 700?|por 100|por 10|por 1 000
+2|80 × 500 =|40 000|4 000|400 000
+2|Una caja tiene 100 clips. ¿Cuántos hay en 45 cajas?|4 500|450|45 000
+#4m7
+Z|Para multiplicar por un número de dos cifras, multiplico primero por las <b>unidades</b> y luego por las <b>decenas</b>.|Al multiplicar por las decenas, escribo un <b>cero</b> en el lugar de las unidades.|Sumo los <b>productos parciales</b>.|También puedo descomponer: 150 × 25 = 150 × 20 + 150 × 5.
+E|234 × 26 = 1 404 + 4 680 = 6 084|115 × 14 = 460 + 1 150 = 1 610
+S|¿Cuánto es 243 × 32?|Multiplico por las unidades: 243 × 2 = 486.|Multiplico por las decenas: 243 × 30 = 7 290.|Sumo los productos parciales: 486 + 7 290.|=7 776.
+I|1️⃣ Unidades: Primer producto parcial.|2️⃣ Decenas: Segundo producto, con un cero.|➕ Sumar: Los dos productos.|🧩 Descomponer: Otra manera de multiplicar.
+0|V|Los resultados de multiplicar por cada cifra se llaman productos parciales.
+1|102 × 12 =|1 224|1 124|1 214
+1|En 315 × 24, ¿por cuál cifra multiplico primero?|por el 4|por el 2|por el 3
+2|250 × 16 =|4 000|3 500|4 500
+2|Cada caja trae 144 huevos. ¿Cuántos hay en 25 cajas?|3 600|3 500|2 880
+2|¿Cómo descompongo 120 × 35?|120 × 30 + 120 × 5|120 × 3 + 120 × 5|100 × 35 + 20
+#4m8
+Z|En la <b>división</b>: dividendo ÷ divisor = cociente, y puede sobrar un <b>residuo</b>.|El residuo siempre es <b>menor</b> que el divisor.|Se empieza por la cifra de la izquierda del dividendo.|Se comprueba así: cociente × divisor + residuo = dividendo.
+E|157 ÷ 6 = 26 y sobra 1|26 × 6 + 1 = 157
+S|¿Cuánto es 238 ÷ 5?|Tomo 23: el 5 cabe 4 veces (4 × 5 = 20) y sobran 3.|Bajo el 8 y queda 38: el 5 cabe 7 veces (7 × 5 = 35) y sobran 3.|Compruebo: 47 × 5 + 3 = 238.|=47, con residuo 3.
+I|🍰 Dividendo: Lo que se reparte.|👥 Divisor: Entre cuántos se reparte.|🎁 Cociente: Lo que toca a cada uno.|🧩 Residuo: Lo que sobra.
+0|V|El dividendo es el número que se reparte.
+1|72 ÷ 9 =|8|9|7
+1|¿Cómo se llama el resultado de la división?|cociente|residuo|divisor
+2|125 ÷ 5 =|25|20|15
+2|Reparto 50 canicas entre 6 niños por igual. ¿Cuántas sobran?|2|8|6
+2|Si el divisor es 4, ¿cuál residuo es imposible?|5|3|0
+#4m9
+Z|Con divisor de <b>dos cifras</b>, busco cuántas veces cabe en las primeras cifras del dividendo.|Multiplico, resto y <b>bajo</b> la siguiente cifra.|Para calcular rápido, <b>estimo</b> redondeando el divisor: 23 es casi 20.|Compruebo multiplicando el cociente por el divisor.
+E|264 ÷ 12 = 22|375 ÷ 15 = 25
+S|¿Cuánto es 456 ÷ 12?|Tomo 45: el 12 cabe 3 veces (3 × 12 = 36) y sobran 9.|Bajo el 6 y queda 96: el 12 cabe 8 veces (8 × 12 = 96) y sobra 0.|Compruebo: 38 × 12 = 456.|=38.
+I|🔎 Probar: ¿Cuántas veces cabe?|✖️ Multiplicar y restar: Para ver cuánto sobra.|⬇️ Bajar: La siguiente cifra.|🎯 Estimar: Redondear el divisor.
+0|F|En 264 ÷ 12, el divisor es 264.
+1|240 ÷ 20 =|12|20|120
+1|Para estimar 189 ÷ 21, redondeo el divisor a…|20|10|30
+2|625 ÷ 25 =|25|20|30
+2|Hay 360 sillas en filas de 15. ¿Cuántas filas son?|24|20|26
+2|¿Cuántas veces cabe 12 en 60?|5|6|4
+#4m10
+Z|Los <b>múltiplos</b> de un número son los resultados de multiplicarlo: los de 4 son 4, 8, 12, 16, 20…|Un <b>divisor</b> de un número lo divide sin dejar residuo: los de 12 son 1, 2, 3, 4, 6 y 12.|Los números pares son múltiplos de 2.|Los que terminan en 0 o en 5 son múltiplos de 5; los que terminan en 0, de 10.
+E|Múltiplos de 6: 6, 12, 18, 24, 30…|Divisores de 18: 1, 2, 3, 6, 9 y 18
+S|¿30 es múltiplo de 6?|Busco si 6 multiplicado por algún número da 30.|6 × 5 = 30.|También puedo dividir: 30 ÷ 6 = 5, sin residuo.|=Sí, porque 6 × 5 = 30.
+I|✖️ Múltiplos: Salen de multiplicar.|➗ Divisores: Dividen sin residuo.|2️⃣ De 2: Terminan en cifra par.|5️⃣ De 5: Terminan en 0 o en 5.
+0|V|Todos los números pares son múltiplos de 2.
+1|¿Cuál es múltiplo de 6?|42|32|26
+1|¿Cuál es divisor de 20?|5|6|8
+2|¿Qué número es múltiplo de 2 y de 5 a la vez?|30|25|12
+2|¿Cuál NO es divisor de 24?|5|8|12
+2|¿Cuáles son los cinco primeros múltiplos de 7?|7, 14, 21, 28 y 35|7, 12, 17, 22 y 27|1, 7, 14, 28 y 49
+#4m11
+Z|El <b>valor unitario</b> es lo que vale una sola cosa.|Se obtiene dividiendo el total entre la cantidad: si 3 cuadernos cuestan $45, uno cuesta $15.|Con el valor unitario calculo cualquier cantidad <b>multiplicando</b>.|En una relación <b>proporcional</b>, si una cantidad se duplica, la otra también.
+E|1 cuaderno: $15 · 7 cuadernos: $105|Doble de cosas, doble de precio
+S|8 boletos cuestan $96. ¿Cuánto cuestan 5 boletos?|Busco el valor unitario: 96 ÷ 8 = 12 pesos por boleto.|Multiplico por la cantidad que quiero: 5 × 12.|5 × 12 = 60.|=$60.
+I|1️⃣ Valor unitario: Lo que vale uno.|➗ Dividir: Total entre cantidad.|✖️ Multiplicar: Uno por los que quiero.|📊 Tabla: Ayuda a ver la proporción.
+0|F|Si 2 jugos cuestan $20, entonces 4 jugos cuestan $30.
+1|5 plumas cuestan $35. ¿Cuánto cuesta una?|$7|$5|$30
+1|Una paleta cuesta $9. ¿Cuánto cuestan 6?|$54|$15|$45
+2|3 kg de frijol cuestan $90. ¿Cuánto cuestan 7 kg?|$210|$180|$270
+2|10 canicas cuestan $20. ¿Cuánto cuestan 25?|$50|$45|$40
+2|¿Cómo calculo el valor unitario?|divido el total entre la cantidad|multiplico el total por la cantidad|sumo el total y la cantidad
+#4m12
+Z|Las <b>fracciones equivalentes</b> se escriben distinto, pero valen lo mismo: 1/2 = 2/4 = 4/8.|Se obtienen <b>multiplicando</b> o <b>dividiendo</b> el numerador y el denominador por el mismo número.|<b>Simplificar</b> es dividir los dos entre un mismo número.|En la recta numérica, las equivalentes caen en el mismo punto.
+E|2/3 = 4/6 = 6/9|4/8 = 1/2
+S|Simplifica 6/8.|Busco un número que divida a 6 y a 8: el 2.|Divido: 6 ÷ 2 = 3 y 8 ÷ 2 = 4.|3 y 4 ya no tienen un divisor común mayor que 1.|=3/4.
+I|🟰 Equivalentes: Valen lo mismo.|✖️ Amplificar: Multiplico arriba y abajo.|➗ Simplificar: Divido arriba y abajo.|📏 Recta: Caen en el mismo punto.
+0|V|2/3 y 4/6 valen lo mismo.
+1|¿Qué fracción es igual a 2/5?|4/10|2/10|5/2
+1|Simplifica 3/9.|1/3|1/9|3/3
+2|¿Qué número falta? 3/4 = __/12|9|6|8
+2|¿Cuál es equivalente a 1/4?|3/12|3/4|2/6
+2|Comí 2/4 de pizza y mi hermano comió 1/2. ¿Quién comió más?|comimos lo mismo|yo comí más|mi hermano comió más
+#4m13
+Z|Para sumar o restar fracciones con el <b>mismo denominador</b>, sumo o resto los numeradores.|El denominador <b>no cambia</b>: 2/8 + 3/8 = 5/8.|Cuando el numerador es igual al denominador, tengo <b>un entero</b>: 8/8 = 1.|Si el numerador es mayor, hay más de un entero: 5/4 = 1 entero y 1/4.
+E|7/10 − 3/10 = 4/10|6/6 = 1 entero
+S|Ana comió 3/8 de pizza y Luis 4/8. ¿Cuánto comieron entre los dos y cuánto queda?|Sumo los numeradores: 3 + 4 = 7. El denominador sigue siendo 8: 7/8.|La pizza completa son 8/8.|Resto: 8/8 − 7/8 = 1/8.|=Comieron 7/8 y queda 1/8.
+I|➕ Sumar: Solo los numeradores.|➖ Restar: Solo los numeradores.|🔒 Denominador: No cambia.|🍕 Entero: Cuando son iguales, 8/8 = 1.
+0|F|Al sumar 2/7 + 3/7 se suman también los denominadores.
+1|4/9 + 3/9 =|7/9|7/18|1/9
+1|5/6 − 2/6 =|3/6|3/12|7/6
+2|¿A cuánto equivale 7/4?|1 entero y 3/4|7 enteros|4 enteros y 1/7
+2|1/5 + 2/5 + 2/5 =|un entero|5/15|4/5
+2|Tenía 9/10 de un pastel y regalé 4/10. ¿Cuánto queda?|5/10|13/10|5/20
+#4m14
+Z|Para hallar la <b>fracción de una cantidad</b>, divido entre el denominador y multiplico por el numerador.|3/4 de 20: 20 ÷ 4 = 5 y 5 × 3 = 15.|La mitad es 1/2; la tercera parte, 1/3; la cuarta parte, 1/4.|Sirve para repartir, medir y calcular tiempos y dinero.
+E|1/2 de 30 pesos: 15 pesos|1/3 de 60 minutos: 20 minutos
+S|¿Cuánto es 3/5 de 40?|Divido entre el denominador: 40 ÷ 5 = 8. Eso vale un quinto.|Multiplico por el numerador: 8 × 3.|8 × 3 = 24.|=24.
+I|➗ Primero: Divido entre el denominador.|✖️ Después: Multiplico por el numerador.|🍰 Mitad: Un medio.|⏰ Un cuarto de hora: 15 minutos.
+0|V|Un tercio de 60 minutos son 20 minutos.
+1|1/5 de 25 =|5|20|125
+1|La mitad de 90 =|45|40|180
+2|2/3 de 18 =|12|6|9
+2|3/4 de 100 =|75|25|34
+2|De 24 alumnos, 1/4 usa lentes. ¿Cuántos usan lentes?|6|4|8
+#4m15
+Z|Si parto un entero en 10 partes, cada una es un <b>décimo</b> (0.1); en 100 partes, un <b>centésimo</b> (0.01).|El <b>punto decimal</b> separa los enteros de los decimales: 3.25 son 3 enteros y 25 centésimos.|Para comparar, miro primero los enteros, luego los décimos y después los centésimos.|2.7 es mayor que 2.65 porque 7 décimos es más que 6 décimos.
+E|0.5 = 5 décimos = 1/2|6.04: seis enteros, cuatro centésimos
+S|Ordena de menor a mayor: 1.4, 1.35 y 1.09.|Los enteros son iguales (1): comparo los décimos: 4, 3 y 0.|El menor es 1.09, porque tiene 0 décimos; sigue 1.35, con 3 décimos.|El mayor es 1.4, con 4 décimos.|=1.09, 1.35, 1.4.
+I|🔟 Décimo: Una de 10 partes (0.1).|💯 Centésimo: Una de 100 partes (0.01).|⚫ Punto: Separa enteros y decimales.|⚖️ Comparar: Enteros, décimos y centésimos.
+0|F|0.3 es menor que 0.25.
+1|¿Cómo se escribe «cuatro décimos»?|0.4|0.04|4.0
+1|¿Cómo se lee 2.75?|dos enteros, setenta y cinco centésimos|dos enteros, setenta y cinco décimos|veintisiete enteros, cinco décimos
+2|¿Cuál es mayor?|3.5|3.49|3.05
+2|¿Cuántos décimos hay en un entero?|10|100|1
+2|¿Qué decimal es igual a 1/2?|0.5|0.2|1.2
+#4m16
+Z|Para sumar o restar <b>decimales</b>, alineo el <b>punto</b> y opero como con los enteros.|Si hace falta, completo con ceros: 7.5 es 7.50.|El punto del resultado queda en la misma columna.|Con dinero: $1 = 100 centavos; $12.50 son doce pesos con cincuenta centavos.
+E|18.54 + 5.17 = 23.71|$20.00 − $16.25 = $3.75
+S|Compro un cuaderno de $24.50 y una pluma de $8.75, y pago con $50. ¿Cuánto me dan de cambio?|Sumo lo que compré, alineando el punto: 24.50 + 8.75 = 33.25.|Resto del billete: 50.00 − 33.25.|50.00 − 33.25 = 16.75.|=$16.75.
+I|⚫ Alinear: Punto bajo punto.|0️⃣ Completar: Con ceros a la derecha.|💵 Pesos: Antes del punto.|🪙 Centavos: Después del punto.
+0|V|Un peso es igual a 100 centavos.
+1|2.5 + 1.25 =|3.75|3.30|37.5
+1|$20.00 − $7.50 =|$12.50|$13.50|$27.50
+2|4.8 − 1.35 =|3.45|3.55|3.13
+2|¿Cuánto cuestan tres chocolates de $6.50 cada uno?|$19.50|$18.50|$13.00
+2|Tengo $50 y gasto $18.25 y $12.50. ¿Cuánto me queda?|$19.25|$20.25|$30.75
+#4m17
+Z|Un <b>ángulo</b> es la abertura entre dos líneas que se juntan en un punto llamado <b>vértice</b>.|Se mide en <b>grados</b> (°) con el transportador.|<b>Recto</b>: 90°. <b>Agudo</b>: menos de 90°. <b>Obtuso</b>: más de 90° y menos de 180°. <b>Llano</b>: 180°.|La esquina de una hoja forma un ángulo recto.
+E|45°: agudo · 120°: obtuso|Las manecillas a las 3:00 forman 90°
+S|¿Qué ángulos forman las manecillas del reloj a las 3:00 y a las 6:00?|A las 3:00, una apunta al 12 y la otra al 3: forman una esquina.|Esa abertura mide 90°: es un ángulo recto.|A las 6:00 apuntan al 12 y al 6: forman una línea, 180°.|=A las 3:00, un ángulo recto; a las 6:00, uno llano.
+I|📐 Recto: Mide 90°.|✂️ Agudo: Menos de 90°.|🪭 Obtuso: Entre 90° y 180°.|➖ Llano: Mide 180°.
+0|V|Un ángulo llano mide 180°.
+1|Un ángulo de 30° es…|agudo|obtuso|recto
+1|¿Cómo se llama el punto donde se juntan los lados de un ángulo?|vértice|arista|radio
+2|Un ángulo de 95° es…|obtuso|agudo|recto
+2|¿Cuántos grados suman dos ángulos rectos?|180°|90°|360°
+2|¿Qué ángulo forma la esquina de una hoja de papel?|recto|agudo|llano
+#4m18
+Z|Las rectas <b>paralelas</b> nunca se juntan; las <b>perpendiculares</b> se cortan formando ángulos rectos.|Los <b>cuadriláteros</b> tienen cuatro lados.|<b>Cuadrado</b>: 4 lados iguales y 4 ángulos rectos. <b>Rectángulo</b>: lados opuestos iguales y 4 ángulos rectos.|<b>Rombo</b>: 4 lados iguales. <b>Trapecio</b>: un solo par de lados paralelos.
+E|Vías del tren: paralelas|Una cruz: perpendiculares
+S|¿En qué se parecen y en qué se distinguen un cuadrado y un rombo?|Los dos tienen cuatro lados iguales.|El cuadrado tiene, además, sus cuatro ángulos rectos.|El rombo puede tener ángulos que no son rectos.|=Se parecen en sus 4 lados iguales; el cuadrado tiene además 4 ángulos rectos.
+I|🛤️ Paralelas: Nunca se juntan.|➕ Perpendiculares: Forman ángulos rectos.|🟦 Cuadrado: 4 lados iguales y 4 rectos.|🔷 Rombo: 4 lados iguales.
+0|F|Las rectas paralelas se cruzan en un punto.
+1|¿Qué cuadrilátero tiene 4 lados iguales y 4 ángulos rectos?|el cuadrado|el trapecio|el rectángulo
+1|¿Cómo son las dos líneas de una cruz?|perpendiculares|paralelas|curvas
+2|¿Qué figura tiene lados opuestos iguales y 4 ángulos rectos?|el rectángulo|el trapecio|el triángulo
+2|¿Cuántos pares de lados paralelos tiene un trapecio?|uno|dos|ninguno
+2|¿Cómo son los renglones de un cuaderno?|paralelos|perpendiculares|diagonales
+0|V|Un rectángulo tiene cuatro ángulos rectos.
+1|¿Qué cuadrilátero puede tener ángulos que no son rectos?|el rombo|el cuadrado|el rectángulo
+1|¿Qué forman dos calles que se cruzan en esquina recta?|rectas perpendiculares|rectas paralelas|rectas curvas
+2|Vista de frente, ¿qué cuadrilátero forma una portería de futbol?|un rectángulo|un rombo|un trapecio
+#4m19
+Z|Por sus <b>lados</b>, un triángulo es equilátero (3 iguales), isósceles (2 iguales) o escaleno (todos diferentes).|Por sus <b>ángulos</b>, es rectángulo (un ángulo recto), acutángulo (tres agudos) u obtusángulo (uno obtuso).|Los tres ángulos de cualquier triángulo suman <b>180°</b>.|En el equilátero, cada ángulo mide 60°.
+E|60° + 60° + 60° = 180°|90° + 30° + 60° = 180°
+S|Un triángulo tiene ángulos de 50° y 70°. ¿Cuánto mide el tercero y qué tipo de triángulo es?|Los tres ángulos suman 180°.|Sumo los que conozco: 50 + 70 = 120. Resto: 180 − 120 = 60.|Los tres ángulos (50°, 70° y 60°) son agudos.|=Mide 60°: es un triángulo acutángulo.
+I|🔺 Equilátero: Tres lados iguales.|📐 Isósceles: Dos lados iguales.|📏 Escaleno: Tres lados distintos.|🔢 180°: La suma de sus ángulos.
+0|V|Un triángulo escaleno tiene sus tres lados diferentes.
+1|¿Cuántos lados iguales tiene un triángulo isósceles?|dos|tres|ninguno
+1|¿Cómo se llama el triángulo que tiene un ángulo obtuso?|obtusángulo|acutángulo|rectángulo
+2|Dos ángulos de un triángulo miden 40° y 50°. ¿Cuánto mide el tercero?|90°|80°|100°
+2|¿Puede un triángulo tener dos ángulos rectos?|no: ya sumarían 180°|sí, si es muy grande|sí, si es equilátero
+2|¿Cuánto mide cada ángulo de un triángulo equilátero?|60°|90°|45°
+0|F|Un triángulo equilátero tiene todos sus lados diferentes.
+1|¿Cómo se llama el triángulo con sus tres ángulos agudos?|acutángulo|obtusángulo|rectángulo
+1|Un triángulo con lados de 5 cm, 5 cm y 8 cm es…|isósceles|equilátero|escaleno
+2|En un triángulo rectángulo, un ángulo agudo mide 35°. ¿Cuánto mide el otro?|55°|65°|45°
+#4m20
+Z|Los <b>cuerpos geométricos</b> tienen caras, aristas (bordes) y vértices (esquinas).|Los <b>prismas</b> tienen dos bases iguales; las <b>pirámides</b>, una base y caras triangulares que se juntan en una punta.|Un <b>cubo</b> tiene 6 caras, 12 aristas y 8 vértices.|El <b>desarrollo plano</b> es el cuerpo «desarmado» y extendido.
+E|Esfera: sin caras planas ni vértices|Caja de zapatos: prisma rectangular
+S|¿Cuántas caras, vértices y aristas tiene una pirámide de base cuadrada?|Caras: la base cuadrada y 4 triángulos; son 5.|Vértices: 4 de la base y la punta; son 5.|Aristas: 4 de la base y 4 que suben a la punta; son 8.|=5 caras, 5 vértices y 8 aristas.
+I|🧊 Cubo: 6 caras cuadradas.|📦 Prisma: Dos bases iguales.|🔺 Pirámide: Una base y una punta.|⚽ Esfera: Sin caras planas.
+0|F|Una pirámide tiene dos bases iguales.
+1|¿Cuántas aristas tiene un cubo?|12|8|6
+1|¿Qué forma tienen las caras de un cubo?|cuadrada|triangular|circular
+2|¿Qué cuerpo tiene dos bases circulares?|el cilindro|el cono|la esfera
+2|¿Cuántas caras tiene un prisma triangular?|5|3|6
+2|¿Qué obtengo si desarmo una caja y la extiendo?|su desarrollo plano|su volumen|su perímetro
+#4m21
+Z|El <b>perímetro</b> es la medida del contorno: se suman todos los lados.|El <b>área</b> es la medida de la superficie: cuántos cuadritos caben.|Área del rectángulo: largo × ancho. Área del cuadrado: lado × lado.|El perímetro se mide en cm o m; el área, en <b>unidades cuadradas</b> (cm², m²).
+E|Rectángulo de 8 × 5: perímetro 26 cm, área 40 cm²|Cuadrado de 7 cm: área 49 cm²
+S|Un jardín rectangular mide 9 m de largo y 4 m de ancho. ¿Cuánta malla necesito para cercarlo y cuánto pasto para cubrirlo?|La malla va en el contorno: es el perímetro. 9 + 4 + 9 + 4 = 26 m.|El pasto cubre la superficie: es el área. 9 × 4 = 36 m².|Reviso las unidades: metros para la malla y metros cuadrados para el pasto.|=26 m de malla y 36 m² de pasto.
+I|🔲 Perímetro: El contorno.|🟩 Área: La superficie.|✖️ Rectángulo: Largo por ancho.|📐 Unidades: cm y cm².
+0|V|El perímetro es la medida del contorno.
+1|Perímetro de un rectángulo de 10 cm por 4 cm:|28 cm|14 cm|40 cm
+1|Área de un cuadrado de 6 cm de lado:|36 cm²|24 cm²|12 cm²
+2|Para saber cuánto piso necesita un cuarto, calculo…|el área|el perímetro|la altura
+2|Un rectángulo tiene 24 cm² de área y 8 cm de largo. ¿Cuánto mide de ancho?|3 cm|4 cm|16 cm
+2|Un cuadrado tiene 36 cm de perímetro. ¿Cuánto mide su lado?|9 cm|6 cm|12 cm
+#4m22
+Z|<b>Longitud</b>: 1 km = 1 000 m; 1 m = 100 cm; 1 cm = 10 mm.|<b>Masa</b>: 1 kg = 1 000 g; 1 tonelada = 1 000 kg.|<b>Capacidad</b>: 1 l = 1 000 ml.|Para pasar de una unidad grande a una pequeña, <b>multiplico</b>; de una pequeña a una grande, <b>divido</b>.
+E|2.5 km = 2 500 m|3 1/2 kg = 3 500 g
+S|¿Cuántos metros son 4 km y 250 m?|Cada kilómetro tiene 1 000 m: 4 × 1 000 = 4 000 m.|Le sumo los 250 m que ya tenía.|4 000 + 250 = 4 250.|=4 250 m.
+I|📏 Longitud: km, m, cm y mm.|⚖️ Masa: t, kg y g.|🥛 Capacidad: l y ml.|🔁 Convertir: Multiplico o divido.
+0|F|Un kilogramo tiene 100 gramos.
+1|¿Cuántos milímetros tiene 1 cm?|10|100|1 000
+1|3 l son…|3 000 ml|300 ml|30 ml
+2|1 500 g son…|1.5 kg|15 kg|0.15 kg
+2|¿Qué unidad uso para medir el largo de una hormiga?|milímetros|kilómetros|metros
+2|Una jarra de 2 l llena vasos de 250 ml. ¿Cuántos vasos llena?|8|4|10
+#4m23
+Z|1 hora = 60 minutos; 1 minuto = 60 segundos; 1 día = 24 horas.|1 año = 365 días (366 si es bisiesto); 1 siglo = 100 años.|Para calcular una <b>duración</b>, sumo o resto horas y minutos por separado.|Cuando los minutos pasan de 60, completo una hora.
+E|10:30 + 1 h 15 min = 11:45|2 h 20 min = 140 minutos
+S|La película empieza a las 4:40 y dura 1 h 35 min. ¿A qué hora termina?|Sumo primero la hora: 4:40 + 1 h = 5:40.|Sumo los 35 minutos: de 5:40 a 6:00 son 20 minutos.|Me faltan 15 minutos: 6:00 + 15 min.|=A las 6:15.
+I|⏱️ Minuto: 60 segundos.|🕐 Hora: 60 minutos.|📅 Año: 365 días.|⏳ Siglo: 100 años.
+0|V|Un año bisiesto tiene 366 días.
+1|¿Cuántos segundos tiene un minuto?|60|100|24
+1|¿Cuántas horas tienen 2 días?|48|24|12
+2|De 7:50 a 8:30 pasan…|40 minutos|80 minutos|20 minutos
+2|¿Cuántos minutos son 1 h 45 min?|105|145|85
+2|La clase empieza a las 8:15 y dura 50 minutos. ¿A qué hora termina?|9:05|8:55|9:15
+#4m24
+Z|Una figura es <b>simétrica</b> si al doblarla por una línea sus dos mitades coinciden.|Esa línea es el <b>eje de simetría</b>.|Un cuadrado tiene 4 ejes; un rectángulo, 2; un triángulo equilátero, 3; un círculo, infinitos.|Hay simetría en mariposas, hojas, bordados y rosetones.
+E|Letras simétricas: A, M, T|Un espejo muestra la otra mitad
+S|¿Tiene ejes de simetría la letra H?|La doblo por una línea vertical en el centro: las dos mitades coinciden.|La doblo por una línea horizontal en el centro: también coinciden.|Entonces tiene dos ejes.|=Sí: dos, uno vertical y otro horizontal.
+I|🦋 Simetría: Dos mitades iguales.|📏 Eje: La línea del doblez.|🟦 Cuadrado: 4 ejes.|⭕ Círculo: Infinitos ejes.
+0|F|Todas las figuras tienen eje de simetría.
+1|¿Qué es el eje de simetría?|la línea que divide en dos mitades iguales|el borde que rodea a la figura|el punto que está en el centro
+1|¿Cuál de estas letras es simétrica?|M|F|G
+2|¿Cuántos ejes de simetría tiene un triángulo isósceles?|1|3|0
+2|¿Qué letra NO tiene eje de simetría?|R|O|T
+2|¿Dónde veo simetría en una iglesia?|en el rosetón de la fachada|en una mancha de la pared|en un montón de piedras
+0|V|Al doblar una figura simétrica por su eje, las dos mitades coinciden.
+1|¿Cuántos ejes de simetría tiene un rectángulo?|2|4|1
+1|¿Qué animal muestra simetría en sus alas?|la mariposa|el caracol|la lombriz
+2|Tengo dibujada media mariposa junto al eje. ¿Cómo la completo?|trazo la otra mitad como en un espejo|copio la misma mitad sin voltearla|borro la mitad y empiezo de nuevo
+#4m25
+Z|Una <b>tabla</b> ordena los datos en filas y columnas.|Una <b>gráfica de barras</b> los muestra con barras: la más alta es el dato mayor.|Para leerla miro el <b>título</b>, los <b>ejes</b> y la <b>escala</b>.|La <b>frecuencia</b> es el número de veces que aparece un dato.
+E|Escala de 2 en 2: cada marca vale 2|Título: «Fruta favorita del grupo»
+S|En la gráfica, futbol tiene 12 votos; básquetbol, 7; y natación, 5. ¿Cuántos niños votaron y cuál deporte ganó?|Sumo las frecuencias: 12 + 7 + 5 = 24.|Comparo: 12 es la mayor.|La barra más alta es la del futbol.|=Votaron 24 niños y ganó el futbol.
+I|📋 Tabla: Filas y columnas.|📊 Barras: Comparan cantidades.|🏷️ Título y ejes: Dicen de qué trata.|🔢 Frecuencia: Cuántas veces aparece.
+0|V|Una tabla ordena los datos en filas y columnas.
+1|¿Qué indica la altura de una barra?|la cantidad de ese dato|el nombre de ese dato|el color favorito
+1|¿Qué leo primero en una gráfica?|el título|la barra más baja|los colores
+2|Si «manzana» tiene 8 votos y «pera» tiene 3, ¿cuántos más tiene manzana?|5|11|3
+2|¿Para qué sirve la escala de una gráfica?|para saber cuánto vale cada marca|para adornar el eje vertical|para elegir los colores
+2|En una encuesta: perro 9, gato 6 y pez 2. ¿Cuántos respondieron?|17|15|9
+0|F|En una gráfica de barras, la barra más baja representa el dato mayor.
+1|¿Dónde se escriben los nombres de lo que se compara?|en uno de los ejes|en el título|en la escala
+1|Cada marca de la escala vale 2. ¿Cuánto vale una barra que llega a la cuarta marca?|8|4|6
+2|Lunes: 4 libros; martes: 6; miércoles: 2. ¿Qué día se leyeron más libros?|el martes|el lunes|el miércoles
+#4m26
+Z|La <b>moda</b> es el dato que más se repite.|Un suceso es <b>seguro</b> si siempre pasa, <b>imposible</b> si nunca pasa y <b>probable</b> si puede pasar.|Es <b>más probable</b> lo que tiene más casos a favor.|En una bolsa con 7 canicas rojas y 1 azul, es más probable sacar una roja.
+E|Datos 4, 7, 4, 9, 4: la moda es 4|Seguro: que mañana salga el Sol
+S|En una bolsa hay 5 canicas verdes, 2 rojas y 1 azul. ¿Qué color es más probable sacar y cuál es menos probable?|Cuento cuántas hay de cada color: 5, 2 y 1.|La mayor cantidad es de verdes: es el color más probable.|La menor cantidad es de azules: es el menos probable.|=Más probable, verde; menos probable, azul.
+I|🔁 Moda: El dato más repetido.|✅ Seguro: Siempre pasa.|❌ Imposible: Nunca pasa.|🎲 Probable: Puede pasar.
+0|F|Si un dato aparece una sola vez, seguro es la moda.
+1|Moda de 5, 8, 8, 9, 8:|8|5|9
+1|Al lanzar un dado, ¿qué es imposible?|sacar un 7|sacar un 6|sacar un 1
+2|En una bolsa hay 4 canicas rojas y 4 azules. ¿Qué es más probable sacar?|es igual de probable|una roja|una azul
+2|Tallas de zapato: 20, 21, 21, 22, 21, 20. ¿Cuál es la moda?|21|20|22
+2|En una bolsa solo hay canicas verdes. Sacar una verde es…|seguro|imposible|poco probable
