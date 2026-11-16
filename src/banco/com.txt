@@ -1,0 +1,259 @@
+// Primera Comunión (catecismo) — banco ampliado (preguntas y tablas)
+#pc13
+2|Una casa tiene un constructor. ¿Quién es el Autor del cielo y del mar?|Dios|nadie: aparecieron solos|un pintor famoso
+2|¿Qué dice Dios en Jeremías 31, 3?|«Con amor eterno te he amado»|«No te conozco»|«Pórtate bien o me voy»
+P|¿Qué quiere decir que Dios es {x}?||eterno = que no tiene principio ni fin|todopoderoso = que lo puede todo|uno = que no hay otros dioses|Amor = que todo lo hace por amor|Creador = que hizo todo lo que existe
+#pc1
+0|¿Quién es la primera Persona de la Trinidad?|el Padre|el Hijo|el Espíritu Santo
+1|¿Qué Persona vive en nuestro corazón y nos da fuerza?|el Espíritu Santo|el Padre|el Hijo
+1|¿A qué Persona decimos «Creador»?|al Padre|a san Patricio|a san José
+2|¿Por qué creemos en la Trinidad aunque no la entendamos del todo?|porque Dios nos la ha revelado|porque la inventó un sabio|porque sale en un cuento
+2|¿Cuántas hojas tiene el trébol de san Patricio?|tres|una|siete
+2|¿Las tres Personas son tres dioses?|no: son un solo Dios|sí: son tres dioses|a veces sí y a veces no
+P|¿Qué decimos de {x}?||Dios Padre = que nos creó|Dios Hijo = que se hizo hombre para salvarnos|Dios Espíritu Santo = que vive en nuestro corazón y nos da fuerza
+#pc14
+2|¿Qué arcángel lleva los mensajes de Dios?|Gabriel|Miguel|Rafael
+2|Completa: «No me dejes solo, que me…»|perdería|dormiría|cansaría
+P|¿Qué hace el arcángel {x}?|¿Qué arcángel {x}?|Miguel = defiende del mal|Gabriel = anuncia los mensajes de Dios|Rafael = sana y acompaña
+#pc2
+0|¿Cómo se llamaba el jardín donde vivían Adán y Eva?|el Paraíso|el Sinaí|Belén
+0|F|Después del pecado, Dios dejó de querernos.
+1|¿Qué pecado rompe la amistad con Dios?|el mortal|el venial|ninguno
+1|¿Con qué pecado nacemos todos?|con el pecado original|con el pecado venial|con ninguno
+1|¿Qué es una omisión?|dejar de hacer el bien que debía|decir una grosería muy fea|pensar algo malo de alguien
+2|¿Qué necesita un pecado para ser mortal?|ser grave, saberlo y quererlo|que alguien me vea|que sea de noche
+2|¿De cuántas maneras podemos pecar?|de cuatro: pensamiento, palabra, obra y omisión|de una sola: con las manos y los pies|de dos: gritando fuerte y corriendo
+2|¿Qué hace el pecado venial?|lastima la amistad con Dios|la rompe por completo|la hace más fuerte
+K|{x}: ¿pecado de pensamiento, de palabra o de obra?|¿De pensamiento, de palabra o de obra?|pensamiento: desearle un mal a alguien; pensar con rencor en vengarme|palabra: decir mentiras; insultar a un compañero; contar chismes|obra: pegarle a mi hermano; tomar lo que no es mío; romper algo a propósito
+#pc15
+1|¿Quién recibió de Dios la Ley en el Sinaí?|Moisés|Noé|David
+2|¿En qué libro está la primera promesa de un Salvador?|en el Génesis|en el Apocalipsis|en los Hechos
+P|¿Qué hizo {x}?|¿Quién {x}?|Noé = construyó el arca|Abraham = confió y salió de su tierra|Moisés = recibió la Ley de Dios|David = fue rey y escribió salmos|Isaías = anunció que una virgen daría a luz
+#pc16
+1|¿Cuántas veces al día se reza el Ángelus?|tres|una|siete
+2|¿Cuánto falta del 25 de marzo a la Navidad?|nueve meses|un mes|tres días
+2|¿Qué significa que Jesús es «verdadero Dios y verdadero hombre»?|que es Dios y también hombre como nosotros|que es mitad Dios y mitad hombre|que solo parece hombre, pero no lo es
+#pc17
+1|¿Quiénes avisaron a los pastores?|los ángeles|los Magos|los soldados
+2|Completa: «Jesús crecía en sabiduría, en estatura y en…»|gracia|riqueza|fama
+#pc18
+1|¿Cuál es una parábola de Jesús?|el sembrador|el arca de Noé|David y Goliat
+2|¿Qué dijo Jesús de los niños?|«Dejen que los niños vengan a mí»|«Que los niños no hagan ruido»|«Los niños, hasta que crezcan»
+2|¿Qué significa «conviértanse»?|cambien su vida y vuelvan a Dios|cambien de casa y de ciudad|cámbiense de ropa y zapatos
+#pc3
+0|¿Dónde murió Jesús para salvarnos?|en la cruz|en una barca|en el Templo
+1|¿Cuántos días después de resucitar subió Jesús al cielo?|cuarenta|tres|diez
+1|¿Qué oración dice todo lo que creemos los católicos?|el Credo|el Ángelus|el Gloria
+1|¿Sobre quiénes vino el Espíritu Santo en Pentecostés?|sobre los apóstoles y la Virgen María|sobre los pastores de Belén|sobre los Reyes Magos
+2|¿Cuántos días después de la Ascensión fue Pentecostés?|diez|cuarenta|tres
+2|¿Qué nos abrió Jesús con su muerte y resurrección?|las puertas del cielo|las puertas del Templo|un camino en el mar
+2|O|Ordena lo que pasó|Jesús muere en la cruz|resucita al tercer día|sube al cielo|envía al Espíritu Santo
+#pc19
+1|¿Para qué lavó Jesús los pies a los apóstoles?|para enseñarnos a servir|porque no había agua|para jugar con ellos
+2|¿A quiénes hizo sacerdotes Jesús en la Última Cena?|a los apóstoles|a los pastores|a los Magos
+2|¿Hasta cuándo se celebrará la Misa?|hasta el fin del mundo|hasta el próximo año|hasta que se acabe el pan
+#pc20
+1|¿Qué cargó Jesús hasta el Calvario?|la cruz|una espada|un estandarte
+2|Completa: «Padre, perdónalos, porque no saben lo que…»|hacen|dicen|quieren
+2|¿Quién le quitó la vida a Jesús?|nadie: Él la dio por amor|sus amigos, los apóstoles|un ángel del cielo
+#pc21
+1|¿Qué dijo el ángel a las mujeres?|«No está aquí, ¡ha resucitado!»|«Regresen mañana»|«Se lo llevaron lejos»
+2|¿Dónde está Jesús ahora, según el Credo?|sentado a la derecha del Padre|en el sepulcro de Jerusalén|en el monte Calvario
+2|¿Por qué cada domingo es una «pequeña Pascua»?|porque Jesús resucitó en domingo|porque no hay clases|porque es fin de semana
+#pc22
+0|¿Quién prometió enviar al Espíritu Santo?|Jesús|Moisés|el rey David
+1|¿Qué hicieron los apóstoles después de recibir al Espíritu Santo?|salieron a anunciar a Jesús|se escondieron más|se fueron a pescar
+2|¿Cuántos días después de la Ascensión vino el Espíritu Santo?|diez|cincuenta|tres
+2|¿Cuáles son tres símbolos del Espíritu Santo?|la paloma, el fuego y el viento|el pez, el pan y la uva|la estrella, el oro y la mirra
+#pc23
+0|¿Quiénes formamos la Iglesia?|todos los bautizados|solo los sacerdotes|solo los santos
+1|¿La Iglesia es un edificio o una familia?|la familia de los hijos de Dios|solo un edificio grande|una escuela de catecismo
+2|Completa: «Tú eres Pedro, y sobre esta piedra edificaré mi…»|Iglesia|casa|ciudad
+2|¿En qué oración decimos que la Iglesia es una, santa, católica y apostólica?|en el Credo|en el Padre Nuestro|en el Avemaría
+P|¿Qué significa que la Iglesia es {x}?||una = que tiene un solo Señor y una sola fe|santa = que Jesús la santifica|católica = que es para todos|apostólica = que viene de los apóstoles
+#pc24
+0|¿Dónde trabaja un sacerdote casi siempre?|en una parroquia|en un banco|en una fábrica
+1|¿De quiénes son sucesores los obispos?|de los apóstoles|de los profetas|de los Reyes Magos
+2|¿Qué hacen los sacerdotes en la parroquia?|celebran la Misa y perdonan los pecados|cobran los impuestos de la ciudad|dirigen el tránsito de las calles
+2|¿Quiénes son los religiosos?|personas consagradas a Dios, como las monjas|personas que trabajan en una tienda|personas que tocan en una banda
+P|¿A quién cuida {x}?|¿Quién cuida {x}?|el Papa = a toda la Iglesia|el obispo = a una diócesis|el párroco = a una parroquia
+#pc25
+0|¿Quién nos dio a María por Madre?|Jesús, desde la cruz|san José|el ángel Gabriel
+1|¿Por qué María es Madre de Dios?|porque su Hijo, Jesús, es Dios|porque es muy buena|porque vivió en Nazaret
+2|¿Qué le dijo la Virgen de Guadalupe a Juan Diego?|«¿No estoy yo aquí, que soy tu Madre?»|«Vete de este cerro y no vuelvas»|«No le digas esto a nadie»
+2|¿En qué prenda quedó la imagen de la Virgen de Guadalupe?|en la tilma de Juan Diego|en el manto del obispo|en una bandera
+P|¿Qué fiesta celebramos el {x}?||8 de diciembre = la Inmaculada Concepción|12 de diciembre = a la Virgen de Guadalupe|15 de agosto = la Asunción de María|1 de enero = a Santa María, Madre de Dios|25 de marzo = la Anunciación
+#pc26
+0|¿Qué son los santos?|amigos de Dios que ya están en el Cielo|personajes de cuentos|superhéroes de película
+1|¿Cómo ayudamos a los difuntos?|rezando y ofreciendo Misas por ellos|olvidándolos lo antes posible|llevándoles solo unas flores
+2|¿A quién adoramos?|solo a Dios|a los santos|a los ángeles
+2|¿Para qué nos pone la Iglesia a los santos de ejemplo?|para imitarlos y pedir su ayuda|para tenerles miedo|para decorar los templos
+#pc27
+0|¿Quién nos espera en el Cielo?|Dios|nadie|un rey de cuento
+1|¿Qué pasará al final de los tiempos?|Jesús volverá|todo quedará igual|nadie lo recordará
+2|¿Qué necesito para ir al Cielo?|amar a Dios y al prójimo, y pedir perdón|ser el más fuerte de mi salón|tener muchos juguetes y dinero
+2|¿Qué hará Dios al final, según la Biblia?|un cielo nuevo y una tierra nueva|un mar mucho más grande|otra arca como la de Noé
+#pc4
+0|¿En cuántas tablas estaban los mandamientos?|en dos|en diez|en una
+1|¿De qué tratan los tres primeros mandamientos?|de amar a Dios|de cuidar las cosas|de los animales
+1|¿De qué tratan los mandamientos del cuarto al décimo?|de amar al prójimo|de las fiestas|del descanso
+2|¿En cuántos mandamientos resumió Jesús los diez?|en dos|en cinco|en uno
+2|¿Qué mandamiento cumplo cuando rezo y pongo a Dios primero?|el primero|el quinto|el octavo
+2|¿Qué mandamiento cuido cuando digo el nombre de Dios con respeto?|el segundo|el sexto|el décimo
+P|¿Qué número tiene el mandamiento «{x}»?||Amarás a Dios sobre todas las cosas = el primero|No tomarás el nombre de Dios en vano = el segundo|Santificarás las fiestas = el tercero|Honrarás a tu padre y a tu madre = el cuarto|No matarás = el quinto|No robarás = el séptimo|No dirás falso testimonio ni mentirás = el octavo|No codiciarás los bienes ajenos = el décimo
+#pc28
+0|¿Qué hago el domingo para santificarlo?|voy a Misa|duermo todo el día|trabajo sin parar
+1|¿Cómo digo el nombre de Dios?|con respeto y cariño|con groserías|a gritos
+1|¿Con qué debo amar a Dios, según Jesús?|con todo mi corazón|con la mitad del corazón|solo los domingos
+2|¿Qué es jurar en falso?|poner a Dios de testigo de una mentira|rezar en voz alta con mi familia|cantar muy fuerte durante la Misa
+2|¿Por qué el domingo es el día del Señor?|porque Jesús resucitó ese día|porque es el último día|porque lo dice el calendario
+#pc29
+0|¿Cómo obedezco a mis papás?|pronto y de buena gana|rezongando|hasta que me griten
+1|¿Qué les pide este mandamiento a los papás?|cuidar y educar a sus hijos|comprarles todo|dejarlos sin reglas
+1|¿Cómo vivía Jesús con María y José en Nazaret?|sujeto a ellos: los obedecía|sin hacerles caso|lejos de ellos
+2|¿Dónde dice la Biblia que Jesús obedecía a sus papás?|en el Evangelio de san Lucas|en el libro del Génesis|en el libro de los Salmos
+2|¿Qué es «honrar» a mis papás?|quererlos, respetarlos, obedecerlos y ayudarlos|darles regalos caros en su cumpleaños|hacer solo lo que yo quiero
+#pc30
+0|¿Qué hago en vez de pegar?|hablo y pido ayuda|empujo|muerdo
+1|¿Cómo cuido mi vida?|comiendo sano y sin hacer cosas peligrosas|cruzando la calle sin ver a los lados|jugando con fuego y con cerillos
+1|¿Qué hago si alguien me ofende?|lo perdono|le guardo rencor|me vengo
+2|¿Hasta cuándo hay que cuidar la vida?|hasta su fin natural|hasta los diez años|solo mientras somos jóvenes
+2|¿Con qué puedo faltar al 5.º mandamiento sin pegar?|con insultos y burlas|con abrazos|con oraciones
+#pc31
+0|¿Cómo trato mi cuerpo y el de los demás?|con respeto|con burlas|con golpes
+1|¿Cómo hablo para tener un corazón limpio?|con palabras limpias, sin chistes sucios|con groserías para hacer reír|con burlas sobre el cuerpo
+1|¿Cómo me visto?|con decoro y respeto|como sea, no importa|para llamar la atención
+2|¿Qué es la intimidad?|lo que es solo mío y debo cuidar|un juego de mesa|una tarea de la escuela
+2|Si en internet aparece algo que me incomoda, ¿qué hago?|lo cierro y aviso a mis papás|lo sigo viendo yo solo|se lo enseño a otro niño
+#pc32
+0|¿Qué hago con lo que es de todos, como los juegos del parque?|lo cuido|lo rompo|me lo llevo
+1|¿Qué nos pone tristes cuando otro tiene algo bonito?|la envidia|la gratitud|la generosidad
+1|¿A qué nos invita Jesús con los que tienen menos?|a compartir|a burlarnos|a escondernos
+2|¿Cuánto devolvió Zaqueo de lo que había robado?|cuatro veces más|lo mismo|nada
+2|Pedí prestado un lápiz y lo perdí. ¿Qué hago?|aviso y lo repongo|no digo nada|digo que yo no fui
+#pc33
+0|¿Qué es mentir?|decir algo que no es verdad|decir gracias|guardar silencio
+1|¿Qué es un chisme?|contar cosas de otros que no me toca decir|una oración corta para antes de dormir|un juego de palabras para el recreo
+1|¿Quién es la Verdad?|Dios|el más listo|la televisión
+2|Completa: «Yo soy el Camino, la Verdad y la…»|Vida|Luz|Paz
+2|¿Una «mentira pequeña» está bien?|no: siempre es mejor la verdad|sí, si nadie se entera|sí, si es divertida
+#pc5
+0|¿Quién nos da estos cinco mandamientos?|la Iglesia|la escuela|el gobierno
+0|F|Los mandamientos de la Iglesia son cien.
+1|¿Qué fiesta de guardar es el 25 de diciembre?|la Navidad|la Pascua|Pentecostés
+1|¿Qué fiesta de guardar es el 1 de enero?|Santa María, Madre de Dios|los Reyes Magos|la Candelaria
+1|¿Qué días no se come carne en Cuaresma?|los viernes|los lunes|los domingos
+2|¿Cómo ayudo a la Iglesia en sus necesidades?|con mi limosna y mi ayuda|con nada: no necesita|pidiéndole dinero
+2|¿Cuál es el primer mandamiento de la Iglesia?|oír Misa los domingos y fiestas de guardar|ayunar todos los días del año|rezar el Rosario cada hora
+2|¿Para qué nos da la Iglesia estos mandamientos?|para ayudarnos a crecer en la fe|para castigarnos|para complicarnos la vida
+#pc34
+0|¿Qué es el pecado?|desobedecer a Dios a propósito|equivocarme sin querer|tener sueño
+1|¿Qué pecado debilita la amistad con Dios sin romperla?|el venial|el mortal|el original
+1|¿Qué hago si cometí un pecado?|pido perdón a Dios y me confieso|me escondo de Dios y de todos|hago como si no pasara nada
+2|Completa: «Donde abundó el pecado, sobreabundó la…»|gracia|tristeza|ley
+2|Olvidé hacer un favor sin darme cuenta. ¿Es pecado?|no, porque fue sin querer|sí, y muy grave|sí, es mortal
+#pc35
+0|¿Quién nos regala la fe, la esperanza y la caridad?|Dios|la maestra|un amigo
+1|¿Cuál es el símbolo de la esperanza?|el ancla|el corazón|la cruz
+1|¿Cuál es el símbolo de la caridad?|el corazón|el ancla|la estrella
+2|Completa: «Dios mío, creo en ti, espero en ti, te amo sobre todas las…»|cosas|personas|estrellas
+2|¿Por qué se llaman virtudes «teologales»?|porque vienen de Dios y nos llevan a Él|porque son muy difíciles de aprender|porque las inventó un sabio antiguo
+P|¿Qué virtud practico cuando {x}?||creo en Dios aunque no lo veo = la fe|confío en que Dios me ayudará = la esperanza|ayudo a un compañero por amor a Dios = la caridad|rezo el Credo con atención = la fe|espero el Cielo con alegría = la esperanza|perdono a quien me ofendió = la caridad
+#pc6
+0|¿Cuál es el primer sacramento que recibimos?|el Bautismo|el Matrimonio|la Confirmación
+1|¿Cuáles son los sacramentos al servicio de la comunidad?|el Orden y el Matrimonio|el Bautismo y la Eucaristía|la Penitencia y la Unción
+1|¿Con qué se ven los signos de los sacramentos?|con los ojos: agua, pan, aceite|con nada: no se ven nunca|solo con los ojos cerrados
+1|¿Qué es la gracia?|la vida y el amor de Dios en nosotros|un chiste que nos hace reír|un premio de la escuela
+2|¿Qué signo se ve en la Eucaristía?|el pan y el vino|el agua|el aceite
+2|¿Cuántos sacramentos son de curación?|dos|tres|siete
+2|¿Por qué se llaman «de iniciación» el Bautismo, la Confirmación y la Eucaristía?|porque con ellos empieza la vida cristiana|porque son los sacramentos más cortos|porque se reciben siempre de noche
+P|¿Qué sacramento {x}?|¿Qué hace {x}?|nos hace hijos de Dios = el Bautismo|nos da la fuerza del Espíritu Santo = la Confirmación|nos alimenta con el Cuerpo de Cristo = la Eucaristía|nos perdona los pecados = la Penitencia|da fuerza a los enfermos = la Unción de los enfermos|hace sacerdotes = el Orden|une a los esposos = el Matrimonio
+#pc7
+0|¿Dónde derrama el agua el sacerdote?|sobre la cabeza|sobre los pies|sobre las manos
+1|¿Por qué se le llama «la puerta de los sacramentos»?|porque es el primero|porque es el último|porque se hace en la puerta
+1|¿De qué nos hace miembros el Bautismo?|de la Iglesia|de un equipo|de una escuela
+1|¿Qué puedo preguntar a mi familia sobre mi Bautismo?|qué día fue y quiénes son mis padrinos|cuánto dinero costó toda la fiesta|qué regalos me dieron los invitados
+2|¿A qué se compromete un padrino?|a ayudar a educar al niño en la fe|a dar regalos cada año|a organizar las fiestas
+2|¿Qué otro signo hay en el Bautismo, además del agua?|el óleo santo|los anillos|el pan
+2|¿Cuántas veces se recibe el Bautismo?|una sola vez|cada año|cada domingo
+#pc36
+0|¿Dónde unge el obispo en la Confirmación?|en la frente|en las manos|en los pies
+1|¿Qué es el santo crisma?|un aceite perfumado y consagrado|agua con un poco de sal|una vela grande y blanca
+1|¿Qué es ser testigo de Jesús?|vivir y anunciar la fe sin miedo|esconder que creo en Dios|pelear con los que no creen
+2|Completa: «Recibirán la fuerza del Espíritu Santo y serán mis…»|testigos|amigos|vecinos
+2|¿La gracia de qué sacramento completa la Confirmación?|la del Bautismo|la del Matrimonio|la de la Unción
+P|¿Qué don del Espíritu Santo nos ayuda a {x}?||gustar las cosas de Dios = sabiduría|comprender la fe = entendimiento|decidir bien = consejo|ser valientes = fortaleza|ver a Dios en la creación = ciencia|amar a Dios como Padre = piedad|no querer ofender a Dios = temor de Dios
+#pc8
+0|¿Qué digo al llegar al confesionario?|«Ave María Purísima»|«Buenas noches»|«Feliz Navidad»
+0|V|Dios perdona todos los pecados que confesamos arrepentidos.
+1|¿Qué es el dolor de los pecados?|arrepentirme de corazón|que me duela la panza|sentir miedo del sacerdote
+1|¿Qué hago después de decir mis pecados?|escucho el consejo y la penitencia|me voy corriendo a mi casa|empiezo otra vez desde el saludo
+1|¿Qué oración rezo en la confesión?|el acto de contrición|el Gloria|el Ángelus
+2|¿Qué recibo al final de la confesión?|la absolución|un diploma|una medalla
+2|¿Qué es la penitencia?|una oración u obra buena que me pide el sacerdote|un castigo largo y difícil de cumplir|una multa que se paga con dinero
+2|¿Por qué puedo confesarme con toda confianza?|porque el sacerdote guarda el secreto|porque nadie me escucha|porque no importa lo que diga
+2|¿Qué me pregunto en el examen de conciencia?|si he amado a Dios y a los demás|qué voy a comer el domingo|a qué voy a jugar en el recreo
+#pc37
+0|¿Qué responde el sacerdote a «Ave María Purísima»?|«Sin pecado concebida»|«Amén»|«Y con tu espíritu»
+1|¿Qué digo si es mi primera confesión?|«Es mi primera confesión»|«No sé qué decir, adiós»|«Hace un año que no vengo»
+2|¿Qué hago al salir del confesionario?|cumplo la penitencia y doy gracias|se lo cuento a todos|me olvido de todo
+2|¿Qué le prometo a Jesús en el acto de contrición?|no volver a pecar|no volver a rezar|no volver a Misa
+#pc38
+0|¿A quién unge el sacerdote con aceite santo?|a los enfermos graves|a los niños sanos|a los deportistas
+1|¿Qué da la Unción de los enfermos?|fuerza y paz|dinero|un diploma
+1|¿A quiénes une el Matrimonio?|a un hombre y una mujer, para siempre|a dos amigos, por un tiempo|a todos los vecinos de la colonia
+2|¿Qué bendijo Jesús con su presencia en Caná?|el amor de los esposos|el vino de la fiesta|a los músicos
+2|¿Quiénes reciben el sacramento del Orden?|los diáconos, sacerdotes y obispos|todos los bautizados|los padrinos
+#pc9
+0|¿Qué día es el más importante para ir a Misa?|el domingo|el lunes|el viernes
+0|F|Después de la consagración, el pan sigue siendo solo pan.
+1|¿Qué hacemos durante la consagración?|nos arrodillamos con respeto|platicamos|salimos al patio
+1|¿Con qué canto alabamos a Dios en los ritos iniciales?|con el Gloria|con el Himno Nacional|con las mañanitas
+1|¿Qué hace el sacerdote al final de la Misa?|nos bendice y nos envía|nos regaña|apaga las luces
+2|¿En qué se convierte el vino en la consagración?|en la Sangre de Cristo|en agua bendita|en aceite santo
+2|¿Qué rezamos después de la homilía?|el Credo|el Rosario|el Ángelus
+2|¿Cómo participo bien en la Misa?|llego a tiempo, respondo y canto|me duermo en la banca|veo el celular
+2|¿Qué decimos antes de comulgar, después de darnos la paz?|«Cordero de Dios…»|«Gloria a Dios…»|«Creo en Dios…»
+K|{x}: ¿Liturgia de la Palabra o Liturgia eucarística?|¿De la Palabra o eucarística?|Liturgia de la Palabra: las lecturas; el Salmo; el Evangelio; la homilía; el Credo|Liturgia eucarística: la presentación de las ofrendas; la consagración
+#pc10
+0|¿Qué dijo Jesús al tomar el cáliz?|«Esta es mi Sangre»|«Esto es agua»|«Esto es para después»
+0|¿Qué arde junto al Sagrario?|una lamparita|una fogata|un foco de colores
+1|¿Qué puedo tomar durante el ayuno antes de comulgar?|solo agua|leche con chocolate|jugo y galletas
+1|¿Cómo voy en la fila para comulgar?|con las manos juntas y en silencio|corriendo para llegar primero|platicando con mis amigos
+1|¿Qué pidió Jesús a los apóstoles en la Última Cena?|«Hagan esto en memoria mía»|«No lo hagan nunca»|«Olvídenlo pronto»
+2|¿Cómo está Jesús en la Hostia consagrada?|con su Cuerpo, Sangre, Alma y Divinidad|solo como un recuerdo muy bonito|solo como un dibujo sobre el pan
+2|Si comulgo en la mano, ¿cómo pongo las manos?|la izquierda sobre la derecha|las dos manos bien cerradas|una mano metida en la bolsa
+2|¿Qué hago al regresar a mi lugar después de comulgar?|doy gracias a Jesús en silencio|platico con mi vecino|me salgo de la iglesia
+#pc11
+0|¿A quién le rezamos el Ave María?|a la Virgen María|a san José|a san Pedro
+0|F|Rezar es repetir palabras sin pensar.
+1|¿Cuándo rezamos el «Yo confieso»?|al inicio de la Misa|al final del recreo|antes de dormir
+1|Completa: «Padre nuestro, que estás en el cielo, santificado sea tu…»|nombre|reino|pan
+1|¿Cuál es un buen truco para aprender una oración?|rezarla todos los días|leerla una sola vez|esperar a ser grande
+2|Completa: «Bendita tú eres entre todas las…»|mujeres|madres|santas
+2|Completa: «…por mi culpa, por mi culpa, por mi gran…»|culpa|pena|falta
+2|¿Qué cambia cuando rezo despacio?|que hablo de verdad con Dios|que termino más rápido|que me da sueño
+#pc39
+0|¿Quiénes pidieron a Jesús «enséñanos a orar»?|los apóstoles|los fariseos|los pastores
+1|¿Qué pedimos al decir «venga a nosotros tu Reino»?|que Dios reine en nuestros corazones|que haya un rey nuevo en el país|que llegue pronto la Navidad
+1|¿Qué pedimos en «no nos dejes caer en la tentación»?|ayuda para no pecar|no caernos al correr|no tener sueño
+2|¿Qué dos «panes» pedimos en el Padre Nuestro?|el alimento y la Eucaristía|el dulce y el salado|el de hoy y el de ayer
+2|¿Qué palabra usaba Jesús para llamar a su Padre con cariño?|Abbá|Amén|Aleluya
+#pc40
+0|¿Con qué contamos las Avemarías?|con las cuentas del rosario|con los dedos de los pies|con piedritas del patio
+1|¿Qué pedimos a María en la segunda parte del Avemaría?|que ruegue por nosotros|que nos dé juguetes|que no llueva
+1|¿Qué oración se reza al empezar cada misterio?|el Padre Nuestro|el Credo|el Yo confieso
+2|¿Cuántas Avemarías se rezan en un Rosario de cinco misterios?|cincuenta|diez|cien
+2|¿Qué es cada Avemaría para la Virgen?|como una rosa|como una piedra|como una moneda
+P|¿De qué hablan los misterios {x}?|¿Qué misterios hablan {x}?|gozosos = de la infancia de Jesús|luminosos = de la vida pública de Jesús|dolorosos = de la Pasión|gloriosos = de la Resurrección y el Cielo
+#pc12
+0|¿Qué empieza con mi Primera Comunión?|una amistad con Jesús|las vacaciones|un juego nuevo
+0|V|Puedo hacer una buena obra cada día.
+1|¿Cuál es una obra de misericordia?|dar de comer al hambriento|ganar un partido|estrenar ropa
+1|¿Qué hago al despertar y antes de dormir?|rezo|veo la tele|me enojo
+1|¿Qué virtud me ayuda a creer en Dios?|la fe|la esperanza|la caridad
+2|Mi amigo no entiende las sumas y le explico. ¿Qué obra de misericordia hago?|enseñar al que no sabe|visitar a los enfermos|dar de beber al sediento
+2|¿Quién nos pide ayudar a los demás con las obras de misericordia?|Jesús|el director|el vecino
+2|¿Qué le digo a quien piensa que después de la Primera Comunión ya no hay que ir a Misa?|que Jesús nos espera cada domingo|que tiene toda la razón|que solo hay que ir en Navidad
+2|Rezo por un compañero enfermo. ¿Qué obra de misericordia es?|rezar por los demás|perdonar las ofensas|dar de comer al hambriento
+P|¿Qué obra de misericordia hago si {x}?||le doy mi torta a quien no trae = dar de comer al hambriento|le llevo agua a mi abuelo = dar de beber al sediento|visito a mi tía en el hospital = visitar a los enfermos|abrazo a mi amigo que llora = consolar al triste|disculpo a quien me empujó = perdonar las ofensas
