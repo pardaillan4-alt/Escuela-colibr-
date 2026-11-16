@@ -1,0 +1,222 @@
+// Historia y Geografía 2.º — banco ampliado (preguntas y tablas)
+#2h1
+0|¿Qué va al final de una línea del tiempo?|lo más reciente|lo más antiguo|lo más bonito
+0|F|Un siglo dura diez años.
+0|¿Cómo se llama un periodo de diez años?|década|siglo|semana
+1|¿Qué pasó antes: tu nacimiento o tu primer día de escuela?|mi nacimiento|mi primer día de escuela|pasaron el mismo día
+1|¿Cuántas décadas caben en un siglo?|10|5|100
+1|Mi abuelo nació hace 6 décadas. ¿Cuántos años tiene?|60|6|600
+1|¿Qué fue primero en la Biblia?|la Creación|el nacimiento de Jesús|el reinado de David
+2|¿Qué año es el más antiguo?|1325|1521|1810
+2|¿Cuántos años hay de 1521 a 1531?|10: una década|100: un siglo|1: un solo año
+2|¿Quién vivió antes de Jesús?|Moisés|san Juan Diego|san Juan Bosco
+2|O|Ordena del más corto al más largo|un día|un año|una década|un siglo
+P|¿Cuántos años son {x}?||una década = 10 años|dos décadas = 20 años|medio siglo = 50 años|un siglo = 100 años|dos siglos = 200 años
+#2h10
+0|F|Mi historia empieza cuando entro a la escuela.
+0|¿Qué objeto me cuenta cómo era yo de bebé?|mi primera ropita|el periódico de hoy|un juguete recién comprado
+1|¿Dónde se tramita el acta de nacimiento?|en el Registro Civil|en la tortillería|en la biblioteca
+1|¿Cuál de estas es una fuente de mi historia?|el video de mi bautizo|la caricatura de ayer|el menú de la fonda
+1|¿Qué hice después de aprender a caminar?|entrar a la escuela|nacer|gatear por primera vez
+1|V|Mi fe de bautismo es un documento de mi historia.
+2|¿Para qué sirve conocer mi historia?|para saber quién soy y agradecer|para presumir con mis amigos|para olvidar a mi familia
+2|Quiero saber cuánto pesé al nacer. ¿A quién le pregunto?|a mis papás|a mi compañero de banca|al señor de la tienda
+2|¿A qué profeta dijo Dios: «Antes de formarte en el vientre, te conocí»?|a Jeremías|a Jonás|a Daniel
+2|¿Por qué las fotos antiguas son fuentes?|porque muestran cómo era el pasado|porque son de muchos colores|porque están guardadas en cajas
+K|{x}: ¿documento, objeto o relato?|Fuentes de mi historia|documento: mi acta de nacimiento; mi cartilla de vacunación; mi boleta de kínder|objeto: mi primera cobija; mis zapatitos de bebé; mi sonaja|relato: lo que cuenta mi abuela; la historia que platica mi papá; los recuerdos de mi madrina
+#2h2
+0|F|El Sol se oculta por el norte.
+0|¿Qué dibujo muestra los puntos cardinales?|la rosa de los vientos|el arcoíris|el reloj de arena
+1|¿Cuál es otro nombre del oeste?|poniente|oriente|sur
+1|¿Qué punto cardinal es lo contrario del este?|el oeste|el norte|el sur
+1|¿Qué estado está en el este de México?|Veracruz|Sonora|Oaxaca
+1|En un mapa, ¿hacia dónde suele estar el norte?|hacia arriba|hacia abajo|a la izquierda
+2|Extiendo el brazo derecho hacia donde sale el Sol. ¿Qué tengo enfrente?|el norte|el sur|el oeste
+2|Veo de frente la puesta del Sol. ¿Hacia dónde estoy mirando?|al oeste|al este|al norte
+2|¿Hacia dónde miraba el altar de muchas iglesias antiguas?|hacia el oriente|hacia el poniente|hacia el sur
+2|¿Dónde está la península de Yucatán?|en el este de México|en el norte de México|en el oeste de México
+P|Si miro al norte, ¿qué punto cardinal queda {x}?||a mi espalda = el sur|a mi derecha = el este|a mi izquierda = el oeste|enfrente de mí = el norte
+#2h3
+0|F|Los símbolos de un mapa son adornos sin significado.
+0|¿Qué símbolo suele representar una iglesia en un mapa?|una cruz|una ola|un árbol
+0|¿Qué símbolo puede representar un parque?|un árbol|una cruz|un avión
+1|¿Qué leo primero para entender un mapa?|la simbología|el reverso de la hoja|el nombre del dibujante
+1|¿Qué representan las líneas azules de un mapa?|los ríos|las carreteras|las montañas
+1|¿Qué dibujo me sirve para llegar a casa de un amigo?|un croquis de su colonia|un mapa del mundo|un retrato de mi amigo
+1|¿Para qué sirve un mapa?|para ubicar lugares y saber llegar|para medir la temperatura|para saber qué hora es
+2|¿Qué necesito para ubicar un estado de México?|un mapa del país|el plano de mi casa|un croquis de mi calle
+2|¿Qué uso para dibujar mi recámara vista desde arriba?|un plano|un mapa del mundo|un globo terráqueo
+2|¿Quiénes hicieron muchos de los primeros mapas de México?|los misioneros|los piratas|los astronautas
+2|En el mapa de un parque hay una gota de agua. ¿Qué puede indicar?|un bebedero|la salida|el estacionamiento
+K|{x}: ¿mapa o plano?|¿Mapa o plano?|mapa: México con sus estados; el mundo con sus continentes; mi estado con sus ciudades|plano: mi casa con sus cuartos; mi salón con sus bancas; mi escuela con sus patios
+#2h11
+0|F|Solo las personas cambian el paisaje.
+0|¿Qué cambia el paisaje de forma natural?|la lluvia|una carretera|un edificio
+1|¿Qué cambio del paisaje hacen las personas?|construir una presa|la erupción de un volcán|la llegada del otoño
+1|¿Qué pasa con algunos árboles en otoño?|se les caen las hojas|les salen flores nuevas|crecen mucho más rápido
+1|¿Qué construyen las personas para ir de un pueblo a otro?|carreteras|volcanes|ríos
+1|¿Qué fenómeno natural puede cubrir un pueblo de ceniza?|un volcán en erupción|una carretera nueva|un campo sembrado
+2|Talaron un bosque. ¿Cómo se puede reparar el daño?|reforestando: plantando árboles|construyendo más casas ahí|esperando sin hacer nada
+2|¿Cómo cambia el paisaje en época de lluvias?|se pone verde|se llena de nieve|se queda sin plantas
+2|Un río se desbordó y cambió su cauce. ¿Qué tipo de cambio es?|natural|hecho por personas|imaginario
+2|Antes había un campo y ahora hay una colonia. ¿Quién cambió el paisaje?|las personas|las estaciones|los volcanes
+K|{x}: ¿cambio natural o hecho por las personas?|¿Natural o hecho por las personas?|natural: un derrumbe por la lluvia; las flores de la primavera; la nieve del invierno; un temblor|hecho por las personas: un puente; una fábrica; un campo sembrado; un túnel
+#2h12
+0|F|Podemos desperdiciar el agua porque nunca se acaba.
+0|¿Qué recurso nos dan las vacas?|la leche|la madera|la sal
+1|¿Qué hago para cuidar el aire?|no quemar basura|dejar la llave abierta|arrancar las plantas
+1|¿Qué recurso nos da calor y luz cada día?|el sol|el suelo|la madera
+1|¿Para qué usamos la madera?|para hacer muebles y casas|para regar las plantas|para llenar las albercas
+1|¿Qué recurso usa el pescador de mi comunidad?|el mar o el río|la mina|el bosque
+2|¿Qué pasa si contaminamos el río del pueblo?|ya no podemos usar su agua|el agua se vuelve más limpia|los peces crecen más sanos
+2|¿Cómo ahorro agua al lavarme los dientes?|uso un vaso y cierro la llave|dejo correr el agua|me cepillo en la regadera
+2|Mi comunidad está junto a un bosque. ¿Qué recurso tiene cerca?|madera|sal de mar|petróleo
+2|¿Qué hago con el agua con que lavé las verduras?|riego las plantas con ella|la tiro en la coladera|la dejo correr por el patio
+K|{x}: ¿cuida o desperdicia los recursos?|¿Cuida o desperdicia?|cuida: cerrar la llave al enjabonarme; apagar la luz al salir; separar la basura; plantar un árbol|desperdicia: dejar la manguera abierta; tirar comida buena; dejar la tele prendida sin verla; arrancar hojas del cuaderno
+#2h4
+0|F|El campesino trabaja en una oficina.
+0|¿Dónde se convierte el maíz en masa?|en el molino|en la carpintería|en la farmacia
+0|¿Qué hace un panadero?|pan|zapatos|muebles
+1|¿Qué producto se cultiva mucho en Veracruz y Chiapas?|el café|el trigo|la plata
+1|¿Qué se saca de las minas de Zacatecas?|plata|café|aguacate
+1|¿Qué es un producto?|algo que se elabora o se cosecha|un trabajo que ayuda a otros|un día de descanso
+1|¿Quién lleva los productos del campo a la ciudad?|el transportista|el dentista|el maestro
+2|¿Qué se cría mucho en el norte de México?|ganado|café|cacao
+2|¿De quién aprendió Jesús el oficio de carpintero?|de san José|de san Pedro|de san Juan Bautista
+2|¿Por qué debo agradecer mi comida?|porque muchas personas trabajaron para que llegara|porque así me sirven una porción más grande|porque la comida se echa a perder muy pronto
+2|¿Qué necesita el campesino para que crezca el maíz?|tierra, agua y sol|cemento y pintura|papel y tinta
+K|{x}: ¿ofrece un producto o un servicio?|¿Producto o servicio?|producto: el panadero; el carpintero; el campesino; la costurera|servicio: la maestra; el doctor; el chofer; el bombero
+#2h13
+0|F|En el trueque se paga con billetes.
+0|¿Qué se vende en un tianguis?|frutas, verduras y ropa|casas y edificios|barcos y aviones
+1|¿Quién compra en el mercado?|el cliente|el vendedor|el campesino
+1|¿Qué usamos hoy para comprar?|monedas y billetes|semillas de cacao|plumas de quetzal
+1|Cambio mi trompo por tus canicas. ¿Qué hicimos?|un trueque|una compra|un préstamo
+1|¿Qué mandamiento nos pide no robar?|el séptimo|el primero|el cuarto
+2|Algo cuesta 8 pesos y pago con 10. ¿Cuánto me dan de cambio?|2 pesos|8 pesos|18 pesos
+2|¿Qué hace un vendedor justo?|cobra lo mismo a todos|sube el precio a los niños|engaña con la báscula
+2|¿Qué palabra de origen náhuatl nombra al mercado que se pone en la calle?|tianguis|plaza|bazar
+2|¿Por qué el cacao servía como moneda?|porque era muy valioso|porque no se podía comer|porque había en todas las casas
+K|{x}: ¿honrado o no honrado?|¿Es honrado?|honrado: devolver el cambio que sobra; pagar lo justo; pesar bien la fruta; decir la verdad sobre el producto|no honrado: tomar algo sin pagar; dar menos de lo que se cobró; vender fruta podrida como buena; esconder un defecto del producto
+#2h18
+0|F|Todo México tiene el mismo paisaje.
+0|¿Qué encuentro en el sureste, además de selvas?|playas y ruinas mayas|desiertos y nieve|solo grandes fábricas
+1|¿Qué se cría y se cultiva en el norte?|ganado y trigo|café y cacao|plátano y mango
+1|¿En qué región está la Ciudad de México?|en el centro|en el norte|en el sureste
+1|¿Qué planta es típica del desierto del norte?|el cactus|la palmera de coco|el árbol de cacao
+1|¿Qué pueblo antiguo dejó ruinas en el sureste?|los mayas|los vikingos|los romanos
+2|Veo cactus, arena y poca lluvia. ¿En qué región estoy?|en el norte|en el sureste|en la costa del sur
+2|¿Qué península está en el sureste de México?|la de Yucatán|la de Baja California|la de Florida
+2|¿Quién es Madre de todos los mexicanos, del norte al sur?|la Virgen de Guadalupe|santa Rosa de Lima|santa Teresita
+2|¿Por qué en el sur se dan frutas tropicales?|porque hace calor y llueve mucho|porque casi nunca llueve|porque siempre hay nieve
+K|{x}: ¿norte, centro o sur de México?|¿Norte, centro o sur?|norte: Sonora; Chihuahua; Coahuila; Nuevo León|centro: Ciudad de México; Puebla; Tlaxcala; Morelos|sur: Oaxaca; Guerrero; Yucatán; Tabasco
+#2h5
+0|F|Antes de los españoles no vivía nadie en México.
+0|¿Qué construyeron los pueblos antiguos?|pirámides|aeropuertos|rascacielos
+0|¿Con qué material construían sus pirámides?|con piedra|con plástico|con vidrio
+1|¿Dónde vivieron los mayas, además de Yucatán?|en Chiapas y Campeche|en Sonora y Sinaloa|en Jalisco y Colima
+1|¿Qué pueblo es el más antiguo?|los olmecas|los mexicas|los españoles
+1|¿En qué lago estaba Tenochtitlan?|en el de Texcoco|en el de Chapala|en el de Pátzcuaro
+1|¿Qué estudiaban los mayas mirando el cielo?|los astros|los peces|las piedras
+2|¿Qué ciudad maya está en Chiapas?|Palenque|Tenochtitlan|Teotihuacan
+2|¿Qué inventaron los pueblos antiguos para contar los días?|calendarios|relojes de pulsera|teléfonos
+2|¿Qué llama la Iglesia «semillas del Verbo»?|lo bueno que hay en cada cultura|las semillas de maíz y frijol|los libros de los misioneros
+2|¿Qué comían los pueblos antiguos junto con el maíz?|frijol, chile y calabaza|trigo, arroz y avena|manzana, pera y uva
+P|¿Qué pueblo antiguo {x}?||hizo las cabezas colosales = los olmecas|construyó Chichén Itzá = los mayas|fundó Tenochtitlan = los mexicas|usó el número cero = los mayas|sembraba en chinampas = los mexicas|construyó Monte Albán = los zapotecos
+#2h14
+0|F|Tenochtitlan se construyó en la cima de una montaña.
+0|¿Qué escudo recuerda la fundación de Tenochtitlan?|el de la bandera de México|el de un equipo de futbol|el de mi escuela
+1|¿Cómo se llamaba el templo principal de los mexicas?|el Templo Mayor|el Templo del Sol|el Templo Blanco
+1|¿Qué eran el calmécac y el telpochcalli?|escuelas|mercados|canoas
+1|¿Con qué se movían por los canales de la ciudad?|con canoas|con carretas|con caballos
+2|¿Qué lugar de hoy conserva chinampas?|Xochimilco|Acapulco|Monterrey
+2|¿Qué lengua hablaban los mexicas?|el náhuatl|el maya|el español
+2|¿Qué palabra viene del náhuatl?|chocolate|ventana|zapato
+2|¿Por qué sembraban en chinampas?|porque vivían en un lago y faltaba tierra|porque la tierra firme no les gustaba|porque así no tenían que trabajar
+K|{x}: ¿existía en Tenochtitlan?|¿Lo había en Tenochtitlan?|sí: las chinampas; los templos; las canoas; los códices; los mercados|no: los caballos; los coches; las bicicletas; la luz eléctrica
+#2h6
+0|F|Los misioneros solo hablaban español con los indígenas.
+0|¿Quiénes llegaron a enseñar la fe?|los frailes misioneros|los comerciantes|los marineros
+0|¿Qué fundaron los misioneros para curar enfermos?|hospitales|mercados|puertos
+1|¿En qué año fue conquistada Tenochtitlan?|en 1521|en 1325|en 1810
+1|¿A qué orden pertenecían los doce frailes de 1524?|a los franciscanos|a los jesuitas|a los salesianos
+1|¿Qué idioma aprendieron los misioneros para enseñar?|el náhuatl|el inglés|el francés
+1|¿Qué palabra nombra a quien tiene raíces indígenas y españolas?|mestizo|extranjero|viajero
+2|¿Cuál de estas comidas mezcla lo indígena y lo español?|el taco de carne de res|la tortilla sola|el pan solo
+2|¿Cuántos años después de la conquista se apareció la Virgen de Guadalupe?|diez|cien|dos
+2|¿Por qué la conquista fue un tiempo doloroso?|porque hubo guerra y sufrimiento|porque llovió durante años|porque no había fiestas
+2|¿Qué nos dejaron los dos pueblos, indígena y español?|costumbres, palabras y comidas|solo edificios de piedra|nada que se conserve hoy
+K|{x}: ¿herencia indígena o española?|¿De qué raíz viene?|indígena: el maíz; el cacao; el jitomate; el chile; el guajolote|española: el trigo; el caballo; la guitarra; las vacas; el arroz
+#2h15
+0|F|Juan Diego era un soldado español.
+0|¿En qué mes se apareció la Virgen de Guadalupe?|en diciembre|en mayo|en septiembre
+1|¿Dónde quedó la imagen de la Virgen?|en la tilma de Juan Diego|en una roca del cerro|en un libro del obispo
+1|¿Qué pidió la Virgen que le construyeran?|un templo|un palacio|un puente
+1|¿Por qué las rosas eran una señal?|porque en invierno no florecen ahí|porque eran de papel|porque eran azules
+2|¿Qué dijo la Virgen a Juan Diego para consolarlo?|«¿No estoy yo aquí, que soy tu Madre?»|«Vuelve mañana a esta misma hora»|«Sube hasta la cima de la montaña»
+2|¿Quién estaba enfermo cuando Juan Diego se preocupó?|su tío Juan Bernardino|su hermano Pedro|el obispo
+2|¿Qué santuario mariano es el más visitado del mundo?|la Basílica de Guadalupe|la catedral de Puebla|el santuario de Zapopan
+2|¿A quiénes unió la imagen de Guadalupe?|a indígenas y españoles|a mexicas y mayas|a romanos y griegos
+2|O|Ordena la historia|La Virgen se aparece en el Tepeyac|Juan Diego va con el obispo|El obispo pide una señal|Juan Diego lleva rosas en su tilma
+#2h7
+0|F|México siempre ha sido un país independiente.
+0|¿Qué día celebramos el inicio de la Independencia?|el 16 de septiembre|el 20 de noviembre|el 5 de mayo
+0|¿Cómo se llamaba México cuando dependía de España?|Nueva España|Nueva Francia|Nuevo México
+1|¿Cuántos años duró el virreinato?|300|30|3
+1|¿En qué pueblo llamó Hidalgo a luchar?|en Dolores|en Puebla|en Chapultepec
+1|¿Qué ejército entró a la Ciudad de México en 1821?|el Trigarante|el francés|el del Norte
+1|¿Qué militar ayudó a Hidalgo desde el principio?|Ignacio Allende|Ignacio Zaragoza|Emiliano Zapata
+2|¿Qué significa «Trigarante»?|de las tres garantías|de los tres generales|de los tres ríos
+2|¿Qué hacemos la noche del 15 de septiembre?|recordamos el Grito de Dolores|recordamos la Batalla de Puebla|celebramos el Día de la Bandera
+2|¿Quién continuó la lucha después de Hidalgo?|José María Morelos|Benito Juárez|Francisco I. Madero
+2|¿Qué garantía defendía la fe católica?|Religión|Unión|Independencia
+2|O|Ordena los hechos|Hidalgo da el Grito de Dolores|Morelos continúa la lucha|El Ejército Trigarante entra a la capital
+K|{x}: ¿inicio o consumación de la Independencia?|¿Inicio (1810) o consumación (1821)?|inicio: el Grito de Dolores; el cura Hidalgo; el 16 de septiembre; el estandarte guadalupano|consumación: el Ejército Trigarante; las tres garantías; la entrada a la Ciudad de México; Agustín de Iturbide
+#2h16
+0|F|La Independencia la logró una sola persona.
+0|¿Qué tocó Hidalgo para llamar al pueblo?|la campana|el tambor|la trompeta
+1|¿Quiénes consumaron la Independencia en 1821?|Guerrero e Iturbide|Hidalgo y Allende|Madero y Zapata
+1|¿Qué era Morelos, además de jefe insurgente?|sacerdote|médico|marinero
+1|¿Cómo llamaban a Josefa Ortiz de Domínguez?|la Corregidora|la Generala|la Maestra
+2|¿Qué mandamiento nos pide amar a la patria?|el cuarto|el segundo|el noveno
+2|¿Cómo avisó Josefa que habían descubierto el plan?|mandó un mensajero|escribió en el periódico|tocó las campanas
+2|¿Por qué Hidalgo llevó un estandarte de la Virgen de Guadalupe?|porque el pueblo la amaba como Madre|porque era la bandera de España|porque no encontró otra tela
+2|¿Qué héroe de la Independencia fue después presidente de México?|Vicente Guerrero|Miguel Hidalgo|Ignacio Allende
+K|{x}: ¿héroe de la Independencia?|¿Héroe de la Independencia?|sí: Miguel Hidalgo; José María Morelos; Ignacio Allende; Vicente Guerrero; Josefa Ortiz de Domínguez|no: Emiliano Zapata; Francisco Villa; Ignacio Zaragoza; Francisco I. Madero
+#2h8
+0|F|El 5 de mayo recordamos a los Niños Héroes.
+0|¿Qué es la Constitución?|la ley más importante de México|un castillo muy antiguo|una batalla contra Francia
+0|¿En qué ciudad fue la batalla del 5 de mayo?|en Puebla|en Dolores|en Veracruz
+1|¿A qué ejército venció México el 5 de mayo de 1862?|al francés|al español|al inglés
+1|¿Cuántos colores tiene la bandera de México?|tres|dos|cinco
+1|¿Qué eran los Niños Héroes?|jóvenes cadetes|niños de primaria|marineros
+1|¿Qué dice la Constitución?|los derechos de las personas|las recetas de cocina|los nombres de los santos
+2|¿En qué año defendieron el Castillo de Chapultepec?|en 1847|en 1810|en 1910
+2|¿Contra qué país era la guerra de 1847?|contra Estados Unidos|contra Francia|contra España
+2|¿Qué fecha viene primero en el año?|5 de febrero|5 de mayo|13 de septiembre
+2|¿Qué hace un buen cristiano por su país?|respeta las leyes justas y reza por él|se burla de quienes gobiernan|no se interesa por los demás
+P|¿Qué celebramos el {x}?|¿Qué día celebramos {x}?|5 de febrero = la Constitución|24 de febrero = el Día de la Bandera|5 de mayo = la Batalla de Puebla|13 de septiembre = la hazaña de los Niños Héroes|16 de septiembre = el inicio de la Independencia|20 de noviembre = el inicio de la Revolución
+#2h17
+0|F|La Revolución Mexicana fue contra el rey de España.
+0|¿Quiénes pedían tierra para sembrar?|los campesinos|los marineros|los comerciantes
+1|¿Qué pedía Madero?|elecciones justas|más impuestos|un nuevo rey
+1|¿Quién dijo «la tierra es de quien la trabaja»?|Emiliano Zapata|Miguel Hidalgo|Ignacio Zaragoza
+1|¿Qué jefe revolucionario luchó en el norte?|Francisco Villa|José María Morelos|Vicente Guerrero
+2|¿Cuántos años hay entre la Independencia (1810) y la Revolución (1910)?|100|10|50
+2|¿Qué documento nació de la Revolución?|la Constitución de 1917|el Acta de Independencia|los Sentimientos de la Nación
+2|¿Qué traen las guerras?|mucho dolor|mucha alegría|buenas cosechas
+2|¿Cómo resuelvo un pleito, según enseña Jesús?|hablando y buscando la paz|gritando más fuerte que el otro|dejando de hablarle para siempre
+K|{x}: ¿Independencia o Revolución?|¿Independencia o Revolución?|Independencia: Miguel Hidalgo; José María Morelos; el año 1810; el Grito de Dolores; el 16 de septiembre|Revolución: Francisco I. Madero; Emiliano Zapata; Francisco Villa; el año 1910; el 20 de noviembre
+#2h9
+0|F|En la fiesta patronal no se celebra Misa.
+0|¿Qué hay en una fiesta patronal?|Misa, procesión y música|exámenes y tareas|silencio todo el día
+0|¿A quién honramos en la fiesta patronal?|al santo patrono|al presidente municipal|al dueño de la feria
+1|¿Qué es una procesión?|caminar juntos rezando y cantando|una carrera para ganar un premio|un desfile de carros alegóricos
+1|¿A dónde peregrinan muchos fieles, además de la Basílica?|a San Juan de los Lagos|a la playa de Cancún|al estadio de futbol
+1|¿Quién es el santo patrono de un pueblo llamado San Miguel?|san Miguel Arcángel|san Juan Bautista|san Francisco de Asís
+1|¿Qué llevan muchos peregrinos a la Virgen?|flores y oraciones|juguetes rotos|ropa vieja
+2|¿A qué se parece toda la vida cristiana?|a una peregrinación hacia el cielo|a una feria que nunca termina|a una carrera contra los demás
+2|¿Por qué truenan cohetes en la fiesta patronal?|para anunciar la fiesta con alegría|para espantar a los peregrinos|para que nadie duerma en el pueblo
+2|¿Dónde está el santuario de la Virgen de Zapopan?|en Jalisco|en Yucatán|en Chiapas
+2|¿Qué nos recuerdan las peregrinaciones?|que no caminamos solos hacia Dios|que hay que llegar antes que todos|que rezar es solo para los adultos
+P|¿Cuándo es la fiesta de {x}?||la Virgen de Guadalupe = el 12 de diciembre|san José = el 19 de marzo|san Francisco de Asís = el 4 de octubre|san Juan Bautista = el 24 de junio|san Miguel Arcángel = el 29 de septiembre|Santiago Apóstol = el 25 de julio

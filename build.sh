@@ -24,11 +24,12 @@ JS=(src/motor/motor.js src/motor/interfaz.js src/motor/modelos.js src/motor/gene
     src/grado6/esp-cie.js src/grado6/geo-his-civ-rel.js src/grado6/ampliacion-mat-esp-cie.js src/grado6/ampliacion-geo-his-civ-rel.js src/talleres/ingles-niveles.js src/fe/evangelios-ciclos-a-c.js
     src/fe/calendario-liturgico.js src/fe/camino-sacramentos.js src/grado5/historia-de-la-iglesia.js src/grado6/historia-de-la-iglesia.js src/talleres/voz-natural-piper.js src/motor/calculo-mental.js
     src/motor/respaldo.js src/motor/guia-para-papas.js src/motor/portafolio.js src/motor/sincronizacion-pantalla.js src/motor/profundizacion.js src/banco/2cie.js
-    src/banco/4cie.js src/banco/4civ.js src/banco/4esp.js src/banco/4his.js src/banco/4mat.js src/banco/4rel.js
-    src/banco/5cie.js src/banco/5civ.js src/banco/5esp.js src/banco/5geo.js src/banco/5hig.js src/banco/5his.js
-    src/banco/5mat.js src/banco/5rel.js src/banco/6cie.js src/banco/6civ.js src/banco/6esp.js src/banco/6geo.js
-    src/banco/6hig.js src/banco/6his.js src/banco/6mat.js src/banco/6rel.js src/banco/cie.js src/banco/civ.js
-    src/banco/com.js src/banco/his.js src/banco/rel.js src/banco/sac.js src/motor/sesiones-sin-repetir.js src/motor/interfaz-final.js)
+    src/banco/2his.js src/banco/4cie.js src/banco/4civ.js src/banco/4esp.js src/banco/4his.js src/banco/4mat.js
+    src/banco/4rel.js src/banco/5cie.js src/banco/5civ.js src/banco/5esp.js src/banco/5geo.js src/banco/5hig.js
+    src/banco/5his.js src/banco/5mat.js src/banco/5rel.js src/banco/6cie.js src/banco/6civ.js src/banco/6esp.js
+    src/banco/6geo.js src/banco/6hig.js src/banco/6his.js src/banco/6mat.js src/banco/6rel.js src/banco/cie.js
+    src/banco/civ.js src/banco/com.js src/banco/his.js src/banco/rel.js src/banco/sac.js src/motor/sesiones-sin-repetir.js
+    src/motor/interfaz-final.js)
 {
   echo '<!doctype html>'
   echo '<html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
