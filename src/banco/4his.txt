@@ -1,0 +1,254 @@
+// Historia y Geografía 4.º — profundización y banco ampliado
+#4h1
+Z|México tiene <b>32 entidades federativas</b>; la capital del país es la Ciudad de México.|<b>Colindar</b> es tener frontera con otra entidad o país.|México colinda al norte con Estados Unidos y al sur con Guatemala y Belice; al oeste tiene el océano Pacífico y al este el golfo de México.|Cada entidad tiene su <b>relieve</b>, clima, vegetación, fauna y cuerpos de agua.
+E|Relieve: sierras, valles y llanuras|Cuerpos de agua: ríos, lagos, presas y mares
+S|¿Cómo describo dónde está mi entidad?|La busco en el mapa de México.|Veo qué tiene al norte, al sur, al este y al oeste.|Digo si tiene costa o no.|=Nombrando sus colindancias en los cuatro puntos cardinales y si tiene mar.
+I|🗺️ Entidades: México tiene 32.|🧭 Colindancias: Vecinos al norte, sur, este y oeste.|⛰️ Relieve: Sierras, valles y llanuras.|🌊 Agua: Ríos, lagos y mares.
+0|V|La capital de México es la Ciudad de México.
+0|¿Qué es el relieve?|las formas del terreno|el tipo de lluvia|los animales del lugar
+1|¿Qué hay al este de México?|el golfo de México|el océano Pacífico|Guatemala
+1|¿Cuál es un cuerpo de agua?|un lago|una sierra|un valle
+1|F|Todas las entidades de México tienen costa.
+1|¿Qué es un valle?|un terreno plano entre montañas|una montaña muy alta|un río muy ancho
+2|¿Cuál es el estado más grande de México?|Chihuahua|Tlaxcala|Colima
+2|¿Para qué sirve conocer las colindancias de mi entidad?|para ubicarla en el mapa|para saber su clima|para contar su gente
+2|V|Cuidar y querer la tierra donde nací es parte de honrar a mi patria.
+2|¿Qué mar baña las costas de Quintana Roo?|el mar Caribe|el mar de Cortés|el mar Rojo
+K|{x}: ¿relieve, clima o cuerpo de agua?|¿Relieve, clima o cuerpo de agua?|relieve: una sierra; un valle; una llanura; un volcán|clima: el calor seco; las lluvias de verano; el frío de montaña|cuerpo de agua: un río; un lago; una presa; el mar
+#4h2
+Z|Un <b>croquis</b> es un dibujo sencillo de un lugar, con calles y referencias para llegar.|Para orientarme uso los <b>puntos cardinales</b>: norte, sur, este y oeste.|El Sol sale por el <b>este</b> y se oculta por el <b>oeste</b>.|Los mapas tienen rosa de los vientos, <b>simbología</b> y <b>escala</b>.
+E|Referencias: la iglesia, el parque, la escuela|«Camino al norte y doy vuelta al oeste»
+S|¿Cómo encuentro el norte en la mañana?|Me paro con el brazo derecho hacia donde salió el Sol: ese es el este.|Mi brazo izquierdo señala el oeste.|Al frente queda el norte y a mi espalda, el sur.|=Con el brazo derecho hacia la salida del Sol, el norte queda al frente.
+I|✏️ Croquis: Dibujo sencillo para llegar a un lugar.|🧭 Puntos cardinales: Norte, sur, este y oeste.|🌅 Sol: Sale por el este.|📏 Escala: Indica la distancia real.
+0|V|El Sol sale por el este.
+0|¿Cuántos puntos cardinales hay?|cuatro|dos|seis
+1|¿Qué pongo en un croquis para no perderme?|referencias conocidas|los nombres de mis amigos|el clima del día
+1|¿Por dónde se oculta el Sol?|por el oeste|por el norte|por el este
+1|F|Un croquis es una fotografía tomada desde un avión.
+1|¿Qué punto cardinal es el contrario del norte?|el sur|el este|el oeste
+2|Camino hacia el norte y doy vuelta a la derecha. ¿Hacia dónde voy?|hacia el este|hacia el oeste|hacia el sur
+2|¿Qué necesito para explicar cómo llegar a mi casa?|calles y referencias|mi fecha de nacimiento|el nombre de mi mascota
+2|V|Un mapa con escala permite calcular distancias reales.
+2|Si en un mapa 1 cm representa 1 km, ¿cuánto representan 4 cm?|4 km|14 km|40 km
+P|Miro al norte. ¿Qué punto cardinal queda {x}?||a mi derecha = el este|a mi izquierda = el oeste|a mi espalda = el sur
+#4h3
+Z|México tiene muchas <b>regiones naturales</b>: bosques templados, selvas, desiertos, pastizales, manglares y arrecifes.|Cada una tiene su clima, sus plantas y sus animales.|El <b>ambiente</b> influye en la vida de la gente: cómo construye, qué come y en qué trabaja.|Cada región es un regalo que debemos cuidar.
+E|Selva Lacandona: en Chiapas|Desierto de Sonora: cactus gigantes
+S|¿Por qué en la selva se construye con palma y en el desierto con adobe?|La gente usa los materiales que hay en su región.|En la selva abundan las palmas; el techo de palma es fresco y deja pasar el aire.|En el desierto hay tierra: el adobe guarda fresco de día y calor de noche.|=Porque cada pueblo aprovecha lo que su ambiente le da.
+I|🌲 Bosque templado: Pinos y encinos en las montañas.|🌴 Selva: Calor, lluvia y mucha vida.|🌵 Desierto: Poca lluvia; cactus y matorrales.|🪸 Arrecife: Corales y peces de colores.
+0|V|En la selva llueve mucho y hace calor.
+0|¿Qué árboles hay en el bosque templado?|pinos y encinos|palmeras y ceibas|cactus y nopales
+1|¿Dónde crecen los manglares?|en las costas|en las montañas|en los desiertos
+1|¿Qué región tiene muy poca lluvia?|el desierto|la selva|el manglar
+1|F|En todo México hay el mismo clima.
+1|¿Qué animales forman los arrecifes?|los corales|las ballenas|las tortugas
+2|¿Por qué en el norte de México se cría mucho ganado?|hay grandes pastizales|hay muchas selvas|hay muchos lagos
+2|¿Cómo influye el ambiente en la comida de un pueblo?|se come lo que la región produce|todos comen lo mismo|no influye
+2|V|Cuidar las regiones naturales es cuidar un regalo de Dios.
+2|¿En qué región usarías ropa muy ligera todo el año?|en la selva|en el bosque de montaña|en la tundra
+P|¿En qué región natural vive {x}?|¿Qué animal vive en {x}?|el jaguar = la selva|el oso negro = el bosque templado|el correcaminos = el desierto|la tortuga carey = el arrecife|el berrendo = el pastizal
+#4h4
+Z|En México hay <b>riesgos</b>: sismos, huracanes, inundaciones, incendios y erupciones volcánicas.|Algunos se agravan por descuidos: basura que tapa los ríos o casas en zonas de riesgo.|Un <b>plan de emergencia</b> incluye rutas de evacuación, punto de reunión, mochila de emergencia y números importantes.|En un sismo: <b>no corro, no grito, no empujo</b>.
+E|Punto de reunión: lugar seguro para contarnos|Emergencias: 911
+S|Suena la alerta sísmica en la escuela. ¿Qué hago?|Conservo la calma y dejo mis cosas.|Sigo a mi maestra por la ruta de evacuación, sin correr ni empujar.|Llego al punto de reunión y espero a que pasen lista.|=Evacúo en orden por la ruta señalada y voy al punto de reunión.
+I|🚨 Alerta: Avisa segundos antes del sismo.|🚪 Ruta de evacuación: El camino seguro para salir.|📍 Punto de reunión: Donde nos contamos.|🎒 Mochila: Agua, linterna y botiquín.
+0|V|Un huracán trae vientos fuertes y mucha lluvia.
+0|¿A qué número llamo en una emergencia?|al 911|al 100|al 365
+1|¿Qué hago durante un sismo?|conservo la calma|corro y grito|uso el elevador
+1|¿Para qué sirve un simulacro?|para practicar qué hacer|para suspender clases|para jugar en el patio
+1|F|La mochila de emergencia se prepara cuando ya empezó el desastre.
+1|¿Qué puede causar un incendio forestal?|una fogata mal apagada|una lluvia fuerte|un río crecido
+2|¿Por qué no se debe construir en la orilla de un río?|puede inundarse|hace mucho ruido|hay pocos árboles
+2|O|Ordena lo que hacemos en una evacuación|Suena la alarma|Salimos en orden|Llegamos al punto de reunión|Pasan lista
+2|V|Ayudar a los vecinos después de un desastre es amor al prójimo.
+2|¿Qué guardo en la mochila de emergencia?|agua, linterna y botiquín|juguetes y dulces|libros y cuadernos
+K|{x}: ¿fenómeno natural o descuido humano?|¿Natural o descuido humano?|fenómeno natural: un sismo; un huracán; una erupción volcánica; un tornado|descuido humano: tirar basura al río; construir en una barranca; dejar una fogata encendida; tapar las coladeras
+#4h5
+Z|En México viven muchos <b>pueblos originarios</b>: nahuas, mayas, zapotecos, mixtecos, otomíes, tsotsiles, rarámuris, purépechas y más.|Cada uno tiene su <b>lengua</b>, su vestido, sus fiestas y su forma de trabajar.|En México se hablan <b>68 lenguas indígenas</b>.|Respetamos y valoramos su cultura; la fe cristiana ha enriquecido muchas de sus fiestas.
+E|Náhuatl: tomate, chocolate, aguacate|Rarámuris: grandes corredores de la sierra
+S|¿Por qué decimos que las lenguas indígenas son una riqueza?|Cada lengua guarda la historia y los saberes de un pueblo.|Muchas palabras del español de México vienen de ellas: chocolate, tomate.|Si una lengua se pierde, se pierde una manera de ver el mundo.|=Porque guardan la memoria y la sabiduría de cada pueblo.
+I|🗣️ Lenguas: 68 lenguas indígenas.|👘 Vestido: Bordados y colores propios.|🎉 Fiestas: Danzas, música y fe.|🌽 Saberes: Milpa, plantas y artesanías.
+0|V|En México se hablan muchas lenguas indígenas.
+0|¿De qué lengua viene la palabra «chocolate»?|del náhuatl|del inglés|del francés
+1|¿Qué pueblo originario es famoso por correr largas distancias?|el rarámuri|el maya|el otomí
+1|¿Qué tiene cada pueblo originario?|su lengua y sus tradiciones|su propia moneda|su propio país
+1|F|Los pueblos originarios ya no existen en México.
+1|¿Cuál es la lengua indígena más hablada en México?|el náhuatl|el kikapú|el latín
+2|¿Cómo trato a un compañero que habla una lengua indígena?|con respeto e interés|con burlas|con indiferencia
+2|¿Qué invita a hacer la Iglesia con las culturas?|conservar lo bueno de cada una|borrar todas las tradiciones|copiar solo la más antigua
+2|V|La Virgen de Guadalupe habló a san Juan Diego en náhuatl.
+2|¿Qué sistema de cultivo usan muchos pueblos originarios?|la milpa|el invernadero de vidrio|la hidroponia
+P|¿En qué estado viven sobre todo los {x}?|¿Qué pueblo originario vive sobre todo en {x}?|rarámuris = Chihuahua|zapotecos = Oaxaca|tsotsiles = Chiapas|yaquis = Sonora|wixárikas (huicholes) = Nayarit
+#4h6
+Z|Durante el Virreinato llegaron miles de <b>africanos</b>, muchos esclavizados injustamente.|Sus descendientes, los <b>afromexicanos</b>, viven sobre todo en la Costa Chica de Guerrero y Oaxaca, y en Veracruz.|Aportaron música, comida y bailes.|Los <b>migrantes</b> dejan su tierra buscando trabajo o seguridad: merecen respeto y ayuda.
+E|Yanga: pueblo de africanos libres en Veracruz|«Fui forastero y me hospedaron» (Mt 25, 35)
+S|¿Por qué la esclavitud fue una gran injusticia?|Trataba a las personas como si fueran cosas que se compran y se venden.|Les quitaba su libertad, su familia y su tierra.|Toda persona es hija de Dios y tiene dignidad.|=Porque negaba la dignidad y la libertad de personas creadas por Dios.
+I|⛓️ Esclavitud: Una gran injusticia.|🥁 Aportes: Música, comida y danza.|🏖️ Costa Chica: En Guerrero y Oaxaca.|🧳 Migrantes: Buscan trabajo o seguridad.
+0|V|Los afromexicanos descienden de africanos que llegaron en el Virreinato.
+0|¿Qué busca un migrante al dejar su tierra?|trabajo o seguridad|vacaciones|un premio
+1|¿En qué estado está el pueblo de Yanga?|Veracruz|Sonora|Yucatán
+1|¿Qué instrumento recuerda la herencia africana?|el tambor|el piano|el violín
+1|F|La esclavitud respetaba la dignidad de las personas.
+1|¿De qué país era san Martín de Porres?|de Perú|de España|de Francia
+2|¿Qué hago si llega al salón un niño de otro país?|lo recibo y lo incluyo|lo dejo solo|me burlo de cómo habla
+2|¿Qué familia tuvo que huir a otro país para salvar a su hijo?|la Sagrada Familia|la familia de Noé|la de san Pedro
+2|V|En cada migrante podemos ver a Jesús, que también fue forastero.
+2|¿Por qué merecen respeto todas las personas, sin importar su origen?|porque tienen la misma dignidad|porque lo dice la moda|porque hablan igual
+#4h7
+Z|El <b>patrimonio</b> es lo valioso que heredamos y debemos conservar.|Puede ser <b>arqueológico</b> (pirámides), <b>histórico</b> y artístico (catedrales, palacios), <b>natural</b> (volcanes, reservas) e <b>inmaterial</b> (tradiciones, danzas, comida, lenguas).|Se cuida respetándolo y transmitiéndolo.|Catedrales, conventos y la Basílica de Guadalupe son tesoros de arte y de fe.
+E|Inmaterial: no se toca, se vive|No rayar, no tirar basura, no subir donde está prohibido
+S|¿El Día de Muertos es patrimonio material o inmaterial?|No es un edificio ni un objeto que se pueda tocar.|Es una tradición: altares, flores, comida y oraciones.|Se transmite de padres a hijos.|=Inmaterial.
+I|🛕 Arqueológico: Pirámides y ciudades antiguas.|⛪ Histórico: Catedrales, conventos y palacios.|🌋 Natural: Volcanes, selvas y reservas.|💃 Inmaterial: Fiestas, danzas y comida.
+0|V|El patrimonio es una herencia que debemos conservar.
+0|¿Qué tipo de patrimonio es una danza tradicional?|inmaterial|arqueológico|natural
+1|¿Qué hago al visitar una zona arqueológica?|respeto las indicaciones|me llevo una piedra|rayo mi nombre
+1|¿Cuál es un ejemplo de patrimonio natural?|una reserva de la biosfera|un palacio antiguo|una canción
+1|F|Rayar un monumento es una forma de cuidarlo.
+1|¿Cómo se transmite el patrimonio inmaterial?|de padres a hijos|por correo|con máquinas
+2|¿Por qué la comida mexicana es patrimonio?|es una tradición muy valiosa|es la más cara del mundo|se prepara y se come rápido
+2|¿Qué templo guarda la tilma de san Juan Diego?|la Basílica de Guadalupe|la Catedral de Puebla|Santa Prisca
+2|V|Los templos antiguos son patrimonio de arte y también lugares de oración.
+2|¿Quién debe cuidar el patrimonio?|todos|solo el gobierno|solo los turistas
+K|{x}: ¿qué tipo de patrimonio es?|¿Qué tipo de patrimonio es?|arqueológico: Chichén Itzá; Monte Albán; Palenque|histórico: la Catedral de México; el centro de Guanajuato; un convento del siglo XVI|natural: el Popocatépetl; las barrancas del Cobre; la reserva de la mariposa monarca|inmaterial: el Día de Muertos; el mariachi; la Guelaguetza
+#4h15
+Z|<b>Consumir con responsabilidad</b> es comprar lo necesario y no desperdiciar.|Conviene preferir productos <b>locales y de temporada</b>: son más frescos y contaminan menos.|<b>Comercio justo</b>: pagar un precio justo a campesinos y artesanos.|Antes de comprar me pregunto: ¿lo necesito?, ¿puedo reutilizar lo que tengo?
+E|De temporada: mango en verano, mandarina en invierno|Tienda del barrio: sostiene a una familia
+S|Quiero un cuaderno nuevo, pero al mío le quedan muchas hojas. ¿Qué hago?|Me pregunto: ¿lo necesito de verdad?|Todavía puedo usar el que tengo.|Lo termino y así ahorro dinero y papel.|=Uso el que tengo: no necesito comprar otro.
+I|🤔 ¿Lo necesito?: La primera pregunta.|🥭 De temporada: Fresco y más barato.|🧺 Local: Ayuda a familias de mi comunidad.|⚖️ Precio justo: Respeta el trabajo de otros.
+0|V|Comprar solo lo necesario evita el desperdicio.
+0|¿Qué es un producto local?|el que se produce cerca|el que viene de lejos|el más caro
+1|¿Qué hago con la ropa que ya no me queda?|la regalo a quien la necesite|la tiro|la guardo siempre
+1|¿Por qué contamina menos la fruta local?|viaja menos|pesa menos|es más dulce
+1|F|Regatear mucho a un artesano es comercio justo.
+1|¿Qué es reutilizar?|volver a usar algo|comprar algo nuevo|tirar a la basura
+2|¿Qué compra es más responsable?|una botella que puedo rellenar|muchas botellas desechables|la que tiene más empaque
+2|¿Para quién son los bienes de la tierra, según la Iglesia?|para todos|para los más ricos|para unos cuantos
+2|V|Desperdiciar comida es una falta de respeto a quienes pasan hambre.
+2|¿Qué fruta es de temporada en invierno en México?|la mandarina|el mango|la sandía
+K|{x}: ¿consumo responsable o desperdicio?|¿Responsable o desperdicio?|consumo responsable: llevar mi bolsa al mercado; comprar fruta de temporada; reparar un juguete; apagar la luz al salir|desperdicio: comprar por comprar; tirar comida en buen estado; dejar la llave abierta; pedir bolsas de más
+#4h16
+Z|<b>Nación</b>: personas que comparten historia, cultura y lengua.|<b>Patria</b>: la tierra a la que nos unen lazos de historia y de cariño.|<b>Estado</b>: la nación organizada, con territorio, población y gobierno.|Los <b>símbolos patrios</b> —Bandera, Escudo e Himno Nacional— nos unen a todos los mexicanos.
+E|24 de febrero: Día de la Bandera|Escudo: un águila sobre un nopal
+S|¿Cómo saludo a la Bandera en la ceremonia?|Me pongo de pie, derecho y en silencio.|Coloco la mano derecha sobre el pecho, con la palma hacia abajo.|Canto el Himno con respeto.|=De pie, en posición de firmes y con la mano derecha en el pecho.
+I|👥 Nación: Un pueblo con historia y cultura.|❤️ Patria: La tierra que amamos.|🏛️ Estado: Territorio, población y gobierno.|🎌 Símbolos: Bandera, Escudo e Himno.
+0|V|La Bandera de México es verde, blanca y roja.
+0|¿Qué animal aparece en el Escudo Nacional?|un águila|un jaguar|un colibrí
+1|¿Cuáles son los tres símbolos patrios?|Bandera, Escudo e Himno|moneda, mapa y capital|águila, nopal y lago
+1|¿Sobre qué planta está parada el águila del Escudo?|un nopal|un maguey|un pino
+1|F|El Estado es solamente el territorio de un país.
+1|¿Qué comparten las personas de una nación?|historia, cultura y lengua|la misma casa|el mismo nombre
+2|¿Cómo muestro amor a mi patria todos los días?|estudiando y respetando las leyes|tirando basura en las calles|peleando con mis compañeros
+2|¿Qué virtud cristiana incluye el amor a la patria?|la piedad|la gula|la envidia
+2|V|Se puede amar a la patria y respetar a los demás pueblos.
+2|¿Qué se canta en los homenajes a la Bandera?|el Himno Nacional|Las Mañanitas|Cielito lindo
+P|¿A qué símbolo patrio pertenece {x}?||el águila sobre el nopal = al Escudo|el verde, el blanco y el rojo = a la Bandera|«Mexicanos, al grito de guerra» = al Himno
+#4h8
+Z|Los primeros grupos eran <b>bandas</b> de cazadores y recolectores <b>nómadas</b>.|Después hubo <b>tribus</b> (familias emparentadas) y <b>jefaturas</b> (con un jefe).|Con la <b>agricultura</b> del maíz, los pueblos se hicieron <b>sedentarios</b> y formaron aldeas y ciudades.|El <b>Estado</b> tiene territorio, gobierno e instituciones.
+E|Nómada: va de un lugar a otro|Sedentario: vive en un lugar fijo
+S|¿Por qué la agricultura cambió la vida de los pueblos?|Para cuidar la siembra había que quedarse en un lugar.|Con la cosecha hubo alimento para más personas.|Las aldeas crecieron y hubo que organizarse.|=Porque permitió vivir en un lugar fijo y formar aldeas y ciudades.
+I|🏹 Bandas: Cazadores y recolectores nómadas.|👪 Tribus: Familias emparentadas.|🌽 Agricultura: El maíz permitió asentarse.|🏛️ Estado: Gobierno, territorio e instituciones.
+0|V|Los nómadas no tenían vivienda fija.
+0|¿De qué vivían las primeras bandas?|de cazar y recolectar|de sembrar trigo|de criar vacas
+1|¿Qué formaron los pueblos al hacerse sedentarios?|aldeas|bandas|caravanas
+1|¿Quién dirigía una jefatura?|un jefe|un presidente|un virrey
+1|F|Los pueblos sedentarios cambiaban de lugar cada semana.
+1|¿Qué recolectaban los nómadas?|frutos y semillas|monedas|libros
+2|O|Ordena de la organización más sencilla a la más compleja|Banda|Tribu|Jefatura|Estado
+2|¿Por qué un Estado cobra impuestos?|para pagar servicios de todos|para castigar|para guardar el dinero
+2|V|Dios llamó a Abraham, que era un pastor nómada.
+2|¿Qué ventaja tenía vivir en aldeas?|ayudarse y defenderse juntos|caminar más cada día|comer menos
+K|{x}: ¿vida nómada o sedentaria?|¿Nómada o sedentaria?|nómada: seguir a los animales de caza; recolectar frutos y moverse; dormir en cuevas o campamentos|sedentaria: cultivar maíz; construir aldeas; guardar granos para el año; hacer vasijas de barro
+#4h9
+Z|<b>Mesoamérica</b> fue una gran región donde vivieron olmecas, mayas, teotihuacanos, zapotecos, mixtecos, toltecas y mexicas.|Compartían el <b>maíz</b>, el calendario, el juego de pelota, las pirámides y el comercio.|Lograron grandes conocimientos de <b>astronomía</b>, matemáticas y arte.|Algunas practicaban sacrificios humanos, que van contra la <b>dignidad</b> de la persona.
+E|Olmecas: la cultura madre|Mayas: inventaron el cero
+S|¿Por qué se llama «cultura madre» a la olmeca?|Fue la más antigua de las grandes culturas de Mesoamérica.|De ella aprendieron las que vinieron después.|Dejó el calendario, el juego de pelota y los centros ceremoniales.|=Porque fue la primera y las demás heredaron sus conocimientos.
+I|🗿 Olmecas: Cabezas colosales de piedra.|🔢 Mayas: El cero y un calendario exacto.|🛕 Teotihuacan: Pirámides del Sol y de la Luna.|🦅 Mexicas: Fundaron Tenochtitlan.
+0|V|El maíz era el alimento principal de Mesoamérica.
+0|¿Qué construían los pueblos mesoamericanos para sus ceremonias?|pirámides|castillos|catedrales
+1|¿Qué cultura inventó el cero?|la maya|la olmeca|la tolteca
+1|¿Qué estudiaban los mesoamericanos al mirar el cielo?|la astronomía|la minería|la navegación
+1|F|Los pueblos de Mesoamérica no comerciaban entre sí.
+1|¿En qué lago se fundó Tenochtitlan?|en el de Texcoco|en el de Chapala|en el de Pátzcuaro
+2|O|Ordena de la más antigua a la más reciente|Olmecas|Teotihuacanos|Toltecas|Mexicas
+2|¿Por qué los sacrificios humanos eran malos?|la vida de toda persona es sagrada|eran ceremonias muy costosas|duraban demasiadas horas
+2|V|En las culturas antiguas hay cosas buenas que preparan para conocer a Cristo.
+2|¿Qué dejaron los olmecas en Veracruz y Tabasco?|cabezas colosales|pirámides de cristal|murallas de hierro
+P|¿Qué cultura construyó {x}?||las cabezas colosales = la olmeca|las pirámides del Sol y de la Luna = la teotihuacana|Chichén Itzá = la maya|Monte Albán = la zapoteca|los atlantes de Tula = la tolteca
+#4h10
+Z|De <b>1521 a 1821</b>, México fue la <b>Nueva España</b>: tres siglos de Virreinato.|Gobernaba el <b>virrey</b> en nombre del rey de España; las audiencias impartían justicia.|La economía se basaba en la <b>minería</b> de plata, la agricultura, la ganadería y el comercio por Veracruz y Acapulco.|Nació una cultura <b>mestiza</b>: lengua, comida, arte y fe.
+E|Nao de China: de Acapulco a Filipinas|1551: primera universidad de América
+S|¿Por qué decimos que nuestra cultura es mestiza?|De los pueblos originarios vienen el maíz, el chile, el cacao y muchas palabras.|De España llegaron el trigo, el ganado, el español y la fe cristiana.|Las dos herencias se mezclaron.|=Porque nació de la unión de la herencia indígena y la española.
+I|👑 Virrey: Gobernaba en nombre del rey.|⛏️ Plata: De Zacatecas y Guanajuato.|⚓ Puertos: Veracruz y Acapulco.|🍲 Mestizaje: El mole une dos mundos.
+0|V|El Virreinato terminó en 1821.
+0|¿Cómo se llamaba México durante el Virreinato?|Nueva España|Nueva Granada|Gran México
+1|¿Cuántos siglos duró el Virreinato?|tres|uno|diez
+1|¿Qué hacían las audiencias?|impartían justicia|sacaban la plata|construían barcos
+1|F|En la Nueva España gobernaba un presidente elegido por el pueblo.
+1|¿Qué animal trajeron los españoles?|el caballo|el guajolote|el ajolote
+2|¿Por qué el mole es un platillo mestizo?|mezcla ingredientes de dos mundos|se inventó en España|solo lleva chile
+2|¿Qué fundó la Iglesia en 1551?|la primera universidad de América|el primer banco|el primer ferrocarril
+2|V|En las minas, muchos indígenas trabajaban en condiciones injustas.
+2|¿A dónde viajaba la Nao de China desde Acapulco?|a Filipinas|a España|a Perú
+K|{x}: ¿de origen mesoamericano o traído por los españoles?|¿Mesoamericano o traído por los españoles?|mesoamericano: el maíz; el chile; el cacao; el jitomate; el guajolote|traído por los españoles: el trigo; el caballo; la vaca; el cerdo; el arroz
+#4h11
+Z|En la Nueva España se clasificaba a las personas por su <b>origen</b>: peninsulares, criollos, mestizos, indígenas, africanos y sus mezclas (<b>castas</b>).|Los de arriba tenían privilegios; los de abajo, menos derechos.|Era <b>injusto</b>: juzgaba por el origen o el color, no por la dignidad.|Hoy debemos evitar todo <b>racismo</b> y desprecio.
+E|Peninsular: nacido en España|«Todos son uno en Cristo» (Gál 3, 28)
+S|Un criollo y un peninsular tenían los mismos estudios, pero solo el peninsular podía ser virrey. ¿Era justo?|Los dos tenían la misma preparación.|La única diferencia era el lugar donde nacieron.|Nadie elige dónde nace.|=No: se daban cargos por el lugar de nacimiento y no por el mérito.
+I|🔺 Castas: Una sociedad dividida por el origen.|👑 Privilegios: Solo para los de arriba.|⚖️ Injusticia: Se juzgaba por el color y el origen.|✝️ Igualdad: Todos somos hijos de Dios.
+0|V|Los peninsulares eran españoles nacidos en España.
+0|¿Quiénes tenían más privilegios en la Nueva España?|los peninsulares|los indígenas|los africanos
+1|¿Quiénes eran los mestizos?|hijos de español e indígena|españoles nacidos en España|africanos libres
+1|¿Qué es un privilegio?|una ventaja que otros no tienen|un castigo por portarse mal|un trabajo duro y sin paga
+1|F|En la Nueva España todas las personas tenían los mismos derechos.
+1|¿Qué pagaban los indígenas al gobierno virreinal?|tributos|propinas|multas de tránsito
+2|¿De qué depende la dignidad de una persona?|de ser hija de Dios|de su color de piel|de su dinero
+2|¿Qué hago si escucho un chiste racista?|no lo repito y lo rechazo|me río y lo cuento|lo comparto
+2|V|Burlarse de alguien por su color de piel es una forma de racismo.
+2|¿Por qué los criollos estaban inconformes?|no podían tener los cargos más altos|pagaban más tributo que nadie|tenían prohibido estudiar
+#4h12
+Z|<b>Franciscanos, dominicos, agustinos y jesuitas</b> llegaron a enseñar la fe.|Aprendieron las lenguas indígenas y fundaron pueblos, <b>escuelas y hospitales</b>.|Defendieron a los indígenas de los abusos.|El <b>barroco mexicano</b> llenó los templos de dorados, retablos y ángeles, con flores y frutas de esta tierra.
+E|Santa Prisca, en Taxco|Tonantzintla, en Puebla
+S|¿Por qué los misioneros aprendieron náhuatl, maya y otras lenguas?|Querían anunciar el Evangelio a los pueblos de esta tierra.|La gente entiende mejor en su propia lengua.|Por eso escribieron catecismos y diccionarios en esas lenguas.|=Para enseñar la fe en la lengua de cada pueblo.
+I|📖 Enseñar: La fe y también a leer.|🗣️ Lenguas: Aprendieron náhuatl, maya y más.|🏥 Hospitales: Para cuidar a los enfermos.|✨ Barroco: Templos llenos de oro y color.
+0|V|Los franciscanos fueron los primeros misioneros en llegar.
+0|¿Qué enseñaban los misioneros además de la fe?|a leer, música y oficios|a pelear en la guerra|a navegar por el mar
+1|¿En qué ciudad está el templo de Santa Prisca?|en Taxco|en Mérida|en Tijuana
+1|¿Qué adorna los templos barrocos?|retablos dorados|paredes vacías|vidrios negros
+1|F|Los misioneros prohibieron a los indígenas hablar sus lenguas.
+1|¿Qué pusieron los artistas indígenas en Tonantzintla?|flores y frutas de su tierra|animales del polo|barcos de guerra
+2|¿Por qué los misioneros defendieron a los indígenas?|porque son hijos de Dios|porque les pagaban|porque el rey lo ordenó
+2|¿Qué muestra el arte de Tonantzintla?|la fe unida a la cultura indígena|solo arte de España|que no había artistas
+2|V|Con música y teatro los misioneros enseñaron el Evangelio.
+2|¿Para qué servía el gran atrio de los conventos?|para reunir y enseñar a mucha gente|para guardar caballos|para sembrar maíz
+P|¿Por qué se recuerda a {x}?||Vasco de Quiroga = fundó pueblos-hospital|fray Bernardino de Sahagún = estudió la cultura náhuatl|fray Bartolomé de las Casas = defendió a los indígenas|fray Juan de Zumárraga = fue el primer obispo de México
+#4h13
+Z|Causas de la Independencia: los <b>criollos</b> no podían ocupar altos cargos; indígenas y castas vivían en pobreza; llegaban ideas de libertad.|En 1808, Napoleón invadió España.|En <b>Querétaro</b> conspiraban Hidalgo, Allende, Aldama y Josefa Ortiz de Domínguez.|Al ser descubiertos, Hidalgo llamó al pueblo el <b>16 de septiembre de 1810</b>, en Dolores.
+E|Grito de Dolores: madrugada del 16 de septiembre|Estandarte: la Virgen de Guadalupe
+S|¿Por qué Hidalgo adelantó el inicio de la lucha?|Los conspiradores planeaban levantarse más adelante.|La conspiración fue descubierta y los iban a apresar.|Doña Josefa logró avisarles a tiempo.|=Porque los habían descubierto y no podían esperar.
+I|⚖️ Desigualdad: Pocos mandaban y muchos eran pobres.|💡 Ideas: Libertad e igualdad.|🔔 Dolores: El cura Hidalgo llama al pueblo.|🌹 Guadalupe: El estandarte de los insurgentes.
+0|V|Miguel Hidalgo era un sacerdote.
+0|¿En qué pueblo dio Hidalgo el Grito?|en Dolores|en Taxco|en Acapulco
+1|¿Qué fecha celebramos el inicio de la Independencia?|el 16 de septiembre|el 5 de mayo|el 20 de noviembre
+1|¿De qué país se independizó México?|de España|de Francia|de Estados Unidos
+1|F|Los criollos podían ocupar los cargos más altos de la Nueva España.
+1|¿Cómo se llamó a quienes lucharon por la Independencia?|insurgentes|virreyes|conquistadores
+2|O|Ordena de lo más antiguo a lo más reciente|Napoleón invade España|Conspiración de Querétaro|Grito de Dolores|Consumación de la Independencia
+2|¿Qué pidió Morelos sobre el 12 de diciembre?|que se celebrara en toda la nación|que se trabajara ese día|que se olvidara
+2|V|Buscar la justicia es bueno, pero dañar a inocentes está mal.
+2|¿En qué año se consumó la Independencia?|en 1821|en 1810|en 1910
+P|¿Quién fue {x}?||Miguel Hidalgo = el cura que dio el Grito de Dolores|Josefa Ortiz = la Corregidora de Querétaro|Ignacio Allende = un militar que luchó con Hidalgo|José María Morelos = el cura que siguió la lucha en el sur
+#4h14
+Z|<b>Porfirio Díaz</b> gobernó más de treinta años: hubo progreso para pocos y pobreza para muchos.|<b>Madero</b> llamó a luchar el <b>20 de noviembre de 1910</b>: así empezó la Revolución.|Participaron Zapata, Villa, Carranza y Obregón.|En <b>1917</b> se promulgó la Constitución, que nos rige hasta hoy.
+E|«Sufragio efectivo, no reelección»|5 de febrero: Día de la Constitución
+S|¿Por qué empezó la Revolución?|Un mismo presidente llevaba más de treinta años en el poder.|Muchos campesinos no tenían tierra y los obreros ganaban muy poco.|La gente quería elegir a sus gobernantes y vivir con justicia.|=Por la falta de democracia y la pobreza de la mayoría.
+I|🗳️ Madero: Pidió elecciones libres.|🌽 Zapata: Tierra para los campesinos.|🐎 Villa: Jefe de la División del Norte.|📜 1917: La Constitución que nos rige.
+0|V|El 20 de noviembre recordamos el inicio de la Revolución.
+0|¿Quién llamó a iniciar la Revolución?|Francisco I. Madero|Benito Juárez|Miguel Hidalgo
+1|¿Qué pedían los campesinos en la Revolución?|tierra para trabajar|más fábricas|un nuevo rey
+1|¿En qué año renunció Porfirio Díaz?|en 1911|en 1821|en 1968
+1|F|La Constitución de 1917 ya no se usa en México.
+1|¿Quién dirigía la División del Norte?|Francisco Villa|Emiliano Zapata|Venustiano Carranza
+2|O|Ordena de lo más antiguo a lo más reciente|Madero llama a la lucha|Renuncia de Díaz|Constitución de 1917
+2|¿Qué garantiza hoy la ley sobre la religión?|la libertad religiosa|una religión obligatoria|la prohibición del culto
+2|V|La Constitución es la ley más importante del país.
+2|¿Qué significa «no reelección»?|que el presidente no repita en el cargo|que nunca más haya elecciones|que gobierne un rey para siempre
