@@ -1,0 +1,255 @@
+// Ciencias Naturales 3.º — banco ampliado (preguntas y tablas)
+#3c11
+0|F|Los huesos de las piernas no tienen articulaciones.
+0|¿Qué articulación nos deja doblar la pierna?|la rodilla|el cráneo|la costilla
+1|¿Qué protegen las costillas?|el corazón y los pulmones|los dedos de los pies|las orejas y la nariz
+1|¿Qué tienen los bebés que cambia al crecer?|más huesos pequeños que luego se unen|menos músculos que los adultos|ninguna articulación todavía
+2|¿Qué músculo dobla el brazo?|el bíceps|el corazón|la lengua
+2|¿Qué pasa si no hacemos ejercicio?|los músculos se debilitan|los huesos se vuelven de goma|crecemos más rápido
+2|¿Qué une los músculos con los huesos?|los tendones|las uñas|los nervios
+P|{x}: ¿en qué parte del cuerpo?||las costillas = en el pecho|la rótula = en la rodilla|el húmero = en el brazo|la clavícula = en el hombro|las falanges = en los dedos|la tibia = en la pierna
+#3c12
+0|F|La comida pasa directo de la boca al intestino.
+0|¿Con qué masticamos?|con los dientes|con el esófago|con el estómago
+1|¿Qué órgano tiene jugos que deshacen la comida?|el estómago|el corazón|el pulmón
+1|¿Qué parte absorbe el agua de los restos de comida?|el intestino grueso|la boca|el esófago
+1|¿Por qué conviene comer alimentos con fibra?|ayudan a que el intestino funcione bien|tienen colores muy bonitos|se mastican mucho más rápido
+2|¿Qué órgano produce la bilis que ayuda a digerir las grasas?|el hígado|el corazón|el cerebro
+2|¿Por qué hay que masticar bien?|para que el estómago trabaje mejor|para terminar más rápido|para que no se enfríe
+2|¿Qué le pasa a lo que el cuerpo no aprovecha?|sale del cuerpo como desecho|se queda para siempre en el estómago|se convierte en hueso
+2|¿Por qué bendecimos los alimentos?|para dar gracias a Dios por ellos|para que tengan mejor sabor|para que se calienten solos
+K|{x}: ¿cuida o daña la digestión?|¿Cuida o daña la digestión?|cuida: masticar despacio; comer fibra; tomar agua simple; lavarse las manos antes de comer|daña: tragar sin masticar; comer muchas frituras; no tomar agua en todo el día; comer fruta sin lavar
+#3c1
+0|F|La sangre se queda quieta dentro del corazón.
+0|¿Qué tipo de órgano es el corazón?|un músculo|un hueso|un nervio
+1|¿Cómo se llaman los tubitos más finos por donde pasa la sangre?|capilares|arterias|venas
+1|¿Dónde puedo sentir mi pulso?|en la muñeca|en la uña|en el cabello
+1|¿Qué le pasa al corazón al correr?|late más rápido|deja de latir|late más despacio
+1|¿Qué hábito daña mucho el corazón?|fumar|caminar|dormir bien
+2|¿Cuántas veces late el corazón en un día, más o menos?|unas 100 000|unas 10|unas 50
+2|¿Qué órganos le pasan el oxígeno a la sangre?|los pulmones|el estómago|los riñones
+2|¿A quién mostró Jesús su Sagrado Corazón?|a santa Margarita María|a santa Rosa de Lima|a santa Teresita
+2|¿Por qué el corazón nunca deja de trabajar?|porque la sangre debe circular siempre|porque se le olvida parar|porque está hecho de hueso
+K|{x}: ¿cuida o daña el corazón?|¿Cuida o daña el corazón?|cuida: hacer ejercicio; comer frutas y verduras; dormir bien; jugar al aire libre|daña: pasar todo el día sentado; comer mucha grasa y sal; tomar muchos refrescos
+#3c3
+0|F|Los nervios están solo en la cabeza.
+0|¿Qué órgano usamos para pensar?|el cerebro|el estómago|el corazón
+0|¿Con qué sentido distinguimos los colores?|la vista|el oído|el olfato
+1|¿Qué parte del sistema nervioso cuida el equilibrio?|el cerebelo|el estómago|la rodilla
+1|¿Por dónde baja la médula espinal?|por dentro de la columna|por fuera de la piel|por dentro del brazo
+1|Toco una olla caliente y quito la mano sin pensar. ¿Qué fue?|un reflejo|un sueño|un estornudo
+1|¿Qué ayuda al cerebro a descansar?|dormir bien|ver pantallas en la noche|desvelarse
+2|¿Qué llevan los nervios desde los sentidos al cerebro?|la información de lo que sentimos|la sangre con oxígeno|la comida ya digerida
+2|¿Qué nos dio Dios para conocer la verdad?|la inteligencia|la fuerza|la estatura
+2|¿Por qué Santo Tomás de Aquino es patrono de los estudiantes?|porque estudió mucho para conocer a Dios|porque nunca fue a la escuela|porque escribió cuentos de animales
+2|¿Qué sentido está en toda la piel?|el tacto|la vista|el gusto
+P|¿Con qué sentido {x}?||huelo las flores = con el olfato|escucho la música = con el oído|pruebo la sopa = con el gusto|siento lo áspero de una lija = con el tacto
+#3c2
+0|F|Los refrescos son la mejor bebida para tener energía.
+0|¿Qué alimento nos da energía?|la tortilla|el agua|la sal
+0|¿Qué es una dieta variada?|comer distintos alimentos cada día|comer siempre lo mismo|no comer en todo el día
+1|¿Qué alimento tiene muchas proteínas?|el huevo|el refresco|el azúcar
+1|¿Qué significa que una dieta sea higiénica?|alimentos limpios y bien preparados|comida servida en platos de colores|comer rápido y de pie
+1|¿Qué alimento tiene grasas buenas?|el aguacate|el refresco|la gelatina
+1|¿Qué hacemos con la comida que sobra?|la guardamos o la compartimos|la tiramos sin pensar|la escondemos
+2|¿Qué significa que una dieta sea «suficiente»?|comer lo que el cuerpo necesita|comer hasta que ya no quepa nada|comer una sola vez al día
+2|¿Qué alimento conviene comer con moderación?|los pastelitos empaquetados|las verduras de la sopa|el agua simple del garrafón
+2|¿Qué vivimos al compartir el pan con quien no tiene?|lo que pedimos en el Padre Nuestro|un juego de cartas|una regla de la escuela
+2|¿Por qué el desayuno es importante?|nos da energía para la mañana|nos quita las ganas de jugar|sirve solo para los adultos
+K|{x}: ¿alimento natural o comida chatarra?|¿Natural o chatarra?|natural: una manzana; frijoles de la olla; un elote cocido; una naranja|chatarra: papitas fritas de bolsa; refresco de cola; galletas rellenas empaquetadas; dulces de colores
+#3c13
+0|F|Lavarse las manos solo es necesario una vez a la semana.
+0|¿Cuándo me lavo las manos?|antes de comer y después de ir al baño|solo cuando están muy negras|una vez al mes, los domingos
+1|¿Cuándo me lavo los dientes?|después de cada comida|una vez al mes|solo en mi cumpleaños
+1|¿Qué hago si me siento enfermo?|aviso a mis papás|me tomo cualquier pastilla|lo escondo
+1|¿Por qué conviene limitar las pantallas?|para descansar la vista y dormir bien|para que se acabe la batería|porque se va la luz de la casa
+2|¿Qué hábito ayuda a no contagiar la gripa?|cubrirme al toser y lavarme las manos|compartir mi vaso con todos|ir a la escuela con fiebre
+2|¿Qué hace el ejercicio por mi cuerpo?|fortalece músculos, huesos y corazón|me hace crecer en una sola noche|me quita la necesidad de dormir
+2|¿Por qué es importante desayunar?|para tener energía en la escuela|para no tener que comer más|porque así me dan un premio
+2|¿Cómo amamos al prójimo cuando estamos enfermos?|cuidándonos para no contagiar|yendo a jugar con todos|saludando de beso a todos
+K|{x}: ¿hábito sano o no sano?|¿Sano o no sano?|sano: lavarme los dientes; dormir temprano; jugar al aire libre; comer frutas|no sano: desvelarme con el celular; no lavarme las manos; pasar todo el día frente a la pantalla; saltarme el desayuno
+#3c10
+0|F|Se puede jugar con cerillos si los adultos no ven.
+0|¿Qué uso al andar en bicicleta?|casco|chanclas|audífonos
+0|¿Dónde se guardan las medicinas y los productos de limpieza?|lejos del alcance de los niños|junto a los juguetes|en la mesa del comedor
+1|Me raspé la rodilla. ¿Qué hago primero?|lavar con agua y jabón|ponerle tierra|taparla sin lavar
+1|¿Qué remedio casero NO sirve para una quemadura?|untar pasta de dientes|poner agua fría corriendo|avisar a un adulto
+1|Me sangra la nariz. ¿Qué hago?|inclino la cabeza adelante y aprieto la nariz|echo la cabeza hacia atrás y espero|me acuesto boca arriba en el piso
+1|¿Por qué no se corre en las escaleras?|porque me puedo caer y lastimar|porque se ensucian los escalones|porque hace mucho ruido
+2|¿Qué datos digo al llamar al 911?|qué pasó y dónde estoy|mi color favorito|el nombre de mi maestra
+2|Huele a gas en la cocina. ¿Qué hago?|salgo y aviso a un adulto, sin prender nada|enciendo un cerillo para revisar|prendo la luz para ver mejor
+2|¿Cuál es una forma de caridad con los demás?|aprender primeros auxilios para ayudar|burlarse del que se cae|esconder el botiquín
+2|¿Qué debe hacer un niño si alguien está muy herido?|pedir ayuda a un adulto de inmediato|moverlo él solo a otro lugar|darle cualquier medicina
+P|¿Qué hago si {x}?||me corto con una hoja de papel = lo lavo y pongo una curita|veo humo en la casa = salgo y aviso a un adulto|me pica una abeja = aviso a un adulto y pongo algo frío|alguien se desmaya = aviso a un adulto y llamo al 911
+#3c4
+0|F|Las plantas comen tierra para crecer.
+0|¿Por dónde toma agua la planta?|por la raíz|por la flor|por el fruto
+0|¿Qué parte de la planta hace más fotosíntesis?|las hojas|las raíces|las semillas
+1|¿Qué es un esqueje?|un pedazo de tallo que echa raíces|una semilla muy pequeña|una flor seca y sin pétalos
+1|¿De dónde vienen las semillas?|de las flores|de las raíces|de las piedras
+1|¿Qué pasa con una flor polinizada?|se convierte en fruto|se vuelve raíz|se hace tallo
+1|¿Qué mamífero mexicano poliniza el agave?|el murciélago|el conejo|el coyote
+2|¿Qué fabrican las plantas en la fotosíntesis?|su propio alimento|piedras y arena|polen para las abejas
+2|¿Por qué una planta en un cuarto oscuro se debilita?|no puede hacer fotosíntesis sin luz|tiene demasiada agua en la maceta|le sobra el aire del cuarto
+2|¿Qué pasaría si no hubiera polinizadores?|habría muchos menos frutos|crecerían más flores|las plantas volarían
+2|¿Qué parte de la flor tiene el polen?|los estambres|las raíces|el tallo
+K|{x}: ¿poliniza las flores?|¿Poliniza las flores?|sí: la abeja; el colibrí; la mariposa; el abejorro|no: la lombriz; el caracol; el pez; la tortuga
+#3c5
+0|F|Los insectos tienen columna vertebral.
+0|¿Qué tienen los vertebrados por dentro?|un esqueleto con columna|solo agua y aire|una concha dura
+1|¿A qué grupo pertenece el ajolote?|a los anfibios|a los peces|a los reptiles
+1|¿Qué cubre el cuerpo de las aves?|plumas|escamas|pelo
+1|¿Cómo respiran los peces?|con branquias|con pulmones|con la piel seca
+1|¿Qué invertebrado es un molusco?|el pulpo|la araña|la hormiga
+2|¿Qué tienen en común el murciélago y la ballena?|son mamíferos|son peces|son aves
+2|¿Cómo es la piel de los anfibios?|húmeda|con plumas|con escamas secas
+2|¿Por qué la tortuga es un reptil?|tiene escamas secas y pone huevos en tierra|vive siempre en el agua y tiene branquias|tiene plumas, pico y dos alas
+2|¿Qué animal es un arácnido?|el alacrán|la mosca|el caracol
+#3c14
+0|F|Todos los animales se mueven de la misma forma.
+0|¿Qué usan las aves para volar?|alas|aletas|patas largas
+1|¿Qué animal nada aunque no es pez?|el delfín|la tortuga del desierto|el caballo
+1|¿Cómo se desplaza un caballo?|corre y camina|vuela|repta
+1|¿Para qué le sirven las patas fuertes al canguro?|para saltar|para nadar|para volar
+2|¿Por qué el pez tiene forma alargada?|para moverse fácil en el agua|para caber en la pecera|para verse más bonito
+2|¿Cómo se desplaza un caracol?|se arrastra lentamente|salta muy alto|vuela
+2|¿Qué adaptación tiene el pato para nadar?|patas con membranas|pelo grueso|garras largas
+2|¿En qué libro dice que Dios hizo a los animales según su especie?|en el Génesis|en los Salmos|en el Apocalipsis
+K|{x}: ¿cómo se desplaza?|¿Cómo se desplaza?|vuela: el águila; la mosca|nada: el pulpo; la mantarraya|repta: la lombriz; la víbora de cascabel|salta: el chapulín; la liebre
+#3c15
+0|F|Las plantas y los animales no se necesitan entre sí.
+0|¿Qué dan las plantas a los animales?|alimento y refugio|ruido y basura|frío y sed
+1|¿Qué es dispersar semillas?|llevarlas a otros lugares|romperlas en pedacitos|guardarlas en casa
+1|¿Qué animales dispersan semillas al comer frutos?|las aves|los caracoles de mar|los peces del río
+1|¿Qué forman las flores polinizadas?|frutos y semillas|piedras|nubes
+2|¿Por qué la mariposa monarca necesita flores en su viaje?|para alimentarse del néctar|para dormir en ellas|para esconderse del sol
+2|¿De dónde viene la mariposa monarca en su viaje a México?|de Canadá y Estados Unidos|de Brasil y Argentina|de Australia y Japón
+2|¿Qué podemos sembrar para ayudar a los polinizadores?|flores de la región|plástico de colores|nada, no necesitan ayuda
+2|¿Qué sacan las abejas de las flores para hacer miel?|néctar|tierra|agua salada
+K|{x}: ¿lo da la planta o lo hace el animal?|¿La planta o el animal?|lo da la planta: alimento; refugio; oxígeno; sombra|lo hace el animal: llevar el polen; dispersar las semillas; abonar la tierra
+#3c22
+0|F|En la naturaleza no hay figuras geométricas.
+0|¿Cuántos lados tiene un hexágono?|seis|cuatro|ocho
+1|¿Qué forma tienen muchos copos de nieve?|de estrella de seis puntas|de círculo perfecto|de cuadrado
+1|¿Qué parte de nuestro cuerpo es simétrica por fuera?|la cara|el estómago|el corazón
+1|¿Dónde más vemos espirales en la naturaleza?|en el centro del girasol|en un ladrillo|en la arena lisa
+2|Si doblo una hoja de árbol por la mitad y sus lados coinciden, ¿qué tiene?|simetría|fotosíntesis|clorofila
+2|¿Por qué las abejas usan hexágonos?|caben sin dejar huecos y ahorran cera|porque son más bonitos|porque no saben hacer círculos
+2|¿Qué nos dicen el orden y la belleza de la naturaleza?|que hay un Creador sabio|que todo salió por casualidad|que nadie la cuida
+2|¿Qué figura tiene un tronco de árbol cortado?|un círculo|un triángulo|un hexágono
+#3c6
+0|F|En México hay pocas especies de plantas y animales.
+0|¿Qué es un ecosistema?|seres vivos y no vivos que se relacionan|una ciudad llena de edificios|una tienda grande de mascotas
+0|¿Qué daña a las especies en peligro?|destruir su hábitat|plantar árboles|no tirar basura
+1|¿Qué es un elemento no vivo de un ecosistema?|el agua|el venado|el pino
+1|¿Dónde vive la guacamaya roja en México?|en la selva de Chiapas|en el desierto de Sonora|en el mar de Cortés
+1|¿Qué es el tráfico ilegal de animales?|venderlos sacándolos de su hábitat|cuidarlos en un santuario|curarlos en un hospital
+1|¿Qué animal grande de la selva mexicana está en peligro?|el jaguar|el perro|la vaca
+2|¿Por qué el ajolote está en peligro?|por la contaminación de los canales|porque es muy grande|porque vuela muy lejos
+2|¿Qué hace un área natural protegida?|cuida un ecosistema y sus especies|construye fábricas y carreteras|vende animales a los turistas
+2|¿Qué pidió el papa Francisco en «Laudato si'»?|cuidar la creación, nuestra casa común|construir más y más ciudades|olvidarnos de la naturaleza
+2|¿Qué podemos hacer en casa por los ecosistemas?|ahorrar agua y separar la basura|tirar aceite al drenaje|dejar las luces prendidas
+P|¿Dónde vive {x}?||el lobo mexicano = en los bosques del norte|el berrendo = en los desiertos del norte|la tortuga marina = en el mar y las playas|la mariposa monarca = en los bosques de Michoacán en invierno|el quetzal = en los bosques de niebla de Chiapas
+#3c7
+0|F|El aire no es materia porque no se ve.
+0|¿Qué estado de la materia tiene forma propia?|sólido|líquido|gaseoso
+0|¿Qué es la masa?|la cantidad de materia de un objeto|el color de un objeto|la forma de un objeto
+1|¿Qué pasa con un líquido al vaciarlo en otro vaso?|toma la forma del vaso|se vuelve sólido|desaparece
+1|¿En qué estado está el vapor?|gaseoso|sólido|líquido
+1|¿Qué ocupa más espacio: una pelota inflada o una desinflada?|la inflada|la desinflada|ocupan lo mismo
+1|¿En qué unidades se mide la temperatura en México?|en grados Celsius|en kilómetros|en litros
+2|¿Qué ocupa el aire dentro de un globo?|espacio|nada|tiempo
+2|¿Qué demuestra que el aire es materia?|que infla un globo|que no se ve|que no tiene color
+2|¿Qué tiene más volumen: un elefante o un ratón?|el elefante|el ratón|tienen el mismo
+2|¿Qué quiere decir que Dios es Creador?|que hizo todo de la nada|que juntó lo que ya existía|que solo mira el mundo
+#3c16
+0|F|Un metro tiene diez centímetros.
+0|¿Cuántos centímetros tiene un metro?|100|10|1000
+1|¿Qué instrumento uso para medir el largo de una mesa?|una cinta métrica|una báscula|un termómetro
+1|¿Cuántos metros tiene un kilómetro?|1000|100|10
+1|¿Qué unidad usamos para la masa de una sandía?|kilogramos|metros|litros
+2|Medio kilogramo, ¿cuántos gramos son?|500|50|5000
+2|¿Por qué un kilo de algodón ocupa más espacio que uno de hierro?|tiene mucho aire entre sus fibras|pesa más que el hierro|el hierro está hueco por dentro
+2|¿Qué pide la Biblia al medir y pesar?|que usemos balanza justa|que no midamos nada|que pesemos todo dos veces
+2|Mi lápiz mide 15 cm y mi goma 5 cm. ¿Cuánto más largo es el lápiz?|10 cm|20 cm|5 cm
+P|¿En qué unidad mides {x}?||la masa de una uva = en gramos|la masa de un perro = en kilogramos|el largo de una cancha = en metros|el grosor de una moneda = en milímetros|el camino de Monterrey a Puebla = en kilómetros
+#3c17
+0|F|Los gases tienen forma propia, como las piedras.
+0|¿Qué le pasa al hielo con el calor?|se derrite|se congela más|se vuelve piedra
+1|¿Qué es la solidificación?|de líquido a sólido|de sólido a gas|de gas a líquido
+1|¿Por qué se empaña el espejo del baño?|el vapor se condensa en el vidrio frío|el espejo suda como una persona|alguien le echó agua a propósito
+1|¿Qué cambio pasa cuando se seca un charco al sol?|evaporación|fusión|solidificación
+2|¿Qué cambio de estado pasa al hacer paletas de hielo?|solidificación|evaporación|condensación
+2|¿Qué es la sublimación?|de sólido a gas directamente|de líquido a sólido|de gas a líquido
+2|¿Qué necesita el agua para evaporarse más rápido?|calor|frío|oscuridad
+2|¿En qué sacramento el agua es signo de vida nueva?|en el Bautismo|en el Matrimonio|en la Confirmación
+K|«{x}»: ¿qué cambio de estado es?|¿Qué cambio de estado es?|fusión: un helado se derrite al sol; la mantequilla se derrite en el sartén|evaporación: la ropa mojada se seca; el agua de la olla hierve|condensación: se forman gotitas en un vaso frío; aparece el rocío de la mañana|solidificación: el agua se congela; la cera de la vela se endurece
+#3c8
+0|F|Una mezcla siempre tiene un solo material.
+0|¿Cuál es una mezcla?|agua con arena|un vaso vacío|una piedra sola
+0|¿Qué objeto usamos para filtrar?|un colador o una tela|un martillo|una regla
+1|¿Cómo separo el aceite del agua?|decantando|tamizando|con un imán
+1|¿Qué es decantar?|dejar que se asiente y vaciar con cuidado|pasar por un colador fino|calentar hasta que hierva
+1|¿Qué es tamizar?|pasar por un colador fino|calentar mucho|usar un imán
+1|¿Qué separa el colador al hacer agua de jamaica?|las flores del agua|el azúcar del agua|el color del agua
+2|¿Por qué la sal disuelta no se separa con un colador?|porque está disuelta en el agua|porque pesa demasiado|porque es muy dulce
+2|¿Qué mezcla se separa a mano, una por una?|piedritas en los frijoles|sal en el agua|azúcar en la leche
+2|¿Qué significa la gota de agua en el vino de la Misa?|nuestra unión con Jesús|que el vino está muy fuerte|que se acabó el vino
+2|¿Cómo obtienen la sal en las salinas de la costa?|evaporando el agua de mar|congelando el agua|filtrando la arena
+P|¿Cómo separas {x}?||las hojas del té = colando|los clavos del aserrín = con un imán|el lodo del agua = dejando que se asiente|el agua de la pasta cocida = con un escurridor
+#3c18
+0|F|Las fuerzas solo pueden mover cosas, nunca detenerlas.
+0|¿Qué hago al patear un balón quieto?|lo pongo en movimiento|lo deformo para siempre|lo detengo
+1|¿Por qué cuesta más empujar una caja sobre la alfombra que sobre el piso liso?|por la fricción|por la gravedad|por el imán
+1|¿Qué fuerza usa un imán?|la magnética|la gravedad|el viento
+1|¿Qué pasa si empujo un carrito más fuerte?|se mueve más rápido|se detiene|se hace más pequeño
+2|¿Qué fuerza nos ayuda a no resbalar al caminar?|la fricción|la gravedad|el magnetismo
+2|¿Qué le pasa a una pelota que lanzo hacia arriba?|la gravedad la hace bajar|se queda en el aire|sube para siempre
+2|Un portero desvía el balón. ¿Qué hizo la fuerza?|cambió su dirección|lo deformó para siempre|lo hizo más grande
+2|¿Qué dice san Pablo sobre la fuerza de Dios?|que se manifiesta en la debilidad|que solo es para los fuertes|que no existe
+K|«{x}»: ¿la fuerza mueve, detiene o deforma?|¿Mueve, detiene o deforma?|mueve: soplar un barquito de papel; jalar un trineo|detiene: frenar la bicicleta; parar un balón con el pie|deforma: apretar una esponja; estirar una liga
+#3c19
+0|F|La madera conduce el calor mejor que el metal.
+0|¿Qué se calienta más rápido en una olla con sopa caliente?|una cuchara de metal|una cuchara de madera|las dos igual
+1|¿Qué es dilatarse?|hacerse un poco más grande|cambiar de color con el frío|romperse en pedazos con el agua
+1|¿Por qué usamos guantes para sacar algo del horno?|porque aíslan el calor|porque son de colores|porque huelen bien
+1|¿Qué material conduce bien el calor?|el cobre|el corcho|la lana
+2|¿Por qué los cables de luz se ven más colgados en verano?|porque se dilatan con el calor|porque los jalan los pájaros|porque se mojan con la lluvia
+2|¿Por qué un termo mantiene caliente el café?|porque aísla el calor|porque lo enfría|porque lo mueve
+2|¿Qué pasa con la tapa de metal de un frasco al ponerla en agua caliente?|se dilata y abre más fácil|se encoge y aprieta más|se rompe siempre
+2|¿Qué material usarías para el mango de una sartén?|plástico o madera|aluminio|cobre
+K|{x}: ¿conductor o aislante del calor?|¿Conductor o aislante?|conductor: una olla de aluminio; un clavo de hierro; una moneda; una sartén de hierro|aislante: un mango de plástico; un guante de lana; un corcho; una tabla de madera
+#3c20
+0|F|El sonido viaja más rápido que la luz.
+0|¿Qué instrumento es de viento?|la flauta|el tambor|el violín
+1|Un tambor grande tiene un sonido…|grave|agudo|silencioso
+1|¿Qué es la intensidad del sonido?|si es fuerte o suave|si es agudo o grave|si es largo o corto
+1|¿Por dónde viaja el sonido?|por el aire, el agua y los sólidos|solo por el aire de la casa|solo por el vacío del espacio
+2|¿Por qué en el espacio no se oyen sonidos?|porque no hay aire que vibre|porque hace mucho frío|porque está muy oscuro
+2|¿Dónde viaja más rápido el sonido: en el aire o en el agua?|en el agua|en el aire|igual en los dos
+2|¿Qué pasa si toco una cuerda de guitarra más corta?|suena más agudo|suena más grave|no suena
+2|¿Cómo podemos alabar a Dios con la música?|cantando y tocando con el corazón|haciendo ruido para molestar|subiendo el volumen al máximo
+K|{x}: ¿instrumento de cuerda, viento o percusión?|¿Cuerda, viento o percusión?|cuerda: el violín; el arpa; la jarana|viento: la trompeta; el saxofón; el clarinete|percusión: la marimba; las maracas; el güiro
+#3c21
+0|F|La energía solar se acaba muy pronto.
+0|¿Qué energía usa un foco?|eléctrica|del viento|del agua de lluvia
+1|¿Qué energía nos da la estufa?|calorífica|eólica|solar
+1|¿Qué hace un panel solar?|convierte la luz del sol en electricidad|es una ventana de colores|es una lámpara de mesa
+1|¿Qué energía se produce con el agua de las presas?|hidráulica|solar|eólica
+2|¿Por qué conviene usar energía solar?|porque no contamina y no se agota|porque es más ruidosa|porque solo sirve de noche
+2|¿Qué aparato gasta energía aunque no lo usemos si sigue conectado?|el cargador enchufado|un libro|una silla
+2|¿Por qué san Francisco llamaba «hermano» al sol?|porque todo es obra de Dios|porque era su pariente|porque lo veía de cerca
+2|¿Qué energía tiene una pelota que rueda?|de movimiento|luminosa|eléctrica
+K|{x}: ¿ahorra o desperdicia energía?|¿Ahorra o desperdicia?|ahorra: apagar la luz al salir; abrir las cortinas de día; desconectar el cargador; secar la ropa al sol|desperdicia: dejar la tele prendida sin verla; abrir el refrigerador a cada rato; dejar el foco prendido de día
+#3c9
+0|F|La Luna tiene luz propia.
+0|¿Qué astro gira alrededor de la Tierra?|la Luna|el Sol|Marte
+1|¿Qué hay en el centro del Sistema Solar?|el Sol|la Tierra|la Luna
+1|¿Qué es un satélite natural?|un astro que gira alrededor de un planeta|una estrella con luz propia|un planeta sin agua
+1|¿Qué fase sigue después de la luna nueva?|cuarto creciente|luna llena|cuarto menguante
+1|¿Qué marca una vuelta completa de la Tierra alrededor del Sol?|un año|un día|una hora
+2|¿Por qué la Luna brilla de noche?|refleja la luz del Sol|tiene focos por dentro|se calienta mucho
+2|¿Por qué no sentimos que la Tierra gira?|porque todo gira con ella|porque la Tierra está quieta siempre|porque solo gira mientras dormimos
+2|¿Cuántas fases principales tiene la Luna?|cuatro|ocho|dos
+2|¿Por qué es de día en México cuando en Japón es de noche?|porque la Tierra gira y el Sol ilumina un lado|porque en Japón no sale el Sol nunca|porque México está más cerca del Sol
+P|¿Qué planeta es {x}?||el más cercano al Sol = Mercurio|el de los anillos más visibles = Saturno|el planeta rojo = Marte|el más lejano del Sol = Neptuno|el más caliente = Venus
