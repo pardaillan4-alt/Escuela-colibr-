@@ -231,6 +231,7 @@ K|{x}: ¿fuente confiable o dudosa?|¿Confiable o dudosa?|confiable: una enciclo
 2|¿Quiénes hablaron con valentía en Pentecostés?|los apóstoles|los fariseos|los soldados
 K|{x}: ¿en qué parte de la exposición va?|¿En qué parte va?|introducción: saludo y digo mi tema; cuento por qué lo elegí|desarrollo: explico los datos; muestro mi cartel|conclusión: repaso las ideas clave; doy las gracias
 #3e26
+2|¿Qué descripción de un lugar usa el oído?|Se oyen las campanas y los pájaros.|La plaza es muy grande y bonita.|La iglesia es blanca y alta.
 0|F|Para describir un proceso no importa el orden de los pasos.
 0|¿Qué palabras describen a una persona por dentro?|honesta y trabajadora|alta y de pelo corto|de ojos cafés y nariz chica
 1|¿Qué sentido usamos al describir el olor del pan?|el olfato|el oído|la vista

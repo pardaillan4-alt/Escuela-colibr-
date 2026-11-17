@@ -45,6 +45,7 @@ I|🧩 Placas: La corteza está dividida en piezas que se mueven.|🌋 Volcanes:
 2|Después de un sismo fuerte, ¿qué es lo correcto?|revisar daños y no encender fuego|encender velas en seguida|subir corriendo a la azotea
 2|¿Qué mostraron los mexicanos tras los sismos de 1985 y 2017?|solidaridad con el prójimo|indiferencia|miedo a ayudar
 #6g4
+2|¿Cómo es el clima de la tundra?|frío, con el suelo casi siempre helado|cálido, húmedo y muy lluvioso|seco, soleado y caluroso
 Z|La <b>hidrosfera</b> es toda el agua del planeta: 97% es salada y solo 3% es dulce.|La mayor parte del agua dulce está congelada en los <b>glaciares</b>; el resto, en ríos, lagos y bajo el suelo.|Hay cinco grandes <b>climas</b>: tropical, seco, templado, frío y polar.
 E|97% salada · 3% dulce|Selva: clima tropical · Desierto: clima seco
 S|De cada 100 litros de agua del planeta, ¿cuántos son de agua dulce?|El 97% del agua es salada: está en mares y océanos.|100 − 97 = 3.|Y de esos 3 litros, la mayor parte está congelada en glaciares.|=Solo 3 litros.
@@ -135,6 +136,7 @@ I|⛺ Refugiados: Huyen a otro país para salvar su vida.|🕊️ ONU y ACNUR: P
 2|O|Ordena el camino de un refugiado|Hay guerra en su país|Huye para salvar su vida|Llega a otro país|Recibe refugio y ayuda
 2|¿Qué hace la Iglesia por los refugiados?|los acoge y ayuda por medio de Cáritas|les cobra por entrar|los regresa a la guerra
 #6g10
+2|¿Qué países tienen mucha agua dulce?|Brasil y Canadá|Egipto y Arabia Saudita|Chile y Perú
 Z|Los <b>recursos naturales</b> están repartidos de forma desigual: petróleo en Medio Oriente, cobre en Chile, grandes selvas en Brasil.|Los <b>renovables</b> (agua, bosques, sol, viento) se recuperan si se cuidan; los <b>no renovables</b> (petróleo, minerales) se agotan.|Usar con medida, reponer y reciclar es administrar bien la creación.
 E|Renovable: bosque, agua, viento|No renovable: petróleo, gas, minerales
 S|¿Qué país tiene la mayor selva tropical?|La mayor selva tropical del mundo es la Amazonía.|Se extiende por varios países de América del Sur.|La parte más grande está en el país más extenso de esa región.|=Brasil.

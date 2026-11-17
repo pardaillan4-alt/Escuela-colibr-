@@ -74,6 +74,7 @@ K|{x}: ¿antes o después de comulgar?|¿Antes o después de comulgar?|antes: re
 2|¿Qué significa «misión»?|ser enviado a anunciar a Jesús|irse de vacaciones|quedarse en casa
 2|¿Qué hago en la semana con lo que escuché en Misa?|lo vivo en mi casa y en la escuela|lo olvido al salir|lo guardo para el próximo año
 #2pc3
+2|¿Por qué es importante saber las respuestas de la Misa?|para participar y rezar con todos|para ganar un concurso de memoria|para que la Misa termine más rápido
 0|F|En la Misa solo habla el sacerdote y nadie responde.
 0|¿Qué respondo cuando el sacerdote dice «La paz del Señor esté siempre con ustedes»?|Y con tu espíritu|Demos gracias a Dios|Te alabamos, Señor
 1|¿Qué respondo al «Lectura del santo Evangelio según san Lucas»?|Gloria a ti, Señor|Amén|Es justo y necesario
@@ -142,6 +143,7 @@ K|{x}: ¿de qué color se viste el sacerdote?|¿Qué color litúrgico?|morado: u
 2|¿Por qué llamamos a Jesús «Cordero de Dios»?|porque dio su vida para quitar el pecado|porque cuidaba ovejas en el campo|porque nació en un establo
 2|¿Con cuántos panes dio de comer Jesús a una multitud?|con cinco panes y dos peces|con cien panes y cien peces|con un pan y una uva
 #2pc5
+2|¿Qué obra hago al corregir con cariño a un amigo que hace trampa?|corregir al que se equivoca|enterrar a los muertos|dar de beber al sediento
 0|F|Las obras de misericordia son solo para los adultos.
 0|¿Qué obra hago al darle agua a quien tiene sed?|dar de beber al sediento|enseñar al que no sabe|enterrar a los muertos
 0|¿Qué obra hago al perdonar a mi hermano?|perdonar las ofensas|vestir al desnudo|visitar a los presos
@@ -165,6 +167,8 @@ K|{x}: ¿obra de misericordia corporal o espiritual?|¿Corporal o espiritual?|co
 2|¿Qué hago antes de dormir?|reviso mi día, doy gracias y pido perdón|veo el celular hasta tarde|me duermo enojado
 K|{x}: ¿sacramental o superstición?|¿Sacramental o superstición?|sacramental: el agua bendita; el rosario; la medalla de la Virgen; el escapulario; las palmas benditas|superstición: un amuleto de la suerte; la pata de conejo; el horóscopo; las cartas para adivinar el futuro
 #2pc21
+0|¿Qué hacemos juntos en una familia cristiana?|rezamos, nos perdonamos y nos ayudamos|peleamos todo el día por todo|cada quien vive por su lado
+1|¿Qué significa que los papás bendigan a sus hijos?|piden a Dios que los cuide y los guíe|los regañan con mucha fuerza|les dan dinero para dulces
 0|F|Solo se puede rezar dentro de la iglesia.
 1|¿Qué podemos rezar todos juntos en familia?|el rosario|la tabla del cinco|el himno de la escuela
 1|¿Dónde vivía la Sagrada Familia?|en Nazaret|en Roma|en Egipto, siempre
@@ -184,6 +188,7 @@ K|{x}: ¿cuándo lo rezamos?|¿Cuándo se reza?|al despertar: el ofrecimiento de
 2|¿Qué le pido a Jesús por mi familia?|que la bendiga y la cuide|que me compren un regalo|que me dejen sin tarea
 2|¿Por qué se llama «Primera» Comunión?|porque después Jesús me espera en cada Misa|porque después ya no se puede comulgar|porque se celebra solo una vez al año
 #2pc22
+0|¿De qué color se visten muchos niños en su Primera Comunión?|de blanco|de negro|de rojo
 0|F|Si no hay una gran fiesta, la Primera Comunión no es igual de valiosa.
 1|¿Qué significa la vela de la Primera Comunión?|la luz de Cristo|el pastel de la fiesta|la luz de la casa
 1|¿Para qué sirve el misal que me regalan?|para seguir la Misa|para dibujar|para jugar
@@ -193,6 +198,7 @@ K|{x}: ¿cuándo lo rezamos?|¿Cuándo se reza?|al despertar: el ofrecimiento de
 2|¿A quién le doy gracias por todos los que me ayudaron a prepararme?|a Dios, y también a ellos|a nadie: lo hice yo solo|solo a quien me dio regalo
 K|{x}: ¿lo más importante o un detalle bonito?|¿Lo más importante o un detalle?|lo más importante: estar confesado; recibir a Jesús con amor; dar gracias después de comulgar|un detalle bonito: el pastel; el vestido o traje nuevo; los recuerditos; la fiesta con los invitados
 #2pc23
+0|¿Qué hago cada mañana al despertar?|le ofrezco mi día a Dios|me quejo del sueño|reviso el celular
 0|F|Después de la Primera Comunión ya no hace falta ir a Misa.
 1|¿Qué pasa con las ramas que se quedan unidas a la vid?|dan fruto|se secan|se caen
 1|¿Cada cuánto conviene confesarse, según el plan?|cada mes|cada diez años|nunca

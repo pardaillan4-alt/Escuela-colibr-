@@ -1,0 +1,128 @@
+// Primera Comunión 3.º — banco ampliado (preguntas y tablas)
+#3pc1
+0|F|El domingo es un día como cualquier otro para los cristianos.
+0|¿Qué leo antes de ir a Misa para prepararme?|el Evangelio del domingo|el periódico de ayer|un cómic de aventuras
+1|¿Qué hacían los primeros cristianos el domingo?|se reunían a celebrar la Eucaristía|trabajaban más que nunca|se quedaban solos en casa
+1|¿Cómo me visto para ir a Misa?|con decoro y limpieza|en pijama|con un disfraz
+1|¿A qué hora llego a Misa?|un poco antes de que empiece|cuando ya va a terminar|a mitad del Evangelio
+1|¿Qué hago si un domingo estoy muy enfermo?|rezo en casa y sigo la Misa como pueda|nada, ya no importa|me siento culpable para siempre
+2|¿Desde cuándo se puede cumplir la Misa del domingo?|desde la tarde del sábado|desde el jueves|desde el lunes
+2|¿Qué mandamiento de la Iglesia pide ir a Misa?|oír Misa los domingos y fiestas de guardar|ayunar todos los días del año|rezar el rosario cada hora
+2|¿Qué es una «fiesta de guardar»?|un día santo en que también vamos a Misa|un día para guardar los juguetes|un día sin escuela ni tarea
+2|¿Por qué cada domingo es como una «pequeña Pascua»?|porque celebramos la Resurrección|porque comemos huevos de chocolate|porque siempre hay vacaciones
+#3pc2
+0|F|La Biblia se lee rápido, sin pensar.
+0|¿Qué hago en el paso «orar» de la lectio divina?|le respondo a Dios con mis palabras|cierro la Biblia y me voy|leo otro libro
+1|¿Qué hago en el paso «contemplar»?|me quedo en silencio con Dios|leo mucho más rápido|me pongo a jugar un rato
+1|¿Qué pregunta hago en el paso «leer»?|¿qué dice el texto?|¿qué me dice a mí?|¿qué le respondo a Dios?
+1|¿Qué necesito para hacer lectio divina?|una Biblia, silencio y un corazón abierto|la televisión encendida a todo volumen|mucho ruido y mucha prisa
+1|¿Con qué termina la lectio divina?|con un propósito concreto|con un examen escrito|con una fiesta
+2|¿Qué hacía María con las palabras de Dios, según san Lucas?|las guardaba y meditaba en su corazón|las olvidaba muy pronto|las escribía en un libro
+2|¿Por qué leemos la Biblia despacio?|para escuchar lo que Dios nos dice|para tardar más tiempo|porque es aburrida
+2|¿Qué dice el Salmo 119 sobre la Palabra de Dios?|«Lámpara es tu palabra para mis pasos»|«Tu palabra es muy difícil»|«Tu palabra es solo para otros»
+2|¿Qué buen propósito sale de «Dejen que los niños vengan a mí»?|rezar cada día con confianza|no rezar nunca más|esconderme de Jesús
+#3pc7
+0|F|El examen de la noche sirve para sentirme mal conmigo mismo.
+0|¿Qué pido al Espíritu Santo en el examen de la noche?|luz para ver mi día|dinero|que me duerma rápido
+1|¿Qué hago al final del examen de la noche?|un propósito para mañana|una lista de compras|una pelea
+1|¿A qué se parece confesarse seguido?|a ir al doctor para estar sano|a ir a una fiesta de cumpleaños|a comprar dulces en la tienda
+1|¿Qué siento después de pedir perdón a Dios?|paz y alegría|miedo|enojo
+2|¿Cómo es el Señor, según el Salmo 103?|compasivo y misericordioso|rápido para enojarse|incapaz de perdonar
+2|En mi examen veo que lastimé a alguien. ¿Qué hago?|le pido perdón mañana y reparo el daño|lo olvido para siempre y ya|le echo la culpa a la otra persona
+2|¿Por qué empiezo el examen dando gracias?|porque Dios me dio muchos regalos hoy|porque así lo manda la regla|porque así termino más rápido
+2|¿Qué es un propósito concreto?|algo pequeño y claro que haré mañana|ser perfecto para siempre|nada en especial
+#3pc8
+0|F|En la Misa solo participa el sacerdote.
+0|¿Qué hace el coro en la Misa?|canta para alabar a Dios|lee el Evangelio|da la Comunión
+1|¿Qué hacemos en la oración de los fieles?|pedimos por la Iglesia y por todos|contamos chistes en voz alta|nos despedimos del sacerdote
+1|¿Qué hace un monaguillo?|ayuda al sacerdote en el altar|cobra la entrada en la puerta|vende velas en el atrio
+1|¿Qué respondemos cuando el sacerdote dice «El Señor esté con ustedes»?|«Y con tu espíritu»|nada, nos quedamos callados|aplaudimos
+2|¿Qué es participar activamente en la Misa?|responder, cantar, escuchar y ofrecer|mirar el celular de vez en cuando|platicar en voz baja con un amigo
+2|¿Qué hace el lector antes de la Misa?|prepara la lectura para leerla bien|improvisa sin haber leído nada|lee otro libro que le gusta
+2|¿Por qué cantar en Misa es una forma de rezar?|porque alabamos a Dios con la voz y el corazón|porque es muy divertido cantar|porque así no nos aburrimos tanto
+2|¿Qué toca el monaguillo en la consagración?|la campanita|un tambor|una trompeta
+#3pc9
+0|F|El año litúrgico empieza el 1 de enero.
+0|¿De qué color son casi todas las velas de la corona de Adviento?|moradas|negras|verdes
+1|¿Qué hacemos en Cuaresma?|un sacrificio y ayudar a los pobres|muchas fiestas con piñatas|nada especial en todo el tiempo
+1|¿Qué rezamos en Semana Santa recordando el camino de Jesús a la cruz?|el Viacrucis|el Gloria|las mañanitas
+1|¿Qué comemos el 6 de enero?|la rosca de Reyes|el pan de muerto|los tamales de ceniza
+2|¿Qué se le canta a la Virgen de Guadalupe en la madrugada del 12 de diciembre?|las mañanitas|el Gloria|el himno nacional
+2|¿Qué fiesta celebra la visita de los Magos?|la Epifanía|la Ascensión|Pentecostés
+2|¿Por qué en Día de Muertos rezamos por los difuntos?|porque creemos en la vida eterna|porque nos dan mucho miedo|porque es una fiesta de disfraces
+2|¿Qué hacemos en Pascua?|celebrar con alegría que Jesús resucitó|ayunar todos los días|guardar silencio por tristeza
+K|{x}: ¿en qué tiempo litúrgico?|¿Qué tiempo litúrgico?|Adviento: esperar la venida de Jesús; Juan el Bautista prepara el camino|Navidad: el nacimiento de Jesús; la fiesta de la Sagrada Familia|Cuaresma: el Miércoles de Ceniza; los sacrificios por amor|Pascua: el cirio pascual encendido; Pentecostés
+#3pc3
+0|F|La Confirmación se recibe muchas veces.
+0|¿Qué dice el obispo al ungir la frente?|«Recibe por esta señal el don del Espíritu Santo»|«Ya puedes irte a tu casa»|«Te deseo un feliz cumpleaños»
+1|¿A qué se parecen los dones, según la lección?|a velas de un barco que infla el viento|a unas piedras muy pesadas|a unos zapatos viejos
+1|¿Qué hace el padrino en la Confirmación?|pone su mano en el hombro del confirmando|lee el Evangelio desde el ambón|toca las campanas del templo
+1|¿A quiénes bajó el Espíritu Santo en Pentecostés?|a los apóstoles con María|a los soldados romanos|a los fariseos
+1|¿Qué fruto del Espíritu es el «dominio de sí»?|saber controlarme|perder el control|enojarme rápido
+2|¿Por qué la Confirmación nos hace «maduros» en la fe?|porque nos hace testigos valientes|porque solo se recibe de abuelo|porque nos hace más altos
+2|¿Qué hace el Espíritu Santo con nosotros, como el viento con las velas?|nos impulsa a hacer el bien|nos detiene para que no avancemos|nos hace dormir tranquilos
+2|¿Qué sacramentos forman la iniciación cristiana?|Bautismo, Confirmación y Eucaristía|Matrimonio, Orden y Unción|Penitencia y Unción
+2|¿Qué nos pide el Espíritu Santo después de confirmarnos?|ser testigos de Jesús|quedarnos callados|presumir lo que sabemos
+#3pc4
+0|F|Solo los sacerdotes tienen vocación.
+0|¿Qué es la vida consagrada?|la de religiosos y religiosas que se dan a Dios|la vida de los deportistas famosos|la vida de los artistas de cine
+1|¿Qué sacramento reciben los sacerdotes?|el Orden sacerdotal|el Matrimonio|la Unción
+1|¿Qué sacramento reciben los esposos?|el Matrimonio|el Orden|la Confirmación
+1|¿Qué hacen las Misioneras de la Caridad?|cuidan a los pobres y rezan|venden ropa en el mercado|organizan torneos de deportes
+1|¿Puede una profesión ser una forma de servir a Dios?|sí, como doctor, maestro o campesino|no, nunca puede servir a Dios|solo si es una profesión famosa
+2|¿Qué respondió María cuando Dios la llamó?|«Hágase en mí según tu palabra»|«Mejor otro día, ahora no»|«No puedo, estoy ocupada»
+2|¿Qué necesita alguien para escuchar su vocación?|oración y silencio|ruido y prisa|dinero y fama
+2|¿Qué es un seminario?|donde se preparan los futuros sacerdotes|una escuela para aprender cocina|un museo de cosas antiguas
+2|¿Qué dijo Jesús a los pescadores al llamarlos?|«Síganme»|«Váyanse»|«Esperen»
+#3pc5
+0|F|Para ser santo hay que ser adulto.
+0|¿A quiénes dedicó su vida san Juan Bosco?|a los niños y jóvenes pobres|a los reyes de Italia|a los soldados del ejército
+1|¿Qué le gustaba hacer a Pier Giorgio Frassati?|subir montañas|el boxeo|el futbol americano
+1|¿Qué santa enseñó el «caminito» de hacer lo pequeño con amor?|santa Teresita del Niño Jesús|santa Juana de Arco|santa Clara de Asís
+1|¿A qué advocación de la Virgen amaba mucho Don Bosco?|María Auxiliadora|la Virgen de Fátima|la Virgen de Lourdes
+1|¿Qué santo joven mexicano gritó «¡Viva Cristo Rey!»?|san José Sánchez del Río|san Juan Diego|san Felipe de Jesús
+2|¿Cómo llamaba Carlo Acutis a la Eucaristía?|mi autopista al Cielo|algo aburrido|algo que no entendía
+2|¿Qué aprendemos de los santos jóvenes?|que la santidad es posible a nuestra edad|que solo los viejos son santos|que ser santo es aburrido
+2|¿Qué es un santo?|alguien que vivió unido a Dios y amó mucho|alguien que nunca se equivocó en nada|alguien muy famoso en la tele
+2|¿Cómo puedo imitar a Domingo Savio en la escuela?|siendo buen compañero y alegre|haciendo trampa en los exámenes|peleando con mis compañeros
+#3pc10
+0|F|Un buen amigo me pide hacer cosas malas.
+0|¿Cómo es un buen amigo?|me respeta y me ayuda a ser mejor|me pide cosas malas a escondidas|se burla de mí frente a otros
+1|¿Cuánto tiempo conviene usar el celular o la tableta?|poco y con permiso|toda la noche|sin límite
+1|¿Qué hago si en una pantalla veo algo que me hace sentir mal?|la apago y aviso a mis papás|lo sigo viendo|lo comparto con amigos
+1|¿Qué amigo de Jesús lo traicionó?|Judas|Juan|Andrés
+2|¿Qué decía Carlo Acutis sobre la computadora?|que hay que usarla sin que nos esclavice|que hay que usarla todo el día|que es mala siempre
+2|Un amigo me presiona para hacer algo malo. ¿Qué hago?|digo que no y busco otros amigos|le hago caso|lo hago a escondidas
+2|¿Qué amistad de la Biblia es ejemplo de lealtad?|David y Jonatán|Caín y Abel|Judas y los sacerdotes
+2|¿Qué podemos hacer en lugar de estar en pantallas?|jugar al aire libre, leer y convivir|dormir todo el día en la cama|nada, quedarnos aburridos
+K|{x}: ¿actitud de buen amigo o de mal amigo?|¿Buen amigo o mal amigo?|buen amigo: me defiende; me dice la verdad; comparte conmigo; me anima a rezar|mal amigo: me pide copiar; se burla de mí; me deja solo; me invita a desobedecer
+#3pc11
+0|F|Mi cuerpo es algo malo que hay que esconder de Dios.
+0|¿Quién me dio mi cuerpo?|Dios|la tienda|nadie
+1|¿Qué hago para cuidar mi cuerpo?|como sano, hago ejercicio y descanso|como solo dulces y frituras|no duermo en toda la noche
+1|¿Cómo me visto para cuidar mi intimidad?|con decoro y respeto|con cualquier cosa|sin importar
+1|¿Por qué cambia mi cuerpo al crecer?|porque Dios lo pensó así para llegar a adulto|porque me enfermé de algo grave|porque comí algo que me cayó mal
+2|Alguien quiere tocarme de una forma que me incomoda. ¿Qué hago?|digo NO, me alejo y lo cuento a mis papás|me quedo callado sin decir nada|guardo el secreto para siempre
+2|¿Cómo respeto el cuerpo de los demás?|no me burlo ni toco sin permiso|me burlo de cómo se ven|empujo a todos
+2|¿Qué significa que el cuerpo es «templo del Espíritu Santo»?|que Dios habita en mí y debo cuidarme|que soy un edificio|que debo ir siempre a la iglesia
+#3pc12
+0|F|Solo los adultos que viajan lejos pueden ser misioneros.
+0|¿Qué significa «misionero»?|enviado a anunciar a Jesús|turista que viaja por gusto|vendedor de casa en casa
+1|¿Qué podemos dar los niños a las misiones?|oración, ahorros y buen ejemplo|nada|solo juguetes rotos
+1|¿Qué dijo Jesús a sus discípulos antes de subir al cielo?|«Vayan y anuncien el Evangelio»|«Quédense en casa sin salir»|«No le digan nada a nadie»
+1|¿Dónde puedo ser misionero sin viajar?|en mi casa, mi escuela y mi barrio|en ningún lugar, solo viajando|solo en otro país muy lejano
+2|¿Por qué santa Teresita es patrona de las misiones?|porque rezaba mucho por los misioneros|porque viajó por todo el mundo|porque era muy rica
+2|¿Cuándo es el Domingo Mundial de las Misiones (Domund)?|el penúltimo domingo de octubre|el primer día de enero|el día de Navidad
+2|¿Qué es la Infancia Misionera?|una obra donde los niños ayudan a los niños|un equipo de futbol de la parroquia|una escuela de música para niños
+2|¿Qué rosario se reza por los cinco continentes?|el rosario misionero|el rosario de cumpleaños|el rosario de juguete
+#3pc6
+0|F|Si fallo un día en mi plan, ya no sirve seguir.
+0|¿Qué hago cada día en mi plan de vida?|rezar en la mañana y en la noche|ver tele toda la tarde|no rezar nunca
+1|¿Qué hago cada semana en mi plan de vida?|ir a Misa el domingo|ir a la playa|comprar dulces
+1|¿Qué podemos rezar en familia una vez a la semana?|un rosario|el himno nacional|una tabla de multiplicar
+1|¿Por qué conviene tener metas pequeñas?|porque se pueden cumplir cada día|porque no sirven para nada|porque son aburridas
+1|¿Qué buena obra puedo hacer cada día?|ayudar sin que me lo pidan|esconderme cuando hay trabajo|quejarme de todo lo que me toca
+2|¿Quién me puede ayudar con mi plan de vida?|mis papás y mi catequista|un desconocido|nadie
+2|¿Qué significa «perseverar»?|seguir adelante aunque cueste|rendirse pronto|cambiar de plan cada día
+2|¿Qué virtud me ayuda a cumplir mi plan?|la fortaleza|la pereza|la ira
+2|¿Qué dijo Jesús sobre la vid y los sarmientos?|«Sin mí no pueden hacer nada»|«Sin mí todo es fácil»|«Háganlo ustedes solos»
