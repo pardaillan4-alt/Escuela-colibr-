@@ -1,0 +1,411 @@
+// Español 3.º — banco ampliado (preguntas y tablas)
+#3e1
+0|F|En el diccionario los verbos aparecen como «rezamos» o «comieron».
+0|¿Qué palabra va primero en el diccionario?|boca|casa|mesa
+1|¿Qué palabra va primero en el diccionario?|perro|pescado|pez
+1|¿Para qué sirve el contexto?|para saber qué significa la palabra|para saber cuántas letras tiene|para saber en qué página está
+2|En «¡Sal de ahí!», ¿qué significa «sal»?|del verbo salir|el condimento para la comida|un lugar para nadar
+2|Para buscar «bendijeron», ¿qué palabra buscas?|bendecir|bendición|bendijo
+2|¿Qué significa «misericordia»?|amor que perdona y ayuda al que sufre|miedo de estar solo en la oscuridad|enojo contra quien nos ofende
+P|Para encontrar «{x}» en el diccionario, ¿qué palabra buscas?||cantaban = cantar|lápices = lápiz|corrieron = correr|flores = flor|escribimos = escribir|peces = pez
+#3e11
+0|F|Los sustantivos propios se escriben con minúscula.
+0|¿Qué nombra un sustantivo?|personas, animales, cosas y lugares|acciones como correr y saltar|cómo son las cosas: grande o chica
+1|¿Cuál es un sustantivo propio?|Guadalajara|ciudad|montaña
+1|¿Qué colectivo nombra un grupo de perros?|jauría|rebaño|enjambre
+1|¿Cuál es un sustantivo común?|río|Lerma|Pedro
+2|En «Jesús llamó a sus discípulos junto al lago», ¿cuál es el sustantivo propio?|Jesús|discípulos|lago
+2|¿Qué sustantivo es colectivo?|alumnado|alumno|maestro
+2|¿Por qué «Dios» se escribe con mayúscula?|porque es un nombre propio|porque es una palabra muy larga|porque va al final de la oración
+P|¿Qué colectivo nombra un grupo de {x}?||peces = cardumen|estrellas = constelación|soldados = ejército|barcos = flota|cantores = coro|islas = archipiélago
+#3e12
+0|F|Los adjetivos dicen qué acción hace el sujeto.
+0|¿Cuál es un adjetivo?|valiente|correr|mesa
+1|Completa: «Mis hermanas son muy…»|alegres|alegre|alegría
+1|¿Cuál es un comparativo de igualdad?|tan alto como|el más alto|altísimo
+1|En «La casa vieja tiene un jardín enorme», ¿cuáles son los adjetivos?|vieja y enorme|casa y jardín|tiene y un
+2|¿En qué grado está «el más alto de la clase»?|superlativo|comparativo|positivo
+2|Completa: «Mi perro es ___ rápido ___ el tuyo».|más… que|tan… que|muy… como
+2|¿Por qué decimos «Santísima Virgen»?|porque es santa como ninguna otra criatura|porque vivió hace muchísimos años|porque es la más alta de todas
+P|¿Cuál es el superlativo de «{x}»?||rápido = rapidísimo|amable = amabilísimo|fácil = facilísimo|limpio = limpísimo|largo = larguísimo|rico = riquísimo
+#3e13
+0|F|«Cantaba» está en pretérito.
+0|¿Qué tiempo indica una acción que se repetía en el pasado?|el copretérito|el pretérito|el futuro
+1|Pretérito de «dormir» (yo):|dormí|dormía|dormiré
+1|Copretérito de «rezar» (nosotros):|rezábamos|rezamos|rezaremos
+1|«Un día, el pastor encontró su oveja». ¿En qué tiempo está «encontró»?|pretérito|copretérito|futuro
+2|Completa: «Mientras yo ___ la tarea, sonó el teléfono».|hacía|hice|haré
+2|¿Qué tiempo se usa para describir cómo eran las cosas en un cuento?|el copretérito|el futuro|el presente
+2|«Jesús recorría los pueblos y curaba a los enfermos». ¿Qué expresa el copretérito?|que lo hacía muchas veces|que lo hizo una sola vez|que lo hará mañana
+K|«{x}»: ¿pretérito o copretérito?|¿Pretérito o copretérito?|pretérito: escribí; llegamos; corrió; rezaron|copretérito: escribía; llegábamos; corría; rezaban
+#3e14
+0|F|Los pronombres sirven para repetir el nombre muchas veces.
+0|¿Cuál es un pronombre personal?|nosotros|mesa|cantar
+1|¿Qué pronombre uso para hablar de mí mismo?|yo|tú|él
+1|¿Con qué pronombre le hablo a mi maestra con respeto?|usted|tú|ella
+1|«Lupita y Ana rezan». ¿Qué pronombre las sustituye?|ellas|ellos|nosotras
+2|«Mi hermano y yo vamos a Misa». ¿Qué pronombre sustituye a «mi hermano y yo»?|nosotros|ustedes|ellos
+2|¿Qué pronombre usamos en México para hablarle a un grupo de amigos?|ustedes|vosotros|nosotros
+2|En «Jesús dijo: Yo soy el Buen Pastor», ¿quién es «yo»?|Jesús|el pastor del pueblo|el que lee
+2|¿Por qué usamos pronombres al escribir?|para no repetir el mismo nombre|para que el texto sea más largo|para escribir mucho más rápido
+P|¿Qué pronombre sustituye a «{x}»?||Pedro = él|María = ella|mis primos = ellos|mis tías = ellas|tú y tu hermano = ustedes
+#3e15
+0|F|Los adverbios siempre terminan en -mente.
+0|¿Qué dice un adverbio de lugar?|dónde|cuándo|cuánto
+1|Forma el adverbio de «tranquila»:|tranquilamente|tranquilidad|tranquilizar
+1|¿Qué adverbio es de cantidad?|poco|lejos|ayer
+1|En «Llegamos tarde a Misa», ¿cuál es el adverbio?|tarde|llegamos|Misa
+2|«Oren sin cesar», dice san Pablo. ¿Qué adverbio significa lo mismo que «sin cesar»?|siempre|nunca|lejos
+2|En «El abuelo camina muy despacio», ¿qué palabra es adverbio de cantidad?|muy|camina|abuelo
+2|¿Qué pregunta responde el adverbio «cerca»?|¿dónde?|¿cuándo?|¿cómo?
+2|Forma el adverbio de «cuidadosa»:|cuidadosamente|cuidadoso|cuidar
+K|«{x}»: ¿adverbio de modo, tiempo o lugar?|¿Modo, tiempo o lugar?|modo: despacio; bien; alegremente|tiempo: ayer; temprano; pronto|lugar: lejos; arriba; afuera
+#3e16
+0|F|Los sufijos van al inicio de la palabra.
+0|¿Dónde va un prefijo?|al inicio de la palabra|al final de la palabra|en medio de la palabra
+1|¿Qué significa «desordenar»?|lo contrario de ordenar|volver a ordenar|ordenar antes
+1|¿Qué sufijo indica algo pequeño?|-ito|-ero|-ería
+1|¿Qué palabra nombra el lugar donde venden pan?|panadería|panadero|panecito
+2|¿Qué significa «prever»?|ver antes|ver otra vez|no ver
+2|«Zapatero» tiene un sufijo de…|oficio|lugar|tamaño
+2|¿Qué palabra significa «no posible»?|imposible|reposible|desposible
+2|Jesús habló de «nacer de nuevo». ¿Qué prefijo tiene «renacer»?|re-|des-|in-
+P|¿Qué significa «{x}»?|¿Qué palabra significa «{x}»?|releer = volver a leer|desatar = lo contrario de atar|incompleto = no completo|prehistoria = antes de la historia|subterráneo = debajo de la tierra
+#3e4
+0|F|«Alegría» y «tristeza» son sinónimos.
+1|Sinónimo de «caridad»:|amor|odio|pereza
+1|Antónimo de «paciente»:|impaciente|pacífico|tranquilo
+2|Antónimo de «obediente»:|desobediente|obedecido|obediencia
+2|¿Qué virtud vence a la gula?|la templanza|la diligencia|la humildad
+2|¿Qué virtud vence a la envidia?|la caridad|la paciencia|la templanza
+K|{x}: ¿virtud o pecado capital?|¿Virtud o pecado capital?|virtud: la humildad; la generosidad; la templanza; la diligencia; la paciencia|pecado capital: la soberbia; la avaricia; la gula; la pereza; la envidia
+#3e2
+0|F|La sílaba tónica es la que suena más bajito.
+0|¿Cuál es la sílaba tónica de «ventana»?|ta|ven|na
+0|¿Cuál es la sílaba tónica de «canción»?|ción|can|las dos
+1|¿Cuál es la sílaba tónica de «plátano»?|plá|ta|no
+1|¿Cuál es la sílaba tónica de «papel»?|pel|pa|ninguna
+1|¿Qué tipo de palabra es «lunes»?|grave|aguda|esdrújula
+1|Si la sílaba tónica es la última, la palabra es…|aguda|grave|esdrújula
+2|¿Cuál es la sílaba tónica de «teléfono»?|lé|te|no
+2|¿Qué tipo de palabra es «México»?|esdrújula|grave|aguda
+2|¿Qué palabra es aguda?|reloj|lápiz|música
+2|¿Cuál es la sílaba tónica de «María»?|rí|Ma|a
+#3e17
+0|F|Todas las palabras agudas llevan tilde.
+0|¿Qué palabra es grave?|cuaderno|camión|música
+1|¿Por qué «sofá» lleva tilde?|es aguda y termina en vocal|es grave y termina en a|es esdrújula, como todas
+1|¿Por qué «reloj» no lleva tilde?|es aguda y termina en j|es grave y termina en j|es esdrújula sin tilde
+1|¿Cuál está bien escrita?|pájaro|pajaro|pajáro
+2|¿Por qué «examen» no lleva tilde?|es grave y termina en n|es aguda y termina en n|es esdrújula sin tilde
+2|¿Cuál está bien escrita?|ratón|raton|ráton
+2|¿Por qué «Jesús» lleva tilde?|es aguda y termina en s|es grave y termina en s|es esdrújula, como todas
+K|«{x}»: ¿aguda, grave o esdrújula?|¿Aguda, grave o esdrújula?|aguda: camión; sofá; papel; ciudad|grave: lápiz; libro; azúcar; cárcel|esdrújula: música; lámpara; sábado; brújula
+#3e3
+0|F|La h se pronuncia fuerte, como la j.
+0|¿Cuál está bien escrita?|blanco|vlanco|blanko
+1|¿Cuál está bien escrita?|nube|nuve|nubbe
+1|Plural de «luz»:|luces|luzes|lucez
+1|¿Cuál está bien escrita?|hermano|ermano|jermano
+1|¿Qué verbo terminado en -bir se escribe con v?|vivir|escribir|subir
+2|De «orar» viene…|oración|orasión|orazión
+2|¿Qué regla explica que «envidia» lleve v?|después de n se escribe v|antes de l y r se escribe b|los verbos en -bir llevan b
+2|¿Cuál está bien escrita?|hielo|ielo|yelo
+2|Plural de «pez»:|peces|pezes|pecez
+K|«{x}»: ¿se completa con b o con v?|¿B o v?|con b: ha_lar; _razo; escri_ir; canta_a|con v: in_itar; con_ivir; positi_o; bra_o
+#3e18
+0|F|«Carro» se escribe con una sola r.
+0|¿Cuál está bien escrita?|guitarra|guitara|gitarra
+1|¿Cuál está bien escrita?|Enrique|Enrrique|Henrrique
+1|¿Cuál está bien escrita?|lluvia|yuvia|lluvía
+1|¿Cuál está bien escrita?|elegir|elejir|eleguir
+2|¿Cuál está bien escrita?|hoy|hoi|holl
+2|¿Por qué «Israel» se escribe con una sola r?|después de s va una sola r|porque es un nombre propio|porque viene de otro idioma
+2|¿Cuál está bien escrita?|ley|lei|lley
+K|«{x}»: ¿se completa con g o con j?|¿G o j?|con g: _ente; _irasol; reco_er; _eografía|con j: _efe; via_e; _ugo; _abón
+#3e19
+0|F|En español solo se pone el signo de interrogación al final.
+0|¿Cuál está bien escrita?|¡Qué rico huele!|Qué rico huele!|¡Qué rico huele¡
+1|¿Qué signos encierran una pregunta?|¿ ?|¡ !|« »
+1|¿Cuál está bien escrita?|¿A qué hora es la Misa?|A qué hora es la Misa?|¿A qué hora es la Misa¿
+1|¿Qué signo va antes de una cita, como en «Jesús dijo…»?|dos puntos|punto y coma|coma
+2|¿Qué parte va entre comillas? María dijo: Hágase en mí según tu palabra.|Hágase en mí según tu palabra|María dijo, nada más|la oración completa, de principio a fin
+2|¿Cuál es una exclamación?|¡Viva Cristo Rey!|¿Viva Cristo Rey?|Viva Cristo Rey.
+2|¿Qué signo usamos antes de una lista de útiles?|dos puntos|signos de exclamación|comillas
+2|¿Cuál pregunta está bien escrita?|¿Cómo será esto?|¿Como será esto?|Cómo será esto?
+K|«{x}»: ¿qué signos le faltan?|¿Qué signos le faltan?|¿ ?: Dónde vives; Cuántos hermanos tienes; Quién trajo las flores|¡ !: Qué alegría; Cuidado con el perro; Qué rico pastel
+#3e20
+0|F|Después de un punto se escribe con minúscula.
+0|En «Mi primo vive en toluca», ¿qué palabra debe ir con mayúscula?|toluca|primo|vive
+1|¿Qué significa «P.» en «el P. Luis»?|padre|profesor|primo
+1|En «El espíritu santo bajó como paloma», ¿qué palabras deben ir con mayúscula?|espíritu y santo|bajó y paloma|como y paloma
+1|¿Cómo se escribe el título de un libro?|solo la primera palabra con mayúscula|todas las palabras con mayúscula|todo con letra minúscula
+1|¿Llevan punto las abreviaturas como «Sr.»?|sí, llevan punto|no, nunca llevan punto|solo al final del texto
+2|¿Qué significa «Mons.»?|monseñor|monasterio|montaña
+2|¿Por qué «Virgen» va con mayúscula en «la Virgen María»?|porque es un nombre de respeto para María|porque está al inicio de la oración|porque es una palabra muy larga
+2|En «jesús nació en belén», ¿qué palabras deben ir con mayúscula?|jesús y belén|nació y en|solo nació
+2|¿Qué abreviatura significa «número»?|núm.|nmr.|numo.
+P|¿Qué significa la abreviatura «{x}»?|¿Cuál es la abreviatura de «{x}»?|Lic. = licenciado|Ing. = ingeniero|Profa. = profesora|tel. = teléfono|Pbro. = presbítero|Sto. = santo
+#3e5
+0|F|El sujeto es lo que se dice de alguien.
+0|¿Cuál es el sujeto en «El perro ladra»?|el perro|ladra|el
+0|¿Cuál es el verbo en «Los niños cantan en el coro»?|cantan|niños|coro
+1|Sujeto de «El Espíritu Santo bajó como paloma»:|El Espíritu Santo|bajó como paloma|como paloma
+1|Predicado de «Los pastores adoraron al Niño»:|adoraron al Niño|Los pastores|al Niño
+1|¿Cuál es el núcleo del predicado?|el verbo|el sujeto|el punto
+1|En «Ayer mi abuela hizo tamales», ¿quién hizo tamales?|mi abuela|ayer|tamales
+2|¿Cuál es el sujeto en «En Belén nació Jesús»?|Jesús|Belén|nació
+2|En «Jesús multiplicó los panes», ¿cuál es el predicado?|multiplicó los panes|Jesús|los panes
+2|¿En qué oración el sujeto es «los apóstoles»?|Los apóstoles siguieron a Jesús.|Jesús llamó a los apóstoles.|Pedro habló con los apóstoles.
+2|Completa con un sujeto: «___ rezamos el rosario».|Mi familia y yo|Mi familia|Yo
+#3e6
+0|F|Un párrafo termina con coma.
+0|¿Qué conector va al inicio de una lista de pasos?|primero|finalmente|pero
+0|¿Con qué termina un párrafo?|con punto y aparte|con coma|con dos puntos
+1|¿Qué conector suma una idea?|además|pero|porque
+1|Completa: «Llegamos tarde ___ había mucho tráfico».|porque|pero|además
+1|¿Qué es la sangría?|el espacio al inicio del párrafo|la línea al final del párrafo|el título que lleva el texto
+1|Completa: «___ terminamos de cenar, rezamos juntos».|Cuando|Pero|Además
+2|Completa: «Estaba cansado; ___, terminé mi tarea».|sin embargo|porque|además
+2|Completa: «Primero rezamos, ___ desayunamos».|luego|porque|pero
+2|¿Para qué usamos conectores?|para unir y ordenar las ideas|para que el texto se vea largo|para no usar mayúsculas
+2|¿Cuántas ideas principales tiene un párrafo bien hecho?|una|cinco|ninguna
+K|«{x}»: ¿indica orden, causa u oposición?|¿Orden, causa u oposición?|orden: primero; después; finalmente|causa: porque; ya que; debido a que|oposición: pero; sin embargo; aunque
+#3e21
+0|F|Un texto expositivo cuenta un cuento con personajes.
+0|¿Para qué sirve un texto expositivo?|para explicar un tema|para contar un chiste|para invitar a una fiesta
+1|«Las abejas desaparecen porque usan venenos en el campo». ¿Cuál es la causa?|usan venenos en el campo|las abejas desaparecen|el campo es muy grande
+1|¿Qué organización compara dos cosas?|semejanzas y diferencias|causa y consecuencia|problema y solución
+1|¿Qué palabra indica consecuencia?|por lo tanto|debido a|en cambio
+1|«Hay basura en el río». ¿Qué parte del texto es?|el problema|la solución|la conclusión
+2|¿Qué texto tiene la organización de problema y solución?|«Había basura; pusimos botes»|«El gato y el perro son mamíferos»|«Había una vez un rey muy sabio»
+2|«La ballena respira con pulmones; en cambio, el tiburón usa branquias». ¿Qué organización tiene?|comparación|causa y consecuencia|problema y solución
+2|¿Qué dice la Iglesia de la fe y la razón?|que son como dos alas hacia la verdad|que siempre están peleadas entre sí|que la razón no sirve para conocer nada
+2|¿Qué palabra indica comparación?|igual que|por eso|porque
+K|«{x}»: ¿indica causa, consecuencia o comparación?|¿Causa, consecuencia o comparación?|causa: ya que; puesto que; debido a|consecuencia: por eso; así que; por consiguiente|comparación: en cambio; mientras que; de la misma manera
+#3e22
+0|F|Un resumen copia todo el texto palabra por palabra.
+0|¿Qué es la idea principal?|lo más importante del párrafo|el ejemplo más divertido|la última palabra del texto
+1|¿Qué son las ideas secundarias?|detalles y ejemplos|lo más importante|el título
+1|¿Qué hago primero para resumir?|leo todo el texto|escribo el resumen|subrayo todo
+1|¿Cómo debe ser un resumen?|corto y con las ideas importantes|más largo que el texto original|lleno de ejemplos y repeticiones
+1|¿Dónde suele estar la idea principal de un párrafo?|al inicio del párrafo|a la mitad de una palabra|en el número de página
+2|«Los mexicas fundaron Tenochtitlan en un lago. Hacían chinampas, tenían mercados y escuelas.» ¿Cuál es la idea principal?|los mexicas fundaron Tenochtitlan|tenían mercados y escuelas|hacían chinampas en el lago
+2|¿Para qué sirve hacer un resumen?|para recordar y estudiar lo importante|para que el texto sea más largo|para copiar sin tener que pensar
+2|¿Qué resumen es mejor para «La oveja perdida»?|Un pastor busca su oveja perdida y hace fiesta.|Había un pastor con ovejas blancas y bonitas.|El pastor tenía un perro y un bastón.
+2|¿Qué título resume mejor un texto sobre cómo cuidar el agua?|«Cuidemos el agua»|«Mi perro Firulais»|«Las vacaciones»
+#3e23
+0|F|Los pasos de un instructivo pueden ir en cualquier orden.
+0|¿Qué parte del instructivo va antes de los pasos?|los materiales|el último paso|la foto final
+1|¿Qué texto usamos para saber a qué hora es cada clase?|el horario|la receta|el cuento
+1|¿Qué es una receta de cocina?|un instructivo|un poema|una noticia
+1|¿Cuál es un paso bien escrito?|Corta el papel en tiras.|El papel cortado bonito.|Papel, tijeras y pegamento.
+1|¿Qué muestra una gráfica de barras?|datos comparados con barras|un cuento con dibujos|una carta para un amigo
+2|¿Por qué los pasos van numerados?|para seguirlos en orden|para que se vean bonitos|para contar las palabras
+2|En un calendario, ¿dónde busco qué día cae el 12 de diciembre?|en la hoja de diciembre|en la hoja de enero|en la portada
+2|¿Qué tiempo litúrgico viene después de la Cuaresma?|la Pascua|el Adviento|la Navidad
+2|¿Qué verbo inicia mejor un paso para hacer agua de limón?|exprime|exprimido|exprimiendo
+K|{x}: ¿texto continuo o discontinuo?|¿Continuo o discontinuo?|continuo: un cuento; una carta; una noticia; una leyenda|discontinuo: una tabla; un horario; un calendario; una gráfica
+#3e24
+0|F|Todo lo que dice un video de internet es verdad.
+0|¿Con quién busco información en internet?|con un adulto|solo, sin avisar|con un desconocido
+1|¿Qué es una enciclopedia?|un libro con información de muchos temas|un cuento con muchas ilustraciones|un cuaderno para hacer la tarea
+1|¿Qué pregunta me ayuda a saber si una fuente es confiable?|¿quién lo escribió?|¿tiene muchos colores?|¿es muy divertido?
+1|¿Dónde está el índice de un libro?|al inicio o al final|en la portada|en la mitad
+1|¿Qué es una fuente de información?|donde obtengo los datos|el título del libro|la tinta de la pluma
+2|¿Por qué anoto la fuente de mis datos?|para que otros puedan revisarla|para que mi trabajo sea más largo|para presumir que leí mucho
+2|Un mensaje dice «compártelo rápido» y no tiene autor. ¿Qué hago?|no lo comparto sin verificar|lo mando a todos mis contactos|lo creo porque es urgente
+2|¿A qué idioma tradujo san Jerónimo la Biblia?|al latín|al náhuatl|al inglés
+2|¿Qué fuente es más confiable para saber la capital de un país?|un atlas|un rumor del recreo|un chiste de internet
+K|{x}: ¿fuente confiable o dudosa?|¿Confiable o dudosa?|confiable: una enciclopedia; el libro de texto; la página de un museo; un diccionario|dudosa: un mensaje reenviado sin autor; un video sin fuente; lo que dice un desconocido en un juego
+#3e25
+0|F|En una exposición leo todo sin levantar la vista.
+0|¿Cómo debe ser mi voz al exponer?|fuerte y clara|muy bajita|como un grito
+1|¿Qué parte de la exposición presenta el tema?|la introducción|la conclusión|el desarrollo
+1|¿Qué es el guion de una exposición?|el orden de lo que voy a decir|un dibujo para colorear|la lista de mis amigos
+1|¿Qué parte explica la información con detalle?|el desarrollo|la introducción|el saludo
+1|¿Para qué sirve el cartel?|para apoyar lo que explico|para leerlo completo en voz alta|para taparme la cara
+2|¿Qué hago si me equivoco al exponer?|respiro y sigo con calma|salgo corriendo del salón|me pongo a llorar
+2|¿Qué debe tener la conclusión?|lo más importante del tema|un tema diferente y nuevo|solo el saludo inicial
+2|¿Qué hago mientras otro compañero expone?|lo escucho con atención|platico con mi vecino|hago mi tarea
+2|¿Quiénes hablaron con valentía en Pentecostés?|los apóstoles|los fariseos|los soldados
+K|{x}: ¿en qué parte de la exposición va?|¿En qué parte va?|introducción: saludo y digo mi tema; cuento por qué lo elegí|desarrollo: explico los datos; muestro mi cartel|conclusión: repaso las ideas clave; doy las gracias
+#3e26
+0|F|Para describir un proceso no importa el orden de los pasos.
+0|¿Qué palabras describen a una persona por dentro?|honesta y trabajadora|alta y de pelo corto|de ojos cafés y nariz chica
+1|¿Qué sentido usamos al describir el olor del pan?|el olfato|el oído|la vista
+1|¿Qué dice la descripción de un lugar?|qué hay, colores, olores y sonidos|quién ganó el partido del domingo|a qué hora sale el camión
+1|¿Cuál es una descripción de carácter?|Mi tío es generoso y bromista.|Mi tío es alto y usa lentes.|Mi tío tiene bigote negro.
+1|¿Con qué palabra empieza la descripción de un proceso?|primero|finalmente|además
+2|¿Qué descripción de un mercado usa más sentidos?|Huele a cilantro y se oyen los pregones.|Es un mercado muy grande.|El mercado está abierto.
+2|¿Qué sabemos de la Virgen María por dentro?|que era humilde y servicial|que era muy alta|que tenía ojos azules
+2|Al hacer pan, ¿qué va después de amasar?|dejar que la masa crezca|comer el pan|comprar la harina
+K|«{x}»: ¿rasgo físico o de carácter?|¿Físico o de carácter?|físico: alto; pecoso; de ojos verdes; de cabello lacio|carácter: paciente; alegre; servicial; valiente
+#3e27
+0|F|El desenlace va al inicio del cuento.
+0|¿Cuáles son los elementos de un cuento?|personajes, lugar, tiempo y narrador|rima, verso y estrofa del poema|titular, entrevista y noticia
+1|¿Qué es un personaje secundario?|uno que acompaña al principal|el que más aparece en la historia|el que escribe el cuento
+1|¿Qué frase sirve para empezar un cuento?|Había una vez|Por lo tanto|Atentamente
+1|¿Qué conector usarías en el desenlace?|al final|de pronto|había una vez
+2|En «La oveja perdida», ¿cuál es el nudo?|una oveja se pierde|el pastor tiene cien ovejas|el pastor hace fiesta
+2|¿Cuál es el desenlace del hijo pródigo?|el padre lo abraza y hace fiesta|el hijo pide su herencia|el hijo cuida cerdos
+2|¿Qué pasaría si un cuento no tuviera nudo?|no habría problema que resolver|no tendría personajes|no tendría título
+2|¿Quién es el personaje principal de la parábola del buen samaritano?|el samaritano|el posadero|el levita
+K|«{x}»: ¿planteamiento, nudo o desenlace?|¿Qué parte del cuento es?|planteamiento: Zaqueo vive en Jericó y cobra impuestos; Dios envía a Jonás a Nínive|nudo: Zaqueo es bajito y no alcanza a ver a Jesús; Jonás huye y un gran pez se lo traga|desenlace: Zaqueo devuelve lo que tomó y Jesús entra a su casa; Jonás predica y Nínive se convierte
+#3e28
+0|F|«Actualmente» indica algo que pasó hace mucho.
+0|¿Qué conector indica pasado?|antes|hoy|ahora
+1|¿Qué tiempo verbal uso para narrar lo que pasó?|el pasado|el futuro|ninguno
+1|¿Qué le preguntaría a mi abuelo para conocer su infancia?|¿A qué jugabas de niño?|¿Qué vas a cenar mañana?|¿Cuántos años tengo yo?
+1|«Antes la gente lavaba la ropa en el río; hoy usa lavadora». ¿Qué se compara?|el pasado y el presente|dos cuentos distintos|dos países lejanos
+1|Completa: «Hace muchos años, mi pueblo ___ calles de tierra».|tenía|tiene|tendrá
+2|¿Qué conector va mejor: «___ hay más coches que antes»?|En la actualidad|Hace siglos|Había una vez
+2|¿Qué narra la Biblia, de principio a fin?|lo que Dios ha hecho para salvarnos|la historia de un solo país moderno|cuentos inventados por un autor
+2|¿Por qué es valioso escuchar a los abuelos?|porque guardan la historia de la familia|porque siempre traen dulces para todos|porque cuentan chistes muy rápido
+2|«Mi abuela iba a la escuela a pie; ahora yo voy en camión». ¿Qué verbo está en pasado?|iba|voy|ahora
+K|«{x}»: ¿indica pasado o presente?|¿Pasado o presente?|pasado: antiguamente; en tiempos de mis abuelos; en aquel tiempo; hace siglos|presente: actualmente; hoy en día; ahora; en estos días
+#3e7
+0|F|Una biografía cuenta la vida de un personaje inventado.
+0|¿Qué hacía san Martín con los enfermos?|los curaba y cuidaba|los mandaba a su casa|los dejaba solos
+0|¿De quién trata una biografía?|de una persona real|de un animal que habla|de un personaje de caricatura
+0|¿Qué orden religiosa tenía san Martín de Porres?|la de los dominicos|la de los franciscanos|la de los jesuitas
+1|¿Entre qué siglos vivió san Martín de Porres?|entre el XVI y el XVII|en el siglo XX|en el siglo I
+1|¿Qué sufrió san Martín por el color de su piel?|desprecio|premios|aplausos
+1|¿En qué persona se escribe una autobiografía?|en primera persona|en tercera persona|en segunda persona
+1|¿Qué datos van en una biografía?|nacimiento, obras y legado|recetas de cocina|chistes y adivinanzas
+2|¿De quiénes es patrono san Martín de Porres?|de los que sufren discriminación|de los marineros y pescadores|de los músicos y cantantes
+2|¿En qué año fue canonizado san Martín de Porres?|en 1962|en 1579|en 2025
+2|¿Cómo se hizo santo san Martín?|haciendo con amor las cosas pequeñas|siendo rico, famoso y poderoso|ganando muchos concursos de canto
+2|¿Qué palabras ordenan una biografía en el tiempo?|nació, después, más tarde, murió|había una vez, de pronto|atentamente, estimado
+#3e9
+0|F|Las leyendas son noticias del periódico de hoy.
+0|¿Cómo se transmiten las leyendas?|contándolas de generación en generación|por correo certificado a cada casa|en las noticias de la televisión
+0|¿En qué fiesta se usa la flor de Nochebuena?|en Navidad|en Pascua|en Día de Muertos
+1|¿Qué parte de una leyenda es fantástica?|lo maravilloso que no pudo pasar|el nombre del pueblo|la fecha de la fiesta
+1|¿A quién quería llevarle un regalo la niña de la leyenda?|al Niño Dios|al rey del país|a su maestra
+1|¿Qué leyenda mexicana cuenta la historia de dos volcanes?|la del Popocatépetl y el Iztaccíhuatl|la de la flor de Nochebuena|la del conejo en la luna
+1|¿Por qué las leyendas cambian un poco al contarlas?|porque pasan de boca en boca|porque las escribe un periódico|porque son leyes del gobierno
+1|¿Quiénes cuentan muchas veces las leyendas de un pueblo?|los abuelos y los mayores|los anuncios de la tele|los turistas extranjeros
+2|¿Qué dio la viuda pobre en el templo, según el Evangelio?|dos moneditas|un cofre de oro|un cordero
+2|¿Cómo se llama la flor de Nochebuena en náhuatl?|cuetlaxóchitl|cempasúchil|nopal
+2|¿Qué diferencia hay entre una leyenda y un cuento?|la leyenda parte de un lugar o hecho real|el cuento siempre es verdad|la leyenda no tiene personajes
+2|Para escribir una leyenda de tu pueblo, ¿qué necesitas?|un lugar real y algo maravilloso|solo números y gráficas|una receta y una lista
+#3e29
+0|F|Las fábulas son muy largas y no tienen enseñanza.
+0|¿Quiénes suelen ser los personajes de una fábula?|animales que hablan|reyes en castillos|astronautas
+1|¿Qué perdió la liebre por confiada?|la carrera|su casa|su zanahoria
+1|¿Qué es un refrán?|un dicho popular con una enseñanza|un cuento largo con capítulos|una pregunta sin respuesta
+1|Completa: «Dime con quién andas…»|y te diré quién eres|y te diré qué comes|y te diré dónde vives
+2|¿Qué enseña «Camarón que se duerme se lo lleva la corriente»?|que hay que estar atento y no ser flojo|que los camarones nadan muy mal|que el agua del río es peligrosa
+2|¿Qué fábula enseña que el trabajo constante prepara para el invierno?|la cigarra y la hormiga|la liebre y la tortuga|el león y el ratón
+2|¿Qué enseña «El que anda con sabios, sabio se vuelve»?|que las buenas compañías nos mejoran|que hay que estudiar de noche|que los sabios caminan mucho
+2|¿Cuál es la moraleja de «El león y el ratón»?|nadie es tan pequeño que no pueda ayudar|los leones son los más fuertes de todos|los ratones viven escondidos en hoyos
+P|Completa el refrán: «{x}…»||Más vale tarde = que nunca|En boca cerrada = no entran moscas|No por mucho madrugar = amanece más temprano|Agua que no has de beber = déjala correr|Querer es = poder
+#3e30
+0|F|Las acotaciones se leen en voz alta como diálogos.
+0|¿Qué es un diálogo en el teatro?|lo que dicen los personajes|el nombre del autor|el precio del boleto
+1|¿Cómo se escriben las acotaciones?|entre paréntesis|entre comillas|al final del libro
+1|¿Qué indica la acotación «(triste)»?|cómo debe hablar el actor|el nombre del personaje|el título de la obra
+1|¿Qué va antes de cada diálogo en un guion?|el nombre del personaje|la fecha|el número de página
+1|¿Quiénes van a Belén en una pastorela?|los pastores|los soldados|los marineros
+2|¿Qué necesitas para una lectura dramatizada?|leer con la emoción del personaje|leer todo con la misma voz|leer muy rápido sin pausas
+2|¿Quién intenta impedir que los pastores lleguen a Belén en la pastorela?|el diablo|el rey Herodes|un pastor
+2|¿En qué tiempo del año se presentan las pastorelas?|en Navidad|en Cuaresma|en verano
+2|¿Cuál es una acotación?|(Entra corriendo y se esconde.)|PEDRO: ¡Hola, amigos!|Fin de la obra
+#3e8
+0|F|Una noticia cuenta un hecho inventado.
+0|¿Qué responde una noticia?|qué, quién, cuándo, dónde, cómo y por qué|solo cómo se llama el periodista|cuántas páginas tiene el periódico
+0|¿Dónde se publican las noticias?|en periódicos, radio, tele e internet|en los cuentos de hadas|en las recetas de cocina
+1|¿Quién hace las preguntas en una entrevista?|el entrevistador|el entrevistado|el público
+1|¿Qué hago mientras me responden en una entrevista?|escucho con atención|interrumpo a cada rato|miro mi celular
+1|¿Qué titular es mejor?|«Niños juntan 500 kilos de víveres»|«Cosas que pasaron el domingo»|«Noticia número uno»
+1|¿Cuál es la mejor noticia de todas, según la fe?|el Evangelio|el clima de mañana|el resultado del partido
+2|¿Qué parte de la noticia cuenta todos los detalles?|el cuerpo de la noticia|el titular en letras grandes|la fecha de publicación
+2|¿Qué hace un periodista honesto?|comprueba los datos antes de publicar|inventa datos para llamar la atención|copia noticias sin leerlas antes
+2|¿Cuál es una buena pregunta para entrevistar a un bombero?|¿Por qué decidiste ser bombero?|¿Te gusta mucho el agua?|¿Me contestas sí o no?
+2|¿Por qué una noticia debe decir la verdad?|porque informa hechos reales a todos|porque así es mucho más divertida|porque el periódico es muy grande
+P|¿Qué pregunta de la noticia responde «{x}»?||los bomberos = ¿quién?|en el parque central = ¿dónde?|ayer por la tarde = ¿cuándo?|con cubetas y palas = ¿cómo?|porque hubo mucha lluvia = ¿por qué?|un árbol cayó en la calle = ¿qué?
+#3e31
+0|F|Una opinión se puede comprobar con datos.
+0|¿Qué es un hecho?|algo que se puede comprobar|lo que alguien siente|un deseo para mañana
+1|¿Cuál es un hecho?|El Popocatépetl es un volcán.|El Popocatépetl es el volcán más bonito.|Me encantan los volcanes.
+1|¿Cuál es una opinión?|La sopa de mi abuela es la mejor.|La sopa tiene zanahoria.|La sopa está caliente.
+1|¿Qué es una nota informativa?|un texto que cuenta un suceso|un poema para un amigo|una lista de compras
+1|¿Qué mandamiento pide decir la verdad?|el octavo|el tercero|el sexto
+2|¿Cómo presento mi opinión con respeto?|«En mi opinión…» y doy razones|gritando más fuerte que los demás|burlándome de los que piensan distinto
+2|«Ayer llovió tres horas y, en mi opinión, fue divertido». ¿Qué parte es opinión?|fue divertido|ayer llovió|tres horas
+2|¿Por qué no debo compartir chismes?|porque pueden dañar la fama de alguien|porque cuestan mucho dinero|porque son demasiado cortos
+2|¿Cómo puedo comprobar un hecho?|buscándolo en fuentes confiables|preguntando a quien opina igual|imaginándolo con fuerza
+K|«{x}»: ¿hecho u opinión?|¿Hecho u opinión?|hecho: México tiene 32 entidades federativas; el agua hierve si se calienta mucho; la Basílica de Guadalupe está en la Ciudad de México|opinión: el chocolate es lo más rico; los perros son mejores que los gatos; el azul es el color más bonito
+#3e32
+0|F|En una carta formal saludo con «¡Qué onda!».
+0|¿A quién escribirías una carta formal?|al presidente municipal|a tu mejor amigo|a tu primo
+1|¿Qué saludo es formal?|Estimado señor director:|¡Hola, cuate!|¿Qué tal, amigo?
+1|¿Qué va en el cuerpo de una carta formal?|qué pido y por qué|un chiste|mis juegos favoritos
+1|¿Qué va al final de la carta?|la firma|el saludo|la fecha
+1|¿Qué es una solicitud?|un escrito para pedir algo a una autoridad|un cuento con muchos dibujos|una receta para hacer pastel
+2|¿Qué petición es para el bien común?|poner un bote de basura en el parque|comprarme un videojuego nuevo|dejarme salir temprano de clase
+2|¿Con qué saludaba san Pablo en sus cartas?|«Gracia y paz a ustedes»|«Hola, ¿cómo están?»|«Querido diario»
+2|¿Por qué se usa un lenguaje respetuoso en la carta formal?|porque se dirige a una autoridad|porque es más corta|porque no tiene firma
+2|¿Qué dato no debe faltar para recibir respuesta?|mi nombre y cómo contactarme|mi color favorito|el nombre de mi mascota
+K|«{x}»: ¿va en una carta formal o informal?|¿Formal o informal?|formal: Respetable señora presidenta; Sin otro particular, me despido; Agradezco de antemano su atención|informal: ¡Hola, prima!; Te mando un abrazote; Nos vemos pronto
+#3e33
+0|F|En una asamblea gana quien grita más fuerte.
+0|¿Qué hago para hablar en una asamblea?|levanto la mano|grito mi idea|interrumpo
+1|¿Qué es una asamblea?|una reunión para dialogar y decidir|una fiesta de cumpleaños|un partido de futbol
+1|¿Qué es un acuerdo?|lo que decidimos juntos|una pelea entre dos|un secreto de amigos
+1|¿Qué hago mientras otro opina?|lo escucho sin interrumpir|preparo una burla|me voy del salón
+1|¿Cómo se decide cuando no todos piensan igual?|votando|peleando|echando un volado
+2|¿Qué es «dar razones»?|explicar por qué pienso así|repetir mi idea más fuerte|decir «porque sí»
+2|¿Quién guiaba a los apóstoles al decidir en Jerusalén?|el Espíritu Santo|el emperador|el sumo sacerdote
+2|¿Por qué es importante escuchar ideas distintas a la mía?|porque puedo aprender algo nuevo|porque así gano siempre|porque así no tengo que pensar
+2|¿Qué frase es respetuosa al no estar de acuerdo?|«Pienso distinto porque…»|«Tu idea es tonta»|«Cállate»
+K|{x}: ¿ayuda o estorba en una asamblea?|¿Ayuda o estorba?|ayuda: pedir la palabra; escuchar a todos; dar razones; respetar los turnos|estorba: interrumpir; gritar; burlarse de otra idea; hablar todos al mismo tiempo
+#3e34
+0|F|Todo lo que promete un anuncio siempre es verdad.
+0|¿Qué quiere lograr un anuncio?|que compremos algo|que estudiemos más|que durmamos temprano
+1|¿Qué usa un anuncio para llamar la atención?|colores, música e imágenes|solo letras negras|silencio total
+1|¿Qué es más importante al elegir un alimento?|que sea sano|que tenga un regalo|que salga en la tele
+1|«¡Con estos tenis volarás!». ¿Qué hace el anuncio?|exagera|informa la verdad|da una receta
+1|¿Cuál es un eslogan?|«¡Sabor que te hace sonreír!»|«Ingredientes: agua y azúcar»|«Precio: veinte pesos»
+2|¿Qué refrán nos advierte sobre los anuncios?|no todo lo que brilla es oro|al que madruga, Dios lo ayuda|más vale tarde que nunca
+2|¿Qué enseña el décimo mandamiento?|a no desear lo que tienen otros|a ir a Misa cada domingo|a honrar a nuestros papás
+2|¿Por qué los anuncios repiten mucho su eslogan?|para que lo recordemos|para enseñarnos a leer|para que aprendamos a cantar
+2|¿Qué podemos hacer con el dinero que no necesitamos gastar?|ahorrarlo o compartirlo con quien lo necesita|gastarlo todo en dulces y golosinas|tirarlo sin pensar a la basura
+K|«{x}»: ¿dato comprobable o exageración?|¿Dato o exageración?|dato comprobable: incluye dos pilas; mide 30 centímetros; trae diez colores|exageración: te hará el niño más feliz del mundo; el mejor sabor del universo; con él nunca te aburrirás
+#3e35
+0|F|En México solo se habla español.
+0|¿Cuál es una lengua indígena de México?|el náhuatl|el francés|el alemán
+1|¿De qué lengua viene «chocolate»?|del náhuatl|del árabe|del inglés
+1|¿De qué lengua vienen «almohada» y «azúcar»?|del árabe|del maya|del francés
+1|¿Qué lengua indígena se habla mucho en Yucatán?|el maya|el otomí|el inglés
+1|¿Cuántas lenguas indígenas se hablan en México, aproximadamente?|68|5|1 000
+2|¿Por qué traducen la Biblia a lenguas indígenas?|para que todos oigan a Dios en su lengua|para venderla más cara en las tiendas|para que nadie la pueda entender
+2|¿Qué es una «variante» de una lengua?|una forma de hablarla en otra región|una lengua que alguien inventó|un error al escribir una palabra
+2|¿Qué hago si un compañero habla otra lengua?|le pido que me enseñe palabras|me burlo de cómo habla|no le vuelvo a hablar
+2|¿Qué palabra que usamos en México viene del náhuatl?|tianguis|mercado|plaza
+K|{x}: ¿palabra que viene del náhuatl o del árabe?|¿Náhuatl o árabe?|náhuatl: aguacate; jitomate; cacahuate; chicle; mole|árabe: aceite; alfombra; ojalá; ajedrez; naranja
+#3e10
+0|F|Un poema se escribe siempre en un solo párrafo largo.
+0|¿Cómo se llama cada línea de un poema?|verso|estrofa|párrafo
+0|¿Qué tienen en común «flor» y «amor»?|riman|son verbos|no tienen vocales
+1|«Mesa» y «fresa» tienen rima…|consonante|asonante|ninguna
+1|¿Qué rima tienen «casa» y «pala»?|asonante|consonante|ninguna
+1|¿Para qué escribía David los salmos?|para alabar y orar a Dios|para ganar un concurso|para vender libros
+1|¿Qué es un salmo?|un poema para cantar a Dios|un cuento de animales|una noticia del templo
+2|¿Qué palabra rima en consonante con «luz»?|cruz|sur|azul
+2|¿Qué tipo de salmo es «Te doy gracias, Señor, de todo corazón»?|de acción de gracias|de petición de perdón|de lamentación
+2|¿Qué palabra rima en asonante con «cielo»?|sueño|cielito|celo
+2|¿Qué hace un poema para Dios, como los salmos?|alaba, agradece o pide|cuenta noticias del día|explica cómo hacer pan
+K|«{x}»: ¿rima consonante o asonante?|¿Consonante o asonante?|consonante: canción y corazón; camino y destino; madre y padre|asonante: rosa y boca; pino y hilo; noche y conde
+#3e36
+0|F|Las adivinanzas dicen la respuesta desde el principio.
+0|¿Qué juego de palabras es difícil de pronunciar rápido?|el trabalenguas|la adivinanza|el refrán
+1|«Tres tristes tigres tragaban trigo en un trigal». ¿Qué es?|un trabalenguas|una adivinanza|un refrán
+1|Adivina: «Oro parece, plata no es».|el plátano|la manzana|la naranja
+1|Adivina: «Agua pasa por mi casa, cate de mi corazón».|el aguacate|el agua|el pescado
+1|¿Para qué sirven los trabalenguas?|para practicar la pronunciación|para adivinar frutas|para aprender a sumar
+2|Adivina: «Una señorita muy aseñorada, siempre en casa y siempre mojada».|la lengua|la ballena|la lluvia
+2|¿Qué quiso decir san Agustín con «el que canta, ora dos veces»?|que cantar a Dios es orar con más amor|que hay que cantar dos veces lo mismo|que solo el coro reza bien
+2|¿Qué hace difícil un trabalenguas?|sonidos parecidos repetidos|palabras muy cortas|que no tiene título
+2|¿Qué es una canción de cuna?|una canción para dormir a un bebé|una canción para un partido|una canción de cumpleaños
