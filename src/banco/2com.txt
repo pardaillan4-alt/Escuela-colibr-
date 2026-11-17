@@ -1,0 +1,203 @@
+// Primera Comunión 2.º — banco ampliado (preguntas y tablas)
+#2pc1
+0|F|La gracia la compramos en la iglesia.
+0|¿Qué somos de Dios cuando estamos en gracia?|sus amigos|sus enemigos|desconocidos
+0|¿Qué hace crecer la gracia?|la oración y los sacramentos|los juguetes nuevos|ver mucha televisión
+1|¿Cuántos sacramentos dejó Jesús a su Iglesia?|siete|tres|diez
+1|¿Qué sacramento recibimos en la Primera Comunión?|la Eucaristía|el Matrimonio|la Unción de los enfermos
+1|¿Qué quiere decir estar en gracia de Dios?|no tener pecado mortal|no tener tarea pendiente|no haber hecho travesuras nunca
+2|¿Cuál de estos sacramentos es para los enfermos?|la Unción de los enfermos|el Orden sacerdotal|la Confirmación
+2|¿Qué sacramento hace sacerdotes?|el Orden sacerdotal|el Bautismo|la Penitencia
+2|¿Qué sacramento une a un hombre y una mujer para siempre?|el Matrimonio|la Eucaristía|la Confirmación
+2|Perdí la gracia por un pecado grave. ¿Puedo recuperarla?|sí, con una buena confesión|no, ya nunca más|solo cuando sea adulto
+K|{x}: ¿es un sacramento?|¿Es un sacramento?|sí: el Bautismo; la Confirmación; la Eucaristía; el Matrimonio; la Unción de los enfermos|no: el rosario; el agua bendita; la procesión; la posada; la medalla de la Virgen
+#2pc2
+0|F|En el examen de conciencia pienso en los pecados de mis amigos.
+0|¿Cuándo hago el examen de conciencia?|antes de confesarme|después de comulgar|durante el recreo
+1|¿Qué mandamiento reviso si no fui a Misa el domingo?|el tercero|el séptimo|el octavo
+1|¿Qué mandamiento reviso si desobedecí a mis papás?|el cuarto|el primero|el décimo
+1|¿Qué mandamiento reviso si dije una mentira?|el octavo|el quinto|el segundo
+2|¿Qué mandamiento reviso si tomé algo que no era mío?|el séptimo|el tercero|el sexto
+2|¿Qué es un «pecado de omisión»?|dejar de hacer el bien que debía hacer|hacer algo bueno sin que me vean|olvidar el nombre de un santo
+2|No ayudé a mi mamá aunque me lo pidió. ¿Es algo para examinar?|sí: dejé de hacer el bien|no: no hice nada malo|solo si ella se enojó mucho
+2|¿Por qué no hay que tener miedo de confesarse?|porque Jesús me espera para perdonarme|porque nadie se entera de lo que dije|porque el sacerdote no escucha nada
+K|{x}: ¿es una falta con Dios o con los demás?|¿Con Dios o con los demás?|con Dios: no rezar en todo el día; faltar a Misa el domingo; usar mal el nombre de Dios|con los demás: desobedecer a mis papás; decir mentiras; tomar algo ajeno; burlarme de alguien
+#2pc9
+0|F|En las tres parábolas, nadie busca lo que se perdió.
+1|¿Qué hizo el pastor con las noventa y nueve ovejas?|las dejó para buscar a la perdida|las vendió en el mercado|las llevó a dormir al pueblo
+1|¿Qué usó la mujer para buscar su moneda?|una lámpara y una escoba|una red de pescar|una pala y un pico
+2|¿A quién se parece el pastor que busca a su oveja?|a Jesús, el Buen Pastor|al hermano mayor|a un comerciante
+2|¿Qué hizo la mujer cuando encontró su moneda?|llamó a sus vecinas para celebrar|la escondió debajo de la cama|la gastó en el mercado
+K|{x}: ¿en qué parábola pasa?|¿En qué parábola pasa?|la oveja perdida: el pastor deja a las noventa y nueve; carga en hombros lo que encontró|la moneda perdida: la mujer barre toda la casa; enciende una lámpara para buscar|el hijo pródigo: gasta su herencia en fiestas; cuida cerdos y pasa hambre; el padre corre a abrazarlo
+#2pc10
+0|F|Si me pongo nervioso, mejor no me confieso.
+1|¿Qué hago si me pongo nervioso en el confesionario?|le digo al sacerdote que me ayude|salgo corriendo del confesionario|me quedo callado sin decir nada
+1|¿Qué me da el sacerdote después de oír mis pecados?|un consejo y una penitencia|un regalo y un dulce|una boleta de calificaciones
+2|¿Qué palabras dice el sacerdote para perdonarme?|«Yo te absuelvo de tus pecados…»|«Ya puedes irte a jugar»|«Vuelve otro día mejor»
+2|¿Cuándo cumplo la penitencia?|lo antes posible|dentro de un año|nunca: es opcional
+2|¿Qué hago con mi papelito de pecados al terminar?|lo rompo o lo tiro|lo pego en el refrigerador|se lo enseño a mis amigos
+K|{x}: ¿lo digo yo o lo dice el sacerdote?|¿Yo o el sacerdote?|lo digo yo: mis pecados; el acto de contrición; cuánto tiempo hace de mi última confesión|lo dice el sacerdote: el consejo; la penitencia; «Yo te absuelvo de tus pecados…»
+#2pc11
+0|F|Al entrar a la iglesia platicamos en voz alta.
+1|¿Con qué nos persignamos al entrar a la iglesia?|con agua bendita|con aceite|con perfume
+1|¿Qué hacemos al empezar la Misa, como en toda oración?|la señal de la cruz|un aplauso|una caravana
+2|¿Por qué pedimos perdón al empezar la Misa?|para recibir a Jesús con el corazón limpio|para que la Misa dure más tiempo|porque así lo pide el monaguillo
+2|¿Qué decimos en el acto penitencial?|«Señor, ten piedad»|«Demos gracias a Dios»|«Y con tu espíritu»
+#2pc12
+0|F|El Evangelio se escucha sentados.
+1|¿Quién lee el Evangelio en la Misa?|el sacerdote o el diácono|cualquier niño del coro|el sacristán
+1|¿Qué es la homilía?|la explicación de la Palabra de Dios|el canto con que empieza la Misa|la colecta para ayudar a la parroquia
+2|¿Qué decimos al rezar el Credo?|lo que creemos los católicos|lo que queremos de regalo|los nombres de los santos
+2|¿De quién son las cartas que se leen en la segunda lectura?|de los apóstoles|de los reyes de Israel|de los papás de Jesús
+K|{x}: ¿de pie o sentados?|¿De pie o sentados?|de pie: el Evangelio; el Credo; la oración de los fieles|sentados: la primera lectura; el salmo; la homilía
+#2pc13
+0|F|En la Consagración nos sentamos a descansar.
+1|¿Quién convierte el pan y el vino en Jesús?|Dios, por las palabras del sacerdote|el monaguillo con la campanita|el coro con sus cantos
+1|¿Qué ofrecemos junto con el pan y el vino?|nuestra vida|nuestros juguetes|nuestra tarea
+2|¿Qué palabras dice el sacerdote sobre el vino?|«Este es el cáliz de mi Sangre»|«Este es el vino de la fiesta»|«Esta es el agua bendita»
+2|¿Cómo se llama la parte de la Misa en que se consagra?|la Plegaria eucarística|la Liturgia de la Palabra|el rito de despedida
+#2pc14
+0|F|Después de comulgar me pongo a platicar con mis amigos.
+1|¿Cómo voy en la fila para comulgar?|con las manos juntas y en silencio|corriendo para ser el primero|platicando con el de enfrente
+1|¿Qué pedimos al cantar el Cordero de Dios?|que tenga piedad y nos dé la paz|que llueva para los campos|que termine pronto la Misa
+2|¿Qué hizo el centurión que dijo «Señor, no soy digno…»?|pidió a Jesús que curara a su criado|le regaló a Jesús una espada|invitó a Jesús a una fiesta
+2|¿Por qué nos damos la paz antes de comulgar?|para recibir a Jesús unidos y en paz|para despedirnos antes de irnos|para saludar a quien llegó tarde
+2|¿Qué le digo a Jesús después de comulgar?|que lo quiero y le doy gracias|que se apure, que tengo prisa|nada: ya terminó la Misa
+K|{x}: ¿antes o después de comulgar?|¿Antes o después de comulgar?|antes: rezamos el Padre Nuestro; nos damos la paz; cantamos el Cordero de Dios; decimos «Señor, no soy digno…»|después: platico con Jesús en silencio; le doy gracias; recibo la bendición final
+#2pc15
+0|F|«Misa» viene de una palabra que significa «descanso».
+0|¿Qué hace el sacerdote al final de la Misa?|nos bendice|nos regaña|nos cobra
+1|¿Qué respondemos a la bendición final?|Amén|Te alabamos, Señor|Y con tu espíritu
+1|¿Cómo salimos de la iglesia?|en paz y con respeto|empujando a todos|gritando y corriendo
+1|¿Qué hacemos al salir frente al Sagrario?|una genuflexión|un saludo de mano|un aplauso
+2|¿A dónde llevamos a Jesús al salir de Misa?|a la casa, la escuela y los amigos|a ningún lado: se queda en la iglesia|solo a la tienda de enfrente
+2|¿Qué significa «misión»?|ser enviado a anunciar a Jesús|irse de vacaciones|quedarse en casa
+2|¿Qué hago en la semana con lo que escuché en Misa?|lo vivo en mi casa y en la escuela|lo olvido al salir|lo guardo para el próximo año
+#2pc3
+0|F|En la Misa solo habla el sacerdote y nadie responde.
+0|¿Qué respondo cuando el sacerdote dice «La paz del Señor esté siempre con ustedes»?|Y con tu espíritu|Demos gracias a Dios|Te alabamos, Señor
+1|¿Qué respondo al «Lectura del santo Evangelio según san Lucas»?|Gloria a ti, Señor|Amén|Es justo y necesario
+1|¿Qué respondemos al final de la gran oración «Por Cristo, con Él y en Él…»?|Amén|Aleluya|Gracias
+1|¿Qué significa «Amén»?|así es, sí creo|hasta luego|ya terminó
+2|¿Qué respondemos a «Este es el Sacramento de nuestra fe»?|«Anunciamos tu muerte, proclamamos tu resurrección»|«Lo tenemos levantado hacia el Señor»|«Señor, ten piedad de nosotros»
+2|¿Por qué respondemos en la Misa?|porque todos participamos|porque nos lo pide la maestra|porque así acaba más rápido
+2|¿Qué decimos al oír «Oren, hermanos…»?|«El Señor reciba de tus manos este sacrificio…»|«Señor, no soy digno de que entres en mi casa…»|«Gloria a Dios en el cielo…»
+K|«{x}»: ¿lo dice el sacerdote o lo respondemos todos?|¿El sacerdote o todos?|lo dice el sacerdote: El Señor esté con ustedes; Levantemos el corazón; Pueden ir en paz; Oren, hermanos|lo respondemos todos: Y con tu espíritu; Es justo y necesario; Demos gracias a Dios; Lo tenemos levantado hacia el Señor
+#2pc4
+0|F|El altar es una mesa cualquiera para comer.
+0|¿Qué es el copón?|la copa con tapa que guarda las hostias|la campana que toca el monaguillo|el libro de los cantos
+1|¿Qué es el presbiterio?|la parte del templo donde está el altar|el patio de la parroquia|la oficina del párroco
+1|¿Qué hay junto al Sagrario siempre encendido?|una lámpara|un ventilador|un radio
+1|¿Dónde nos confesamos?|en el confesionario|en el ambón|en la sacristía
+2|¿Qué se enciende en Pascua y en los bautizos?|el cirio pascual|la lámpara del Sagrario|las luces del atrio
+2|¿Qué son las vinajeras?|las jarritas del agua y el vino|los platitos de las hostias|los manteles del altar
+2|¿Por qué el altar es tan importante?|porque ahí se celebra la Eucaristía|porque es la mesa más grande|porque ahí se guardan las velas
+2|¿Dónde se guardan las vestiduras del sacerdote?|en la sacristía|en el confesionario|en el ambón
+P|¿Para qué sirve {x}?|¿Qué cosa del templo es {x}?|el ambón = para proclamar la Palabra de Dios|la pila bautismal = para bautizar|el confesionario = para confesarse|el Sagrario = para guardar a Jesús Eucaristía|el cirio pascual = para recordar a Cristo resucitado, luz del mundo
+#2pc16
+0|F|El sacerdote usa siempre el mismo color todo el año.
+1|¿Qué es la estola?|la banda que cuelga del cuello|la túnica blanca larga|el cordón de la cintura
+1|¿Qué color significa esperanza?|el verde|el negro|el café
+2|¿Qué es el cíngulo?|el cordón que ciñe el alba|la copa del vino|la vela grande
+2|¿Qué color se usa en las fiestas de la Virgen María?|el blanco|el verde|el morado
+K|{x}: ¿de qué color se viste el sacerdote?|¿Qué color litúrgico?|morado: un domingo de Adviento; el Miércoles de Ceniza|blanco: la Misa de Navidad; la fiesta de la Virgen de Guadalupe; el Domingo de Resurrección|rojo: el Domingo de Ramos; la fiesta de san Pedro y san Pablo; Pentecostés
+#2pc17
+0|F|Después de la Misa, Jesús ya no está en las hostias guardadas.
+1|¿Por qué creemos que la Hostia es Jesús?|porque Jesús dijo «esto es mi Cuerpo»|porque tiene forma redonda|porque es muy blanca
+1|¿Qué prometió Jesús en el Evangelio de Juan, capítulo 6?|que quien coma su Cuerpo vivirá para siempre|que nunca más tendríamos hambre de pan|que lloverían panes del cielo
+2|¿Cómo nos portamos frente a Jesús Eucaristía?|con respeto, silencio y amor|con prisa y distraídos|como en el patio de juegos
+2|¿Hace cuántos siglos fue el milagro de Lanciano?|hace más de doce siglos|hace dos años|la semana pasada
+#2pc18
+0|F|El chicle no rompe el ayuno eucarístico.
+1|¿Cuánto tiempo antes de comulgar empieza el ayuno?|una hora|un día|diez minutos
+1|¿Qué hago si tengo un pecado mortal y quiero comulgar?|primero me confieso|comulgo y luego veo|no hago nada
+2|¿Qué enseñaba san Cirilo sobre la mano al comulgar?|que sea como un trono para el Rey|que se lave con agua bendita|que se cierre en un puño
+2|¿Con qué mano me llevo la Hostia a la boca?|con la derecha|con la izquierda|con ninguna
+2|¿Dónde consumo la Hostia?|ahí mismo, frente al ministro|en mi banca, después de un rato|en mi casa, con calma
+2|¿Qué significa comulgar «con devoción»?|con amor y sabiendo a quién recibo|rápido y sin pensar|con los ojos cerrados y bostezando
+#2pc7
+0|F|Jesús solo está en la iglesia el domingo.
+0|¿Dónde puedo visitar a Jesús Eucaristía?|en el Sagrario de la iglesia|en un museo de la ciudad|en el parque de mi colonia
+1|¿Qué hago al entrar a una iglesia donde está Jesús?|una genuflexión ante el Sagrario|me siento sin saludar|me pongo a correr
+1|¿Qué es la custodia?|la pieza dorada para exponer la Hostia|la caja de las limosnas|el libro de la Misa
+1|¿Qué hago en una visita al Santísimo?|le hablo, le doy gracias y lo escucho|juego un rato con mi celular|platico de lo que vi en la tele
+1|¿Cuándo hago una comunión espiritual?|cuando no puedo comulgar|cuando ya comulgué dos veces|cuando estoy de vacaciones
+2|¿Qué se hace en la fiesta de Corpus Christi?|una procesión con Jesús Eucaristía|una carrera por la ciudad|una fiesta de disfraces
+2|¿Qué es la adoración eucarística?|estar ante Jesús expuesto para amarlo|ver una película en la iglesia|limpiar el templo
+2|¿Quién era el santo Cura de Ars?|un sacerdote que pasaba horas ante el Sagrario|un rey que construyó muchas iglesias|un soldado que defendió a su pueblo
+2|¿Cuánto tiempo puede durar una visita a Jesús?|aunque sea un minuto|siempre una hora exacta|todo el día sin falta
+#2pc19
+0|F|Los santos nunca fueron niños.
+0|¿Quién es el patrono de los monaguillos?|san Tarsicio|san José|san Pedro
+1|¿Dónde vivió san Tarsicio?|en Roma|en México|en Japón
+1|¿Qué hacía Carlo Acutis todos los días?|iba a Misa|jugaba futbol en Roma|viajaba en avión
+2|¿De qué estado de México era José Sánchez del Río?|de Michoacán|de Sonora|de Yucatán
+2|¿Qué hizo Carlo Acutis con la computadora?|una exposición de milagros eucarísticos|un videojuego de carreras|una tienda de ropa
+#2pc20
+0|F|El maná era un pan que hacían los israelitas.
+0|¿Quién multiplicó los panes y los peces?|Jesús|Moisés|Abraham
+1|¿De dónde caía el maná?|del cielo|de los árboles|de las montañas
+1|¿Qué era Melquisedec, además de rey?|sacerdote|pescador|pastor
+2|¿Qué cena celebró Jesús con sus apóstoles antes de morir?|la Última Cena|la cena de Navidad|la boda de Caná
+2|¿Por qué llamamos a Jesús «Cordero de Dios»?|porque dio su vida para quitar el pecado|porque cuidaba ovejas en el campo|porque nació en un establo
+2|¿Con cuántos panes dio de comer Jesús a una multitud?|con cinco panes y dos peces|con cien panes y cien peces|con un pan y una uva
+#2pc5
+0|F|Las obras de misericordia son solo para los adultos.
+0|¿Qué obra hago al darle agua a quien tiene sed?|dar de beber al sediento|enseñar al que no sabe|enterrar a los muertos
+0|¿Qué obra hago al perdonar a mi hermano?|perdonar las ofensas|vestir al desnudo|visitar a los presos
+1|¿Cuántas obras de misericordia espirituales hay?|siete|tres|diez
+1|¿Qué obra hago al rezar por mi abuelito difunto?|rezar por los vivos y los difuntos|dar posada al peregrino|dar de comer al hambriento
+1|Mi amigo está triste y lo animo. ¿Qué obra hago?|consolar al triste|corregir al que se equivoca|vestir al desnudo
+2|¿Qué obra hago al tener paciencia con mi hermano que me molesta?|sufrir con paciencia los defectos de los demás|dar buen consejo al que lo necesita|visitar a los enfermos
+2|¿A quién ayudamos de verdad en cada obra de misericordia?|a Jesús, que está en el que sufre|solo a nosotros mismos|a nadie en especial
+2|¿En qué Evangelio dice Jesús «Tuve hambre y me dieron de comer»?|en el de Mateo|en el de Marcos|en el de Juan
+K|{x}: ¿obra de misericordia corporal o espiritual?|¿Corporal o espiritual?|corporal: llevarle comida a un vecino que no tiene; donar ropa a quien tiene frío; visitar a mi abuela enferma; darle agua a un trabajador con calor|espiritual: explicarle la tarea a mi hermanito; consolar a un amigo triste; perdonar a quien me ofendió; rezar por mi abuelito difunto
+#2pc6
+0|F|Una medalla de la Virgen tiene poder mágico.
+0|¿Qué usamos para rezar el Rosario?|un rosario|un amuleto|una moneda
+1|¿Qué nos ayudan a hacer los sacramentales?|rezar y vivir la fe|tener buena suerte|adivinar el futuro
+1|¿A qué hora se reza el Ángelus?|a las doce del día|a medianoche|a las cinco de la tarde
+1|¿Qué recibimos el Domingo de Ramos?|palmas benditas|ceniza en la frente|agua bendita en la boca
+1|¿Qué mandamiento nos pide no creer en la suerte ni en amuletos?|el primero|el quinto|el noveno
+2|¿Qué hago al despertar para empezar el día con Dios?|le ofrezco mi día|reviso mis mensajes|me quejo del frío
+2|¿Qué recuerda la ceniza del Miércoles de Ceniza?|que debemos convertirnos a Dios|que hay que limpiar la casa|que ya viene la Navidad
+2|¿Cuándo funciona un sacramental?|cuando lo usamos con fe|cuando lo usamos como amuleto|cuando es muy caro
+2|¿Qué hago antes de dormir?|reviso mi día, doy gracias y pido perdón|veo el celular hasta tarde|me duermo enojado
+K|{x}: ¿sacramental o superstición?|¿Sacramental o superstición?|sacramental: el agua bendita; el rosario; la medalla de la Virgen; el escapulario; las palmas benditas|superstición: un amuleto de la suerte; la pata de conejo; el horóscopo; las cartas para adivinar el futuro
+#2pc21
+0|F|Solo se puede rezar dentro de la iglesia.
+1|¿Qué podemos rezar todos juntos en familia?|el rosario|la tabla del cinco|el himno de la escuela
+1|¿Dónde vivía la Sagrada Familia?|en Nazaret|en Roma|en Egipto, siempre
+2|¿Qué es una «iglesia doméstica»?|la familia que reza, perdona y sirve|un templo pequeño dentro de casa|una capilla en el jardín
+2|¿Qué hacía Jesús niño en Nazaret?|obedecía a María y a José|mandaba a sus papás|se iba solo de viaje
+2|¿Quién puede bendecir a los hijos en casa?|los papás|solo el obispo|nadie
+K|{x}: ¿cuándo lo rezamos?|¿Cuándo se reza?|al despertar: el ofrecimiento del día; la señal de la cruz al levantarme|antes de comer: la bendición de la mesa; dar gracias por los alimentos|antes de dormir: el examen del día; el «Ángel de mi guarda»
+#2pc8
+0|F|En la Primera Comunión lo más importante es el vestido.
+0|¿A quién recibo por primera vez en mi Primera Comunión?|a Jesús|al obispo|a mis padrinos
+1|¿Qué hago unos días antes de la Primera Comunión?|me confieso|me corto el pelo nada más|no rezo para no cansarme
+1|¿Qué puedo tomar durante la hora de ayuno?|agua|un jugo|un dulce
+1|¿Qué oración puedo rezar después de comulgar?|el «Alma de Cristo»|la tabla del dos|el himno nacional
+1|¿Qué hago la noche anterior?|rezo y duermo bien|me desvelo jugando|como muchos dulces
+2|¿Cada cuánto puedo comulgar después de mi Primera Comunión?|en cada Misa, si estoy en gracia|solo una vez en la vida|solo en mi cumpleaños
+2|Me equivoco en una respuesta de la Misa por los nervios. ¿Qué pasa?|nada grave: Jesús ve mi amor|ya no vale mi Primera Comunión|tengo que repetirla
+2|¿Qué le pido a Jesús por mi familia?|que la bendiga y la cuide|que me compren un regalo|que me dejen sin tarea
+2|¿Por qué se llama «Primera» Comunión?|porque después Jesús me espera en cada Misa|porque después ya no se puede comulgar|porque se celebra solo una vez al año
+#2pc22
+0|F|Si no hay una gran fiesta, la Primera Comunión no es igual de valiosa.
+1|¿Qué significa la vela de la Primera Comunión?|la luz de Cristo|el pastel de la fiesta|la luz de la casa
+1|¿Para qué sirve el misal que me regalan?|para seguir la Misa|para dibujar|para jugar
+1|¿Cuál es el mejor regalo de la Primera Comunión?|Jesús mismo|un celular nuevo|mucho dinero
+2|¿Cómo preparo mi corazón para recibir a Jesús?|como una casa limpia para un gran invitado|como una caja para guardar regalos|como una mochila llena de juguetes
+2|¿Qué hago si mis amigos tienen una fiesta más grande que la mía?|doy gracias: lo importante es Jesús|me enojo con mis papás|no voy a mi Primera Comunión
+2|¿A quién le doy gracias por todos los que me ayudaron a prepararme?|a Dios, y también a ellos|a nadie: lo hice yo solo|solo a quien me dio regalo
+K|{x}: ¿lo más importante o un detalle bonito?|¿Lo más importante o un detalle?|lo más importante: estar confesado; recibir a Jesús con amor; dar gracias después de comulgar|un detalle bonito: el pastel; el vestido o traje nuevo; los recuerditos; la fiesta con los invitados
+#2pc23
+0|F|Después de la Primera Comunión ya no hace falta ir a Misa.
+1|¿Qué pasa con las ramas que se quedan unidas a la vid?|dan fruto|se secan|se caen
+1|¿Cada cuánto conviene confesarse, según el plan?|cada mes|cada diez años|nunca
+1|¿Qué es un monaguillo?|un niño que ayuda al sacerdote en el altar|un niño que vende dulces afuera|un niño que cuida el estacionamiento
+2|¿Quiénes somos los sarmientos de la vid?|nosotros|los ángeles|los árboles
+2|¿Qué obra buena puedo hacer cada día?|ayudar en casa sin que me lo pidan|esconder mis juguetes|quejarme de todo
+2|¿Qué hago si un día olvido rezar?|lo retomo al día siguiente con alegría|dejo de rezar para siempre|pienso que Dios ya no me quiere
+K|{x}: ¿cada día o cada domingo?|¿Cada día o cada domingo?|cada día: rezar al despertar; hacer una obra buena; rezar antes de dormir|cada domingo: ir a Misa; comulgar en gracia; descansar y convivir en familia
