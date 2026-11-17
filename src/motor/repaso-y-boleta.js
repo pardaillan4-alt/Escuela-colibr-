@@ -15,7 +15,9 @@ function logFirst(ok){if(!LS||LS.reto)return;const p=me(),ex=X.ex,now=Date.now()
  p.err=p.err||{};const k=errKey(lid,ex.q),e=p.err[k];const clean=JSON.parse(JSON.stringify(ex));delete clean.__k;delete clean.__lid;
  if(e&&!e.m){e.n++;e.b=0;e.due=dayStart(now)+DAY;e.last=now}else p.err[k]={ex:clean,lid,b:0,due:dayStart(now)+DAY,n:(e?e.n:0)+1,last:now};
  pruneErr(p)}
-function pruneErr(p){const E=Object.entries(p.err||{});if(E.length<=220)return;E.filter(([,e])=>e.m).sort((a,b)=>a[1].last-b[1].last).slice(0,E.length-200).forEach(([k])=>delete p.err[k])}
+function pruneErr(p){let E=Object.entries(p.err||{});if(E.length<=220)return;E.filter(([,e])=>e.m).sort((a,b)=>a[1].last-b[1].last).slice(0,E.length-200).forEach(([k])=>delete p.err[k]);
+ /* Tope de 300 preguntas guardadas por niño: si se juntan más, se quitan las más antiguas (así el avance cabe siempre en la nube) */
+ E=Object.entries(p.err);if(E.length>300)E.sort((a,b)=>(a[1].last||0)-(b[1].last||0)).slice(0,E.length-300).forEach(([k])=>delete p.err[k])}
 function dueList(p){const now=Date.now();return Object.entries(p.err||{}).filter(([,e])=>!e.m&&e.due<=now&&LIDX[e.lid]&&(LIDX[e.lid].s.all||(LIDX[e.lid].s.g||1)===(p.grade||1))).sort((a,b)=>a[1].due-b[1].due||b[1].n-a[1].n)}
 function pendingCount(p){return Object.values(p.err||{}).filter(e=>!e.m&&LIDX[e.lid]&&(LIDX[e.lid].s.all||(LIDX[e.lid].s.g||1)===(p.grade||1))).length}
 function startReview(){const p=me(),D=dueList(p).slice(0,REV_MAX);if(!D.length)return home();

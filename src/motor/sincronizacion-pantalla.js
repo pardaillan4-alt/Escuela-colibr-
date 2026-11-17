@@ -8,4 +8,5 @@ const VIEW={fn:null,args:[]};
  if(p.act){m.act=m.act||{};for(const[d,v]of Object.entries(p.act))m.act[d]=Math.max(m.act[d]||0,v)}
  if(p.retoD)m.retoD=[...new Set([...(m.retoD||[]),...p.retoD])].sort().slice(-60);
  if(p.retoT)m.retoT=m.retoT?Math.min(m.retoT,p.retoT):p.retoT;
- if(p.mis){m.mis=m.mis||{};for(const[k,v]of Object.entries(p.mis)){const w=m.mis[k];m.mis[k]=w==null?JSON.parse(JSON.stringify(v)):(typeof v==="number"&&typeof w==="number"?Math.max(v,w):(typeof v==="object"&&typeof w==="object"&&v&&w?Object.assign({},v,w,{done:!!(v.done||w.done)}):w||v))}}})})}catch(e){}return out}}
+ /* «done» guarda la fecha en que se cumplió la misión: al unir se conserva la fecha (antes se volvía «true» y se veía como 1970) */
+ if(p.mis){m.mis=m.mis||{};const t=x=>typeof x==="number"?x:0;for(const[k,v]of Object.entries(p.mis)){const w=m.mis[k];m.mis[k]=w==null?JSON.parse(JSON.stringify(v)):(typeof v==="number"&&typeof w==="number"?Math.max(v,w):(typeof v==="object"&&typeof w==="object"&&v&&w?(o=>{if(v.done||w.done)o.done=Math.max(t(v.done),t(w.done))||true;return o})(Object.assign({},v,w)):w||v))}}})})}catch(e){}return out}}

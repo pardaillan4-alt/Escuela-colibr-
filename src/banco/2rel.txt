@@ -1,0 +1,260 @@
+// Religión 2.º — banco ampliado (preguntas y tablas)
+#2r1
+0|F|La Biblia tiene un solo libro.
+0|¿Cuántos Evangelios hay?|cuatro|dos|doce
+1|¿Qué parte de la Biblia cuenta la creación y la historia de Moisés?|el Antiguo Testamento|el Nuevo Testamento|los Evangelios
+1|¿Cuál de estos es un Evangelio?|el de Lucas|el Génesis|el Éxodo
+1|En «Juan 3, 16», ¿qué es el 16?|el versículo|el capítulo|la página
+1|¿Cuál es el primer libro de la Biblia?|el Génesis|el Apocalipsis|el Evangelio de Mateo
+2|¿Qué dice Juan 3, 16?|que Dios amó tanto al mundo que entregó a su Hijo|que Dios creó el cielo y la tierra en seis días|que Moisés recibió las tablas de la Ley
+2|¿Cuál es el último libro de la Biblia?|el Apocalipsis|el Génesis|los Salmos
+2|¿En qué parte de la Misa escuchamos la Biblia?|en las lecturas|en la colecta|en el saludo de paz
+2|¿Por qué decimos que la Biblia es Palabra de Dios?|porque Dios inspiró a quienes la escribieron|porque cayó del cielo ya escrita|porque es el libro más antiguo
+K|{x}: ¿Antiguo o Nuevo Testamento?|¿Antiguo o Nuevo Testamento?|Antiguo Testamento: el Génesis; el Éxodo; los Salmos; el libro de Isaías|Nuevo Testamento: el Evangelio de Mateo; el Evangelio de Juan; los Hechos de los Apóstoles; el Apocalipsis
+#2r12
+0|F|Dios creó el mundo en dos días.
+0|¿Qué día dedicamos a Dios los cristianos?|el domingo|el lunes|el viernes
+1|¿A imagen de quién creó Dios al ser humano?|a su propia imagen|a imagen de los ángeles|a imagen de los animales
+1|¿Qué hizo Dios con el séptimo día?|lo bendijo|lo borró|lo olvidó
+2|¿Qué vio Dios al terminar cada día de su obra?|que era bueno|que faltaba mucho|que estaba cansado
+2|¿Qué nos dice la Biblia sobre la creación?|quién creó y para qué|cuántos kilos pesa la Tierra|a qué distancia está el Sol
+2|¿En qué libro de la Biblia se cuenta la creación?|en el Génesis|en el Éxodo|en los Salmos
+P|¿Qué creó Dios {x}?||el segundo día = el cielo y las aguas|el tercer día = la tierra y las plantas|el quinto día = los peces y las aves
+#2r2
+0|F|Abraham no quiso obedecer a Dios.
+0|¿Quién llamó a Abraham?|Dios|el faraón|un rey vecino
+1|¿Cómo eran Abraham y Sara cuando nació Isaac?|ancianos|muy jóvenes|niños
+1|¿A dónde debía ir Abraham?|a la tierra que Dios le mostraría|a la ciudad donde nació|al palacio del faraón
+1|¿Cómo llamamos a Abraham por su confianza en Dios?|padre en la fe|rey de Israel|primer apóstol
+1|¿Hace cuánto vivió Abraham?|hace casi 4000 años|hace 100 años|hace 20 años
+2|¿Qué hizo Abraham cuando Dios lo llamó?|confió y se puso en camino|pidió una prueba primero|se escondió en su tienda
+2|¿Qué aprendemos de Abraham?|a confiar en Dios aunque no entendamos todo|a quedarnos siempre en el mismo lugar|a pedir muchas riquezas
+2|¿Qué prometió Dios a Abraham?|una tierra y una gran descendencia|un palacio lleno de oro|que nunca tendría que caminar
+2|¿Quién fue el nieto de Abraham?|Jacob|Moisés|David
+#2r13
+0|F|José se vengó de sus hermanos.
+0|¿Quiénes vendieron a José?|sus hermanos|sus papás|unos soldados
+1|¿A qué país llevaron a José?|a Egipto|a Roma|a Grecia
+1|¿Qué formaron los doce hijos de Jacob?|las doce tribus de Israel|los doce apóstoles|los doce meses
+1|¿Qué le regaló Jacob a su hijo José?|una túnica de colores|una corona de oro|un caballo blanco
+2|¿Qué sabía interpretar José con la ayuda de Dios?|los sueños|las estrellas|los mapas
+2|¿Qué le prometió Dios a Jacob en el sueño de la escalera?|estar siempre con él|darle un trono de oro|que nunca tendría hambre
+2|¿Qué guardó José en Egipto para los años de hambre?|trigo|oro|agua
+P|¿Quién fue el papá de {x}?||Isaac = Abraham|Jacob = Isaac|José = Jacob
+#2r3
+0|F|Moisés liberó al pueblo él solo, sin ayuda de Dios.
+0|¿Quién no quería dejar salir al pueblo?|el faraón|Moisés|Abraham
+1|¿Qué comieron los israelitas la noche de la Pascua?|un cordero|pescado|maná
+1|¿Qué le dio Dios a Moisés en el monte Sinaí?|los Diez Mandamientos|un cetro de rey|una túnica nueva
+1|¿Cómo vivían los israelitas en Egipto?|como esclavos|como reyes|como turistas
+1|¿Qué tenía de especial la zarza que vio Moisés?|ardía sin consumirse|daba frutos de oro|hablaba como un ave
+2|¿Cómo cruzó el pueblo el mar Rojo?|por en medio, sobre tierra seca|en grandes barcos|nadando toda la noche
+2|¿De quién descendían los israelitas?|de Abraham|del faraón|de los egipcios
+2|¿Qué fiesta recuerda la salida de Egipto?|la Pascua|la Navidad|Pentecostés
+2|¿De qué nos libera Jesús, como Moisés liberó de la esclavitud?|del pecado|de la tarea|del trabajo
+K|{x}: ¿pasó en Egipto o en el desierto?|¿En Egipto o en el desierto?|en Egipto: las diez plagas; la esclavitud del pueblo; la noche de la Pascua|en el desierto: el maná; los Diez Mandamientos; los cuarenta años de camino
+#2r14
+0|F|En el desierto, Dios se olvidó de su pueblo.
+0|¿De dónde sacó Dios agua para el pueblo?|de una roca|de un pozo de oro|de una nube de arena
+1|¿Qué aves envió Dios para que comieran?|codornices|águilas|palomas
+1|¿Qué respondió el pueblo a la Alianza?|«Haremos todo lo que el Señor ha dicho»|«No queremos ningún mandamiento»|«Mejor volvamos a vivir a Egipto»
+1|¿Qué guiaba al pueblo de día por el desierto?|una columna de nube|una estrella|un río
+2|¿Quién rezó para que Dios perdonara al pueblo?|Moisés|Aarón|Josué
+2|¿Por qué estuvo mal adorar al becerro de oro?|porque solo a Dios se adora|porque el oro era muy caro|porque el becerro era pequeño
+2|¿Qué mandamiento rompió el pueblo con el becerro?|el primero|el cuarto|el octavo
+2|El maná era pan del cielo. ¿Qué pan del cielo recibimos hoy?|la Eucaristía|el pan dulce|la rosca de Reyes
+#2r15
+0|F|Rut abandonó a su suegra Noemí.
+0|¿Cuándo escuchó Samuel la voz de Dios?|en la noche|a mediodía|en una fiesta
+1|¿Qué respondió Samuel a Dios?|«Habla, Señor, que tu siervo escucha»|«Déjame dormir un poco más»|«No sé quién me está llamando»
+1|¿Qué dijo Rut a Noemí?|«Tu pueblo será mi pueblo y tu Dios mi Dios»|«Mañana mismo me regreso a mi tierra»|«Ya no quiero seguir viviendo contigo»
+1|¿Cuántas veces llamó Dios a Samuel antes de que entendiera?|tres|una|diez
+2|¿Con quién vivía el niño Samuel?|con el sacerdote Elí|con el rey David|con el profeta Elías
+2|¿Cuántos días rodearon Jericó antes de que cayeran las murallas?|siete|dos|cuarenta
+2|¿Qué virtud nos enseña Rut?|la fidelidad|la riqueza|la fuerza
+2|¿Qué necesito para escuchar a Dios, como Samuel?|silencio y un corazón atento|mucho ruido y prisa|una voz muy fuerte
+#2r4
+0|F|David era el hermano más alto y fuerte.
+0|¿Quién era Goliat?|un gigante|un profeta|un pastor
+1|¿Cuántas piedras recogió David para su honda?|cinco|una|doce
+1|¿Qué son los salmos?|oraciones cantadas|leyes del reino|cuentos de pastores
+1|¿En quién confió David para vencer a Goliat?|en Dios|en su espada|en su armadura
+1|¿Quién nació de la familia de David?|Jesús|Moisés|Abraham
+2|¿Qué prometió Dios a David?|que de su familia vendría un rey eterno|que viviría para siempre en la tierra|que nunca perdería una batalla
+2|¿Cuál es el salmo más famoso de David?|«El Señor es mi pastor»|«Padre nuestro»|«Dios te salve, María»
+2|¿Qué es mi «Goliat»?|algo que me da miedo y puedo vencer con Dios|un amigo muy alto de mi salón|un juguete que quiero comprar
+2|¿En qué ciudad nació David, igual que Jesús?|en Belén|en Nazaret|en Roma
+#2r16
+0|F|Salomón pidió a Dios muchas riquezas.
+0|¿Qué era el Templo de Jerusalén?|la casa de Dios|el palacio del rey|un mercado
+1|¿Para qué quería Salomón la sabiduría?|para gobernar bien|para ganar concursos|para hacerse famoso
+1|¿Qué había dentro del Arca de la Alianza?|las tablas de los Mandamientos|las piedras de David|la corona de Salomón
+1|¿Quién dijo: «Busquen primero el Reino de Dios»?|Jesús|Salomón|David
+2|Dos mujeres decían ser la mamá del mismo bebé. ¿Qué mostró Salomón al resolverlo?|su sabiduría|su fuerza|su riqueza
+2|¿Qué es más valioso, según Salomón?|un corazón sabio|un cofre de oro|un ejército grande
+2|¿Dónde está hoy Jesús presente, como Dios en el Templo?|en el Sagrario de la iglesia|en el museo de la ciudad|en la plaza del pueblo
+2|¿Qué puedo pedir a Dios, como Salomón?|sabiduría para elegir el bien|ganar todos los juegos|no tener que estudiar
+#2r5
+0|F|Los profetas hablaban solo de lo que ellos pensaban.
+0|¿A quién anunciaban los profetas?|al Mesías, el Salvador|a un nuevo faraón|a un rey de otro país
+1|¿Quién fue el último profeta antes de Jesús?|Juan el Bautista|Isaías|Elías
+1|¿Dónde vivía Juan el Bautista?|en el desierto|en un palacio|en una barca
+1|¿Qué pedían los profetas al pueblo?|volver a Dios|olvidar a Dios|salir de su tierra
+1|¿Qué significa «Mesías»?|el Ungido, el Salvador|el más anciano|el que escribe
+2|¿En quién se cumplió el anuncio de Isaías sobre la virgen?|en María, la Madre de Jesús|en Sara, la esposa de Abraham|en Rut, la bisabuela de David
+2|¿Cómo «preparo el camino del Señor» en mi casa?|pidiendo perdón y ayudando|peleando por todo|encerrándome en mi cuarto
+2|¿En qué tiempo litúrgico leemos mucho a Isaías?|en Adviento|en Pascua|en Tiempo Ordinario
+2|¿Quién es el Emmanuel anunciado por Isaías?|Jesús|Moisés|David
+K|{x}: ¿profeta o rey?|¿Profeta o rey?|profeta: Isaías; Elías; Samuel; Juan el Bautista; Jeremías|rey: David; Salomón; Saúl
+#2r17
+0|F|Elías encontró a Dios en un terremoto.
+0|¿Cuántos dioses verdaderos hay?|uno solo|dos|muchos
+1|¿Quién era Baal?|un dios falso|un rey bueno|un profeta amigo
+1|¿Qué necesito para escuchar a Dios en mi corazón?|silencio|gritos|música a todo volumen
+1|¿Con quién apareció Elías en la Transfiguración de Jesús?|con Moisés|con Abraham|con David
+2|¿Quién continuó la misión de Elías?|Eliseo|Isaías|Samuel
+2|¿Qué nos enseña la brisa suave?|que Dios habla en la calma|que Dios no habla nunca|que a Dios le gusta el ruido
+2|¿Qué aves llevaron pan a Elías junto al torrente?|unos cuervos|unas palomas|unas águilas
+2|¿En qué monte desafió Elías a los profetas de Baal?|en el monte Carmelo|en el monte Sinaí|en el monte Tabor
+#2r18
+0|F|Juan el Bautista vivía en un palacio.
+0|¿Quién era el papá de Juan el Bautista?|Zacarías|José|Pedro
+1|¿De qué estaba hecho el vestido de Juan?|de piel de camello|de seda fina|de lana de oveja
+1|¿Para qué vino Juan?|para preparar el camino de Jesús|para ser rey de Israel|para escribir un Evangelio
+1|¿Qué parentesco tenían Isabel y María?|eran primas|eran vecinas|eran madre e hija
+2|¿Por qué llamamos a Juan «el precursor»?|porque vino antes para anunciar a Jesús|porque corría muy rápido|porque fue el primer apóstol
+2|¿En qué momento de la Misa decimos «Cordero de Dios»?|antes de la Comunión|al empezar la Misa|después de la bendición
+2|¿Qué virtud muestra Juan al decir «que Él crezca y yo disminuya»?|la humildad|la fortaleza|la paciencia
+2|¿Qué hizo Juan en el vientre de Isabel cuando llegó María?|saltó de alegría|se quedó dormido|lloró
+#2r6
+0|F|En el desierto, Jesús cayó en la tentación.
+0|¿En qué río fue bautizado Jesús?|en el Jordán|en el Nilo|en el Bravo
+1|¿Quién tentó a Jesús en el desierto?|el demonio|un fariseo|un soldado
+1|¿De quién era la voz que se oyó en el Bautismo de Jesús?|del Padre|de Juan|de un ángel
+1|¿Dónde ayunó Jesús cuarenta días?|en el desierto|en el templo|en Nazaret
+1|¿Qué tiempo litúrgico recuerda los 40 días de Jesús en el desierto?|la Cuaresma|el Adviento|la Pascua
+2|¿Qué Personas se manifiestan en el Bautismo de Jesús?|el Padre, el Hijo y el Espíritu Santo|Jesús, María y José|Pedro, Santiago y Juan
+2|¿Qué hago cuando siento la tentación de hacer algo malo?|digo «no», me alejo y rezo|lo hago rápido para que pase|lo pienso todo el día
+2|¿Qué nos hizo el Bautismo a nosotros?|hijos de Dios|apóstoles|sacerdotes
+2|¿Qué le propuso el tentador a Jesús, que tenía hambre?|convertir las piedras en pan|comprar pan en el pueblo|pescar en el río
+K|{x}: ¿en el Bautismo de Jesús o en el desierto?|¿En el Bautismo de Jesús o en el desierto?|en el Bautismo: la paloma; la voz del Padre; el río Jordán; Juan el Bautista|en el desierto: el ayuno de 40 días; las tentaciones; el tentador vencido
+#2r19
+0|F|Los apóstoles tardaron un año en decidirse a seguir a Jesús.
+0|¿Junto a qué mar llamó Jesús a los pescadores?|el mar de Galilea|el mar Rojo|el mar Muerto
+1|¿Quiénes eran hermanos entre los apóstoles?|Pedro y Andrés|Mateo y Tomás|Felipe y Judas
+1|¿A qué apóstol llamó Jesús «roca»?|a Pedro|a Juan|a Tomás
+1|¿Quién es llamado «el discípulo amado»?|Juan|Mateo|Felipe
+2|¿Qué significa «apóstol»?|enviado|pescador|maestro
+2|¿Qué dejaron Santiago y Juan para seguir a Jesús?|la barca y a su padre|un palacio|su rebaño
+2|¿Quiénes son hoy los sucesores de los apóstoles?|los obispos|los monaguillos|los reyes
+2|¿A qué me llama Jesús a mí?|a ser su amigo y anunciarlo|a ser el más famoso|a no hacer nada
+K|{x}: ¿fue uno de los doce apóstoles?|¿Apóstol de los Doce?|sí: Pedro; Andrés; Santiago; Juan; Mateo; Tomás; Felipe; Bartolomé|no: Moisés; David; Juan el Bautista; Zaqueo; Lázaro
+#2r20
+0|F|El samaritano pasó de largo sin detenerse.
+0|¿Qué le pasó al hombre del camino?|lo asaltaron y quedó herido|se perdió en el bosque|se quedó dormido
+1|¿Qué sintió el samaritano al ver al herido?|compasión|miedo|enojo
+1|¿Qué usó el samaritano para curar las heridas?|aceite y vino|agua y sal|hojas y lodo
+1|¿Quién pagó la posada del herido?|el samaritano|el levita|el posadero
+2|¿Qué pregunta respondió Jesús con esta parábola?|«¿Quién es mi prójimo?»|«¿Cuándo es la Pascua?»|«¿Dónde está Jericó?»
+2|¿A quién vieron los santos en el buen samaritano?|a Jesús, que cura nuestras heridas|a un médico de Jerusalén|a un soldado romano
+2|¿Entre qué ciudades iba el camino de la parábola?|de Jerusalén a Jericó|de Belén a Nazaret|de Roma a Egipto
+2|Veo que un niño llora solo en el recreo. ¿Qué haría el buen samaritano?|acercarse y ayudarlo|seguir jugando|decirle que no llore
+#2r7
+0|F|El padre le cerró la puerta a su hijo.
+0|¿Qué pidió el hijo menor a su padre?|su herencia|un caballo|un consejo
+1|¿En qué gastó el hijo su dinero?|en fiestas|en ayudar a los pobres|en comprar tierras
+1|¿Qué trabajo tuvo cuando se le acabó el dinero?|cuidar cerdos|pescar|vender telas
+1|¿Qué hizo el padre para celebrar el regreso?|una gran fiesta|un largo regaño|un viaje
+1|¿Cuántos hijos tenía el padre de la parábola?|dos|tres|doce
+2|¿Qué le pusieron al hijo al volver?|el mejor vestido, un anillo y sandalias|una túnica vieja y rota|un costal de trabajo
+2|¿Por qué se enojó el hermano mayor?|porque hicieron fiesta por su hermano|porque perdió su herencia|porque tenía mucha hambre
+2|¿Qué significa «pródigo»?|que gasta sin medida|que es muy obediente|que es el más pequeño
+2|¿Qué dijo el padre sobre su hijo?|«Estaba perdido y lo hemos encontrado»|«Ya no quiero que sea mi hijo»|«Que trabaje aquí como un siervo»
+#2r8
+0|F|Jesús dijo que es feliz quien tiene muchas cosas.
+0|¿Qué significa «bienaventurado»?|dichoso, feliz|enojado|cansado
+1|¿Cómo se llama el discurso donde están las Bienaventuranzas?|el sermón del monte|la Última Cena|la parábola del sembrador
+1|¿A quiénes enseñó Jesús en el monte?|a sus discípulos y a la gente|solo a los reyes|solo a los sacerdotes del Templo
+1|¿Qué es ser «manso»?|no ser violento ni vengativo|ser el más fuerte|no hablar con nadie
+1|¿Qué es ser «misericordioso»?|perdonar y ayudar al que sufre|castigar al que se equivoca|ganar siempre
+2|¿Qué es tener «limpio el corazón»?|querer el bien y no guardar maldad|bañarse todos los días|no ensuciar la ropa
+2|Ayudo a dos amigos a reconciliarse. ¿Qué bienaventuranza vivo?|la de los que trabajan por la paz|la de los que lloran|la de los pobres de espíritu
+2|Perdono a quien me ofendió. ¿Qué bienaventuranza vivo?|la de los misericordiosos|la de los mansos|la de los perseguidos
+2|¿En qué Evangelio están las ocho Bienaventuranzas?|en el de Mateo|en el de Marcos|en el de Juan
+P|Dichosos {x}, porque…||los pobres de espíritu = de ellos es el Reino de los cielos|los que lloran = serán consolados|los mansos = heredarán la tierra|los que tienen hambre y sed de justicia = serán saciados|los misericordiosos = obtendrán misericordia|los limpios de corazón = verán a Dios|los que trabajan por la paz = serán llamados hijos de Dios
+#2r21
+0|F|Jesús subió al monte con los doce apóstoles.
+0|¿Cómo se volvieron los vestidos de Jesús?|blancos como la luz|rojos como el fuego|negros como la noche
+1|¿Qué apóstoles subieron con Jesús al monte?|Pedro, Santiago y Juan|Mateo, Tomás y Felipe|Andrés, Judas y Simón
+1|¿Qué los cubrió cuando se oyó la voz del Padre?|una nube|una red|una manta
+1|¿De quién era la voz que salió de la nube?|del Padre|de Moisés|de Pedro
+2|¿Qué mostró Jesús a sus amigos en el monte?|su gloria de Hijo de Dios|cómo pescar más|el camino a Jerusalén
+2|¿En qué misterios del rosario está la Transfiguración?|en los luminosos|en los gozosos|en los dolorosos
+2|¿Cómo escucho hoy a Jesús?|en el Evangelio y en la oración|en los anuncios de la tele|en los chismes del recreo
+2|¿Qué dijo Pedro al ver a Jesús glorioso?|«¡Qué bien estamos aquí!»|«Vámonos pronto»|«Tengo mucho frío»
+#2r22
+0|F|Los discípulos de Emaús reconocieron a Jesús desde el principio.
+0|¿Cuántos discípulos caminaban a Emaús?|dos|doce|cinco
+1|¿Cómo iban los discípulos de Emaús por el camino?|tristes|cantando|corriendo
+1|¿Qué les explicó Jesús mientras caminaban?|las Escrituras|el clima|un mapa
+1|¿Qué le mostró Jesús a Tomás?|sus llagas|su barca|su túnica nueva
+2|¿Dónde reconocemos hoy a Jesús al partir el pan?|en la Misa|en la panadería|en el recreo
+2|¿Qué hicieron los de Emaús al reconocer a Jesús?|volvieron a Jerusalén a contarlo|se fueron a dormir tranquilos|se escondieron en su casa
+2|¿Por qué somos «dichosos» nosotros?|porque creemos sin haber visto|porque vimos a Jesús en persona|porque nunca dudamos de nada
+2|¿Qué día de la semana resucitó Jesús?|el domingo|el viernes|el martes
+#2r9
+0|F|En Pentecostés los apóstoles se llenaron de miedo.
+0|¿A quién recibieron los apóstoles en Pentecostés?|al Espíritu Santo|al arcángel Gabriel|al profeta Elías
+1|¿Qué se oyó antes de que aparecieran las lenguas de fuego?|un ruido como de viento fuerte|un coro de ángeles|un trueno y un rayo
+1|¿Qué hacían los apóstoles mientras esperaban?|rezaban con María|pescaban en el lago|viajaban a Roma
+1|¿Qué don del Espíritu Santo nos hace valientes?|la fortaleza|la ciencia|la piedad
+1|¿En qué sacramento recibimos en plenitud los dones del Espíritu?|en la Confirmación|en el Matrimonio|en la Unción
+2|¿Qué pasó con el miedo de los apóstoles?|lo perdieron y salieron a predicar|creció todavía más|los hizo huir de la ciudad
+2|¿Qué pasó diez días antes de Pentecostés?|la Ascensión de Jesús al cielo|la Última Cena|la entrada en Jerusalén
+2|¿Qué entendía la gente cuando los apóstoles hablaban?|cada uno en su propia lengua|nada: hablaban muy bajo|solo quienes sabían griego
+2|¿Cuál es el «cumpleaños» de la Iglesia?|Pentecostés|Navidad|el Miércoles de Ceniza
+#2r23
+0|F|Los primeros cristianos vivían sin rezar.
+0|¿Qué es un mártir?|quien da la vida por su fe en Jesús|quien escribe un libro|quien gana una carrera
+1|¿Qué hizo san Esteban con quienes lo mataban?|los perdonó|los maldijo|huyó de ellos
+1|¿Qué era «la fracción del pan»?|la Eucaristía|el desayuno|una fiesta de cumpleaños
+1|¿Qué eran las catacumbas?|cementerios subterráneos|grandes palacios|barcos de pesca
+2|¿Por qué usaban un signo secreto?|porque eran perseguidos|porque les gustaban los acertijos|porque no sabían escribir
+2|¿Qué decía la gente al ver a los primeros cristianos?|«Miren cómo se aman»|«Miren qué ricos son»|«Miren qué fuertes son»
+2|¿A quién imitó san Esteban al perdonar?|a Jesús en la cruz|a Moisés en el desierto|a David frente a Goliat
+2|¿Cómo puedo vivir como los primeros cristianos?|rezando y compartiendo|guardando todo para mí|escondiendo mi fe
+#2r24
+0|F|En América no ha habido santos.
+0|¿Quién fue la primera santa de América?|santa Rosa de Lima|santa Teresita|santa Clara
+1|¿Qué hacía san Juan Diego cuando se le apareció la Virgen?|iba camino a Misa|pescaba en el lago|vendía en el mercado
+1|¿De quiénes era amigo san Martín de Porres?|de los pobres y los animales|de los reyes y príncipes|de los soldados
+1|¿Dónde se guarda hoy la tilma de san Juan Diego?|en la Basílica de Guadalupe|en un museo de España|en la catedral de Lima
+2|¿Qué nos enseña san Martín de Porres con su escoba?|que la santidad está en lo pequeño|que barrer es un castigo|que solo los ricos son santos
+2|¿Cuál de estos santos es mexicano?|san José Sánchez del Río|san Francisco de Asís|san Juan Bosco
+2|¿Qué santa peruana cuidaba enfermos en su casa?|santa Rosa de Lima|santa Mónica|santa Lucía
+2|¿A qué estamos llamados todos los bautizados?|a ser santos|a ser famosos|a ser ricos
+P|¿De qué país es {x}?||san Juan Diego = México|san Martín de Porres = Perú|san Alberto Hurtado = Chile|san Óscar Romero = El Salvador|santa Laura Montoya = Colombia|san Felipe de Jesús = México
+#2r10
+0|F|En el rosario no se reza el Padre Nuestro.
+0|¿Con qué contamos las oraciones del rosario?|con las cuentas|con monedas|con un reloj
+1|¿Qué oración rezamos al terminar las diez Avemarías?|el Gloria|el Credo|el Yo confieso
+1|¿Cuántos misterios tiene cada grupo: gozosos, dolorosos, gloriosos…?|cinco|tres|diez
+1|¿Qué día rezamos los misterios dolorosos?|martes y viernes|lunes y sábado|jueves
+1|¿Cuál es el primer misterio gozoso?|la Anunciación|el Nacimiento de Jesús|la Visitación
+2|¿Cuándo es la fiesta de la Virgen del Rosario?|el 7 de octubre|el 12 de diciembre|el 15 de agosto
+2|¿Dónde pidió la Virgen a tres pastorcitos rezar el rosario?|en Fátima|en Lourdes|en el Tepeyac
+2|¿Qué recordamos al rezar cada misterio?|un momento de la vida de Jesús|un pecado que cometimos|una fiesta del pueblo
+2|¿En qué misterios está el Bautismo de Jesús?|en los luminosos|en los gloriosos|en los dolorosos
+K|{x}: ¿misterio gozoso, doloroso o glorioso?|¿Gozoso, doloroso o glorioso?|gozoso: la Anunciación; la Visitación; el Nacimiento de Jesús|doloroso: la oración en el huerto; la coronación de espinas; la crucifixión|glorioso: la Resurrección; la Ascensión; la venida del Espíritu Santo
+#2r11
+0|F|El sacerdote usa siempre el mismo color.
+0|¿Qué celebramos en Navidad?|el nacimiento de Jesús|la Resurrección|la venida del Espíritu Santo
+1|¿Cuántos domingos tiene el Adviento?|cuatro|dos|siete
+1|¿Qué significa el color morado?|preparación y penitencia|fiesta y alegría|fuego del Espíritu
+1|¿Qué tiempo litúrgico nos prepara para la Navidad?|el Adviento|la Cuaresma|la Pascua
+1|¿Cuánto dura la Cuaresma?|cuarenta días|siete días|un año
+2|¿Con qué día empieza la Cuaresma?|con el Miércoles de Ceniza|con el Domingo de Ramos|con el Jueves Santo
+2|¿Qué significa el color verde del Tiempo Ordinario?|esperanza|penitencia|martirio
+2|¿Qué color puede usar el sacerdote el tercer domingo de Adviento?|rosa|negro|azul
+2|¿Cuál es la fiesta más importante del año litúrgico?|la Pascua|la Navidad|Pentecostés
+K|{x}: ¿de qué color se viste el sacerdote?|¿Qué color litúrgico?|morado: el Miércoles de Ceniza; el primer domingo de Adviento|blanco: la Epifanía; la Asunción de María; el Jueves Santo|rojo: el Domingo de Ramos; el Viernes Santo; la fiesta de un mártir

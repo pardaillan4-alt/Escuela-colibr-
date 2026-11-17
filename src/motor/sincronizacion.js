@@ -17,14 +17,45 @@ function mergeProfiles(L,R,del){const dels=new Set(del||[]),map={};
   m.tp=m.tp||{};for(const[lid,L]of Object.entries(p.tp||{})){const T=m.tp[lid]=m.tp[lid]||{};for(const[mk,x]of Object.entries(L)){const y=T[mk];T[mk]=y?{t:Math.max(y.t,x.t),f:Math.max(y.f,x.f),u:Math.max(y.u||0,x.u||0)}:clone(x)}}});
  Object.values(map).forEach(m=>{if(!m.rst)return;for(const[k,v]of Object.entries(m.prog))if((v.last||0)<=m.rst)delete m.prog[k];for(const[k,v]of Object.entries(m.err||{}))if((v.last||0)<=m.rst)delete m.err[k];for(const[lid,L]of Object.entries(m.tp||{})){for(const[mk,x]of Object.entries(L))if((x.u||0)<=m.rst)delete L[mk];if(!Object.keys(L).length)delete m.tp[lid]}});
  return Object.values(map)}
-function syncApply(remote){if(remote&&remote.plan&&(!S.plan||(remote.plan.upd||0)>(S.plan.upd||0)))S.plan=remote.plan;const R=(remote&&remote.profiles)||[],del=[...new Set([...(S.del||[]),...((remote&&remote.del)||[])])];
- let L=S.profiles;if(R.length&&L.length===1&&isDefaultProfile(L[0]))L=[];
+/* ---- Formato en la nube (v2) ----
+   Firestore no acepta listas dentro de listas, valores «undefined», claves vacías ni documentos de más de 1 MiB.
+   Los ejercicios que el niño falla y se guardan para el «Repaso del día» sí traen listas anidadas (los de clasificar,
+   los de tablas), y al primero de ellos la nube rechazaba todo el avance («invalid-argument»). Por eso cada niño se
+   sube así: lo básico (nombre, grado, avance de lecciones) como campos normales —las versiones anteriores de la app lo
+   siguen entendiendo— y todo lo demás (repaso, estadísticas, exámenes, misiones…) empacado en un solo texto «x». */
+const CLOUD_LITE=["id","name","ci","grade","upd","rst","reto","retoT","prog"],CLOUD_MAX=900000;
+function fsBad(v,d){d=d||0;if(d>18)return"profundidad";if(v===undefined||typeof v==="function"||typeof v==="symbol"||typeof v==="bigint")return"tipo";if(v===null||typeof v!=="object")return"";
+ if(Array.isArray(v)){for(const x of v){if(Array.isArray(x))return"lista anidada";const r=fsBad(x,d+1);if(r)return r}return""}
+ const pr=Object.getPrototypeOf(v);if(pr&&Object.getPrototypeOf(pr))return"objeto";for(const k of Object.keys(v)){if(!k||/^__.*__$/.test(k))return"clave";const r=fsBad(v[k],d+1);if(r)return r}return""}
+/* Solo si el documento se acerca al límite: recorta la copia que va a la nube, nunca lo guardado en este equipo */
+function cloudSlim(x,lv){const E=x.err&&typeof x.err==="object"?x.err:null;
+ if(E&&lv>=1)for(const k of Object.keys(E))if(E[k]&&E[k].m)delete E[k];
+ if(E&&lv>=2)Object.entries(E).sort((a,b)=>((b[1]||{}).last||0)-((a[1]||{}).last||0)).slice(80).forEach(([k])=>delete E[k]);
+ if(lv>=3&&x.tp&&typeof x.tp==="object"){const d=new Date();d.setMonth(d.getMonth()-12);const lim=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");for(const L of Object.values(x.tp))if(L&&typeof L==="object")for(const mk of Object.keys(L))if(mk<lim)delete L[mk]}
+ if(lv>=4){delete x.err;delete x.flu}return x}
+function cloudProfile(p,lv){const c=JSON.parse(JSON.stringify(p||{})),o={},x={};
+ for(const[k,v]of Object.entries(c)){if(k==="x")continue;if(CLOUD_LITE.includes(k)&&!fsBad(v))o[k]=v;else x[k]=v}
+ if(Object.keys(x).length)o.x=JSON.stringify(cloudSlim(x,lv||0));return o}
+function cloudOpen(p){if(!p||typeof p!=="object"||typeof p.x!=="string")return p;const a=Object.assign({},p);delete a.x;
+ try{const X=JSON.parse(p.x);if(X&&typeof X==="object")for(const[k,v]of Object.entries(X))if(k!=="id"&&a[k]===undefined)a[k]=v}catch(e){}return a}
+function cloudBytes(o){const s=JSON.stringify(o);try{return new TextEncoder().encode(s).length}catch(e){return s.length*2}}
+function cloudPayload(){let pl=null;const plan=S.plan?JSON.parse(JSON.stringify(S.plan)):null;
+ for(let lv=0;lv<=4;lv++){pl={v:2,profiles:S.profiles.map(p=>cloudProfile(p,lv)),del:(S.del||[]).filter(d=>typeof d==="string"&&d),plan:plan&&!fsBad(plan)?plan:null,upd:Date.now(),email:SYNC.user&&SYNC.user.email||""};if(cloudBytes(pl)<CLOUD_MAX)break}
+ return pl}
+function syncApply(remote){if(remote&&remote.plan&&(!S.plan||(remote.plan.upd||0)>(S.plan.upd||0)))S.plan=remote.plan;const R=((remote&&remote.profiles)||[]).map(cloudOpen),del=[...new Set([...(S.del||[]),...((remote&&remote.del)||[])])];
+ let L=S.profiles.map(cloudOpen);if(R.length&&L.length===1&&isDefaultProfile(L[0]))L=[];
  const before=JSON.stringify(S.profiles);let M=mergeProfiles(L,R,del);if(!M.length){const p=newProfile("Explorador",0);M=[p]}
  S.profiles=M;S.del=del;if(!M.some(p=>p.id===S.cur))S.cur=M[0].id;
  const changed=before!==JSON.stringify(S.profiles);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}return changed}
-function syncPush(now){if(SYNC.state!=="on"||!SYNC.ref)return;clearTimeout(SYNC.timer);const go=()=>{SYNC.ref.set({v:1,profiles:JSON.parse(JSON.stringify(S.profiles)),del:S.del||[],plan:S.plan||null,upd:Date.now(),email:SYNC.user&&SYNC.user.email||""}).then(()=>{SYNC.last=Date.now();SYNC.err=""}).catch(e=>{SYNC.err=syncMsg(e)})};if(now)go();else SYNC.timer=setTimeout(go,1500)}
+function syncPush(now){if(SYNC.state!=="on"||!SYNC.ref)return;clearTimeout(SYNC.timer);
+ const show=()=>{try{if(MODE==="parents")syncRefresh()}catch(x){}},fail=e=>{SYNC.err=syncMsg(e);show()};
+ /* set() valida los datos en el momento y puede lanzar el error ahí mismo (no en la promesa): se atrapan los dos casos */
+ const go=()=>{try{SYNC.ref.set(cloudPayload()).then(()=>{const had=SYNC.err;SYNC.last=Date.now();SYNC.err="";if(had)show()}).catch(fail)}catch(e){fail(e)}};
+ if(now)go();else SYNC.timer=setTimeout(go,1500)}
 function syncMsg(e){const c=(e&&e.code)||"",m=(e&&e.message)||"";
  if(/referer|referrer/i.test(m))return"La clave de Firebase no permite esta página. En Google Cloud → Credenciales, agrega pardaillan4-alt.github.io a los sitios permitidos de la clave.";
+ if(c==="invalid-argument")return/size|exceeds|too large|bytes|longer than/i.test(m)?"La nube no aceptó el avance porque ya es demasiado grande. En este equipo no se pierde nada; avísanos para ajustarlo.":"La nube no aceptó los datos. Recarga la app para tener la versión más nueva y vuelve a intentar. (Detalle: "+m.replace(/^Function \S+ called with invalid data\. /,"").slice(0,120)+")";
+ if(c==="resource-exhausted")return"Se llegó al límite gratuito diario de Firebase. Mañana se sincroniza solo; en este equipo no se pierde nada.";
  return({"auth/invalid-credential":"Correo o contraseña incorrectos.","auth/wrong-password":"Correo o contraseña incorrectos.","auth/user-not-found":"Ese correo no tiene cuenta en el proyecto Escuela Colibrí.","auth/invalid-email":"Revisa el correo.","auth/too-many-requests":"Demasiados intentos. Espera unos minutos.","auth/network-request-failed":"Sin internet en este momento. Se sincronizará al volver la conexión.","auth/operation-not-allowed":"Activa «Correo/Contraseña» en Firebase → Authentication.","auth/unauthorized-domain":"Agrega pardaillan4-alt.github.io en Firebase → Authentication → Settings → Authorized domains.","permission-denied":"Firebase no deja guardar todavía: revisa la regla de la colección colibri en Firestore → Reglas del proyecto Escuela Colibrí.","failed-precondition":"Falta crear la base de datos: en Firebase → Firestore Database → Crear base de datos.","unavailable":"Sin internet en este momento. Se sincronizará al volver la conexión."})[c]||("No se pudo sincronizar ("+(c||m)+").")}
 function loadScript(src){return new Promise((ok,no)=>{const s=document.createElement("script");s.src=src;s.onload=ok;s.onerror=()=>no({code:"sdk"});document.head.appendChild(s)})}
 async function fbLoad(){if(window.firebase&&firebase.firestore&&firebase.auth)return;if(!/^https?:$/.test(location.protocol))throw{code:"sdk"};for(const f of["firebase-app-compat.js","firebase-auth-compat.js","firebase-firestore-compat.js"])await loadScript(FBV+f);if(!firebase.apps.length)firebase.initializeApp(FBCFG)}
