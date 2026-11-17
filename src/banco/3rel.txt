@@ -1,0 +1,230 @@
+// Religión 3.º — banco ampliado (preguntas y tablas)
+#3r11
+0|F|La Biblia se escribió toda en un solo día.
+0|¿Cuántos libros tiene el Antiguo Testamento?|46|27|73
+1|¿Qué es la Sagrada Escritura?|la Palabra de Dios escrita|un libro de cuentos|un diario personal
+1|¿Qué significa «Mt» en una cita bíblica?|Evangelio de Mateo|Evangelio de Marcos|libro de los Macabeos
+1|En «Jn 3, 16», ¿qué indica el 16?|el versículo|el capítulo|la página
+2|¿Por qué medios nos llega la Revelación de Dios?|la Sagrada Escritura y la Tradición|solo por los sueños|solo por los libros de historia
+2|¿Qué dice Jn 3, 16?|«Tanto amó Dios al mundo que entregó a su Hijo»|«En el principio creó Dios el cielo»|«El Señor es mi pastor, nada me falta»
+2|¿En qué idiomas se escribió la Biblia originalmente?|en hebreo, arameo y griego|en español e inglés|en latín y náhuatl
+P|¿Qué libro de la Biblia es «{x}»?||Gn = Génesis|Éx = Éxodo|Sal = Salmos|Is = Isaías|Lc = Lucas|Hch = Hechos de los Apóstoles
+#3r12
+0|F|Dios tuvo un principio, como las personas.
+0|¿Cuántos dioses hay?|uno solo|tres|muchos
+1|¿Qué significa que Dios es misericordioso?|que perdona y ama sin medida|que castiga siempre|que no se fija en nosotros
+1|¿Desde dónde habló Dios a Moisés?|desde una zarza que ardía|desde una nube negra|desde un barco
+1|¿Qué significa «Abbá»?|papá|rey|juez
+2|¿Cuántas Personas hay en Dios?|tres: Padre, Hijo y Espíritu Santo|una sola persona, el Padre|doce, como los apóstoles
+2|¿Por qué podemos hablarle a Dios en cualquier lugar?|porque está en todas partes|porque solo vive en la iglesia|porque oye solo de día
+2|¿Cómo llama a Dios el Salmo 23?|Pastor|Rey de Egipto|Constructor
+2|¿Qué significa que Dios es infinitamente bueno?|que su bondad no tiene límite|que solo es bueno a veces|que es bueno solo con algunos
+#3r13
+0|F|Para ser científico hay que dejar de creer en Dios.
+0|¿Qué estudia la ciencia?|cómo funciona el mundo|los nombres de los santos|las oraciones de la Misa
+1|¿Qué nos dice la fe sobre el mundo?|quién lo creó y para qué|cuánto pesa la Luna|cómo se forman las nubes
+1|¿Qué científico católico creó la vacuna contra la rabia?|Louis Pasteur|Isaac Newton|Galileo Galilei
+1|¿Por qué la fe y la razón no se pelean?|porque las dos buscan la verdad|porque nunca hablan de nada parecido|porque la ciencia es solo un cuento
+2|¿Qué proclaman los cielos, según el Salmo 19?|la gloria de Dios|que Dios no existe|que la Tierra es plana
+2|¿Qué pregunta responde la fe y no la ciencia?|¿para qué existimos?|¿a qué temperatura hierve el agua?|¿cuántas patas tiene una araña?
+2|¿Qué descubrimos de Dios al estudiar la naturaleza?|su sabiduría y su orden|que no existe|que todo es casualidad
+2|¿Qué usó Galileo para estudiar el cielo?|un telescopio|un microscopio|una brújula
+#3r1
+0|F|El Credo es una oración que inventó cada parroquia.
+0|¿En qué Persona creemos como Creador del cielo y de la tierra?|en Dios Padre|en los ángeles|en los santos
+1|¿De quién nació Jesús, según el Credo?|de Santa María Virgen|de santa Isabel|de santa Ana
+1|¿Qué hizo Jesús al tercer día, según el Credo?|resucitó de entre los muertos|se fue a vivir a Egipto|subió al monte Tabor
+1|¿Qué es «la comunión de los santos»?|la unión de todos los que pertenecen a Cristo|una fiesta en honor de un santo|un grupo de amigos del barrio
+1|¿Bajo el poder de quién padeció Jesús, según el Credo?|Poncio Pilato|el rey David|Herodes el Grande
+2|¿Qué decimos del Hijo de Dios en el Credo?|que se hizo hombre por nosotros|que es solo un ángel|que es un profeta más
+2|¿Por qué rezamos el Credo en Misa?|para profesar juntos nuestra fe|para que la Misa dure más|para practicar la lectura
+2|¿A dónde subió Jesús después de resucitar?|al cielo, a la derecha del Padre|a una montaña de Galilea|al Templo de Jerusalén
+2|¿Qué perdona Dios, según el Credo?|los pecados|las deudas de dinero|las multas de tránsito
+#3r2
+0|F|La Iglesia es solo el edificio de piedra.
+0|¿Quién fundó la Iglesia?|Jesucristo|un rey|un filósofo
+1|¿Qué significa que la Iglesia es «una»?|un solo Señor, una fe, un Bautismo|que hay una sola parroquia|que solo tiene un miembro
+1|¿Por qué la Iglesia es santa?|porque Jesús, su fundador, es santo|porque todos sus miembros son perfectos|porque es muy antigua
+1|¿Quién es hoy la cabeza visible de la Iglesia en la tierra?|el Papa|el presidente|el párroco
+1|¿Qué somos los bautizados en el Cuerpo de Cristo?|sus miembros|sus espectadores|sus invitados de paso
+2|¿Sobre qué apóstol edificó Jesús su Iglesia?|sobre Pedro|sobre Judas|sobre Tomás
+2|¿Qué significa que en el Cuerpo cada miembro tenga una tarea?|que todos somos importantes|que unos valen más que otros|que nadie tiene que hacer nada
+2|¿Dónde vive el Papa?|en el Vaticano, en Roma|en Jerusalén|en Belén
+2|¿Qué es una diócesis?|el territorio que guía un obispo|una oración muy larga|un tipo de vela
+#3r3
+0|F|La Virgen de Guadalupe y la de Lourdes son dos madres distintas de Jesús.
+0|¿Qué celebramos el 12 de diciembre?|a Nuestra Señora de Guadalupe|el nacimiento de Jesús|la Asunción de María
+1|¿Qué fiesta de María celebramos el 1 de enero?|Santa María, Madre de Dios|la Inmaculada Concepción|la Asunción
+1|¿Qué significa que María es «siempre Virgen»?|que fue virgen toda su vida|que nunca salió de Nazaret|que siempre fue muy joven
+1|¿Qué es una advocación de la Virgen?|un nombre de María según un lugar|otra mamá distinta de Jesús|una santa diferente de María
+1|¿Dónde se apareció la Virgen a santa Bernardita?|en Lourdes|en Fátima|en el Tepeyac
+2|¿Qué pidió la Virgen a los pastorcitos de Fátima?|rezar el rosario|construir un castillo|irse de su pueblo
+2|¿Por qué llamamos a María «Madre de la Iglesia»?|porque Jesús nos la dio como madre|porque construyó el primer templo|porque la eligieron los apóstoles
+2|¿Qué advocación de la Virgen se venera en Jalisco?|la Virgen de Zapopan|la Virgen de Lourdes|la Virgen de Fátima
+2|¿Qué saludo del ángel repetimos en el Avemaría?|«Dios te salve, María, llena eres de gracia»|«Buenos días, señora de Nazaret»|«Bienvenida seas a la ciudad»
+P|¿Dónde se venera a la Virgen de {x}?||Guadalupe = en el Tepeyac|Fátima = en Portugal|San Juan de los Lagos = en Jalisco|Ocotlán = en Tlaxcala|la Salud = en Pátzcuaro, Michoacán
+#3r4
+0|F|Las parábolas son historias de miedo.
+0|¿Qué hizo el pastor con la oveja perdida?|la buscó hasta encontrarla|la dejó perdida|la vendió
+1|¿Qué hizo el hombre que encontró un tesoro en el campo?|vendió todo para comprar el campo|lo dejó ahí escondido|se lo regaló a un amigo
+1|En la parábola del sembrador, ¿qué son las espinas?|las preocupaciones que ahogan la Palabra|las flores más bonitas del campo|los pájaros que comen semillas
+1|¿Qué enseña la parábola de la levadura?|que el Reino transforma todo poco a poco|que el pan es muy caro|que hay que hornear cada día
+1|¿Qué hizo el siervo que recibió un solo talento?|lo enterró por miedo|lo duplicó|lo regaló
+2|¿Qué es la «tierra buena» en la parábola del sembrador?|un corazón que escucha y practica la Palabra|un campo grande de maíz|una maceta con mucha tierra
+2|¿Por qué Jesús enseñaba con parábolas?|para enseñar con cosas de la vida diaria|para confundir a la gente|para entretener a los niños
+2|¿Qué parábola enseña a ayudar a quien sufre, aunque sea extranjero?|la del buen samaritano|la del hijo pródigo|la de la perla
+2|¿Qué enseña la parábola de la oveja perdida?|que Dios busca a cada pecador|que las ovejas se pierden fácil|que hay que cuidar el dinero
+#3r5
+0|F|Jesús hacía milagros para presumir su poder.
+0|¿Qué hizo Jesús con cinco panes y dos peces?|dio de comer a una multitud|los guardó para Él|los vendió
+1|¿A quién curó Jesús en Jerusalén con lodo y agua?|a un ciego de nacimiento|al apóstol Pedro|a Juan el Bautista
+1|¿Qué dijo Jesús a la tempestad?|«¡Calla, enmudece!»|«¡Llueve más fuerte!»|«¡Ven acá!»
+1|¿Quién caminó sobre el agua hacia Jesús y empezó a hundirse?|Pedro|Juan|Andrés
+1|¿Qué hizo el leproso que volvió a dar gracias?|se postró a los pies de Jesús|se fue sin decir nada|se quejó de todo
+2|¿A cuántos leprosos curó Jesús aquella vez en que solo uno volvió?|a diez|a tres|a cien
+2|¿Qué milagro muestra el poder de Jesús sobre la naturaleza?|calmar la tempestad|curar a un ciego|perdonar los pecados
+2|¿Qué necesitan los milagros en nuestro corazón?|confianza en Dios|mucho dinero|fuerza física
+2|¿Qué milagro hizo Jesús por la hija de Jairo?|la resucitó|le dio de comer|le compró un vestido
+#3r6
+0|F|San Pablo nunca escribió cartas.
+0|¿Quién se le apareció a Saulo camino a Damasco?|Jesús|Moisés|Elías
+1|¿Cómo viajaba Pablo a lugares lejanos?|en barco y a pie|en avión|en tren
+1|¿A quiénes escribió Pablo la carta llamada «Romanos»?|a los cristianos de Roma|a los soldados|a los reyes
+1|¿Quién bautizó a Pablo en Damasco?|Ananías|Pedro|Juan
+1|¿De qué ciudad era Pablo?|de Tarso|de Nazaret|de Roma
+2|¿Cómo se le llama a Pablo por anunciar a Jesús a los que no eran judíos?|el Apóstol de los gentiles|el primer Papa|el rey de Israel
+2|¿Qué dice Pablo sobre el amor en 1 Corintios 13?|«El amor es paciente, es servicial»|«El amor se cansa pronto»|«El amor es solo un sentimiento»
+2|¿Qué cambió en Pablo después de encontrarse con Jesús?|pasó de perseguir a anunciar a Jesús|se hizo muy rico y famoso|se quedó a vivir en Damasco
+2|¿Qué libro cuenta cómo la Iglesia llegó hasta Roma?|los Hechos de los Apóstoles|el libro del Génesis|el libro de los Salmos
+#3r7
+0|F|Los mártires negaron a Jesús para salvarse.
+0|¿Qué hicieron los mártires con sus perseguidores?|los perdonaron|los odiaron|se vengaron
+1|¿Qué santa joven romana fue mártir?|santa Inés|santa Rosa de Lima|santa Teresita
+1|¿Qué santo mexicano murió mártir en Japón?|san Felipe de Jesús|san Juan Diego|san Rafael Guízar
+1|¿Quiénes fueron los niños mártires de Tlaxcala?|tres niños que murieron por anunciar a Jesús|tres soldados del virrey de la Nueva España|tres reyes que vinieron de Oriente
+1|¿Qué ciudad era la capital del imperio que persiguió a los primeros cristianos?|Roma|Jerusalén|Atenas
+2|¿Qué dijo Tertuliano sobre los mártires?|que su sangre es semilla de cristianos|que eran débiles y miedosos|que no servían de nada a la Iglesia
+2|¿Por qué la Iglesia recuerda a los mártires?|porque dieron el mayor testimonio de amor|porque eran muy famosos en su tiempo|porque eran ricos y poderosos
+2|¿En qué año fueron canonizados los niños mártires de Tlaxcala?|2017|1531|1810
+2|¿Qué apóstol fue crucificado cabeza abajo en Roma?|san Pedro|san Juan|san Mateo
+#3r14
+0|F|Hay siete Evangelios.
+0|¿Cuál es el símbolo de Mateo?|un hombre|un águila|un toro
+1|¿Cuál es el símbolo de Lucas?|un toro|un león|un águila
+1|¿Qué evangelista era cobrador de impuestos?|Mateo|Lucas|Juan
+1|¿Qué evangelista es llamado «el discípulo amado»?|Juan|Marcos|Lucas
+2|¿Por qué el símbolo de Marcos es un león?|porque empieza con una voz que grita en el desierto|porque era muy fuerte y valiente|porque tenía un león en su casa
+2|¿Qué Evangelio cuenta más sobre la infancia de Jesús y María?|el de Lucas|el de Marcos|el de Juan
+2|¿Cuál es el Evangelio más corto?|el de Marcos|el de Juan|el de Lucas
+#3r15
+0|F|Jesús quiere que escondamos nuestra luz debajo de una mesa.
+0|¿Qué hace la luz?|ilumina para ver|da sabor|enfría
+1|¿Qué pasa si la sal pierde su sabor?|ya no sirve para nada|sabe mejor|se vuelve azúcar
+1|¿Cómo soy luz del mundo en mi casa?|ayudando y tratando bien a todos|apagando todos los focos|escondiéndome en mi cuarto
+1|¿Para qué servía también la sal en tiempos de Jesús?|para conservar los alimentos|para pintar casas|para hacer vidrio
+2|¿Qué es «una ciudad puesta en lo alto de un monte»?|algo que no se puede esconder|una ciudad sin luz|un castillo abandonado
+2|¿Quién es la verdadera Luz del mundo?|Jesús|el Sol|la Luna
+2|Un compañero está triste. ¿Cómo soy «sal» para él?|le doy alegría y ánimo|me burlo de su tristeza|lo dejo solo
+2|¿En qué Evangelio dice Jesús «Ustedes son la sal de la tierra»?|en el de Mateo|en el de Juan|en el de Marcos
+#3r16
+0|F|Los monjes destruían los libros antiguos.
+0|¿Qué fundaron muchos monasterios?|escuelas y hospitales|fábricas de armas|cines
+1|¿Qué santo fundó una orden de frailes pobres que amaban la creación?|san Francisco de Asís|san Benito|san Agustín
+1|¿Qué hace la Iglesia con los pobres desde hace 2000 años?|los sirve y los cuida|los ignora|los expulsa
+1|¿Qué santa fundó casas para cuidar a los más pobres y enfermos en la India?|santa Teresa de Calcuta|santa Rosa de Lima|santa Inés
+2|¿Qué orden fundó santo Domingo de Guzmán para predicar?|los dominicos|los franciscanos|los jesuitas
+2|¿Qué fundó san Ignacio de Loyola?|la Compañía de Jesús|la orden franciscana|la orden benedictina
+2|¿Qué santo fundó escuelas para jóvenes pobres en Turín?|san Juan Bosco|san Benito|san Francisco de Asís
+2|¿Por qué la Iglesia fundó universidades?|porque busca la verdad y quiere enseñar|porque quería ganar dinero|porque no le gustaba leer
+#3r17
+0|F|Los misioneros llegaron a México antes que Colón.
+0|¿A quién se apareció la Virgen de Guadalupe?|a san Juan Diego|a Hernán Cortés|a Moctezuma
+1|¿Qué orden religiosa llegó con doce frailes en 1524?|los franciscanos|los jesuitas|los dominicos
+1|¿Qué enseñaban los misioneros a los niños indígenas?|a leer, oficios y la fe|a pelear en la guerra|nada, no les hablaban
+1|¿Quién es el primer santo indígena de América?|san Juan Diego|san Felipe de Jesús|san Martín de Porres
+2|¿Por qué la Virgen de Guadalupe ayudó a la evangelización?|porque habló en náhuatl y con sus símbolos|porque mandó hacer una guerra|porque prohibió todas las fiestas
+2|¿En qué cerro se apareció la Virgen de Guadalupe?|el Tepeyac|el Cubilete|el Popocatépetl
+2|¿Qué obispo recibió el mensaje de la Virgen?|fray Juan de Zumárraga|Vasco de Quiroga|fray Pedro de Gante
+2|¿Qué llevaba Juan Diego en su tilma cuando apareció la imagen?|rosas|maíz|piedras
+#3r18
+0|F|Durante la Cristiada los católicos podían ir a Misa sin problema.
+0|¿Qué significa «¡Viva Cristo Rey!»?|que Jesús es nuestro Rey|que queremos un rey de España|que hay que pelear
+1|¿A qué orden religiosa pertenecía el padre Pro?|a los jesuitas|a los franciscanos|a los dominicos
+1|¿En qué estado nació san José Sánchez del Río?|Michoacán|Sonora|Yucatán
+1|¿Qué hicieron muchos sacerdotes durante la persecución?|celebrar Misa a escondidas|irse de vacaciones|cerrar sus casas
+2|¿Qué papa canonizó a san José Sánchez del Río?|el papa Francisco|san Juan Pablo II|Benedicto XVI
+2|¿Qué fiesta se celebra el último domingo del año litúrgico?|Cristo Rey|Pentecostés|la Epifanía
+2|¿Qué nos enseña el perdón del padre Pro?|a amar incluso a los enemigos|a vengarnos de quien nos daña|a tener miedo de todos
+2|¿Qué hacemos hoy gracias a la libertad religiosa?|vamos a Misa y rezamos sin miedo|nada en especial, todo sigue igual|escondemos la fe de los demás
+#3r8
+0|F|Solo se puede rezar con palabras aprendidas de memoria.
+0|¿Cuándo podemos rezar?|a cualquier hora y en cualquier lugar|solo los domingos|solo dentro de la iglesia
+1|«Gracias, Señor, por mi familia» es oración de…|acción de gracias|petición|perdón
+1|«Señor, cuida a mi abuelita enferma» es oración de…|petición|adoración|perdón
+1|¿Qué es meditar?|pensar en un pasaje de la Biblia con Dios|repetir palabras rápido sin pensar|dormirse en la banca de la iglesia
+1|¿Qué actitud ayuda a rezar bien?|silencio y confianza|prisa y ruido|enojo y quejas
+2|¿Qué significa «orar sin cesar», como pide san Pablo?|vivir siempre unidos a Dios|no dormir nunca|hablar sin parar
+2|¿Qué hizo Jesús antes de elegir a sus apóstoles?|pasó la noche en oración|hizo una fiesta|durmió todo el día
+2|¿Qué es la oración vocal?|rezar con palabras, en voz alta o baja|rezar solo cantando en el coro|quedarse callado sin pensar en Dios
+2|¿Dónde rezaba Jesús muchas veces?|en lugares solitarios y en el monte|solo dentro del Templo|en medio del mercado
+#3r9
+0|F|La Misa es solo una reunión de amigos sin Jesús.
+0|¿Qué alimento nos da Jesús en la Misa?|su Cuerpo y su Sangre|pan y café|frutas
+1|¿Qué parte de la Misa es la «mesa de la Palabra»?|las lecturas y el Evangelio|la colecta|la bendición final
+1|¿En qué momento se convierten el pan y el vino?|en la consagración|en el ofertorio|en la homilía
+1|¿Por qué la Misa es un banquete?|porque Jesús nos alimenta|porque hay pastel|porque se canta mucho
+1|¿Dónde ofreció Jesús su sacrificio?|en el Calvario, en la cruz|en el Templo de Jerusalén|en el pesebre de Belén
+2|¿Por qué no se repite la cruz en cada Misa?|porque se hace presente el único sacrificio de Jesús|porque Jesús vuelve a morir cada día|porque la Misa es solo un recuerdo bonito
+2|¿Qué día de la semana es la Misa más importante para los católicos?|el domingo|el lunes|el miércoles
+2|¿Cómo está Jesús en la Eucaristía?|realmente: Cuerpo, Sangre, Alma y Divinidad|solo como un símbolo o una imagen|como un recuerdo de algo que pasó
+2|¿Por qué el altar es tan importante?|porque es la mesa del sacrificio y del banquete|porque es el mueble más bonito|porque es la mesa más grande
+#3r10
+0|F|Los pecados capitales son siete virtudes.
+0|¿Qué virtudes nos unen directamente a Dios?|las teologales|las cardinales|las capitales
+1|¿Qué virtud vence a la avaricia?|la generosidad|la templanza|la paciencia
+1|¿Qué es la soberbia?|creerse más que los demás y que Dios|estar muy cansado para trabajar|tener mucha hambre todo el día
+1|¿Cuáles son las virtudes teologales?|fe, esperanza y caridad|prudencia, justicia y fortaleza|soberbia, ira y pereza
+1|¿Qué es la ira?|el enojo descontrolado|la alegría|la paciencia
+2|¿Por qué se llaman «capitales» estos pecados?|porque son la raíz de otros pecados|porque se cometen en la capital|porque cuestan mucho dinero
+2|¿Qué es la envidia?|ponerse triste por el bien de otro|alegrarse con los demás|compartir
+2|¿Qué puedo revisar cada noche para crecer en virtud?|qué virtud practiqué hoy|cuántos dulces comí|qué programa vi
+2|¿Qué virtud nos ayuda a confiar en las promesas de Dios?|la esperanza|la templanza|la justicia
+#3r19
+0|F|Las virtudes cardinales son cinco.
+0|¿Qué virtud me ayuda a no comer de más?|la templanza|la justicia|la prudencia
+1|¿Qué es la fortaleza?|ser valiente para hacer el bien aunque cueste|tener músculos muy grandes|gritar más fuerte que todos
+1|¿Qué virtud practico al devolver lo que me prestaron?|la justicia|la templanza|la prudencia
+1|¿Qué virtud practico al decir la verdad aunque me regañen?|la fortaleza|la gula|la ira
+2|¿Qué virtud practico al pedir consejo antes de decidir?|la prudencia|la fortaleza|la templanza
+2|¿Qué virtud practico al apagar la tele a tiempo?|la templanza|la justicia|la fortaleza
+2|¿Qué virtud mostró David al enfrentar a Goliat?|la fortaleza|la gula|la pereza
+#3r20
+0|F|Los frutos del Espíritu Santo son manzanas y peras.
+0|¿Cuál es un fruto del Espíritu Santo?|la alegría|la envidia|la pereza
+1|¿Qué don nos ayuda a decidir bien?|el consejo|la ciencia|el temor de Dios
+1|¿Qué don nos ayuda a ver a Dios en la creación?|la ciencia|la fortaleza|la piedad
+1|¿Qué fruto muestro al cumplir lo que prometo?|la fidelidad|la paciencia|la mansedumbre
+2|¿Qué don nos ayuda a comprender mejor la fe?|el entendimiento|la fortaleza|el consejo
+2|¿Qué fruto muestro al no responder con violencia?|la mansedumbre|la gula|la soberbia
+2|¿Qué fruto muestro al quedarme tranquilo cuando algo sale mal?|la paz|la ira|la envidia
+2|¿Qué oración pide la venida del Espíritu Santo?|«Ven, Espíritu Santo…»|«Ángel de mi guarda…»|«Bendice, Señor…»
+#3r21
+0|F|Las personas pobres valen menos que las ricas.
+0|¿Quién tiene dignidad?|toda persona, sin excepción|solo los adultos sanos|solo los que tienen dinero
+1|¿Qué es el amor preferencial por los pobres?|cuidar primero a quien más lo necesita|dar solo a los amigos que me caen bien|no compartir nada con nadie
+1|¿Qué decía Madre Teresa?|«Cosas pequeñas con gran amor»|«Primero yo»|«Que trabajen otros»
+1|¿Qué obra de misericordia hago al acompañar a alguien que está triste?|consolar al triste|vestir al desnudo|enterrar a los muertos
+2|¿Quién es mi prójimo, según Jesús?|toda persona que necesita mi ayuda|solo mi familia|solo quien me cae bien
+2|¿Por qué el migrante tiene dignidad?|porque es imagen de Dios, como todos|solo si trabaja mucho todos los días|solo si habla español muy bien
+2|¿Qué santo mexicano ayudó a los pobres siendo obispo de Veracruz?|san Rafael Guízar y Valencia|san Juan Diego|san Felipe de Jesús
+2|¿Qué podemos hacer los niños por los pobres?|compartir, rezar y no despreciar a nadie|burlarnos de su ropa y su casa|no hacer nada y mirar a otro lado
+#3r22
+0|F|La familia no tiene nada que ver con Dios.
+0|¿Dónde aprendemos primero a amar, rezar y perdonar?|en la familia|en el centro comercial|en la televisión
+1|¿Quiénes se unen en el sacramento del Matrimonio?|un hombre y una mujer|dos amigos cualquiera|toda la clase
+1|¿Qué mandamiento pide honrar a los padres?|el cuarto|el primero|el décimo
+1|¿Por qué llamamos a la familia «iglesia doméstica»?|porque ahí se reza y se vive la fe|porque tiene un campanario|porque es muy grande
+2|¿Qué dijo Jesús de los niños?|«Dejen que los niños vengan a mí»|«Que no me molesten»|«Que se vayan a jugar»
+2|¿Cómo ayudo a que mi familia sea escuela de perdón?|pido perdón y perdono pronto|guardo rencor por días|acuso a todos de todo
+2|¿Qué valor tiene un bebé antes de nacer?|el mismo que cualquier persona|ninguno|menos que un adulto
+2|¿Qué podemos hacer en familia cada noche?|rezar juntos y dar gracias|pelear por la tele|irnos cada quien a su cuarto
