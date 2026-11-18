@@ -628,3 +628,4 @@ table.prog.pg2 th:nth-child(3),table.prog.pg2 td:nth-child(3){width:20%;text-ali
 .ig-fact{padding:12px 8px;font-size:13.5px;line-height:1.35}
 .ig-fact .ig-big{white-space:normal;font-size:clamp(20px,5.4vw,30px);line-height:1.05}
 @media(min-width:700px){.ig-grid,.ig-facts{gap:14px;padding:18px}.ig-cell b{font-size:18px}.ig-cell p,.ig-fact{font-size:15px}}
+.nipbox{letter-spacing:10px;font-size:34px}
